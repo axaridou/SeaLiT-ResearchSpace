@@ -1,0 +1,17 @@
+
+<http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/0ee336b1-f1c0-48f7-a8de-bd4c1a619937/context> {
+  <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/0ee336b1-f1c0-48f7-a8de-bd4c1a619937>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/C49B73B1-4E60-3A57-8846-DC418A71F0B4>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agostino Olivari";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 22;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-03T12:54:55.235Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://83.212.107.202:10315/container/setContainer/d9ba4679-8c1b-443d-918a-b90745f6b4a0>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/0ee336b1-f1c0-48f7-a8de-bd4c1a619937> .
+  
+  <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/0ee336b1-f1c0-48f7-a8de-bd4c1a619937>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

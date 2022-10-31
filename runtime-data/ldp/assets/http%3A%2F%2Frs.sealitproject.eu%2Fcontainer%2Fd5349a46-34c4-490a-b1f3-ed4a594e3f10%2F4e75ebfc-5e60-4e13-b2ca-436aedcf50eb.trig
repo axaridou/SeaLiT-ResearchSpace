@@ -1,0 +1,17 @@
+
+<http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/4e75ebfc-5e60-4e13-b2ca-436aedcf50eb/context> {
+  <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/4e75ebfc-5e60-4e13-b2ca-436aedcf50eb>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/D41F90F7-9BC0-3170-859B-10AC3063B836>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Giovanni Domenico Ghio";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 524;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-02-02T11:58:14.395Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/d5349a46-34c4-490a-b1f3-ed4a594e3f10>
+    <http://www.w3.org/ns/ldp#contains> <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/4e75ebfc-5e60-4e13-b2ca-436aedcf50eb> .
+  
+  <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/4e75ebfc-5e60-4e13-b2ca-436aedcf50eb>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

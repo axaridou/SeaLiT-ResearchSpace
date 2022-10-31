@@ -1,0 +1,17 @@
+
+<http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/808f11dd-45d4-48f3-8af4-21d380dbcd63/context> {
+  <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/808f11dd-45d4-48f3-8af4-21d380dbcd63>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/7040D105-4E70-3B35-90CC-73DA6EC3AD14>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prospero Olivari";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 18;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-03T12:54:53.035Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://83.212.107.202:10315/container/setContainer/d9ba4679-8c1b-443d-918a-b90745f6b4a0>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/808f11dd-45d4-48f3-8af4-21d380dbcd63> .
+  
+  <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/808f11dd-45d4-48f3-8af4-21d380dbcd63>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

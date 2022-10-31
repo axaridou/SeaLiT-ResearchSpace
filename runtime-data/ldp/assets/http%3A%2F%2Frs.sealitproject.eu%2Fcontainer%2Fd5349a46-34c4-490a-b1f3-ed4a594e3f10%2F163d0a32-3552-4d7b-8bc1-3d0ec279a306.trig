@@ -1,0 +1,17 @@
+
+<http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/163d0a32-3552-4d7b-8bc1-3d0ec279a306/context> {
+  <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/163d0a32-3552-4d7b-8bc1-3d0ec279a306>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/1177BA9F-1E52-32E6-94BB-AC3FE8F0B360>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Antonio Giobatta Bruno";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 431;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-02-02T11:58:12.413Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/d5349a46-34c4-490a-b1f3-ed4a594e3f10>
+    <http://www.w3.org/ns/ldp#contains> <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/163d0a32-3552-4d7b-8bc1-3d0ec279a306> .
+  
+  <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/163d0a32-3552-4d7b-8bc1-3d0ec279a306>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

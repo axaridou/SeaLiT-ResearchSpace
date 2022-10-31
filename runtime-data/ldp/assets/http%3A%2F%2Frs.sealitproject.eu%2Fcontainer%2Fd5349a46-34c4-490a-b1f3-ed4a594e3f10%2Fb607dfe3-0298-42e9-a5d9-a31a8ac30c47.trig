@@ -1,0 +1,17 @@
+
+<http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/b607dfe3-0298-42e9-a5d9-a31a8ac30c47/context> {
+  <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/b607dfe3-0298-42e9-a5d9-a31a8ac30c47>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/586BC46E-9C66-3D7D-84E3-0222B3EEE157>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Giobatta Picasso";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 744;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-02-02T11:58:19.117Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/d5349a46-34c4-490a-b1f3-ed4a594e3f10>
+    <http://www.w3.org/ns/ldp#contains> <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/b607dfe3-0298-42e9-a5d9-a31a8ac30c47> .
+  
+  <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/b607dfe3-0298-42e9-a5d9-a31a8ac30c47>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,17 @@
+
+<http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/fa6d6894-bb10-4abb-9bc8-069810672bcf/context> {
+  <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/fa6d6894-bb10-4abb-9bc8-069810672bcf>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/C5A93310-FF64-3547-9F4D-C2383F4D2B0C>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Γεωρ. Παί[γ]ολας";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 1155;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-02-02T11:58:27.256Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/d5349a46-34c4-490a-b1f3-ed4a594e3f10>
+    <http://www.w3.org/ns/ldp#contains> <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/fa6d6894-bb10-4abb-9bc8-069810672bcf> .
+  
+  <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/fa6d6894-bb10-4abb-9bc8-069810672bcf>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

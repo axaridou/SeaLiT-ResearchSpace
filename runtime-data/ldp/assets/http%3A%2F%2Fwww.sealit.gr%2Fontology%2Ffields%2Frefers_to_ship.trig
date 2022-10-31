@@ -1,0 +1,40 @@
+
+<http://www.sealit.gr/ontology/fields/refers_to_ship/context> {
+  <http://www.sealit.gr/ontology/fields/refers_to_ship> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.sealit.gr/ontology/sealit#Ship>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "refers to ship"@en .
+  
+  _:genid-6ed72d2648a6444caafb1f34bc0d05ce-s3vrqd <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-6ed72d2648a6444caafb1f34bc0d05ce-s6gba <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+{ $subject a  crm:E31_Document . 
+    $subject ?predicate ?value.
+  } UNION {
+    $subject a <http://www.sealit.gr/ontology/FC/Record> .
+    $subject <http://www.sealit.gr/ontology/FR/Record2Ship> ?value.
+    MINUS{?masterId owl:sameAs ?value}
+  }
+  ?value a sealit:Ship .
+  ?value rdfs:label ?label.
+} ORDER BY ?label""" .
+  
+  <http://www.sealit.gr/ontology/fields/refers_to_ship> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-6ed72d2648a6444caafb1f34bc0d05ce-s6gba;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-6ed72d2648a6444caafb1f34bc0d05ce-s3vrqd .
+  
+  _:genid-6ed72d2648a6444caafb1f34bc0d05ce-s3vrqd a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-6ed72d2648a6444caafb1f34bc0d05ce-s6gba a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/refers_to_ship> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/FC/Record>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-11-20T10:05:20.397Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/refers_to_ship> .
+  
+  <http://www.sealit.gr/ontology/fields/refers_to_ship> a <http://www.w3.org/ns/ldp#Resource> .
+}

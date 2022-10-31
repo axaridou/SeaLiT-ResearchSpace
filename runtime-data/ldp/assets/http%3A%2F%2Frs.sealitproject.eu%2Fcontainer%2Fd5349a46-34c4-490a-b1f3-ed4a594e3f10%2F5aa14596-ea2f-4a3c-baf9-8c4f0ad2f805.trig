@@ -1,0 +1,17 @@
+
+<http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/5aa14596-ea2f-4a3c-baf9-8c4f0ad2f805/context> {
+  <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/5aa14596-ea2f-4a3c-baf9-8c4f0ad2f805>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/062986AB-23EF-3184-8788-512F5D63B7A8>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Νικόλ. Μ. Γουλανδρής";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 2228;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-02-02T11:58:32.666Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/d5349a46-34c4-490a-b1f3-ed4a594e3f10>
+    <http://www.w3.org/ns/ldp#contains> <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/5aa14596-ea2f-4a3c-baf9-8c4f0ad2f805> .
+  
+  <http://rs.sealitproject.eu/container/d5349a46-34c4-490a-b1f3-ed4a594e3f10/5aa14596-ea2f-4a3c-baf9-8c4f0ad2f805>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

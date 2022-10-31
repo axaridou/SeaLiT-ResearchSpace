@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/4c5f0d7e-ad95-4f85-a071-c3d46fc2f963/4406a7ac-c46a-4add-a889-99eec0a7d215/context> {
+  <http://83.212.169.164:10315/container/4c5f0d7e-ad95-4f85-a071-c3d46fc2f963/4406a7ac-c46a-4add-a889-99eec0a7d215>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <urn:uuid:bf9b083d-db9d-4e1d-b2ad-87652935ba90>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "bf9b083d-db9d-4e1d-b2ad-87652935ba90";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 1;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-09T08:28:08.046Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://83.212.169.164:10315/container/setContainer/4c5f0d7e-ad95-4f85-a071-c3d46fc2f963>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.169.164:10315/container/4c5f0d7e-ad95-4f85-a071-c3d46fc2f963/4406a7ac-c46a-4add-a889-99eec0a7d215> .
+  
+  <http://83.212.169.164:10315/container/4c5f0d7e-ad95-4f85-a071-c3d46fc2f963/4406a7ac-c46a-4add-a889-99eec0a7d215>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

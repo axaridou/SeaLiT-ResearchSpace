@@ -1,0 +1,20 @@
+<ol class="page-breadcrumb">
+  <li>
+    <mp-link title="Home" url="/">Home</mp-link>
+  </li>
+  <li>
+    <mp-link title="Search" url="./sealit:Search[[#if (urlParam "tab")]]?tab=[[urlParam "tab"]][[/if]][[#if (urlParam "cat")]]&cat=[[urlParam "cat"]][[/if]][[#if (urlParam "cat2")]]&cat2=[[urlParam "cat2"]][[/if]]">Search</mp-link>
+  </li>
+[[!--  
+  [[#if (urlParam "tab")]]
+  <li>
+    <semantic-link iri='iri of the page that lists resources' urlqueryparam-tab='[[urlParam "tab"]]'>go back to resource list</semantic-link>
+    </li>
+  [[/if]]
+--]] 
+  <li class="active">
+    <mp-label iri='[[this]]'></mp-label>
+  </li>
+ [[!-- sealit:Page_breadcrumb test:[[urlParam "tab"]] --]]
+</ol>
+

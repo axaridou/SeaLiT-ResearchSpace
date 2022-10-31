@@ -1,0 +1,163 @@
+
+<div>
+
+  [[#*inline 'category_intro']]
+  [[> sealit:SemanticSearchResultPresent intro=true]] 
+  [[/inline]]
+  
+  [[#*inline 'record_clrde_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_clrde"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_clc_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_clc"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_cr_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_cr"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_prsntc_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_prsntc"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_fnarcre_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_fnarcre"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_cdlr_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_cdlr"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_gscl_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_gscl"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_rmw_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_rmw"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_sr_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_sr"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_smm_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_smm"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_ls_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_ls"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_nsrl_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_nsrl"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_prl_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_prl"}']] 
+  [[/inline]]
+    
+  [[#*inline 'record_rmp_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_rmp"}']] 
+  [[/inline]]
+    
+  [[#*inline 'record_srgr_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_srgr"}']] 
+  [[/inline]]
+  
+  [[#*inline 'record_sgp_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"record_sgp"}']] 
+  [[/inline]]
+
+  [[#*inline 'template_semantic_table']]
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"Records", "cat2":"template"}']] 
+  [[/inline]]
+   
+  
+  <bs-tab-container id="some-ide" class="bs-left-vertical-tabs" default-active-key='[[#if (urlParam "cat2")]][[urlParam "cat2"]][[else]]intro[[/if]]'>
+    <bs-row class="clearfix">
+      <bs-col sm="2">
+        <bs-nav bs-style="tabs" stacked="true">
+          <bs-nav-item event-key="intro"></bs-nav-item>
+          <bs-nav-item event-key="template">Templates</bs-nav-item>
+          <hr/>
+          <bs-nav-item event-key="record_clc">Census la ciotat</bs-nav-item>
+          <bs-nav-item event-key="record_clrde">Crew list (ruoli di equipaggio)</bs-nav-item>
+          <bs-nav-item event-key="record_cr">Civil register</bs-nav-item>
+          <bs-nav-item event-key="record_prsntc">Payroll of russian steam navigation and trading company</bs-nav-item>
+          <bs-nav-item event-key="record_fnarcre">First national all-russian census of the russian empire</bs-nav-item>
+          <bs-nav-item event-key="record_cdlr">Crew and displacement list (roll)</bs-nav-item>
+          <bs-nav-item event-key="record_gscl">General spanish crew list</bs-nav-item>
+          <bs-nav-item event-key="record_rmw">Register of maritime workers</bs-nav-item>
+          <bs-nav-item event-key="record_sr">Sailors register</bs-nav-item>
+          <bs-nav-item event-key="record_smm">Shipyards of massageries maritimes</bs-nav-item>
+          <bs-nav-item event-key="record_ls">List of ships</bs-nav-item>
+          <bs-nav-item event-key="record_nsrl">Naval ship register list</bs-nav-item>
+          <bs-nav-item event-key="record_prl">Payroll</bs-nav-item>
+          <bs-nav-item event-key="record_rmp">Register of Maritime Personnel</bs-nav-item>
+          <bs-nav-item event-key="record_srgr">Students register</bs-nav-item>
+          <bs-nav-item event-key="record_sgp">Seagoing Personel</bs-nav-item>
+ 
+        </bs-nav>
+      </bs-col>
+      <bs-col sm="10">
+        <bs-tab-content animation="true">
+          <bs-tab-pane event-key="intro" >[[> category_intro]]</bs-tab-pane>
+          <bs-tab-pane event-key="record_clc" mount-on-enter=true>[[> record_clc_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/census%20la%20ciotat"]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="record_clrde" mount-on-enter=true>[[> record_clrde_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29"]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="record_cr" mount-on-enter=true>[[> record_cr_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/civil%20register"]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="record_prsntc" mount-on-enter=true>[[> record_prsntc_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company"]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="record_fnarcre" mount-on-enter=true>[[> record_fnarcre_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire"]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="record_cdlr" mount-on-enter=true>[[> record_cdlr_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29"]]
+          </bs-tab-pane>  
+          <bs-tab-pane event-key="record_gscl" mount-on-enter=true>[[> record_gscl_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list"]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="record_rmw" mount-on-enter=true>[[> record_rmw_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29"]]
+          </bs-tab-pane>          
+          <bs-tab-pane event-key="record_sr" mount-on-enter=true>[[> record_sr_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29"]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="record_smm" mount-on-enter=true>[[> record_smm_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat"]]
+          </bs-tab-pane> 
+          <bs-tab-pane event-key="record_ls" mount-on-enter=true>[[> record_ls_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/list%20of%20ships"]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="record_nsrl" mount-on-enter=true>[[> record_nsrl_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list"]]
+          </bs-tab-pane>
+             <bs-tab-pane event-key="record_prl" mount-on-enter=true>[[> record_prl_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/payroll"]]
+          </bs-tab-pane> 
+           <bs-tab-pane event-key="record_rmp" mount-on-enter=true>[[> record_rmp_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel"]]
+          </bs-tab-pane> 
+           <bs-tab-pane event-key="record_srgr" mount-on-enter=true>[[> record_srgr_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/students%20register"]]
+          </bs-tab-pane> 
+           <bs-tab-pane event-key="record_sgp" mount-on-enter=true>[[> record_sgp_semantic_table class="crm:E73_Information_Object" classlabel="Records"
+             record=true limit=false recordtype="http://www.sealit.gr/DB/template%20types/seagoing%20personel"]]
+          </bs-tab-pane> 
+      
+          <bs-tab-pane event-key="template" mount-on-enter=true>[[> template_semantic_table class="crm:E73_Information_Object" classlabel="Templates"
+             template=true limit=false]]
+          </bs-tab-pane>
+        </bs-tab-content>
+      </bs-col>
+    </bs-row>
+  </bs-tab-container>
+  
+</div>

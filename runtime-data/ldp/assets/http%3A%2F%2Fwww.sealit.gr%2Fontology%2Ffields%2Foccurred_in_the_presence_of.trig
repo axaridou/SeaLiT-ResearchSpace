@@ -1,0 +1,36 @@
+
+<http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of/context> {
+  <http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-d194933e3f4145e98e8a4f1776c9cc62-0t583i a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-d194933e3f4145e98e8a4f1776c9cc62-abfgdgh <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of> <http://www.w3.org/2000/01/rdf-schema#label>
+      "occurred in the presence of"@en;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-d194933e3f4145e98e8a4f1776c9cc62-abfgdgh;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string> .
+  
+  _:genid-d194933e3f4145e98e8a4f1776c9cc62-abfgdgh a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Civil_Registration> .
+  
+  _:genid-d194933e3f4145e98e8a4f1776c9cc62-0t583i <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject crm:P12_occurred_in_the_presence_of ?value.
+  ?value rdfs:label ?labelX.
+  OPTIONAL { ?value (crm:P74_has_current_or_former_residence/rdfs:label) ?residence }
+  BIND( CONCAT(?labelX, COALESCE(CONCAT(\" with current or former residence \", ?residence)))as ?label)
+} """ .
+  
+  <http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-d194933e3f4145e98e8a4f1776c9cc62-0t583i;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-18T19:15:04.265Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of> .
+  
+  <http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of> a <http://www.w3.org/ns/ldp#Resource> .
+}

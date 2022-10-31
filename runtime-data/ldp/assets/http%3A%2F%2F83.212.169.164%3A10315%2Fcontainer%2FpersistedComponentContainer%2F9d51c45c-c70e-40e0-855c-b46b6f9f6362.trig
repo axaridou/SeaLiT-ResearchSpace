@@ -1,0 +1,102 @@
+
+<http://83.212.169.164:10315/container/persistedComponentContainer/9d51c45c-c70e-40e0-855c-b46b6f9f6362/context> {
+  _:genid-f2b703a890bd4e839611dd878be66d0e-gv96on <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets>
+      _:genid-f2b703a890bd4e839611dd878be66d0e-oegwu .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-2l6jaj <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps>
+      _:genid-f2b703a890bd4e839611dd878be66d0e-8lifqs .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-bpqbh1m <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/value>
+      "count" .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-8lifqs <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps/partials>
+      _:genid-f2b703a890bd4e839611dd878be66d0e-f6d9am .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/9d51c45c-c70e-40e0-855c-b46b6f9f6362>
+    <http://www.w3.org/2000/01/rdf-schema#comment> " ";
+    <http://www.metaphacts.com/ontologies/persist/componentType> <http://www.metaphacts.com/ontologies/persist/components/semantic-chart>;
+    a <http://www.metaphacts.com/ontologies/persist/PersistedComponent>;
+    <http://www.metaphacts.com/ontologies/persist/componentContext> _:genid-f2b703a890bd4e839611dd878be66d0e-2l6jaj .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-bpqbh1m <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/category>
+      "object" .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-gv96on <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/id>
+      "search-result-chart" .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-2l6jaj <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext>
+      _:genid-f2b703a890bd4e839611dd878be66d0e-nyso0c .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-nyso0c <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/repository>
+      "default" .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-oegwu <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/9d51c45c-c70e-40e0-855c-b46b6f9f6362>
+    <http://www.w3.org/2000/01/rdf-schema#label> "del" .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-oegwu <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>
+      _:genid-f2b703a890bd4e839611dd878be66d0e-bpqbh1m .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/9d51c45c-c70e-40e0-855c-b46b6f9f6362>
+    <http://www.metaphacts.com/ontologies/persist/componentProps> _:genid-f2b703a890bd4e839611dd878be66d0e-gv96on .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-gv96on <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/queryolder>
+      """                                           
+                                                    SELECT  ?object ?label (COUNT(DISTINCT ?subject) as ?count) WHERE {
+                                                       OPTIONAL { ?subject ?__contextRelation__ ?object }
+                                                       MINUS {?master owl:sameAs ?object .}
+                                                       OPTIONAL { ?object rdfs:label ?label }
+                                                       BIND(IF(BOUND(?object), ?object, \"Unknown\") as ?object)
+                                                     } GROUP BY ?object ?label ORDER BY ?object DESC(?count)
+                                                     """;
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/type> "donut" .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-nyso0c <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/isDefault>
+      true .
+  
+  _:genid-f2b703a890bd4e839611dd878be66d0e-gv96on <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/query>
+      """PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rso: <http://www.researchspace.org/ontology/>
+SELECT ?object ?label (COUNT(DISTINCT ?subject) AS ?count) WHERE {
+  { ?subject <http://www.sealit.gr/ontology/FR/has_ship_type_Ship2Concept> <http://www.sealit.gr/DB/Concept/polacca>. }
+  UNION
+  {
+    ?subject <http://www.sealit.gr/ontology/FR/has_ship_type_Ship2Concept> ?x_f5ca66a4_285b_4728_bee7_3e362fc2d8e9.
+    ?x_f5ca66a4_285b_4728_bee7_3e362fc2d8e9 ((owl:sameAs*)|(rso:Concept_has_broader_Concept*)) <http://www.sealit.gr/DB/Concept/polacca>.
+  }
+  UNION
+  {
+    ?subject <http://www.sealit.gr/ontology/FR/has_ship_type_Ship2Concept> ?x_f5ca66a4_285b_4728_bee7_3e362fc2d8e9.
+    <http://www.sealit.gr/DB/Concept/polacca> ((owl:sameAs*)|^(rso:Concept_has_broader_Concept*)) ?x_f5ca66a4_285b_4728_bee7_3e362fc2d8e9.
+  }
+  OPTIONAL {
+    {
+      ?subject <http://www.sealit.gr/ontology/FR/has_ammunition_Ship2Concept> ?object.
+      OPTIONAL { ?object rdfs:label ?label. }
+    }
+    UNION
+    {
+      ?subject <http://www.sealit.gr/ontology/FR/has_ammunition_Ship2Concept> ?object.
+      FILTER(!EXISTS { ?object rdfs:label ?label. })
+    }
+  }
+  BIND(IF(BOUND(?object), ?object, \"Unknown\") AS ?object)
+}
+GROUP BY ?object ?label
+ORDER BY (?object) DESC (?count)
+LIMIT 50000""" .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/9d51c45c-c70e-40e0-855c-b46b6f9f6362>
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-12-09T07:08:31.458Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#persistedComponentContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/persistedComponentContainer/9d51c45c-c70e-40e0-855c-b46b6f9f6362> .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/9d51c45c-c70e-40e0-855c-b46b6f9f6362>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

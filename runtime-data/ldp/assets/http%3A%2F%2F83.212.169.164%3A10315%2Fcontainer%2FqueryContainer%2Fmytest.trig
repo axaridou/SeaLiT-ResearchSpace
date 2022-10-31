@@ -1,0 +1,28 @@
+
+<http://83.212.169.164:10315/container/queryContainer/mytest/context> {
+  <http://83.212.169.164:10315/container/queryContainer/mytest> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "mytest";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE {
+  ?subject <http://www.sealit.gr/ontology/FR/was_given_for_voyage> <urn:uuid:ba86c8b9-e629-4b50-adbe-085b90d6bfe9>.
+  { ?subject <http://www.sealit.gr/ontology/FR/was_given_to> <http://www.sealit.gr/DB/person/208F2963-5435-34DD-8E8F-37CAC55FF31C>. }
+  UNION
+  { ?subject <http://www.sealit.gr/ontology/FR/was_given_to> <http://www.sealit.gr/DB/person/EAB7BFCD-0514-310C-9B89-E31DA04F5607>. }
+  UNION
+  { ?subject <http://www.sealit.gr/ontology/FR/was_given_to> <http://www.sealit.gr/DB/person/59452CD5-95A3-3A7A-9D39-526AFD4B3136>. }
+  UNION
+  { ?subject <http://www.sealit.gr/ontology/FR/was_given_to> <http://www.sealit.gr/DB/person/2FC9CD4B-3D1A-302F-AA29-F58420DB5008>. }
+  UNION
+  { ?subject <http://www.sealit.gr/ontology/FR/was_given_to> <http://www.sealit.gr/DB/person/B8045A1C-79A6-3832-BF88-D3E16E174692>. }
+}
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBhATkgO4D6ACigJ4C2SAdliADQgDGUA2qIVNyomFSYcANTiUUAcyTMQPSCAA8ACyxYADpAD0WonoB0g9Nn2T8WuAzho4kyloBiAJV0owJSRgBu9EgDM4fBIvcSkkAD5ZGE4OECckMDgAV3xWGSZQDHwMXhAAFUR8WRFcrCR8ajzKdRkFADkUWhg6uBh0kC90JNqQFLpIJKSMGEgAIxQADgA2VgnRgE4AWiQpgCYlgBZRgFYABkWUGFGkRd2J7YXdmCnRvyR5kABfR5Y0FGO0RDEJaQACOD8vzAygw6l+eSQaCQ1BQrAQLDaYFY2XUWAwli+oT+AKBILBEKhMLhsiwSXUUNyYCSkmkYDRGOg+UKxVK5Uq1R6DSaLTask6aG6iD6AyGI3G01mC2Wa02O32h2Op3Ol2ut3uTxeIDeH1yBQUjBYJUZZQqVRqiAAMthyug+V0et8wv9AcDQeDIdDYfCQDAUFg-RzdczDazTYH6o0kM1Wu1+YKFKoNNpdAYiABmfSBSRaVa7XYARi0AA0ALIWgDKrGUnoAxHTsnRJBrXihG0kwogNc8ALrdzVJOgYACO3QAktFIKtHn2WH5ONxanxEMjqJAAKKrfPkcqJOiyeRKROaHR6IiGIQmMwWKw2OyOFxENweby+LBwSIImJxBLJVLpTLZEGChFCGxpsmanKRtGvIsHGPRHsmp7nsYWCmOYAAiABCWg1Pgu45mcDjrFMaaLNsGxptsixphs6HoYsExrhMDjUQA7LgACCuDbNsDgOGm+a4M2WrvJCiAcVYg5wL8uAoD4+DeoiyKgvSe4KBJb5STJcnlN6pLkouHT2kBcgsmBYbmhG3IxnaArwWox4pmeRjCGhWhYThO6WARzHEaR5GUdRtH0YxzFsZx3G8fxgnCXCA6MIyeogAaIBGqAJrspZIBWiatqwcZCj5lEfoBpZoBJSBqWhplkHWTBRl2YgCEnqmGZZgRBbFmWlbVjCNYYAwSDSEUzwtm2HYKMJ2piYliApWlyXgeG2XWvgeUNfGIAaZY6LafJiklVg4blcGVXmTViBclGPKxgVIDNU5+jppm+DZrmnWlhWVa1vWA1NqNInjdInbPD2TCxPEiQpGkzAATks3AWZ6VLVlV3QbdjUJg5iEGC5l4YdhuH4WuHGYaxmEOLg9G7Ns+YbNR+a7LgizzJhExLGuAnoRxuwbA42xTLsrFTaJnzqZJu0AOJrQAXhgrY5AiCTKai6JqVtEvSdLKBywrJJkhSjJwSZlULRlEGXVBN22ZtD1IXjqFXh5RPeSTZMU1Tpy0-TAlMyzbMc1zPN8wLQuxckDAmfN1UWwoOU2p8+WYyARUIodx1MojoHIxZtXXTZSe29jLVns97XvYWn09bWA1lMNItAz0Is6gjyVI4tueWqt63G+LmlS7L8uDsV-pHWVmemdnHcXVZ+f1b393F49ZevR1lfdd9fW-Y2DeSO2wOTaD07g9+UN-rDIBZPDJ1Z2dOczyAaPW4X9lJiXyGuU7hNeXQWjbPMGxtirCplReY2wOKkTTBxViHEWboTTEsIBUwOIOHQhsTCAk0xTGbjNDW-dpIlikJ4awillYolUuJTWvxCE0nRDYfWBlci9xvpPO+09Y6PytgXDar9HL2wvI7Amnk8LeX-oA4B6FQHgMgdA2B8x4GINWMg1B6DMHYIBnFSOrdo7nQ4fHNaiceGIFTj6dO48Krt3NstJ+3CF521ai9N6eZ15fV6igfqg164AzeI3EGmpppixYTo++eju6GIXttLSNDiH0LTqPDOFip5WNRlw+ed17GlzaqvCuXVXE-SwA2f6-jWx7wmiALsx8IY-mhv+S+gFW6mxjtY1JGMi5v0eg7Nyzsf45kpvMKm6DqLoXzLAtMuxVgsQ4hxdYix+YTA2LmLCewzg4LFhraQNhfhOAwKwOE4w0AwEVj6MhKk1aUI2dJbZuy4D7MOQww2oBmET0abo5pdVWm8Jxs5ARXTv4iN-hM3A-S0GYSGSM6i4zJnTKWHMhZuwll5gmOHeKUdLEox6Ponud0TG+nieY06Zt0WW3eTbT578V5OI+hvNxHi67lF3vvJu3jRaoqSUSuOYTSXnMhJcnZez0B3LiaVQyiS2HJLzujLlWN2lIQpWvXJ1ct4FL+gyspFTuwn0hr+GGGQ6nX2eWizus9JUvyakvfhKFfnCPwmzXm4DBKLFYvMDiUxqITDTKsRYFMJgTEWPAtc+YpgBtYhsKY8xVirMoTAQgKBfgUDAANI5SlyFnPFtG1Aca3CJvuYZJ5orCVGs4SS010q+G4x+V-a13lbWAI4g6p1Lq3Ueq9Q4H1fq0wBqDfmENYaI0aIjglIJhqH6YvCdikewqTbDo4TYtJycMlPSyZSlxir3G1yGvS5lvjD7FJbkOtlhbR1So1um2N8bs1CrHiKglTSUnFqMaWr5i7HHyqrpvdx28iljVKQfcpR9ew9keEAA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-10-06T08:19:53.011Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/mytest> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/mytest> a <http://www.w3.org/ns/ldp#Resource> .
+}

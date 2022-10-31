@@ -1,0 +1,17 @@
+
+<http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/34fb2889-7fd8-4f91-9842-77ce6ab3cbc4/context> {
+  <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/34fb2889-7fd8-4f91-9842-77ce6ab3cbc4>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/0C963062-380D-3C82-81F9-9C308C6032FF>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Antonio Ansaldo";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 0;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-01-20T16:06:03.135Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/de21227d-df2c-47f0-9b21-4bdb2fe07835>
+    <http://www.w3.org/ns/ldp#contains> <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/34fb2889-7fd8-4f91-9842-77ce6ab3cbc4> .
+  
+  <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/34fb2889-7fd8-4f91-9842-77ce6ab3cbc4>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

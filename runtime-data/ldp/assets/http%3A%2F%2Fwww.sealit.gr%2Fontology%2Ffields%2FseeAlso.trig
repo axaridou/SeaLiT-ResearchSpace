@@ -1,0 +1,41 @@
+
+<http://www.sealit.gr/ontology/fields/seeAlso/context> {
+  <http://www.sealit.gr/ontology/fields/seeAlso> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-daf50174f1b744f084e84f77449cbda7-w52ej a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/seeAlso> <http://www.metaphacts.com/ontology/fields#range>
+      <http://url> .
+  
+  _:genid-daf50174f1b744f084e84f77449cbda7-97k7sj a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/seeAlso> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#anyURI> .
+  
+  _:genid-daf50174f1b744f084e84f77449cbda7-w52ej <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE { 
+  {$subject rdfs:seeAlso ?value .}
+  UNION {
+  ?template  (crm:P67_refers_to|^crm:P67i_is_referred_to_by) $subject .
+  ?template rdfs:label ?label .
+  ?template  (crm:P67_refers_to|^crm:P67i_is_referred_to_by) ?record. 
+  ?record rdfs:seeAlso ?value .     
+  }
+} #limit 1""" .
+  
+  <http://www.sealit.gr/ontology/fields/seeAlso> <http://www.w3.org/2000/01/rdf-schema#label>
+      "Fast Cat link"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-daf50174f1b744f084e84f77449cbda7-w52ej .
+  
+  _:genid-daf50174f1b744f084e84f77449cbda7-97k7sj <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/seeAlso> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-daf50174f1b744f084e84f77449cbda7-97k7sj;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-01T08:59:32.592Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/seeAlso> .
+  
+  <http://www.sealit.gr/ontology/fields/seeAlso> a <http://www.w3.org/ns/ldp#Resource> .
+}

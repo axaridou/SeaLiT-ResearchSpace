@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/queryContainer/anastasia/context> {
+  <http://83.212.169.164:10315/container/queryContainer/anastasia> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "anastasia";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE { ?subject <http://www.sealit.gr/ontology/FR/related_to_voyageVS> <urn:uuid:472db3de-2203-46ae-b869-4baa8718ca0c>. }
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KiYqmOAanAJ4oDmjcg0QAefFixFIAehkB3RQDo26bEv50ZcAHZY4aOPx4yAYgCUZDNCixIYAfX0OAbrwFJOuAHxkQMGmoQcyQwOABXOgohUAw6DCYQABVEOj9ORLs6AFskniJGSBAAORRs+2K4GCEQF3RwwpBInUhw8IwYSAAWAHYAJhgAIwBmaoBaPr6ABmGxroA2FCQxwYAOeYBOOcGUFFWegEZVihQpqgBfc-IbQaQ0RG4+QQACOAAzZ7BCImeAEWwsLY4AxngBxFDxHZoGAJcjVMAUeJELAYXQPdwvd6fb5-AFAkHgyHoGF+LDhIhoQqgMDhfiCMAotHQZKpdKZJA5PIFRClcowSrVPx1NANRDNVrtTq9AYjcaTGZzRbLNabba7fZHE5nECXa4oW73ZkpIpYNnMrK5fKNAAy2A56CF9Uajw8rw+X2IuMk+KQYIhGChJLhtlsVsSxpAaXIGXNHMt3KKvIqVRqwtFRQkUlkCmU8mGSmB-Bk0ymBxkAA0ALLW3AUfBIbIoADEDPiOn4OquIBs7fCHkQncuAF0h13wjoMABHBoASQCkCm51H5DeNFHQA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-10-06T08:09:10.775Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/anastasia> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/anastasia> a <http://www.w3.org/ns/ldp#Resource> .
+}

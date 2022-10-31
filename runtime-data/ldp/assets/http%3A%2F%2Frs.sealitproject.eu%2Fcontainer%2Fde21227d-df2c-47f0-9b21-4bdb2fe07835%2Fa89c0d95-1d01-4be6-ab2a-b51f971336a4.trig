@@ -1,0 +1,17 @@
+
+<http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/a89c0d95-1d01-4be6-ab2a-b51f971336a4/context> {
+  <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/a89c0d95-1d01-4be6-ab2a-b51f971336a4>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/168E60F1-E0C1-308F-B061-4CB05942AF53>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Giuseppe Giacopello";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 1;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-01-20T16:06:03.135Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/de21227d-df2c-47f0-9b21-4bdb2fe07835>
+    <http://www.w3.org/ns/ldp#contains> <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/a89c0d95-1d01-4be6-ab2a-b51f971336a4> .
+  
+  <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/a89c0d95-1d01-4be6-ab2a-b51f971336a4>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

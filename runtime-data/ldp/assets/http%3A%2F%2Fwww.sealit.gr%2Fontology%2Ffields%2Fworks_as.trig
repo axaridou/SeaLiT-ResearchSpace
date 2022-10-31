@@ -1,0 +1,34 @@
+
+<http://www.sealit.gr/ontology/fields/works_as/context> {
+  <http://www.sealit.gr/ontology/fields/works_as> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-6fa38012a1cb4d739a3bc08592761ffa-e4wsmf a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/works_as> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "works as"@en .
+  
+  _:genid-6fa38012a1cb4d739a3bc08592761ffa-p5fpql <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/works_as> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-6fa38012a1cb4d739a3bc08592761ffa-p5fpql;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-6fa38012a1cb4d739a3bc08592761ffa-e4wsmf .
+  
+  _:genid-6fa38012a1cb4d739a3bc08592761ffa-p5fpql a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-6fa38012a1cb4d739a3bc08592761ffa-e4wsmf <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject crm:P01i_is_domain_of/crm:P.1_in_the_role_of ?value.
+  $subject sealit:works_at ?organisation_is_mandatory .
+  ?value rdfs:label ?label.
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/works_as> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-18T15:17:01.113Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/works_as> .
+  
+  <http://www.sealit.gr/ontology/fields/works_as> a <http://www.w3.org/ns/ldp#Resource> .
+}

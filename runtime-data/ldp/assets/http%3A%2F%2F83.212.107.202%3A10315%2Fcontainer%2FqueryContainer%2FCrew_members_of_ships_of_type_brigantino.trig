@@ -1,0 +1,21 @@
+
+<http://83.212.107.202:10315/container/queryContainer/Crew_members_of_ships_of_type_brigantino/context> {
+  <http://83.212.107.202:10315/container/queryContainer/Crew_members_of_ships_of_type_brigantino>
+    a <http://spinrdf.org/sp#Query>, <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Crew members of ships of type brigantino";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE {
+  ?__value___2918dde8_b6f4_412f_a36b_aaae01e833fd <http://www.sealit.gr/ontology/FR/has_ship_type> <http://www.sealit.gr/DB/Concept/Brigantino>.
+  { ?subject <http://www.sealit.gr/ontology/FR/was_crew_at> ?__value___2918dde8_b6f4_412f_a36b_aaae01e833fd. }
+}
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZRAYwE4FtIFEBMBGA+gAoCmKYcAdiADTJQDaoKxUTAhomMWwDYCWAF0gBlABZ8ADjRDNEAHlECBEyAHpVAdy0A6Lr0HaA5ilWUBcHnEMBPVQDEASprZh8qYhvxsBAPmkwGehBhbhQkURpYBGgQPhQ+VhAAFUQUaQA1RIFSNCTrCRZIEAA5NjRiGGK4GBZaADdeAFdCkEVlNU0dPX4BIxMzCytbbsEAYjFJEABfKdoeNgAjYh5ECalaGrBUSQE+SlXxdZABUUa0BYo2PhWi1T40NkNiMFUJCkNVAAZP3ABaMEO2jehmkAkaEh4hVAEhQcAAZtcoclUhksjk8gVEKVypVqrUQA0eM1EG0VOotBptMw9GFRGAJGwkMRtHAUB8YfDEapeCsZrQkN5iIZWdZEikimlaJkYtl0BiWtiKlUatJCcSiqSOhTdNwen1TBRzJYbKoRgJxodprMQPMljdQOLjqiZej8i0ADKCUi8VVNFprfzebxusUoqVouUhoqK3Eq+p+klKMmdSkaADMLLZqmw31wqgAGgBZd3CcLEB6jMACeLvK1zNjvRqPFp146nc6Xa6hooCZ2gWW5KMgT2yn3xoktO4PJ4vYFfH7-QHAwMCYOYmKOyUgaX913rkplJV430TxPtck6dOZj45n4F4ul0TltiV6t8Wt8m0NwxNp6IVubNsEi7PsG6IL24YupG+4jt6KzjuqwSWhsQYCFGDphtuEaDvuMbKviaotJqF6phmrI3rm94lmWFZVjWIKfvMjbNv+MyfkgDCgI0FB8AAjs0ACSASQNgtAANbvsJIAOMs3h7FQtAoBwMRxAkYESn2xx7gqh6xgRCYakmWo6NSoThPSjLMuRBpGkMqhJMQAAevaMYsyyIA5zn+M8QEgVQRSeRBbZnBcVw3CAU7NrO7xfNgACsvy7AIkJArWtBghCSIcgikLdjImkDvKWK6fhJ6IcRKZUs8Zl0gyTLXq8sI5cQ3I8Ly1oCtkwooKK6n5ZBu7QTpOKlQhRFGSRVU0uZdVWVmAzGrYgWtra7l9UFO5aUNiCwUp8EEgZyROUFMCoehyIaQNW04cNR5xgdp6GeelVXtZt55kW1FPrRb4ftaTE-ixRSticIWdvaF1OldhVDrtY4PYhkUzq8MWfPFiWCCly4oauaHrhhl1YVBN3FSNx5jWeybaq9WbvVRj7Pq+9Erd+v4tp+gHxMB8l5Rt2FFUUcP7YRHnHSua5IpuBXaaTd36Y9rQTS9ZG05Rn0Mz9zOucxf7A2x1qyCp8R5Vum0w7hJXkwj43PdqZr6gtdmOKooguPgAKSPgeMsK5doki4AAEHsSAH3veVsXN+f7YBB4cochrQrtgA435IqpJvS9t0aW-dItPVTJnVWwtIWfV1mOyay2+2tR1eRsPmRzzAVi+l7ahV2tz3FFKMfGjCVJVjaXHOCuUxNliIZ9DMvZ2TueHRV2qmcXM2WQ14+Qq17X8oK3W9QT-VE4NJMz3LZU2wXlJLyXs0NRXS1i9XEOOnzxMC8OXp7Wfot1yAp24+dUsp5ZwPLPeW5UlbUxVhRO86saIvjou+Bi-1WZAxACDNu4NeaZ2Pu-UcwtDpI2eD3WK-dMbMmxr-M6+NIam35kOPCVs86K1tpeKB2Y1YPjgUzRBLMdbs2tJzHYTd94vyPm-IWX9m4-z-hLSeh9rpvwYXPBWC9WENTprA768DfpIPrHw1ibFE4uAACJwAeO+RI6c+q0NfvQnOYDz7GUpPbYwNlBgmjNBaSYj8DiTHrhHIRoEkJ+OCh2MKiBCHRV7guYOqUQTpRHllJqE9rHYMUfYyRzCL5TRqqXOa7Jkkbx5K2TqQoRRyLNtPEBp8Kb5ycTqfQvRXF31NLqMYAYfHrTSbDD+8MmEBhxrI1JQCcFKIcZTepNNoEfU4Vo7hf09GA11mgz8oMwkdxEd0mCvT8EK0icQ3Mi5JBxPFmHYZ8jza3T0pk1RpF1EcK+ozBBCyvz6L1gIhugT-KbJGeInZmSBmUP-tQwBFyqljJuRAtRb0Hka20VrZBbyVmGOHplRI69JaYUqcAiFtSsn1KvivMuWYMWb1bIbfeNixF2NAZClhzi2lNP6IadxthnZJ3docL2IZOk-LBcAiReKk6x0kPHTEgyzmUq2Vc0a1sJmTSmewmBsynk6N4Us-h-jfLCMhqIhRPS8E3MDsHMV+IZGSpodK2W1yhVQruTC5VjzNY8O1hqgxRiwCmPMd8y1vyaU1LlXUyaLjmW2Q8YyrxUhPxJxTu8TFhNsWjIyba+lOTl61VXuXFli17IP2tKyGoaQul+u2YavFnxTkAKxXQi2tKU3ZMVRolVFZ3xdVIOqtmBj2KUAAFbcSQAIASFAaiOQYJ8ag47PgAF0NicRABJYdiAZLkEaGEcZRs1JSpLTKxh887UNL1K44xAAhVQABhSgTJgKqGPfEQwDZdgUAQJ0kAt6+D3sNO+BAWrG5BLfR+x937UWj1AGARohgZxR3OYm9JdbA34uDYy-UJ7z2XuINe-9D6v0sz9sW-lODBXwcw5+p9laQXVtsbWgNTDbnaEbbCrhzzdGvLde8jmfAwB9ooAOodI6x0ToE9OqYU7hPCZE7QbifFBLCVwKJ2gcIGAiaAA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-03T12:54:18.768Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.107.202:10315/container/queryContainer/Crew_members_of_ships_of_type_brigantino> .
+  
+  <http://83.212.107.202:10315/container/queryContainer/Crew_members_of_ships_of_type_brigantino>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

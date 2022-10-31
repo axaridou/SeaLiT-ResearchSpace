@@ -1,0 +1,19 @@
+
+<http://83.212.169.164:10315/container/visibilityContainer/54018248-3226-4a8a-9684-bcf950e02168/context> {
+  <http://83.212.169.164:10315/container/visibilityContainer/54018248-3226-4a8a-9684-bcf950e02168>
+    <http://www.metaphacts.com/ontologies/platform#visibilityItem> <http://83.212.169.164:10315/container/queryContainer/anastasia> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/anastasia> <http://www.metaphacts.com/ontologies/platform#visibility>
+      <http://www.metaphacts.com/ontologies/platform#visibilityPublic> .
+  
+  <http://83.212.169.164:10315/container/visibilityContainer/54018248-3226-4a8a-9684-bcf950e02168>
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-10-06T08:10:07.506Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#visibilityContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/visibilityContainer/54018248-3226-4a8a-9684-bcf950e02168> .
+  
+  <http://83.212.169.164:10315/container/visibilityContainer/54018248-3226-4a8a-9684-bcf950e02168>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

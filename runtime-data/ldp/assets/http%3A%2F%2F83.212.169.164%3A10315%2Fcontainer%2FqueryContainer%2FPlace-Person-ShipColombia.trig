@@ -1,0 +1,21 @@
+
+<http://83.212.169.164:10315/container/queryContainer/Place-Person-ShipColombia/context> {
+  <http://83.212.169.164:10315/container/queryContainer/Place-Person-ShipColombia> a
+      <http://spinrdf.org/sp#Query>, <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Place-Person-ShipColombia";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE {
+  ?__value___f9efe47e_adf6_4dc4_bf56_1ace9fa4fb15 <http://www.sealit.gr/ontology/FR/was_crew_at> <http://www.sealit.gr/DB/ship/0FC80024-49F2-38EE-88B1-C4D347EEE1F1>.
+  { ?subject <http://www.sealit.gr/ontology/FR/was_place_of_embarkation_for> ?__value___f9efe47e_adf6_4dc4_bf56_1ace9fa4fb15. }
+}
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZRAYwE4FtIFECsBmA+gAoA2AhkgKYgA0yUA2qCldCCqYqhpgEwCMRCijBwAdjTYsQAHgAWAF3kAHSAHpVAdy0A6MBVLEAlvO0BzFKrHy4xOKYCeqgGIAlTaTD4lZSvjgAzfAo0ACNSFABrUnlDMXx-OBQAPgkYBnoQAGV9FCRZGlgEVkMUQyhQABVEFAkANXKQeSE0CvslKQA5UjQKGA64GCpaADcDAFcpBWU1TR0kQ3gkAFoubUTTVXnFlfRVXgFCIRFxAF8T2jIQimJEQ+ExVIowVEMlGIfIEDvjiXlZMdColIhhun1UhjQpFMT1USlEGwADAieEsQnB7No4aZfmNvCxQEoUAEQfiQFVPjVaPVWE10K12oguj0+gMhiBRsQJogpip1FoNNpmHpwnkwEpyBQ1igNoTicQKKoDDczrQkNEKKZEvYGuS2HUGrSWm1Ot1ev1BhIOVzPjyZvztFs4MtVutNgsnTs0Ht+IJ7qdziBLtcdYh5Pqac16VIADLGIQGS3jKTfB60GDRaLGkMU8OgQ1RxmmlkWkZJ7mKXmzAUaXBSjY8JF8VQADQAstHMnlgqQAMRgeSleEgFWB0jwsZQqTDgN-AEhIEg7ONXONSNZz6x2kJ0ucqTgyHQsCw+GqJEotEYrGpDPydeVaor-PrkBMs2sxO78vTPk6Gt11QNgiTZth2XaQn2A6GEOI5kOOk6INOaZPC8byxOIrC6mGVIGmuDIbnG7A3Du1pfEcqYgOm8iZnh945thEZ0s+r7FmyVqTBWdq-rWrqAcB7adrI3YQYO2IwWOpgTtCCFnCOSAMKAYyiIYACOEwAJJpJAfC0BEUGaSALjXNEaESOwDQlGUGEPvRea4SazLmqxZY2hxP4CsKRgmOYliiNYtgOKoHnGD2mSyK8iGjlcoJZGFSiPM8pSoR8MXhbQs6AsC0X7pOR5YqeQFLGAsWYkOaW4vKDSyv4JJLpSIDUrZjF4S+RaOR+JG2m5gpPDkoripQ-5VSSirEMqAZqk0mooNqVl0fVOFNfZb4luyzkgJ1Va6PonlmBYVg2HYjhBfIIWxRFQagrRy42aui2IJu8ZEatn6fKFqUUTed5ktZ80MUazXMW1xHsd+m1-jxjYtvxYG9v2InneJklTiO6XzplS5Yb9jX-TGBHbs9JHZYex6IgVRWvCV2Jpp9NHfXNDW3TjhYOe+wNfpW9rg9KAGQyBAlCXDUGiQGsESfBnwRYMCWvO86FXZjDNPs1D2Ee1UhvXF1NUbetO6nVit2czy1OS962uWD3Hc7xUOgYJ4GC9BIuI+LIDTiOzDmaUtWPobnyA6zBMgxzOjHbtPl+YdzhuBoHj4KgFAaPg0QI1FiAx2AAAE8caBnydIdLSXoSA6dZ8wOd5+tHguOJpIWd7N1K0tLFq+znHudtxhh-t-lHR3J0aynwavWd+cobLiAD2l-wZYuYIQjlJP5XwhXFVeZV4pVRLVRVs16g3vstSzK1sa3XVCr1shihKg1b8NSoRRNGpavXWOMwWfutQHJ8uaD9qh953dI7HVOuFMSqdd4KwWkzfCW4nrfxSprD62svp6x9ndD+R8TYdXNpzS29ZebQztrDSCjsLjOykhLFG080az3lmg6BIAVb43gUTGEeVGwrwpmvJB1FSSoP3ugw+xsW4-2DtWPBPMgI235vbEhwsyFwQoa7EcUsx4mQgfQ9+jC8ZwLWpPHhOs+E-QNoI-2x81obVwf+a2fMYbCSFgjRRyMZK0FkB4AAInASEUFPaWSuvrKBWizFYKDm3B07pnToH-I6SJXp9i+h+GAoepE-TxTUclFM4gp5zgXFleexN2HIlROiSmOIN6sCGjvfxmimKf3MabSxOhz4ikvv1SUrpKkKnvrJdUU0ZrVIEQw4JIiza-zmBEz00SJlcG9AcMi-oyHgLoYMrRTDdGm0ydeZButjGBNqZgkZjTxHWIIbbAWcjHFiyURFVGuSMY1OVjokZrDconjPMUy8pUDEoN2X9IJdSQmnwticqRtiiH2NIaOJx0kAyqMSuPDRKznxrJGZsrWvCX4mKGQCw5OCuIgr4mc2R8MxLQsoS4xo5VSSdMxXsgGOK2aiLCc03IrTr4dNvvKEaY1aAe13gEv5+zhGMtGWIraBhO4AN8gdAKrh3CeGzknMMSTLp02uq-Ru90nkipLtnXOmNKIYv5Q8puQNA5AqsRDUFhDzkkqdmS5RsLkLwvUcsjVB8UU6o8KXBO+qtlGoGe60xDLzVMq6lzfB1qiXELtQoq5zjXEeK8cCOWaqBXY3+QckVRzwnbBdNzGJnpZkJIeCONxYBq7wiMfTOlpqv4WLxe3CVXk9rSp7oFPuIC4ojkSIMGoiKg0MM9aGkACJ-WGNpYK+lWaR05ojZIwlMjexQUmkIS5SMYWyTEAAK0UkgeQalRCDAAB4MARNQc9CIAC6aZ5IgF0kexAhkRBjFyIC4oXtjVIuncK2djbxU7W8u4gAQoFWKp4nAAGEAAcZ4AAsSw4MAE4nAolwNBzAmAljQeg8B5ekG4PuNwHBgA7JhzAfAnB8EHtFcmSgM6QYOqEQwHBR4uuSnRhjTGQgsbKVU8AYxTCHgRYGrFmbf3wJzf-CwIGwOvAgzB+DiGUNoYw1hnDeGlgEaI6R8jlHqMqvud+3GsCRmccY7YZjrHvk7JrVOut9TsFjOOVaxddiHbyKhfGzdsLDBgF3aIfdh6T1novWF69Jwr2Rci1F2gikVLqU0giaLtB-AMCi0AA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-10-05T08:58:19.397Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/Place-Person-ShipColombia> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/Place-Person-ShipColombia> a
+      <http://www.w3.org/ns/ldp#Resource> .
+}

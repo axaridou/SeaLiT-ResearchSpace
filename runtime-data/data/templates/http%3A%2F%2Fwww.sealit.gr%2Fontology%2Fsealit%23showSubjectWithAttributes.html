@@ -1,0 +1,143 @@
+[[!-- input parameters: subject, subjtype 
+
+ {{#each bindings}}<div>{{#if @first}}<h5><mp-label iri="{{function.value}}"></h5><ul class="list-unstyled">{{/if}}
+        <mp-link title="Home" url="/">Home</mp-link>
+  [[#if (ask 'ASK {{ ?activity <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> ?? . ?activity a <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>}}')]]
+
+        <bs-tab event-key='productions' title='Productions'>
+             
+            [[> sapaModule:GroupProductions]]
+            
+            <table width="100%">
+      <tr><td>TESTING</td></tr>
+     <tr>{{#each bindings as |bind|}}{{#each bind}}<th>{{@key}}</th>{{/each}}{{/each}}</tr> 
+		 <tr>{{#each bindings as |bind|}}{{#each bind}}<td>{{@value}}</td>{{/each}}{{/each}}</tr> 
+    </table>
+--]]
+
+
+  [[#*inline "showAttributesTemplate"]]
+  <template id="showAttributes">
+    <div style="width:90%" data-flex-layoutDEL="rows top-stretch">
+				{{#each bindings as |tuple|}}
+      {{!-- log "new row with tuple " tuple --}}
+
+      <bs-row  style="width:100%; padding: 5px; border-bottom: solid .005em #2c3e50;"> 
+       
+        	{{#each tuple as |item| }}        
+          <bs-col xs=1>
+            
+            {{#ifCond @key "!==" "subject" }}{{!-- useless unless a separate appearance is required for the subject label --}}
+            <span class="cell-label"><b><sup>{{ @key }}</sup></b></span>
+            {{else}}
+            <span class="cell-label"><b><sup>{{ @key }}</sup></b></span>
+            {{/ifCond}}
+            <br/>
+
+            {{#if (isIri item) }}
+            <semantic-link iri='{{value}}'> </semantic-link>
+            {{else}}
+          [[!--  <mp-text-truncate style="font-weight: 200; padding: 5px; overflow: hidden; text-overflow: ellipsis;" lines='3' expand='<span>...<a>read more</a></span>' collapse='<span>(<a>show less</a>)</span>'>{{value}}</mp-text-truncate> --]]
+           <mp-text style="font-weight: 200; padding: 5px; overflow: hidden; text-overflow: ellipsis;">{{value}}</mp-text>
+            {{/if}}
+            <br/>
+
+          </bs-col>
+     		{{/each}}
+
+		</bs-row> 
+    		{{/each}}
+    </div>
+  </template> 
+ [[/inline]]
+
+
+ [[#*inline "showAttributesTemplate2"]]
+  <template id="showAttributes2">
+   <table width="100%">
+     <tr>{{#each bindings as |bind|}}{{#each bind}}<th>{{@key}}</th>{{/each}}{{/each}}</tr>
+		 <tr>{{#each bindings as |bind|}}{{#each bind}}<td>{{value}}</td>{{/each}}{{/each}}</tr> 
+   </table>
+  </template> 
+ [[/inline]]
+
+  [[#*inline "showAttributeLabels"]] 
+    <div data-flex-layout='column'>
+       <bs-row style="background-color:#D9828B;">
+         {{#each args as |title| }}
+         <bs-col sm="2"><div class="panel-heading" style="overflow: hidden; text-overflow: ellipsis;">{{title}}</div></bs-col>
+         {{/each}}
+       </bs-row>
+  	</div>
+  [[/inline]]
+
+
+
+  {{#switch subjtype.value}}
+
+{{#case "http://www.sealit.gr/ontology/sealit#Ship" break=true}}
+ <semantic-query query='[[> sealit:queries ship=true limit=false subject="{{subject}}" ]]' template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>
+{{/case}}
+
+{{#case "http://www.sealit.gr/ontology/sealit#Voyage" break=true}}
+ <semantic-query query='[[> sealit:queries voyage=true limit=false subject="{{subject}}" ]]' template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>
+{{/case}}
+
+{{#case "http://www.cidoc-crm.org/cidoc-crm/E21_Person" break=true}}
+ <semantic-query query='[[> sealit:queries person=true limit=false more-person-attr=true aggregationDisabled=true subject="{{subject}}" ]]' template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>
+{{/case}}
+
+{{#case "http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body" break=true}}
+ <semantic-query query='[[> sealit:queries organization=true limit=false subject="{{subject}}" ]]' template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>
+{{/case}}
+
+{{#case "http://www.sealit.gr/ontology/sealit#Crew_Payment" break=true}}
+ <semantic-query query='[[> sealit:queries payment=true limit=false subject="{{subject}}" ]]' template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>
+{{/case}}
+
+{{#case "http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment" break=true}}
+ <semantic-query query='[[> sealit:queries ship_crew_employment_with_payment=true limit=false subject="{{subject}}" ]]' template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>
+{{/case}}
+
+
+{{#case "http://www.sealit.gr/ontology/FC/Record" break=true}}
+ <semantic-query query='[[> sealit:queries record=true limit=false subject="{{subject}}" ]]' template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>
+{{/case}}
+
+{{#case "http://www.cidoc-crm.org/cidoc-crm/E31_Document" break=true}}
+ <semantic-query query='[[> sealit:queries source=true limit=false subject="{{subject}}" ]]' template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>
+{{/case}}
+
+{{#case "http://www.cidoc-crm.org/cidoc-crm/E53_Place" break=true}}
+ <semantic-query query='[[> sealit:queries place=true limit=false subject="{{subject}}" ]]' template='{{> showAttributes }}'  >
+     [[> showAttributesTemplate ]]
+  </semantic-query>
+{{/case}}
+
+{{#default}}
+<div></div>
+{{/default}}
+
+
+  {{/switch}}
+  
+
+
+  
+

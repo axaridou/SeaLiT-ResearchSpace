@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/related_to_voyage/context> {
+  <http://www.sealit.gr/ontology/fields/related_to_voyage> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-db1aa3610ae04d749dd95cc04ea8df8d-pohcf .
+  
+  _:genid-db1aa3610ae04d749dd95cc04ea8df8d-pohcf <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+  $subject a crm:E53_Place .
+  ?value sealit:consists_of_leaving ?leaving .
+  ?leaving (sealit:from_place|crm:P134i_was_continued_by/sealit:at) $subject .
+}""" .
+  
+  _:genid-db1aa3610ae04d749dd95cc04ea8df8d-3s4918 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_voyage> <http://www.w3.org/2000/01/rdf-schema#label>
+      "related to voyage"@en .
+  
+  _:genid-db1aa3610ae04d749dd95cc04ea8df8d-pohcf a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_voyage> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-db1aa3610ae04d749dd95cc04ea8df8d-3s4918 .
+  
+  _:genid-db1aa3610ae04d749dd95cc04ea8df8d-3s4918 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_voyage> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.sealit.gr/ontology/sealit#Voyage>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-23T21:20:00.768Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/related_to_voyage> .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_voyage> a <http://www.w3.org/ns/ldp#Resource> .
+}

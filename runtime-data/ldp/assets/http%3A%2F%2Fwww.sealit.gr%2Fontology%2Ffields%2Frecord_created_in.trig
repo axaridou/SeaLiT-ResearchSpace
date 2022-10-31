@@ -1,0 +1,37 @@
+
+<http://www.sealit.gr/ontology/fields/record_created_in/context> {
+  _:genid-a5ccf0b30d7e4dbca418622f3c3fbf3c-zws209 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/record_created_in> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "transcription date"@en .
+  
+  _:genid-a5ccf0b30d7e4dbca418622f3c3fbf3c-27cz58 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/record_created_in> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
+  
+  _:genid-a5ccf0b30d7e4dbca418622f3c3fbf3c-27cz58 <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+  #?record crm:P67_refers_to $subject .
+  #?record (crm:P94i_was_created_by/crm:P4_has_time-span) ?timespan .
+  $subject (crm:P94i_was_created_by/crm:P4_has_time-span) ?timespan .
+  ?timespan crm:P82a_begin_of_the_begin ?begin .
+  ?timespan crm:P82b_end_of_the_end ?end .
+BIND (CONCAT(\"starded on: \", STRBEFORE( STR(?begin),\"T\"), \",   \", \"ended on: \", STRBEFORE(STR(?end),\"T\"))  AS ?value )
+}""" .
+  
+  _:genid-a5ccf0b30d7e4dbca418622f3c3fbf3c-zws209 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/record_created_in> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-a5ccf0b30d7e4dbca418622f3c3fbf3c-zws209;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/FC/Record>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-a5ccf0b30d7e4dbca418622f3c3fbf3c-27cz58;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-02-09T08:58:15.947Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/record_created_in> .
+  
+  <http://www.sealit.gr/ontology/fields/record_created_in> a <http://www.w3.org/ns/ldp#Resource> .
+}

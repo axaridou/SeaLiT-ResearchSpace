@@ -1,0 +1,17 @@
+
+<http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/d4e10182-4d9c-4cbf-82a8-2e7e0eb87ce0/context> {
+  <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/d4e10182-4d9c-4cbf-82a8-2e7e0eb87ce0>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/938D750F-E903-3089-9614-DBD18AF51D94>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Lorenzo Olivari";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 13;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-01-20T16:06:03.577Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/de21227d-df2c-47f0-9b21-4bdb2fe07835>
+    <http://www.w3.org/ns/ldp#contains> <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/d4e10182-4d9c-4cbf-82a8-2e7e0eb87ce0> .
+  
+  <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/d4e10182-4d9c-4cbf-82a8-2e7e0eb87ce0>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

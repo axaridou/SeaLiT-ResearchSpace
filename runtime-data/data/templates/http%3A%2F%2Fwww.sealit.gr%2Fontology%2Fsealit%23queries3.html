@@ -1,0 +1,296 @@
+[[#*inline 'prefices']]
+[[#if addprefices]]
+PREFIX crm:	<http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rso: <http://www.researchspace.org/ontology/>
+[[/if]]
+[[/inline]]
+[[#*inline 'TemplateInstancesGraph']]<http://www.sealit.gr/ontology/FCFR/materializationTemplateInstances>[[/inline]]
+[[#*inline 'limitQ']][[#if limit ]] LIMIT [[limit ]] [[/if]][[/inline]]
+[[!--#*inline 'isReferredToByLink']]^crm:P67i_is_referred_to_by[[/inline--]]
+[[#*inline 'refersToLink']]crm:P67_refers_to[[/inline]]
+[[#*inline 'specifyQuery']] 
+  [[#if subject]] VALUES $subject { <{{subject.value}}> }
+  [[else]]
+  [[#if recordtype]]
+   FILTER ( FALSE
+
+  || EXISTS{GRAPH [[>TemplateInstancesGraph]] { $subject   sealitFR:Voyage2Template <[[recordtype]]> .}}
+  || EXISTS{GRAPH [[>TemplateInstancesGraph]] { $subject   sealitFR:Crew_Payment2Template <[[recordtype]]> .}}
+  || EXISTS{GRAPH [[>TemplateInstancesGraph]] { $subject   sealitFR:Course2Template <[[recordtype]]> .}}
+ 
+  #|| EXISTS{$subject crm:P2_has_type <[[recordtype]]> .}
+  #|| EXISTS
+  #{?record crm:P2_has_type <[[recordtype]]> ; [[>refersToLink]]/(sealit:voyages|^sealit:voyage_of) $subject .}
+  #|| EXISTS
+  #{?record crm:P2_has_type <[[recordtype]]> ; [[>refersToLink]]/sealit:gave_service_for $subject .}
+  #|| EXISTS
+  #{?record crm:P2_has_type <[[recordtype]]> ; [[>refersToLink]]/sealit:gave_service_for/sealit:for_service $subject .}
+  #|| EXISTS
+  #{?record crm:P2_has_type <[[recordtype]]> ; [[>refersToLink]]/sealit:had_provided $subject .}
+  #|| EXISTS
+  #{?record crm:P2_has_type <[[recordtype]]> ; [[>refersToLink]]/^sealit:had_student/^crm:P9_consists_of $subject .}
+  )
+  [[/if]]
+  [[/if]]
+[[/inline]]
+[[#*inline 'specifyQueryX']] 
+  [[#if subjectDEL]]FILTER ($subjectM = <{{subject.value}}> || $subjectX = <{{subject.value}}>)[[/if]]
+  [[#if subject]]FILTER ($subjectM = <{{subject.value}}>)
+  [[else]]
+  [[#if recordtype]]
+  
+ 	{ GRAPH [[>TemplateInstancesGraph]] { ?subjectM sealitFR:Ship2Template <[[recordtype]]>. }
+  } UNION {
+    GRAPH [[>TemplateInstancesGraph]] { ?subjectM sealitFR:Person2Template <[[recordtype]]>. }
+  } UNION {
+    GRAPH [[>TemplateInstancesGraph]] { ?subjectM sealitFR:Legal_Body2Template <[[recordtype]]>. }
+  } UNION {
+    GRAPH [[>TemplateInstancesGraph]] { ?subjectM sealitFR:Place2Template <[[recordtype]]>. }
+  } 
+  
+ #  FILTER ( FALSE
+
+#|| EXISTS{GRAPH <http://www.sealit.gr/ontology/FCFR/materializationTemplateInstances> { $subjectX   sealitFR:Ship2Template <[[recordtype]]> .}}
+ # || EXISTS{GRAPH <http://www.sealit.gr/ontology/FCFR/materializationTemplateInstances> { $subjectX   sealitFR:Person2Template <[[recordtype]]> .}}
+#  || EXISTS{GRAPH <http://www.sealit.gr/ontology/FCFR/materializationTemplateInstances> { $subjectX   sealitFR:Legal_Body2Template <[[recordtype]]> .}}
+#  || EXISTS{GRAPH <http://www.sealit.gr/ontology/FCFR/materializationTemplateInstances> { $subjectX   sealitFR:Place2Template <[[recordtype]]> .}}
+ 
+  #|| EXISTS{$subjectX crm:P2_has_type <[[recordtype]]> .}
+#  || EXISTS{?record crm:P2_has_type <[[recordtype]]> ; [[>refersToLink]] $subjectX.}
+  
+#  )
+  [[/if]]
+  [[/if]]
+[[/inline]]
+  
+
+  
+[[#if countries_and_paymentsOPT ]]
+[[> prefices]]
+SELECT DISTINCT (SAMPLE(?country) AS ?country) ?payment
+(SAMPLE(?payment_currency) AS ?payment_currency) 
+(SAMPLE(?payment_type) AS ?payment_type) 
+WHERE {
+?person <http://www.sealit.gr/ontology/FR/Person2Template> <[[recordtype]]> .
+?person sealitFR:had_payment_E21_Person2decimal ?payment .
+?person sealitFR:had_payment_currency_E21_Person2Concept/rdfs:label ?payment_currency .
+?person sealitFR:had_payment_type_E21_Person2Concept/rdfs:label ?payment_type .
+?person sealitFR:division_of_birth_of_E53_Place2E21_Person|sealitFR:was_born_at_E21_Person2E53_Place|sealitFR:had_location_of_residence_E21_Person2E53_Place ?placeX .
+OPTIONAL{?placeX crm:P2_has_type/rdfs:label "country".}
+OPTIONAL{?placeX rso:Place_is_part_of_Place ?placeXX . ?placeXX crm:P2_has_type/rdfs:label "country".}
+BIND ( COALESCE(?placeXX, ?placeX) AS ?countryX )
+OPTIONAL{?countryX rdfs:label ?country .}
+} GROUP BY ?countryX ?payment
+[[>limitQ]]
+[[/if]]
+  
+
+[[#if countries_and_crew_membersOPT ]]
+[[> prefices]]
+SELECT DISTINCT (SAMPLE(?country) AS ?country)
+(COUNT(DISTINCT ?person) AS ?crew_members_count) 
+WHERE {
+?ship <http://www.sealit.gr/ontology/FR/Ship2Template> <[[recordtype]]> .
+?ship sealitFR:had_crew_Ship2E21_Person ?person .
+?ship sealitFR:was_registered_at_Ship2E53_Place ?placeX .
+OPTIONAL{?placeX crm:P2_has_type/rdfs:label "country".}
+OPTIONAL{?placeX rso:Place_is_part_of_Place ?placeXX . ?placeXX crm:P2_has_type/rdfs:label "country".}
+BIND ( COALESCE(?placeXX, ?placeX) AS ?countryX )
+OPTIONAL{?countryX rdfs:label ?country .}
+} GROUP BY ?countryX
+[[>limitQ]]
+[[/if]] 
+  
+[[!--http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29
+http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29
+http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list
+http://www.sealit.gr/DB/template%20types/payroll--]] 
+[[#if ships_and_crew_membersOPT ]]
+[[> prefices]]
+SELECT DISTINCT ?ship ?tonnage (SAMPLE(?country) AS ?country)
+(COUNT(DISTINCT ?person) AS ?crew_members_count) 
+WHERE {
+?shipX <http://www.sealit.gr/ontology/FR/Ship2Template> <[[recordtype]]> .
+?shipX sealitFR:had_crew_Ship2E21_Person ?person .
+OPTIONAL{?shipX rdfs:label ?ship .}
+OPTIONAL{?shipX sealit:FR:has_tonnage_Ship2decimal ?tonnage.}
+OPTIONAL{?shipX sealitFR:was_registered_at_Ship2E53_Place ?placeX .
+OPTIONAL{?placeX crm:P2_has_type/rdfs:label "country".}
+OPTIONAL{?placeX rso:Place_is_part_of_Place ?placeXX . ?placeXX crm:P2_has_type/rdfs:label "country".}
+BIND ( COALESCE(?placeXX, ?placeX) AS ?countryX )
+OPTIONAL{?countryX rdfs:label ?country .}}
+
+} GROUP BY ?ship ?tonnage ?countryX
+  
+[[>limitQ]]
+[[/if]] 
+  
+[[!--http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29
+http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29
+http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company
+http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list
+http://www.sealit.gr/DB/template%20types/payroll--]]
+[[#if ships_and_ownersOPT ]]
+[[> prefices]]
+SELECT DISTINCT (?ownerLabel AS ?owner) (SAMPLE(?owner_country) AS ?owner_country) (?shipLabel AS ?ship) (SAMPLE(?ship_country) AS ?ship_country) 
+(SAMPLE(?tonnage) AS ?tonnage)
+(SAMPLE(?constructed_at) AS ?constructed_at) 
+(SAMPLE(?constructed_in) AS ?constructed_in) 
+(SAMPLE(?registered_at) AS ?registered_at) 
+(SAMPLE(?registered_in) AS ?registered_in) 
+(SAMPLE(?construction_value) AS ?construction_value) 
+(SAMPLE(?construction_value_unit) AS ?construction_value_unit) 
+(SAMPLE(?second_hand_purchase_value) AS ?second_hand_purchase_value) 
+(SAMPLE(?second_hand_purchase_unit) AS ?second_hand_purchase_unit) 
+(SAMPLE(?updated_value_in_fiorins) AS ?updated_value_in_fiorins) 
+(SAMPLE(?updated_value_in_year) AS ?updated_value_in_year) 
+WHERE {
+  ?shipX sealitFR:Ship2Template <[[recordtype]]>;
+    (sealitFR:had_owner_Ship2E21_Person|sealitFR:had_owner_Ship2E40_Legal_Body) ?ownerX.
+
+  OPTIONAL {
+    ?ownerX (sealitFR:division_of_birth_of_E53_Place2E21_Person|sealitFR:was_born_at_E21_Person2E53_Place|sealitFR:had_location_of_residence_E40_Legal_Body2E53_Place) ?placeY.
+    OPTIONAL { ?placeY (crm:P2_has_type/rdfs:label) "country". }
+    OPTIONAL {
+      ?placeY rs:Place_is_part_of_Place ?placeYY.
+      ?placeYY (crm:P2_has_type/rdfs:label) "country".
+    }
+    BIND(COALESCE(?placeYY, ?placeY) AS ?owner_countryY)
+    OPTIONAL{?owner_countryY rdfs:label ?owner_country.}
+  }
+  OPTIONAL { ?shipX (sealitFR:was_constructed_at_Ship2E53_Place/rdfs:label) ?constructed_at. }
+  OPTIONAL { ?shipX sealitFR:was_constructed_in_Ship2date ?constructed_in. }
+  OPTIONAL { ?shipX (sealitFR:was_registered_at_Ship2E53_Place/rdfs:label) ?registered_at. }
+  OPTIONAL { ?shipX sealitFR:was_registered_in_Ship2date ?registered_in. }
+  OPTIONAL {
+    ?shipX sealitFR:has_construction_value_Ship2decimal ?construction_value;
+      (sealitFR:has_construction_value_unit_Ship2Concept/rdfs:label) ?construction_value_unit.
+  }
+  OPTIONAL {
+    ?shipX sealitFR:has_second_hand_purchase_value_Ship2decimal ?second_hand_purchase_value;
+      (sealitFR:has_second_hand_purchase_unit_Ship2Concept/rdfs:label) ?second_hand_purchase_unit.
+  }
+  OPTIONAL {
+    ?shipX sealitFR:has_updated_value_in_fiorins_Ship2decimal ?updated_value_in_fiorins;
+      (sealitFR:has_updated_value_in_year_Ship2date/rdfs:label) ?updated_value_in_year.
+  }
+  OPTIONAL { ?shipX <http://www.sealit.gr/ontology/sealit#FR:has_tonnage_Ship2decimal> ?tonnage. }
+  OPTIONAL {
+    ?shipX sealitFR:was_registered_at_Ship2E53_Place ?placeX.
+    OPTIONAL { ?placeX (crm:P2_has_type/rdfs:label) "country". }
+    OPTIONAL {
+      ?placeX rs:Place_is_part_of_Place ?placeXX.
+      ?placeXX (crm:P2_has_type/rdfs:label) "country".
+    }
+    BIND(COALESCE(?placeXX, ?placeX) AS ?ship_countryX)
+    OPTIONAL{?ship_countryX rdfs:label ?ship_country.}
+  }
+ ?ownerX rdfs:label ?ownerLabel.
+  ?shipX rdfs:label ?shipLabel.
+} GROUP BY ?shipLabel ?ownerLabel
+[[>limitQ]]
+[[/if]]
+
+[[#if persons_and_placesOPT ]]
+[[> prefices]]
+SELECT DISTINCT (?personLabel AS ?person) ?was_ship_owner ?was_crew_member ?embarked_at ?was_born_at ?location_of_residence ?had_profession_or_worked_as ?died_at ?military_service_at
+WHERE {
+?personX <http://www.sealit.gr/ontology/FR/Person2Template> <[[recordtype]]> .
+?personX a crm:E21_Person .
+OPTIONAL{?personX sealitFR:embarked_at_E21_Person2E53_Place/rdfs:label ?embarked_at .}
+OPTIONAL{?personX (sealitFR:was_born_at_E21_Person2E53_Place|sealitFR:born_at_division_E21_Person2E53_Place)/rdfs:label ?was_born_at .}
+OPTIONAL{?personX sealitFR:had_location_of_residence_E21_Person2E53_Place/rdfs:label ?location_of_residence .}
+OPTIONAL{?personX sealitFR:had_profession_or_worked_as_E21_Person2Concept/rdfs:label ?had_profession_or_worked_as .}
+OPTIONAL{?personX sealitFR:died_at_E21_Person2E53_Place/rdfs:label ?died_at .}
+OPTIONAL{?personX sealitFR:provided_military_service_at_E21_Person2E53_Place/rdfs:label ?military_service_at .}
+BIND (EXISTS{?ship sealitFR:had_owner_Ship2E21_Person ?personX} AS ?was_ship_owner )
+BIND (EXISTS{?ship sealitFR:had_crew_Ship2E21_Person ?personX} AS ?was_crew_member ) 
+?personX rdfs:label ?personLabel .
+}
+[[>limitQ]]
+[[/if]]
+  
+[[!--http://www.sealit.gr/DB/template%20types/census%20la%20ciotat
+http://www.sealit.gr/DB/template%20types/students%20register--]]
+[[#if employed_personsOPT ]]
+[[> prefices]]
+SELECT DISTINCT (?personLabel AS ?person)
+(SAMPLE(?profession) AS ?had_profession_or_worked_as) 
+(SAMPLE(?works_at) AS ?works_at)  
+WHERE {
+?personX <http://www.sealit.gr/ontology/FR/Person2Template> <[[recordtype]]> .
+?personX sealitFR:had_profession_or_worked_as_E21_Person2Concept/rdfs:label ?profession .
+?personX rdfs:label ?personLabel .
+OPTIONAL{?personX (sealitFR:was_working_at_organisation_E21_Person2E40_Legal_Body|sealitFR:was_working_at_person_E21_Person2E21_Person)/rdfs:label ?works_at .}
+} GROUP BY ?personLabel
+[[>limitQ]]
+[[/if]]
+ 
+[[!--http://www.sealit.gr/DB/template%20types/census%20la%20ciotat--]]
+[[#if professions_and_householdsOPT ]]
+[[> prefices]]
+SELECT DISTINCT ?had_profession_or_worked_as (count(distinct ?household_num) as ?count) ?total_households  WHERE {
+?person <http://www.sealit.gr/ontology/FR/Person2Template> <[[recordtype]]> .
+?person sealitFR:has_household_num_E21_Person2decimal ?household_num .
+?person sealitFR:had_profession_or_worked_as_E21_Person2Concept/rdfs:label ?had_profession_or_worked_as .
+  {SELECT (count(DISTINCT ?household_num) as ?total_households) {
+      ?person sealitFR:has_household_num_E21_Person2decimal ?household_num .
+      ?person sealitFR:had_profession_or_worked_as_E21_Person2Concept/rdfs:label ?profession .}}
+} GROUP BY ?had_profession_or_worked_as ?total_households
+[[>limitQ]]
+[[/if]]
+  
+[[!--http://www.sealit.gr/DB/template%20types/census%20la%20ciotat--]]
+[[#if profession_and_houseroleOPT ]]
+[[> prefices]]
+SELECT DISTINCT ?household_num (?personLabel AS ?person)  
+(SAMPLE(?profession) AS ?had_profession_or_worked_as)  
+(SAMPLE(?role_in_household) AS ?role_in_household)
+(SAMPLE(?works_at) AS ?works_at)
+(SAMPLE(?work_status) AS ?work_status)  
+WHERE {
+?personX <http://www.sealit.gr/ontology/FR/Person2Template> <[[recordtype]]> .
+?personX sealitFR:has_household_num_E21_Person2decimal ?household_num .
+?personX sealitFR:had_profession_or_worked_as_E21_Person2Concept/rdfs:label ?profession .
+?personX sealitFR:has_role_in_household_E21_Person2Concept/rdfs:label ?role_in_household .
+?personX rdfs:label ?personLabel .
+OPTIONAL{?person sealitFR:was_working_at_organisation_E21_Person2E40_Legal_Body|sealitFR:was_working_at_person_E21_Person2E21_Person ?works_at .}
+OPTIONAL{?person sealitFR:work_status_E21_Person2Concept/rdfs:label ?work_status}
+} GROUP BY ?household_num ?personLabel 
+ORDER BY ?household_num
+[[>limitQ]]
+[[/if]]
+  
+[[!--http://www.sealit.gr/DB/template%20types/census%20la%20ciotat
+http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire
+http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29
+http://www.sealit.gr/DB/template%20types/civil%20register
+http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list
+  http://www.sealit.gr/DB/template%20types/census%20la%20ciotat
+http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat
+http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29
+http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company
+http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29
+http://www.sealit.gr/DB/template%20types/students%20register
+http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel--]]
+[[#if profession_and_ageOPT ]]
+[[> prefices]]
+SELECT DISTINCT (?personLabel AS ?person)
+(SAMPLE(?profession) AS ?had_profession_or_worked_as) 
+(SAMPLE(?age_in_years) AS ?age_in_years) 
+(SAMPLE(?date_of_birth) AS ?date_of_birth) 
+WHERE {
+?personX <http://www.sealit.gr/ontology/FR/Person2Template> <[[recordtype]]> .
+?personX sealitFR:had_profession_or_worked_as_E21_Person2Concept/rdfs:label ?profession .
+?personX rdfs:label ?personLabel .
+OPTIONAL{?personX sealitFR:has_age_in_years_E21_Person2decimal ?age_in_years .}
+OPTIONAL{?personX sealitFR:was_born_in_E21_Person2date ?date_of_birth .}
+} GROUP BY ?personLabel 
+[[>limitQ]]
+[[/if]]

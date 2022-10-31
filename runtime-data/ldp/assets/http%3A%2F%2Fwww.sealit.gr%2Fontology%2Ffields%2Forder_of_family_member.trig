@@ -1,0 +1,37 @@
+
+<http://www.sealit.gr/ontology/fields/order_of_family_member/context> {
+  _:genid-17b09a67fc6d47ceac1bbd599fed5052-wa3gz a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/order_of_family_member> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-17b09a67fc6d47ceac1bbd599fed5052-wa3gz <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/order_of_family_member> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-17b09a67fc6d47ceac1bbd599fed5052-mrlghp .
+  
+  _:genid-17b09a67fc6d47ceac1bbd599fed5052-mrlghp <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person .
+$subject crm:P107i_is_current_or_former_member_of ?group .
+?group crm:P2_has_type ?t . 
+VALUES ?t { <http://www.sealit.gr/DB/types/familiy> <http://www.sealit.gr/DB/types/family>}
+?group crm:P3_has_note ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/order_of_family_member> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-17b09a67fc6d47ceac1bbd599fed5052-wa3gz;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#integer> .
+  
+  _:genid-17b09a67fc6d47ceac1bbd599fed5052-mrlghp a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/order_of_family_member> <http://www.w3.org/2000/01/rdf-schema#label>
+      "order of family member"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-27T12:22:59.597Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/order_of_family_member> .
+  
+  <http://www.sealit.gr/ontology/fields/order_of_family_member> a <http://www.w3.org/ns/ldp#Resource> .
+}

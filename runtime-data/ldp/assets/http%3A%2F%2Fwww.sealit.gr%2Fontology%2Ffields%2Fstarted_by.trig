@@ -1,0 +1,32 @@
+
+<http://www.sealit.gr/ontology/fields/started_by/context> {
+  _:genid-2b9b5aae905c4f97aea137a3a3a8e476-6z5r3l <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/started_by> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-2b9b5aae905c4f97aea137a3a3a8e476-2tx1s a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/started_by> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-2b9b5aae905c4f97aea137a3a3a8e476-6z5r3l;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.sealit.gr/ontology/sealit#Recruitment> .
+  
+  _:genid-2b9b5aae905c4f97aea137a3a3a8e476-6z5r3l a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-2b9b5aae905c4f97aea137a3a3a8e476-2tx1s <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+$subject a sealit:Ship_Crew_Employment .
+$subject sealit:started_by ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/started_by> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-2b9b5aae905c4f97aea137a3a3a8e476-2tx1s;
+    <http://www.w3.org/2000/01/rdf-schema#label> "started by OBSOLETE"@en;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-04T07:46:06.627Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/started_by> .
+  
+  <http://www.sealit.gr/ontology/fields/started_by> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,37 @@
+
+<http://www.sealit.gr/ontology/fields/has_departure_from/context> {
+  <http://www.sealit.gr/ontology/fields/has_departure_from> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+  
+  _:genid-f292a752625a4c9fba234e0d5cd6e78f-aki3qy7 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_departure_from> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Voyage>,
+      <http://www.sealit.gr/ontology/sealit#Ship>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-f292a752625a4c9fba234e0d5cd6e78f-7cnwy;
+    <http://www.w3.org/2000/01/rdf-schema#label> "had departure from"@en .
+  
+  _:genid-f292a752625a4c9fba234e0d5cd6e78f-7cnwy <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+{ $subject (sealit:voyages/sealit:consists_of_leaving) ?leaving }
+UNION { $subject (sealit:consists_of_leaving) ?leaving }
+       ?leaving sealit:from_place ?value .
+       ?value rdfs:label ?loc .
+       ?leaving (sealit:leaving_in/crm:P82_at_some_time_within) ?date .
+          Bind(Concat(?loc, \" on \", Str(?date))as ?label)
+  } ORDER BY (Str(?date))""" .
+  
+  _:genid-f292a752625a4c9fba234e0d5cd6e78f-aki3qy7 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-f292a752625a4c9fba234e0d5cd6e78f-7cnwy a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_departure_from> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-f292a752625a4c9fba234e0d5cd6e78f-aki3qy7;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-26T18:13:35.187Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_departure_from> .
+  
+  <http://www.sealit.gr/ontology/fields/has_departure_from> a <http://www.w3.org/ns/ldp#Resource> .
+}

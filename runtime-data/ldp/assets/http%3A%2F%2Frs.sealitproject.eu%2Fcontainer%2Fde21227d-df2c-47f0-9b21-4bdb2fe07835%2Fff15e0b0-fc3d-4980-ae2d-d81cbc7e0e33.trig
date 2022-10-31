@@ -1,0 +1,17 @@
+
+<http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/ff15e0b0-fc3d-4980-ae2d-d81cbc7e0e33/context> {
+  <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/ff15e0b0-fc3d-4980-ae2d-d81cbc7e0e33>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/EB0A03DA-1A5F-31A6-AFF0-F45D5CC0A6CD>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Giovanni Melis";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 16;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-01-20T16:06:03.656Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/de21227d-df2c-47f0-9b21-4bdb2fe07835>
+    <http://www.w3.org/ns/ldp#contains> <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/ff15e0b0-fc3d-4980-ae2d-d81cbc7e0e33> .
+  
+  <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/ff15e0b0-fc3d-4980-ae2d-d81cbc7e0e33>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

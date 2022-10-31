@@ -1,0 +1,27 @@
+<div>
+  [[!--
+  {{log "Platform:FieldValueVisualization:" field value }}
+  
+  {{#ifCond field.range.length "==" 1}}
+  {{log "Platform:FieldValueVisualization:" field.range.0.value }}
+  {{/ifCond}}
+  --]]
+  {{#ifCond field.xsdDatatype.value "==" "http://www.w3.org/2001/XMLSchema#anyURI"}}
+  <span>
+
+    {{#ifCond field.range.length ">=" 1 }}
+    {{#ifCond field.range.0.value "==" "http://url" }}
+        {{log "Platform:FieldValueVisualization: create template link" }}
+  <a href="{{{value.value.value}}}" target='_blank'>{{#if value.label}}{{value.label}}{{else}}{{value.value.value}}{{/if}}&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+    {{else}}
+  <semantic-link iri="{{value.value.value}}">{{#if value.label}}{{value.label}}{{/if}}</semantic-link>
+   {{/ifCond}}
+    {{else}}<semantic-link iri="{{value.value.value}}">{{#if value.label}}{{value.label}}{{/if}}</semantic-link>{{/ifCond}}
+  </span>
+  
+   {{else}}
+  
+	<span>{{#if value.label}}{{value.label}}{{else}}{{value.value.value}}{{/if}}</span>
+
+  {{/ifCond}}
+</div>

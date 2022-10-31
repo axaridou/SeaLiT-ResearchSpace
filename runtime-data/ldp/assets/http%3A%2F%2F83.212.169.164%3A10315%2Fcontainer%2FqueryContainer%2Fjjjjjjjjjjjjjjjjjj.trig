@@ -1,0 +1,30 @@
+
+<http://83.212.169.164:10315/container/queryContainer/jjjjjjjjjjjjjjjjjj/context> {
+  <http://83.212.169.164:10315/container/queryContainer/jjjjjjjjjjjjjjjjjj> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "jjjjjjjjjjjjjjjjjj";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE {
+  { ?__value___fe1914c9_5fb7_4106_86dc_f9ce5b2b6c8c <http://www.sealit.gr/ontology/FR/departed_from> <http://www.sealit.gr/DB/location/master_uri-agde>. }
+  UNION
+  {
+    ?__value___fe1914c9_5fb7_4106_86dc_f9ce5b2b6c8c <http://www.sealit.gr/ontology/FR/departed_from> ?x_7827fd5c_69e7_4c7b_9acb_c4601ec49806_5344a8c0_ee39_4233_bc24_614972f1d81e_969fe5cb_3159_4ac1_b8f5_ea16f6ada614.
+    ?x_7827fd5c_69e7_4c7b_9acb_c4601ec49806_5344a8c0_ee39_4233_bc24_614972f1d81e_969fe5cb_3159_4ac1_b8f5_ea16f6ada614 ((<http://www.w3.org/2002/07/owl#sameAs>*)|(<http://www.researchspace.org/ontology/Place_is_part_of_Place>*)) <http://www.sealit.gr/DB/location/master_uri-agde>.
+  }
+  UNION
+  {
+    ?__value___fe1914c9_5fb7_4106_86dc_f9ce5b2b6c8c <http://www.sealit.gr/ontology/FR/departed_from> ?x_7827fd5c_69e7_4c7b_9acb_c4601ec49806_5344a8c0_ee39_4233_bc24_614972f1d81e_969fe5cb_3159_4ac1_b8f5_ea16f6ada614.
+    <http://www.sealit.gr/DB/location/master_uri-agde> ((<http://www.w3.org/2002/07/owl#sameAs>*)|^(<http://www.researchspace.org/ontology/Place_is_part_of_Place>*)) ?x_7827fd5c_69e7_4c7b_9acb_c4601ec49806_5344a8c0_ee39_4233_bc24_614972f1d81e_969fe5cb_3159_4ac1_b8f5_ea16f6ada614.
+  }
+  { ?subject <http://www.sealit.gr/ontology/FR/was_crew_at> ?__value___fe1914c9_5fb7_4106_86dc_f9ce5b2b6c8c. }
+}
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZRAYwE4FtIFEBMBGA+gAoCmKYcAdiADTJQDaoKxUTAhomMWwDYCWAF0gBlABZ8ADjRDNEAHlECBEyAHpVAdy0A6Lr0HaA5ilWUBcHnEMBPVQDEASprZh8qYhvxsBAPmkwGehBhNgA3YhhhbhQkURpQAEcAV1JrVhAJZgAzPgAPYghoAF9aAURk1OkKlGsAFWsJFkhgzAAZTABhWv8+MAE+CiQyyAEUFNpQthQ+NgAjHgKGEAB+MCTZgCtiIZAAXVoNUVImxhBhkCSKPkppCW8BUgpC0-PZwylS6YkF59A1ze251W6y2O1omQifCQ3iaIEUyjUmh0en4AiMJjMFistkcqhgxDuKAeMHwWRQcDQ0jgAJ2zXhKnUWg0um4qPRqgAIgAhVSWaH9SiqNAuB4ofBJaYAWjYhnxICKuxKoFe72ko0kPwYfxBgMQwJpZXBzBgUJhiHpiKZLP0aOMpgo5ksNnsTnxhOJpPJlNo1NBQNy+AA7AAObCBrIwACsSHwADYAJzEQP4AAsSEDs3w8bYSEzSBTsYADLhtin48HC7H5dRtQa9QGQ2GI9G44nk2mM1mc3mC8XS+XK7djaaHulzncBHFwd5RPVGogAD7SQTENC-M6ICdTjIzuewgBUy4ea6WFsZOg0AGZtHAUIZVNhC4XsKpC4HTBoeABiMBsNDEABBCBFRrDdmi3W5dwaA8j1XZ44SUBkkWZZg9BiUQwDuJBiBvO97UdbFVEIHgc2IfBenwd18DgLIiBI7C9gVEoQF9XU6UQy1kVZAw7W5Xk4H5a4KCFEVSHFKUZTlJjQJVD4zi+TVIFOf4-T1FTdSNSF+VhM9kOtNk7UxJ0cVdAkpg9MkKSpOtmmWBtQ3DKMYwTJNU3TTNs1zNxexLfMByrJVwB1WkEIRc9mRRHiTD4vlvCEkS+jEiU+GlWUWE0k1tLHTcZ0gyc90XWCTyU5UcsnPLZ2gxBD1oFdiqCXSrSvXD70fZ9X3fOBPx-P9AOAwLx1y6d8qq5oAD0ivXQbyuGyr52aGqQDq+DGp0VDoliTDSJa-CsWdYjSPI1wqJoujSMYxUQJYmyVnspsnNbVyOw87tvKLXyywrALLoVWh+DQQQoEjJ8n2YkjZmIHhOHECQwAAAjdcyIjhyy0DhgC0vlXZFWkkAsgYRUgA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/guest>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-22T10:29:08.423Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/jjjjjjjjjjjjjjjjjj> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/jjjjjjjjjjjjjjjjjj> a <http://www.w3.org/ns/ldp#Resource> .
+}

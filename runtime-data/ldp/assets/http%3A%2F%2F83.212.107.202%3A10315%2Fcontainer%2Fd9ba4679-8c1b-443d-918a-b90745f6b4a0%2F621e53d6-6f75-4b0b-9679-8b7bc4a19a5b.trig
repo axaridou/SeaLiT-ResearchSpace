@@ -1,0 +1,17 @@
+
+<http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/621e53d6-6f75-4b0b-9679-8b7bc4a19a5b/context> {
+  <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/621e53d6-6f75-4b0b-9679-8b7bc4a19a5b>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/49CD9FB0-54EE-320D-856C-969A28F0E0F7>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Andrea Giudice";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 28;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-03T12:54:56.211Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://83.212.107.202:10315/container/setContainer/d9ba4679-8c1b-443d-918a-b90745f6b4a0>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/621e53d6-6f75-4b0b-9679-8b7bc4a19a5b> .
+  
+  <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/621e53d6-6f75-4b0b-9679-8b7bc4a19a5b>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,46 @@
+<ol class="page-breadcrumb">
+  <li>
+    <mp-link title="Home" url="/">Home</mp-link>
+  </li>
+  <li>
+    <semantic-link title="Administration" iri="http://www.metaphacts.com/resource/admin/">Administration</semantic-link>
+  </li>
+  <li class="active">DB Fields Export</li>
+</ol>
+
+    [[#*inline "fieldquery"]]
+    			SELECT DISTINCT ?graph WHERE {
+            GRAPH ?graph { <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer>  <http://www.w3.org/ns/ldp#contains> ?field .
+  												?field a <http://www.metaphacts.com/ontology/fields#Field> . }
+          } LIMIT 2
+    [[/inline]]
+              
+<div class="page">
+  <div class="page__header">
+    <div class='page__header-thumbnail'>
+      <h2><i class="fa fa-cloud-upload fa-2x"></i></h2>
+    </div>
+    <div class='page__header-body'>
+      <h2>DB Fields Export</h2>
+    </div>
+  </div>
+  <div class='page__body'>
+   	<semantic-query query='SELECT (COUNT(*) as ?number) WHERE { { [[> fieldquery]] } }'
+                          template='{{#each bindings}}{{#ifCond number.value ">=" 1000}}<bs-alert bs-style="warning"> The following table is limited to show only <strong>1000</strong> named graphs.</bs-alert> {{else}} <bs-alert bs-style="info"> The repository contains <strong>{{number.value}}</strong> distinct named graphs.</bs-alert> {{/ifCond}}{{/each}}'
+          >
+    </semantic-query>
+    
+    
+    
+    <semantic-table query='[[> fieldquery]]'  tuple-template='{{> getGraph}}'>
+      <template id="getGraph">
+				<div>
+          <semantic-table query='SELECT ?s ?p ?o  WHERE { graph <{{graph.value}}> { ?s ?p ?o  } }' 
+                          tuple-template='<div>{{s.value}}{{p.value}}{{o.value}}</div>' >
+          </semantic-table>
+        </div>
+      </template>
+    </semantic-table>
+    
+  </div>
+  </div>

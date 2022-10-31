@@ -1,0 +1,17 @@
+
+<http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/54a0d549-60c2-44c1-801a-d3e96013b06a/context> {
+  <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/54a0d549-60c2-44c1-801a-d3e96013b06a>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/264D40BA-0439-33D0-ACD9-7661987D5CA8>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Emanuele Mortola";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 13;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-03T12:54:51.809Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://83.212.107.202:10315/container/setContainer/d9ba4679-8c1b-443d-918a-b90745f6b4a0>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/54a0d549-60c2-44c1-801a-d3e96013b06a> .
+  
+  <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/54a0d549-60c2-44c1-801a-d3e96013b06a>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

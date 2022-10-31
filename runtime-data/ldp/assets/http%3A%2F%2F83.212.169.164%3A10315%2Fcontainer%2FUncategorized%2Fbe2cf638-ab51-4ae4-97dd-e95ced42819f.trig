@@ -1,0 +1,16 @@
+
+<http://83.212.169.164:10315/container/Uncategorized/be2cf638-ab51-4ae4-97dd-e95ced42819f/context> {
+  <http://83.212.169.164:10315/container/Uncategorized/be2cf638-ab51-4ae4-97dd-e95ced42819f>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://83.212.169.164:10315/container/queryContainer/multiple_master_instances_of_the_same__as_employment_of_a_shipperson>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "multiple master instances of the same  as employment of a shipperson ";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-09T16:32:36.542Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform/user/admin/setContainer/Uncategorized>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.169.164:10315/container/Uncategorized/be2cf638-ab51-4ae4-97dd-e95ced42819f> .
+  
+  <http://83.212.169.164:10315/container/Uncategorized/be2cf638-ab51-4ae4-97dd-e95ced42819f>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

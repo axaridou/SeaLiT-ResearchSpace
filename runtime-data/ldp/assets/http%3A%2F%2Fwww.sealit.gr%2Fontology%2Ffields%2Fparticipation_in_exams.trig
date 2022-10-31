@@ -1,0 +1,33 @@
+
+<http://www.sealit.gr/ontology/fields/participation_in_exams/context> {
+  <http://www.sealit.gr/ontology/fields/participation_in_exams> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-7c4d4d284f864ec78a0706aa624d456f-xn39gf;
+    a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-7c4d4d284f864ec78a0706aa624d456f-xgymaa a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/participation_in_exams> <http://www.w3.org/2000/01/rdf-schema#label>
+      "participation in exams"@en;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-7c4d4d284f864ec78a0706aa624d456f-xn39gf a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person . 
+$subject crm:P01i_is_domain_of/crm:P.2_status_of_participation ?value .
+?value a sealit:Exam_Status .
+}""" .
+  
+  _:genid-7c4d4d284f864ec78a0706aa624d456f-xgymaa <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/participation_in_exams> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-7c4d4d284f864ec78a0706aa624d456f-xgymaa;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-29T19:08:58.293Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/participation_in_exams> .
+  
+  <http://www.sealit.gr/ontology/fields/participation_in_exams> a <http://www.w3.org/ns/ldp#Resource> .
+}

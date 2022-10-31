@@ -1,0 +1,105 @@
+Ships [[>count_ships]]
+Voyages [[>count_voyages]]
+Persons [[>count_persons]]
+Organizations [[>count_orgs]]
+Places [[>count_places]]
+Payments [[>count_payments]]
+Professions [[>count_professions]]
+Courses [[>count_courses]]
+
+[[#*inline 'count_ships']]
+[[>count_master class="sealit:Ship" ]]
+[[/inline]]
+
+[[#*inline 'count_places']]
+[[>count_master class="crm:E53_Place" ]]
+[[/inline]]
+
+[[#*inline 'count_persons']]
+[[>count_master class="crm:E21_Person" ]]
+[[/inline]]
+
+[[#*inline 'count_orgs']]
+[[>count_master class="crm:E40_Legal_Body" ]]
+[[/inline]]
+
+[[#*inline 'count_master']]
+<semantic-query query='
+SELECT (COUNT(DISTINCT ?subjectM) as ?count)
+WHERE {
+    ?source crm:P2_has_type <[[>recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by) ?subjectX .
+    ?subjectX rdf:type [[class]].
+    ?subjectM owl:sameAs ?subjectX; crm:P2_has_type <http://www.sealit.gr/DB/type/master>.
+    }
+    '
+                template='<span>({{bindings.0.count.value}})</span>'
+                >
+</semantic-query>
+[[/inline]]
+
+[[#*inline 'count_voyages']]
+<semantic-query query='
+SELECT (COUNT(DISTINCT $subject) as ?count)
+WHERE {
+    ?record crm:P2_has_type <[[>recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by)/(sealit:voyages|^sealit:voyage_of) $subject .
+    $subject a sealit:Voyage .
+    }
+    '
+                template='<span>({{bindings.0.count.value}})</span>'
+                >
+</semantic-query>
+[[/inline]]
+
+
+[[#*inline 'count_payments']]
+<semantic-query query='
+SELECT (COUNT(DISTINCT $subject) as ?count)
+WHERE {
+  ?source crm:P2_has_type <[[>recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by)/sealit:gave_service_for $subject .
+    $subject a sealit:Crew_Payment .
+    }
+    '
+                template='<span>({{bindings.0.count.value}})</span>'
+                >
+</semantic-query>
+[[/inline]]
+
+[[#*inline 'count_employments']]
+<semantic-query query='
+SELECT (COUNT(DISTINCT $subject) as ?count)
+WHERE {
+  ?source crm:P2_has_type <[[>recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by)/sealit:had_provided $subject .
+    $subject a sealit:Ship_Crew_Employment .
+    }
+    '
+                template='<span>({{bindings.0.count.value}})</span>'
+                >
+</semantic-query>
+[[/inline]]
+
+
+[[#*inline 'count_professions']]
+<semantic-query query='
+SELECT (COUNT(DISTINCT $subject) as ?count)
+WHERE {
+  ?source crm:P2_has_type <[[>recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by) $subject .
+    $subject a sealit:Profession .
+    }
+    '
+                template='<span>({{bindings.0.count.value}})</span>'
+                >
+</semantic-query>
+[[/inline]]
+
+[[#*inline 'count_courses']]
+<semantic-query query='
+SELECT (COUNT(DISTINCT $subject) as ?count)
+WHERE {
+  ?source crm:P2_has_type <[[>recordtype]]> ; (crm:P67_refers_to/^sealit:had_student/^crm:P9_consists_of) $subject .
+  $subject a sealit:Course .
+    }
+    '
+                template='<span>({{bindings.0.count.value}})</span>'
+                >
+</semantic-query>
+[[/inline]]

@@ -1,0 +1,84 @@
+
+<http://83.212.169.164:10315/container/persistedComponentContainer/f1cc4e61-54e5-4a9b-8995-7717814d8c2e/context> {
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-erq098 <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/repository>
+      "default" .
+  
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-j9gvksp <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/value>
+      "count" .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/f1cc4e61-54e5-4a9b-8995-7717814d8c2e>
+    <http://www.metaphacts.com/ontologies/persist/componentContext> _:genid-c5be7341a6cf4209aa8b94e63e97fa29-d191qj .
+  
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-j9gvksp <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/category>
+      "object" .
+  
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-vmawqh <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets>
+      _:genid-c5be7341a6cf4209aa8b94e63e97fa29-vanu09 .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/f1cc4e61-54e5-4a9b-8995-7717814d8c2e>
+    <http://www.metaphacts.com/ontologies/persist/componentType> <http://www.metaphacts.com/ontologies/persist/components/semantic-chart> .
+  
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-erq098 <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/isDefault>
+      true .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/f1cc4e61-54e5-4a9b-8995-7717814d8c2e>
+    a <http://www.metaphacts.com/ontologies/persist/PersistedComponent> .
+  
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-vmawqh <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/query>
+      """PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rso: <http://www.researchspace.org/ontology/>
+SELECT ?object ?label (COUNT(DISTINCT ?subject) AS ?count) WHERE {
+  ?__value___f1c649e3_ebd0_4df3_b214_bacdc63e15b0 <http://www.sealit.gr/ontology/FR/was_place_of_discharge_forPay> <http://www.sealit.gr/DB/payment/9602B181-D227-3922-B462-8BCD5A765556>.
+  {
+    { ?subject <http://www.sealit.gr/ontology/FR/departed_from> ?__value___f1c649e3_ebd0_4df3_b214_bacdc63e15b0. }
+    UNION
+    {
+      ?subject <http://www.sealit.gr/ontology/FR/departed_from> ?x_34d1f033_a38b_4add_bfd9_0b1f4b3f9e37.
+      ?x_34d1f033_a38b_4add_bfd9_0b1f4b3f9e37 ((owl:sameAs*)|(rso:Place_is_part_of_Place*)) ?__value___f1c649e3_ebd0_4df3_b214_bacdc63e15b0.
+    }
+    UNION
+    {
+      ?subject <http://www.sealit.gr/ontology/FR/departed_from> ?x_34d1f033_a38b_4add_bfd9_0b1f4b3f9e37.
+      ?__value___f1c649e3_ebd0_4df3_b214_bacdc63e15b0 ((owl:sameAs*)|^(rso:Place_is_part_of_Place*)) ?x_34d1f033_a38b_4add_bfd9_0b1f4b3f9e37.
+    }
+  }
+  OPTIONAL { ?subject <http://www.sealit.gr/ontology/FR/arrived_at> ?object. }
+  MINUS { ?master owl:sameAs ?object. }
+  OPTIONAL { ?object rdfs:label ?label. }
+  BIND(IF(BOUND(?object), ?object, \"Unknown\") AS ?object)
+}
+GROUP BY ?object ?label
+ORDER BY (?object) DESC (?count)
+LIMIT 50000""" .
+  
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-vanu09 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>
+      _:genid-c5be7341a6cf4209aa8b94e63e97fa29-j9gvksp;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+  
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-vmawqh <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/type>
+      "line";
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/id> "search-result-chart" .
+  
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-d191qj <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext>
+      _:genid-c5be7341a6cf4209aa8b94e63e97fa29-erq098 .
+  
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-az5fv <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps/partials>
+      _:genid-c5be7341a6cf4209aa8b94e63e97fa29-f8vter .
+  
+  _:genid-c5be7341a6cf4209aa8b94e63e97fa29-d191qj <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps>
+      _:genid-c5be7341a6cf4209aa8b94e63e97fa29-az5fv .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/f1cc4e61-54e5-4a9b-8995-7717814d8c2e>
+    <http://www.metaphacts.com/ontologies/persist/componentProps> _:genid-c5be7341a6cf4209aa8b94e63e97fa29-vmawqh;
+    <http://www.w3.org/2000/01/rdf-schema#label> "places diagram";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-14T09:02:55.531Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#persistedComponentContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/persistedComponentContainer/f1cc4e61-54e5-4a9b-8995-7717814d8c2e> .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/f1cc4e61-54e5-4a9b-8995-7717814d8c2e>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

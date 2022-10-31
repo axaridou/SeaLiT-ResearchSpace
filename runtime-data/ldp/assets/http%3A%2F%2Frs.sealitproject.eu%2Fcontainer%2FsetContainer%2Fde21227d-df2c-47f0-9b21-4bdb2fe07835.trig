@@ -1,0 +1,15 @@
+
+<http://rs.sealitproject.eu/container/setContainer/de21227d-df2c-47f0-9b21-4bdb2fe07835/context> {
+  <http://rs.sealitproject.eu/container/setContainer/de21227d-df2c-47f0-9b21-4bdb2fe07835>
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sailors-Andrea";
+    a <http://www.w3.org/ns/ldp#Container>, <http://www.metaphacts.com/ontologies/platform#Set>,
+      <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-01-20T16:06:02.845Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform/user/admin/setContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://rs.sealitproject.eu/container/setContainer/de21227d-df2c-47f0-9b21-4bdb2fe07835> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/de21227d-df2c-47f0-9b21-4bdb2fe07835>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

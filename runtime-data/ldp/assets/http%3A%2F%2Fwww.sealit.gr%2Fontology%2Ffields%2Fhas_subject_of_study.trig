@@ -1,0 +1,36 @@
+
+<http://www.sealit.gr/ontology/fields/has_subject_of_study/context> {
+  <http://www.sealit.gr/ontology/fields/has_subject_of_study> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-43aaa27af1a94ae7bf70fdec4d56fb2f-o0vcf a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_subject_of_study> <http://www.w3.org/2000/01/rdf-schema#label>
+      "has subject of study"@en .
+  
+  _:genid-43aaa27af1a94ae7bf70fdec4d56fb2f-m85pw2 a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT ?value WHERE {
+$subject a sealit:Course . 
+$subject crm:P9_consists_of/crm:P9_consists_of/sealit:has_subject ?has_subjectX .
+?has_subjectX rdfs:label ?has_subject_label .
+OPTIONAL { ?has_subjectX crm:P2_has_type/rdfs:label ?has_subject_type .}
+BIND (  COALESCE(CONCAT(?has_subject_label, \" (\", ?has_subject_type, \")\"), ?has_subject_label) AS ?value )
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_subject_of_study> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Course> .
+  
+  _:genid-43aaa27af1a94ae7bf70fdec4d56fb2f-o0vcf <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_subject_of_study> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-43aaa27af1a94ae7bf70fdec4d56fb2f-m85pw2;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-43aaa27af1a94ae7bf70fdec4d56fb2f-o0vcf;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-21T14:35:07.018Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_subject_of_study> .
+  
+  <http://www.sealit.gr/ontology/fields/has_subject_of_study> a <http://www.w3.org/ns/ldp#Resource> .
+}

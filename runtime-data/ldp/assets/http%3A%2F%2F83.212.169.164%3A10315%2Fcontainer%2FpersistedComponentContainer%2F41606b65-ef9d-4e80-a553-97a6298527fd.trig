@@ -1,0 +1,87 @@
+
+<http://83.212.169.164:10315/container/persistedComponentContainer/41606b65-ef9d-4e80-a553-97a6298527fd/context> {
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-sd58ye <http://www.metaphacts.com/ontologies/persist/components/semantic-timeline/defaultItemOptions>
+      _:genid-e1b9e02ad1224df5bba006ac9ac918d7-rvl4w9 .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/41606b65-ef9d-4e80-a553-97a6298527fd>
+    <http://www.metaphacts.com/ontologies/persist/componentProps> _:genid-e1b9e02ad1224df5bba006ac9ac918d7-sd58ye .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-sd58ye <http://www.metaphacts.com/ontologies/persist/components/semantic-timeline/groups>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-5xh20g <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps/partials>
+      _:genid-e1b9e02ad1224df5bba006ac9ac918d7-wlmjxj .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-4vdfj <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/isDefault>
+      true .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/41606b65-ef9d-4e80-a553-97a6298527fd>
+    <http://www.w3.org/2000/01/rdf-schema#label> "test visualization";
+    <http://www.metaphacts.com/ontologies/persist/componentContext> _:genid-e1b9e02ad1224df5bba006ac9ac918d7-sb68ow;
+    a <http://www.metaphacts.com/ontologies/persist/PersistedComponent> .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-wlmjxj <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps/partials/timelineItem>
+      """
+ 		                                <mp-popover>
+ 		                                  <mp-popover-trigger placement=\"top\" trigger='[\"hover\"]' root-close=\"false\">
+ 		                                    <div data-flex-layout=\"column top-left\">
+ 		                                      <p>{{start.value}} - {{end.value}}</p>
+ 		                                      <semantic-link uri=\"{{iri.value}}\"></semantic-link>
+ 		                                    </div>
+ 		                                  </mp-popover-trigger>
+ 		                                  <mp-popover-content>{{> rsp:ItemCard}}</mp-popover-content>
+ 		                                </mp-popover>
+ 		                              """ .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-sd58ye <http://www.metaphacts.com/ontologies/persist/components/semantic-timeline/id>
+      "search-result-timeline";
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-timeline/loadingTemplate>
+      "<span>Please wait, loading ....</span>" .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-sb68ow <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps>
+      _:genid-e1b9e02ad1224df5bba006ac9ac918d7-5xh20g .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-sd58ye <http://www.metaphacts.com/ontologies/persist/components/semantic-timeline/query>
+      """SELECT DISTINCT ?start ?end ?iri WHERE {
+  ?subject <http://www.sealit.gr/ontology/FR/Person2Ship> <http://www.sealit.gr/DB/ship/A431F399-CBFA-359D-85EC-5F4B3B83745B>.
+  {
+    ?subject <http://www.sealit.gr/ontology/FR/embarked_in2> ?date.
+    BIND(?date AS ?__dateBeginValue__)
+    BIND(?date AS ?__dateEndValue__)
+  }
+  BIND(?__dateBeginValue__ AS ?start)
+  BIND(?__dateEndValue__ AS ?end)
+  BIND(?subject AS ?iri)
+}
+ORDER BY (?subject)
+LIMIT 100""";
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-timeline/options>
+      _:genid-e1b9e02ad1224df5bba006ac9ac918d7-bfame .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-sb68ow <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext>
+      _:genid-e1b9e02ad1224df5bba006ac9ac918d7-4vdfj .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/41606b65-ef9d-4e80-a553-97a6298527fd>
+    <http://www.w3.org/2000/01/rdf-schema#comment> "timeline test";
+    <http://www.metaphacts.com/ontologies/persist/componentType> <http://www.metaphacts.com/ontologies/persist/components/semantic-timeline> .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-sd58ye <http://www.metaphacts.com/ontologies/persist/components/semantic-timeline/tupleTemplate>
+      "{{> timelineItem}}" .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-4vdfj <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/repository>
+      "default" .
+  
+  _:genid-e1b9e02ad1224df5bba006ac9ac918d7-sd58ye <http://www.metaphacts.com/ontologies/persist/components/semantic-timeline/tupleTemplateHeight>
+      50 .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/41606b65-ef9d-4e80-a553-97a6298527fd>
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-10-06T06:23:24.651Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#persistedComponentContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/persistedComponentContainer/41606b65-ef9d-4e80-a553-97a6298527fd> .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/41606b65-ef9d-4e80-a553-97a6298527fd>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

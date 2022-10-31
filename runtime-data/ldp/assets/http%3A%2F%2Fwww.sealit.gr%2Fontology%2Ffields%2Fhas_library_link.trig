@@ -1,0 +1,37 @@
+
+<http://www.sealit.gr/ontology/fields/has_library_link/context> {
+  <http://www.sealit.gr/ontology/fields/has_library_link> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+  
+  _:genid-21db3e23903a4b7ca414f3425573db39-d66zl a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_library_link> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#anyURI> .
+  
+  _:genid-21db3e23903a4b7ca414f3425573db39-zicl3c <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_library_link> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-21db3e23903a4b7ca414f3425573db39-zicl3c;
+    <http://www.w3.org/2000/01/rdf-schema#label> "has library link"@en .
+  
+  _:genid-21db3e23903a4b7ca414f3425573db39-d66zl <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+$subject crm:P2_has_type <http://www.sealit.gr/DB/doc%20types/source%20identity> ;
+crm:P49_has_former_or_current_keeper ?keeper  . 
+?keeper crm:P1_is_identified_by ?value .
+?value crm:P2_has_type <http://www.sealit.gr/DB/link%20types/url> .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_library_link> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-21db3e23903a4b7ca414f3425573db39-d66zl .
+  
+  _:genid-21db3e23903a4b7ca414f3425573db39-zicl3c a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_library_link> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-30T22:04:55.566Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_library_link> .
+  
+  <http://www.sealit.gr/ontology/fields/has_library_link> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,20 @@
+
+<http://83.212.169.164:10315/container/queryContainer/SearchTest/context> {
+  <http://83.212.169.164:10315/container/queryContainer/SearchTest> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SearchTest";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE {
+  ?__value___57d1c53e_8ec6_4a0c_8f2c_aa6d8c1f2a95 <http://www.sealit.gr/ontology/FR/Person2Place> <http://www.sealit.gr/DB/Location/Genova>.
+  { ?subject <http://www.sealit.gr/ontology/FR/had_captain> ?__value___57d1c53e_8ec6_4a0c_8f2c_aa6d8c1f2a95. }
+}
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KiFdAtpAKIBMAjAH0ACkjpg4AOzIgGiADz4sWIpAD0qgO5aAdGFSYs2gOZ1VkrHDRwjAT1UAxAEqr8KGAIooiWFBgkA+aRgaahBcVDoKfDJYBGgQDDoMJhAAFUQ6aQA1FKxRdlSbIkZIEAA5FHYkGDK4GEZyADd0AFcSkEVlNU0dCgx4CgBaNnZtODojVT6B4Y5VXkERMUkQAF9V8jQUACMkNEQl8SlyerA2YiwMFdLDlfIsfBb2bYlffdLVDHYUIyQwVSIEkmAAZgTxBts4DZtICjNIsC0iGgSqAiHQ4AAzDDIlLpUqZcg5eJ5DiFYqICpVGp1BogZpoNqIToqdRaDTaBh6FCRfBgIgoChIMYTAHorHI1TofbrciePJGcY2XEZbK5fJk9qU6q1erSemM0rM7ps7TTOBDEbCyZmi1zBbCURHNYbEBbXbvUB4kBYVXE9VFdoAGWwonQeta7VuxxAMBQPiwAeV+N9oBJBUTpS11N1TQjTKULJ67I0AGYraoeKC+KoABoAWUDuCiSG+AGIwFgkkDnZsUECWj92j3vY9nq9sUnvSnvf7yaVgySw7mGe1Pt9fv9YapQeDIdDYUE43GM56VYS1aSM+VKtqaeGV-muqydKXy5XgdX643m22O124TKrp9kYA6-Igw6nOc3hXFI8Rej655+pec4gAuob7MuBogFGh7xieaRniARKprOmo3tmtL6u0RrPsWZbjJM76fg2Tb4C2KDtp2fgAS6Wz9oO4HrIBVCQLQIAtBIGAAI5tAAksEkB8OQADWfgKSAjh7HGMHSHQLDxIkyRwYRxEzshZFUjqlF5oaBbGr0-TmrMowMVMjm2uw8wAKwlsIWyCsObp7Ac-m0pBSTQdc2GhfCo4vG8iBroOm5AtuwIAGyDBiApIJCcDKYMSI5fglj1HQWXjIMVhykghWhWAgySIM3xEGAMLdvciI4vEaKYtiKIEcmiEkeZFLkVZ95YTRRYcn8ERRHyOXlr14pIJKaDSi6NUKnQSrGUNREXumKFZhNmHUXZtGmu5znljazneb5QgxYBQUeoNU7DWZx1BiGekYXSNnRTluHHnOp4HaZaYamNll3udj6Fiar6uUxtYsT+HF-txgXAaBQ6AQ8TzxRO+2fYdSE-YgaH-ZNq5fMlAKpaCmXZYKeUFUVgolWgZUVeV1VxrVXN-I1EjNV4bUHicR4JuDH0EhTI1U5m43w4DD62U+M0oyKaNfqx7Gcf+uP8WBpQQX8UGXNcEPk1DpHU39S4a1hz0gzLeHy16isO6NqtwzmrsXdryP0XrVbo9+bG-lx3avXjAkW0JLqyAZSSTr7R0wwHt5B1RiP2eyXIGMYpjmJY1h2E4qhRjw7sBQn7oZFpeQwAABBYQRWxFNuwTIrfVJ3CDkK4YCOMBA2GZn07Q1ep3qwXWtIw5MyWq590jI9fkg03wU3DFJw9xcOkHx7I7E+O7wgElG5MyCGVZTlHN1cVpWiPzVXmkLr+Cg1TUtSlh1b0XUBorX6jPL6c8Tpq3zkDaaJpOTzV5PyQUy0xT9XWptWUQsdp7TtlnSmOdryB2sprDol0Zqbw4HdG6W8uA+R3o3XiOx952wQkrb6xCaYuyXsDAKnswYDR9rPR2ucKJ00LldXWjFI4G0xsbHGCczYExdETMcCUyYcL9irVCzsAZ8Nvn8e+aVWbPzgPlX+SAeZ8wxJVQWeQrH-3FoA9qcJBFy2ESZbO89YFkKmpQsOb45EYxjljOOPFewqMEi6cKJ9bYfW0T4lCPCDFAwbmFWW+ERFQLESQvO-iQ4rzosEj8UdDaxxNsokCScQDOkAmPAAInAb4fgUjTzJoQ5WxCF5wPIQg1eTl14imoZ5e0OE97XxwkfM4vdT7YUdHcC+GjSY3wZnfLcO4IRQjcfCUBKRwHdQIaI-2+SJEI2XkXWaXIeSLTQa5Q5a0pTDm2oqSBnDoEWQKZIy5V1Rm0LXnafgDplhSEmZOJJRCrypJ+Qs0FoNPHvJ0T0vxsKBklNRiE6ORtsbxxYdE5Oai4pXwhSc3RMKLlrPXMYzZYJtn7mAbGL2XjIbJK+ec4OUidbh1kWU+RYTFF4qiTU82dTAJxMirBdhZLuH6NhdMmMWTvbeKhTA0haLAkvh5RWLFFTwlVPxSK1RhN9k9QwUchWMrfHqspei65yC7lCgeeap5G1hxp2Obk05vTClcpNCXbAZczASAsFYWwDhnB1wybjZuWirUpLlZShgWw27DwRdklV3TrXfNtZqjFIo+AAE5i3bh4BWcEdAYAYkGGAGwIaUAAA9BgSDAK2PiRhcARNNkaxASAwWxOPpK0lXryWJs5fiQeHcu4eIzay1V7KzrjooaHLV5Yi0lrBOWwYlbq21vrU2ltbbgKdoNcK-Gvb+2jxQGAZprSpWWpHSim1S67X-I3nQoFixFmXo6NeieQIWUyHjQuxe8C83XUBS5EZH6xmMOjYBcYZVh0fLyRSpdwJ03KrnVmtVOaX3gZkTqvloSjZ+HlKIbt57CXCUkAAKwkhQLAskJD1AbTQYEpAOPAgALonBoKAVSLHECaXEC0SIvr05GU9Sh71qLc0ruLvoQNJhVCNIAEKqEDN-PuqgADifa4DNBjfvEA+mJCGZYDM628yzMWb2UiFE4qMBgHoxIRjzHWPsc495njqxuN+b8-58gElpJyQUsCAL5AMQ0H80AA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-10-05T09:00:51.184Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/SearchTest> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/SearchTest> a <http://www.w3.org/ns/ldp#Resource> .
+}

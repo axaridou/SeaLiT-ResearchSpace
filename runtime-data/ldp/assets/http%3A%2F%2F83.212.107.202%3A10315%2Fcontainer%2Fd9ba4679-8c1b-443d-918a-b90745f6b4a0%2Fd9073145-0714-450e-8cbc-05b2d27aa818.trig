@@ -1,0 +1,17 @@
+
+<http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/d9073145-0714-450e-8cbc-05b2d27aa818/context> {
+  <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/d9073145-0714-450e-8cbc-05b2d27aa818>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/C6D7D8ED-D806-32FB-A45B-4545D46FBD99>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biagio Peragallo";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 23;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-03T12:54:55.267Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://83.212.107.202:10315/container/setContainer/d9ba4679-8c1b-443d-918a-b90745f6b4a0>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/d9073145-0714-450e-8cbc-05b2d27aa818> .
+  
+  <http://83.212.107.202:10315/container/d9ba4679-8c1b-443d-918a-b90745f6b4a0/d9073145-0714-450e-8cbc-05b2d27aa818>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/queryContainer/ttttttttt/context> {
+  <http://83.212.169.164:10315/container/queryContainer/ttttttttt> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ttttttttt";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE { ?subject <http://www.sealit.gr/ontology/FR/related_to_voyageVS> <urn:uuid:09afb5f0-dc8c-4cd4-bd6b-caa0d983f31a>. }
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KiYqmOAanAJ4oDmjcg0QAefFixFIAehkB3RQDo26bEv50ZcAHZY4aOPx4yAYgCUZDNCixIYAfX0OAbrwFJOuAHxkQMGmoQcyQwOABXOgohUAw6DCYQABVEOj9ORLs6AFskniJGSBAAORRs+2K4GCEQF3RwwpBInUhw8IwYSAAGAE4UADMAIwBWfq6AWhgKAA4KcYAWChh58cGYADZB8YoUFC6YHumAZn6jgEYWAF9L8htBpDREcwi7AAI4ftewQiJXgGEUHRDBByNUwBR4kQsBhdE8Xkh3p9vsR-oDgX4sOEiGhCsBrgBdfE3Jo6DAARwaAEkAt1LkTyP0aESgA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/guest>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-21T07:49:51.345Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/ttttttttt> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/ttttttttt> a <http://www.w3.org/ns/ldp#Resource> .
+}

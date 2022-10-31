@@ -1,0 +1,47 @@
+
+<http://www.sealit.gr/ontology/fields/has_crew_payment/context> {
+  <http://www.sealit.gr/ontology/fields/has_crew_payment> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-2346a55e4aaa48e4a4cd9cb109c34783-hzr7zbq .
+  
+  _:genid-2346a55e4aaa48e4a4cd9cb109c34783-hzr7zbq a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_crew_payment> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-2346a55e4aaa48e4a4cd9cb109c34783-yhcu18 <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+$subject a crm:E21_Person . 
+$subject sealit:gave_service_for ?value .
+OPTIONAL { ?value rdfs:label ?labelX }
+OPTIONAL { ?value crm:P4_has_time-span ?timespan .
+?timespan crm:P82_at_some_time_within ?timeX .
+}
+BIND( COALESCE(Concat(\", things payed in cash within \", STR(?timeX)) , \"\")  AS ?time)
+OPTIONAL {
+?value sealit:had_money_value ?monetary .
+?monetary sealit:P181_has_amount ?amount;
+sealit:P180_has_currency ?currency .
+?currency rdfs:label ?currencylabel .
+OPTIONAL { ?monetary crm:P2_has_type/rdfs:label ?monetType .}
+    BIND(Concat(Str(?amount),\" \",?currencylabel, \" \", COALESCE(?monetType, \"\")) as ?labelMONET)
+}
+BIND ( COALESCE( CONCAT(?labelX, \" \", COALESCE(?labelMONET, \"\"), \" \", ?time), ?labelX ) as ?label )
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_crew_payment> <http://www.w3.org/2000/01/rdf-schema#label>
+      "has crew payment"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-2346a55e4aaa48e4a4cd9cb109c34783-yhcu18;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.sealit.gr/ontology/sealit#Crew_Payment> .
+  
+  _:genid-2346a55e4aaa48e4a4cd9cb109c34783-yhcu18 a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-2346a55e4aaa48e4a4cd9cb109c34783-hzr7zbq <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_crew_payment> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-30T00:08:30.755Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_crew_payment> .
+  
+  <http://www.sealit.gr/ontology/fields/has_crew_payment> a <http://www.w3.org/ns/ldp#Resource> .
+}

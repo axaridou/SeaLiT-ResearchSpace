@@ -1,0 +1,18 @@
+
+<http://83.212.169.164:10315/container/queryContainer/mDhLGCtSyUjRuxFCNuYrCldcEQPecUfUjWgEquvg/context> {
+  <http://83.212.169.164:10315/container/queryContainer/mDhLGCtSyUjRuxFCNuYrCldcEQPecUfUjWgEquvg>
+    a <http://spinrdf.org/sp#Query>, <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "anastasia";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE { ?subject <http://www.sealit.gr/ontology/FR/Ship2Record> <http://www.sealit.gr/DB/Document_of_Register/101/2018-03-06/2020-09-22T21%3A28%3A28>. }
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KiAPPllkZAPQ8DuggHRhUmLEIDmdHnAB2WOGjiSAnjwBiAYR4AlJBTh0YAPjIgGbDl14Dho9Nikz5i5Ws26eBYgCZ9hsZm5DA01CD6YHAArnQUjKSgGHQYTCAAKoh05gBqaVhIdAC26apEjJAgAHIoRUgwVXAwCSAAbujRFSDW3HyC-CJiTtI8ACIAQmNwFNF1CgD6cABm8-qSGGAFMgCMAAzbPL77ABwAtLsAzOcAbIe7R+cAnKe+vum+2wCkFwCCvsffP7HEAAXxB5DQKAARkg0IgtAx+AACAAyGywSIAFLpokoMEiYPiAKIAR2ixBQknWcAAlEi9ttzM0wBQUkQsBh5PDEaj0VicXiCcSyRSqZy6QzzFhokQ0BVQGBolSkJtOXI0plKtlyHloCAtiUyl0anUGk0Wu00J1ED1bP1Bo4JCMJlMZnMsIsVmt0YUeAy7tszpcbncHrtnq93l9fv9Af9QeCQJCYXC9Zr9bl8oVDeVEGituhzJbrZUEUhkWjNvzcZghUjSeSiJTqRL9kyUFgO0aNVlM3qDaVc5UTfVGs0ix0ura+sJ+BchEZJHd9jwABoAWRRuAo+CQRRQAGJNik5JIExCUKfopSugmwQBde+J6JyDBkpAASVCkF2IKf5CWGgnyAA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-10-09T11:12:20.750Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/mDhLGCtSyUjRuxFCNuYrCldcEQPecUfUjWgEquvg> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/mDhLGCtSyUjRuxFCNuYrCldcEQPecUfUjWgEquvg>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,59 @@
+[[> sealit:Page_breadcrumb ]]
+
+<style>
+  #record-tabs .tab-ontodia {
+    margin: 0px;
+    padding: 2px 0px 0px;
+    width: 100%;
+    height: calc(100vh - 300px);
+  }
+</style>
+
+<div class="page">
+
+  [[> Platform:DefaultResourceHeader]]
+ 
+  <bs-tabs id='record-tabs' class='page__body-navtabs--borderless' default-active-key='summary' unmount-on-exit=true>
+
+        <bs-tab event-key='summary' title='Summary'>
+      <div data-flex-layout='row top-stretch'>
+   
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+           
+        
+[[!--render the next field definitions as a field-value table --]]    
+        
+
+  <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions
+http://www.sealit.gr/ontology/fields/is_profession_of	=	"http://www.sealit.gr/ontology/fields/is_profession_of"
+http://www.sealit.gr/ontology/fields/is_employment_role_of =	"http://www.sealit.gr/ontology/fields/is_employment_role_of"
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+
+
+            </table>
+          </div>
+      </div>
+          
+
+[[> sealit:Resource_info 		sourceinfo=true ]] 
+
+          
+    </bs-tab>
+    
+
+    
+[[!--> sealit:DefaultTabs --]]
+    
+    </bs-tabs>
+</div>

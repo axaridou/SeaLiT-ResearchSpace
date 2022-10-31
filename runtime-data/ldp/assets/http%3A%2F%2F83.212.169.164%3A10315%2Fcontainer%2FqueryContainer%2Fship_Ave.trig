@@ -1,0 +1,20 @@
+
+<http://83.212.169.164:10315/container/queryContainer/ship_Ave/context> {
+  <http://83.212.169.164:10315/container/queryContainer/ship_Ave> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ship Ave";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE {
+  ?subject <http://www.sealit.gr/ontology/FR/related_to_voyageVS> <urn:uuid:3769f595-273d-4a0f-84ad-dc8ca03b180b>.
+  ?subject <http://www.sealit.gr/ontology/FR/had_captainShip> <http://www.sealit.gr/DB/person/8C501B63-CCC0-345C-BCB2-6F312DCC6DA1>.
+}
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KiYqmOAanAJ4oDmjcg0QAefFixFIAehkB3RQDo26bEv50ZcAHZY4aOPx4yAYgCUZDNCixIYAfX0OAbrwFJOuAHxkQMGmoQcyQwOABXOgohUAw6DCYQABVEOj9ORLs6AFskniJGSBAAORRs+2K4GCEQF3RwwpBInUhw8IwYSABmAHYANgBOADMAVgGRgFoAJh6umAmAFhQABiGJgA4l+ZgKdYoVroAjAEZ15cOQAF9L8htDpDREbj5BAAI4IdewQiJXgEEXDVqmAKPEiFgMLonu43h8vj9-oC-FhwkQ0IVQGBwvxBGAIVDoMlUulMkgcnkCohSuUYJVqn46mgGohmq12p1eoNRuNprN5ktVhsthMdnsDiczhdrrcUPdHoSUkUsCTCVlcvlGgAZbBk9AM+qNZ4ed6fb7ERFA2y2DWJRUgNLkDKqsnqylFakVKo1RnMooSKSyBTKeRdJRwOj8GRTZbLY4yAAaAFlNbgKPgkNkUABiPHxHT8K43EA2fPhDyIQvXAC6VaL4R0GAAjg0AJIBSDLS618hDGj0DH2lhFUHZSAAUSmxwcAAUyWEdH4REVxJJpHJFPIVOx1JptHoDEYTBYZPgUI59uCUBgdARiL5yO3qEEQmFItEyLF4rbiY7SeSbe6ZSevS5A+o0-prkGm6qBwGhaAAIgAQjIBR0POMjrAAwiMsaIX0XQTJhRHLBMXQLCMmETIhmGIVMEx9KYXTHFM8FEX08F-MchYynKiB-PuDZwK8qaECgQxDNeCAPqEoLEPiC5FPx+iCcJaYYGJEk6FJIAomiA5gd+RQOiATqgGqFKNB6tJevqTLgaugYbluahYHBMhIShc66Bh2G4fhhHEaR5GUdRtH0YxzGsZh7GcdxlARHohk6SqZkuhZiDalkeqgQaiBcQ+VpYABoB2sZpk6WlAElEB1kgbUuV+g567BqG4aRtGsYJsmIkZtm152IIaTSsWKCluWRRxXcDxJcqv7Ov+bogJluqPDldl8QJkKqaJ4mSX4MCFcVRJGSlFULZZNV0t6DUgBBjktWGEZRjGcZJimaa9TmWB5gWw0lvwZaCBW1zVrWXaXEAA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-11-03T12:59:06.073Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/ship_Ave> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/ship_Ave> a <http://www.w3.org/ns/ldp#Resource> .
+}

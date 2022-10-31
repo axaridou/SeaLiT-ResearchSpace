@@ -1,0 +1,51 @@
+
+<div>
+  
+  [[#*inline 'category_intro']]
+  [[> sealit:SemanticSearchResultPresent intro=true]] 
+  [[/inline]]
+  
+  [[#*inline 'person_semantic_table']]
+  [[!--> sealit:KeywordSearchBySource master=true link-params='{"tab":"register_of_maritime_personnel", "cat":"person"}'--]] 
+  [[> sealit:SemanticSearchResultPresent simple-view=true link-params='{"tab":"register_of_maritime_personnel",  "cat":"person"}']]
+  [[/inline]]
+
+  [[#*inline 'place_semantic_table']]
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"register_of_maritime_personnel", "cat":"place"}']] 
+  [[/inline]]
+
+  [[#*inline 'show_content']]
+  [[#if 0]]
+  [[>sealit:queries_counts]]
+  [[else]]
+  <bs-tab-container id="some-ide" class="bs-left-vertical-tabs" default-active-key='[[#if (urlParam "cat")]][[urlParam "cat"]][[else]]intro[[/if]]'>
+    <bs-row class="clearfix">
+      <bs-col sm="2">
+        <bs-nav bs-style="tabs" stacked="true">
+          <bs-nav-item event-key="intro"></bs-nav-item>
+          <bs-nav-item event-key="person">Persons</bs-nav-item>
+          <bs-nav-item event-key="place">Places</bs-nav-item>
+          <bs-nav-item event-key="misc">Misc</bs-nav-item>
+        </bs-nav>
+      </bs-col>
+      <bs-col sm="10">
+        <bs-tab-content animation="true">
+          <bs-tab-pane event-key="intro" >[[> category_intro]]</bs-tab-pane>
+          <bs-tab-pane event-key="person" mount-on-enter=true>[[> person_semantic_table class="crm:E21_Person" classlabel="Persons"
+             person=true limit=false]]
+          </bs-tab-pane>           
+          <bs-tab-pane event-key="place" mount-on-enter=true>[[> place_semantic_table class="crm:E53_Place" classlabel="Places"
+             place=true limit=false]]
+          </bs-tab-pane> 
+          <bs-tab-pane event-key="misc" mount-on-enter=true>
+            [[> sealit:MiscOptions countries_and_payments=0 countries_and_crew_members=0 ships_and_crew_members=0 ships_and_owners=0 persons_and_places=true employed_persons=true professions_and_households=0 profession_and_houserole=0 profession_and_age=true ]]
+          </bs-tab-pane>
+        </bs-tab-content>
+      </bs-col>
+    </bs-row>
+  </bs-tab-container>
+  [[/if]]
+  [[/inline]]
+  
+  [[>show_content recordtype="http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel"]]
+</div>

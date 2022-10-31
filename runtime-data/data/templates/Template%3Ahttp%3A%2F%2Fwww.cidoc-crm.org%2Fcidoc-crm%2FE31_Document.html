@@ -1,0 +1,68 @@
+[[> sealit:Page_breadcrumb ]]
+
+<style>
+  #record-tabs .tab-ontodia {
+    margin: 0px;
+    padding: 2px 0px 0px;
+    width: 100%;
+    height: calc(100vh - 300px);
+  }
+</style>
+
+<div class="page">
+
+  [[> Platform:DefaultResourceHeader]]
+ 
+  <bs-tabs id='record-tabs' class='page__body-navtabs--borderless' default-active-key='summary' unmount-on-exit=true>
+
+   <bs-tab event-key='summary' title='Summary'>
+      <div data-flex-layout='row top-stretch'>
+   
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+           
+        
+[[!--render the next field definitions as a field-value table --]]    
+        
+
+  <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions
+http://www.sealit.gr/ontology/fields/has_identification_type = "http://www.sealit.gr/ontology/fields/has_identification_type"    
+http://www.sealit.gr/ontology/fields/has_record_title = "http://www.sealit.gr/ontology/fields/has_record_title"
+http://www.sealit.gr/ontology/fields/has_source_type = "http://www.sealit.gr/ontology/fields/has_source_type"
+http://www.sealit.gr/ontology/fields/source_created_in = "http://www.sealit.gr/ontology/fields/source_created_in"
+http://www.sealit.gr/ontology/fields/has_topographic_signature = "http://www.sealit.gr/ontology/fields/has_topographic_signature"
+http://www.sealit.gr/ontology/fields/has_library_link = "http://www.sealit.gr/ontology/fields/has_library_link"
+http://www.sealit.gr/ontology/fields/has_title = "http://www.sealit.gr/ontology/fields/has_title"
+http://www.sealit.gr/ontology/fields/part_of = "http://www.sealit.gr/ontology/fields/part_of" 
+http://www.sealit.gr/ontology/fields/has_transcriber = "http://www.sealit.gr/ontology/fields/has_transcriber"
+http://www.sealit.gr/ontology/fields/has_language = "http://www.sealit.gr/ontology/fields/has_language"
+http://www.sealit.gr/ontology/fields/created_within_time = "http://www.sealit.gr/ontology/fields/created_within_time"
+http://www.sealit.gr/ontology/fields/created_by = "http://www.sealit.gr/ontology/fields/created_by"
+http://www.sealit.gr/ontology/fields/has_keeper = "http://www.sealit.gr/ontology/fields/has_keeper"
+http://www.sealit.gr/ontology/fields/has_overall_statistics = "http://www.sealit.gr/ontology/fields/has_overall_statistics"
+http://www.sealit.gr/ontology/fields/refers_to_ship = "http://www.sealit.gr/ontology/fields/refers_to_ship"
+http://www.sealit.gr/ontology/fields/refers_to_voyage = "http://www.sealit.gr/ontology/fields/refers_to_voyage"
+http://www.sealit.gr/ontology/fields/refers_to_person = "http://www.sealit.gr/ontology/fields/refers_to_person"
+http://www.sealit.gr/ontology/fields/refers_to_legal_body_REMOVED = "http://www.sealit.gr/ontology/fields/refers_to_legal_body_REMOVED"
+http://www.sealit.gr/ontology/fields/refers_to_place = "http://www.sealit.gr/ontology/fields/refers_to_place"
+
+
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+
+            </table>
+          </div>
+      </div>
+    </bs-tab>
+    
+    </bs-tabs>
+</div>

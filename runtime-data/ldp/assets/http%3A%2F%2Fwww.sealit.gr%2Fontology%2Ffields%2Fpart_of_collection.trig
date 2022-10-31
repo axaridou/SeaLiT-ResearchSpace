@@ -1,0 +1,38 @@
+
+<http://www.sealit.gr/ontology/fields/part_of_collection/context> {
+  <http://www.sealit.gr/ontology/fields/part_of_collection> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+  
+  _:genid-3899013254a343f4b7ed2cdd130e9436-zqe9do <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-3899013254a343f4b7ed2cdd130e9436-9njnch a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/part_of_collection> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-3899013254a343f4b7ed2cdd130e9436-zqe9do;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is part of collection"@en .
+  
+  _:genid-3899013254a343f4b7ed2cdd130e9436-zqe9do a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-3899013254a343f4b7ed2cdd130e9436-9njnch <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+$subject a crm:E31_Document .
+$subject crm:P2_has_type <http://www.sealit.gr/DB/doc%20types/source%20identity> .
+$subject crm:P46i_forms_part_of ?collection . 
+?collection rdfs:label ?collectionLabel .
+?collection a crm:E78_Collection .
+OPTIONAL {?collection crm:P108i_was_produced_by/crm:P4_has_time-span/crm:P82a_begin_of_the_begin ?begin .}
+OPTIONAL {?collection crm:P108i_was_produced_by/crm:P4_has_time-span/crm:P82b_end_of_the_end ?end .}
+BIND( CONCAT(?collectionLabel, \" \", CONCAT(\"from \", COALESCE(STR(?begin),\"-\"), \" to \", COALESCE(STR(?end),\"-\"))) AS ?value)
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/part_of_collection> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-3899013254a343f4b7ed2cdd130e9436-9njnch;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-30T21:28:00.118Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/part_of_collection> .
+  
+  <http://www.sealit.gr/ontology/fields/part_of_collection> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/same_as/context> {
+  <http://www.sealit.gr/ontology/fields/same_as> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "registered as"@en;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-af57f752589a4d699de3e771db31f902-kpwuuj .
+  
+  _:genid-af57f752589a4d699de3e771db31f902-kpwuuj a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/same_as> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-af57f752589a4d699de3e771db31f902-ouru8g .
+  
+  _:genid-af57f752589a4d699de3e771db31f902-ouru8g a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+  { $subject owl:sameAs ?value }        
+ OPTIONAL {       
+    { ?source (crm:P67_refers_to|^crm:P67i_is_referred_to_by)  ?value  .
+    ?source a crm:E73_Information_Object .
+    ?source  crm:P2_has_type   <http://www.sealit.gr/DB/template> .
+    ?source (crm:P102_has_title/rdfs:label) ?sourceLabel .
+  }
+   ?value rdfs:label ?valueLabel .
+   BIND(CONCAT(?valueLabel, \"  (in source: \", ?sourceLabel, \")\" ) as ?label )
+  }
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/same_as> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-08T13:52:39.063Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/same_as> .
+  
+  <http://www.sealit.gr/ontology/fields/same_as> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,116 @@
+<ol class="page-breadcrumb">
+  <li>
+    <mp-link title="Home" url="/">Home</mp-link>
+  </li>
+ <!-- <li class="active">Start</li> -->
+</ol>
+
+
+<div class="page" >
+  <div class="page__header">
+    <div class='page__header-thumbnail'>
+      <h2><i class="fa fa-home fa-2x"></i></h2>
+    </div>
+    <div class='page__header-body' style="width:450px;">
+      <h2>Seafaring Lives in Transition</h2>
+      <h4 style="letter-spacing: 0.05em;"><i>Welcome on board the SeaLiT ResearchSpace</i></h4>
+    </div>
+  </div>
+  <div class='page__body' >
+    <a class="fa fa-ship fa-2x text-muted" style="float:right" target="_self" href="./sealit:Search">Sail in</a>
+    [[!--[[>Admin:IconPanelInclude title="sail in..." faIcon="fa fa-ship fa-5x" pageLink=(resolvePrefix "sealit:Search")]] --]]
+    <div style="clear:both;"></div>
+
+
+    <div class="views-field views-field-field-related-image">
+      <!--
+<div class="field-content">
+<img typeof="foaf:Image" src="http://www.sealitproject.eu/sites/default/files/Gallery-2.png" width="653" height="432" alt="">
+</div>
+-->
+
+
+
+      <div class="content" >
+
+        <p><span style="line-height:107%; font-size:18px;"><strong><em>Explore the below archival sources of maritime history:</em></strong></span></p>
+        <hr>
+        <p><strong>Crew Lists</strong></p>
+        <ul>
+          <li>Crew and displacement list (Roll)</li>
+          <li>Crew List (Ruoli di Equipaggio)</li>
+          <li>General Spanish Crew List</li>
+        </ul>
+
+        <p><strong>Registers / Lists</strong></p>
+        <ul>
+          <li>Students Register</li>
+          <li>Civil Register</li>
+          <li>Register of Maritime Personnel</li>
+          <li>Register of Maritime Workers (Matricole della gente di mare)</li>
+          <li>Sailors Register (Libro de registro de marineros)</li>
+          <li>Naval Ship Register List</li>
+          <li>Seagoing Personnel</li>
+          <li>Lists of ships</li>
+        </ul>
+
+        <p><strong>Censuses</strong></p>
+        <ul>
+          <li>Census La Ciotat</li>
+          <li>First National all-Russian Census of the Russian Empire</li>
+        </ul>
+
+        <p><strong>Payrolls</strong></p>
+        <ul>
+          <li>Payroll</li>
+          <li>Payroll of Russian Steam Navigation and Trading Company</li>
+        </ul>
+
+        <p><strong>Employment records</strong></p>
+        <ul>
+          <li>Shipyards of Messageries Maritimes, La Ciotat</li>
+        </ul>
+      </div>
+
+      <hr>
+      <div>
+        <center>
+          <img alt="" src="http://www.sealitproject.eu/sites/default/files/Links_0.png" style="width: 50%; height: 207px;">
+          <img alt="" src="http://www.sealitproject.eu/sites/default/files/Project-image.png" style="width: 50%; height: 207px;">
+        </center>
+      </div>  
+
+    </div>
+  </div>
+  
+  
+[[#*inline "timeline"]]
+      <span style="border:0px; font-size:14px; margin:0px; padding:0px">Timeline: Voyages of this month</span>
+      <semantic-timeline query='PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?subject ?destination ?start ?end  
+WHERE {
+  BIND( DAY(NOW()) as ?day )
+  BIND( MONTH(NOW()) as ?month )
+  ?event a sealit:Voyage .
+  ?event sealit:destination/rdfs:label ?destination .
+  ?event crm:P4_has_time-span ?timespan .
+  ?event rdfs:label ?subject .
+  ?timespan crm:P82a_begin_of_the_begin ?startD .
+  ?timespan crm:P82b_end_of_the_end ?endD .
+  BIND(STRDT(STR(?startD), xsd:date) AS ?start)
+  BIND(STRDT(STR(?endD), xsd:date) AS ?end)
+
+  FILTER ( COALESCE(MONTH(?start)=?month, 0 ) )
+}
+' date-formatX="MM/DD/YYYY"
+                         tuple-template="{{> template}}" tuple-template-height="42">
+        <template id="template">
+          <div>
+            <b>{{subject.value}}</b> {{now.value}}
+            {{#if destination}}<div>To {{destination.value}}</div>{{/if}}
+            <div>{{start.value}} - {{end.value}}</div>
+          </div>
+        </template>
+        >
+      </semantic-timeline>   
+[[/inline]]

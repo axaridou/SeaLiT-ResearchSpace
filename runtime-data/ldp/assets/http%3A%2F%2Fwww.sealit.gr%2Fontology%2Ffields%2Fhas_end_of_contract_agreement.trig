@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/has_end_of_contract_agreement/context> {
+  _:genid-ed9420aba353449ea04aecb6d8c80934-95pzkj a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_end_of_contract_agreement> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "has end of contract agreement"@en .
+  
+  _:genid-ed9420aba353449ea04aecb6d8c80934-lp4wg4 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_end_of_contract_agreement> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-ed9420aba353449ea04aecb6d8c80934-lp4wg4 .
+  
+  _:genid-ed9420aba353449ea04aecb6d8c80934-lp4wg4 a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-ed9420aba353449ea04aecb6d8c80934-95pzkj <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person .
+$subject sealit:gave_service_for ?Crew_Payment .
+?Crew_Payment sealit:has_been_agreed_in ?contract .
+?contract a sealit:Labor_Contract .
+?contract crm:P3_has_note ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_end_of_contract_agreement> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-ed9420aba353449ea04aecb6d8c80934-95pzkj;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-08-04T15:06:40.571Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_end_of_contract_agreement> .
+  
+  <http://www.sealit.gr/ontology/fields/has_end_of_contract_agreement> a <http://www.w3.org/ns/ldp#Resource> .
+}

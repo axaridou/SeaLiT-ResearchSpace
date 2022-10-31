@@ -1,0 +1,17 @@
+
+<http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/2e9d3e4e-2900-4dcb-ba57-6e6aed2a34cf/context> {
+  <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/2e9d3e4e-2900-4dcb-ba57-6e6aed2a34cf>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/person/557141D7-9B51-3558-A2E4-6B8D86BD7D56>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Luigi Mala";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 19;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2022-01-20T16:06:03.732Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://rs.sealitproject.eu/container/setContainer/de21227d-df2c-47f0-9b21-4bdb2fe07835>
+    <http://www.w3.org/ns/ldp#contains> <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/2e9d3e4e-2900-4dcb-ba57-6e6aed2a34cf> .
+  
+  <http://rs.sealitproject.eu/container/de21227d-df2c-47f0-9b21-4bdb2fe07835/2e9d3e4e-2900-4dcb-ba57-6e6aed2a34cf>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

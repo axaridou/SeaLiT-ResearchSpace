@@ -1,0 +1,472 @@
+[[#*inline 'prefices']]
+PREFIX crm:	<http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+  
+[[/inline]]
+  
+[[#if ship ]]
+[[> prefices]]
+SELECT DISTINCT ($subjectM as $subject) 
+#?ship_type ?tonnage ?registration_port ?reg_no ?construction_location ?construction_date ?owner ?registration_date ?sameAs ?seeAlso 
+(GROUP_CONCAT(DISTINCT ?ship_type ; SEPARATOR = " , ") as ?ship_type) 
+(GROUP_CONCAT(DISTINCT ?tonnage ; SEPARATOR = " , ") as ?tonnage) 
+(GROUP_CONCAT(DISTINCT ?registration_port ; SEPARATOR = " , ") as ?registration_port) 
+(GROUP_CONCAT(DISTINCT ?reg_no ; SEPARATOR = " , ") as ?reg_no) 
+(GROUP_CONCAT(DISTINCT ?construction_location ; SEPARATOR = " , ") as ?construction_location) 
+(GROUP_CONCAT(DISTINCT ?construction_date ; SEPARATOR = " , ") as ?construction_date) 
+(GROUP_CONCAT(DISTINCT ?owner ; SEPARATOR = " , ") as ?owner) 
+#(GROUP_CONCAT(DISTINCT ?seeAlso ; SEPARATOR = " , ") as ?seeAlso) 
+#(GROUP_CONCAT(DISTINCT ?registration_date ; SEPARATOR = " , ") as ?registration_date)
+WHERE {
+  $subjectX rdf:type sealit:Ship .
+  $subjectM owl:sameAs $subjectX; crm:P2_has_type <http://www.sealit.gr/DB/type/master>.
+  ?record crm:P2_has_type ?recordType .
+  ?record crm:P67_refers_to $subjectX. 
+  BIND($subjectX as $subject)
+
+ [[#if subject]]FILTER ($subjectM = <{{subject.value}}> || $subject = <{{subject.value}}>)[[else]]
+ [[/if]]
+  
+{ SELECT $subject ?ship_type ?tonnage ?registration_port ?reg_no ?construction_location ?construction_date ?owner ?seeAlso 
+{
+  $subject a sealit:Ship .
+  [[#if recordtype]]?record crm:P2_has_type <[[recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by) $subject .[[/if]]
+  #OPTIONAL { select $subject (group_concat(?sameAs; SEPARATOR=", ") as ?sameAs ) { $subject owl:sameAs ?sameAs} group by $subject }
+  OPTIONAL {$subject crm:P2_has_type ?ship_typeX. ?ship_typeX rdfs:label ?ship_type .}
+  FILTER( ?ship_typeX != <http://www.sealit.gr/DB/type/master>)
+  
+  OPTIONAL {$subject (sealit:has_tonnage/crm:P90_has_value) ?tonnage .}
+  OPTIONAL {$subject sealit:was_constructed_by ?construction .
+           ?construction (crm:P7_took_place_at/rdfs:label) ?construction_location ;
+  				 (crm:P4_has_time-span/crm:P82_at_some_time_within) ?construction_dateX .
+            BIND(IF(REGEX(STR(?construction_dateX), "[0-9][0-9][0-9][0-9]-01-01"), SUBSTR(STR(?construction_dateX), 0, 4), ?construction_dateX) AS ?construction_date)
+            }
+  OPTIONAL {$subject sealit:is_registered_by ?registration .
+            ?registration (crm:P7_took_place_at/rdfs:label) ?registration_port ;
+    				(sealit:with_shipID/rdfs:label) ?reg_no .
+            #OPTIONAL {?registration (crm:P4_has_time-span/crm:P82_at_some_time_within) ?registration_date .}
+            }
+  OPTIONAL { $subject (sealit:has_phase/sealit:has_owner/rdfs:label) ?owner .}
+	#OPTIONAL { $subject (crm:P67i_is_referred_to_by/rdfs:seeAlso) ?seeAlso .}
+  }}
+} GROUP BY $subjectM
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+
+  
+[[#if voyage]]
+[[> prefices]]
+
+SELECT DISTINCT $subject ?ship ?destination ?started_on ?ended_on ?duration 
+WHERE {
+  graph ?g{
+ [[#if subject]] VALUES $subject { <{{subject.value}}> }[[else]]
+ [[#if recordtype]]?record crm:P2_has_type <[[recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by)/sealit:voyages $subject .[[/if]][[/if]]
+  $subject a sealit:Voyage .
+  ?ship sealit:voyages $subject .
+  OPTIONAL{ $subject sealit:destination ?destination . }
+  OPTIONAL{ $subject crm:P4_has_time-span ?timespan .
+           
+  OPTIONAL{ ?timespan crm:P82a_begin_of_the_begin ?started_onX .
+          	Bind(STRDT(STR(?started_onX), <http://www.w3.org/2001/XMLSchema#date>) as ?started_on) }
+  OPTIONAL{ ?timespan crm:P82b_end_of_the_end ?ended_onX . 
+          	Bind(STRDT(STR(?ended_onX), <http://www.w3.org/2001/XMLSchema#date>) as ?ended_on) }
+ 
+	OPTIONAL{
+			?timespan sealit:had_duration ?durationX . 
+  		?durationX sealit:value_duration ?value_duration .  
+        BIND (IF(CONTAINS(STR(?value_duration),"T"), STRBEFORE(STR(?value_duration),"T"), STR(?value_duration))  as ?duration_Date)
+        BIND (IF(CONTAINS(STR(?value_duration),"T"), STRAFTER(STR(?value_duration),"T"), "") as ?duration_Time)
+        BIND (CONCAT("",
+        COALESCE(REPLACE(REPLACE(REPLACE(REPLACE(STR(?duration_Date), "P",""), "Y", " year(s), "), "M", " month(s), "), "D", " day(s), "), "A"),
+        COALESCE(REPLACE(REPLACE(REPLACE(REPLACE(STR(?duration_Time), "T",""), "H", " hour(s), "), "M", " minute(s), "), "S", " second(s), "),"B")
+  		) as ?durationXX ) 
+        BIND ( IF(STRENDS(?durationXX,", "), SUBSTR(?durationXX, 0, STRLEN(?durationXX)-2), ?durationXX) as ?durationYY )
+        BIND ( IF(BOUND(?durationYY), CONCAT("", ?durationYY), "") as ?duration )
+	}
+           }
+    
+  OPTIONAL { ?source a crm:E73_Information_Object; crm:P67_refers_to	?doc . ?doc a crm:E31_Document .
+  ?source (crm:P2_has_type/rdfs:label) ?source_type .
+  ?source (crm:P102_has_title/rdfs:label) ?source_title .
+  }
+  
+    }
+} ORDER BY ?ship
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+
+  
+[[#if person]]
+[[> prefices]]
+SELECT DISTINCT ($subjectM as $subject) ?first_name ?last_name 
+#?father
+(GROUP_CONCAT(DISTINCT ?father ; SEPARATOR = " , ") as ?father) 
+(GROUP_CONCAT(DISTINCT ?birth_date ; SEPARATOR=" , ") as ?birth_date) 
+(SAMPLE(?residence) as ?residence)
+#?seeAlso
+WHERE {
+  $subjectX rdf:type crm:E21_Person .
+  $subjectM owl:sameAs $subjectX; crm:P2_has_type <http://www.sealit.gr/DB/type/master>.
+#  ?record crm:P2_has_type ?recordType .
+#  ?record crm:P67_refers_to $subjectX. 
+  BIND($subjectX as $subject)
+     
+ [[#if subject]]FILTER ($subjectM = <{{subject.value}}> || $subject = <{{subject.value}}>)[[else]]
+ [[/if]]
+  
+  $subjectM sealit:has_first_name ?first_name ; sealit:has_last_name ?last_name .
+  
+ { SELECT $subject ?birth_date ?father ?residence ?seeAlso {
+  $subject a crm:E21_Person .
+  [[#if recordtype]]?record crm:P2_has_type <[[recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by) $subject .[[/if]]
+  OPTIONAL{
+    $subject crm:P98i_was_born ?birth .
+    OPTIONAL {
+      ?birth crm:P4_has_time-span ?birthDateTS.
+      OPTIONAL { ?birthDateTS crm:P82_at_some_time_within ?birth_dateX. }
+      OPTIONAL { ?birthDateTS rdfs:label ?birth_dateX_label. }
+      BIND(SUBSTR(STR(?birth_dateX), 0, 4) AS ?birth_date)
+  		BIND(IF(REGEX(STR(?birth_dateX), "[0-9][0-9][0-9][0-9]-01-01"), SUBSTR(STR(?birth_dateX), 0, 4), ?birth_dateX) AS ?birth_date)
+    }
+    OPTIONAL{ ?birth (crm:P97_from_father/rdfs:label) ?father .}
+  }
+  OPTIONAL{ $subject crm:P74_has_current_or_former_residence ?residence .}
+  
+  #OPTIONAL{$subject (crm:P67i_is_referred_to_by/rdfs:seeAlso) ?seeAlso .}
+
+ }}
+} GROUP BY $subjectM ?first_name ?last_name ?seeAlso
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+  
+[[#if organization]]
+[[> prefices]]
+SELECT DISTINCT ($subjectM AS $subject) 
+(GROUP_CONCAT(DISTINCT ?name; SEPARATOR = " , ") AS ?name) 
+(GROUP_CONCAT(DISTINCT ?residence; SEPARATOR = " , ") AS ?residence) 
+(GROUP_CONCAT(DISTINCT ?member; SEPARATOR = " , ") AS ?member) 
+#(GROUP_CONCAT(DISTINCT ?seeAlso; SEPARATOR = " , ") AS  ?seeAlso)
+WHERE {
+  $subjectX rdf:type crm:E40_Legal_Body .
+  $subjectM owl:sameAs $subjectX; crm:P2_has_type <http://www.sealit.gr/DB/type/master>.
+  BIND($subjectX as $subject)
+  
+ [[#if subject]]FILTER ($subjectM = <{{subject.value}}> || $subject = <{{subject.value}}>)[[else]]
+ [[/if]]
+  
+  {
+    SELECT $subject ?name ?member ?residence ?seeAlso WHERE {
+      $subject rdf:type crm:E40_Legal_Body.
+ [[#if recordtype]]?record crm:P2_has_type <[[recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by) $subject .[[/if]]
+      OPTIONAL{?memberX crm:P107i_is_current_or_former_member_of $subject.
+      ?memberX rdfs:label ?member .}
+      OPTIONAL { $subject crm:P1_is_identified_by ?appelation .
+  								?appelation a crm:E41_Appellation; rdfs:label ?name .}
+  		OPTIONAL { $subject (crm:P74_has_current_or_former_residence/rdfs:label) ?residence .}
+  		#OPTIONAL { $subject (crm:P67i_is_referred_to_by/rdfs:seeAlso) ?seeAlso .}
+    }
+  }
+}
+GROUP BY $subjectM
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+  
+
+[[#if ship_crew_employment_with_payment]]
+[[> prefices]]
+SELECT DISTINCT $subject (?person as ?employee) ?serial_num ?recruitment_place ?started_by ?discharge_place ?ended_by ?profession ?ship ?pension_fund ?wage ?duration 
+WHERE {  
+    GRAPH ?g{
+ [[#if subject]]  VALUES $subject { <{{subject.value}}> }[[else]]
+ [[#if recordtype]]?source crm:P2_has_type <[[recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by)/sealit:had_provided $subject .[[/if]][[/if]]
+$subject a sealit:Ship_Crew_Employment .
+
+?person sealit:had_provided $subject .
+?ship (sealit:voyages/crm:P14_carried_out_by) ?person . 
+  
+  ?service_provided_in sealit:voyages ?voyage .
+  ?voyage crm:P14_carried_out_by ?person .
+
+
+  OPTIONAL {
+  ?person sealit:gave_service_for ?crew_payment.  
+  ?crew_payment sealit:for_service $subject .
+  
+  OPTIONAL{?crew_payment sealit:had_money_value ?moneyP .
+  {
+  ?moneyP sealit:P181_has_amount ?has_amountP .
+  ?moneyP (sealit:P180_has_currency/rdfs:label) ?has_currencyP.
+  ?moneyP crm:P2_has_type <http://www.sealit.gr/DB/money%20payments%20types/pension%20funds> .
+  Bind(Concat(Str(?has_amountP), " in ", ?has_currencyP) as ?pension_fund)
+  }}
+  OPTIONAL{?crew_payment sealit:had_money_value ?moneyW .
+  {
+  ?moneyW sealit:P181_has_amount ?has_amountW .
+  ?moneyW crm:P2_has_type <http://www.sealit.gr/DB/wage%20types/share> .
+  Bind(Concat(Str(?has_amountW), " in Share") as ?wage)
+  }}
+  
+  OPTIONAL{ ?crew_payment sealit:for_employment_period ?period .
+  OPTIONAL { ?period (sealit:had_duration/sealit:value_duration) ?durationX .
+  BIND( REPLACE(REPLACE(REPLACE(REPLACE(STR(?durationX),"P", ""), "Y", "year(s) "), "M", "month(s) "), "D", "day(s) ") as ?duration )
+  }}
+} 
+
+  
+OPTIONAL{?person sealit:has_profession/rdfs:label ?role1 .}
+OPTIONAL{$subject (crm:P02i_is_range_of/crm:P.1a_in_the_role_of/rdfs:label) ?role2 .}
+Bind(COALESCE(?role1, ?role2) as ?profession)
+
+OPTIONAL{$subject (sealit:started_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?started_by . }
+OPTIONAL{$subject (sealit:started_by/crm:P7_took_place_at) ?recruitment_place . }
+OPTIONAL{$subject (sealit:ended_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?ended_by . }
+OPTIONAL{$subject (sealit:ended_by/crm:P7_took_place_at) ?discharge_place . }
+
+OPTIONAL {
+ ?person crm:P1_is_identified_by ?serialNumΧ.
+ ?serialNumΧ crm:P2_has_type <http://www.sealit.gr/DB/numbers/serial%20number>;
+ rdfs:label ?serial_num.
+}   
+
+   OPTIONAL { ?source a crm:E73_Information_Object; crm:P67_refers_to	?doc . ?doc a crm:E31_Document .
+  ?source (crm:P2_has_type/rdfs:label) ?source_type .
+  ?source (crm:P102_has_title/rdfs:label) ?source_title .
+  }
+  	}
+}
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+  
+  
+  
+[[#if record]]
+[[> prefices]]
+SELECT DISTINCT $subject (?recordType as ?template) ?document_num  ?was_created_by ?role_of_creator ?keeper ?register_num ?document_language 
+  #?date_of_release
+WHERE {
+  [[#if subject]]  VALUES $subject { <{{subject.value}}> }[[else]]
+  [[#if recordtype]]$subject crm:P2_has_type <[[recordtype]]> .[[/if]][[/if]]
+	VALUES ?type { <http://www.sealit.gr/DB/doc%20types/record%20information> }
+  $subject crm:P2_has_type ?type . 
+  $subject crm:P67_refers_to ?doc . ?doc a crm:E31_Document .
+    
+OPTIONAL {
+  $subject crm:P2_has_type ?recordTypeX .
+  ?recordTypeX rdfs:label ?recordType .
+  FILTER( ?recordTypeX != <http://www.sealit.gr/DB/doc%20types/record%20information> ) 
+  }
+
+OPTIONAL { ?doc (crm:P128_carries/crm:P72_has_language/rdfs:label) ?document_language .}
+
+OPTIONAL { ?doc crm:P1_is_identified_by ?identifierRegNum .
+?identifierRegNum  crm:P2_has_type <http://www.sealit.gr/DB/register%20numbers/register%20number>; rdfs:label ?register_num .}
+
+OPTIONAL { ?doc crm:P1_is_identified_by ?identifierDocNum .
+?identifierDocNum crm:P2_has_type <http://www.sealit.gr/DB/Doc%20numbers/Document%20number>; rdfs:label ?document_num .}
+    
+#OPTIONAL { ?doc (crm:P94i_was_created_by/crm:P4_has_time-span/rdfs:label)  ?date_of_release .}
+OPTIONAL { ?doc (crm:P94i_was_created_by/crm:P01i_is_domain_of/crm:P02_has_range) ?was_created_by .}
+OPTIONAL { ?doc (crm:P94i_was_created_by/crm:P01i_is_domain_of/crm:P14.1_in_the_role_of/rdfs:label) ?role_of_creator .}
+OPTIONAL { ?doc (crm:P49_has_former_or_current_keeper) ?keeper .}
+    } 
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+  
+  
+[[#if recordTMP]]
+[[> prefices]]
+SELECT DISTINCT $subject ?record_id ?title #?seeAlso 
+WHERE {
+$subject a crm:E73_Information_Object .
+$subject crm:P1_is_identified_by ?record_idX .
+?record_idX crm:P2_has_type <http://www.sealit.gr/DB/id%20types/record%20id> .
+OPTIONAL { ?record_idX rdfs:label ?record_id .}
+#OPTIONAL{$subject (crm:P2_has_type/rdfs:label) ?type .}
+MINUS { $subject crm:P2_has_type <http://www.sealit.gr/DB/doc%20types/record%20information> }
+  
+OPTIONAL { $subject (crm:P102_has_title/rdfs:label) ?recordTitle .}
+BIND ( COALESCE(?recordTitle, ?recordType) as ?title )
+  
+#OPTIONAL{$subject (crm:P67i_is_referred_to_by/crm:P3_has_note) ?position_info .}
+#OPTIONAL { $subject rdfs:seeAlso ?seeAlso .}
+  }
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+
+  
+[[#if template]]
+[[> prefices]]
+SELECT DISTINCT  $subject ?description
+WHERE {
+  [[#if subject]]  VALUES $subject { <{{subject.value}}> }[[/if]]
+?record crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/record%20information>  .
+?record crm:P2_has_type  $subject .
+#$subject  a rso:Template .
+FILTER ($subject != <http://www.sealit.gr/DB/doc%20types/record%20information>)
+OPTIONAL {$subject rdfs:comment ?description}
+} 
+#GROUP BY $subject
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+  
+  
+[[#if templateOLD]]
+[[> prefices]]
+SELECT DISTINCT  $subject ?description
+WHERE {
+  [[#if subject]]  VALUES $subject { <{{subject.value}}> }[[/if]]
+?template a crm:E73_Information_Object .
+#?template (crm:P1_is_identified_by/crm:P2_has_type) <http://www.sealit.gr/DB/id%20types/record%20id> .
+?template crm:P2_has_type $subject.
+$subject  a rso:Template .
+#MINUS { ?template crm:P2_has_type <http://www.sealit.gr/DB/doc%20types/record%20information> }
+#MINUS { ?template crm:P2_has_type <http://www.sealit.gr/DB/template> }
+  FILTER ( $subject != <http://www.sealit.gr/DB/template> )
+  OPTIONAL {$subject rdfs:comment ?description}
+   }
+#GROUP BY $subject
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+  
+  
+[[#if place]]
+[[> prefices]]
+SELECT DISTINCT ($subjectM AS $subject)  (group_concat(distinct ?type; SEPARATOR=", ") as ?type )  (group_concat(distinct ?coordinatesStr; SEPARATOR=", ") as ?coordinates )
+  #(group_concat(distinct ?seeAlso; SEPARATOR=", ") as ?seeAlso ) 
+WHERE {
+  $subjectX rdf:type crm:E53_Place .
+  $subjectM owl:sameAs $subjectX; crm:P2_has_type <http://www.sealit.gr/DB/type/master>.
+  ?record crm:P2_has_type ?recordType .
+  ?record crm:P67_refers_to $subjectX. 
+  BIND($subjectX as $subject)
+  
+ [[#if subject]]FILTER ($subjectM = <{{subject.value}}> || $subject = <{{subject.value}}>)[[else]]
+ [[/if]]
+  
+ { SELECT $subject ?type ?seeAlso ?coordinatesStr {
+  $subject a crm:E53_Place .
+  [[#if recordtype]]?record crm:P2_has_type <[[recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by) $subject .[[/if]]
+  #OPTIONAL { $subject (crm:P67i_is_referred_to_by/rdfs:seeAlso) ?seeAlso .}
+  OPTIONAL { $subject crm:P2_has_type ?typeX. 
+  					FILTER  (?typeX != <http://www.sealit.gr/DB/type/master>)  
+  					?typeX rdfs:label ?type . }
+  OPTIONAL { $subject crm:P87_is_identified_by ?coords . ?coords a crm:E47_Spatial_Coordinates . ?coords rdfs:label ?coordinatesStr}
+  }}
+  
+}	GROUP BY $subjectM
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+  
+[[#if allplaces]]
+PREFIX wgs84_pos:<http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+SELECT DISTINCT ?subject ?lat ?lng ?link ?description 
+WHERE {
+?subject rdf:type crm:E53_Place . 
+?subject crm:P2_has_type <http://www.sealit.gr/DB/type/master>.
+[[#if recordtype]]?record crm:P2_has_type <[[recordtype]]> ; crm:P67_refers_to ?subject .[[/if]]
+?subject crm:P87_is_identified_by ?coordinates .
+?coordinates a crm:E47_Spatial_Coordinates .
+?coordinates wgs84_pos:lat ?lat .
+?coordinates wgs84_pos:long ?lng .
+OPTIONAL { ?subject skos:prefLabel ?descriptionX .}
+OPTIONAL { ?subject rdfs:label ?labelX .}
+BIND ( COALESCE(?descriptionX, ?labelX, CONCAT(?lat,",",?lng), STR(?subject)) as ?description )
+#BIND ( COALESCE(REPLACE(STR(?subject),"(^http.*/)", "", "i")) as ?linkX )
+#BIND ( COALESCE(REPLACE(?linkX,"(%20)", " ", "i")) as ?link )
+BIND ( STR(?labelX) as ?link )
+} ORDER BY ?link
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+ 
+  
+[[#if civil_registration ]]
+[[> prefices]]
+SELECT DISTINCT $subject
+{
+ $subject a sealit:Civil_Registration . 
+ [[#if subject]]  VALUES $subject { <{{subject.value}}> }[[else]]
+ [[#if recordtype]]?record crm:P2_has_type <[[recordtype]]> ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by) $subject .[[/if]][[/if]]
+  [[!-- SUBQUERY --]]
+} GROUP BY $subject
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+  
+[[#if civil_registration_registers_person ]]
+[[> prefices]]
+SELECT DISTINCT $subject
+{
+ $subject a sealit:Civil_Registration .
+ $subject sealit:registers_person ?p .
+ [[#if subject]]  VALUES $subject { <{{subject.value}}> }[[/if]]
+  [[!-- SUBQUERY --]]
+} GROUP BY $subject
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+[[/if]]
+  
+  
+[[#if voyage_route]]
+PREFIX crm:	<http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+PREFIX wgs84_pos:<http://www.w3.org/2003/01/geo/wgs84_pos#>
+  
+SELECT DISTINCT ($subjectP as $subject) ?lat ?lng ?placeLabel ?link ?description ?info ?color WHERE {
+   
+  { SELECT $subjectP (GROUP_CONCAT(DISTINCT ?info; SEPARATOR=",\n") as ?info) {
+ 	VALUES ?voyage { ?? }
+  {
+  ?voyage sealit:consists_of_leaving ?leaving .
+  ?leaving sealit:from_place ?place .
+  ?leaving sealit:leaving_in/crm:P82_at_some_time_within ?date .
+  ?leaving rdfs:label ?leavingLabel .
+  Bind (?leavingLabel as ?info )
+  Bind (1 as ?order)
+  #Bind ("green" as ?color)
+  }
+  UNION
+  {
+  ?voyage sealit:consists_of_leaving ?leaving .
+  ?leaving crm:P134i_was_continued_by ?arrival .
+  ?arrival sealit:at ?place .
+  ?arrival sealit:arrival/crm:P82_at_some_time_within ?date .
+  ?arrival rdfs:label ?arrivalLabel .
+  Bind (?arrivalLabel as ?info )
+  Bind (2 as ?order)
+  #Bind ("green" as ?color)
+  }
+  UNION
+  {
+  ?voyage (sealit:destination) ?place .  
+  Bind ("First planned destination" as ?info )
+  Bind (0 as ?order)
+  #Bind ("orange" as ?color)
+  }
+  BIND (?place as $subjectP)
+  
+  } GROUP BY $subjectP ORDER BY ?order ?date}
+  
+  VALUES ?voyage { ?? }
+  OPTIONAL{?voyage sealit:destination ?subjectP.  Bind ( "orange" AS ?color)}
+  
+  OPTIONAL { $subjectP rdfs:label ?placeLabel .}
+  OPTIONAL { $subjectP skos:prefLabel ?descriptionX .}
+  $subjectP crm:P87_is_identified_by ?coordinates .
+  ?coordinates wgs84_pos:lat ?lat .
+  ?coordinates wgs84_pos:long ?lng .
+  
+  BIND ( COALESCE(?descriptionX, ?placeLabel, CONCAT(?lat,",",?lng), STR($subjectP)) as ?description )
+  #BIND ( COALESCE(REPLACE(STR($subjectP),"(^http.*/)", "", "i")) as ?linkX )
+  #BIND ( COALESCE(REPLACE(?linkX,"(%20)", " ", "i")) as ?link )
+  BIND ( STR(?placeLabel) as ?link )
+  
+} #ORDER BY ?subject ?lat ?lng ?placeLabel ?date ?order ?link ?description ?color
+[[/if]] 
+
+

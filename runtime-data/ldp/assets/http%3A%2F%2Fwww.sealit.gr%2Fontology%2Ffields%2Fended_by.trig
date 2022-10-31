@@ -1,0 +1,30 @@
+
+<http://www.sealit.gr/ontology/fields/ended_by/context> {
+  <http://www.sealit.gr/ontology/fields/ended_by> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-4fc65d1d9e7b4a08b1defb42ffc1f199-lfv3bg;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.sealit.gr/ontology/sealit#Discharge>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-4fc65d1d9e7b4a08b1defb42ffc1f199-v483kq;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ended by OBSOLETE"@en .
+  
+  _:genid-4fc65d1d9e7b4a08b1defb42ffc1f199-v483kq a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-4fc65d1d9e7b4a08b1defb42ffc1f199-lfv3bg a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+$subject (sealit:ended_by) ?value .
+OPTIONAL {?value rdfs:label ?label}
+}""" .
+  
+  _:genid-4fc65d1d9e7b4a08b1defb42ffc1f199-v483kq <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/ended_by> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-04T07:45:57.478Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/ended_by> .
+  
+  <http://www.sealit.gr/ontology/fields/ended_by> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,29 @@
+
+<http://83.212.169.164:10315/container/queryContainer/fsdfsdfsdfsfsf/context> {
+  <http://83.212.169.164:10315/container/queryContainer/fsdfsdfsdfsfsf> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "fsdfsdfsdfsfsf";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE {
+  { ?subject <http://www.sealit.gr/ontology/FR/has_literacy> <http://www.sealit.gr/DB/status%20type/literate>. }
+  UNION
+  {
+    ?subject <http://www.sealit.gr/ontology/FR/has_literacy> ?x_e7eb2fd3_dae8_4f5e_a4bb_ece1368845c6.
+    ?x_e7eb2fd3_dae8_4f5e_a4bb_ece1368845c6 ((<http://www.w3.org/2002/07/owl#sameAs>*)|(<http://www.researchspace.org/ontology/Concept_has_broader_Concept>*)) <http://www.sealit.gr/DB/status%20type/literate>.
+  }
+  UNION
+  {
+    ?subject <http://www.sealit.gr/ontology/FR/has_literacy> ?x_e7eb2fd3_dae8_4f5e_a4bb_ece1368845c6.
+    <http://www.sealit.gr/DB/status%20type/literate> ((<http://www.w3.org/2002/07/owl#sameAs>*)|^(<http://www.researchspace.org/ontology/Concept_has_broader_Concept>*)) ?x_e7eb2fd3_dae8_4f5e_a4bb_ece1368845c6.
+  }
+}
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZRAYwE4FtIFEBMBGA+gAoCmKYcAdiADTJQDaoKxUTAhomZAMKVLEAHAC40QzRAB4AFkKEDIAegUB3VQDowxNgBsAlkLUBzFAspC42uIYCeCgGIAlBVLZh8eoaTZJrAPlEwDPQgDsTkAK4o-DSguii6rCAAKpyiAGqJnuhJ1gIskCAAcmxoxDCFcDAstABuOuH5IDJyiirqmjr6RiYAIgBCCmBCbELhYACk2AAMQrnECh5eniAAviu02mwARsTaiAAy+kvVIFVgqLrCupQHRygjJ6MC2vnAawC67+sg4RS6AI4NACSgUgUxWX1oADMGF8gA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-21T06:30:55.581Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/fsdfsdfsdfsfsf> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/fsdfsdfsdfsfsf> a <http://www.w3.org/ns/ldp#Resource> .
+}

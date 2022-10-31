@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/cfe88e37-fc83-428a-8158-b095e0f126bc/a4491f77-b0da-4aba-9c94-c7c4c03f9c31/context> {
+  <http://83.212.169.164:10315/container/cfe88e37-fc83-428a-8158-b095e0f126bc/a4491f77-b0da-4aba-9c94-c7c4c03f9c31>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/ship/8B08EDAA-17F7-3548-8379-D90A1142AA42>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ship Carlos";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 0;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-26T10:27:56.510Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://83.212.169.164:10315/container/setContainer/cfe88e37-fc83-428a-8158-b095e0f126bc>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.169.164:10315/container/cfe88e37-fc83-428a-8158-b095e0f126bc/a4491f77-b0da-4aba-9c94-c7c4c03f9c31> .
+  
+  <http://83.212.169.164:10315/container/cfe88e37-fc83-428a-8158-b095e0f126bc/a4491f77-b0da-4aba-9c94-c7c4c03f9c31>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

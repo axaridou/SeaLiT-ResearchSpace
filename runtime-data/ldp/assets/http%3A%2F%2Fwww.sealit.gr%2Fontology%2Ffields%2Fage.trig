@@ -1,0 +1,36 @@
+
+<http://www.sealit.gr/ontology/fields/age/context> {
+  <http://www.sealit.gr/ontology/fields/age> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-6c2ac35527514adab1eb3ff6d3a5652d-3afkj9 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/age> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-6c2ac35527514adab1eb3ff6d3a5652d-ktjwy5 .
+  
+  _:genid-6c2ac35527514adab1eb3ff6d3a5652d-ktjwy5 <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject a crm:E21_Person .
+  $subject crm:P43_has_dimension ?age .
+  ?age sealit:value_duration ?value_duration .  
+  BIND (CONCAT(\"\",
+  COALESCE(REPLACE(REPLACE(REPLACE(REPLACE(STR(?value_duration), \"P\",\"\"), \"Y\", \" year(s), \"), \"M\", \" month(s), \"), \"D\", \" day(s), \"), \"\")
+  ) as ?durationXX ) 
+  BIND (?durationXX as ?value)
+}""";
+    a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-6c2ac35527514adab1eb3ff6d3a5652d-3afkj9 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/age> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-6c2ac35527514adab1eb3ff6d3a5652d-3afkj9;
+    <http://www.w3.org/2000/01/rdf-schema#label> "age"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-16T16:31:16.562Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/age> .
+  
+  <http://www.sealit.gr/ontology/fields/age> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,36 @@
+
+<http://www.sealit.gr/ontology/fields/has_second_hand_purchase/context> {
+  <http://www.sealit.gr/ontology/fields/has_second_hand_purchase> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Ship> .
+  
+  _:genid-02144982f8d342a296e9c027dbf1f0d1-furtr <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_second_hand_purchase> <http://www.w3.org/2000/01/rdf-schema#label>
+      "has second hand purchase"@en .
+  
+  _:genid-02144982f8d342a296e9c027dbf1f0d1-kzhsyi <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a sealit:Ship .
+$subject sealit:thing_from/sealit:had_money_value ?had_money_value .
+OPTIONAL{?had_money_value sealit:P181_has_amount  ?has_amount .}
+OPTIONAL{?had_money_value sealit:P180_has_currency/rdfs:label  ?has_currency .}
+BIND ( CONCAT(COALESCE(STR(?has_amount), \"\"), \" \", COALESCE(STR(?has_currency), \"\")) AS ?value)
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_second_hand_purchase> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-02144982f8d342a296e9c027dbf1f0d1-kzhsyi;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-02144982f8d342a296e9c027dbf1f0d1-furtr;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string> .
+  
+  _:genid-02144982f8d342a296e9c027dbf1f0d1-furtr a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-02144982f8d342a296e9c027dbf1f0d1-kzhsyi a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_second_hand_purchase> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-27T15:12:35.031Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_second_hand_purchase> .
+  
+  <http://www.sealit.gr/ontology/fields/has_second_hand_purchase> a <http://www.w3.org/ns/ldp#Resource> .
+}

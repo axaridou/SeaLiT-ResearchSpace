@@ -1,0 +1,121 @@
+[[#*inline 'preficesX']]
+PREFIX crm:	<http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rso: <http://www.researchspace.org/ontology/>
+[[/inline]]
+
+[[#*inline 'misc' ]]
+
+      <div>
+        <div class="semantic-search-results-actions pull-right" style="display: flex;">
+        <mp-sparql-download id='misc-csv-result' 
+                            query='[[> sealit:queries3 addprefices=true]]'
+                            header="text/csv"
+                            filename='[[file]]-csv-result.csv'
+                            >
+          <button class="btn btn-default" style="margin-right:10px">Download CSV</button>
+        </mp-sparql-download>
+        </div>
+
+        <semantic-table id='misc-result-table'  
+                        query='[[> sealit:queries2 addprefices=true]]'
+                        >
+        </semantic-table>
+
+
+[[!--
+      <semantic-chart id='misc-result-chart'  
+                      type='bar'
+                      query='    [[> preficesX]]                                       
+SELECT  ?object ?label (COUNT(DISTINCT ?subject) as ?count) WHERE {
+  {[[> sealit:queries2]]}
+  BIND( ?[[subject]] AS ?subject)
+  BIND( ?[[object]] AS ?object)
+  OPTIONAL { ?object rdfs:label ?label .} 
+  BIND(IF(BOUND(?object), ?object, "Unknown") as ?object)
+} GROUP BY ?object ?label ORDER BY ?object DESC(?count)
+'
+                      sets='[{
+                            "category": "object",
+                            "value": "count"
+                            }]'>
+      </semantic-chart>
+--]]
+      </div>
+
+[[/inline]]
+
+
+<bs-tab-container id="misc" class="bs-left-vertical-tabs" default-active-key=''>
+    <bs-row class="clearfix">
+      <bs-col sm="2">
+        <bs-nav bs-style="tabs" stacked="true">
+          <bs-nav-item event-key="intro"></bs-nav-item>
+[[#if countries_and_payments]]<bs-nav-item event-key="countries_and_payments">Countries and payments</bs-nav-item>[[/if]]
+[[#if countries_and_crew_members]]<bs-nav-item event-key="countries_and_crew_members">Countries and crew members</bs-nav-item>[[/if]]
+[[#if ships_and_crew_members]]<bs-nav-item event-key="ships_and_crew_members">Ships and crew members</bs-nav-item>[[/if]]
+[[#if ships_and_owners]]<bs-nav-item event-key="ships_and_owners">Ships and owners</bs-nav-item>[[/if]]
+[[#if persons_and_places]]<bs-nav-item event-key="persons_and_places">Persons and places</bs-nav-item>[[/if]]
+[[#if employed_persons]]<bs-nav-item event-key="employed_persons">Employees</bs-nav-item>[[/if]]
+[[#if professions_and_households]]<bs-nav-item event-key="professions_and_households">Professions and households</bs-nav-item>[[/if]]
+[[#if profession_and_houserole]]<bs-nav-item event-key="profession_and_houserole">Profession and houserole</bs-nav-item>[[/if]]
+[[#if profession_and_age]]<bs-nav-item event-key="profession_and_age">Profession and age</bs-nav-item>[[/if]]
+        </bs-nav>
+      </bs-col>
+       <bs-col sm="10">
+        <bs-tab-content animation="true">
+          <bs-tab-pane event-key="intro" >--</bs-tab-pane>
+[[#if countries_and_payments]]
+          <bs-tab-pane event-key="countries_and_payments" mount-on-enter=true>[[> misc countries_and_paymentsOPT=true file="countries_and_payments" 
+          subject="country" object="payment" limit=false]]
+          </bs-tab-pane>
+[[/if]]
+[[#if countries_and_crew_members]]
+          <bs-tab-pane event-key="countries_and_crew_members" mount-on-enter=true>[[> misc countries_and_crew_membersOPT=true file="countries_and_crew_members" 
+          subject="country" object="crew_members_count" limit=false]]
+          </bs-tab-pane>
+[[/if]]
+[[#if ships_and_crew_members]]
+          <bs-tab-pane event-key="ships_and_crew_members" mount-on-enter=true>[[> misc ships_and_crew_membersOPT=true file="ships_and_crew_members" 
+          subject="ship" object="crew_members_count" limit=false]]
+          </bs-tab-pane>
+[[/if]]
+[[#if ships_and_owners]]
+          <bs-tab-pane event-key="ships_and_owners" mount-on-enter=true>[[> misc ships_and_ownersOPT=true file="ships_and_owners" 
+          subject="ship" object="ship_country" limit=false]]
+          </bs-tab-pane>
+[[/if]]
+[[#if persons_and_places]]
+          <bs-tab-pane event-key="persons_and_places" mount-on-enter=true>[[> misc persons_and_placesOPT=true file="persons_and_places" 
+          subject="person" object="location_of_residence" limit=false]]
+          </bs-tab-pane>
+[[/if]]
+[[#if employed_persons]]
+          <bs-tab-pane event-key="employed_persons" mount-on-enter=true>[[> misc employed_personsOPT=true file="employed_persons"
+          subject="person" object="profession" limit=false]]
+          </bs-tab-pane>
+[[/if]]
+[[#if professions_and_households]]
+          <bs-tab-pane event-key="professions_and_households" mount-on-enter=true>[[> misc professions_and_householdsOPT=true file="professions_and_households" 
+          subject="profession" object="count" limit=false]]
+          </bs-tab-pane>
+[[/if]]
+[[#if profession_and_houserole]]
+          <bs-tab-pane event-key="profession_and_houserole" mount-on-enter=true>[[> misc profession_and_houseroleOPT=true file="profession_and_houserole" 
+          subject="person" object="role_in_household" limit=false]]
+          </bs-tab-pane>
+[[/if]]
+[[#if profession_and_age]]
+          <bs-tab-pane event-key="profession_and_age" mount-on-enter=true>[[> misc profession_and_ageOPT=true file="profession_and_age" 
+          subject="person" object="age_in_years" limit=false]]
+          </bs-tab-pane>
+[[/if]]
+        </bs-tab-content>
+      </bs-col>
+    </bs-row>
+  </bs-tab-container>

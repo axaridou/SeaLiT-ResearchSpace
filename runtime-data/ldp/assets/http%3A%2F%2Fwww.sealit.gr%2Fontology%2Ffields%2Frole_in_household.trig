@@ -1,0 +1,36 @@
+
+<http://www.sealit.gr/ontology/fields/role_in_household/context> {
+  <http://www.sealit.gr/ontology/fields/role_in_household> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-542be33ec5fc431e8af6d2e1e1ae596b-ieurmn .
+  
+  _:genid-542be33ec5fc431e8af6d2e1e1ae596b-nutvv <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/role_in_household> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-542be33ec5fc431e8af6d2e1e1ae596b-nutvv;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-542be33ec5fc431e8af6d2e1e1ae596b-ieurmn a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-542be33ec5fc431e8af6d2e1e1ae596b-nutvv a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/role_in_household> <http://www.w3.org/2000/01/rdf-schema#label>
+      "role in household"@en .
+  
+  _:genid-542be33ec5fc431e8af6d2e1e1ae596b-ieurmn <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+  $subject a crm:E21_Person ;
+   crm:P02i_is_range_of ?household .
+  ?household a crm:PC107_has_current_or_former_member ; crm:P107.1_kind_of_member ?role_in_household .
+  BIND (?role_in_household as ?value)
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/role_in_household> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-16T16:42:06.209Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/role_in_household> .
+  
+  <http://www.sealit.gr/ontology/fields/role_in_household> a <http://www.w3.org/ns/ldp#Resource> .
+}

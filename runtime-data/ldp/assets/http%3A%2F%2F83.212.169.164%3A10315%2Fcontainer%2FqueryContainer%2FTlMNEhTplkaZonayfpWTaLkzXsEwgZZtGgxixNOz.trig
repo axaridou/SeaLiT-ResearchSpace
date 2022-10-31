@@ -1,0 +1,30 @@
+
+<http://83.212.169.164:10315/container/queryContainer/TlMNEhTplkaZonayfpWTaLkzXsEwgZZtGgxixNOz/context> {
+  <http://83.212.169.164:10315/container/queryContainer/TlMNEhTplkaZonayfpWTaLkzXsEwgZZtGgxixNOz>
+    a <http://spinrdf.org/sp#Query>, <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "sssssdddddd";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE {
+  { ?subject <http://www.sealit.gr/ontology/FR/arrived_at> <http://www.sealit.gr/DB/location/girona>. }
+  UNION
+  {
+    ?subject <http://www.sealit.gr/ontology/FR/arrived_at> ?x_0c92833c_11f0_4e4f_968f_84e460f3e512.
+    ?x_0c92833c_11f0_4e4f_968f_84e460f3e512 ((<http://www.w3.org/2002/07/owl#sameAs>*)|(<http://www.researchspace.org/ontology/Place_is_part_of_Place>*)) <http://www.sealit.gr/DB/location/girona>.
+  }
+  UNION
+  {
+    ?subject <http://www.sealit.gr/ontology/FR/arrived_at> ?x_0c92833c_11f0_4e4f_968f_84e460f3e512.
+    <http://www.sealit.gr/DB/location/girona> ((<http://www.w3.org/2002/07/owl#sameAs>*)|^(<http://www.researchspace.org/ontology/Place_is_part_of_Place>*)) ?x_0c92833c_11f0_4e4f_968f_84e460f3e512.
+  }
+}
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KiFdAtpAKICsAzAH0ACmhQVG5BogA8+LFiKQA9EoDu6gHRhUmLBoDmdJXAB2WOGjj6AnkoBiAJSUo6dDADckMASiwA+MhAYGmoQByQwOABXOnEyUAw3JhAAFUQ6QIA1ZKwkDhTrIkZIEAA5FHYvUrgYCRB3dCjikDkFZTVNbXRsAyMAEQAhJUsKXwxTJX1E0xYAX1nyUQAjJDREAHFpkxZyWrA2Yixxkw2tnZAsKKI0YuB5gF17hZAokwwARyaASWDIAAZZk9yAAzGhPIA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/guest>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-23T11:32:53.521Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/TlMNEhTplkaZonayfpWTaLkzXsEwgZZtGgxixNOz> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/TlMNEhTplkaZonayfpWTaLkzXsEwgZZtGgxixNOz>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,48 @@
+
+<http://www.sealit.gr/ontology/fields/related_to_crew_employment/context> {
+  <http://www.sealit.gr/ontology/fields/related_to_crew_employment> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-c3b78273693a4ef8abdfec201cc39b0d-xcuc3 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_crew_employment> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Voyage>, <http://www.sealit.gr/ontology/sealit#Ship>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-c3b78273693a4ef8abdfec201cc39b0d-jps5xd .
+  
+  _:genid-c3b78273693a4ef8abdfec201cc39b0d-jps5xd <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+  {$subject sealit:voyages/crm:P14_carried_out_by ?person .
+} UNION { 
+  $subject crm:P14_carried_out_by ?person .
+}
+?person sealit:had_provided ?value .
+?person rdfs:label ?personLabel .
+        
+OPTIONAL{?value (crm:P02i_is_range_of/crm:P.1a_in_the_role_of/rdfs:label) ?role2 .}
+Bind(CONCAT( \" as \", COALESCE(?role1, ?role2)) as ?profession)
+
+OPTIONAL{?value (sealit:started_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?startedby1 . }
+OPTIONAL{?value (sealit:ended_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?endedby1 . }
+Bind(CONCAT( \" from \", ?startedby1) as ?startedby)
+Bind(CONCAT( \" to \", ?endedby1) as ?endedby)
+
+Bind( Concat(\"Employment of \", ?personLabel, ?profession, ?startedby, ?endedby) as ?label)
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_crew_employment> <http://www.w3.org/2000/01/rdf-schema#label>
+      "related to crew employment (OBSOLETE for Ship)"@en .
+  
+  _:genid-c3b78273693a4ef8abdfec201cc39b0d-jps5xd a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-c3b78273693a4ef8abdfec201cc39b0d-xcuc3 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_crew_employment> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-c3b78273693a4ef8abdfec201cc39b0d-xcuc3;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-26T18:24:36.186Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/related_to_crew_employment> .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_crew_employment> a <http://www.w3.org/ns/ldp#Resource> .
+}

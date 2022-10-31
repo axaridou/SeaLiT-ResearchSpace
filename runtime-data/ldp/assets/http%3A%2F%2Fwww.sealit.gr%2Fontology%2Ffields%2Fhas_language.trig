@@ -1,0 +1,31 @@
+
+<http://www.sealit.gr/ontology/fields/has_language/context> {
+  <http://www.sealit.gr/ontology/fields/has_language> <http://www.w3.org/2000/01/rdf-schema#label>
+      "has language"@en .
+  
+  _:genid-d55bcf00abe14219b182b0939976b2ba-xxaf99 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_language> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-d55bcf00abe14219b182b0939976b2ba-sgxi1 .
+  
+  _:genid-d55bcf00abe14219b182b0939976b2ba-sgxi1 <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+  $subject (crm:P128_carries/crm:P72_has_language) ?value.
+  ?value rdfs:label ?label.
+}""";
+    a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-d55bcf00abe14219b182b0939976b2ba-xxaf99 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_language> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-d55bcf00abe14219b182b0939976b2ba-xxaf99;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-02-08T08:41:07.302Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_language> .
+  
+  <http://www.sealit.gr/ontology/fields/has_language> a <http://www.w3.org/ns/ldp#Resource> .
+}

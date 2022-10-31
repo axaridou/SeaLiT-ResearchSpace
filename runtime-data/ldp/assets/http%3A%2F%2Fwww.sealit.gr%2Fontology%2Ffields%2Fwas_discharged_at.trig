@@ -1,0 +1,41 @@
+
+<http://www.sealit.gr/ontology/fields/was_discharged_at/context> {
+  <http://www.sealit.gr/ontology/fields/was_discharged_at> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "was discharged at"@en .
+  
+  _:genid-948a2b8360624af6a35a202046711d30-9v5ki a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/was_discharged_at> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-948a2b8360624af6a35a202046711d30-fv9of <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/was_discharged_at> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-948a2b8360624af6a35a202046711d30-fv9of .
+  
+  _:genid-948a2b8360624af6a35a202046711d30-9v5ki <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value (SAMPLE(?label) AS ?label) { 
+$subject sealit:had_provided/sealit:ended_by ?disembarkation .
+?disembarkation crm:P7_took_place_at ?value .
+?value rdfs:label ?place_label .
+
+OPTIONAL {?disembarkation crm:P4_has_time-span/crm:P82_at_some_time_within ?dateX .
+BIND(CONCAT(\" on \", STR(?dateX)) AS ?date)
+}
+BIND(CONCAT(\"Disembarkation at \",STR(?place_label), COALESCE(?date, \"\")) AS ?label)      
+} GROUP BY ?value""" .
+  
+  _:genid-948a2b8360624af6a35a202046711d30-fv9of a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/was_discharged_at> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-948a2b8360624af6a35a202046711d30-9v5ki;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-28T14:11:22.077Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/was_discharged_at> .
+  
+  <http://www.sealit.gr/ontology/fields/was_discharged_at> a <http://www.w3.org/ns/ldp#Resource> .
+}

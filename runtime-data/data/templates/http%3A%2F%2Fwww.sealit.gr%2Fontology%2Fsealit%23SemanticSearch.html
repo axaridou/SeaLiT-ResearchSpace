@@ -1,0 +1,684 @@
+    <semantic-search
+      id='semantic-search'
+      limit=50000
+      optimizer=blazegraph
+      categories='{
+                    "<http://www.w3.org/2001/XMLSchema#Decimal>": [{
+                      "kind": "numeric-range",
+                      "queryPattern": "{
+                        $subject ?__relation__ ?literal .
+                        FILTER(?literal >= ?__numericRangeBeginValue__) .
+                        FILTER(?literal <= ?__numericRangeEndValue__) .
+                      }"
+                    }],
+                    "<http://www.w3.org/2000/01/rdf-schema#Literal>": [{
+                      "kind": "literal", 
+                      "queryPattern": "{
+                        $subject ?__relation__ ?__literal__ .
+                      }"
+                    }],
+                      "<http://www.w3.org/2001/XMLSchema#date>": [{
+                       "kind": "date-range",
+                       "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                       "queryPattern": "
+                         {
+                           $subject ?__relation__ ?date .
+                           FILTER(?date <= ?__dateEndValue__) .
+                           FILTER(?date >= ?__dateBeginValue__) .
+                         }"
+                      }],
+                  		"<http://www.w3.org/2001/XMLSchema#dateTime>": [{
+                       "kind": "date-range",
+                       "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                       "queryPattern": "
+                         {
+                           $subject ?__relation__ ?date .
+                           FILTER(?date <= ?__dateEndValue__) .
+                           FILTER(?date >= ?__dateBeginValue__) .
+                         }"
+                      }],
+                  		"<http://www.w3.org/2001/XMLSchema#duration>": [{
+                  "kind": "numeric-range",
+                      "queryPattern": "{
+                        $subject ?__relation__ ?duration .
+	BIND(REPLACE(STR(?duration), \"^P(\\\\d*Y)?(\\\\d*M)?(\\\\d*D)?\", \"$1\") AS ?y)
+  BIND(REPLACE(STR(?duration), \"^P(\\\\d*Y)?(\\\\d*M)?(\\\\d*D)?\", \"$2\") AS ?m)
+  BIND(REPLACE(STR(?duration), \"^P(\\\\d*Y)?(\\\\d*M)?(\\\\d*D)?\", \"$3\") AS ?d)
+  BIND(REPLACE(STR(?y), \"Y\", \"\") AS ?years)
+  BIND(REPLACE(STR(?m), \"M\", \"\") AS ?months)
+  BIND(REPLACE(STR(?d), \"D\", \"\") AS ?days)
+  BIND( (COALESCE(STRDT(?years, xsd:decimal)/1, 0) + COALESCE(STRDT(?months, xsd:decimal)/12, 0) + COALESCE(STRDT(?days, xsd:decimal)/365,0)) AS ?literal_YEARS )  	
+  BIND( (COALESCE(STRDT(?years, xsd:decimal)*365, 0) + COALESCE(STRDT(?months, xsd:decimal)*30, 0) + COALESCE(STRDT(?days, xsd:decimal)*1,0)) AS ?literal_DAYS ) 
+  BIND( IF(?__relation__ = <http://www.sealit.gr/ontology/FR/has_age_in_years_E21_Person2decimal>, ?literal_YEARS, ?literal_DAYS) AS ?literal )
+                        FILTER(?literal >= ?__numericRangeBeginValue__) .
+                        FILTER(?literal <= ?__numericRangeEndValue__) .
+                      }"
+                    }],
+                  
+                  "<http://www.researchspace.org/ontology/Concept>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPatternDELETE":
+                      "$subject $__relation__ ?__value__ .",
+                  		"queryPattern": "{$subject ?__relation__ ?__value__ .} UNION {$subject ?__relation__ ?x . ?x owl:sameAs*|rso:Concept_has_broader_Concept* ?__value__ .} UNION {$subject ?__relation__ ?x . ?__value__ owl:sameAs*|^rso:Concept_has_broader_Concept* ?x .}"
+                      }],
+                  "<http://www.researchspace.org/ontology/Text>": [
+                      {
+                      "kind": "anastasia", 
+                      "queryPattern": "
+                        $subject ?__relation__ ?__value__ ."
+                      }, 
+                  		{
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }],
+                   "<http://www.researchspace.org/ontology/Decimal>": [
+                      {
+                      "kind": "numeric-range",
+                      "queryPattern": "{
+                        $subject ?__relation__ ?literal .
+                        FILTER(?literal >= ?__numericRangeBeginValue__) .
+                        FILTER(?literal <= ?__numericRangeEndValue__) .
+                      }"
+                      }],
+                  "<http://www.cidoc-crm.org/cidoc-crm/E53_Place>": [
+                  {
+                  "kind": "hierarchy",
+                  "queryPattern": "{$subject ?__relation__ ?__value__ .} UNION {$subject ?__relation__ ?x . ?x owl:sameAs*|rso:Place_is_part_of_Place* ?__value__ .} UNION {$subject ?__relation__ ?x . ?__value__ owl:sameAs*|^rso:Place_is_part_of_Place* ?x .}"
+                  },
+                  {
+                  "kind": "place",
+                  "distanceQueryPattern": "
+                  $subject ?__relation__ ?place .
+                  $place crm:P87_is_identified_by ?coord.
+                  SERVICE geo:search {
+                  ?coord geo:search \"inCircle\".
+                  ?coord geo:predicate wgs84_pos:lat_long.
+                  ?coord geo:searchDatatype geoliteral:lat-lon.
+                  ?coord geo:spatialCircleCenter ?__geoCenter__.
+                  ?coord geo:spatialCircleRadius ?__geoDistance__.
+                  }",
+                  "boundingBoxQueryPattern": "
+                  $subject ?__relation__ ?place .
+                  $place crm:P87_is_identified_by ?coord.
+                  SERVICE geo:search {
+                  ?coord geo:search \"inRectangle\".
+                  ?coord geo:predicate wgs84_pos:lat_long.
+                  ?coord geo:searchDatatype geoliteral:lat-lon.
+                  ?coord geo:spatialRectangleSouthWest ?__geoSouthWest__.
+                  ?coord geo:spatialRectangleNorthEast ?__geoNorthEast__.
+                  }"
+                  }
+                  ],
+                  "<http://www.w3.org/2001/XMLSchema#decimal>": [{
+                      "kind": "numeric-range",
+                      "queryPattern": "{
+                        $subject ?__relation__ ?literal .
+                        FILTER(?literal >= ?__numericRangeBeginValue__) .
+                        FILTER(?literal <= ?__numericRangeEndValue__) .
+                      }"
+                    }]
+                  
+                  ,
+                  "<http://www.cidoc-crm.org/cidoc-crm/E21_Person>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }],
+                  
+                   "<http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }],
+                  
+                   "<http://www.sealit.gr/ontology/sealit#Ship>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }],
+                  
+                   "<http://www.sealit.gr/ontology/sealit#Voyage>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }],
+                  
+                   "<http://www.sealit.gr/ontology/sealit#Crew_Payment>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }],
+                  
+                   "<http://www.sealit.gr/ontology/sealit#Course>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }],
+                  
+                   "<http://www.sealit.gr/ontology/FC/Title>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }],
+
+                   "<http://www.sealit.gr/ontology/FC/Record>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }],
+                  
+                  "<http://www.sealit.gr/ontology/FC/Template>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }],
+                  
+                   "<http://www.sealit.gr/ontology/FC/Source>": [
+                      {
+                      "kind": "hierarchy",
+                      "queryPattern": "$subject $__relation__ ?__value__ ."
+                      }]
+                 }'
+                     
+      search-profileTEST='{
+"categories": [{
+"iri": "<http://www.cidoc-crm.org/cidoc-crm/E21_Person>",
+"label": "Person",
+"thumbnail": "https://image.flaticon.com/icons/svg/76/76785.svg"
+},
+{
+"iri": "<http://www.sealit.gr/ontology/sealit#Ship>",
+"label": "Ship",
+"thumbnail": "https://image.flaticon.com/icons/svg/45/45783.svg"
+},
+{
+"iri": "<http://www.w3.org/2001/XMLSchema#Decimal>",
+"label": "Height",
+"thumbnail": "../images/help/thenounproject/noun_739855.svg"
+},
+{
+"iri": "<http://www.w3.org/2001/XMLSchema#date>",
+"label": "Date",
+"thumbnail": "https://image.flaticon.com/icons/svg/833/833595.svg"
+}
+],
+"relations": [{
+"iri": "<http://www.sealit.gr/ontology/FR/had_owner_Ship2E21_Person>",
+"label": "had owner",
+"hasDomain": "<http://www.sealit.gr/ontology/sealit#Ship>",
+"hasRange": "<http://www.cidoc-crm.org/cidoc-crm/E21_Person>"
+},
+{
+"iri": "<http://www.sealit.gr/ontology/FR/had_captain_Ship2E21_Person>",
+"label": "had captain",
+"hasDomain": "<http://www.sealit.gr/ontology/sealit#Ship>",
+"hasRange": "<http://www.cidoc-crm.org/cidoc-crm/E21_Person>"
+},
+{
+"iri": "<http://www.sealit.gr/ontology/FR/had_crew_Ship2E21_Person>",
+"label": "had crew",
+"hasDomain": "<http://www.sealit.gr/ontology/sealit#Ship>",
+"hasRange": "<http://www.cidoc-crm.org/cidoc-crm/E21_Person>"
+}
+]
+}'
+
+ 
+      search-profile='{
+    "defaultProfile": "<http://www.researchspace.org/profile/all>",
+    "categoriesQuery": "
+          SELECT DISTINCT ?profile ?category ?label ?thumbnail ?description 
+          FROM <http://www.sealit.gr/ontology/FCFR>
+          WHERE {
+          {
+            SELECT ?category ?label ?profile ?description ?thumbnail ?order {
+              ?profile rso:hasCategory ?hasCategory.
+              {
+                ?hasCategory rso:category ?category .
+                ?category rdf:type rso:FundamentalCategory ;
+                  rdfs:label ?label ;
+                  rdfs:label ?description .
+                 ?category rso:hasOrder ?order .
+                 OPTIONAL {?category  rso:hasThumbnail ?thumb. BIND (str(?thumb) as ?thumbnail) }
+              } UNION {
+                BIND(<http://www.researchspace.org/ontology/Text> AS ?category)
+                BIND(\"Text search\" AS ?label)
+                BIND(\"Text search\" AS ?description)
+          			BIND (100 as ?order) 
+              }
+            }
+          } UNION {
+            SELECT ?profile ?category ?label ?description ?thumbnail ?order {
+              ?category rdf:type rso:FundamentalCategory ;
+                rdfs:label ?label ;
+                rdfs:label ?description .
+             ?category rso:hasOrder ?order. 
+             OPTIONAL {?category  rso:hasThumbnail ?thumb. BIND (str(?thumb) as ?thumbnail) }
+             BIND(<http://www.researchspace.org/profile/all> as ?profile) .
+            }
+          } UNION {
+            BIND(<http://www.researchspace.org/ontology/Text> as ?category) .
+            BIND(\"Text search\" as ?label) .
+            BIND(\"Text search\" as ?description) .
+            BIND(<http://www.researchspace.org/profile/all> AS ?profile)
+            BIND (100 as ?order)
+          } 
+           FILTER( TRUE || EXISTS{?resource a ?category})
+          
+        }
+        ORDER BY ?order           
+   ",
+    "relationsQuery": "
+        SELECT DISTINCT ?profile ?relation ?label ?description ?hasDomain ?hasRange ?order 
+        WHERE {
+         VALUES ?g {<http://www.sealit.gr/ontology/FCFR> <http://www.sealit.gr/ontology/FCFR/materializationTemplateInstances>}
+       GRAPH ?g {
+          {
+            SELECT ?profile ?relation ?label ?hasDomain ?hasRange ?description ?orderLabel ?order {
+              ?profile rso:hasRelation/rso:relation ?relation.
+              ?relation rdfs:label ?label ;
+                rdfs:label ?description ;
+                rso:hasDomain ?hasDomain ;
+                rso:hasRange ?hasRange .
+              OPTIONAL { ?relation (crm:P127_has_broader_term|skos:broader) ?broader }.
+              BIND(IF(BOUND(?broader), CONCAT(STR(?broader), \"1\"), CONCAT(STR(?relation), \"0\")) AS ?orderLabel)
+              BIND(IF(BOUND(?broader), 15, 0) AS ?order)
+            }
+          } UNION {
+            SELECT ?profile ?relation ?label ?hasDomain ?hasRange ?description ?orderLabel ?order  {
+              ?relation rdfs:label ?label ;
+                rdfs:label ?description ;
+                rso:hasDomain ?hasDomain ;
+                rso:hasRange ?hasRange .
+              BIND(<http://www.researchspace.org/profile/all> as ?profile) .
+              OPTIONAL { ?relation (crm:P127_has_broader_term|skos:broader) ?broader }.
+              BIND(IF(BOUND(?broader), CONCAT(STR(?broader), \"1\"), CONCAT(STR(?relation), \"0\")) AS ?orderLabel)
+              BIND(IF(BOUND(?broader), 25, 0) AS ?order)
+            }
+           }
+        }           
+          ?hasDomain rdf:type rso:FundamentalCategory .
+          ?hasRange rdf:type rso:FundamentalCategory . 
+                      
+           
+          
+          FILTER( FALSE || EXISTS{?s ?relation ?o})
+          FILTER (?hasDomain != <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>)
+        }
+        ORDER BY ?orderLabel ?label
+    "
+  }'                    
+                     
+>
+
+      
+     <!-- ANASTASIA: HERE IS THE ISSUE OF 'some'  -->
+
+      <semantic-search-query-builder
+        id='semantic-query-builder'
+        relation-template='
+      <div style="margin-left: {{order.value}}px">{{label}}</div>
+    '
+ 		resource-selector='{
+      "query":
+        [[#if solr]]
+
+          "
+          SELECT DISTINCT $suggestion $label WHERE {
+             
+            
+             BIND(CONCAT(\"defType=edismax&ps=100&pf=suggestionSearchText&fl=id,score&rows=1000&q.op=AND&fq=fc:\", REPLACE(str(?__range__), \":\", \"\\\\\\\\:\"), \"&fq=frs:\", REPLACE(str(?__relation__), \":\", \"\\\\\\\\:\")) as ?sFC)
+             BIND(CONCAT(\"(\",LCASE(?__token__),\")\") as ?lcasetoken)
+            
+                $suggestion fts:search ?lcasetoken .
+                $suggestion fts:endpoint \"[[solrEndpoint]]\" .
+                $suggestion fts:params ?sFC .
+                $suggestion fts:scoreField \"score\" .
+                $suggestion fts:score ?score .
+                $suggestion fts:fieldToSearch \"suggestionSearchText\" .
+                $suggestion fts:searchField \"id\" .
+                $suggestion fts:searchResultType \"URI\" .
+             
+             <http://www.bigdata.com/queryHints#Prior> <http://www.bigdata.com/queryHints#runFirst> \"true\"^^<http://www.w3.org/2001/XMLSchema#boolean>.
+              
+                OPTIONAL { ?item rs:displayLabel ?label .}
+  				 			OPTIONAL { ?item skos:prefLabel ?label .} 
+                OPTIONAL { ?item rdfs:label ?label .}
+  
+             BIND (STRLEN(?label) as ?len)
+            
+          } ORDER BY DESC(?score) ?len LIMIT 10
+                       
+          "
+     [[else]] 
+						"[[> resource-selector-suggestion ]]"
+     [[/if]],
+     "suggestionTupleTemplate": "<span title=\"{{label.value}}\">{{label.value}}</span>",
+     "noSuggestionsTemplate": "<div class=\"suggestion-no-matches\">no matches found</div>"
+   }'
+                                     
+                                     
+                                     
+                                     
+     tree-selector='{
+     "rootsQuery": "
+        select distinct ?item ?label ?hasChildren where {
+         <http://www.bigdata.com/queryHints#Query> <http://www.bigdata.com/queryHints#optimizer> \"None\".
+         BIND(?__range__ as ?range)                   
+         BIND(IF(?range = rso:Concept, rso:Concept_has_broader_Concept, rso:Place_is_part_of_Place)	AS ?broader) .
+          {
+              { SELECT DISTINCT ?object {?subject ?__relation__ ?object .}}
+           
+             OPTIONAL{?object ?broader ?x . ?x ?broader ?y . ?y ?broader ?parent}
+             OPTIONAL{?object ?broader ?x . ?x ?broader ?parent}
+             OPTIONAL{?object ?broader ?parent}
+                    
+            BIND(IF(BOUND(?parent), ?parent, ?object) AS ?item )                  
+            OPTIONAL { ?item skos:prefLabel ?labelX .} 
+            OPTIONAL { ?item rdfs:label ?labelX .}
+  					BIND(COALESCE(STRDT(?labelX, xsd:decimal), ?labelX) AS ?labelOrderBy)
+                    
+            OPTIONAL {
+                ?item rdf:type crm:E21_Person .
+                ?item <http://www.sealit.gr/ontology/FR/was_born_in_E21_Person2date> ?birth_dateX .
+                BIND(IF(REGEX(STR(?birth_dateX), \"[0-9][0-9][0-9][0-9]-01-01\"), SUBSTR(STR(?birth_dateX), 0, 4), ?birth_dateX) AS ?birth_date)
+                BIND( CONCAT(\"(\", STR(?birth_date), \")\") AS ?labelExt)
+          	} 
+          }
+          
+          BIND ( COALESCE( CONCAT(?labelX, \" \", ?labelExt), ?labelX ) as ?label )
+                    
+          OPTIONAL { ?child ?broader ?item . }
+          BIND(bound(?child) as ?hasChildren)
+        } order by ?labelOrderBy",
+
+                    
+     "rootsQueryBAK": "
+        select distinct ?item ?label ?hasChildren where {
+         <http://www.bigdata.com/queryHints#Query> <http://www.bigdata.com/queryHints#optimizer> \"None\".
+         BIND(?__range__ as ?range)
+         BIND(IF(?range = rso:Concept, rso:Concept_has_broader_Concept, rso:Place_is_part_of_Place)	AS ?broader) .
+          {
+            ?item a ?__range__ .
+            OPTIONAL {?item skos:inScheme ?schema .}
+            FILTER ( EXISTS { ?subject ?__relation__ ?item . } )
+            MINUS { ?master owl:sameAs ?item. ?master crm:P2_has_type <http://www.sealit.gr/DB/type/master>  }
+            MINUS { ?item ?broader ?parent }
+           			OPTIONAL { ?item rs:displayLabel ?labelX .}
+  				 			OPTIONAL { ?item skos:prefLabel ?labelX .} 
+                OPTIONAL { ?item rdfs:label ?labelX .}
+          }
+          OPTIONAL { ?child ?broader ?item . }
+          BIND(bound(?child) as ?hasChildren)
+        } order by ?label",
+                    
+     "childrenQuery": "
+       select distinct ?item ?label ?hasChildren where {
+         <http://www.bigdata.com/queryHints#Query> <http://www.bigdata.com/queryHints#optimizer> \"None\".
+         BIND(?__range__ as ?range)
+         BIND(IF(?range = rso:Concept, rso:Concept_has_broader_Concept, rso:Place_is_part_of_Place)	AS ?broader) 
+         {
+           {SELECT DISTINCT ?item {?subject ?__relation__ ?item .}}
+           ?item ?broader ?parent .
+           OPTIONAL { ?item skos:prefLabel ?label .} 
+           OPTIONAL { ?item rdfs:label ?label .}
+         }
+         OPTIONAL { ?child ?broader ?item . }
+         BIND(bound(?child) as ?hasChildren)
+       } order by ?label",
+                    
+       "childrenQueryBAK": "
+       select distinct ?item ?label ?hasChildren where {
+         <http://www.bigdata.com/queryHints#Query> <http://www.bigdata.com/queryHints#optimizer> \"None\".
+         BIND(?__range__ as ?range)
+         BIND(IF(?range = rso:Concept, rso:Concept_has_broader_Concept, rso:Place_is_part_of_Place)	AS ?broader) 
+         {
+           FILTER(EXISTS { ?subject ?__relation__ ?item . } || EXISTS { ?subject ?__relation__ ?itemX . ?itemX owl:sameAs|^owl:sameAs ?item }) .
+           ?item ?broader ?parent .
+           			OPTIONAL { ?item rs:displayLabel ?label .}
+  				 			OPTIONAL { ?item skos:prefLabel ?label .} 
+                OPTIONAL { ?item rdfs:label ?label .}
+         }
+         OPTIONAL { ?child ?broader ?item . }
+         BIND(bound(?child) as ?hasChildren)
+       } order by ?label",
+                    
+     "parentsQueryTMP": "
+       select distinct ?item ?parent ?parentLabel where {
+          <http://www.bigdata.com/queryHints#Query> <http://www.bigdata.com/queryHints#optimizer> \"None\".
+         BIND(?__range__ as ?range)
+         BIND(IF(?range = rso:Concept, rso:Concept_has_broader_Concept, rso:Place_is_part_of_Place)	AS ?broader)
+         ?item ?broader ?parent .
+         ?parent rdfs:label ?parentLabel .
+       }",
+                    
+     "parentsQuery": "
+       select distinct ?item ?parent ?parentLabel where {
+          <http://www.bigdata.com/queryHints#Query> <http://www.bigdata.com/queryHints#optimizer> \"None\".
+         BIND(?__range__ as ?range)
+         BIND(IF(?range = rso:Concept, rso:Concept_has_broader_Concept, rso:Place_is_part_of_Place)	AS ?broader)
+                    MINUS { ?item crm:P2_has_type <http://www.sealit.gr/DB/type/master>  }
+         ?item ?broader ?parent .
+         OPTIONAL { ?parent skos:prefLabel ?parentLabel .} 
+         OPTIONAL { ?parent rdfs:label ?parentLabel .}
+       }",
+                    
+     "searchQuery": [[#if solr]]
+       "
+  SELECT DISTINCT ?item ?label ?score ?hasChildren WHERE {
+            BIND(?__range__ AS ?range)
+            BIND(IF(?range = rso:Concept, rso:Concept_has_broader_Concept, rso:Place_is_part_of_Place)	AS ?broader) .
+            {
+              SELECT DISTINCT ?item ?score ?label WHERE {
+                {
+                  SELECT DISTINCT ?item ?score ?label WHERE {
+                    BIND(CONCAT(\"defType=edismax&ps=100&pf=suggestionSearchText&fl=id,score&rows=50&q.op=AND&fq=scheme:*&fq=fc:\", REPLACE(str(?__range__), \":\", \"\\\\\\\\:\"), \"&fq=frs:\", REPLACE(str(?__relation__), \":\", \"\\\\\\\\:\")) as ?sFC)
+                    BIND(CONCAT(\"(\",LCASE(?__token__),\")\") as ?lcasetoken)
+                    SERVICE <http://www.bigdata.com/rdf/fts#search> {
+                      ?item <http://www.bigdata.com/rdf/fts#search> ?lcasetoken.
+                      ?item <http://www.bigdata.com/rdf/fts#endpoint> \"[[solrEndpoint]]\".
+                      ?item <http://www.bigdata.com/rdf/fts#params> ?sFC.
+                      ?item <http://www.bigdata.com/rdf/fts#scoreField> \"score\".
+                      ?item <http://www.bigdata.com/rdf/fts#score> ?score.
+                      ?item <http://www.bigdata.com/rdf/fts#fieldToSearch> \"suggestionSearchText\".
+                      ?item <http://www.bigdata.com/rdf/fts#searchField> \"id\".
+                      ?item <http://www.bigdata.com/rdf/fts#searchResultType> \"URI\".
+                    }
+                  }
+                }
+                <http://www.bigdata.com/queryHints#Prior> <http://www.bigdata.com/queryHints#runFirst> \"true\"^^<http://www.w3.org/2001/XMLSchema#boolean>.
+            
+           			OPTIONAL { ?item rs:displayLabel ?label .}
+  				 			OPTIONAL { ?item skos:prefLabel ?label .} 
+                OPTIONAL { ?item rdfs:label ?label .}
+                    
+                OPTIONAL {?item skos:inScheme ?schema .}
+              } LIMIT 500
+            }
+            OPTIONAL { ?child ?broader ?item. }
+            BIND(BOUND(?child) AS ?hasChildren)
+          }
+          ORDER BY DESC(?score) ?label
+          LIMIT 200
+        "
+      [[else]]
+        "
+          SELECT DISTINCT ?item ?label ?score ?hasChildren WHERE {
+
+                    
+{ SELECT DISTINCT ?item ?broader {
+                    BIND(?__range__ AS ?range)
+                    BIND(IF(?range = rso:Concept, rso:Concept_has_broader_Concept, rso:Place_is_part_of_Place)	AS ?broader) .
+                    
+?subject ?__relation__ ?item .
+
+}}
+                    ?labelX bds:search ?__token__ ;
+                    bds:relevance ?score ;
+                    bds:minRelevance \"0.3\" ;
+                    bds:maxRank \"50000\" ;
+                    bds:matchAllTerms \"false\"  .
+
+                    {?item rdfs:label|skos:prefLabel ?labelX .} UNION {?item (rso:Concept_has_broader_Concept/(rdfs:label|skos:prefLabel)) ?labelX .}
+                    
+                    OPTIONAL{?item skos:prefLabel ?prefLabel .}
+
+                    OPTIONAL {?item skos:inScheme ?schema .} 
+                    OPTIONAL {
+                    ?item <http://www.sealit.gr/ontology/FR/was_born_in_E21_Person2date> ?birth_dateX .
+                    BIND(IF(REGEX(STR(?birth_dateX), \"[0-9][0-9][0-9][0-9]-01-01\"), SUBSTR(STR(?birth_dateX), 0, 4), ?birth_dateX) AS ?birth_date)
+                    BIND( CONCAT(\"(\", STR(?birth_date), \")\") AS ?labelExt)
+                    }
+
+                    BIND ( COALESCE( CONCAT(COALESCE(?prefLabel,?labelX), \" \", ?labelExt), ?prefLabel, ?labelX ) as ?label )
+                    OPTIONAL { ?child ?broader ?item. }
+                    BIND(BOUND(?child) AS ?hasChildren)
+          }
+          ORDER BY DESC(?score) ?label
+          LIMIT 200
+        "
+      [[/if]],
+     "placeholder": "Search ... "
+   }'
+
+    geo-selector='{
+     "query": "
+        SELECT DISTINCT  ?value ?label ?lat ?long WHERE {
+          ?value crm:P87_is_identified_by ?coord .
+           OPTIONAL { ?item rdfs:label ?label .} 
+                  
+          MINUS {?value owl:sameAs ?otherPlace .}
+
+          ?coord wgs84_pos:lat ?lat;
+                 wgs84_pos:long ?long.
+
+          ?label bds:search ?__token__ ;
+          bds:relevance ?score .
+         } ORDER BY DESC(?score)  LIMIT 20
+     "
+   }'                                                
+      >
+  [[!--      <div class='QueryBuilder--guideHolder'>
+          <div class='QueryBuilder--guidePanel'>
+            <div class='QueryBuilder--panelHeader'>Getting Started</div>
+            <ul class='QueryBuilder--guideLinks'>
+              <li>
+                <semantic-link uri='http://www.researchspace.org/resource/Features'>Explore ResearchSpace features</semantic-link>
+              </li>
+              <li>
+                <mp-event-trigger id='guided-tour-search-start' type='GuidedTour.Start' targets='["guided-tour-search"]'>
+                  <a>Take a guided tour of search</a>
+                </mp-event-trigger>
+              </li>
+            </ul>
+          </div>
+          <div class='QueryBuilder--guidePanel'>
+            <div class='QueryBuilder--panelHeader'>Example Searches</div>
+            <ul class='QueryBuilder--guideLinks'>
+              <li>
+                <mp-event-trigger id='guided-tour-actor-search-start' type='GuidedTour.Start' targets='["guided-tour-actor-search"]'>
+                  <a>Actor Search</a>
+                </mp-event-trigger>
+              </li>
+            </ul>
+          </div>
+        </div> --]]
+      </semantic-search-query-builder>
+
+
+      <div data-flex-layout="row stretch-stretch">
+        <div data-flex-self="size-1of3" style="flex: 0 0 0;">
+          <semantic-search-facet-tmp></semantic-search-facet-tmp>
+          <semantic-search-facet
+            id='semantic-search-facet'
+            select-first-category=true
+            value-categories='{
+    "<http://www.researchspace.org/ontology/Time>": {
+      "kind": "date-range",
+      "valuesQuery": "
+         SELECT ?dateBeginValue ?dateEndValue WHERE {
+   		     $subject ?__relation__ ?date .
+           ?date crm:P82a_begin_of_the_begin ?dateBeginValue ;
+                 crm:P82b_end_of_the_end     ?dateEndValue .
+      } ORDER BY ?dateBeginValue"                        
+     }
+    }'
+          ></semantic-search-facet>
+        </div>
+        
+        [[>sealit:SemanticSearchResultHolder ]]
+        
+      </div>
+    </semantic-search>
+
+
+[[#*inline "resource-selector-suggestion"]]
+       SELECT DISTINCT $suggestion $label WHERE {
+
+              {
+                   $label0 bds:search ?__token__ ;
+                   bds:relevance ?score ;
+                   bds:minRelevance \"0.2\" ;
+                   bds:matchAllTerms \"false\"  .
+              }   
+                   ?suggestion rdfs:label $label0 .
+                   MINUS {?master owl:sameAs ?suggestion ; crm:P2_has_type <http://www.sealit.gr/DB/type/master> .}
+                     
+
+                   FILTER(FALSE || EXISTS {
+                         ?subject ?__relation__ $suggestion .
+                         } || EXISTS {
+                         ?subject ?__relation__ ?sameAs . $suggestion owl:sameAs ?sameAs .
+                         }
+                    )
+                  
+                  OPTIONAL {
+                     ?suggestion a <http://www.sealit.gr/ontology/FC/Record>; (crm:P102_has_title/rdfs:label) $label1 .
+                  }
+                  
+                  OPTIONAL {
+                     ?suggestion a <http://www.sealit.gr/ontology/sealit#Voyage>; (crm:P4_has_time-span/crm:P82a_begin_of_the_begin) $labelX .
+                     BIND( CONCAT(STR($label0), \", \", STR($labelX) ) AS $label1 )
+                  }
+                     
+                  OPTIONAL {
+                     ?suggestion rdf:type sealit:Voyage;(crm:P4_has_time-span/crm:P82a_begin_of_the_begin) ?labelExt.
+                  }
+                     
+                  OPTIONAL {
+                     ?suggestion rdf:type crm:E52_Time-Span;(crm:P82a_begin_of_the_begin|crm:P82_at_some_time_within) ?labelExt.
+                  }
+                     
+                  OPTIONAL {
+                     ?suggestion rdf:type sealit:Duration .
+                     ?suggestion sealit:value_duration ?value_duration . 
+                     BIND (IF(CONTAINS(STR(?value_duration),\"T\"), STRBEFORE(STR(?value_duration),\"T\"), STR(?value_duration)) as ?duration_Date) 
+                     BIND (IF(CONTAINS(STR(?value_duration),\"T\"), STRAFTER(STR(?value_duration),\"T\"), \"\") as ?duration_Time) 
+                     BIND (CONCAT(\"\", COALESCE(REPLACE(REPLACE(REPLACE(REPLACE(STR(?duration_Date), \"P\", \"\"), \"Y\", \" year(s), \"), \"M\", \" month(s), \"), \"D\", \" day(s), \"), \"A\"), COALESCE(REPLACE(REPLACE(REPLACE(REPLACE(STR(?duration_Time), \"T\", \"\"), \"H\", \" hour(s), \"), \"M\", \" minute(s), \"), \"S\", \" second(s), \"), \"B\") ) as ?durationXX ) 
+                     BIND ( IF(STRENDS(?durationXX, \", \"), SUBSTR(?durationXX, 0, STRLEN(?durationXX)-2), ?durationXX) as ?durationYY ) 
+                     BIND ( IF(BOUND(?durationYY), CONCAT(\"\", ?durationYY), \"\") as ?durationText ) 
+                     BIND ( ?durationText as ?labelExt )
+                    }
+                     
+                  OPTIONAL {
+                     ?suggestion rdf:type crm:E21_Person .
+                     ?suggestion crm:P98i_was_born/crm:P4_has_time-span/rdfs:label ?birth_date .
+                     BIND(CONCAT(REPLACE(STR(?birth_date), \"Date \", \" (\"), \")\") AS ?labelExt)
+                  } 
+                     
+                     
+                  BIND( CONCAT( ?label0, \", \", STR(?labelExt)) AS ?label1 )
+                     
+
+[[!-
+                  OPTIONAL {
+                       ?suggestion <http://www.sealit.gr/ontology/FR/was_born_in_E21_Person2date> ?birth_date .
+                       BIND(CONCAT(REPLACE(STR(?birth_date), \"Date \", \" (\"), \")\") AS ?labelExt)
+                  } 
+                   BIND(CONCAT(?label0, COALESCE(?labelExt, \"\")) AS ?label)
+--]]
+                 BIND(COALESCE($label1, $label0) AS $label)
+                       
+          } ORDER BY DESC(?score)  LIMIT 10
+[[/inline]]

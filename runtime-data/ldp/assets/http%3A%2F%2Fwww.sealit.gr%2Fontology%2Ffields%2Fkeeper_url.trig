@@ -1,0 +1,33 @@
+
+<http://www.sealit.gr/ontology/fields/keeper_url/context> {
+  <http://www.sealit.gr/ontology/fields/keeper_url> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#anyURI>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "keeper (URL)"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-62a8b6f4ebf14b54a3292106a3a2fe7a-9xq27f .
+  
+  _:genid-62a8b6f4ebf14b54a3292106a3a2fe7a-vyitl <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-62a8b6f4ebf14b54a3292106a3a2fe7a-9xq27f a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/keeper_url> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-62a8b6f4ebf14b54a3292106a3a2fe7a-vyitl .
+  
+  _:genid-62a8b6f4ebf14b54a3292106a3a2fe7a-9xq27f <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject crm:P49_has_former_or_current_keeper ?keeper .
+  ?keeper crm:P1_is_identified_by ?url . 
+  ?url crm:P2_has_type <http://www.sealit.gr/DB/link%20types/URL> .
+  ?value rdfs:label ?label.
+}""" .
+  
+  _:genid-62a8b6f4ebf14b54a3292106a3a2fe7a-vyitl a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/keeper_url> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-02-09T15:28:42.195Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/keeper_url> .
+  
+  <http://www.sealit.gr/ontology/fields/keeper_url> a <http://www.w3.org/ns/ldp#Resource> .
+}

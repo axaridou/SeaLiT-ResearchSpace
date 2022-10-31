@@ -1,0 +1,27 @@
+
+<http://www.sealit.gr/ontology/fields/same_as_person_reversed/context> {
+  <http://www.sealit.gr/ontology/fields/same_as_person_reversed> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "person registry"@en;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-ab8e92ba53df4774850b18d1dffed238-3uhi4s .
+  
+  _:genid-ab8e92ba53df4774850b18d1dffed238-3uhi4s a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/same_as_person_reversed> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-ab8e92ba53df4774850b18d1dffed238-fxhfg6 .
+  
+  _:genid-ab8e92ba53df4774850b18d1dffed238-fxhfg6 a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+?value owl:sameAs $subject 
+       
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/same_as_person_reversed> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-06-23T11:38:11.658Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/same_as_person_reversed> .
+  
+  <http://www.sealit.gr/ontology/fields/same_as_person_reversed> a <http://www.w3.org/ns/ldp#Resource> .
+}

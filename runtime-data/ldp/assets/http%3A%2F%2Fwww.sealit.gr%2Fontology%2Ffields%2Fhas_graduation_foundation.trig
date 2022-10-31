@@ -1,0 +1,34 @@
+
+<http://www.sealit.gr/ontology/fields/has_graduation_foundation/context> {
+  <http://www.sealit.gr/ontology/fields/has_graduation_foundation> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-6e4629cd4eae4d17ab8e0664105cf47a-fkijvj .
+  
+  _:genid-6e4629cd4eae4d17ab8e0664105cf47a-fkijvj <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject sealit:has_graduation_foundation ?value.
+  ?value rdfs:label ?label.
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_graduation_foundation> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-6e4629cd4eae4d17ab8e0664105cf47a-bj3ke <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-6e4629cd4eae4d17ab8e0664105cf47a-fkijvj a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_graduation_foundation> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-6e4629cd4eae4d17ab8e0664105cf47a-bj3ke .
+  
+  _:genid-6e4629cd4eae4d17ab8e0664105cf47a-bj3ke a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_graduation_foundation> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "has graduation foundation"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-18T18:55:24.625Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_graduation_foundation> .
+  
+  <http://www.sealit.gr/ontology/fields/has_graduation_foundation> a <http://www.w3.org/ns/ldp#Resource> .
+}

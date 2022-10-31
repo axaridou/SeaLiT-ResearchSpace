@@ -1,0 +1,70 @@
+
+<http://83.212.107.202:10315/container/persistedComponentContainer/c5a8597d-b393-4ac1-b0b3-3757c216b732/context> {
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-pw9b16 <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/type>
+      "bar";
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/id> "search-result-chart" .
+  
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-lcnnv9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>
+      _:genid-ce9484df796f4e77a6342af1aaeee1be-7bqjfa .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c5a8597d-b393-4ac1-b0b3-3757c216b732>
+    <http://www.w3.org/2000/01/rdf-schema#label> "test_visualization";
+    <http://www.metaphacts.com/ontologies/persist/componentType> <http://www.metaphacts.com/ontologies/persist/components/semantic-chart>;
+    a <http://www.metaphacts.com/ontologies/persist/PersistedComponent> .
+  
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-58m5lv5 <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps/partials>
+      _:genid-ce9484df796f4e77a6342af1aaeee1be-1v14ra .
+  
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-ps525u <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/repository>
+      "default" .
+  
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-i7jp <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext>
+      _:genid-ce9484df796f4e77a6342af1aaeee1be-ps525u .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c5a8597d-b393-4ac1-b0b3-3757c216b732>
+    <http://www.metaphacts.com/ontologies/persist/componentProps> _:genid-ce9484df796f4e77a6342af1aaeee1be-pw9b16;
+    <http://www.metaphacts.com/ontologies/persist/componentContext> _:genid-ce9484df796f4e77a6342af1aaeee1be-i7jp .
+  
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-i7jp <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps>
+      _:genid-ce9484df796f4e77a6342af1aaeee1be-58m5lv5 .
+  
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-lcnnv9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+  
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-pw9b16 <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/query>
+      """PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?object ?label (COUNT(DISTINCT ?subject) AS ?count) WHERE {
+  ?subject <http://www.sealit.gr/ontology/FR/had_profession> <http://www.sealit.gr/DB/Profession%20type/capitano%20di%20seconda%20classe>.
+  OPTIONAL { ?subject <http://www.sealit.gr/ontology/FR/discharged_at> ?object. }
+  MINUS { ?master owl:sameAs ?object. }
+  OPTIONAL { ?object rdfs:label ?label. }
+  BIND(IF(BOUND(?object), ?object, \"Unknown\") AS ?object)
+}
+GROUP BY ?object ?label
+ORDER BY DESC (?count)
+LIMIT 50000""" .
+  
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-ps525u <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/isDefault>
+      true .
+  
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-pw9b16 <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets>
+      _:genid-ce9484df796f4e77a6342af1aaeee1be-lcnnv9 .
+  
+  _:genid-ce9484df796f4e77a6342af1aaeee1be-7bqjfa <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/value>
+      "count";
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/category>
+      "object" .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c5a8597d-b393-4ac1-b0b3-3757c216b732>
+    <http://www.w3.org/2000/01/rdf-schema#comment> "lalakis";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-09T14:48:32.463Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#persistedComponentContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.107.202:10315/container/persistedComponentContainer/c5a8597d-b393-4ac1-b0b3-3757c216b732> .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c5a8597d-b393-4ac1-b0b3-3757c216b732>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

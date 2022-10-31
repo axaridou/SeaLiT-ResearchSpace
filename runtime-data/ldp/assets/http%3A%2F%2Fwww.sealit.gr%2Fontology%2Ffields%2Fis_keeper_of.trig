@@ -1,0 +1,34 @@
+
+<http://www.sealit.gr/ontology/fields/is_keeper_of/context> {
+  <http://www.sealit.gr/ontology/fields/is_keeper_of> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-f66ba59385134ece95c32a624b40e3e0-t109b9 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/is_keeper_of> <http://www.w3.org/2000/01/rdf-schema#label>
+      "is keeper of"@en .
+  
+  _:genid-f66ba59385134ece95c32a624b40e3e0-kpotli <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/is_keeper_of> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> .
+  
+  _:genid-f66ba59385134ece95c32a624b40e3e0-t109b9 <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject ^crm:P49_has_former_or_current_keeper ?value.
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/is_keeper_of> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-f66ba59385134ece95c32a624b40e3e0-kpotli .
+  
+  _:genid-f66ba59385134ece95c32a624b40e3e0-kpotli a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/is_keeper_of> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-f66ba59385134ece95c32a624b40e3e0-t109b9;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-24T19:39:53.148Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/is_keeper_of> .
+  
+  <http://www.sealit.gr/ontology/fields/is_keeper_of> a <http://www.w3.org/ns/ldp#Resource> .
+}

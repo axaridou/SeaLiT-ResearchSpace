@@ -1,0 +1,219 @@
+SELECT DISTINCT $subject ?AT1 ?AT2 ?AT3 ?AT4 ?AT5 ?AT6 ?AT7 ?AT8 ?AT9 ?AT10 ?AT11 
+WHERE {
+
+$subject a ?type.
+
+
+OPTIONAL{
+$subject a sealit:Ship .
+
+  $subject (sealit:has_tonnage/crm:P90_has_value) ?tonnage .
+  $subject (sealit:was_constructed_by/crm:P7_took_place_at) ?construction_location .
+  $subject (sealit:was_constructed_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?construction_date .
+  $subject (sealit:is_registered_by/crm:P7_took_place_at) ?registry_port .
+  #$subject (sealit:is_registered_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?registry_date .
+    BIND(CONCAT(STR(?tonnage),"(Tonnage)") as ?AT1)
+    BIND(CONCAT(STR(?construction_location),"(Construction location)") as ?AT2)
+		BIND(CONCAT(STR(?construction_date),"(Construction date)") as ?AT3)
+    BIND(CONCAT(STR(?registry_port),"(Registry port)") as ?AT4)
+}
+
+OPTIONAL{
+$subject a sealit:Voyage .
+  
+  ?ship sealit:voyages $subject .
+  $subject sealit:destination ?destination ;
+           crm:P3_has_note ?note ;
+           crm:P4_has_time-span ?timespan .
+  
+  OPTIONAL{
+  ?timespan sealit:had_duration ?durationD . 
+  ?durationD sealit:value_duration ?value_durationD .
+  ?durationD crm:P91_has_unit <http://www.sealit.gr/DB/in%20days/days> .
+  Bind(If(xsd:decimal(?value_durationD)>0,Concat(Str(xsd:decimal(?value_durationD)), If(xsd:decimal(?value_durationD)>1," days "," day ")),"") as ?durationDays)
+  }
+  OPTIONAL{
+  ?timespan sealit:had_duration ?durationM . 
+  ?durationM sealit:value_duration ?value_durationM .
+  ?durationM crm:P91_has_unit <http://www.sealit.gr/DB/in%20days/months> .
+  Bind(If(xsd:decimal(?value_durationM)>0,Concat(Str(xsd:decimal(?value_durationM)), If(xsd:decimal(?value_durationM)>1," months "," month ")),"") as ?durationMonths)
+  }
+  Bind(Concat(Coalesce(?durationMonths,""), Coalesce(?durationDays,"")) as ?duration)
+  
+       
+    BIND(CONCAT(STR(?ship),"(Ship)") as ?AT1)
+    BIND(CONCAT(STR(?destination),"(Destination)") as ?AT2)
+		BIND(CONCAT(STR(?duration),"(Duration)") as ?AT3)
+    BIND(CONCAT(STR(?note),"(Note)") as ?AT4)
+}
+    
+OPTIONAL{
+$subject a crm:E21_Person .
+
+  $subject sealit:has_first_name ?first_name ;
+           sealit:has_last_name ?last_name .
+
+  OPTIONAL{$subject (crm:P1_is_identified_by) ?serialNumX .
+           ?serialNumX crm:P2_has_type <http://www.sealit.gr/DB/numbers/serial%20number> .
+           ?serialNumX rdfs:label ?serialNum .
+          }
+
+  OPTIONAL{
+    $subject crm:P98i_was_born ?birth .
+    OPTIONAL{?birth crm:P4_has_time-span ?birthDateTS .
+             OPTIONAL{?birthDateTS crm:P82_at_some_time_within ?birthDate .}
+            }
+    OPTIONAL{?birth crm:P97_from_father ?father .}
+  }
+    BIND(CONCAT(STR(?first_name),"(First name)") as ?AT1)
+    BIND(CONCAT(STR(?last_name),"(Last name)") as ?AT2)
+    BIND(CONCAT(STR(?serialNum),"(Serial num)") as ?AT3)
+    BIND(CONCAT(STR(?birthDate),"(Birth date)") as ?AT4)
+    BIND(CONCAT(STR(?father),"(Father)") as ?AT5)
+}
+    
+OPTIONAL{
+$subject a crm:E40_Legal_Body .
+    
+    
+}
+    
+OPTIONAL{
+$subject a sealit:Crew_Payment .
+
+  ?voyage crm:P14_carried_out_by ?person . #group by ?voyage
+  ?person sealit:gave_service_for $subject .
+  ?person sealit:had_provided ?employment .
+
+  OPTIONAL{?person sealit:has_first_name ?first_name .}
+  OPTIONAL{?person sealit:has_last_name ?last_name .}
+  OPTIONAL{?person sealit:has_profession/rdfs:label ?role1 .}
+  OPTIONAL{?employment (crm:P02i_is_range_of/crm:P.1a_in_the_role_of/rdfs:label) ?role2 .}
+  Bind(COALESCE(?role1, ?role2) as ?profession)
+
+  OPTIONAL{?employment (sealit:started_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?startedby . }
+  OPTIONAL{?employment (sealit:started_by/crm:P7_took_place_at/rdfs:label) ?recruitment_place . }
+  OPTIONAL{?employment (sealit:ended_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?endedby . }
+  OPTIONAL{?employment (sealit:ended_by/crm:P7_took_place_at/rdfs:label) ?discharge_place . }
+  OPTIONAL{?person (crm:P1_is_identified_by) ?serialNum .
+  ?serialNum crm:P2_has_type <http://www.sealit.gr/DB/numbers/serial%20number> .
+  ?serialNum rdfs:label ?serialNumLabel .
+  }
+  OPTIONAL{
+  $subject (sealit:had_money_value/sealit:P181_has_amount) ?has_amountP .
+  $subject (sealit:had_money_value/sealit:P180_has_currency/rdfs:label) ?has_currencyP.
+  $subject (sealit:had_money_value/crm:P2_has_type) <http://www.sealit.gr/DB/money%20payments%20types/pension%20funds> .
+  Bind(Concat(Str(?has_amountP), " in ", ?has_currencyP) as ?pensionFund)
+  }
+  OPTIONAL{
+  $subject (sealit:had_money_value/sealit:P181_has_amount) ?has_amountW .
+  $subject (sealit:had_money_value/crm:P2_has_type) <http://www.sealit.gr/DB/Wage%20types/Share> .
+  Bind(Concat(Str(?has_amountW)) as ?wage)
+  }
+  OPTIONAL{
+  $subject sealit:for_employment_period ?period .
+  OPTIONAL{
+  ?period sealit:had_duration ?durationD . 
+  ?durationD sealit:value_duration ?value_durationD .
+  ?durationD crm:P91_has_unit <http://www.sealit.gr/DB/Measurement%20units/days> .
+  Bind(If(xsd:decimal(?value_durationD)>0,Concat(Str(xsd:decimal(?value_durationD)), If(xsd:decimal(?value_durationD)>1," days "," day ")),"") as ?durationDays)
+  }
+  OPTIONAL{
+  ?period sealit:had_duration ?durationM . 
+  ?durationM sealit:value_duration ?value_durationM .
+  ?durationM crm:P91_has_unit <http://www.sealit.gr/DB/Measurement%20units/months> .
+  Bind(If(xsd:decimal(?value_durationM)>0,Concat(Str(xsd:decimal(?value_durationM)), If(xsd:decimal(?value_durationM)>1," months "," month ")),"") as ?durationMonths)
+  }
+  Bind(Concat(Coalesce(?durationMonths,""), Coalesce(?durationDays,"")) as ?duration)
+}
+    
+    BIND(CONCAT(STR(?first_name),"(First name)") as ?AT1)
+    BIND(CONCAT(STR(?last_name),"(Last name)") as ?AT2)
+    BIND(CONCAT(STR(?serialNum),"(Serial num)") as ?AT3)
+    BIND(CONCAT(STR(?profession),"(Profession)") as ?AT4)
+    BIND(CONCAT(STR(?recruitment_place),"(Embarkation port)") as ?AT5)
+    BIND(CONCAT(STR(?startedby),"(Embarkation Date)") as ?AT6)
+    BIND(CONCAT(STR(?discharge_place),"(Discharge port)") as ?AT7)
+    BIND(CONCAT(STR(?endedby),"(Discharge date)") as ?AT8)
+    BIND(CONCAT(STR(?duration),"(Duration)") as ?AT9)
+    BIND(CONCAT(STR(?pensionFund),"(Pension fund)") as ?AT10)
+    BIND(CONCAT(STR(?wage),"(Wage)") as ?AT11)
+
+}
+    
+OPTIONAL{
+$subject a sealit:Ship_Crew_Employment .
+
+?person sealit:had_provided $subject .
+?ship (sealit:voyages/crm:P14_carried_out_by) ?person . 
+    
+OPTIONAL{?person sealit:has_first_name ?first_name .}
+OPTIONAL{?person sealit:has_last_name ?last_name .}
+OPTIONAL{?person sealit:has_profession/rdfs:label ?role1 .}
+OPTIONAL{$subject (crm:P02i_is_range_of/crm:P.1a_in_the_role_of/rdfs:label) ?role2 .}
+Bind(COALESCE(?role1, ?role2) as ?profession)
+
+OPTIONAL{$subject (sealit:started_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?startedby . }
+OPTIONAL{$subject (sealit:started_by/crm:P7_took_place_at) ?recruitment_place . }
+OPTIONAL{$subject (sealit:ended_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?endedby . }
+OPTIONAL{$subject (sealit:ended_by/crm:P7_took_place_at) ?discharge_place . }
+
+OPTIONAL{?person (crm:P1_is_identified_by) ?serialNumX .
+?serialNumX crm:P2_has_type <http://www.sealit.gr/DB/numbers/serial%20number> .
+?serialNumX rdfs:label ?serialNum .
+}
+
+    BIND(CONCAT(STR(?first_name),"(First name)") as ?AT1)
+    BIND(CONCAT(STR(?last_name),"(Last name)") as ?AT2)
+    BIND(CONCAT(STR(?serialNum),"(Serial num)") as ?AT3)
+    BIND(CONCAT(STR(?recruitment_place),"(Embarkation port)") as ?AT4)
+    BIND(CONCAT(STR(?startedby),"(Embarkation Date)") as ?AT5)
+    BIND(CONCAT(STR(?discharge_place),"(Discharge port)") as ?AT6)
+    BIND(CONCAT(STR(?endedby),"(Discharge date)") as ?AT7)
+    BIND(CONCAT(STR(?profession),"(Profession)") as ?AT8)
+    BIND(CONCAT(STR(?ship),"(Ship)") as ?AT9)
+}
+    
+        
+OPTIONAL{
+$subject a crm:E73_Information_Object .
+    
+    
+}
+    
+OPTIONAL{
+$subject a crm:E31_Document .
+    
+    
+}
+    
+OPTIONAL{
+$subject a crm:E52_Time-Span .
+?something crm:P4_has_time-span $subject .
+OPTIONAL{$subject crm:P82_at_some_time_within ?at_some_time_within .}
+OPTIONAL{$subject crm:P82a_begin_of_the_begin ?startvalue .}
+OPTIONAL{$subject crm:P82b_end_of_the_end ?endvalue .}
+OPTIONAL{
+  ?timespan sealit:had_duration ?durationD . 
+  ?durationD sealit:value_duration ?value_durationD .
+  ?durationD crm:P91_has_unit <http://www.sealit.gr/DB/in%20days/days> .
+  Bind(If(xsd:decimal(?value_durationD)>0,Concat(Str(xsd:decimal(?value_durationD)), If(xsd:decimal(?value_durationD)>1," days "," day ")),"") as ?durationDays)
+  }
+  OPTIONAL{
+  ?timespan sealit:had_duration ?durationM . 
+  ?durationM sealit:value_duration ?value_durationM .
+  ?durationM crm:P91_has_unit <http://www.sealit.gr/DB/in%20days/months> .
+  Bind(If(xsd:decimal(?value_durationM)>0,Concat(Str(xsd:decimal(?value_durationM)), If(xsd:decimal(?value_durationM)>1," months "," month ")),"") as ?durationMonths)
+  }
+  Bind(Concat(Coalesce(?durationMonths,""), Coalesce(?durationDays,"")) as ?duration)
+
+    BIND(CONCAT("is related to ", STR(?something)) as ?AT1)
+    BIND(CONCAT("at_some_time_within ", STR(?at_some_time_within)) as ?AT2)
+    BIND(CONCAT("begins on ", STR(?startvalue)) as ?AT3)
+    BIND(CONCAT("ends on ", STR(?endvalue)) as ?AT4)
+    BIND(CONCAT(STR(?duration), "(Duration)") as ?AT5)
+}
+    
+
+    
+} ORDER BY ?subject

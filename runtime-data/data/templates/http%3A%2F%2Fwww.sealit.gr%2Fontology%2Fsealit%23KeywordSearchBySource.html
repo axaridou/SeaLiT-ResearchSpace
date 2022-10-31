@@ -1,0 +1,146 @@
+[[#*inline 'popover' ]]
+<bs-alert bs-style="info">
+	<mp-popover titleXXX="msg">
+    <mp-popover-trigger placement="top"  trigger='["hover","focus"]'> 
+      <i class="fa fa-question-circle" aria-hidden="true"></i>
+    </mp-popover-trigger>
+    <mp-popover-content style="background:white;">
+      <div><small>This category contains too many entries. The <strong>Keyword Search</strong> utility is activated for your convenience.</small>
+      </div>
+    </mp-popover-content>
+  </mp-popover>
+  <span>&nbsp;</span><small>[[message]] to get a plain list of the first 1000 results.</small>
+</bs-alert>
+[[/inline]] 
+
+[[#if person]][[>popover message='Search for a <b>name</b>, <b>date of birth</b>, <b>profession</b> or type <b>"person"</b>']][[/if]]
+[[#if place]][[>popover message='Search for a <b>name</b>, <b>type of place</b>, <b>coordinates</b> or type <b>"place"</b>']][[/if]]
+
+[[#if payment]][[>popover message='Search for a <b>payment</b>, <b>date of employment</b>, <b>profession</b> or type <b>"payment"</b>']][[/if]]
+[[#if payment_FR]][[>popover message='Search for a <b>payment</b>, <b>ship</b>, <b>date of employment</b>, <b>profession</b> or type <b>"payment"</b>']][[/if]]
+
+[[#if ship_crew_employment]][[>popover message='Search for a <b>employee</b>, <b>date of employment</b>, <b>profession</b> or type <b>"employment"</b>']][[/if]]
+[[#if ship_crew_employment_with_payment]][[>popover message='Search for a <b>employee</b>, <b>date of employment</b>, <b>profession</b> or type <b>"employment"</b>']][[/if]]
+
+[[#*inline 'TemplateInstancesGraph']]<http://www.sealit.gr/ontology/FCFR/materializationTemplateInstances>[[/inline]]
+
+<semantic-search>
+  <semantic-search-query-keyword                         
+   query=' PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/>
+[[#if master]]SELECT DISTINCT $subjectM [[else]]SELECT DISTINCT $subject [[/if]]
+WHERE {
+  [[#if master]]{ SELECT DISTINCT $subjectM $subjectX {[[else]]{ SELECT DISTINCT $subject {[[/if]]
+  [[#if classDELETE]]$subjectX a [[class]]. [[/if]]
+  {$subjectX rdfs:label ?labelSearch .} 
+    UNION {$subjectX rdf:type/rdfs:label ?labelSearch .}
+  [[#if person]]
+    UNION {$subjectX sealit:has_profession/rdfs:label ?labelSearch .}
+    UNION {$subjectX crm:P98i_was_born/crm:P4_has_time-span/rdfs:label ?labelSearch .}
+  [[/if]]
+  [[#if organization]]
+    UNION {$subjectX ^crm:P107i_is_current_or_former_member_of/rdfs:label ?labelSearch .}
+    UNION {$subjectX crm:P1_is_identified_by ?appelation . ?appelation a crm:E41_Appellation; rdfs:label ?labelSearch .}
+		UNION {$subjectX (crm:P74_has_current_or_former_residence/rdfs:label) ?labelSearch .}
+  [[/if]]
+  [[#if place]]
+    UNION {$subjectX crm:P2_has_type ?typeX . 
+           FILTER (?typeX != <http://www.sealit.gr/DB/type/master>) 
+           ?typeX rdfs:label ?labelSearch .}
+    UNION {$subjectX crm:P87_is_identified_by ?coords . ?coords a crm:E47_Spatial_Coordinates . ?coords rdfs:label ?labelSearch .}
+  [[/if]]
+  [[#if payment]]
+    UNION { GRAPH ?voyageGr {
+      		 ?person sealit:gave_service_for ?subjectX .
+           ?ship (sealit:voyages/crm:P14_carried_out_by) ?person . 
+           ?ship rdfs:label  ?labelSearch . }	
+          }
+    UNION {?person sealit:gave_service_for ?subjectX .
+           ?person sealit:has_profession/rdfs:label ?labelSearch .}
+    UNION {$subjectX (sealit:for_service/crm:P02i_is_range_of/crm:P.1a_in_the_role_of/rdfs:label) ?labelSearch .}
+    UNION {$subjectX (sealit:for_service/sealit:started_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?labelSearch . }
+    UNION {$subjectX (sealit:for_service/sealit:started_by/crm:P7_took_place_at/rdfs:label) ?labelSearch . }
+    UNION {$subjectX (sealit:for_service/sealit:ended_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?labelSearch . }
+    UNION {$subjectX (sealit:for_service/sealit:ended_by/crm:P7_took_place_at/rdfs:label) ?labelSearch . }
+  [[/if]] 
+  [[#if payment_FR]]
+    UNION { GRAPH ?voyageGr {
+      		 ?person sealit:gave_service_for ?subjectX .
+           ?ship (sealit:voyages/crm:P14_carried_out_by) ?person . 
+           ?ship rdfs:label  ?labelSearch . }	
+          }
+    UNION {?person sealit:gave_service_for ?subjectX .
+           ?person sealit:has_profession/rdfs:label ?labelSearch .}
+    UNION {$subjectX (sealit:for_service/crm:P02i_is_range_of/crm:P.1a_in_the_role_of/rdfs:label) ?labelSearch .}
+    UNION {$subjectX (sealit:for_service/sealit:started_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?labelSearch . }
+    UNION {$subjectX (sealit:for_service/sealit:started_by/crm:P7_took_place_at/rdfs:label) ?labelSearch . }
+    UNION {$subjectX (sealit:for_service/sealit:ended_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?labelSearch . }
+    UNION {$subjectX (sealit:for_service/sealit:ended_by/crm:P7_took_place_at/rdfs:label) ?labelSearch . }
+  [[/if]] 
+  [[#if ship_crew_employment]]
+    UNION { GRAPH ?voyageGr {
+      		 #?person sealit:had_provided $subjectX .
+      		 ?person (sealit:gave_service_for/sealit:for_service) ?subjectX .
+           ?ship (sealit:voyages/crm:P14_carried_out_by) ?person . 
+           ?ship rdfs:label  ?labelSearch .}	
+          }
+    UNION {?person sealit:had_provided $subjectX .
+           ?person sealit:has_profession/rdfs:label ?labelSearch .}
+    UNION {$subjectX (crm:P02i_is_range_of/crm:P.1a_in_the_role_of/rdfs:label) ?labelSearch .}
+    UNION {$subjectX (sealit:started_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?labelSearch . }
+    UNION {$subjectX (sealit:started_by/crm:P7_took_place_at/rdfs:label) ?labelSearch . }
+    UNION {$subjectX (sealit:ended_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?labelSearch . }
+    UNION {$subjectX (sealit:ended_by/crm:P7_took_place_at/rdfs:label) ?labelSearch . }
+  [[/if]] 
+  [[#if ship_crew_employment_with_payment]]
+    UNION { GRAPH ?voyageGr {
+      		 #?person sealit:had_provided $subjectX .
+      		 ?person (sealit:gave_service_for/sealit:for_service) ?subjectX .
+           ?ship (sealit:voyages/crm:P14_carried_out_by) ?person . 
+           ?ship rdfs:label  ?labelSearch .}	
+          }
+    UNION {?person sealit:had_provided $subjectX .
+           ?person sealit:has_profession/rdfs:label ?labelSearch .}
+    UNION {$subjectX (crm:P02i_is_range_of/crm:P.1a_in_the_role_of/rdfs:label) ?labelSearch .}
+    UNION {$subjectX (sealit:started_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?labelSearch . }
+    UNION {$subjectX (sealit:started_by/crm:P7_took_place_at/rdfs:label) ?labelSearch . }
+    UNION {$subjectX (sealit:ended_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?labelSearch . }
+    UNION {$subjectX (sealit:ended_by/crm:P7_took_place_at/rdfs:label) ?labelSearch . }
+  [[/if]] 
+  [[#if recordtypeTMP]]?record crm:P2_has_type <[[recordtype]]>;
+    (crm:P67_refers_to|^crm:P67i_is_referred_to_by)
+    [[#if ship_crew_employment]]/sealit:had_provided[[/if]]
+    [[#if payment]]/sealit:gave_service_for[[/if]] 
+    [[#if payment_FR]]/sealit:gave_service_for[[/if]] $subjectX.
+  [[/if]]
+  [[#if recordtype]]GRAPH [[>TemplateInstancesGraph]] {
+    $subjectX  
+    [[#if ship]]sealitFR:Ship2Template [[/if]]
+    [[#if voyage]]sealitFR:Voyage2Template [[/if]]
+    [[#if organization]]sealitFR:Legal_Body2Template [[/if]]
+    [[#if place]]sealitFR:Place2Template [[/if]]
+    [[#if person]]sealitFR:Person2Template [[/if]]
+    [[#if payment]]sealitFR:Crew_Payment2Template [[/if]]
+    [[#if payment_FR]]sealitFR:Crew_Payment2Template [[/if]]
+    [[#if course]]sealitFR:Course2Template [[/if]]
+    <[[recordtype]]>.}
+  [[/if]]
+  [[#if master]]$subjectM owl:sameAs $subjectX; crm:P2_has_type <http://www.sealit.gr/DB/type/master>.[[else]]
+    BIND($subjectX as $subject)[[/if]]
+
+	SERVICE <http://www.bigdata.com/rdf/search#search> {
+  ?labelSearch bds:search ?__token__ ;
+               bds:relevance ?score ;
+               bds:minRelevance "0.3" ;
+               bds:maxRank "5000" ;
+               bds:searchTimeout "10000";
+               bds:matchAllTerms "true"  .
+  }
+
+    } [[#if master]]GROUP BY $subjectM $subjectX [[/if]] }
+} 
+'
+  ></semantic-search-query-keyword>
+  
+  [[>sealit:SemanticSearchResultHolderBySource tableTab=true class=[[class]] master=[[master]] recordtype=false ]]
+
+</semantic-search>

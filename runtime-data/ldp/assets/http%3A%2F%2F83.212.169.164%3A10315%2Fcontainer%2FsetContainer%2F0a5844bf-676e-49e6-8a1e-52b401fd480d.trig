@@ -1,0 +1,15 @@
+
+<http://83.212.169.164:10315/container/setContainer/0a5844bf-676e-49e6-8a1e-52b401fd480d/context> {
+  <http://83.212.169.164:10315/container/setContainer/0a5844bf-676e-49e6-8a1e-52b401fd480d>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ships departed from Amsterdam";
+    a <http://www.w3.org/ns/ldp#Container>, <http://www.metaphacts.com/ontologies/platform#Set>,
+      <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-22T09:36:38.194Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform/user/admin/setContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/setContainer/0a5844bf-676e-49e6-8a1e-52b401fd480d> .
+  
+  <http://83.212.169.164:10315/container/setContainer/0a5844bf-676e-49e6-8a1e-52b401fd480d>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

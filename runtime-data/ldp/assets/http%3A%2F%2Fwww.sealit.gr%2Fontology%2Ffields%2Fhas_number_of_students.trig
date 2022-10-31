@@ -1,0 +1,31 @@
+
+<http://www.sealit.gr/ontology/fields/has_number_of_students/context> {
+  _:genid-bbd76b7a05c74887bf4175e075854a62-lwqvpe a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_number_of_students> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Course>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-bbd76b7a05c74887bf4175e075854a62-jhnpi7;
+    <http://www.w3.org/2000/01/rdf-schema#label> "has number of students"@en .
+  
+  _:genid-bbd76b7a05c74887bf4175e075854a62-lwqvpe <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-bbd76b7a05c74887bf4175e075854a62-jhnpi7 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_number_of_students> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-bbd76b7a05c74887bf4175e075854a62-lwqvpe .
+  
+  _:genid-bbd76b7a05c74887bf4175e075854a62-jhnpi7 <http://spinrdf.org/sp#text> """SELECT ?value WHERE {
+$subject a sealit:Course . 
+$subject crm:P9_consists_of/sealit:with_no_of_students ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_number_of_students> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-21T14:18:44.226Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_number_of_students> .
+  
+  <http://www.sealit.gr/ontology/fields/has_number_of_students> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,46 @@
+
+[[#if sourceinfo ]]
+
+<bs-panel header="Source info" collapsible="false">
+
+<mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions 
+http://www.sealit.gr/ontology/fields/is_referred_to_by_source = "http://www.sealit.gr/ontology/fields/is_referred_to_by_source"
+http://www.sealit.gr/ontology/fields/is_referred_to_by_template = "http://www.sealit.gr/ontology/fields/is_referred_to_by_template"
+http://www.sealit.gr/ontology/fields/seeAlso = "http://www.sealit.gr/ontology/fields/seeAlso"
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+</bs-panel>
+
+[[/if]]
+
+
+[[#if registered_as ]]
+<bs-panel header="See also" collapsible="false">
+  <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions 
+http://www.sealit.gr/ontology/fields/same_as = "http://www.sealit.gr/ontology/fields/same_as"
+http://www.sealit.gr/ontology/fields/same_as_reversed = "http://www.sealit.gr/ontology/fields/same_as_reversed"
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+</bs-panel>
+
+[[/if]]
+
+[[#if registry ]]
+<bs-panel header="See also" collapsible="false">
+  <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions 
+http://www.sealit.gr/ontology/fields/same_as = "http://www.sealit.gr/ontology/fields/same_as"
+http://www.sealit.gr/ontology/fields/same_as_reversed = "http://www.sealit.gr/ontology/fields/same_as_reversed"
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+</bs-panel>
+
+[[/if]]

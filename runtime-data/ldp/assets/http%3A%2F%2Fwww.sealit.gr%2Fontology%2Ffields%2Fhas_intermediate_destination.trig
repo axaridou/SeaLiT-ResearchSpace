@@ -1,0 +1,34 @@
+
+<http://www.sealit.gr/ontology/fields/has_intermediate_destination/context> {
+  _:genid-d637d5af75904686823908ba6ed1baed-tjy49b <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-d637d5af75904686823908ba6ed1baed-trugk a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_intermediate_destination> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Voyage>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-d637d5af75904686823908ba6ed1baed-tjy49b;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.sealit.gr/ontology/sealit#Arrival_At> .
+  
+  _:genid-d637d5af75904686823908ba6ed1baed-tjy49b a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_intermediate_destination> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-d637d5af75904686823908ba6ed1baed-trugk;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "had arrival (OBSOLETE)"@en .
+  
+  _:genid-d637d5af75904686823908ba6ed1baed-trugk <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+  $subject (sealit:consists_of_leaving/crm:P134i_was_continued_by) ?value .
+        ?value (sealit:at/rdfs:label) ?loc .
+        ?value (sealit:arrival/rdfs:label) ?date .
+        Bind(Concat(\"at \", ?loc, \" on \", ?date)as ?label)
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_intermediate_destination> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-29T10:44:44.817Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_intermediate_destination> .
+  
+  <http://www.sealit.gr/ontology/fields/has_intermediate_destination> a <http://www.w3.org/ns/ldp#Resource> .
+}

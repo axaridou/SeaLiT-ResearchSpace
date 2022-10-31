@@ -1,0 +1,82 @@
+
+<div>
+
+  [[#*inline 'category_intro']]
+  [[> sealit:SemanticSearchResultPresent intro=true]] 
+  [[/inline]]
+  
+  [[#*inline 'ship_semantic_table']] 
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"register_of_maritime_workers",  "cat":"ship"}']] 
+  [[/inline]]
+  
+  [[#*inline 'voyage_semantic_table']]
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"register_of_maritime_workers",  "cat":"voyage"}']] 
+  [[/inline]]
+  
+  [[#*inline 'person_semantic_table']]
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"register_of_maritime_workers", "cat":"person"}']] 
+  [[/inline]]
+  
+  [[#*inline 'organization_semantic_table']]
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"register_of_maritime_workers",  "cat":"org"}']] 
+  [[/inline]]
+
+  [[#*inline 'place_semantic_table']]
+  [[> sealit:SemanticSearchResultPresent link-params='{"tab":"register_of_maritime_workers", "cat":"place"}']] 
+  [[/inline]]
+  
+  [[#*inline 'profession_semantic_table']]
+  [[> sealit:SemanticSearchResultPresent show_person_count=true link-params='{"tab":"register_of_maritime_workers", "cat":"profession"}']] 
+  [[/inline]]
+  
+  [[#*inline 'show_content']]
+  [[#if 0]]
+  [[>sealit:queries_counts]]
+  [[else]]
+  <bs-tab-container id="some-ide" class="bs-left-vertical-tabs" default-active-key='[[#if (urlParam "cat")]][[urlParam "cat"]][[else]]intro[[/if]]'>
+    <bs-row class="clearfix">
+      <bs-col sm="2">
+        <bs-nav bs-style="tabs" stacked="true">
+          <bs-nav-item event-key="intro"></bs-nav-item>
+          <bs-nav-item event-key="ship">Ships</bs-nav-item>
+          <bs-nav-item event-key="voyage">Voyages</bs-nav-item>
+          <bs-nav-item event-key="person">Persons</bs-nav-item>
+          <bs-nav-item event-key="org">Organizations</bs-nav-item>
+          <bs-nav-item event-key="place">Places</bs-nav-item>
+          <bs-nav-item event-key="profession">Professions</bs-nav-item>
+          <bs-nav-item event-key="misc">Misc</bs-nav-item>
+        </bs-nav>
+      </bs-col>
+      <bs-col sm="10">
+        <bs-tab-content animation="true">
+          <bs-tab-pane event-key="intro" >[[> category_intro]]</bs-tab-pane>
+          <bs-tab-pane event-key="ship" mount-on-enter=true>[[> ship_semantic_table class="sealit:Ship" classlabel="Ships" 
+             ship=true limit=false]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="voyage" mount-on-enter=true>[[> voyage_semantic_table class="sealit:Voyage" classlabel="Voyages"
+             voyage=true limit=false]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="person" mount-on-enter=true>[[> person_semantic_table class="crm:E21_Person" classlabel="Persons"
+             person=true limit=false]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="org" mount-on-enter=true>[[> organization_semantic_table class="crm:E40_Legal_Body" classlabel="Organizations"
+             organization=true limit=false]]
+          </bs-tab-pane>             
+          <bs-tab-pane event-key="place" mount-on-enter=true>[[> place_semantic_table class="crm:E53_Place" classlabel="Places"
+             place=true limit=false]]
+          </bs-tab-pane>
+          <bs-tab-pane event-key="profession" mount-on-enter=true>[[> profession_semantic_table class="sealit:Profession" classlabel="Professions"
+             profession=true limit=false]]
+          </bs-tab-pane> 
+          <bs-tab-pane event-key="misc" mount-on-enter=true>
+            [[> sealit:MiscOptions countries_and_payments=0 countries_and_crew_members=0 ships_and_crew_members=0 ships_and_owners=0 persons_and_places=true employed_persons=true professions_and_households=0 profession_and_houserole=0 profession_and_age=true ]]
+          </bs-tab-pane>
+        </bs-tab-content>
+      </bs-col>
+    </bs-row>
+  </bs-tab-container>
+	[[/if]]
+  [[/inline]]
+  
+  [[>show_content recordtype="http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29"]]
+</div>

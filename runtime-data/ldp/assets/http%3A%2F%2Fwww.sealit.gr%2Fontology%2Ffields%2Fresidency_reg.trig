@@ -1,0 +1,38 @@
+
+<http://www.sealit.gr/ontology/fields/residency_reg/context> {
+  <http://www.sealit.gr/ontology/fields/residency_reg> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-5e598b5559634d20b7ac615b1d800f6e-ne3nxj a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/residency_reg> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-5e598b5559634d20b7ac615b1d800f6e-42p319 .
+  
+  _:genid-5e598b5559634d20b7ac615b1d800f6e-ne3nxj <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/residency_reg> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-5e598b5559634d20b7ac615b1d800f6e-ne3nxj .
+  
+  _:genid-5e598b5559634d20b7ac615b1d800f6e-42p319 a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject ^sealit:registers_person ?civil_reg .
+  ?civil_reg crm:P67i_is_referred_to_by ?doc .
+  ?doc crm:P2_has_type ?docType.
+  OPTIONAL{ ?docType rdfs:label ?docTypeLabel }
+  BIND (?civil_reg as ?value)
+  ?civil_reg rdfs:label ?labelX .
+      BIND (CONCAT(?labelX, COALESCE( CONCAT(\" (\", ?docTypeLabel, \")\"), \"\")) as ?label)
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/residency_reg> <http://www.w3.org/2000/01/rdf-schema#label>
+      "residency registration"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-02-25T10:23:29.731Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/residency_reg> .
+  
+  <http://www.sealit.gr/ontology/fields/residency_reg> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,93 @@
+
+<http://www.sealit.gr/ontology/fields/has_route/context> {
+  <http://www.sealit.gr/ontology/fields/has_route> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+    a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-b659cdd044ed437981a412c2eba843fb-i7bavl a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_route> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Voyage>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-b659cdd044ed437981a412c2eba843fb-pplisb .
+  
+  _:genid-b659cdd044ed437981a412c2eba843fb-i7bavl <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-b659cdd044ed437981a412c2eba843fb-pplisb a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+  { $subject (sealit:starting_from|^sealit:is_starting_place) ?place . 
+    ?place rdfs:label ?placeLabel .
+    Bind (Concat(\"Starting from \", Concat(Ucase(Substr(?placeLabel,1,1)), Substr(?placeLabel,2))) as ?label )
+    Bind (0 as ?order)
+  }
+  UNION 
+  { $subject ((sealit:consists_of_passing|crm:P9_consists_of)/sealit:passing_by)  ?place .
+    ?place rdfs:label ?placeLabel .
+    Bind (Concat(\"Passing by \", Concat(Ucase(Substr(?placeLabel,1,1)), Substr(?placeLabel,2))) as ?label )
+    Bind (10 as ?order)
+  }
+  UNION
+  { $subject ((sealit:consists_of_leaving|crm:P9_consists_of)/crm:P134i_was_continued_by/sealit:passing_by)  ?place .
+    ?place rdfs:label ?placeLabel .
+    Bind (Concat(\"Passing by \", Concat(Ucase(Substr(?placeLabel,1,1)), Substr(?placeLabel,2))) as ?label )
+    Bind (10 as ?order)
+  }          
+  UNION        
+  { $subject ((sealit:consists_of_passing|crm:P9_consists_of)/sealit:passing_through)  ?place .
+    ?place rdfs:label ?placeLabel .
+    Bind (Concat(\"Passing through \", Concat(Ucase(Substr(?placeLabel,1,1)), Substr(?placeLabel,2))) as ?label )
+    Bind (9 as ?order)
+  }   
+  UNION
+  { $subject ((sealit:consists_of_leaving|crm:P9_consists_of)/crm:P134i_was_continued_by/sealit:passing_through)  ?place .
+    ?place rdfs:label ?placeLabel .
+    Bind (Concat(\"Passing through \", Concat(Ucase(Substr(?placeLabel,1,1)), Substr(?placeLabel,2))) as ?label )
+    Bind (9 as ?order)
+  }      
+  UNION
+  { $subject  (sealit:finally_arriving_at|^sealit:final_arrival_of)  ?place . 
+    ?place rdfs:label ?placeLabel .
+	Bind (Concat(\"Finally arriving at \", Concat(Ucase(Substr(?placeLabel,1,1)), Substr(?placeLabel,2))) as ?label )
+    Bind (11 as ?order)
+  }    
+  UNION
+  {
+  $subject (sealit:consists_of_leaving|crm:P9_consists_of) ?leaving .
+  ?leaving sealit:from_place ?place .
+  OPTIONAL {?leaving sealit:leaving_in/crm:P82_at_some_time_within ?date .}
+  ?place rdfs:label ?placeLabel .
+  ?leaving rdfs:label ?leavingLabel .
+  #Bind (Concat(?leavingLabel, \" from \", ?placeLabel) as ?label )
+  #Bind (Concat(Concat(Ucase(Substr(?leavingLabel,1,1)), Substr(?leavingLabel,2)), \" from \", Concat(Ucase(Substr(?placeLabel,1,1)), Substr(?placeLabel,2))) as ?label )
+  Bind (Concat(\"Departure from \", Ucase(Substr(?placeLabel,1,1)), Substr(?placeLabel,2), COALESCE(CONCAT(\", \",STR(?date)), \"\")) as ?label ) 
+  Bind (1 as ?order)
+  }
+  UNION
+  {
+  $subject (sealit:consists_of_leaving|crm:P9_consists_of) ?leaving .
+  ?leaving crm:P134i_was_continued_by ?arrival .
+  ?arrival sealit:at ?place .
+  OPTIONAL {?arrival sealit:arrival/crm:P82_at_some_time_within ?date .}
+  ?place rdfs:label ?placeLabel .
+  ?arrival rdfs:label ?arrivalLabel .
+  #Bind (Concat(?arrivalLabel, \" at \", ?placeLabel) as ?label )
+  #Bind (Concat(Concat(Ucase(Substr(?arrivalLabel,1,1)), Substr(?arrivalLabel,2)), \" at \", Concat(Ucase(Substr(?placeLabel,1,1)), Substr(?placeLabel,2))) as ?label )
+  Bind (Concat(\"Arrival at \", Ucase(Substr(?placeLabel,1,1)), Substr(?placeLabel,2), COALESCE(CONCAT(\", \",STR(?date)), \"\")) as ?label ) 
+  Bind (2 as ?order)
+  }
+
+Bind (?place as ?value)
+  
+} ORDER BY  $subject ?date ?leaving ?order """ .
+  
+  <http://www.sealit.gr/ontology/fields/has_route> <http://www.w3.org/2000/01/rdf-schema#label>
+      "has route"@en;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-b659cdd044ed437981a412c2eba843fb-i7bavl;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-07T07:06:25.852Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_route> .
+  
+  <http://www.sealit.gr/ontology/fields/has_route> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,280 @@
+
+<div>
+
+   [[#*inline 'createTable_bindings']]
+<template id="showAttributes">
+ 
+    <table class="table" >
+      
+				{{#each bindings as |tuple|}}
+      {{!-- log "new row with tuple " tuple --}}
+      {{#ifCond @index "==" 0 }}
+      <tr class="standard-row" >{{#each tuple}}<th>{{@key}}</th>{{/each}}</tr> 
+      {{/ifCond}}
+      
+      <tr class="standard-row" > 
+          
+        	{{#each tuple as |item| }}
+          <td>
+            
+            {{#if (isIri item) }}
+            <semantic-link iri='{{value}}'  urlqueryparam-tab='View_all'>{{label}}</semantic-link>
+            {{else}}
+          [[!--  <mp-text-truncate style="font-weight: 200; padding: 5px; overflow: hidden; text-overflow: ellipsis;" lines='3' expand='<span>...<a>read more</a></span>' collapse='<span>(<a>show less</a>)</span>'>{{value}}</mp-text-truncate> --]]
+            <mp-text style="font-weight: 200; padding: 5px; overflow: hidden; text-overflow: ellipsis;">{{value}}</mp-text>
+            {{/if}}
+            <br/>
+
+          </td>
+      		{{/each}}
+
+	</tr> 
+    		{{/each}}
+    </table>
+</template>
+  [[/inline]]
+  
+  
+
+  [[#*inline 'create_link_iterate_bindings']]
+  <div>
+  [[#if enlist ]]
+		<ul>
+      {{#each bindings}}
+       <li><a href='{{{[[var]].value}}}' target="[[target]]">[[label]]</a></li>
+      {{/each}}
+    </ul>
+  [[else]]
+  	{{#each bindings}}
+       <a href='{{{[[var]].value}}}' target="[[target]]">[[label]]</a>&nbsp
+    {{/each}}
+  [[/if]]
+  </div>
+  [[/inline]]
+  
+  [[#*inline 'create_semanticlink_iterate_bindings']]
+  <div>
+  [[#if enlist ]]
+		<ul>
+      {{#each bindings}}
+       <li><semantic-link uri='{{{[[var]].value}}}'></semantic-link></li>
+      {{/each}}
+    </ul>
+  [[else]]
+  	{{#each bindings}}
+       <semantic-link uri='{{{[[var]].value}}}'></semantic-link>&nbsp
+    {{/each}}
+  [[/if]]
+  </div>
+  [[/inline]]
+  
+  [[#*inline 'subquery_seeAlso']]
+		{{#if subject.value}} 
+      <semantic-query query='SELECT ?seeAlso WHERE {
+                              { <{{subject.value}}> (crm:P67i_is_referred_to_by/rdfs:seeAlso) ?seeAlso  }
+                              UNION 
+                              { <{{subject.value}}> (owl:sameAs/crm:P67i_is_referred_to_by/rdfs:seeAlso) ?seeAlso  }
+                            }
+                            '
+                     template='{{> create_seeAlso_links }}'
+      ><template id="create_seeAlso_links">[[> create_link_iterate_bindings var="seeAlso" target="fastcat" label="fastcat-link" ]]</template></semantic-query>
+    {{/if}}
+  [[/inline]]
+  
+    [[#*inline 'subquery_father']]
+		{{#if subject.value}} 
+      <semantic-query query='SELECT ?father ?label WHERE {
+                              { <{{subject.value}}> (crm:P98i_was_born/crm:P97_from_father) ?father . ?father rdfs:label ?flabel}
+                              UNION 
+                              { <{{subject.value}}> (owl:sameAs/crm:P98i_was_born/crm:P97_from_father) ?father . }
+                            }
+                            '
+                     template='{{> create_father_links }}'
+      ><template id="create_father_links">[[> create_semanticlink_iterate_bindings var="father"]]</template></semantic-query>
+    {{/if}}
+  [[/inline]]
+  
+  
+  [[#*inline 'ship_semantic_table']]
+  List of [[classlabel]]
+<semantic-table query='[[>sealit:queries ship=true limit=false]]'
+                column-configurationDEL='[
+                       {"variableName": "subject", "displayName": "subject"}, 
+                       {"variableName": "ship_type", "displayName": "ship_type"},
+                       {"variableName": "tonnage", "displayName": "tonnage"},
+                       {"variableName": "registration_port", "displayName": "registration_port"}, 
+                       {"variableName": "reg_no", "displayName": "reg_no"},
+                       {"variableName": "construction_location", "displayName": "construction_location"},
+                       {"variableName": "construction_date", "displayName": "construction_date"},
+                       {"variableName": "owner", "displayName": "owner"}, 
+                       {
+                       "displayNameDEL": "seeAlso", 
+                       "cellTemplateDEL": "{{> subquery_seeAlso_tupleTemplate }}"
+                       }              
+  ]'
+                urlqueryparam-tab='View_all'
+  >
+  <template id="subquery_seeAlso_tupleTemplate">[[> subquery_seeAlso nolist=true]]</template>
+  </semantic-table>
+  [[/inline]]
+  
+
+  [[#*inline 'voyage_semantic_table']]
+  List of [[classlabel]] 
+<semantic-table query='[[> sealit:queries voyage=true limit=false]]'></semantic-table>
+  [[/inline]]
+
+  
+  [[#*inline 'person_semantic_table']]
+  List of [[classlabel]] 
+  <semantic-table query='[[> sealit:queries person=true limit=false]]' 
+  column-configurationDEL='[
+                       {"variableName": "subject", "displayName": "subject"}, 
+                       {"variableName": "first_name", "displayName": "first_name"},
+                       {"variableName": "last_name", "displayName": "last_name"},
+                       {"variableName": "father", "displayName": "father"}, 
+                       {"variableName": "serial_num", "displayName": "serial_num"},
+                       {"variableName": "birth_date", "displayName": "birth_date"}, 
+                       {
+                       "displayNameDEL": "seeAlso", 
+                       "cellTemplateDEL": "{{> subquery_seeAlso_tupleTemplate }}"
+                       }              
+  ]'
+  >
+  <template id="subquery_seeAlso_tupleTemplate">[[> subquery_seeAlso nolist=true ]]</template>
+  <template id="subquery_father_tupleTemplate">[[> subquery_father nolist=true]]</template>
+  </semantic-table>
+  [[/inline]]
+  
+  [[#*inline 'organization_semantic_table']]
+  List of [[classlabel]] 
+  <semantic-table query='[[> sealit:queries organization=true limit=false]]'
+  column-configurationDEL='[
+                       {"variableName": "subject", "displayName": "subject"}, 
+                       {"variableName": "name", "displayName": "name"},
+                       {"variableName": "residence", "displayName": "residence"},
+                       {"variableName": "member", "displayName": "member"},
+                       {
+                       "displayNameDEL": "seeAlso", 
+                       "cellTemplateDEL": "{{> subquery_seeAlso_tupleTemplate }}"
+                       }              
+  ]'
+  >
+  <template id="subquery_seeAlso_tupleTemplate">[[> subquery_seeAlso nolist=true ]]</template> 
+  </semantic-table>
+  [[/inline]]
+  
+  [[#*inline 'crew_payment_semantic_table']]
+  List of [[classlabel]] (limit 10 >>>>>>>>>>>>>>>>>>>NOT USED)
+  <semantic-query query='[[> sealit:queries crew_payment=true limit=10]]' template='{{> showAttributes }}'>
+   [[> createTable_bindings ]]
+  </semantic-query>
+  [[/inline]]
+
+  
+  [[#*inline 'ship_crew_employment_semantic_table']]
+  List of [[classlabel]] (limit 10 >>>>>>>>>>>>>>>>>>>NOT USED)
+  <semantic-table query='[[> sealit:queries crew_employment=true limit=10]]'></semantic-table>
+  [[/inline]]
+
+  
+  [[#*inline 'ship_crew_employment_with_payment_semantic_table']]
+  List of [[classlabel]] 
+  <semantic-table query='[[> sealit:queries ship_crew_employment_with_payment=true limit=false]]'></semantic-table>
+  [[/inline]]
+  
+  
+	[[#*inline 'place_semantic_table']]
+  <div>   
+    <bs-tabs unmount-on-exit=true id='search-map-results' animation=false class='tabs-right' default-active-key='place1' >
+      <bs-tab event-key="place1" title="Table">
+        List of [[classlabel]] 
+        <semantic-table query='[[> sealit:queries place=true limit=false]]' 
+        column-configurationDEL='[
+                       {"variableName": "subject", "displayName": "subject"}, 
+                       {"variableName": "type", "displayName": "type"},
+                       {"variableName": "coordinates", "displayName": "coordinates"},
+                       {
+                       "displayNameDEL": "seeAlso", 
+                       "cellTemplateDEL": "{{> subquery_seeAlso_tupleTemplate }}"
+                       }              
+  ]'
+  >
+  <template id="subquery_seeAlso_tupleTemplate">[[> subquery_seeAlso nolist=true ]]</template>
+       ></semantic-table>       
+      </bs-tab>
+      <bs-tab event-key="place2" title="Map">
+      <semantic-map id="view-all-places-map"
+          query='[[> sealit:queries allplaces=true]]' 
+                    tuple-template="<div>
+                                    Find about place <i>{{link.value}}</i> at:<br/>
+                           <semantic-link uri='{{subject.value}}'>researchspace</semantic-link> <br/>
+                           <a href='https://en.wikipedia.org/wiki/{{link.value}}' target='_blank'>en.wikipedia.org</a><br/>
+                           <a href='https://www.google.com/search?q={{link.value}}' target='_blank'>www.google.com</a><br/>
+                                    <br/>
+                                    </div>
+                                         "
+           no-result-template='<div>Map cannot be shown: either no locations or coordinates were found</div>'>
+        </semantic-map>
+    </bs-tab>
+   </bs-tabs>
+    </div>
+
+  [[/inline]]
+  
+ 
+  
+  
+  [[#*inline 'default']]
+<semantic-table 
+          query='PREFIX crm:	<http://www.cidoc-crm.org/cidoc-crm/>
+                 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+								 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                 PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+                 
+                 select distinct $subject ?label ?sameAs where 
+{ $subject a [[class]] . 
+ OPTIONAL { select $subject (group_concat(?sameAs; SEPARATOR=", ") as ?sameAs ) { $subject owl:sameAs ?sameAs} group by $subject }
+ OPTIONAL {$subject rdfs:label ?labelx}   Bind(coalesce(?labelx, $subject) as  ?label) 
+} 
+                  '
+                
+          column-configuration='[
+    {
+  	"displayName": "List of  [[classlabel]] ", 
+    "cellTemplate": "<div><a href=#>{{label.value}}</a></div>" 
+  	}
+  ]'
+        ></semantic-table>
+  [[/inline]]
+
+         
+ <bs-tabs id='record-tabs' class="bs-left-vertical-tabs" default-active-key='[[#if (urlParam "tab")]][[urlParam "tab"]][[else]]1[[/if]]' unmount-on-exit=true >
+  <bs-tab event-key='1' title='Ships'>
+ 		[[> ship_semantic_table class="sealit:Ship" classlabel="Ships"]]
+  </bs-tab>
+
+  <bs-tab event-key='2' title='Voyages'>  
+		[[> voyage_semantic_table class="sealit:Voyage" classlabel="Voyages"]]
+  </bs-tab>
+    
+  <bs-tab event-key='3' title='Persons' >
+ 		[[> person_semantic_table class="crm:E21_Person" classlabel="Persons"]]       
+  </bs-tab>
+    
+ 	<bs-tab event-key='4' title='Organizations'>
+ 		[[> organization_semantic_table class="crm:E40_Legal_Body" classlabel="Organizations"]]     
+  </bs-tab>
+      
+  <bs-tab event-key='5' title='Places'>
+ 		[[> place_semantic_table class="crm:E53_Place" classlabel="Places"]]       
+  </bs-tab>
+      
+  <bs-tab event-key='6' title='Crew Employment & Payments'>
+ 		[[> ship_crew_employment_with_payment_semantic_table class="sealit:Ship_Crew_Employment" classlabel="Crew Employment & Payments"]]       
+  </bs-tab>
+   
+</bs-tabs>
+
+  </div>

@@ -1,0 +1,36 @@
+
+<http://www.sealit.gr/ontology/fields/records/context> {
+  <http://www.sealit.gr/ontology/fields/records> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-cef58f15e30d4f60a6bd295b4278f5c9-zop1gp;
+    a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-cef58f15e30d4f60a6bd295b4278f5c9-q6mxpd a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+?value a crm:E73_Information_Object .
+$subject a <http://www.researchspace.org/ontology/Template> .
+?value crm:P2_has_type $subject .
+?value crm:P2_has_type <http://www.sealit.gr/DB/doc%20types/record%20information>  .
+  #?value (crm:P102_has_title/rdfs:label) ?label.
+  ?value (crm:P94i_was_created_by/crm:P4_has_time-span/crm:P82a_begin_of_the_begin) ?date .
+} ORDER BY ?date
+  LIMIT 150""" .
+  
+  _:genid-cef58f15e30d4f60a6bd295b4278f5c9-zop1gp a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/records> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.sealit.gr/ontology/FC/Record>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-cef58f15e30d4f60a6bd295b4278f5c9-q6mxpd .
+  
+  _:genid-cef58f15e30d4f60a6bd295b4278f5c9-zop1gp <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/records> <http://www.w3.org/2000/01/rdf-schema#label>
+      "records"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-14T13:18:14.100Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/records> .
+  
+  <http://www.sealit.gr/ontology/fields/records> a <http://www.w3.org/ns/ldp#Resource> .
+}

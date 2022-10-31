@@ -1,0 +1,42 @@
+
+<http://www.sealit.gr/ontology/fields/was_recruitment_of/context> {
+  <http://www.sealit.gr/ontology/fields/was_recruitment_of> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Voyage>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-cbdb5c31e6fa43ada569b8d22f09972c-gex7ql;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-cbdb5c31e6fa43ada569b8d22f09972c-w9w3zq <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/was_recruitment_of> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Ship>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-cbdb5c31e6fa43ada569b8d22f09972c-w9w3zq .
+  
+  _:genid-cbdb5c31e6fa43ada569b8d22f09972c-gex7ql a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label {
+  GRAPH ?g { #group by ?voyage
+  {$subject (sealit:voyages/crm:P14_carried_out_by) ?value .
+  } UNION { 
+  $subject (crm:P14_carried_out_by) ?value .
+  }
+   ?value sealit:had_provided ?employment .
+  }
+?value rdfs:label ?personname.
+?employment sealit:started_by ?embarkation .
+?embarkation (crm:P4_has_time-span/crm:P82_at_some_time_within) ?date .
+?embarkation (crm:P7_took_place_at/rdfs:label) ?place .
+Bind( Concat(?personname, \" at \", ?place, \" on \", Str(?date)) as ?label)
+} ORDER BY ?personname""" .
+  
+  _:genid-cbdb5c31e6fa43ada569b8d22f09972c-w9w3zq a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/was_recruitment_of> <http://www.w3.org/2000/01/rdf-schema#label>
+      "embarkation of crew member (obsolete)"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-10-27T14:47:54.593Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/was_recruitment_of> .
+  
+  <http://www.sealit.gr/ontology/fields/was_recruitment_of> a <http://www.w3.org/ns/ldp#Resource> .
+}

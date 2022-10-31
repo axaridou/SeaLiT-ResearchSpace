@@ -1,0 +1,42 @@
+@prefix : <http://www.researchspace.org/resource/> .
+@prefix rs: <http://www.researchspace.org/ontology/> .
+@prefix User: <http://www.metaphacts.com/resource/user/> .
+@prefix Help: <http://help.metaphacts.com/resource/> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix Platform: <http://www.metaphacts.com/ontologies/platform#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bmo: <http://collection.britishmuseum.org/id/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix thesIdentifier: <http://collection.britishmuseum.org/id/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix rshelp: <http://researchspace.org/help/> .
+@prefix geo: <http://www.bigdata.com/rdf/geospatial#> .
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix thes: <http://collection.britishmuseum.org/id/thesauri/> .
+@prefix thesDimension: <http://collection.britishmuseum.org/id/thesauri/dimension/> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix thesUnit: <http://collection.britishmuseum.org/id/thesauri/unit/> .
+@prefix fts: <http://www.bigdata.com/rdf/fts#> .
+@prefix crminf: <http://www.ics.forth.gr/isl/CRMinf/> .
+@prefix Admin: <http://www.metaphacts.com/resource/admin/> .
+@prefix mpp: <http://www.metaphacts.com/resource/> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+@prefix geoliteral: <http://www.bigdata.com/rdf/geospatial/literals/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+sealitDB:sourceDescription {
+  <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29>
+    rdfs:comment "The source is about ..." .
+  
+  <http://www.sealit.gr/DB/template%20types/students%20register> rdfs:comment "The source is about ..." .
+  
+  <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+    rdfs:comment "The source is about ..." .
+}

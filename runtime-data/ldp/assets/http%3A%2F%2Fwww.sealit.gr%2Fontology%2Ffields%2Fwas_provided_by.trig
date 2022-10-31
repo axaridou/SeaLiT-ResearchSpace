@@ -1,0 +1,34 @@
+
+<http://www.sealit.gr/ontology/fields/was_provided_by/context> {
+  <http://www.sealit.gr/ontology/fields/was_provided_by> <http://www.w3.org/2000/01/rdf-schema#label>
+      "was provided by"@en;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-ce153edc17974f99bf414558345cba31-hutt8 .
+  
+  _:genid-ce153edc17974f99bf414558345cba31-hutt8 <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject ^sealit:had_provided ?value.
+  ?value rdfs:label ?label.
+}""" .
+  
+  _:genid-ce153edc17974f99bf414558345cba31-1k8r3l <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-ce153edc17974f99bf414558345cba31-hutt8 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/was_provided_by> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-ce153edc17974f99bf414558345cba31-1k8r3l;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Employment> .
+  
+  _:genid-ce153edc17974f99bf414558345cba31-1k8r3l a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/was_provided_by> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-06T07:16:02.145Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/was_provided_by> .
+  
+  <http://www.sealit.gr/ontology/fields/was_provided_by> a <http://www.w3.org/ns/ldp#Resource> .
+}

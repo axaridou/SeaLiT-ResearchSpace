@@ -1,0 +1,63 @@
+[[> sealit:Page_breadcrumb ]]
+
+<style>
+  #record-tabs .tab-ontodia {
+    margin: 0px;
+    padding: 2px 0px 0px;
+    width: 100%;
+    height: calc(100vh - 300px);
+  }
+</style>
+
+<div class="page">
+
+  [[!-- [[> Platform:DefaultResourceHeader ]] --]]
+  
+  [[> sealit:MasterResourceHeader ]]
+ 
+  <bs-tabs id='record-tabs' class='page__body-navtabs--borderless' default-active-key='summary' unmount-on-exit=true>
+
+        <bs-tab event-key='summary' title='Summary'>
+      <div data-flex-layout='row top-stretch'>
+   
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+           
+        
+[[!--render the next field definitions as a field-value table --]]    
+        
+
+  <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions
+http://www.sealit.gr/ontology/fields/has_current_or_former_residence = "http://www.sealit.gr/ontology/fields/has_current_or_former_residence"
+http://www.sealit.gr/ontology/fields/has_member = "http://www.sealit.gr/ontology/fields/has_member"
+http://www.sealit.gr/ontology/fields/is_keeper_of ="http://www.sealit.gr/ontology/fields/is_keeper_of"
+http://www.sealit.gr/ontology/fields/had_worker ="http://www.sealit.gr/ontology/fields/had_worker"
+http://www.sealit.gr/ontology/fields/with_shipID	=	"http://www.sealit.gr/ontology/fields/with_shipID"
+
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+            </table>
+          
+[[#if (ask "ASK {?? crm:P2_has_type <http://www.sealit.gr/DB/type/master>}") ]]
+[[> sealit:Resource_info 		registered_as=true ]]
+[[else]]
+[[> sealit:Resource_info 		sourceinfo=true ]] 
+[[> sealit:Resource_info 		registry=true ]]
+[[/if]]
+          
+          </div>
+      </div>
+    </bs-tab>
+    [[!--> sealit:DefaultTabs --]]
+    
+    </bs-tabs>
+</div>        

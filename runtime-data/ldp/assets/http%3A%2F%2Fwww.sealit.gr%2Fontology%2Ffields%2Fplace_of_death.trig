@@ -1,0 +1,29 @@
+
+<http://www.sealit.gr/ontology/fields/place_of_death/context> {
+  _:genid-abc2ace808b445d189ac0f877316c868-54er7e <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/place_of_death> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-abc2ace808b445d189ac0f877316c868-czhouo;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-abc2ace808b445d189ac0f877316c868-54er7e;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-abc2ace808b445d189ac0f877316c868-54er7e a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-abc2ace808b445d189ac0f877316c868-czhouo <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject (crm:P100i_died_in/crm:P7_took_place_at) ?value .
+}""";
+    a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/place_of_death> <http://www.w3.org/2000/01/rdf-schema#label>
+      "died at"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-16T14:54:38.587Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/place_of_death> .
+  
+  <http://www.sealit.gr/ontology/fields/place_of_death> a <http://www.w3.org/ns/ldp#Resource> .
+}

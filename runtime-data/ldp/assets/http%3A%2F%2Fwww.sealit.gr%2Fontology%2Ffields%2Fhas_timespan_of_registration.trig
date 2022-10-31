@@ -1,0 +1,33 @@
+
+<http://www.sealit.gr/ontology/fields/has_timespan_of_registration/context> {
+  <http://www.sealit.gr/ontology/fields/has_timespan_of_registration> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-a86e6e8d42ed4567a78efddf05298e91-gb6ih a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-a86e6e8d42ed4567a78efddf05298e91-erpxm a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_timespan_of_registration> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Ship>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "registration date"@en .
+  
+  _:genid-a86e6e8d42ed4567a78efddf05298e91-erpxm <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a sealit:Ship .
+$subject (sealit:is_registered_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?value1 .
+BIND(IF(REGEX(STR(?value1), \"[0-9][0-9][0-9][0-9]-01-01\"), SUBSTR(STR(?value1), 0, 4), ?value1) AS ?value)
+}""" .
+  
+  _:genid-a86e6e8d42ed4567a78efddf05298e91-gb6ih <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_timespan_of_registration> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-a86e6e8d42ed4567a78efddf05298e91-erpxm;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-a86e6e8d42ed4567a78efddf05298e91-gb6ih;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-26T17:50:02.933Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_timespan_of_registration> .
+  
+  <http://www.sealit.gr/ontology/fields/has_timespan_of_registration> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,28 @@
+
+<http://www.sealit.gr/ontology/fields/has_keeper/context> {
+  <http://www.sealit.gr/ontology/fields/has_keeper> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-69f3c4c297434af58840a0bcc66a83d4-ljvy7r;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-69f3c4c297434af58840a0bcc66a83d4-yzhdlp4;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "has_keeper"@en .
+  
+  _:genid-69f3c4c297434af58840a0bcc66a83d4-yzhdlp4 a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-69f3c4c297434af58840a0bcc66a83d4-ljvy7r a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject crm:P49_has_former_or_current_keeper ?value.
+  ?value rdfs:label ?label.
+} LIMIT 1""" .
+  
+  _:genid-69f3c4c297434af58840a0bcc66a83d4-yzhdlp4 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_keeper> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-14T13:08:23.676Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_keeper> .
+  
+  <http://www.sealit.gr/ontology/fields/has_keeper> a <http://www.w3.org/ns/ldp#Resource> .
+}

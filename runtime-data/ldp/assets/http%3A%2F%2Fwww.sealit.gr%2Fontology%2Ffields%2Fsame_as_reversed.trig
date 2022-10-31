@@ -1,0 +1,33 @@
+
+<http://www.sealit.gr/ontology/fields/same_as_reversed/context> {
+  <http://www.sealit.gr/ontology/fields/same_as_reversed> <http://www.w3.org/2000/01/rdf-schema#label>
+      "registry"@en;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-992000ef389945d99efb2034df3b280b-z3dlar <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/same_as_reversed> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-992000ef389945d99efb2034df3b280b-jejcrq;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-992000ef389945d99efb2034df3b280b-jejcrq <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+?value owl:sameAs $subject 
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/same_as_reversed> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-992000ef389945d99efb2034df3b280b-z3dlar .
+  
+  _:genid-992000ef389945d99efb2034df3b280b-jejcrq a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-992000ef389945d99efb2034df3b280b-z3dlar a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/same_as_reversed> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-06-23T14:07:33.126Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/same_as_reversed> .
+  
+  <http://www.sealit.gr/ontology/fields/same_as_reversed> a <http://www.w3.org/ns/ldp#Resource> .
+}

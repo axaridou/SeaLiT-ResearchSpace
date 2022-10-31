@@ -1,0 +1,14 @@
+
+<http://www.metaphacts.com/ontologies/platform/user/anastasia/setContainer/context> {
+  <http://www.metaphacts.com/ontologies/platform/user/anastasia/setContainer> <http://www.w3.org/2000/01/rdf-schema#label>
+      "Set container of user 'anastasia'";
+    a <http://www.w3.org/ns/ldp#Container>, <http://www.metaphacts.com/ontologies/platform#setContainer>,
+      <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/anastasia>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-22T11:24:32.064Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#userSetContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.metaphacts.com/ontologies/platform/user/anastasia/setContainer> .
+  
+  <http://www.metaphacts.com/ontologies/platform/user/anastasia/setContainer> a <http://www.w3.org/ns/ldp#Resource> .
+}

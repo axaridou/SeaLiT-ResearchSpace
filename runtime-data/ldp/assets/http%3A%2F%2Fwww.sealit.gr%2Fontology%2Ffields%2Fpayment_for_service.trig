@@ -1,0 +1,33 @@
+
+<http://www.sealit.gr/ontology/fields/payment_for_service/context> {
+  <http://www.sealit.gr/ontology/fields/payment_for_service> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-14beb60acd264e969bc4d4e5dcf04730-k3hrww;
+    <http://www.w3.org/2000/01/rdf-schema#label> "employment Obsolete?"@en .
+  
+  _:genid-14beb60acd264e969bc4d4e5dcf04730-7kfxi <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/payment_for_service> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-14beb60acd264e969bc4d4e5dcf04730-7kfxi .
+  
+  _:genid-14beb60acd264e969bc4d4e5dcf04730-k3hrww a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject <http://www.sealit.gr/ontology/sealit#for_service> ?value.
+  ?value rdfs:label ?label.
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/payment_for_service> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment> .
+  
+  _:genid-14beb60acd264e969bc4d4e5dcf04730-7kfxi a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/payment_for_service> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Crew_Payment>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-22T18:49:42.662Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/payment_for_service> .
+  
+  <http://www.sealit.gr/ontology/fields/payment_for_service> a <http://www.w3.org/ns/ldp#Resource> .
+}

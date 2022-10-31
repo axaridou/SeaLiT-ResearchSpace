@@ -1,0 +1,30 @@
+
+<http://www.sealit.gr/ontology/fields/description/context> {
+  <http://www.sealit.gr/ontology/fields/description> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "description"@en .
+  
+  _:genid-3352a5bca4ee4f78a809ccda26f56ad6-ixjbg5 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/description> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-3352a5bca4ee4f78a809ccda26f56ad6-ixjbg5;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-3352a5bca4ee4f78a809ccda26f56ad6-ojewqt .
+  
+  _:genid-3352a5bca4ee4f78a809ccda26f56ad6-ojewqt <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject rdfs:comment ?value.
+}""" .
+  
+  _:genid-3352a5bca4ee4f78a809ccda26f56ad6-ixjbg5 a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-3352a5bca4ee4f78a809ccda26f56ad6-ojewqt a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/description> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-04T14:29:34.046Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/description> .
+  
+  <http://www.sealit.gr/ontology/fields/description> a <http://www.w3.org/ns/ldp#Resource> .
+}

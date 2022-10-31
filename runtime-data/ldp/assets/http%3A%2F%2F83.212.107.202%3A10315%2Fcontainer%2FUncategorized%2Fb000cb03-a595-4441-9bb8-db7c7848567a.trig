@@ -1,0 +1,16 @@
+
+<http://83.212.107.202:10315/container/Uncategorized/b000cb03-a595-4441-9bb8-db7c7848567a/context> {
+  <http://83.212.107.202:10315/container/Uncategorized/b000cb03-a595-4441-9bb8-db7c7848567a>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://83.212.107.202:10315/container/queryContainer/Crew_members_of_ships_of_type_brigantino>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Crew members of ships of type brigantino";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-17T09:57:30.191Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform/user/admin/setContainer/Uncategorized>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.107.202:10315/container/Uncategorized/b000cb03-a595-4441-9bb8-db7c7848567a> .
+  
+  <http://83.212.107.202:10315/container/Uncategorized/b000cb03-a595-4441-9bb8-db7c7848567a>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

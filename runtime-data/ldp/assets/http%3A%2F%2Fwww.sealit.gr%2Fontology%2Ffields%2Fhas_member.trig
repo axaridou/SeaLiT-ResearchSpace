@@ -1,0 +1,31 @@
+
+<http://www.sealit.gr/ontology/fields/has_member/context> {
+  <http://www.sealit.gr/ontology/fields/has_member> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-c70aac50331b4881a373c118f33ba932-qfuwfm a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-c70aac50331b4881a373c118f33ba932-0i2xyb <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_member> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-c70aac50331b4881a373c118f33ba932-0i2xyb .
+  
+  _:genid-c70aac50331b4881a373c118f33ba932-qfuwfm <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject  (^crm:P107i_is_current_or_former_member_of|crm:P107_has_current_or_former_member) ?value.
+  ?value rdfs:label ?label.
+}""" .
+  
+  _:genid-c70aac50331b4881a373c118f33ba932-0i2xyb a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_member> <http://www.w3.org/2000/01/rdf-schema#label>
+      "has member"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-c70aac50331b4881a373c118f33ba932-qfuwfm;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-09-14T13:55:41.349Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_member> .
+  
+  <http://www.sealit.gr/ontology/fields/has_member> a <http://www.w3.org/ns/ldp#Resource> .
+}

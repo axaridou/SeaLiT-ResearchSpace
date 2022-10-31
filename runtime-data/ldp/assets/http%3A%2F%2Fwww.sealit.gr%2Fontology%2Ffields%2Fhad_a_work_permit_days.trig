@@ -1,0 +1,44 @@
+
+<http://www.sealit.gr/ontology/fields/had_a_work_permit_days/context> {
+  <http://www.sealit.gr/ontology/fields/had_a_work_permit_days> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-09c03efa9c6a4bf687427ed7c3080cf3-w9kvjs <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/had_a_work_permit_days> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-09c03efa9c6a4bf687427ed7c3080cf3-7jg2j;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#decimal>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-09c03efa9c6a4bf687427ed7c3080cf3-w9kvjs;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-09c03efa9c6a4bf687427ed7c3080cf3-7jg2j a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-09c03efa9c6a4bf687427ed7c3080cf3-w9kvjs a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-09c03efa9c6a4bf687427ed7c3080cf3-7jg2j <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person .
+$subject sealit:formerly_or_currently_possesses ?license . 
+?license crm:P2_has_type <http://www.sealit.gr/DB/licenses%20types/permit> .
+?license sealit:in_time/sealit:had_duration ?durationX .
+?durationX sealit:value_duration ?duration .
+BIND(REPLACE(STR(?duration), \"^P(\\\\\\\\d*Y)?(\\\\\\\\d*M)?(\\\\\\\\d*D)?\", \"$1\") AS ?y)
+BIND(REPLACE(STR(?duration), \"^P(\\\\\\\\d*Y)?(\\\\\\\\d*M)?(\\\\\\\\d*D)?\", \"$2\") AS ?m)
+BIND(REPLACE(STR(?duration), \"^P(\\\\\\\\d*Y)?(\\\\\\\\d*M)?(\\\\\\\\d*D)?\", \"$3\") AS ?d)
+BIND(REPLACE(STR(?y), \"Y\", \"\") AS ?years)
+BIND(REPLACE(STR(?m), \"M\", \"\") AS ?months)
+BIND(REPLACE(STR(?d), \"D\", \"\") AS ?days)
+BIND( (COALESCE(STRDT(?years, xsd:decimal)*365, 0) + COALESCE(STRDT(?months, xsd:decimal)*30, 0) + COALESCE(STRDT(?days, xsd:decimal)*1, 0)) AS ?literal_DAYS ) 
+
+BIND ( ?literal_DAYS as ?value )
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/had_a_work_permit_days> <http://www.w3.org/2000/01/rdf-schema#label>
+      "had a work permit days"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-28T09:34:38.287Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/had_a_work_permit_days> .
+  
+  <http://www.sealit.gr/ontology/fields/had_a_work_permit_days> a <http://www.w3.org/ns/ldp#Resource> .
+}

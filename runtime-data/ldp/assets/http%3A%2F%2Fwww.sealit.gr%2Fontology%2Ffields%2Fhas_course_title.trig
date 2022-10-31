@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/has_course_title/context> {
+  _:genid-1329dbb3291a4eb6a29d1c7a4211da03-qwtp39 <http://spinrdf.org/sp#text> """SELECT ?value WHERE {
+$subject a sealit:Course . 
+$subject crm:P1_is_identified_by ?title .
+?title a crm:E35_Title .
+BIND (?title as $value)
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_course_title> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-1329dbb3291a4eb6a29d1c7a4211da03-qt6q1w a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_course_title> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Course>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "has title"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-1329dbb3291a4eb6a29d1c7a4211da03-qwtp39 .
+  
+  _:genid-1329dbb3291a4eb6a29d1c7a4211da03-qt6q1w <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_course_title> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-1329dbb3291a4eb6a29d1c7a4211da03-qt6q1w .
+  
+  _:genid-1329dbb3291a4eb6a29d1c7a4211da03-qwtp39 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_course_title> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-21T14:36:39.562Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_course_title> .
+  
+  <http://www.sealit.gr/ontology/fields/has_course_title> a <http://www.w3.org/ns/ldp#Resource> .
+}

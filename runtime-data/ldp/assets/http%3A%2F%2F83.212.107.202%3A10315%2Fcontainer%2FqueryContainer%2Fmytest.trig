@@ -1,0 +1,17 @@
+
+<http://83.212.107.202:10315/container/queryContainer/mytest/context> {
+  <http://83.212.107.202:10315/container/queryContainer/mytest> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "mytest";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE { ?subject <http://www.sealit.gr/ontology/FR/has_ship_type> <http://www.sealit.gr/DB/Concept/brigantino%20barca>. }
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KidYkAKkgB5ZkgNEAHnxYsRSAHpJAdzkA6MKkxZ5AczqS4AOyxw0cNQE9JAMQBKk-CjAB9MISK2sRokgB8-GDWohzSMDgAVzoKRlJQDDoMJhAOVn4ANVisJDoAWw5XRkgQADkUdKQYPLgYcJAAN3QgnJBRcSlZBSV0bHVNABEAIUkAYR0woixJACNotRRdDG04AFIAJgAGUZRQlgBfDfI0FFGkNERuiamsGbgAAm61ihZycrAKaOGMHSOT6dmrm7uQLCCiGgcqAwEE1GoAmc3tA4glyMkYakMlk3IgCkUSmUKtU0LVEA0JNI5DJFMp2hpJD1+oMkMMxh8zrNFisfiAtjs9gdYvFcnx4Sk0plsogADLYNLofg4vG5Y4YSafS7XdZeFBYNXCmE8gRJAXIzX5QrFUrlKU1OoEprE+QyADM8jgdDUkmWSwAjJIABoAWRFuAo+CQ6RQAGIwFhoto1GztiBdlGgigIYgY1sALpp2NBbQYACOtQAkt5IEsNpnyAAzGiZoA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/a.delis>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-17T15:03:33.184Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.107.202:10315/container/queryContainer/mytest> .
+  
+  <http://83.212.107.202:10315/container/queryContainer/mytest> a <http://www.w3.org/ns/ldp#Resource> .
+}

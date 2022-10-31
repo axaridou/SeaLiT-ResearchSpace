@@ -1,0 +1,98 @@
+  [[!--      FILTER (STRSTARTS(STR(?type), STR(crm:)) || STRSTARTS(STR(?type), STR(sealit:)) || STRSTARTS(STR(?type), STR(rso:)) || STRSTARTS(STR(?type), STR(xsd:))) --]]
+	[[!--			 FILTER (REGEX(STR(?labelSearch), ?__token__, "i") || REGEX(STR(?subject1), ?__token__, "i")) --]]
+<semantic-search>
+  <semantic-search-query-keyword 
+                                 
+	
+                                 
+   query='
+SELECT DISTINCT ?subject 
+WHERE {
+  ?subject rdfs:label ?labelSearch . 
+        FILTER (
+          			EXISTS{?subject a <http://www.sealit.gr/ontology/sealit#Ship>. ?subject crm:P2_has_type <http://www.sealit.gr/DB/type/master> } ||
+                EXISTS{?subject a <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body>. ?subject crm:P2_has_type <http://www.sealit.gr/DB/type/master>} ||
+                EXISTS{?subject a <http://www.cidoc-crm.org/cidoc-crm/E53_Place>. ?subject crm:P2_has_type <http://www.sealit.gr/DB/type/master>} ||
+                EXISTS{?subject a <http://www.cidoc-crm.org/cidoc-crm/E21_Person>. ?subject crm:P2_has_type <http://www.sealit.gr/DB/type/master>} ||
+                EXISTS{?subject a <http://www.sealit.gr/ontology/sealit#Voyage>} ||
+                EXISTS{?subject a <http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment>} || 
+                EXISTS{?subject a <http://www.sealit.gr/ontology/FC/Record>}
+               )
+        
+	SERVICE <http://www.bigdata.com/rdf/search#search> {
+  ?labelSearch bds:search ?__token__ ;
+               bds:relevance ?score ;
+               bds:minRelevance "0.3" ;
+               bds:maxRank "50000" ;
+               bds:matchAllTerms "true"  .
+ }
+
+} LIMIT 500
+
+'
+                                 
+                             
+    
+  ></semantic-search-query-keyword>
+  
+  [[>sealit:SemanticSearchResultHolder tableTab=true ]]
+[[!--
+  <semantic-search-result-holder>
+    <semantic-search-result>
+      <semantic-table 
+        id='table'
+        query='
+          PREFIX schema: <http://schema.org/> 
+          SELECT DISTINCT ?subject ?label ?image ?type ?typeLabel {
+            ?subject a ?type .
+            OPTIONAL{?type (rs:displayLabel|rdfs:label|skos:prefLabel) ?typeLabel}
+            OPTIONAL{?subject (rs:displayLabel|rdfs:label|skos:prefLabel) ?label}
+            OPTIONAL {?subject (schema:thumbnail|rs:PX_has_main_representation | crm:P138i_has_representation) ?imageX}
+            BIND (COALESCE(?imageX, <https://image.flaticon.com/icons/svg/2088/2088982.svg> ) as ?image)
+          }
+        '
+        tuple-template='{{>resultTemplate}}'
+        options='{"showFilter": false}'
+      >
+        <template id='resultTemplate'>
+          <div style="float:left;width:200px;height:170px;" class="panel panel-default text-center" title="{{subject.value}}">
+            <div class="panel-body"><img src="{{image.value}}" style="width:100px;"/></div>
+            <div class="panel-footer" style="position: relative"><semantic-link iri='{{subject.value}}'>{{label.value}}</semantic-link><br/>{{typeL.value}}</div>
+          </div>       
+        </template>
+      </semantic-table>
+    </semantic-search-result>
+  </semantic-search-result-holder>
+  
+  
+  
+  query1='
+      SELECT DISTINCT ?subject 
+      WHERE {
+       #{?subject (rs:displayLabel|rdfs:label|skos:prefLabel) ?labelSearch . ?subject a ?type .}
+         
+        ?subject a ?type . 
+        FILTER (
+          			EXISTS{?subject a <http://www.sealit.gr/ontology/sealit#Ship>. ?subject crm:P2_has_type <http://www.sealit.gr/DB/type/master> } ||
+                EXISTS{?subject a <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body>. ?subject crm:P2_has_type <http://www.sealit.gr/DB/type/master>} ||
+                EXISTS{?subject a <http://www.cidoc-crm.org/cidoc-crm/E53_Place>. ?subject crm:P2_has_type <http://www.sealit.gr/DB/type/master>} ||
+                EXISTS{?subject a <http://www.cidoc-crm.org/cidoc-crm/E21_Person>. ?subject crm:P2_has_type <http://www.sealit.gr/DB/type/master>} ||
+                EXISTS{?subject a <http://www.sealit.gr/ontology/sealit#Voyage>} ||
+                EXISTS{?subject a <http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment>} || 
+                EXISTS{?subject a <http://www.sealit.gr/ontology/FC/Record>}
+               )
+        ?subject rdfs:label ?labelSearch .
+       #?subject a ?type . 
+       #FILTER (?type IN (<http://www.sealit.gr/ontology/sealit#Ship>, <http://www.sealit.gr/ontology/sealit#Voyage>,  <http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment>, <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body>, <http://www.cidoc-crm.org/cidoc-crm/E53_Place>, <http://www.cidoc-crm.org/cidoc-crm/E21_Person>, <http://www.sealit.gr/ontology/FC/Record> ) )
+        #FILTER (?type IN (<http://www.researchspace.org/ontology/Text> ) )
+        FILTER (REGEX(STR(?labelSearch), REPLACE(?__token__, "\\*", " *"), "i" ) )
+      } limit 100
+    '
+                                 
+  
+  
+  
+  
+  
+  --]]
+</semantic-search>

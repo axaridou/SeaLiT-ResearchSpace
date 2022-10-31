@@ -1,0 +1,61 @@
+
+<http://www.sealit.gr/ontology/fields/has_overall_statistics/context> {
+  <http://www.sealit.gr/ontology/fields/has_overall_statistics> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "has overall statistics"@en;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+  
+  _:genid-c8819c75deb94d28a9ec799c8005e922-heogr <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value  WHERE {
+$subject a crm:E31_Document .
+$subject crm:P2_has_type <http://www.sealit.gr/DB/doc%20types/source%20identity> .
+$subject crm:P67_refers_to ?statistics .
+?statistics rdfs:label ?statistics_label .
+?statistics crm:P9_consists_of* ?measurement ; crm:P39_measured ?group . 
+
+  OPTIONAL {
+?group crm:P14i_performed ?discharge .
+?discharge rdfs:label \"exit\" .
+BIND( \" workers discharged\" AS ?details1 )
+  } 
+  OPTIONAL {
+?group sealit:works_at/rdfs:label ?org .
+BIND( CONCAT(\" the amount of workers at \", STR(?org)) AS ?details2 )
+  } 
+  OPTIONAL {
+?group  sealit:has_profession/rdfs:label ?prof .
+BIND( CONCAT(\" working as \", STR(?prof)) AS ?details3 )
+  } 
+  OPTIONAL {
+?group sealit:has_sex_type/rdfs:label ?sex .
+BIND( CONCAT(\", \", STR(?sex)) AS ?details4 )
+  }
+  
+BIND ( CONCAT( COALESCE(?details1, \"\"), COALESCE(?details2, \"\"), COALESCE(?details3, \"\"), COALESCE(?details4, \"\") ) AS ?details )
+?group crm:P43_has_dimension ?dim .
+?dim crm:P90_has_value	?dim_value .
+?dim crm:P2_has_type/rdfs:label ?dim_type .
+OPTIONAL { $measurement crm:P2_has_type/rdfs:label ?measurement_label .}
+BIND ( CONCAT(?statistics_label, \": \", COALESCE(STR(?dim_value), \"-\"), \" \", COALESCE(STR(?dim_type), \"\"), COALESCE(STR(?details), \"\"), COALESCE(CONCAT(\", \",?measurement_label), \"\") ) AS ?value )
+}""" .
+  
+  _:genid-c8819c75deb94d28a9ec799c8005e922-kwfc59u <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_overall_statistics> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-c8819c75deb94d28a9ec799c8005e922-kwfc59u .
+  
+  _:genid-c8819c75deb94d28a9ec799c8005e922-kwfc59u a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_overall_statistics> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-c8819c75deb94d28a9ec799c8005e922-heogr;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string> .
+  
+  _:genid-c8819c75deb94d28a9ec799c8005e922-heogr a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_overall_statistics> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-21T13:16:43.096Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_overall_statistics> .
+  
+  <http://www.sealit.gr/ontology/fields/has_overall_statistics> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,34 @@
+
+<http://www.sealit.gr/ontology/fields/had_student/context> {
+  <http://www.sealit.gr/ontology/fields/had_student> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-390aeb2dcfc24715ac3b8dce198d3771-nel799 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/had_student> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-390aeb2dcfc24715ac3b8dce198d3771-o7ubjg <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/had_student> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Course>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-390aeb2dcfc24715ac3b8dce198d3771-o7ubjg .
+  
+  _:genid-390aeb2dcfc24715ac3b8dce198d3771-o7ubjg a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-390aeb2dcfc24715ac3b8dce198d3771-nel799 <http://spinrdf.org/sp#text> """SELECT ?value WHERE {
+$subject a sealit:Course . 
+$subject crm:P9_consists_of/sealit:had_student ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/had_student> <http://www.w3.org/2000/01/rdf-schema#label>
+      "had student"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-390aeb2dcfc24715ac3b8dce198d3771-nel799;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-21T14:29:24.227Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/had_student> .
+  
+  <http://www.sealit.gr/ontology/fields/had_student> a <http://www.w3.org/ns/ldp#Resource> .
+}

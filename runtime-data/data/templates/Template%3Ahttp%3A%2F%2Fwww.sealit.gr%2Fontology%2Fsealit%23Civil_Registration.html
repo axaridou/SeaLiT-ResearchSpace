@@ -1,0 +1,56 @@
+[[> sealit:Page_breadcrumb ]]
+
+<style>
+  #record-tabs .tab-ontodia {
+    margin: 0px;
+    padding: 2px 0px 0px;
+    width: 100%;
+    height: calc(100vh - 300px);
+  }
+</style>
+
+<div class="page">
+
+  [[!-- [[> Platform:DefaultResourceHeader ]] --]]
+  
+  [[> sealit:MasterResourceHeader ]]
+ 
+  <bs-tabs id='record-tabs' class='page__body-navtabs--borderless' default-active-key='summary' unmount-on-exit=true>
+
+        <bs-tab event-key='summary' title='Summary'>
+      <div data-flex-layout='row top-stretch'>
+   
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+           
+        
+[[!--render the next field definitions as a field-value table --]]    
+        
+
+  <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions
+http://www.sealit.gr/ontology/fields/is_documented_in = "http://www.sealit.gr/ontology/fields/is_documented_in"
+http://www.sealit.gr/ontology/fields/has_type	=	"http://www.sealit.gr/ontology/fields/has_type"
+http://www.sealit.gr/ontology/fields/registers_person = "http://www.sealit.gr/ontology/fields/registers_person"
+http://www.sealit.gr/ontology/fields/has_timespan = "http://www.sealit.gr/ontology/fields/has_timespan"
+http://www.sealit.gr/ontology/fields/took_place_at = "http://www.sealit.gr/ontology/fields/took_place_at"
+http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of = "http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of"
+http://www.sealit.gr/ontology/fields/has_note = "http://www.sealit.gr/ontology/fields/has_note"
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+  
+          </table>
+
+          </div>
+      </div>      
+    </bs-tab>
+    </bs-tabs>
+</div>

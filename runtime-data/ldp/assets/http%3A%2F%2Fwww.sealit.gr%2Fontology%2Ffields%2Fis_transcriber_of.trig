@@ -1,0 +1,45 @@
+
+<http://www.sealit.gr/ontology/fields/is_transcriber_of/context> {
+  <http://www.sealit.gr/ontology/fields/is_transcriber_of> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-d062c066b9f74028bfad2cd8411191f0-3e1ova;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
+  
+  _:genid-d062c066b9f74028bfad2cd8411191f0-xpzlho <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/is_transcriber_of> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-d062c066b9f74028bfad2cd8411191f0-3e1ova <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+  #?record crm:P67_refers_to ?value.
+  #?record crm:P94i_was_created_by ?creation .
+  ?record crm:P94i_was_created_by ?creation .
+  ?creation crm:P14_carried_out_by $subject .
+      
+  ?creation crm:P4_has_time-span ?timespan .
+  ?timespan crm:P82a_begin_of_the_begin ?begin .
+  ?timespan crm:P82b_end_of_the_end ?end .
+BIND (CONCAT(\"starded on: \", STRBEFORE( STR(?begin),\"T\"), \",   \", \"ended on: \", STRBEFORE(STR(?end),\"T\"))  AS ?date_range )
+  ?record rdfs:label ?recordLabel.
+BIND (CONCAT(?recordLabel, \" \", ?date_range) as ?label)
+BIND (?record as ?value)
+}""";
+    a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/is_transcriber_of> <http://www.w3.org/2000/01/rdf-schema#label>
+      "is transcriber of"@en;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-d062c066b9f74028bfad2cd8411191f0-xpzlho .
+  
+  _:genid-d062c066b9f74028bfad2cd8411191f0-xpzlho a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/is_transcriber_of> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.sealit.gr/ontology/FC/Record>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-02-09T09:24:41.372Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/is_transcriber_of> .
+  
+  <http://www.sealit.gr/ontology/fields/is_transcriber_of> a <http://www.w3.org/ns/ldp#Resource> .
+}

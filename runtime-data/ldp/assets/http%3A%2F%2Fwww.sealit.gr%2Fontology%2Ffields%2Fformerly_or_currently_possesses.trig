@@ -1,0 +1,32 @@
+
+<http://www.sealit.gr/ontology/fields/formerly_or_currently_possesses/context> {
+  _:genid-6bda8ef8c4f142eb9cfb699e791e4d3f-dscl6c a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/formerly_or_currently_possesses> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-6bda8ef8c4f142eb9cfb699e791e4d3f-u2vbvm a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/formerly_or_currently_possesses> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-6bda8ef8c4f142eb9cfb699e791e4d3f-dscl6c;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string> .
+  
+  _:genid-6bda8ef8c4f142eb9cfb699e791e4d3f-u2vbvm <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-6bda8ef8c4f142eb9cfb699e791e4d3f-dscl6c <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject sealit:formerly_or_currently_possesses ?value.
+  ?value rdfs:label ?label.
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/formerly_or_currently_possesses> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-6bda8ef8c4f142eb9cfb699e791e4d3f-u2vbvm;
+    <http://www.w3.org/2000/01/rdf-schema#label> "formerly or currently possesses"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-18T19:02:01.493Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/formerly_or_currently_possesses> .
+  
+  <http://www.sealit.gr/ontology/fields/formerly_or_currently_possesses> a <http://www.w3.org/ns/ldp#Resource> .
+}

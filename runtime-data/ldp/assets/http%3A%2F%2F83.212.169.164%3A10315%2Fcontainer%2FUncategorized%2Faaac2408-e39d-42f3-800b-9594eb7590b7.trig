@@ -1,0 +1,16 @@
+
+<http://83.212.169.164:10315/container/Uncategorized/aaac2408-e39d-42f3-800b-9594eb7590b7/context> {
+  <http://83.212.169.164:10315/container/Uncategorized/aaac2408-e39d-42f3-800b-9594eb7590b7>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://83.212.169.164:10315/container/persistedComponentContainer/cc86ce43-c5db-49d8-a49e-60ee87db00b3>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "professions in a region";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-17T09:36:10.588Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform/user/admin/setContainer/Uncategorized>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.169.164:10315/container/Uncategorized/aaac2408-e39d-42f3-800b-9594eb7590b7> .
+  
+  <http://83.212.169.164:10315/container/Uncategorized/aaac2408-e39d-42f3-800b-9594eb7590b7>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

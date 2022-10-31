@@ -1,0 +1,40 @@
+
+<http://www.sealit.gr/ontology/fields/voyage_was_signed_by/context> {
+  <http://www.sealit.gr/ontology/fields/voyage_was_signed_by> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-82270a42146249db8cbb542d91c22b84-lcfx7s a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/voyage_was_signed_by> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Voyage>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-82270a42146249db8cbb542d91c22b84-lcfx7s <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a sealit:Voyage .
+{ 
+$subject crm:P70i_is_documented_in/crm:P148_has_component ?mark .
+?mark crm:P2_has_type <http://www.sealit.gr/DB/marks%20types/signature> .
+?mark crm:P94i_was_created_by/crm:P14_carried_out_by ?value .
+} UNION {
+$subject sealit:navigated_by_captain ?value .
+}
+}""" .
+  
+  _:genid-82270a42146249db8cbb542d91c22b84-yt7dci <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/voyage_was_signed_by> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-82270a42146249db8cbb542d91c22b84-yt7dci;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-82270a42146249db8cbb542d91c22b84-lcfx7s .
+  
+  _:genid-82270a42146249db8cbb542d91c22b84-yt7dci a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/voyage_was_signed_by> <http://www.w3.org/2000/01/rdf-schema#label>
+      "was signed by"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-29T14:01:20.881Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/voyage_was_signed_by> .
+  
+  <http://www.sealit.gr/ontology/fields/voyage_was_signed_by> a <http://www.w3.org/ns/ldp#Resource> .
+}

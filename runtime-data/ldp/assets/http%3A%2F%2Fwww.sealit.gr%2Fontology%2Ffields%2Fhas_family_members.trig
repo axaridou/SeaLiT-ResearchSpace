@@ -1,0 +1,44 @@
+
+<http://www.sealit.gr/ontology/fields/has_family_members/context> {
+  <http://www.sealit.gr/ontology/fields/has_family_members> <http://www.w3.org/2000/01/rdf-schema#label>
+      "family members"@en;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+  
+  _:genid-1adde210d6a945d0b60fb015d6aaf85e-t7jm1cf <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-1adde210d6a945d0b60fb015d6aaf85e-inpz4f a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_family_members> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-1adde210d6a945d0b60fb015d6aaf85e-t7jm1cf;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-1adde210d6a945d0b60fb015d6aaf85e-t7jm1cf a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-1adde210d6a945d0b60fb015d6aaf85e-inpz4f <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value (SAMPLE(?label) AS ?label) WHERE {
+$subject a crm:E21_Person .
+$subject crm:P107i_is_current_or_former_member_of ?group .
+?group a crm:E74_Group .
+?group crm:P2_has_type ?t . 
+VALUES ?t { <http://www.sealit.gr/DB/types/familiy> <http://www.sealit.gr/DB/types/family>}
+?group crm:P01i_is_domain_of ?current_or_former_member .
+?current_or_former_member crm:P107.1_kind_of_member ?value .
+?value rdfs:label ?kind .
+OPTIONAL{?current_or_former_member crm:P02_has_range ?range .
+?range crm:P2_has_type <http://www.sealit.gr/DB/types/quantity> .
+    ?range rdfs:label ?quantity .}
+  BIND (CONCAT (\"\", COALESCE(?quantity, \"\"), \" \", ?kind) AS ?label)
+} GROUP BY ?value""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_family_members> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-1adde210d6a945d0b60fb015d6aaf85e-inpz4f;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-12T06:43:48.873Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_family_members> .
+  
+  <http://www.sealit.gr/ontology/fields/has_family_members> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/arrived_at/context> {
+  <http://www.sealit.gr/ontology/fields/arrived_at> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+    a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-7cb054493e2e49ed8c8f438d28af93d4-sbo73r <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/arrived_at> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Ship> .
+  
+  _:genid-7cb054493e2e49ed8c8f438d28af93d4-3m6x7m <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+$subject (sealit:voyages/sealit:consists_of_leaving/crm:P134i_was_continued_by/sealit:at) ?value .
+OPTIONAL {?value rdfs:label ?label}
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/arrived_at> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-7cb054493e2e49ed8c8f438d28af93d4-sbo73r;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-7cb054493e2e49ed8c8f438d28af93d4-3m6x7m .
+  
+  _:genid-7cb054493e2e49ed8c8f438d28af93d4-sbo73r a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-7cb054493e2e49ed8c8f438d28af93d4-3m6x7m a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/arrived_at> <http://www.w3.org/2000/01/rdf-schema#label>
+      "arrived at (OBSOLETE)"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-26T18:22:27.930Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/arrived_at> .
+  
+  <http://www.sealit.gr/ontology/fields/arrived_at> a <http://www.w3.org/ns/ldp#Resource> .
+}

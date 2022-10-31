@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/queryContainer/sfasfasdfsdgdf/context> {
+  <http://83.212.169.164:10315/container/queryContainer/sfasfasdfsdgdf> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "sfasfasdfsdgdf";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE { ?subject <http://www.sealit.gr/ontology/FR/has_owner_organisation_with_headquarters_location> <http://www.sealit.gr/DB/organisation/master_uri-la%20sociedad%20isle%C3%B1a%20maritima>. }
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KiFdAtpAKIAsADAH0AMkgDm6AQCE4MAJ5kQDRAB58WLEUgB6LQHd9AOjCpMWA6Lpa4AOyxw0cUbK0AxAEpb8KMALi7rSHS+dOLWGGAoWBg2ArrY+AL4qDAAjgCuKHRYgT4OFJHR1gB8CjA01CBuSGBwaXQUjKSgGHQYTCAAKoh0CgBq7dkcHbJEjJAgAHIo7EgwEzKNIABu6GljIGoa2nqGxujY5pYAIpJWIShhEVE2WuzegwJ1GAC0aCgApABMfDUUGLMoGBfPjhNBId4AYQAzO9JABGD7fO6tKJ3EAAX3R5DeACMkGhEEIUAACX7-GCA4kASTAYIAjySALKZbAYNHkGDVNjEa7WQkkskAmDU2lIBnE5kotkschYNJEMFMTEAXWVWJAaTC6SQVLKkD46LV5AAZjQ1UA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-21T06:26:42.866Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/sfasfasdfsdgdf> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/sfasfasdfsdgdf> a <http://www.w3.org/ns/ldp#Resource> .
+}

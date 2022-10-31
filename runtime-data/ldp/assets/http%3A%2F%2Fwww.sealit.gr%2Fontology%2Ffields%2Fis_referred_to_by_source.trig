@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/is_referred_to_by_source/context> {
+  <http://www.sealit.gr/ontology/fields/is_referred_to_by_source> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "record document"@en;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-b094e732158b43d9abb1251188392a66-etyxme .
+  
+  _:genid-b094e732158b43d9abb1251188392a66-etyxme a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/is_referred_to_by_source> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-b094e732158b43d9abb1251188392a66-47kodm .
+  
+  _:genid-b094e732158b43d9abb1251188392a66-47kodm a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+  GRAPH ?g {
+    { ?infObj  (crm:P67_refers_to|^crm:P67i_is_referred_to_by) $subject }
+          ?value  crm:P67_refers_to ?doc .
+          ?doc a crm:E31_Document , crm:E18_Physical_Thing ;
+#?value a crm:E31_Document , crm:E18_Physical_Thing ;
+		crm:P2_has_type          <http://www.sealit.gr/DB/doc%20types/source%20identity> .
+OPTIONAL{ ?value (crm:P102_has_title/rdfs:label) ?label
+    }
+    
+  }
+    } ORDER BY STR(?label)""" .
+  
+  <http://www.sealit.gr/ontology/fields/is_referred_to_by_source> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-09T18:35:26.640Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/is_referred_to_by_source> .
+  
+  <http://www.sealit.gr/ontology/fields/is_referred_to_by_source> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/with_shipID/context> {
+  <http://www.sealit.gr/ontology/fields/with_shipID> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.sealit.gr/ontology/sealit#Ship_ID>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-1a971ece7ab2476bb015aab7610617dc-d5uhyl;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Ship> .
+  
+  _:genid-1a971ece7ab2476bb015aab7610617dc-ewy60s <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/with_shipID> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-1a971ece7ab2476bb015aab7610617dc-ewy60s .
+  
+  _:genid-1a971ece7ab2476bb015aab7610617dc-d5uhyl a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/with_shipID> <http://www.w3.org/2000/01/rdf-schema#label>
+      "ship registration number"@en .
+  
+  _:genid-1a971ece7ab2476bb015aab7610617dc-ewy60s a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/with_shipID> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string> .
+  
+  _:genid-1a971ece7ab2476bb015aab7610617dc-d5uhyl <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label {
+ $subject (sealit:is_registered_by/sealit:with_shipID/rdfs:label) ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/with_shipID> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-09-14T15:09:00.643Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/with_shipID> .
+  
+  <http://www.sealit.gr/ontology/fields/with_shipID> a <http://www.w3.org/ns/ldp#Resource> .
+}

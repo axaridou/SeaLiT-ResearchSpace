@@ -1,0 +1,32 @@
+
+<http://www.sealit.gr/ontology/fields/is_father_of/context> {
+  <http://www.sealit.gr/ontology/fields/is_father_of> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-f4066138f8ff4265a353b542453fffdc-dn60w;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-f4066138f8ff4265a353b542453fffdc-yfrg1p a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-f4066138f8ff4265a353b542453fffdc-dn60w a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/is_father_of> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-f4066138f8ff4265a353b542453fffdc-yfrg1p <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+$subject ^(crm:P98i_was_born/crm:P97_from_father) ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/is_father_of> <http://www.w3.org/2000/01/rdf-schema#label>
+      "is father of"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-f4066138f8ff4265a353b542453fffdc-yfrg1p .
+  
+  _:genid-f4066138f8ff4265a353b542453fffdc-dn60w <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/is_father_of> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-29T19:17:10.962Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/is_father_of> .
+  
+  <http://www.sealit.gr/ontology/fields/is_father_of> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,34 @@
+
+<http://www.sealit.gr/ontology/fields/is_mother_of/context> {
+  <http://www.sealit.gr/ontology/fields/is_mother_of> <http://www.w3.org/2000/01/rdf-schema#label>
+      "is mother of"@en;
+    a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-41c361a7a4e346a2a355a65b72176e44-qxjinx <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person . 
+  $subject ^(crm:P98i_was_born/crm:P96_by_mother) ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/is_mother_of> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-41c361a7a4e346a2a355a65b72176e44-qxjinx .
+  
+  _:genid-41c361a7a4e346a2a355a65b72176e44-jwnigl <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/is_mother_of> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-41c361a7a4e346a2a355a65b72176e44-jwnigl .
+  
+  _:genid-41c361a7a4e346a2a355a65b72176e44-qxjinx a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-41c361a7a4e346a2a355a65b72176e44-jwnigl a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/is_mother_of> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-29T19:25:15.249Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/is_mother_of> .
+  
+  <http://www.sealit.gr/ontology/fields/is_mother_of> a <http://www.w3.org/ns/ldp#Resource> .
+}

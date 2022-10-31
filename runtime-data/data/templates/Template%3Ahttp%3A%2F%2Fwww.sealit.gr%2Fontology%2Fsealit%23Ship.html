@@ -1,0 +1,154 @@
+[[> sealit:Page_breadcrumb ]]
+
+<style>
+  #record-tabs .tab-ontodia {
+    margin: 0px;
+    padding: 2px 0px 0px;
+    width: 100%;
+    height: calc(100vh - 300px);
+  }
+</style>
+
+<div class="page">
+
+  [[!-- [[> Platform:DefaultResourceHeader ]] --]]
+  
+  [[> sealit:MasterResourceHeader ]]
+ 
+  <bs-tabs id='record-tabs' class='page__body-navtabs--borderless' default-active-key='summary' unmount-on-exit=true>
+
+        <bs-tab event-key='summary' title='Summary'>
+      <div data-flex-layout='row top-stretch'>
+   
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+           
+        
+[[!--render the next field definitions as a field-value table --]]    
+        
+
+  <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions
+http://www.sealit.gr/ontology/fields/with_shipID	=	"http://www.sealit.gr/ontology/fields/with_shipID"
+http://www.sealit.gr/ontology/fields/is_identified_by	=	"http://www.sealit.gr/ontology/fields/is_identified_by"
+http://www.sealit.gr/ontology/fields/has_type	=	"http://www.sealit.gr/ontology/fields/has_type"
+http://www.sealit.gr/ontology/fields/has_timespan_of_registration = "http://www.sealit.gr/ontology/fields/has_timespan_of_registration" 
+http://www.sealit.gr/ontology/fields/is_registered_at	=	"http://www.sealit.gr/ontology/fields/is_registered_at"
+http://www.sealit.gr/ontology/fields/has_timespan_of_construction	=	"http://www.sealit.gr/ontology/fields/has_timespan_of_construction"
+http://www.sealit.gr/ontology/fields/is_constructed_at	=	"http://www.sealit.gr/ontology/fields/is_constructed_at"
+http://www.sealit.gr/ontology/fields/has_tonnage	=	"http://www.sealit.gr/ontology/fields/has_tonnage"
+http://www.sealit.gr/ontology/fields/ship_has_dimension = "http://www.sealit.gr/ontology/fields/ship_has_dimension"
+http://www.sealit.gr/ontology/fields/has_horse_power = "http://www.sealit.gr/ontology/fields/has_horse_power"
+http://www.sealit.gr/ontology/fields/has_navigation_type = "http://www.sealit.gr/ontology/fields/has_navigation_type"
+http://www.sealit.gr/ontology/fields/was_delivered_on = "http://www.sealit.gr/ontology/fields/was_delivered_on"
+http://www.sealit.gr/ontology/fields/had_owner	=	"http://www.sealit.gr/ontology/fields/had_owner"
+http://www.sealit.gr/ontology/fields/has_owner_organisation_with_headquarters_location = "http://www.sealit.gr/ontology/fields/has_owner_organisation_with_headquarters_location"
+http://www.sealit.gr/ontology/fields/had_captain = "http://www.sealit.gr/ontology/fields/had_captain"
+http://www.sealit.gr/ontology/fields/has_construction_value = "http://www.sealit.gr/ontology/fields/has_construction_value"
+http://www.sealit.gr/ontology/fields/has_second_hand_purchase = "http://www.sealit.gr/ontology/fields/has_second_hand_purchase"
+http://www.sealit.gr/ontology/fields/has_updated_value = "http://www.sealit.gr/ontology/fields/has_updated_value"
+http://www.sealit.gr/ontology/fields/has_engine = "http://www.sealit.gr/ontology/fields/has_engine"
+http://www.sealit.gr/ontology/fields/has_ammunition = "http://www.sealit.gr/ontology/fields/has_ammunition"
+http://www.sealit.gr/ontology/fields/with_ammunition_of_type	=	"http://www.sealit.gr/ontology/fields/with_ammunition_of_type"
+http://www.sealit.gr/ontology/fields/has_note = "http://www.sealit.gr/ontology/fields/has_note"
+http://www.sealit.gr/ontology/fields/referred_to_by = "http://www.sealit.gr/ontology/fields/referred_to_by"
+http://www.sealit.gr/ontology/fields/has_registration_folio = "http://www.sealit.gr/ontology/fields/has_registration_folio"
+http://www.sealit.gr/ontology/fields/has_registration_signed_by_organisation = "http://www.sealit.gr/ontology/fields/has_registration_signed_by_organisation"
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+
+            
+  [[!--         
+  <h2> fieldDefinitionsFromQuery </h2>     
+
+  <mp-field-visualization
+
+    subject='[[this]]'
+    fields='[[fieldDefinitionsFromQuery "SELECT ?field  WHERE { ?field <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Ship>.  BIND(IF(?field = <http://www.researchspace.org/instances/fields/ManMadeObjectTitle>, 0, 1) as ?order)} ORDER BY ASC(?order) ?field"]]'
+    template='{{> Default:FieldBasedVisualization subject=subject [[#if asserted]]guess="true"[[/if]]}}'
+  ></mp-field-visualization>
+ --]]
+
+            </table>
+          
+[[#if (ask "ASK {?? crm:P2_has_type <http://www.sealit.gr/DB/type/master>}") ]]
+[[> sealit:Resource_info 		registered_as=true ]]
+[[else]]
+[[> sealit:Resource_info 		sourceinfo=true ]] 
+[[> sealit:Resource_info 		registry=true ]]
+[[/if]]
+          
+          
+          </div>
+      </div>
+    </bs-tab>
+    
+    [[#if (ask "ASK {?? crm:P2_has_type <http://www.sealit.gr/DB/type/master>}") ]][[else]]
+    
+    <bs-tab event-key='crew' title='Crew'>
+      <div data-flex-layout='row top-stretch'>
+   
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+       
+[[!--render the next field definitions as a field-value table --]]    
+            <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions
+http://www.sealit.gr/ontology/fields/had_crew = "http://www.sealit.gr/ontology/fields/had_crew"
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+                                    >
+            </mp-field-visualization>
+          </table>
+        </div>
+      </div>
+    </bs-tab>
+    <bs-tab event-key='voyages' title='Voyages'>
+      <div data-flex-layout='row top-stretch'>
+   
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+       
+[[!--render the next field definitions as a field-value table --]]    
+            <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions
+http://www.sealit.gr/ontology/fields/has_departure_from = "http://www.sealit.gr/ontology/fields/has_departure_from" 
+http://www.sealit.gr/ontology/fields/has_arrival = "http://www.sealit.gr/ontology/fields/has_arrival" 
+http://www.sealit.gr/ontology/fields/has_voyage	=	"http://www.sealit.gr/ontology/fields/has_voyage"
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+                                    >
+            </mp-field-visualization>
+          </table>
+        </div>
+      </div>
+    </bs-tab>
+    
+    [[/if]]
+
+[[!--> sealit:DefaultTabs --]]
+    
+    </bs-tabs>
+</div>

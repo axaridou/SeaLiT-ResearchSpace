@@ -1,0 +1,38 @@
+
+<http://www.sealit.gr/ontology/fields/death_reg/context> {
+  <http://www.sealit.gr/ontology/fields/death_reg> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-4430b1ef27664fa6894e31e31b79bc2e-q1w4gh;
+    a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-4430b1ef27664fa6894e31e31b79bc2e-q1w4gh a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/death_reg> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-4430b1ef27664fa6894e31e31b79bc2e-i3h41j .
+  
+  _:genid-4430b1ef27664fa6894e31e31b79bc2e-i3h41j a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/death_reg> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "death registration"@en .
+  
+  _:genid-4430b1ef27664fa6894e31e31b79bc2e-i3h41j <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject crm:P100i_died_in ?death .
+  ?death crm:P67i_is_referred_to_by ?doc .
+  OPTIONAL{ ?doc (crm:P94i_was_created_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?date. }
+  BIND (?doc as ?value)
+  ?doc rdfs:label ?labelX .
+      BIND (CONCAT(?labelX, COALESCE( CONCAT(\" (registered on \", STR(?date), \")\"), \"\")) as ?label)
+}""" .
+  
+  _:genid-4430b1ef27664fa6894e31e31b79bc2e-q1w4gh <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/death_reg> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-02-25T18:12:16.078Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/death_reg> .
+  
+  <http://www.sealit.gr/ontology/fields/death_reg> a <http://www.w3.org/ns/ldp#Resource> .
+}

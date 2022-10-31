@@ -1,0 +1,102 @@
+[[!--
+The query fetches the FRs that are avaiable for the specified subject.
+--]]
+<semantic-query id="allFRs" query='
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT DISTINCT ?FR ?FRvar ?FRrange ?FRdomain 
+WHERE {
+  ?subject rdf:type ?FRdomain .
+  GRAPH <http://www.sealit.gr/ontology/FCFR> {
+    ?FR rso:hasDomain ?FRdomain .
+    ?FR rso:hasRange ?FRrange .
+    FILTER(?FR NOT IN (<http://www.sealit.gr/ontology/FR/Ship2Record>, <http://www.sealit.gr/ontology/FR/Person2Record>, <http://www.sealit.gr/ontology/FR/Legal_Body2Record>, <http://www.sealit.gr/ontology/FR/Place2Record>) )
+    ?FR rdfs:label ?FRNameX.
+    BIND( REPLACE(REPLACE(?FRNameX, " ", "_"), "-", "") AS ?FRvar )
+  }
+}
+'
+                  template='{{> attributesTemplate }}'
+    >
+  <template id='attributesTemplate'>
+    <div>
+      SELECT DISTINCT ?subject {{#each bindings}} ?{{FRvar.value}}{{/each}} 
+WHERE { 
+  {{#each bindings as |tuple|}} 
+    OPTIONAL{ ?subject &lt;{{FR.value}}&gt; ?{{FRvar.value}} .}
+    {{/each}} 
+    OPTIONAL {?subject rdfs:label ?label} } ORDER BY ?label ?subject
+      <br/> 
+      <semantic-table id='semantic-search-result-test'
+                        query='
+SELECT DISTINCT ?subject {{#each bindings}} ?{{FRvar.value}} {{/each}} 
+WHERE { 
+  {{#each bindings as |tuple|}} 
+    OPTIONAL{ ?subject <{{FR.value}}> ?{{FRvar.value}} .}
+    {{/each}} 
+    OPTIONAL {?subject rdfs:label ?label} } ORDER BY ?label ?subject'
+                        options='{"showFilter":true, "resultsPerPage":10}'
+                        >
+      </semantic-table>
+      <br/>
+
+      <mp-sparql-downloadXX id='csv-result' 
+                          query='SELECT DISTINCT ?subject {{#each bindings}} ?{{FRvar.value}}{{/each}}
+  WHERE { 
+    ?subject rdf:type <{{FRdomain.value}}> .
+    {{#each bindings as |tuple|}}
+      OPTIONAL{GRAPH <http://www.sealit.gr/ontology/FCFR/materialization>{?subject <{{FR.value}}> ?{{FRvar.value}} .} }
+      {{/each}}
+    }'
+                          header="text/csv"
+                          filename="{{ FRvar.value }}-csv-result.csv"
+                          >
+        <button class="btn btn-default" style="margin-right:10px">Download CSV</button>
+      </mp-sparql-downloadXX>
+      [[!--          
+        <semantic-chart
+
+                        id='search-result-chart'  
+                        type='bar'
+                          query='                                           
+SELECT  ?object ?label (COUNT(DISTINCT ?subject) as ?count) WHERE {
+  OPTIONAL {
+    { ?subject <{{ FR.value }}> ?object . OPTIONAL { ?object rdfs:label ?label .} 
+} UNION { ?subject <{{ FR.value }}> ?object . FILTER(!EXISTS{ ?object rdfs:label ?label .})}
+}
+BIND(IF(BOUND(?object), ?object, "Unknown") as ?object)
+} GROUP BY ?object ?label ORDER BY ?object DESC(?count)
+'
+
+                           queryOLDER='                                           
+                                            SELECT  ?object ?label (COUNT(DISTINCT ?subject) as ?count) WHERE {
+                                               OPTIONAL {
+                                                { ?subject ?__contextRelation__ ?object . OPTIONAL { ?object rdfs:label ?label .} 
+                                                } UNION { ?subject ?__contextRelation__ ?object . FILTER(!EXISTS{ ?object rdfs:label ?label .})}
+                                                }
+                                               BIND(IF(BOUND(?object), ?object, "Unknown") as ?object)
+                                             } GROUP BY ?object ?label ORDER BY ?object DESC(?count)
+                                             '
+                          queryOLDER2='                                           
+                                            SELECT  ?object ?label (COUNT(DISTINCT ?subject) as ?count) WHERE {
+                                               OPTIONAL { ?subject ?__contextRelation__ ?object }
+                                               MINUS {?master owl:sameAs ?object .}
+                                               OPTIONAL { ?object rdfs:label ?label }
+                                               BIND(IF(BOUND(?object), ?object, "Unknown") as ?object)
+                                             } GROUP BY ?object ?label ORDER BY ?object DESC(?count)
+                                             '
+                          sets='[{
+                                              "category": "object",
+                                              "value": "count"
+                                            }]'>
+                        </semantic-chart>
+                        --]]
+
+    </div>
+  </template>
+    
+</semantic-query>

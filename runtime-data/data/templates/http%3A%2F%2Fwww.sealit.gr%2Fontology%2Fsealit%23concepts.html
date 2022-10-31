@@ -1,0 +1,48 @@
+<semantic-graph id="0" height='1000px' 
+                queryXXX='
+      prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      prefix person: <http://example.com/person/> 
+      prefix org: <http://example.com/org/> 
+      prefix foaf: <http://xmlns.com/foaf/0.1/>
+
+      CONSTRUCT {
+        ?s ?p ?o
+      } WHERE {
+        {
+          SELECT ?s ?p ?o WHERE {
+            VALUES (?s ?p ?o)
+            {(person:bob foaf:knows person:alice)
+              (person:alice foaf:knows person:bob)
+              (person:alice foaf:knows person:carol)
+              (person:carol foaf:knows person:mike)               
+              (person:mike foaf:knows person:carol)
+              (person:bob foaf:knows person:carol)               
+              (person:alice foaf:knows person:mike)
+              (person:alice foaf:member org:W3C)
+              (person:mike foaf:member org:W3C)
+            }
+          }
+        }
+      }'
+                query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+CONSTRUCT {?s ?p ?o} WHERE {
+        
+		VALUES ?p { skos:broader owl:sameAs }
+        VALUES ?type { skos:Concept owl:sameAs }
+  { SELECT DISTINCT ?s ?p ?o  {VALUES ?root {  <http://www.sealit.gr/DB/Concept/mate> } {?s skos:broader|owl:sameAs ?root} ?s ?p ?o  } LIMIT 100 }
+
+                  
+       
+      }  
+'                
+                >
+  
+
+   <semantic-graph-layout-cose-bilkent ideal-edge-length=200></semantic-graph-layout-cose-bilkent>
+  <semantic-graph-layout-breadthfirstX roots='["<http://www.sealit.gr/DB/deck%20officer>"]' circle=false></semantic-graph-layout-breadthfirstX>
+  
+</semantic-graph>
+

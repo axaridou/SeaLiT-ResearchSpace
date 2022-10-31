@@ -1,0 +1,38 @@
+
+<http://www.sealit.gr/ontology/fields/related_to_payment/context> {
+  <http://www.sealit.gr/ontology/fields/related_to_payment> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-353e01cb227441d2913d4d1f995c24db-pbohj <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+?payment sealit:for_service $subject .
+?payment sealit:had_money_value ?monetary .
+?monetary sealit:P181_has_amount ?amount;
+sealit:P180_has_currency ?currency .
+?currency rdfs:label ?currencylabel .
+OPTIONAL { ?monetary crm:P2_has_type/rdfs:label ?monetType .}
+BIND(Concat(Str(?amount),\" \", ?currencylabel, \" \", COALESCE(?monetType, \"\")) as ?labelMONET)
+BIND ( ?labelMONET as ?value )
+}""" .
+  
+  _:genid-353e01cb227441d2913d4d1f995c24db-jxv1ff <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_payment> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Service>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-353e01cb227441d2913d4d1f995c24db-pbohj;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-353e01cb227441d2913d4d1f995c24db-jxv1ff;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "payment"@en;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment> .
+  
+  _:genid-353e01cb227441d2913d4d1f995c24db-pbohj a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-353e01cb227441d2913d4d1f995c24db-jxv1ff a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_payment> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-06T07:17:32.350Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/related_to_payment> .
+  
+  <http://www.sealit.gr/ontology/fields/related_to_payment> a <http://www.w3.org/ns/ldp#Resource> .
+}

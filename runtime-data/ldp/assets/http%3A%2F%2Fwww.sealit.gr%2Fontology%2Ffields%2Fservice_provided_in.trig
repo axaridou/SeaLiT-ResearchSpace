@@ -1,0 +1,34 @@
+
+<http://www.sealit.gr/ontology/fields/service_provided_in/context> {
+  <http://www.sealit.gr/ontology/fields/service_provided_in> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-be7acf27c98d41cdabeacb637277c087-7due6q <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/service_provided_in> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-be7acf27c98d41cdabeacb637277c087-7due6q;
+    <http://www.w3.org/2000/01/rdf-schema#label> "service provided in"@en .
+  
+  _:genid-be7acf27c98d41cdabeacb637277c087-7due6q a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-be7acf27c98d41cdabeacb637277c087-ckt1km <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value WHERE {
+?value crm:P14_carried_out_by/sealit:gave_service_for/crm:P9_consists_of* $subject .
+?value a sealit:Voyage .
+$subject a sealit:Crew_Payment .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/service_provided_in> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-be7acf27c98d41cdabeacb637277c087-ckt1km;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Crew_Payment>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.sealit.gr/ontology/sealit#Voyage> .
+  
+  _:genid-be7acf27c98d41cdabeacb637277c087-ckt1km a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/service_provided_in> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-01T18:01:31.592Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/service_provided_in> .
+  
+  <http://www.sealit.gr/ontology/fields/service_provided_in> a <http://www.w3.org/ns/ldp#Resource> .
+}

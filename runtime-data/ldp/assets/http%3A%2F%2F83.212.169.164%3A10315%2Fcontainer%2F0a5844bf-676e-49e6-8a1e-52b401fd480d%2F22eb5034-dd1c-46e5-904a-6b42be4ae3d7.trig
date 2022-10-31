@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/22eb5034-dd1c-46e5-904a-6b42be4ae3d7/context> {
+  <http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/22eb5034-dd1c-46e5-904a-6b42be4ae3d7>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/ship/A28F5F8B-19A7-3A70-A538-F383E8684F5C>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ship L`Unione";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 2;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-22T09:36:43.217Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://83.212.169.164:10315/container/setContainer/0a5844bf-676e-49e6-8a1e-52b401fd480d>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/22eb5034-dd1c-46e5-904a-6b42be4ae3d7> .
+  
+  <http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/22eb5034-dd1c-46e5-904a-6b42be4ae3d7>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

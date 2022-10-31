@@ -1,0 +1,20 @@
+
+<http://83.212.169.164:10315/container/queryContainer/gdgdgsdgsgsgsgsggsgsggs/context> {
+  <http://83.212.169.164:10315/container/queryContainer/gdgdgsdgsgsgsgsggsgsggs> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gdgdgsdgsgsgsgsggsgsggs";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE {
+  ?__value___77cca379_06f0_4367_8cf7_0dfeabcb23d1 <http://www.sealit.gr/ontology/FR/has_owner_organisation_with_headquarters_location> <http://www.sealit.gr/DB/organisation/master_uri-compa%C3%B1%C3%ADa%20trasatl%C3%A1ntica>.
+  { ?subject <http://www.sealit.gr/ontology/FR/is_the_owner_organization_for> ?__value___77cca379_06f0_4367_8cf7_0dfeabcb23d1. }
+}
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZRAYwE4FtIFEAsAGA+gDICmA5gIYA2+AQnDAJ4gA0yUA2qCsVF+YmGJUAlgBdIAZQAWwgA4sQ3RAB4po0bMgB6LQHd9AOkEjRB0ii1wAdqLiU4pBloBiAJS3Cw+UVOL44ulbEKP4oFFbCAF7kosLW+ABmcCgAfAowHOwgEuQAbsQwEkIoSFIsoACOAK7BTNAgstwJwgAexBDQAL6soojVtQr9KAwAKgyyPJDZmISYAMIj6Z6xVki9kKIoNay55CjC5ABGlO0cIAD8YFWHAFbEayAAuqy6vkqQnCDrIIek8j37WQnDqfK63e7fS7XO4PViNArCJAxSYgNQabR6QzGShiMwWay2eyOFzuKTkLwBIIhZLhTwxOJWfC6MRSfC+cgwap7UTBLz2JGxawKODgh5TNGaHT6XRGIQ40zmLQAERoljC5AiYHp1i0aHJPJCVX2AFokHA0LJyABSOYAZitNAAjDb7QBBJXWgBMuE25JilBdVtdjpsiP4nUeEdYOLQYigAFZcEncN0QJQjsRKAIZLIwAACMn5ynBPM0jV0wVWPPMnwFoScqrc3l5-naqtzc2WgCPAFvyHmRig-aJKABD0NIkARyMR1MJDiRoA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/guest>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-22T09:39:26.901Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/gdgdgsdgsgsgsgsggsgsggs> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/gdgdgsdgsgsgsgsggsgsggs> a <http://www.w3.org/ns/ldp#Resource> .
+}

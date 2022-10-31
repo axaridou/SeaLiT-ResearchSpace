@@ -1,0 +1,149 @@
+<div>
+<semantic-context repository='assets'>
+  
+[[!-- Creates a query to materialize all the relations-fields. These relatons are dynamically retrieved from the Asset repository and then are applied to the data in order to get materialized at the Default repository into a specific graph --]]
+  
+  <semantic-query query='
+  SELECT DISTINCT ?field ?whereClause WHERE {
+  ?field a <http://www.metaphacts.com/ontology/fields#Field> .
+  ?field (<http://www.metaphacts.com/ontology/fields#selectPattern>/<http://spinrdf.org/sp#text>) ?selQuery1 . 
+  BIND( REPLACE(str(?selQuery1),  "SELECT DISTINCT \\?value \\?label\\s*\\{", " ") as ?whereClause1) .
+  BIND( REPLACE((?whereClause1),  "OPTIONAL \\{\\?value rdfs:label \\?label\\}\\s*\\}", " ") as ?whereClause2) .
+  BIND( REPLACE((?whereClause2),  "\\.\\s*\\.", " ") as ?whereClause) .
+ }' 
+    template='{{> listQueries}}'>
+    
+    <template id='listQueries'>
+      <div>
+        <b>Materialization Query1:</b><br/>
+            WITH &lt;http://www.sealit.gr/ontology/FCFR/materialization&gt; <br/>
+            INSERT { $subject ?predicate ?value } <br/>
+      			USING &lt;http://www.sealit.gr/DB&gt;<br/>
+            WHERE {<br/>
+        SELECT $subject ?predicate ?value WHERE {<br/>
+        <ul>
+          {{#each bindings as |bind|}}
+          {<p>{{bind.whereClause.value}}</p>
+          <p>Bind (&lt;{{bind.field.value}}&gt; as ?predicate)</p>
+          } UNION
+          {{/each}}
+          {}
+        </ul>
+        }} <br/>
+        
+        <b>Materialization Query2 (related to):</b><br/>        
+        WITH &lt;http://www.sealit.gr/ontology/FCFR/materialization&gt; <br/>
+        INSERT { ?s ?relation ?o } <br/>
+        WHERE { <br/>
+          GRAPH &lt;http://www.sealit.gr/ontology/FCFR/materialization&gt; {?s ?p ?o } <br/>
+          GRAPH &lt;http://www.sealit.gr/DB&gt;  { <br/>
+            ?s a ?sType .<br/>
+            ?o a ?oType .<br/>
+          }  
+          GRAPH &lt;http://www.sealit.gr/ontology/FCFR&gt; {<br/>
+            VALUES ?relationLabel { "related to"@en } <br/>
+            ?relation rdfs:label ?relationLabel; rso:hasDomain ?sType ; rso:hasRange ?oType .<br/>
+          }<br/>
+        }<br/>
+
+      </div>
+    </template>
+    
+    <template id='runInsertQuery'>
+            <div>
+              <ul>
+                {{#if bindings}}
+                {{#each bindings as |bind|}}
+                <p>Bind ( {{bind.value}} ) as ?predicate </p>
+                {{/each}}
+                {{/if}}
+              </ul>
+              }
+            </div>
+
+    </template>
+    
+    <template id='TMP'>
+      <semantic-context repository='default'>
+        <semantic-query query='{{query}}'
+       template='{{> list2}}'
+      >
+        <template id='list2'>
+          <div>
+          {{#each bindings as |bind|}}
+        	{{ log bind}}
+          {{/each}}
+            </div>
+        </template>  
+        </semantic-query>
+      </semantic-context>
+    </template>
+    
+
+  </semantic-query>
+</semantic-context>
+<hr/>
+<semantic-context repository='default'>
+    <semantic-query query='
+    PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+    SELECT DISTINCT ?pred FROM <http://www.sealit.gr/ontology/FCFR/materialization> {?s ?pred ?o}' template='{{> showInstantiatedRelations}}' >
+      <template id='showInstantiatedRelations'>
+         <div>
+           <p><b>Instantiated Relations</b></p>
+          <ul>
+          {{#each bindings as |bind|}}
+        	<li>{{ bind.pred.value }}</li>
+          {{/each}}
+          </ul>
+        </div>
+     </template>  
+   </semantic-query>
+</semantic-context>
+<hr/> 
+<semantic-context repository='default'>
+   <semantic-query query='
+    PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+    SELECT DISTINCT ?pLabel {?s ?pLabel ?o .FILTER( isLiteral(?o))}' template='{{> showLabelRelations}}' >
+      <template id='showLabelRelations'>
+         <div>
+           <p><b>Relations for Literals</b></p>
+          <ul>
+          {{#each bindings as |bind|}}
+        	<li>{{ bind.pLabel.value }}</li>
+          {{/each}}
+          </ul>
+        </div>
+     </template>  
+   </semantic-query>
+</semantic-context>
+  <hr/> 
+<semantic-context repository='default'>
+   <semantic-query query='
+    SELECT DISTINCT ?category ?inst FROM <http://www.sealit.gr/ontology/FCFR> {
+      ?category rdf:type rso:FundamentalCategory .
+      BIND( EXISTS { SELECT ?category {
+        GRAPH <http://www.sealit.gr/DB>{{?s ?p ?o . ?s a ?category} UNION  {?s ?p ?o . ?o a ?category}} }} as ?inst)
+    }' 
+                   
+    template='{{> showCategories}}' >
+      <template id='showCategories'>
+         <div>
+           <p><b>Instantiated Categories</b></p>
+           <p>select * {
+             ?category rdf:type rso:FundamentalCategory
+             optional {?domainForRelation rso:hasDomain ?category}
+             optional {?rangeForRelation rso:hasRange ?category}
+             }
+           </p>
+           
+          <ul>
+          {{#each bindings as |bind|}}
+        	<li>{{ bind.inst.value }}----{{ bind.category.value }}</li>
+          {{/each}}
+          </ul>
+        </div>
+     </template>  
+   </semantic-query>
+</semantic-context>
+
+</div>

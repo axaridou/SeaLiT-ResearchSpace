@@ -1,0 +1,42 @@
+
+<http://www.sealit.gr/ontology/fields/had_owner/context> {
+  <http://www.sealit.gr/ontology/fields/had_owner> <http://www.w3.org/2000/01/rdf-schema#label>
+      "had owner"@en;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-c9289284871d42d7bd0b7171d86c77fb-f5cvga;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-c9289284871d42d7bd0b7171d86c77fb-800npn <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject a sealit:Ship .
+  $subject (sealit:has_phase/sealit:has_owner) ?value.      
+  OPTIONAL{ 
+  ?value a crm:E40_Legal_Body .
+  ?value crm:P74_has_current_or_former_residence ?place .
+  BIND(\" (with headquarters location)\" AS ?details)
+  }
+  ?value rdfs:label ?labelX.
+  BIND(CONCAT(?labelX, COALESCE(?details, \"\")) AS ?label)
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/had_owner> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Ship>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-c9289284871d42d7bd0b7171d86c77fb-800npn .
+  
+  _:genid-c9289284871d42d7bd0b7171d86c77fb-f5cvga a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/had_owner> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> .
+  
+  _:genid-c9289284871d42d7bd0b7171d86c77fb-800npn a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-c9289284871d42d7bd0b7171d86c77fb-f5cvga <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/had_owner> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-27T08:54:25.913Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/had_owner> .
+  
+  <http://www.sealit.gr/ontology/fields/had_owner> a <http://www.w3.org/ns/ldp#Resource> .
+}

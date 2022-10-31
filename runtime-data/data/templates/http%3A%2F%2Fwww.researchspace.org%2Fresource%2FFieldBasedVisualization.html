@@ -1,0 +1,187 @@
+<div>
+
+    <style>
+     .rs-page__field-values>li:before{
+        left:-2.3em!important;
+      }
+    .collapsible-panel-trigger__collapsed:before{
+      content:"\f055  \A0 show all"!important;
+    }
+    .collapsible-panel-trigger__expanded:before{
+      /* content:"\f056 \A0 collapse"!important; */
+      display: none;
+    }
+    .collapsible-div-content{
+    	padding: 0px!important;
+    }
+  </style>
+  
+  {{#each fields as |field|}}
+  [[!-- check the next values --]]
+  
+  
+  [[!--
+  {{log field}}
+  {{log field.label.0.value}}
+  {{log field.label}}
+  {{log field.id}}
+  {{log ../subject}}
+  {{log field.range.0.value}}
+--]]
+
+  
+   {{#if field.values}}
+[[!--  
+     {{#ifCond field.iri "=" "http://www.sealit.gr/ontology/fields/same_as_person"}} 
+  {{#each field.range as |range|}}
+{{#switch range.value}} 
+--]]
+
+     {{#switch field.range.value}}  
+        {{#case "http://www.cidoc-crm.org/cidoc-crm/E12_Production" break=true}}
+          {{#each field.values as |value|}}
+            {{#bind subj=value.value}}
+  {{subj}}
+              <mp-field-visualization
+                subject='{{subj}}'
+                fields='[[fieldDefinitionsFromQuery "SELECT ?field WHERE { ?field <http://www.metaphacts.com/ontology/fields#domain> crm:E12_Production. BIND(IF(?field = <http://www.researchspace.org/instances/fields/ManMadeObjectTitle>, 0, 1) as ?order)} ORDER BY ASC(?order) ?field"]]'
+                template='{{> rsp:FieldBasedVisualization subject=subj [[#if asserted]]guess="true"[[/if]]}}'
+              >
+              </mp-field-visualization>
+            {{/bind}}
+          {{/each}}
+        {{/case}}
+        {{#case "http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition" break=true}}
+          {{#each field.values as |value|}}
+            {{#bind subj=value.value}}
+              <mp-field-visualization
+                subject='{{subj}}'
+                fields='[[fieldDefinitionsFromQuery "SELECT ?field WHERE { ?field <http://www.metaphacts.com/ontology/fields#domain> crm:E8_Acquisition . BIND(IF(?field = <http://www.researchspace.org/instances/fields/ManMadeObjectTitle>, 0, 1) as ?order)} ORDER BY ASC(?order) ?field"]]'
+                template='{{> rsp:FieldBasedVisualization subject=subj [[#if asserted]]guess="true"[[/if]]}}'
+              >
+              </mp-field-visualization>
+            {{/bind}}
+          {{/each}}
+        {{/case}}
+        {{#case "http://www.cidoc-crm.org/cidoc-crm/E34_Inscription" break=true}}
+          {{#each field.values as |value|}}
+            {{#bind subj=value.value}}
+              <mp-field-visualization
+                subject='{{subj}}'
+                fields='[[fieldDefinitionsFromQuery "SELECT ?field WHERE { ?field <http://www.metaphacts.com/ontology/fields#domain> crm:E34_Inscription . BIND(IF(?field = <http://www.researchspace.org/instances/fields/ManMadeObjectTitle>, 0, 1) as ?order)} ORDER BY ASC(?order) ?field"]]'
+                template='{{> rsp:FieldBasedVisualization subject=subj [[#if asserted]]guess="true"[[/if]]}}'
+              >
+              </mp-field-visualization>
+            {{/bind}}
+          {{/each}}
+        {{/case}}
+  
+ 
+[[!-- SEALIT SPECIFIC RANGE CASES --]]
+  
+  
+   			{{#case "http://www.cidoc-crm.org/cidoc-crm/E21_Person" break=true}}
+  
+     
+          {{#each field.values as |value|}}
+            {{#bind subj=value.value.value}}
+  [[!--
+  {{log "subject" subj}}
+  --]]
+              <mp-field-visualization
+                subject='{{subj}}'
+                fields='[[fieldDefinitionsFromQuery "SELECT ?field WHERE { ?field <http://www.metaphacts.com/ontology/fields#domain> crm:E21_Person . BIND(IF(?field = <http://www.researchspace.org/instances/fields/ManMadeObjectTitle>, 0, 1) as ?order)} ORDER BY ASC(?order) ?field"]]' 
+                template='templateDetails'
+              >
+                <template id='templateDetails'>
+                  =============================
+                  {{> rsp:FieldBasedVisualization fields=fields subject=subj [[#if asserted]]guess="true"[[/if]]}}
+                  =============================
+                </template>
+              </mp-field-visualization>
+            {{/bind}}
+          {{/each}}
+        {{/case}}
+  
+  
+  
+        {{#default}}
+  
+
+          <table>
+            <tbody>
+            <tr class="rs-page__field">
+              <td class="rs-page__field-label-holder">
+                      <span class="rs-page__field-label">
+                        {{field.label.0.value}}
+                      </span>
+              </td>
+              <td>
+                   
+                {{#ifCond (objectLength field.values) '>' 1}}
+                  <ol class="rs-page__field-values">
+                    {{#each field.values as |value|}}
+                    {{#ifCond 200 '>=' @index}}
+                    <li class="rs-page__field-value" style=" margin-left: 10px;list-style-position: inside;">
+                      {{> Platform:FieldValueVisualization field=field value=value guess=../../guess }}
+                    </li>
+                    {{/ifCond}}
+                    {{/each}}
+                  </ol>
+                  {{#ifCond (objectLength field.values) '>' 200}}<i><span>There are more than 200 results</span></i>{{/ifCond}}
+                {{/ifCond}}
+                {{#ifCond (objectLength field.values) '===' 1}}
+                  {{#each field.values as |value|}}
+                    <span class="rs-page__field-value">{{> Platform:FieldValueVisualization field=field value=value guess=../../guess }}</span>
+                  {{/each}}
+                {{/ifCond}}
+              </td>
+
+
+            </tr>
+            </tbody>
+          </table>
+
+  
+        {{/default}}
+      {{/switch}}
+[[!-- {{/each}} --]][[!-- iterate ranges--]]
+[[!--
+  {{#else}}
+   <table>
+            <tbody>
+            <tr class="rs-page__field">
+              <td class="rs-page__field-label-holder">
+                      <span class="rs-page__field-label">
+                        {{field.label.0.value}}
+                      </span>
+              </td>
+              <td>
+                {{#ifCond (objectLength field.values) '>' 1}}
+                  <ol class="rs-page__field-values">
+                    {{#each field.values as |value|}}
+                    <li class="rs-page__field-value">
+                      {{> Platform:FieldValueVisualization field=field value=value guess=../../guess }}
+                    </li>
+                    {{/each}}
+                  </ol>
+                {{/ifCond}}
+                {{#ifCond (objectLength field.values) '===' 1}}
+                  {{#each field.values as |value|}}
+                    <span class="rs-page__field-value">{{> Platform:FieldValueVisualization field=field value=value guess=../../guess }}</span>
+                  {{/each}}
+                {{/ifCond}}
+              </td>
+
+
+            </tr>
+            </tbody>
+          </table>
+  
+
+        {{/ifCond}}
+        --]][[!-- same_as_person --]]
+  
+      {{/if}}
+  {{/each}}
+</div>

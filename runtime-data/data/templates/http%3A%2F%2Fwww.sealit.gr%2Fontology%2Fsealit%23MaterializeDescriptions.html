@@ -1,0 +1,40 @@
+[[#*inline "prefices" ]]
+        PREFIX rso: &lt;http://www.researchspace.org/ontology/&gt; <br/>
+        PREFIX crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; <br/>
+        PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; <br/>
+        PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; <br/>
+        PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; <br/>
+  			PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt; <br/>
+        PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; <br/>
+        PREFIX sealit: &lt;http://www.sealit.gr/ontology/sealit#&gt; <br/>
+        PREFIX sealitFC: &lt;http://www.sealit.gr/ontology/FC/&gt; <br/>
+        PREFIX sealitFR: &lt;http://www.sealit.gr/ontology/FR/&gt; <br/>
+[[/inline]]
+
+
+<b>Get the result of the next query to retrieve the Sources:</b><br/>
+SELECT DISTINCT  $subject
+  {
+?template a crm:E73_Information_Object .
+?template (crm:P1_is_identified_by/crm:P2_has_type) <http://www.sealit.gr/DB/id%20types/record%20id> .
+?template crm:P2_has_type $subject.
+MINUS { ?template crm:P2_has_type <http://www.sealit.gr/DB/doc%20types/record%20information> }
+#MINUS { ?template crm:P2_has_type <http://www.sealit.gr/DB/template> }
+  FILTER ( $subject != <http://www.sealit.gr/DB/template> )
+   }
+  
+<br/>  
+<br/>
+<b>Materialization Descriptions about Sources:</b><br/>
+        <br/>
+        [[> prefices ]]
+        INSERT { GRAPH &lt;http://www.sealit.gr/DB/sourceDescription&gt; {?subject rdfs:comment ?comment} } <br/>
+        WHERE { <br/>
+        VALUES (?subject ?comment) { <br/>
+(&lt;http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29&gt; "The source is about ..." ) <br/>
+(&lt;http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29&gt; "The source is about ..." ) <br/>
+(&lt;http://www.sealit.gr/DB/template%20types/students%20register&gt; "The source is about ..." ) <br/>
+
+  			}<br/>
+        }<br/>
+				<br/>

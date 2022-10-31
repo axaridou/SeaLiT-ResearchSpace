@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/is_place_of_birth/context> {
+  _:genid-4d6c7ea692dd4129a2f0c03b53e45c39-btynrp a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/is_place_of_birth> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+  
+  _:genid-4d6c7ea692dd4129a2f0c03b53e45c39-271euo <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-4d6c7ea692dd4129a2f0c03b53e45c39-btynrp <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value { 
+$subject ^(crm:P98i_was_born/crm:P7_took_place_at) ?actor .
+?master owl:sameAs* ?actor .
+?master crm:P2_has_type <http://www.sealit.gr/DB/type/master> .
+BIND(?master as ?value)
+OPTIONAL {?value rdfs:label ?label}
+  } ORDER BY ?label""" .
+  
+  <http://www.sealit.gr/ontology/fields/is_place_of_birth> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-4d6c7ea692dd4129a2f0c03b53e45c39-271euo .
+  
+  _:genid-4d6c7ea692dd4129a2f0c03b53e45c39-271euo a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/is_place_of_birth> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-4d6c7ea692dd4129a2f0c03b53e45c39-btynrp;
+    <http://www.w3.org/2000/01/rdf-schema#label> "is place of birth"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-04-26T18:18:42.763Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/is_place_of_birth> .
+  
+  <http://www.sealit.gr/ontology/fields/is_place_of_birth> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,40 @@
+
+<http://www.sealit.gr/ontology/fields/has_voyage/context> {
+  _:genid-fb9161b785b545bf8eac3ac713ecf3c1-egt2wt <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value (SAMPLE(?label) as ?label) { 
+$subject (sealit:voyages) ?value .
+?value rdfs:label ?labelX .  
+OPTIONAL {
+?value  crm:P4_has_time-span ?timespan.
+?timespan crm:P82b_end_of_the_end ?end_of_the_end ;
+crm:P82a_begin_of_the_begin ?begin_of_the_begin .
+BIND ( Concat(\" from \", STR(?begin_of_the_begin),\" to \", STR(?end_of_the_end) ) as ?timeDetails)
+}
+OPTIONAL { ?value  (sealit:destination/rdfs:label) ?destination .} 
+BIND ( Concat(?labelX, COALESCE(?timeDetails, \"\"), COALESCE(Concat(\", to \", ?destination), \"\") ) as ?label)
+} GROUP BY ?value ORDER BY ?label """ .
+  
+  <http://www.sealit.gr/ontology/fields/has_voyage> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Ship> .
+  
+  _:genid-fb9161b785b545bf8eac3ac713ecf3c1-egt2wt a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-fb9161b785b545bf8eac3ac713ecf3c1-cjph8i <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_voyage> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-fb9161b785b545bf8eac3ac713ecf3c1-cjph8i .
+  
+  _:genid-fb9161b785b545bf8eac3ac713ecf3c1-cjph8i a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_voyage> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.sealit.gr/ontology/sealit#Voyage>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "voyage"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-fb9161b785b545bf8eac3ac713ecf3c1-egt2wt;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-01T15:28:55.204Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_voyage> .
+  
+  <http://www.sealit.gr/ontology/fields/has_voyage> a <http://www.w3.org/ns/ldp#Resource> .
+}

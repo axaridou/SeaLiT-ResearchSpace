@@ -1,0 +1,32 @@
+
+<http://www.sealit.gr/ontology/fields/ended_at/context> {
+  <http://www.sealit.gr/ontology/fields/ended_at> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ended at"@en .
+  
+  _:genid-d75c17e7f5274c15ab4cbfc466aaa36d-2ocgub <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value { 
+$subject (sealit:ended_by/crm:P7_took_place_at) ?value .
+}""" .
+  
+  _:genid-d75c17e7f5274c15ab4cbfc466aaa36d-cc5cqq <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/ended_at> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-d75c17e7f5274c15ab4cbfc466aaa36d-2ocgub;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-d75c17e7f5274c15ab4cbfc466aaa36d-cc5cqq .
+  
+  _:genid-d75c17e7f5274c15ab4cbfc466aaa36d-2ocgub a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-d75c17e7f5274c15ab4cbfc466aaa36d-cc5cqq a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/ended_at> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-30T18:07:19.550Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/ended_at> .
+  
+  <http://www.sealit.gr/ontology/fields/ended_at> a <http://www.w3.org/ns/ldp#Resource> .
+}

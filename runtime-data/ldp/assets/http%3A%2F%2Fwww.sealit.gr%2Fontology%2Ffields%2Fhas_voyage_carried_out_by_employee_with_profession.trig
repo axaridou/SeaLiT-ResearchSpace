@@ -1,0 +1,34 @@
+
+<http://www.sealit.gr/ontology/fields/has_voyage_carried_out_by_employee_with_profession/context> {
+  <http://www.sealit.gr/ontology/fields/has_voyage_carried_out_by_employee_with_profession>
+    <http://www.w3.org/2000/01/rdf-schema#label> "has voyage carried out by employee with profession (OBSOLETE)"@en;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.sealit.gr/ontology/sealit#Profession>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-2deef2803f1544038db83d6533a75ce1-8a1oyh;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Ship> .
+  
+  _:genid-2deef2803f1544038db83d6533a75ce1-50z02 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-2deef2803f1544038db83d6533a75ce1-8a1oyh a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_voyage_carried_out_by_employee_with_profession>
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-2deef2803f1544038db83d6533a75ce1-50z02 .
+  
+  _:genid-2deef2803f1544038db83d6533a75ce1-8a1oyh <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+$subject (sealit:voyages/crm:P14_carried_out_by/sealit:had_provided/crm:P02i_is_range_of) ?value .
+OPTIONAL {?value rdfs:label ?label}
+}""" .
+  
+  _:genid-2deef2803f1544038db83d6533a75ce1-50z02 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_voyage_carried_out_by_employee_with_profession>
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-26T18:01:00.094Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_voyage_carried_out_by_employee_with_profession> .
+  
+  <http://www.sealit.gr/ontology/fields/has_voyage_carried_out_by_employee_with_profession>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

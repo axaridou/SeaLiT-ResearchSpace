@@ -1,0 +1,88 @@
+<div>
+
+  {{#each fields as |field|}}
+  [[!-- check the next values --]]
+  
+  {{log "====================="}}
+  {{log field}}
+  
+  
+  [[!--
+  {{log field}}
+  {{log field.label.0.value}}
+  {{log field.label}}
+  {{log field.id}}
+  {{log ../subject}}
+  {{log field.range.0.value}}
+--]]
+    {{#if field.values}}
+
+     {{#switch field.iri}}  
+ 
+[[!-- SEALIT SPECIFIC FIELD IRI CASES --]]
+
+  [[!-- SEALIT SPECIFIC CASE: SAME-AS FIELD--]]
+  {{#case "http://www.sealit.gr/ontology/fields/same_as_person" break=true}}
+  {{log "same_as_person"}}
+          {{#each field.values as |value|}}
+            {{#bind subj=value.value}}
+  {{log "try get fields for subject:" subj}}
+ 
+              <mp-field-visualization
+                subject='{{subj}}'
+                fields='[[fieldDefinitionsFromQuery "SELECT ?field WHERE { ?value crm:P67i_is_referred_to_by ?field  . BIND(IF(?field = <http://www.researchspace.org/instances/fields/ManMadeObjectTitle>, 0, 1) as ?order)} ORDER BY ASC(?order) ?field"]]' 
+                template='templateDetails'
+              >
+                <template id='templateDetails'>
+                  =============================
+                  {{> rsp:FieldBasedVisualization fields=fields subject=subj [[#if asserted]]guess="true"[[/if]]}}
+                  =============================
+                </template>
+              </mp-field-visualization>
+          
+            {{/bind}}
+          {{/each}}
+        {{/case}}
+  
+  
+  
+        {{#default}}
+  {{log "default"}}
+  
+        <table>
+            <tbody>
+            <tr class="rs-page__field">
+              <td class="rs-page__field-label-holder">
+                      <span class="rs-page__field-label">
+                        {{field.label.0.value}}
+                      </span>
+              </td>
+              <td>
+                {{#ifCond (objectLength field.values) '>' 1}}
+                  <ol class="rs-page__field-values">
+                    {{#each field.values as |value|}}
+                    <li class="rs-page__field-value">
+                      {{> Platform:FieldValueVisualization field=field value=value guess=../../guess }}
+                    </li>
+                    {{/each}}
+                  </ol>
+                {{/ifCond}}
+                {{#ifCond (objectLength field.values) '===' 1}}
+                  {{#each field.values as |value|}}
+                    <span class="rs-page__field-value">{{> Platform:FieldValueVisualization field=field value=value guess=../../guess }}</span>
+                  {{/each}}
+                {{/ifCond}}
+              </td>
+
+
+            </tr>
+            </tbody>
+          </table>
+  
+        {{/default}}
+  
+      {{/switch}}
+[[!--{{/each}}--]]
+    {{/if}}
+  {{/each}}
+</div>

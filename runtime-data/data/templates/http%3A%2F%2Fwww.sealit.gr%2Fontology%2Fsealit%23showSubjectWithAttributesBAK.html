@@ -1,0 +1,335 @@
+[[!-- input parameters: subject, subjtype 
+
+ {{#each bindings}}<div>{{#if @first}}<h5><mp-label iri="{{function.value}}"></h5><ul class="list-unstyled">{{/if}}
+        <mp-link title="Home" url="/">Home</mp-link>
+  [[#if (ask 'ASK {{ ?activity <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> ?? . ?activity a <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>}}')]]
+
+        <bs-tab event-key='productions' title='Productions'>
+             
+            [[> sapaModule:GroupProductions]]
+            
+            <table width="100%">
+      <tr><td>TESTING</td></tr>
+     <tr>{{#each bindings as |bind|}}{{#each bind}}<th>{{@key}}</th>{{/each}}{{/each}}</tr> 
+		 <tr>{{#each bindings as |bind|}}{{#each bind}}<td>{{@value}}</td>{{/each}}{{/each}}</tr> 
+    </table>
+--]]
+
+
+  [[#*inline "showAttributesTemplate"]]
+  <template id="showAttributes">
+
+    <div width='90%' data-flex-layout="rows top-stretch" >
+				{{#each bindings as |tuple|}}
+      {{!-- log "new row with tuple " tuple --}}
+      <bs-row  style="padding: 5px; border-bottom: solid .005em #2c3e50;"> 
+          
+        	{{#each tuple as |item| }}
+          <bs-col md=1 >
+            
+            {{#ifCond @key "!==" "subject" }}
+            <span class="cell-label"><b><sup>{{ @key }}</sup></b></span>
+            {{else}}
+            <span class="cell-label"><b><sup>{{ @key }}</sup></b></span>
+            {{/ifCond}}
+            <br/>
+
+            {{#if (isIri item) }}
+            <semantic-link iri='{{value}}'> </semantic-link>
+            {{else}}
+          [[!--  <mp-text-truncate style="font-weight: 200; padding: 5px; overflow: hidden; text-overflow: ellipsis;" lines='3' expand='<span>...<a>read more</a></span>' collapse='<span>(<a>show less</a>)</span>'>{{value}}</mp-text-truncate> --]]
+            <mp-text style="font-weight: 200; padding: 5px; overflow: hidden; text-overflow: ellipsis;">{{value}}</mp-text>
+            {{/if}}
+            <br/>
+
+          </bs-col>
+      		{{/each}}
+
+	</bs-row> 
+    		{{/each}}
+    </div>
+  </template>
+
+  <template id="showAttributesBAK">
+  <div data-flex-layout='column top-left'>
+    <table width="100%">
+      <tr><td>TESTING</td></tr>
+     <tr>{{#each bindings as |bind|}}{{#each bind}}<th>{{@key}}</th>{{/each}}{{/each}}</tr> 
+		 <tr>{{#each bindings as |bind|}}{{#each bind}}<td>{{value}}</td>{{/each}}{{/each}}</tr> 
+    </table>
+  </div>
+  </template>
+  [[/inline]]
+
+
+  [[#*inline "showAttributeLabels"]] 
+    <div data-flex-layout='column'>
+       <bs-row style="background-color:#D9828B;">
+         {{#each args as |title| }}
+         <bs-col sm="2"><div class="panel-heading" style="overflow: hidden; text-overflow: ellipsis;">{{title}}</div></bs-col>
+         {{/each}}
+       </bs-row>
+  	</div>
+  [[/inline]]
+
+
+  {{#switch subjtype.value}}
+  {{#case "http://www.sealit.gr/ontology/sealit#Ship" break=true}}
+   <semantic-query query='
+SELECT DISTINCT ?subject ?ship_type ?tonnage ?reg_no ?place_of_construction ?date_of_construction ?owner WHERE {
+  VALUES ?subject { <{{subject.value}}> }
+ ?subject (sealit:has_phase/sealit:has_owner) ?owner ;
+ (sealit:is_registered_by/sealit:with_shipID/rdfs:label) ?reg_no ;
+ (crm:P2_has_type/rdfs:label) ?ship_type ;
+ (sealit:has_tonnage/crm:P90_has_value) ?tonnage ;
+ (sealit:was_constructed_by/crm:P7_took_place_at) ?place_of_construction ;
+ (sealit:was_constructed_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?date_of_construction . }
+'
+  template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>   
+  {{/case}}
+  
+  {{#case "http://www.cidoc-crm.org/cidoc-crm/E21_Person" break=true}}
+   <semantic-query query='
+SELECT DISTINCT ?subject ?first_name ?last_name ?father ?serial_num ?birth_date WHERE {
+  VALUES ?subject { <{{subject.value}}> }
+?subject a crm:E21_Person .
+
+?subject sealit:has_first_name ?first_name .
+?subject sealit:has_last_name ?last_name .
+
+OPTIONAL{?subject (crm:P1_is_identified_by) ?serial_numX .
+?serial_numX crm:P2_has_type <http://www.sealit.gr/DB/numbers/serial%20number> .
+?serial_numX rdfs:label ?serial_num .
+}
+
+OPTIONAL{
+?subject crm:P98i_was_born ?birth .
+OPTIONAL{?birth crm:P4_has_time-span ?birthDateTS .
+OPTIONAL{?birthDateTS crm:P82_at_some_time_within ?birth_date .}
+}
+OPTIONAL{?birth crm:P97_from_father ?father .}
+}
+  BIND(COALESCE(?serial_num, "-") as ?serial_num)
+  BIND(COALESCE(?father, "-") as ?father)
+}'
+  template='{{> showAttributes }}' >
+[[> showAttributesTemplate ]]
+  </semantic-query>   
+  {{/case}}
+  
+  {{#case "http://www.sealit.gr/ontology/sealit#Crew_Payment" break=true}}
+   <semantic-query query='
+SELECT DISTINCT ?subject ?first_name ?last_name ?serial_num ?service_provided_in ?recruitment_place ?discharge_place ?started_by ?ended_by ?profession ?duration ?pension_fund ?wage WHERE {
+  VALUES ?subject { <{{subject.value}}> }
+  ?subject rdf:type sealit:Crew_Payment.
+  
+  OPTIONAL { ?person sealit:has_first_name ?first_name. }
+  OPTIONAL { ?person sealit:has_last_name ?last_name. }
+
+graph ?g { #group by ?voyage
+  ?service_provided_in sealit:voyages ?voyage .
+  ?voyage crm:P14_carried_out_by ?person.
+  ?person sealit:gave_service_for ?subject;
+    sealit:had_provided ?employment.
+  
+  OPTIONAL { ?person (sealit:has_profession/rdfs:label) ?role1. }
+  OPTIONAL { ?employment (crm:P02i_is_range_of/<http://www.cidoc-crm.org/cidoc-crm/P.1a_in_the_role_of>/rdfs:label) ?role2. }
+  BIND(COALESCE(?role2, ?role1) AS ?profession)
+  OPTIONAL { ?employment sealit:started_by ?start. 
+    ?start (crm:P4_has_time-span/crm:P82_at_some_time_within) ?started_by. 
+    ?start (crm:P7_took_place_at) ?recruitment_place.
+  }
+  OPTIONAL { ?employment sealit:ended_by ?end. 
+    ?end (crm:P4_has_time-span/crm:P82_at_some_time_within) ?ended_by. 
+    ?end (crm:P7_took_place_at) ?discharge_place.
+  }
+}
+  
+  OPTIONAL {
+    ?person crm:P1_is_identified_by ?serialNumΧ.
+    ?serialNumΧ crm:P2_has_type <http://www.sealit.gr/DB/numbers/serial%20number>;
+      rdfs:label ?serial_num.
+  }
+  OPTIONAL {
+    ?subject sealit:had_money_value ?had_money1.
+    ?had_money1 sealit:P181_has_amount ?has_amountP;
+      (sealit:P180_has_currency/rdfs:label) ?has_currencyP;
+      crm:P2_has_type <http://www.sealit.gr/DB/money%20payments%20types/pension%20funds>.
+    BIND(CONCAT(STR(?has_amountP), " in ", ?has_currencyP) AS ?pension_fund)
+  }
+  OPTIONAL {
+    ?subject sealit:had_money_value ?had_money2.
+    ?had_money2 sealit:P181_has_amount ?has_amountW;
+      crm:P2_has_type <http://www.sealit.gr/DB/Wage%20types/Share>.
+    BIND(CONCAT(STR(?has_amountW), " in Share") AS ?wage)
+  }
+  OPTIONAL {
+    ?subject sealit:for_employment_period ?period.
+    OPTIONAL {
+      ?period sealit:had_duration ?durationD.
+      ?durationD sealit:value_duration ?value_durationD;
+        crm:P91_has_unit <http://www.sealit.gr/DB/Measurement%20units/days>.
+      BIND(CONCAT(STR(xsd:integer(?value_durationD)), " days ") AS ?durationDays)
+    }
+    OPTIONAL {
+      ?period sealit:had_duration ?durationM.
+      ?durationM sealit:value_duration ?value_durationM;
+        crm:P91_has_unit <http://www.sealit.gr/DB/Measurement%20units/months>.
+      BIND(CONCAT(STR(xsd:integer(?value_durationM)), " months ") AS ?durationMonths)
+    }
+    BIND(CONCAT(COALESCE(?durationDays, ""), COALESCE(?durationMonths, "")) AS ?duration)
+    }
+
+}'
+  template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>   
+  {{/case}}
+
+
+  {{#case "http://www.sealit.gr/ontology/sealit#Voyage" break=true}}
+	<semantic-query 
+          query='PREFIX crm:	<http://www.cidoc-crm.org/cidoc-crm/>
+                 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+								 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                 PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+
+SELECT DISTINCT $subject ?ship ?destination ?started_on ?ended_on ?note {
+    VALUES ?subject { <{{subject.value}}> }
+  $subject a sealit:Voyage .
+  
+  ?ship sealit:voyages $subject .
+  OPTIONAL{ $subject sealit:destination ?destination . }
+  OPTIONAL{ $subject crm:P3_has_note ?note . }
+  OPTIONAL{ $subject crm:P4_has_time-span ?timespan .
+           
+  OPTIONAL{ ?timespan crm:P82a_begin_of_the_begin ?started_onX .
+          	Bind(STRDT(STR(?started_onX), xsd:date) as ?started_on) }
+  OPTIONAL{ ?timespan crm:P82b_end_of_the_end ?ended_onX . 
+          	Bind(STRDT(STR(?ended_onX), xsd:date) as ?ended_on) }
+  
+  OPTIONAL{
+  ?timespan sealit:had_duration ?durationD . 
+  ?durationD sealit:value_duration ?value_durationD .
+  ?durationD crm:P91_has_unit <http://www.sealit.gr/DB/in%20days/days> .
+  Bind(If(xsd:decimal(?value_durationD)>0,Concat(Str(xsd:decimal(?value_durationD)), If(xsd:decimal(?value_durationD)>1," days "," day ")),"") as ?durationDays)
+  }
+  OPTIONAL{
+  ?timespan sealit:had_duration ?durationM . 
+  ?durationM sealit:value_duration ?value_durationM .
+  ?durationM crm:P91_has_unit <http://www.sealit.gr/DB/in%20days/months> .
+  Bind(If(xsd:decimal(?value_durationM)>0,Concat(Str(xsd:decimal(?value_durationM)), If(xsd:decimal(?value_durationM)>1," months "," month ")),"") as ?durationMonths)
+  }
+  Bind(Concat(Coalesce(?durationMonths,""), Coalesce(?durationDays,"")) as ?duration)
+           }
+}'
+  template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>   
+  {{/case}}
+
+
+
+  {{#case "http://www.cidoc-crm.org/cidoc-crm/E31_Document" break=true}}
+	<semantic-query 
+          query='PREFIX crm:	<http://www.cidoc-crm.org/cidoc-crm/>
+                 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+								 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                 PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>  
+  SELECT DISTINCT $subject ?title ?document_num ?date_of_release ?was_created_by ?role_of_creator ?keeper ?register_num ?document_language {
+    VALUES ?subject { <{{subject.value}}> }
+$subject a crm:E31_Document .
+    
+?record  crm:P67_refers_to $subject .
+OPTIONAL {?record (crm:P2_has_type/rdfs:label) ?recordType .}
+OPTIONAL { ?record (crm:P102_has_title/rdfs:label) ?recordTitle .}
+BIND ( COALESCE(?recordTitle, ?recordType) as ?title )
+
+$subject (crm:P128_carries/crm:P72_has_language) ?document_language .
+
+$subject crm:P1_is_identified_by ?identifierRegNum .
+?identifierRegNum  crm:P2_has_type <http://www.sealit.gr/DB/register%20numbers/register%20number>; rdfs:label ?register_num .
+
+$subject crm:P1_is_identified_by ?identifierDocNum .
+?identifierDocNum crm:P2_has_type <http://www.sealit.gr/DB/Doc%20numbers/Document%20number>; rdfs:label ?document_num .
+    
+$subject (crm:P94i_was_created_by/crm:P4_has_time-span/rdfs:label)  ?date_of_release .
+$subject (crm:P94i_was_created_by/crm:P01i_is_domain_of/crm:P02_has_range) ?was_created_by .
+$subject (crm:P94i_was_created_by/crm:P01i_is_domain_of/crm:P14.1_in_the_role_of) ?role_of_creator .
+$subject (crm:P49_has_former_or_current_keeper) ?keeper .
+    }
+'
+  template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>   
+  {{/case}}
+
+  
+  {{#case "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span" break=true}}
+     <semantic-query query='
+SELECT DISTINCT ?subject ?date_at_some_time_within
+WHERE {
+  VALUES ?subject { <{{subject.value}}> }
+?subject a crm:E52_Time-Span .
+  ?subject crm:P82_at_some_time_within ?date_at_some_time_within .}'
+  template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query> 
+  {{/case}}
+  
+  
+  
+  {{#case "http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment" break=true}}
+   <semantic-query query='  
+SELECT DISTINCT ?subject ?first_name ?last_name ?serial_num ?recruitment_place ?started_by ?discharge_place ?ended_by ?profession
+WHERE {
+  VALUES ?subject { <{{subject.value}}> }
+?subject a sealit:Ship_Crew_Employment .
+
+?person sealit:had_provided ?subject .
+OPTIONAL{?person sealit:has_first_name ?first_name .}
+OPTIONAL{?person sealit:has_last_name ?last_name .}
+OPTIONAL{?person sealit:has_profession/rdfs:label ?role1 .}
+OPTIONAL{?subject (crm:P02i_is_range_of/crm:P.1a_in_the_role_of/rdfs:label) ?role2 .}
+Bind(COALESCE(?role1, ?role2) as ?profession)
+
+OPTIONAL{?subject (sealit:started_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?started_by . }
+OPTIONAL{?subject (sealit:started_by/crm:P7_took_place_at) ?recruitment_place . }
+OPTIONAL{?subject (sealit:ended_by/crm:P4_has_time-span/crm:P82_at_some_time_within) ?ended_by . }
+OPTIONAL{?subject (sealit:ended_by/crm:P7_took_place_at) ?discharge_place . }
+
+OPTIONAL{?person (crm:P1_is_identified_by) ?serial_numX .
+?serial_numX crm:P2_has_type <http://www.sealit.gr/DB/numbers/serial%20number> .
+?serial_numX rdfs:label ?serial_num .
+}
+}'
+  template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>   
+  {{/case}} 
+  
+  
+  
+  
+  {{#default}}
+
+   <semantic-query query='  
+SELECT ?subject
+WHERE {
+  VALUES ?subject { <{{subject.value}}> }
+}
+'
+  template='{{> showAttributes }}' >
+     [[> showAttributesTemplate ]]
+  </semantic-query>   
+   
+  {{/default}}
+  {{/switch}}
+  
+
+  
+

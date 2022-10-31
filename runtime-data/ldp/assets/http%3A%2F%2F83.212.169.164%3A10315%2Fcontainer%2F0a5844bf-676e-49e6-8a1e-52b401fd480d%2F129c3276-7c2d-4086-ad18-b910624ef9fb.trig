@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/129c3276-7c2d-4086-ad18-b910624ef9fb/context> {
+  <http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/129c3276-7c2d-4086-ad18-b910624ef9fb>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/ship/937F615F-31C0-3881-9112-D82D2D494D99>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ship Guardia";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 0;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-22T09:36:42.946Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://83.212.169.164:10315/container/setContainer/0a5844bf-676e-49e6-8a1e-52b401fd480d>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/129c3276-7c2d-4086-ad18-b910624ef9fb> .
+  
+  <http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/129c3276-7c2d-4086-ad18-b910624ef9fb>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

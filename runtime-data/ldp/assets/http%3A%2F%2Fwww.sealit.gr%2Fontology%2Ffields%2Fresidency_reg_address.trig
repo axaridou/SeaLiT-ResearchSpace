@@ -1,0 +1,40 @@
+
+<http://www.sealit.gr/ontology/fields/residency_reg_address/context> {
+  <http://www.sealit.gr/ontology/fields/residency_reg_address> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-6700da7087b947f7b77169e596b6a75a-6nkel a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-6700da7087b947f7b77169e596b6a75a-q9sswr a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-6700da7087b947f7b77169e596b6a75a-6nkel <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+  $subject ^sealit:registers_person ?civil_reg .
+  ?civil_reg crm:P70i_is_documented_in ?page .
+  ?page crm:P2_has_type ?pagetype .
+VALUES ?pagetype { <http://www.sealit.gr/DB/doc%20types/page> <http://www.sealit.gr/DB/concept/page> } .
+
+  ?page crm:P70_documents ?place .
+  ?place crm:P1_is_identified_by ?house_num.
+
+  ?house_num a crm:E45_Address ; crm:P2_has_type <http://www.sealit.gr/DB/identifiers/house%20number> .
+  BIND (?place as ?value)
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/residency_reg_address> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "address"@en .
+  
+  _:genid-6700da7087b947f7b77169e596b6a75a-q9sswr <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/residency_reg_address> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-6700da7087b947f7b77169e596b6a75a-6nkel;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-6700da7087b947f7b77169e596b6a75a-q9sswr;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-25T19:29:57.769Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/residency_reg_address> .
+  
+  <http://www.sealit.gr/ontology/fields/residency_reg_address> a <http://www.w3.org/ns/ldp#Resource> .
+}

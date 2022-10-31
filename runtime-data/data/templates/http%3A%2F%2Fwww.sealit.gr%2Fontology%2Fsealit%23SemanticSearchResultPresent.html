@@ -1,0 +1,479 @@
+
+[[#if simple-view]]
+
+[[#if place]]
+<bs-tabs unmount-on-exit=true id='search-map-results' animation=false class='tabs-right' default-active-key='place1' >
+  <bs-tab event-key="place1" title="Table">
+[[/if]]
+
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-table'
+                query='
+SELECT DISTINCT ($subjectM as $subject) 
+WHERE {
+[[#if class]]$subjectX rdf:type [[class]].[[/if]]
+OPTIONAL{$subjectM owl:sameAs $subjectX; crm:P2_has_type <http://www.sealit.gr/DB/type/master>.}
+BIND(IF(BOUND(?subjectM), ?subjectM, ?subjectX) as ?subjectM)
+[[#if subject]]FILTER ($subjectM = <{{subject.value}}> || $subjectX = <{{subject.value}}>)[[else]]
+[[#if recordtype]]?record crm:P2_has_type <[[recordtype]]> ; crm:P67_refers_to|^crm:P67i_is_referred_to_by|((crm:P67_refers_to|^crm:P67i_is_referred_to_by)/sealit:gave_service_for) $subjectX.[[/if]][[/if]] 
+} GROUP BY $subjectM
+[[#if limit ]] LIMIT [[limit ]] [[/if]]
+'
+                
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                options='{"showFilter":true, "resultsPerPage":10}'
+                >
+    [[>sealit:SemanticSearchResultHolder ]]
+</semantic-table>
+    
+[[#if place]]    
+      </bs-tab>
+  <bs-tab event-key="place2" title="Map" mount-on-enter=true>
+    <semantic-map id="view-all-places-map"
+                  query='[[> sealit:queries allplaces=true place=false ]]' 
+                  tuple-template="<div>
+                                  Find about place <i>{{link.value}}</i> at:<br/>
+                                  <semantic-link uri='{{subject.value}}'>researchspace</semantic-link> <br/>
+                                  <a href='https://en.wikipedia.org/wiki/{{link.value}}' target='_blank'>en.wikipedia.org</a><br/>
+                                  <a href='https://www.google.com/search?q={{link.value}}' target='_blank'>www.google.com</a><br/>
+                                  <br/>
+                                  </div>
+                                  "
+                  no-result-template='<div>Map cannot be shown: either no locations or coordinates were found</div>'>
+    </semantic-map>
+  </bs-tab>
+</bs-tabs>
+[[/if]]
+
+
+[[else]][[!-- not simple-view --]]
+
+[[#if intro]]
+<h5 style="color: #7c795d; font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 0 0 24px; ">Select a category</h5>
+[[/if]]
+
+[[#if person]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-person'
+                query='[[>sealit:queries  person=true ]]'
+                column-configuration='[
+                                      {"variableName": "subject", "displayName": "subject"}, 
+                                      {"variableName": "first_name", "displayName": "first name"},
+                                      {"variableName": "last_name", "displayName": "last name"}, 
+                                      {"variableName": "birth_date", "displayName": "birth date"}, 
+                                      {"variableName": "profession", "displayName": "profession"}    
+                                        
+                                      [[#if more-person-attr]]
+                                      ,
+                                      {"variableName": "ship", "displayName": "ship"},
+                                      {"variableName": "embarked_in", "displayName": "embarked in"},
+                                      {"variableName": "was_discharged_in", "displayName": "was discharged in"}
+                                      [[/if]]
+                                      
+                                      ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                options='{"showFilter":true, "resultsPerPage":10}'
+
+                >
+  [[>sealit:SemanticSearchResultHolder ]]
+</semantic-table>
+[[/if]]
+
+[[#if place]]
+<bs-tabs unmount-on-exit=true id='search-map-results' animation=false class='tabs-right' default-active-key='place1' >
+  <bs-tab event-key="place1" title="Table">
+    List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+    <semantic-table id='semantic-search-result-place' query='[[> sealit:queries place=true ]]' 
+                    column-configuration='[
+                                          {"variableName": "subject", "displayName": "subject"}, 
+                                          {"variableName": "type", "displayName": "type"},
+                                          {"variableName": "coordinates", "displayName": "coordinates"}            
+                                          ]'
+                    [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                    options='{"showFilter":true, "resultsPerPage":10}'
+                    >
+    </semantic-table>       
+  </bs-tab>
+  <bs-tab event-key="place2" title="Map">
+    <semantic-map id="view-all-places-map"
+                  query='[[> sealit:queries allplaces=true place=false ]]' 
+                  tuple-template="<div>
+                                  Find about place <i>{{link.value}}</i> at:<br/>
+                                  <semantic-link uri='{{subject.value}}'>researchspace</semantic-link> <br/>
+                                  <a href='https://en.wikipedia.org/wiki/{{link.value}}' target='_blank'>en.wikipedia.org</a><br/>
+                                  <a href='https://www.google.com/search?q={{link.value}}' target='_blank'>www.google.com</a><br/>
+                                  <br/>
+                                  </div>
+                                  "
+                  no-result-template='<div>Map cannot be shown: either no locations or coordinates were found</div>'>
+    </semantic-map>
+  </bs-tab>
+</bs-tabs>
+[[/if]]
+
+[[#if organization]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-org'
+                query='[[>sealit:queries ]]'
+                column-configuration='[
+                                      {"variableName": "subject", "displayName": "subject"}, 
+                                      {"variableName": "name", "displayName": "name"},
+                                      {"variableName": "residence", "displayName": "residence"},
+                                      {"variableNameDEL": "member", "displayNameDEL": "member"}         
+                                      ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                options='{"showFilter":true, "resultsPerPage":10}'
+                >
+</semantic-table>
+[[/if]]
+
+[[#if civil_registration_table]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-cv'
+                query='[[> sealit:queries ]]'
+                column-configurationDEL='[
+                                         {"variableName": "subject", "displayName": "subject"}, 
+                                         {"variableName": "ship_type", "displayName": "ship type"},
+                                         {"variableName": "tonnage", "displayName": "tonnage"},
+                                         {"variableName": "registration_port", "displayName": "registration port"}, 
+                                         {"variableName": "reg_no", "displayName": "reg no"},
+                                         {"variableName": "construction_location", "displayName": "construction location"},
+                                         {"variableName": "construction_date", "displayName": "construction date"},
+                                         {"variableName": "owner", "displayName": "owner"}, 
+                                         {
+                                         "displayNameDEL": "seeAlso", 
+                                         "cellTemplateDEL": "{{> subquery_seeAlso_tupleTemplate }}"
+                                         }              
+                                         ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                >
+</semantic-table>
+[[/if]]
+
+[[#if ship]] 
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-ship'
+                query='[[>sealit:queries ]]'
+                column-configuration='[
+                                      {"variableName": "subject", "displayName": "subject"}, 
+                                      {"variableName": "ship_type", "displayName": "ship type"},
+                                      {"variableName": "tonnage", "displayName": "tonnage"},
+                                      {"variableName": "registration_port", "displayName": "registration port"}, 
+                                      {"variableName": "reg_no", "displayName": "reg no"},
+                                      {"variableName": "construction_location", "displayName": "construction location"},
+                                      {"variableName": "construction_date", "displayName": "construction date"},
+                                      {"variableName": "owner", "displayName": "owner"}             
+                                      ]'
+
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                >
+</semantic-table>
+[[/if]]
+
+[[#if voyage]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-voy'
+                query='[[> sealit:queries ]]'
+                column-configuration='[
+                                      {"variableName": "subject", "displayName": "subject"}, 
+                                      {"variableName": "ship", "displayName": "ship"},
+                                      {"variableNameDEL": "from_place", "displayNameDEL": "from place"},
+                                      {"variableName": "destination", "displayName": "destination"},
+                                      {"variableName": "started_on", "displayName": "started on"}, 
+                                      {"variableName": "ended_on", "displayName": "ended on"}, 
+                                      {"variableName": "duration", "displayName": "duration"}
+                                      ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                >
+</semantic-table>
+[[/if]]
+
+
+[[#if paymentIGNORE]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-pay'
+                query='[[> sealit:queries ]]'
+                column-configuration='[
+                                      {"variableName": "subject", "displayName": "subject"}, 
+                                      {"variableName": "employee", "displayName": "employee"},
+                                      {"variableName": "voyage", "displayName": "voyage"},
+                                      {"variableName": "recruitment_place", "displayName": "recruitment place"},
+                                      {"variableName": "started_by", "displayName": "started by"},
+                                      {"variableName": "discharge_place", "displayName": "discharge place"},
+                                      {"variableName": "ended_by", "displayName": "ended by"},
+                                      {"variableName": "profession", "displayName": "profession"},
+                                      {"variableName": "serial_num", "displayName": "serial num"},
+                                      {"variableName": "pension_fund", "displayName": "pension fund"},
+                                      {"variableName": "wage", "displayName": "wage"},
+                                      {"variableName": "duration", "displayName": "duration"}
+                                      ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                >
+</semantic-table>
+[[/if]]
+
+[[#if payment_FR]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-pay'
+                query='[[> sealit:queries ]]'
+                column-configuration='[
+                                      {"variableName": "subject", "displayName": "subject"}, 
+                                      {"variableName": "employee", "displayName": "employee"},
+                                      {"variableName": "voyage", "displayName": "voyage"},
+                                      {"variableName": "recruitment_place", "displayName": "recruitment place"},
+                                      {"variableName": "started_by", "displayName": "started by"},
+                                      {"variableName": "discharge_place", "displayName": "discharge place"},
+                                      {"variableName": "ended_by", "displayName": "ended by"},
+                                      {"variableName": "profession", "displayName": "profession"},
+                                      {"variableName": "serial_num", "displayName": "serial num"},
+                                      {"variableName": "monetary", "displayName": "monetary"},
+                                      {"variableName": "duration", "displayName": "duration"}
+                                      ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                >
+</semantic-table>
+[[/if]]
+
+[[#if ship_crew_employment_with_payment]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-emplop'
+                query='[[> sealit:queries ]]'
+                column-configuration='[
+                                      {"variableName": "subject", "displayName": "subject"}, 
+                                      {"variableName": "employee", "displayName": "employee"},
+                                      {"variableName": "voyage", "displayName": "voyage"},
+                                      {"variableName": "recruitment_place", "displayName": "recruitment place"},
+                                      {"variableName": "started_by", "displayName": "started by"},
+                                      {"variableName": "discharge_place", "displayName": "discharge place"},
+                                      {"variableName": "ended_by", "displayName": "ended by"},
+                                      {"variableName": "profession", "displayName": "profession"},
+                                      {"variableName": "serial_num", "displayName": "serial num"},
+                                      {"variableName": "pension_fund", "displayName": "pension fund"},
+                                      {"variableName": "wage", "displayName": "wage"},
+                                      {"variableName": "duration", "displayName": "duration"}
+                                      ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                >
+</semantic-table>
+[[/if]]
+
+[[#if ship_crew_employment]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-empl'
+                query='[[> sealit:queries ]]'
+                column-configuration='[
+                                      {"variableName": "subject", "displayName": "subject"}, 
+                                      {"variableName": "employee", "displayName": "employee"},
+                                      {"variableName": "voyage", "displayName": "voyage"},
+                                      {"variableName": "recruitment_place", "displayName": "recruitment place"},
+                                      {"variableName": "started_by", "displayName": "started by"},
+                                      {"variableName": "discharge_place", "displayName": "discharge place"},
+                                      {"variableName": "ended_by", "displayName": "ended by"},
+                                      {"variableName": "profession", "displayName": "profession"},
+                                      {"variableName": "serial_num", "displayName": "serial num"}
+                                      ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                >
+</semantic-table>
+[[/if]]
+
+[[#if profession]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-person'
+                query='[[>sealit:queries  profession=true ]]'
+                column-configuration='[
+                                      {"variableName": "subject", "displayName": "subject"} 
+                                      [[#if show_person_count]], {"variableName": "person_count", "displayName": "person count"}[[/if]]
+                                      ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                options='{"showFilter":true, "resultsPerPage":10}'
+
+                >
+</semantic-table>
+[[/if]]
+
+[[#if course]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table id='semantic-search-result-course'
+                query='[[> sealit:queries ]]'
+                column-configuration='[
+                                      {"variableName": "subject", "displayName": "subject"}, 
+                                      {"variableName": "title", "displayName": "title"},
+                                      {"variableName": "students_count", "displayName": "students count"},
+                                      {"variableName": "semester", "displayName": "semester"}, 
+                                      {"variableName": "begin_year", "displayName": "begin year"}, 
+                                      {"variableName": "end_year", "displayName": "end year"},
+                                      {"variableName": "section", "displayName": "section"},
+                                      {"variableName": "has_subjects", "displayName": "has subjects"}
+                                      ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                options='{"showFilter":true, "resultsPerPage":10}'
+                >
+</semantic-table>
+[[/if]]
+
+[[#if record]]
+List of [[#if limit]][[limit]][[/if]] [[#if classlabel]][[classlabel]][[/if]]
+<semantic-table query='[[> sealit:queries ]]'
+ column-configuration='[
+                       {"variableName": "subject", "displayName": "subject"}, 
+                       {"variableName": "template", "displayName": "template"},
+                       {"variableName": "document_num", "displayName": "document num"}, 
+                       {"variableName": "was_created_by", "displayName": "was created by"},
+                       {"variableName": "role_of_creator", "displayName": "role of creator"},
+                       {"variableName": "keeper", "displayName": "keeper"}, 
+                       {"variableName": "register_num", "displayName": "register num"},
+                       {"variableName": "document_language", "displayName": "document language"},
+                       {
+                       "displayNameDEL": "seeAlso", 
+                       "cellTemplateDEL": "{{> seeAlso_tupleTemplate }}"
+                       }
+                       ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+                >
+</semantic-table>
+[[/if]]
+
+[[#if template]]
+List of [[classlabel]]
+<semantic-table 
+          query='[[> sealit:queries ]]'
+  				column-configuration='[
+                       {"variableName": "subject", "displayName": "subject"}, 
+                       {"variableName": "description", "displayName": "description"},
+                       {
+                       "displayNameDEL": "template", 
+                       "cellTemplateDEL": "{{> template_tupleTemplate }}"
+                       }              
+  ]'
+                [[#if link-params]]link-params='[[link-params]]'[[/if]]
+  >
+  <template id="template_tupleTemplate">[[> subquery_template ]]</template>
+  </semantic-table>
+ [[/if]]
+
+[[!--
+[[#if class1="http://www.sealit.gr/ontology/FC/Record"]]
+[[/if]]
+--]]
+
+[[/if]]
+
+
+
+
+
+
+[[!-- next code is OBSOLETE and only for backup --]]
+[[#*inline 'createTable_bindings']]
+<template id="showAttributes">
+
+  <table class="table" >
+
+    {{#each bindings as |tuple|}}
+    {{!-- log "new row with tuple " tuple --}}
+    {{#ifCond @index "==" 0 }}
+    <tr class="standard-row" >{{#each tuple}}<th>{{@key}}</th>{{/each}}</tr> 
+    {{/ifCond}}
+
+    <tr class="standard-row" > 
+
+      {{#each tuple as |item| }}
+      <td>
+
+        {{#if (isIri item) }}
+        <semantic-link iri='{{value}}'  urlqueryparam-tab='crew_list_ruoli'>{{label}}</semantic-link>
+        {{else}}
+        [[!--  <mp-text-truncate style="font-weight: 200; padding: 5px; overflow: hidden; text-overflow: ellipsis;" lines='3' expand='<span>...<a>read more</a></span>' collapse='<span>(<a>show less</a>)</span>'>{{value}}</mp-text-truncate> --]]
+        <mp-text style="font-weight: 200; padding: 5px; overflow: hidden; text-overflow: ellipsis;">{{value}}</mp-text>
+        {{/if}}
+        <br/>
+
+      </td>
+      {{/each}}
+
+    </tr> 
+    {{/each}}
+  </table>
+</template>
+[[/inline]]
+
+
+
+[[#*inline 'create_link_iterate_bindings']]
+<div>
+  [[#if enlist ]]
+  <ul>
+    {{#each bindings}}
+    <li><a href='{{{[[var]].value}}}' target="[[target]]">[[label]]</a></li>
+    {{/each}}
+  </ul>
+  [[else]]
+  {{#each bindings}}
+  <a href='{{{[[var]].value}}}' target="[[target]]">[[label]]</a>&nbsp
+  {{/each}}
+  [[/if]]
+</div>
+[[/inline]]
+
+[[#*inline 'create_semanticlink_iterate_bindings']]
+<div>
+  [[#if enlist ]]
+  <ul>
+    {{#each bindings}}
+    <li><semantic-link uri='{{{[[var]].value}}}'></semantic-link></li>
+    {{/each}}
+  </ul>
+  [[else]]
+  {{#each bindings}}
+  <semantic-link uri='{{{[[var]].value}}}'></semantic-link>&nbsp
+  {{/each}}
+  [[/if]]
+</div>
+[[/inline]]
+
+[[#*inline 'subquery_seeAlso']]
+{{#if subject.value}} 
+<semantic-query query='SELECT ?seeAlso WHERE {
+  { <{{subject.value}}> (crm:P67i_is_referred_to_by/rdfs:seeAlso) ?seeAlso  }
+  UNION 
+  { <{{subject.value}}> (owl:sameAs/crm:P67i_is_referred_to_by/rdfs:seeAlso) ?seeAlso  }
+}
+'
+                template='{{> create_seeAlso_links }}'
+                ><template id="create_seeAlso_links">[[> create_link_iterate_bindings var="seeAlso" target="fastcat" label="fastcat-link" ]]</template></semantic-query>
+{{/if}}
+[[/inline]]
+
+[[#*inline 'subquery_father']]
+{{#if subject.value}} 
+<semantic-query query='SELECT ?father ?label WHERE {
+  { <{{subject.value}}> (crm:P98i_was_born/crm:P97_from_father) ?father . ?father rdfs:label ?flabel}
+  UNION 
+  { <{{subject.value}}> (owl:sameAs/crm:P98i_was_born/crm:P97_from_father) ?father . }
+}
+'
+                template='{{> create_father_links }}'
+                ><template id="create_father_links">[[> create_semanticlink_iterate_bindings var="father"]]</template></semantic-query>
+{{/if}}
+[[/inline]]
+
+[[#*inline 'subquery_template']]
+{{#if subject.value}}
+<div> limit 50
+  <semantic-query query='SELECT DISTINCT  ?template
+{
+  ?template a crm:E73_Information_Object .
+  ?template (crm:P1_is_identified_by/crm:P2_has_type) <http://www.sealit.gr/DB/id%20types/record%20id> .
+  ?template crm:P2_has_type <{{subject.value}}> .
+  MINUS {?template crm:P2_has_type <http://www.sealit.gr/DB/doc%20types/record%20information> }
+} limit 50
+'
+                  template='{{> create_template_links }}'
+                  link-params='{"tab":"Records"}'
+                  >
+    <template id="create_template_links">[[> create_semanticlink_iterate_bindings var="template" ]]</template>
+  </semantic-query>
+</div>
+{{/if}}
+[[/inline]]

@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/queryContainer/regnum_1249/context> {
+  <http://83.212.169.164:10315/container/queryContainer/regnum_1249> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "regnum 1249";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE { ?subject <http://www.sealit.gr/ontology/FR/has_registration_number> <http://www.sealit.gr/DB/Ship/1249>. }
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KidYkAKkgB5ZkgNEAHnxYsRSAHpJAdzkA6MKkxZ5AczqS4AOyxw0cNQE9JAMQBKk-CjAB9BmoxgsdFFgw7b2gK4BbAEZIdAB8-DA01CDmSGBw3nQUjKSgGHQYTCAcrPwAahlYQb4cRkSMkCAAcii+SDAVcDBJIABu6N5lIKLiUrIKSujY6poAIgBCkgTEkgCMAEwALACcIAC+K+RoKIFoiHNLYTEUaUTuOrsLy+RY3kRoZaBg3mpqMafaGVnldLn5hcWliCqNTqDSarTQ7UQXQk0jkMkUykGGkkYwmhCIMwuq3WIE22w+iD45Dy0BABToRRKHQAMtgguh+ODIeU9pcQDA3G4qQSvj9SeTKQDykDavVGoy2h1oT04fIZABmeRwOhqSSzAAM6umkgAGgBZam4Cj4JC+FAAYmcaW0amxGxQNu8KBeiGxawAuu6cd5tBgAI7tACS4Ug6pWXvIADMaF6gA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-11-05T07:38:42.299Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/regnum_1249> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/regnum_1249> a <http://www.w3.org/ns/ldp#Resource> .
+}

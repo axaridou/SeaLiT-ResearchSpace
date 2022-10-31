@@ -1,0 +1,115 @@
+[[> sealit:Page_breadcrumb ]]
+
+<style>
+  #record-tabs .tab-ontodia {
+    margin: 0px;
+    padding: 2px 0px 0px;
+    width: 100%;
+    height: calc(100vh - 300px);
+  }
+  
+  .placelabel { color: green; font: italic bold 18px/30px Georgia, serif;}
+  .info { display: block;  color: orange; font: italic small-caps bold 16px/30px Georgia, serif;}
+  .about { display: block;  font: 12px/20px}
+</style>
+
+<div class="page">
+
+  [[> Platform:DefaultResourceHeader ]]
+
+ 
+  <bs-tabs id='record-tabs' class='page__body-navtabs--borderless' default-active-key='summary' unmount-on-exit=true>
+
+        <bs-tab event-key='summary' title='Summary'>
+      <div data-flex-layout='row top-stretch'>
+   
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+           
+             
+  <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions 
+http://www.sealit.gr/ontology/fields/has_voyage_number = "http://www.sealit.gr/ontology/fields/has_voyage_number" 
+http://www.sealit.gr/ontology/fields/is_voyage_of	=	"http://www.sealit.gr/ontology/fields/is_voyage_of"
+http://www.sealit.gr/ontology/fields/has_timespan = "http://www.sealit.gr/ontology/fields/has_timespan"
+http://www.sealit.gr/ontology/fields/had_captain = "http://www.sealit.gr/ontology/fields/had_captain" 
+http://www.sealit.gr/ontology/fields/voyage_was_signed_by = "http://www.sealit.gr/ontology/fields/voyage_was_signed_by"
+http://www.sealit.gr/ontology/fields/has_destination	=	"http://www.sealit.gr/ontology/fields/has_destination"
+http://www.sealit.gr/ontology/fields/has_cargo = "http://www.sealit.gr/ontology/fields/has_cargo"
+http://www.sealit.gr/ontology/fields/has_overall_total_payment = "http://www.sealit.gr/ontology/fields/has_overall_total_payment"
+
+http://www.sealit.gr/ontology/fields/total_crew_number = "http://www.sealit.gr/ontology/fields/total_crew_number"
+http://www.sealit.gr/ontology/fields/had_crew	=	"http://www.sealit.gr/ontology/fields/had_crew"
+http://www.sealit.gr/ontology/fields/referred_to_by = "http://www.sealit.gr/ontology/fields/referred_to_by"
+
+http://www.sealit.gr/ontology/fields/related_to_observation = "http://www.sealit.gr/ontology/fields/related_to_observation"
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+ 
+            </table>
+          </div>
+        
+      </div>
+    </bs-tab>
+    
+    <bs-tab event-key='services' title='Route'>
+			         <semantic-map id="view-voyage-places-map"
+          query='[[> sealit:queries voyage_route=true ]]' 
+                    tuple-template="<div>
+                                    <span class='placelabel'>{{placeLabel.value}}</span>
+                                    <br/>
+                                    <span class='info'>{{info.value}}</span>
+                                    <br/>
+                                    <div class='about'>Find about place <i>{{link.value}}</i> at:<br/>
+                           <semantic-link uri='{{subject.value}}'>researchspace</semantic-link> <br/>
+                           <a href='https://en.wikipedia.org/wiki/{{link.value}}' target='_blank'>en.wikipedia.org</a><br/>
+                           <a href='https://www.google.com/search?q={{link.value}}' target='_blank'>www.google.com</a><br/>
+                                    </div>
+                                    <br/>
+                                    </div>
+                                         "
+           no-result-template='<div>Map cannot be shown: either no locations or coordinates were found</div>'>
+        </semantic-map>
+      
+      <div data-flex-layout='row top-stretch'>
+
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+           
+             
+  <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions 
+http://www.sealit.gr/ontology/fields/has_destination	=	"http://www.sealit.gr/ontology/fields/has_destination"
+http://www.sealit.gr/ontology/fields/has_route = "http://www.sealit.gr/ontology/fields/has_route"
+http://www.sealit.gr/ontology/fields/had_passengers = "http://www.sealit.gr/ontology/fields/had_passengers"
+
+
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+           
+
+            </table>
+          </div>
+      </div>
+    </bs-tab>
+    
+[[!-- > sealit:DefaultTabs --]]
+    
+    </bs-tabs>
+</div>

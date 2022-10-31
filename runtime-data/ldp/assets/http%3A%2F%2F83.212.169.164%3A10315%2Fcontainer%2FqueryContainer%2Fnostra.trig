@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/queryContainer/nostra/context> {
+  <http://83.212.169.164:10315/container/queryContainer/nostra> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "nostra";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE { ?subject <http://www.sealit.gr/ontology/FR/has_nameShip> <http://www.sealit.gr/DB/Ship%20name/Nostra%20Signora%20del%20Rosario>. }
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KidYkAKkgB5ZkgNEAHnxYsRSAHpJAdzkA6MKkxZ5AczqS4AOyxw0cNQE9JAMQBKk-CjAB9bSgC2SAsQB8-GDWohzSMHAArnQUjKSgGHQYTCAcrPwAajFYSHSOHEZEjJAgAHJOSDC5cDBhIABu6IHZIKLiUrIKSujY6poAIgBCkq5EAKQATAAMDs6SxWBYdCiDQ7gYatpw07OlaLPmcGAoUQgAvnvkaCgARkhoiBNTKAAE84vLt2s3m9u7nv4UUURYGDqXW2udwWS2mN2erx2f34WECRDQ2VAYECajU-l+-2gsXi5CSWJSaQyWUuBSKJTKlTQ1UQdQk0jkMkUylaGkkXR6hH6w1GSHGgJWw3uoJmwzWGy2UP2hxAxzOFyxcRyfFxyVS6UyNQAMthUuh+JTqTkrmChY9wecXhL3uQYCgsHaNTFFQJEqrCY6jaTiqV9VUarSGgz5DIAMzyZZqSTDIYARkkAA0ALKa3AUfBIRwoADEkyi2jUIAORxQ+cCKDRiELBz2AF0a9LAtoMABHaoASS8kCGtelADMaPWgA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-11-05T07:02:57.356Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/nostra> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/nostra> a <http://www.w3.org/ns/ldp#Resource> .
+}

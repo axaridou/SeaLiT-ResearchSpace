@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/had_a_work_permit_at_port_of_exit/context> {
+  <http://www.sealit.gr/ontology/fields/had_a_work_permit_at_port_of_exit> <http://www.metaphacts.com/ontology/fields#range>
+      <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+    a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-92488a597c464c02b6f808121671aacc-9s0u1c <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person .
+$subject sealit:formerly_or_currently_possesses ?license . 
+?license sealit:is_initialized_by/crm:P2_has_type <http://www.sealit.gr/DB/activity%20types/exit> .
+?license sealit:is_initialized_by/crm:P7_took_place_at ?value .
+}""" .
+  
+  _:genid-92488a597c464c02b6f808121671aacc-vhvtas a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/had_a_work_permit_at_port_of_exit> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-92488a597c464c02b6f808121671aacc-9s0u1c;
+    <http://www.w3.org/2000/01/rdf-schema#label> "had a work permit at port of exit"@en .
+  
+  _:genid-92488a597c464c02b6f808121671aacc-9s0u1c a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-92488a597c464c02b6f808121671aacc-vhvtas <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/had_a_work_permit_at_port_of_exit> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-92488a597c464c02b6f808121671aacc-vhvtas;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-28T09:38:00.754Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/had_a_work_permit_at_port_of_exit> .
+  
+  <http://www.sealit.gr/ontology/fields/had_a_work_permit_at_port_of_exit> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,34 @@
+
+<http://www.sealit.gr/ontology/fields/paying_exempt_scholarship/context> {
+  _:genid-a03623ed057441f09df321320f6bdbb7-sxixqc a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/paying_exempt_scholarship> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E55_Type>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-a03623ed057441f09df321320f6bdbb7-dpqxa .
+  
+  _:genid-a03623ed057441f09df321320f6bdbb7-dpqxa <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person . 
+$subject crm:P01i_is_domain_of/crm:P.2_status_of_participation ?value .
+?value a crm:E55_Type .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/paying_exempt_scholarship> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-a03623ed057441f09df321320f6bdbb7-dpqxa a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-a03623ed057441f09df321320f6bdbb7-sxixqc <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/paying_exempt_scholarship> <http://www.w3.org/2000/01/rdf-schema#label>
+      "paying exempt scholarship"@en;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-a03623ed057441f09df321320f6bdbb7-sxixqc;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-29T19:14:26.641Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/paying_exempt_scholarship> .
+  
+  <http://www.sealit.gr/ontology/fields/paying_exempt_scholarship> a <http://www.w3.org/ns/ldp#Resource> .
+}

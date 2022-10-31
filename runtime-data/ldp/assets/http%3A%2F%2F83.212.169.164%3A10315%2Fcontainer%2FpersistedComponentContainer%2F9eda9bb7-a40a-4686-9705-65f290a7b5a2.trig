@@ -1,0 +1,97 @@
+
+<http://83.212.169.164:10315/container/persistedComponentContainer/9eda9bb7-a40a-4686-9705-65f290a7b5a2/context> {
+  _:genid-3ed76859396240199a66a2311502f014-yacht <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>
+      _:genid-3ed76859396240199a66a2311502f014-ximgjj .
+  
+  _:genid-3ed76859396240199a66a2311502f014-7nblfn <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps>
+      _:genid-3ed76859396240199a66a2311502f014-qchtw .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/9eda9bb7-a40a-4686-9705-65f290a7b5a2>
+    <http://www.metaphacts.com/ontologies/persist/componentProps> _:genid-3ed76859396240199a66a2311502f014-egdtb;
+    <http://www.metaphacts.com/ontologies/persist/componentType> <http://www.metaphacts.com/ontologies/persist/components/semantic-chart>;
+    a <http://www.metaphacts.com/ontologies/persist/PersistedComponent> .
+  
+  _:genid-3ed76859396240199a66a2311502f014-ximgjj <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/value>
+      "count" .
+  
+  _:genid-3ed76859396240199a66a2311502f014-egdtb <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/queryolder>
+      """                                           
+                                                    SELECT  ?object ?label (COUNT(DISTINCT ?subject) as ?count) WHERE {
+                                                       OPTIONAL { ?subject ?__contextRelation__ ?object }
+                                                       MINUS {?master owl:sameAs ?object .}
+                                                       OPTIONAL { ?object rdfs:label ?label }
+                                                       BIND(IF(BOUND(?object), ?object, \"Unknown\") as ?object)
+                                                     } GROUP BY ?object ?label ORDER BY ?object DESC(?count)
+                                                     """;
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/query> """PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rso: <http://www.researchspace.org/ontology/>
+SELECT ?object ?label (COUNT(DISTINCT ?subject) AS ?count) WHERE {
+  { ?subject <http://www.sealit.gr/ontology/FR/has_ship_type_Ship2Concept> <http://www.sealit.gr/DB/Concept/polacca>. }
+  UNION
+  {
+    ?subject <http://www.sealit.gr/ontology/FR/has_ship_type_Ship2Concept> ?x_be493491_570f_4390_8a16_4f5c9ae37d54.
+    ?x_be493491_570f_4390_8a16_4f5c9ae37d54 ((owl:sameAs*)|(rso:Concept_has_broader_Concept*)) <http://www.sealit.gr/DB/Concept/polacca>.
+  }
+  UNION
+  {
+    ?subject <http://www.sealit.gr/ontology/FR/has_ship_type_Ship2Concept> ?x_be493491_570f_4390_8a16_4f5c9ae37d54.
+    <http://www.sealit.gr/DB/Concept/polacca> ((owl:sameAs*)|^(rso:Concept_has_broader_Concept*)) ?x_be493491_570f_4390_8a16_4f5c9ae37d54.
+  }
+  OPTIONAL {
+    {
+      ?subject <http://www.sealit.gr/ontology/FR/has_ammunition_Ship2Concept> ?object.
+      OPTIONAL { ?object rdfs:label ?label. }
+    }
+    UNION
+    {
+      ?subject <http://www.sealit.gr/ontology/FR/has_ammunition_Ship2Concept> ?object.
+      FILTER(!EXISTS { ?object rdfs:label ?label. })
+    }
+  }
+  BIND(IF(BOUND(?object), ?object, \"Unknown\") AS ?object)
+}
+GROUP BY ?object ?label
+ORDER BY (?object) DESC (?count)
+LIMIT 50000""" .
+  
+  _:genid-3ed76859396240199a66a2311502f014-iqtzrb <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/repository>
+      "default" .
+  
+  _:genid-3ed76859396240199a66a2311502f014-ximgjj <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/category>
+      "object" .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/9eda9bb7-a40a-4686-9705-65f290a7b5a2>
+    <http://www.w3.org/2000/01/rdf-schema#label> "del" .
+  
+  _:genid-3ed76859396240199a66a2311502f014-iqtzrb <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/isDefault>
+      true .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/9eda9bb7-a40a-4686-9705-65f290a7b5a2>
+    <http://www.metaphacts.com/ontologies/persist/componentContext> _:genid-3ed76859396240199a66a2311502f014-7nblfn .
+  
+  _:genid-3ed76859396240199a66a2311502f014-7nblfn <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext>
+      _:genid-3ed76859396240199a66a2311502f014-iqtzrb .
+  
+  _:genid-3ed76859396240199a66a2311502f014-yacht <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+  
+  _:genid-3ed76859396240199a66a2311502f014-egdtb <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets>
+      _:genid-3ed76859396240199a66a2311502f014-yacht;
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/type> "bar";
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/id> "search-result-chart" .
+  
+  _:genid-3ed76859396240199a66a2311502f014-qchtw <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps/partials>
+      _:genid-3ed76859396240199a66a2311502f014-5p0i6 .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/9eda9bb7-a40a-4686-9705-65f290a7b5a2>
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-12-09T07:09:10.385Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#persistedComponentContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/persistedComponentContainer/9eda9bb7-a40a-4686-9705-65f290a7b5a2> .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/9eda9bb7-a40a-4686-9705-65f290a7b5a2>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

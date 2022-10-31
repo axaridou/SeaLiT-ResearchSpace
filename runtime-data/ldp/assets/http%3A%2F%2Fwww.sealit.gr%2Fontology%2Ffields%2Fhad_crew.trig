@@ -1,0 +1,59 @@
+
+<http://www.sealit.gr/ontology/fields/had_crew/context> {
+  _:genid-f0df292603b84a4ab58acf86e32ab943-bd5cak <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/had_crew> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Voyage>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-f0df292603b84a4ab58acf86e32ab943-bd5cak;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Ship>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "had crew"@en .
+  
+  _:genid-f0df292603b84a4ab58acf86e32ab943-bd5cak a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/had_crew> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-f0df292603b84a4ab58acf86e32ab943-d0mzdr .
+  
+  _:genid-f0df292603b84a4ab58acf86e32ab943-d0mzdr a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value (SAMPLE(?label) as ?label) {
+  GRAPH ?g { #group by ?voyage
+  {$subject (sealit:voyages/crm:P14_carried_out_by) ?person .
+  } UNION { 
+  $subject (crm:P14_carried_out_by) ?person .
+  } UNION {
+  ?person sealit:provided/crm:P8_took_place_on_or_within $subject .   
+  }
+?person rdfs:label ?personname.
+?person a crm:E21_Person .
+?master owl:sameAs ?person; 
+            crm:P2_has_type <http://www.sealit.gr/DB/type/master>.
+BIND (?master as ?value)
+OPTIONAL {  
+?person sealit:had_provided ?employment .          
+OPTIONAL{
+?employment sealit:started_by ?embarkation .
+?embarkation (crm:P4_has_time-span/crm:P82_at_some_time_within) ?date .
+?embarkation (crm:P7_took_place_at/rdfs:label) ?place .
+Bind( Concat(\", embarked at \", Concat(Ucase(Substr(?place,1,1)), Substr(?place,2)), \" on \", Str(?date)) as ?embarkationLabel)
+}
+OPTIONAL{            
+?employment sealit:ended_by ?disembarkation .
+?disembarkation (crm:P4_has_time-span/crm:P82_at_some_time_within) ?date2 .
+?disembarkation (crm:P7_took_place_at/rdfs:label) ?place2 .
+            Bind( Concat(\", discharged at \", Concat(Ucase(Substr(?place2,1,1)), Substr(?place2,2)), \" on \", Str(?date2)) as ?disembarkationLabel)
+} 
+Bind( Concat(?personname, COALESCE(?embarkationLabel, \" \"), COALESCE(?disembarkationLabel, \" \")) as ?labelDetails)
+}
+Bind( COALESCE(?labelDetails, ?personname) as ?label)
+    }
+}  GROUP BY ?value ORDER BY ?personname""" .
+  
+  <http://www.sealit.gr/ontology/fields/had_crew> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-01T15:30:51.294Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/had_crew> .
+  
+  <http://www.sealit.gr/ontology/fields/had_crew> a <http://www.w3.org/ns/ldp#Resource> .
+}

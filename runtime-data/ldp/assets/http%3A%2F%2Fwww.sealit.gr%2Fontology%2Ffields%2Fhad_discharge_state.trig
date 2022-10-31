@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/had_discharge_state/context> {
+  <http://www.sealit.gr/ontology/fields/had_discharge_state> <http://www.w3.org/2000/01/rdf-schema#label>
+      "had discharge state"@en;
+    a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+  
+  _:genid-1c8e866957aa4c93acc58585a04316f2-1q6t0v a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person .
+$subject sealit:had_provided ?empl .
+?empl sealit:ended_by/crm:P2_has_type ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/had_discharge_state> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-1c8e866957aa4c93acc58585a04316f2-svnfx <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/had_discharge_state> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-1c8e866957aa4c93acc58585a04316f2-1q6t0v;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-1c8e866957aa4c93acc58585a04316f2-svnfx .
+  
+  _:genid-1c8e866957aa4c93acc58585a04316f2-svnfx a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/had_discharge_state> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-28T08:34:09.892Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/had_discharge_state> .
+  
+  <http://www.sealit.gr/ontology/fields/had_discharge_state> a <http://www.w3.org/ns/ldp#Resource> .
+}

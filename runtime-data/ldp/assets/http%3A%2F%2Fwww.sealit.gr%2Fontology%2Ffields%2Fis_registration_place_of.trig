@@ -1,0 +1,31 @@
+
+<http://www.sealit.gr/ontology/fields/is_registration_place_of/context> {
+  <http://www.sealit.gr/ontology/fields/is_registration_place_of> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.sealit.gr/ontology/sealit#Ship>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+  
+  _:genid-bcd73c5594ee4ae8bf337b1065f8d356-r050o8g <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value { 
+$subject ^(sealit:is_registered_by/crm:P7_took_place_at) ?value .
+}""" .
+  
+  _:genid-bcd73c5594ee4ae8bf337b1065f8d356-awl5d <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/is_registration_place_of> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-bcd73c5594ee4ae8bf337b1065f8d356-r050o8g;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-bcd73c5594ee4ae8bf337b1065f8d356-awl5d .
+  
+  _:genid-bcd73c5594ee4ae8bf337b1065f8d356-r050o8g a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-bcd73c5594ee4ae8bf337b1065f8d356-awl5d a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/is_registration_place_of> <http://www.w3.org/2000/01/rdf-schema#label>
+      "is registration place of"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-30T18:09:13.089Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/is_registration_place_of> .
+  
+  <http://www.sealit.gr/ontology/fields/is_registration_place_of> a <http://www.w3.org/ns/ldp#Resource> .
+}

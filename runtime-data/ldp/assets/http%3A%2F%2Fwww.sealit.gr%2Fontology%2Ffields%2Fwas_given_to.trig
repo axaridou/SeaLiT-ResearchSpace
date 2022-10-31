@@ -1,0 +1,45 @@
+
+<http://www.sealit.gr/ontology/fields/was_given_to/context> {
+  <http://www.sealit.gr/ontology/fields/was_given_to> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-065dcf48f18d4d71b7483f8cfd393207-3ttu9 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/was_given_to> <http://www.w3.org/2000/01/rdf-schema#label>
+      "was given to"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-065dcf48f18d4d71b7483f8cfd393207-rjy12 .
+  
+  _:genid-065dcf48f18d4d71b7483f8cfd393207-3ttu9 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  _:genid-065dcf48f18d4d71b7483f8cfd393207-rjy12 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/was_given_to> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Crew_Payment>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-065dcf48f18d4d71b7483f8cfd393207-3ttu9 .
+  
+  _:genid-065dcf48f18d4d71b7483f8cfd393207-rjy12 <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label { 
+BIND ( $subject as ?payment)
+?payment a sealit:Crew_Payment . 
+?person a crm:E21_Person .
+{
+?person sealit:had_provided ?employment .
+?payment sealit:for_service ?employment .
+?employment a sealit:Ship_Crew_Employment .
+} UNION {
+?person sealit:gave_service_for ?payment .
+} UNION {
+?person sealit:gave_service_for/crm:P9_consists_of ?payment .
+}
+
+BIND ( ?person as ?value )
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/was_given_to> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-29T18:33:09.212Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/was_given_to> .
+  
+  <http://www.sealit.gr/ontology/fields/was_given_to> a <http://www.w3.org/ns/ldp#Resource> .
+}

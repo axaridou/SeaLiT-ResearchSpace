@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/participates_in_a_sale_in/context> {
+  <http://www.sealit.gr/ontology/fields/participates_in_a_sale_in> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-c7295add22914e0bacac11ec0e96c0a1-9ow9ss <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/participates_in_a_sale_in> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-c7295add22914e0bacac11ec0e96c0a1-9ow9ss;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-c7295add22914e0bacac11ec0e96c0a1-vr3nuf <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person .
+$subject ^crm:P11_had_participant ?sale .
+?sale crm:P2_has_type <http://www.sealit.gr/DB/event%20types/sale> .
+?sale crm:P4_has_time-span/crm:P82_at_some_time_within ?value .
+}""" .
+  
+  _:genid-c7295add22914e0bacac11ec0e96c0a1-9ow9ss a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/participates_in_a_sale_in> <http://www.w3.org/2000/01/rdf-schema#label>
+      "participates in a sale in"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-c7295add22914e0bacac11ec0e96c0a1-vr3nuf;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#date> .
+  
+  _:genid-c7295add22914e0bacac11ec0e96c0a1-vr3nuf a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/participates_in_a_sale_in> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-25T21:29:54.737Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/participates_in_a_sale_in> .
+  
+  <http://www.sealit.gr/ontology/fields/participates_in_a_sale_in> a <http://www.w3.org/ns/ldp#Resource> .
+}

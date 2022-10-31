@@ -1,0 +1,32 @@
+
+<http://www.sealit.gr/ontology/fields/date_of_death/context> {
+  <http://www.sealit.gr/ontology/fields/date_of_death> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-34e71b8ba60a41a2bf4683f5d0c4be9d-82ng4e a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/date_of_death> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "died in/on"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-34e71b8ba60a41a2bf4683f5d0c4be9d-fikez .
+  
+  _:genid-34e71b8ba60a41a2bf4683f5d0c4be9d-fikez <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+  $subject (crm:P100i_died_in/crm:P4_has_time-span/crm:P82_at_some_time_within) ?value .
+}""" .
+  
+  _:genid-34e71b8ba60a41a2bf4683f5d0c4be9d-82ng4e <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/date_of_death> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-34e71b8ba60a41a2bf4683f5d0c4be9d-82ng4e .
+  
+  _:genid-34e71b8ba60a41a2bf4683f5d0c4be9d-fikez a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/date_of_death> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-24T15:21:55.160Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/date_of_death> .
+  
+  <http://www.sealit.gr/ontology/fields/date_of_death> a <http://www.w3.org/ns/ldp#Resource> .
+}

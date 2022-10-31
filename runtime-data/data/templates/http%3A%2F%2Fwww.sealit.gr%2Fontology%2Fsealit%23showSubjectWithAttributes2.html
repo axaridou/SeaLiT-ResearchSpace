@@ -1,0 +1,54 @@
+[[!-- input parameters: subject, subjtype --]]
+
+<div>
+  [[#*inline "showAttributesTemplate"]]
+  <template id="showAttributes">
+  <div data-flex-layout='column top-left'>
+    <table width="100%">
+      <tr>{{#each bindings as |bind|}}{{#each bind}}<th>{{@key}}</th>{{/each}}{{/each}}</tr>
+      <tr>{{#each bindings as |bind|}}{{#each bind}}<td>{{value}}</td>{{/each}}{{/each}}</tr>
+    </table>
+  </div>
+  </template>
+  [[/inline]]
+
+  {{#switch subjtype.value}}
+  {{#case "http://www.sealit.gr/ontology/sealit#Ship" break=true}}
+  SHIP 
+  <table width="100%">
+    {{owner.value}}  {{ship_type.value}}
+   
+    </table>
+   
+  
+  {{/case}}
+  
+  {{#case "http://www.cidoc-crm.org/cidoc-crm/E21_Person" break=true}}
+  
+    <table width="100%">
+
+       
+      <tr><td> {{first_name}}</td><td> {{last_name}}</td></tr>
+      
+  
+    </table>
+   
+  
+  {{/case}} 
+  
+  
+  
+  
+  {{#default}}
+  <div data-flex-layout='column top-left'>
+    <table width="100%">
+      <tr><th>subject</th></tr>
+      <tr><td><semantic-link uri='{{subject.value}}'></semantic-link></td></tr>
+    </table>
+  </div>
+  {{/default}}
+  {{/switch}}
+  
+
+  
+     </div>

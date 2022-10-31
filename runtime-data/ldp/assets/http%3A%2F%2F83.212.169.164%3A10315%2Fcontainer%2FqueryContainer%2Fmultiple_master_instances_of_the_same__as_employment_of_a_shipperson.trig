@@ -1,0 +1,23 @@
+
+<http://83.212.169.164:10315/container/queryContainer/multiple_master_instances_of_the_same__as_employment_of_a_shipperson/context> {
+  <http://83.212.169.164:10315/container/queryContainer/multiple_master_instances_of_the_same__as_employment_of_a_shipperson>
+    a <http://spinrdf.org/sp#Query>, <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "multiple master instances of the same  as employment of a shipperson ";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE {
+  ?subject <http://www.sealit.gr/ontology/FR/provided_for_employment_at_shipPay> <http://www.sealit.gr/DB/ship/5C9F28CB-B55F-3979-A30C-EFDB2E7E1929>.
+  ?subject <http://www.sealit.gr/ontology/FR/has_monetary_amountPay> ?literal_1b45934e_6af2_47f7_936d_c00cc9400bd7.
+  FILTER(?literal_1b45934e_6af2_47f7_936d_c00cc9400bd7 >= \"7\"^^<http://www.w3.org/2001/XMLSchema#double>)
+  FILTER(?literal_1b45934e_6af2_47f7_936d_c00cc9400bd7 <= \"33\"^^<http://www.w3.org/2001/XMLSchema#double>)
+}
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBhATkgO4D6ACigJ4C2SAdliADQgDGUA2qIVNyomFSYcAZQAWGAA7MQPSCAA8YrFkmQA9OqLaAdIPTYdAc3zq4DOGjhHK6gGIAldZPxwAbhhhIYJAGZx8EiRqSSsaeiwSFEiwCUkKSgA+GRhODhAHJDA4AFd8ViRmUAx8DF4QABVEfBkANXKsJHxqCspJQvkAORRaGE64Lxk3dByOkGVVDS1dfWFjUwARACF1WKl1AFZcAE47ACYADlwlgFoljY27E4BmbYB2bZOAQWuABlwTgFE7Zb3Pu8+AEZtnttiAAL7glhoFAAIyQaAEcQABE8LHQMAgWF4wKxSpIsJi6EipKj0ZiZFgcqEOsBIQBdelQkA5DEAR1GAElUpBXuCmSxfJxuLTZPx5AAPMAwSBeVgYajoGRyRQTNSabREPRCQwmMwWKw2exOMQoMAkajmJBYFD4ShRS2srAJZLYtIgTo5WilVgOFB0IyFJigeFGDDEyB3Fj0HnXa78pn88FAA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-09T16:32:33.337Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/multiple_master_instances_of_the_same__as_employment_of_a_shipperson> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/multiple_master_instances_of_the_same__as_employment_of_a_shipperson>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,572 @@
+<div style="margin-left: 50px">
+[[#*inline "prefices"]]
+        PREFIX rso: &lt;http://www.researchspace.org/ontology/&gt; <br/>
+        PREFIX crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; <br/>
+        PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; <br/>
+        PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; <br/>
+        PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; <br/>
+  			PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt; <br/>
+        PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; <br/>
+        PREFIX sealit: &lt;http://www.sealit.gr/ontology/sealit#&gt; <br/>
+        PREFIX sealitFC: &lt;http://www.sealit.gr/ontology/FC/&gt; <br/>
+        PREFIX sealitFR: &lt;http://www.sealit.gr/ontology/FR/&gt; <br/>
+[[/inline]]
+[[#*inline "prefices2"]]
+        PREFIX rso: <http://www.researchspace.org/ontology/>
+        PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  			PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+        PREFIX sealitFC: <http://www.sealit.gr/ontology/FC/>
+        PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/>
+[[/inline]]
+[[#*inline "FCFRGraph_n"]]<http://www.sealit.gr/ontology/FCFR>[[/inline]]
+[[#*inline "FCFRGraph"]]&lt;http://www.sealit.gr/ontology/FCFR&gt;[[/inline]]
+[[#*inline "materializationGraph"]]&lt;http://www.sealit.gr/ontology/FCFR/materialization&gt;[[/inline]]
+[[#*inline "materializationRelatedToGraph"]]&lt;http://www.sealit.gr/ontology/FCFR/materialization_related_to&gt;[[/inline]]
+[[#*inline "conceptsGraph"]]&lt;http://www.sealit.gr/ontology/FCFR/concepts&gt;[[/inline]]
+[[#*inline "titlesGraph"]]&lt;http://www.sealit.gr/ontology/FCFR/titles&gt;[[/inline]]
+  
+[[#*inline "SameAsGraph"]]&lt;http://www.sealit.gr/ontology/FCFR/materializationSameAs&gt;[[/inline]]
+[[#*inline "TemplateGraph"]]&lt;http://www.sealit.gr/ontology/FCFR/materializationTemplate&gt;[[/inline]]
+[[#*inline "TemplateInstancesGraph"]]&lt;http://www.sealit.gr/ontology/FCFR/materializationTemplateInstances&gt;[[/inline]]
+  
+<semantic-context repository='default'>
+  
+[[!-- Creates a query to materialize all the relations-fields. These relatons are dynamically retrieved from the Asset repository and then are applied to the data in order to get materialized at the Default repository into a specific graph --]]
+  
+  <semantic-query query='
+  SELECT DISTINCT ?FR ?graphPattern ?range ?domain ?iFR ?relationLabel
+	FROM [[>FCFRGraph_n]]
+WHERE {
+  ?FR rdfs:label ?relationLabel ;  rso:hasDomain ?domain ;  rso:hasRange ?range ; rso:hasGraphPattern ?graphPattern .
+  OPTIONAL{?FR owl:inverseOf ?iFR}
+ } ORDER BY ?range ?relationLabel
+
+#OFFSET 0
+#LIMIT 30
+
+#OFFSET 30
+#LIMIT 30
+
+#OFFSET 60
+#LIMIT 30
+
+#OFFSET 90
+' 
+    template='{{> createInsertQueries }}'           
+                  >
+
+    <template id='createInsertQueries'>
+      <div>
+        <b>#Create Insert Queries</b>
+        <br/>
+        <b>#Materialization of FRs - Query1a:(RUN QUERY 6 BELOW TO MATERIALIZE THE NON-MATERIALIZED RELATIONS)</b><br/>
+        <br/>
+        
+          {{#each bindings as |bind|}}
+          <semantic-if query="PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/> 
+                              ASK {  {{ bind.graphPattern.value }} } " then='{{> then }}'>
+            <template id="then">
+              <div>
+        [[> prefices ]] <br/>
+        INSERT { GRAPH  [[>materializationGraph]] { $subjectM ?predicate ?valueM } } <br/>
+        WHERE {<br/>
+        SELECT $subjectM ?predicate ?valueM WHERE {<br/>
+        <ul>
+        #GRAPH ?g { <br/>
+          { #{{@index}}<br/>
+          <p>{{ graphPattern.value }}</p>
+          <p>OPTIONAL {$subjectMaster owl:sameAs $subject}</p>
+          <p>OPTIONAL {$valueMaster owl:sameAs ?value}</p>
+          <p>BIND( IF(BOUND($subjectMaster), $subjectMaster, $subject) as $subjectM )</p>
+          <p>BIND( IF(BOUND($valueMaster), $valueMaster, ?value) as ?valueM )</p>
+          <p>BIND (&lt;{{FR.value}}&gt; as ?predicate)</p>
+          <p><i>#Range:{{range.value}}</i></p>
+             {{#ifCond range.value "==" "http://www.w3.org/2001/XMLSchema#date"}}
+          <p>BIND( year(xsd:dateTime((?value))) as ?year )</p>
+					<p>BIND( ( ?value > xsd:date("0001-01-01") &amp;&amp; ?year &lt; 3000 ) as ?ok ) </p>
+          <p>FILTER( BOUND(?ok) &amp;&amp; ?ok )</p>
+             {{/ifCond}}
+          }<br/>
+        #}#GRAPH
+        </ul>
+        }} <br/>
+        ###end<br/>
+              </div>
+            </template>         
+          </semantic-if>      
+        {{/each}}
+        <br/>
+    
+        <b>#Materialization of inversed FRs - Query1b:(RUN QUERY 6 BELOW TO MATERIALIZE THE NON-MATERIALIZED RELATIONS)</b><br/>
+        <div style="background-color: coral;">
+        <br/>
+           {{#each bindings as |bind|}}
+          <semantic-if query="PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/> 
+                              ASK {  {{ bind.graphPattern.value }} <{{FR.value}}> owl:inverseOf ?iFR} " then='{{> then }}'>
+            <template id="then">
+              <div>
+        [[> prefices ]] <br/>
+        INSERT { GRAPH  [[>materializationGraph]] { $subjectM ?predicate ?valueM } } <br/>
+        WHERE {<br/>
+        SELECT $subjectM ?predicate ?valueM WHERE {<br/>
+        <ul>
+        #GRAPH ?g { <br/>
+          { #{{@index}}<br/>
+          <p>&lt;{{FR.value}}&gt; owl:inverseOf ?iFR .</p>
+          <p>$subject  ^&lt;{{FR.value}}&gt;  ?value .</p>
+          <p>OPTIONAL {$subjectMaster owl:sameAs $subject}</p>
+          <p>OPTIONAL {$valueMaster owl:sameAs ?value}</p>
+          <p>BIND( IF(BOUND($subjectMaster), $subjectMaster, $subject) as $subjectM )</p>
+          <p>BIND( IF(BOUND($valueMaster), $valueMaster, ?value) as ?valueM )</p>
+          <p><i>#Confirm ?iFR:{{iFR.value}}</i></p>
+          <p>Bind (?iFR as ?predicate)</p>
+          <p><i>#Range:{{domain.value}}</i></p>
+          }<br/>
+        #}#GRAPH
+        </ul>
+        }} <br/>
+        ###end<br/>  
+              </div>
+            </template>         
+          </semantic-if> 
+          {{/each}}
+        <br/>
+        </div>     
+        
+        <b>#Materialization Query2 (correlate subjects of specific types with Records/Documents && Materialize  Record FC AT THE SAME TIME):</b><br/>
+        <i>#Note: no need to look for the masters because the materialization graph contains only the master IDs</i><br/>
+        <br/>
+				[[> prefices ]] <br/>
+        INSERT <br/>
+        { GRAPH  [[>materializationGraph]] { <br/>
+        $subjectM ?relation ?record . <br/>
+        ?record ?inverseRelation $subjectM . <br/>
+        ?record a sealitFC:Record . <br/>
+        }} <br/>
+        WHERE { <br/>
+        #GRAPH ?g { <br/>
+        ?record a crm:E73_Information_Object . <br/>
+        ?record crm:P2_has_type  &lt;http://www.sealit.gr/DB/doc%20types/record%20information&gt; . <br/>
+        ?record crm:P67_refers_to ?doc . ?doc a crm:E31_Document . <br/>
+        ?template crm:P67_refers_to ?record . <br/>
+				?template crm:P67_refers_to $subject . <br/>
+        $subject a ?sType . <br/>
+        <p>OPTIONAL {$subjectMaster owl:sameAs $subject}</p>
+        <p>BIND( IF(BOUND($subjectMaster), $subjectMaster, $subject) as $subjectM )</p>
+        #} <br/>
+        VALUES (?sType ?relation ?inverseRelation) {	<br/>
+        (	sealit:Ship				sealitFR:Ship2Record	sealitFR:Record2Ship	) <br/>
+        (	sealit:Voyage			sealitFR:Voyage2Record	sealitFR:Record2Voyage	) <br/>
+        (	crm:E21_Person		sealitFR:Person2Record	sealitFR:Record2Person	) <br/>
+        (	crm:E40_Legal_Body	sealitFR:Legal_Body2Record	sealitFR:Record2Legal_Body	) <br/>
+        (	crm:E53_Place				sealitFR:Place2Record	sealitFR:Record2Place	) <br/>
+        (	sealit:Ship_Crew_Employment	sealitFR:Ship_Crew_Employment2Record	sealitFR:Record2Ship_Crew_Employment	) <br/>
+        (	sealit:Crew_Payment	sealitFR:Crew_Payment2Record	sealitFR:Record2Crew_Payment	) <br/>
+        }} <br/>
+        ###end<br/>
+        <br/>
+        
+        <b>#Materialization Query3 (the generic relation "related to" among FCs with more than one FRs):</b><br/>
+        <i>#Note:the generic "related to" gets instantiated when more than 1 relations exist. Avoid to name other relations as the generic "related to"</i><br/>
+        <br/>
+        [[> prefices ]] <br/>
+        INSERT { GRAPH [[>materializationRelatedToGraph]] {?s ?relation ?o} } <br/>
+        WHERE { <br/>
+        { SELECT DISTINCT ?s ?relation ?o { <br/>
+        { SELECT DISTINCT ?sType ?oType (COUNT(DISTINCT ?p) as ?c) { <br/>
+        GRAPH [[>materializationGraph]] {?s ?p ?o } <br/>
+        ?s a ?sType . <br/>
+        ?o a ?oType . <br/>
+        VALUES ?oType {sealit:Ship sealit:Voyage crm:E21_Person sealit:Crew_Payment crm:E53_Place crm:E40_Legal_Body sealit:Course} <br/>
+        } GROUP BY ?sType ?oType } <br/>
+        FILTER (?c > 1) <br/>
+
+        GRAPH [[>materializationGraph]] {?s ?p ?o } <br/>
+        ?s a ?sType . <br/>
+        ?o a ?oType . <br/>
+        GRAPH [[>FCFRGraph]] { <br/>
+        VALUES ?relationLabel { "related to"@en } <br/>
+        ?relation rdfs:label ?relationLabel; rso:hasDomain ?sType; rso:hasRange ?oType . <br/>
+        }<br/>
+        }}}<br/>
+        ###end<br/>
+        <br/>
+        
+        <b>#Materialization Query4a (sealitFC:Title):</b><br/>
+        <i>#Helps SemanticSearch to find a resource-URI by its rdfs:label</i>
+        <br/>
+        [[> prefices ]] <br/>
+        INSERT {GRAPH [[>titlesGraph]] { ?o rdf:type sealitFC:Title } }<br/>
+        WHERE { <br/>
+          GRAPH [[>materializationGraph]] {?s ?FR ?o } <br/>
+          GRAPH [[>FCFRGraph]] {<br/>
+             ?FR rso:hasRange sealitFC:Title .<br/>
+          }<br/>
+        }<br/>
+        ###end<br/>
+        <br/>
+        
+        
+        <b>#Materialization Query4b (rso:Concept):</b><br/>
+        <i>#Declares specific resources as rso:Concepts. Helps SemanticSearch to find a Concept resource-URI by its rdfs:label</i>
+        <br/>
+        [[> prefices ]] <br/>
+        INSERT {GRAPH [[>conceptsGraph]] { ?o rdf:type rso:Concept } }<br/>
+        WHERE { <br/>
+          GRAPH [[>materializationGraph]] {?s ?FR ?o } <br/>
+          GRAPH [[>FCFRGraph]] {<br/>
+             ?FR rso:hasRange rso:Concept .<br/>
+          }<br/>
+        }<br/>
+        ###end<br/>
+        <br/>
+        
+        <br/>
+        <i>#Materializes rso:Concept_has_broader_Concept  hierarchy relation for skos:Concepts.</i>
+        <br/>
+				[[> prefices ]] <br/>
+        INSERT {GRAPH [[>conceptsGraph]] { ?s rso:Concept_has_broader_Concept ?o } }<br/>
+        WHERE {<br/>
+        ?s skos:broader ?o . <br/>
+        }<br/>
+        ###end<br/>
+        <br/>
+        
+        <br/>
+        <i>#Materializes rso:Place_is_part_of_Place hierarchy relation for Places.</i>
+        <br/>
+				[[> prefices ]] <br/>
+        INSERT {GRAPH [[>conceptsGraph]] { ?s rso:Place_is_part_of_Place ?o } }<br/>
+        WHERE {<br/>
+        ?s crm:P89_falls_within|^crm:P89i_contains ?o . <br/>
+        }<br/>
+        ###end<br/>
+        <br/>
+[[!--  
+        <br/>
+        <b>#Materialization Query4c (AnyType sameAs IRI => materialize the FR):</b><br/>
+        <br/>
+        [[> prefices ]] <br/>
+        INSERT { GRAPH [[>SameAsGraph]] {?masterIRI ?FR ?sameAs} } <br/>
+        WHERE { <br/>
+          GRAPH [[>materializationGraph]] {?masterIRI ?FR ?o } <br/>
+          GRAPH [[>FCFRGraph]] {<br/>
+             ?FR rso:hasRange ?anyType .<br/>
+          }<br/>
+        { ?o owl:sameAs ?sameAsObj } UNION { ?sameAsObj owl:sameAs ?o } <br/>
+        
+        }<br/>
+				<br/>
+--]]        
+
+        <b>#Materialization Query5 (rso:Template):</b><br/>
+        <br/>
+        [[> prefices ]] <br/>
+        INSERT #NEW RDF TYPE <br/>
+        { <br/>
+        GRAPH [[>TemplateGraph]] {<br/>
+        ?subject rdf:type ?type .<br/>
+        ?type rdfs:label ?type_label .}<br/>
+        } <br/>
+        WHERE { <br/>
+        VALUES (?type ?type_label ) { <br/>
+        (rso:Template "Template type" ) <br/>
+        } <br/>
+        ?template a crm:E73_Information_Object .<br/>
+        #?template (crm:P1_is_identified_by/crm:P2_has_type) &lt;http://www.sealit.gr/DB/id%20types/record%20id&gt; .<br/>
+        MINUS {?template crm:P2_has_type &lt;http://www.sealit.gr/DB/doc%20types/record%20information&gt; } <br/>
+        ?template crm:P2_has_type ?subject .<br/>
+        } <br/>
+        ###end<br/>
+        <br/>
+        
+          
+        <semantic-query query='SELECT ?c {VALUES ?c {1 2 3 4 5 6 7 8}}' template='{{> materializeTemplateInstancesGraph }}'>
+            <template id='materializeTemplateInstancesGraph'>
+              <div>
+        <b>#Materialization Query6 (rso:Template):</b><br/>
+                {{#each bindings}}
+        <br/>
+        [[> prefices ]] <br/>
+        #SELECT $subject ?relation ?recordType <br/>
+        INSERT  { GRAPH [[>TemplateInstancesGraph]] {$subject ?relation ?recordType.} } <br/>
+        WHERE { #{{c.value}}<br/>
+        VALUES (?sType ?relation) { <br/>
+{{#ifCond c.value "!==" "1"}}#{{/ifCond}}( sealit:Ship		sealitFR:Ship2Template	) <br/>
+{{#ifCond c.value "!==" "2"}}#{{/ifCond}}( sealit:Voyage		sealitFR:Voyage2Template	) <br/>
+{{#ifCond c.value "!==" "3"}}#{{/ifCond}}( crm:E21_Person		sealitFR:Person2Template ) <br/>
+{{#ifCond c.value "!==" "4"}}#{{/ifCond}}( crm:E40_Legal_Body		sealitFR:Legal_Body2Template ) <br/>
+{{#ifCond c.value "!==" "5"}}#{{/ifCond}}( crm:E53_Place		sealitFR:Place2Template ) <br/>
+{{#ifCond c.value "!==" "6"}}#{{/ifCond}}#( sealit:Ship_Crew_Employment		sealitFR:Ship_Crew_Employment2Template ) <br/>
+{{#ifCond c.value "!==" "7"}}#{{/ifCond}}( sealit:Crew_Payment		sealitFR:Crew_Payment2Template ) <br/>
+{{#ifCond c.value "!==" "8"}}#{{/ifCond}}( sealit:Course sealitFR:Course2Template ) <br/>
+                
+          } <br/>
+          $subjectX a ?sType . <br/>
+{?record crm:P2_has_type ?recordType ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by) $subjectX .} <br/>
+ UNION <br/>
+{?record crm:P2_has_type ?recordType ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by)/(sealit:voyages|^sealit:voyage_of) $subjectX . $subjectX a sealit:Voyage .} <br/>
+ UNION <br/>
+{?record crm:P2_has_type ?recordType ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by)/sealit:gave_service_for $subjectX . $subjectX a sealit:Crew_Payment .} <br/>
+ UNION <br/>
+{?record crm:P2_has_type ?recordType ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by)/sealit:had_provided $subjectX . $subjectX a sealit:Ship_Crew_Employment .} <br/>
+ UNION <br/>
+{?record crm:P2_has_type ?recordType ; (crm:P67_refers_to|^crm:P67i_is_referred_to_by)/^(crm:P9_consists_of/sealit:had_student) $subjectX . $subjectX a sealit:Course .} <br/>
+          FILTER ( ?recordType != &lt;http://www.sealit.gr/DB/template&gt; ) <br/> 
+        	OPTIONAL { $subjectM owl:sameAs $subjectX . $subjectM crm:P2_has_type &lt;http://www.sealit.gr/DB/type/master&gt;. } <br/>
+          BIND (IF(BOUND($subjectM), $subjectM, $subjectX) AS $subject) <br/>
+        } <br/>
+        #LIMIT 10 #used with select for debugging <br/>
+        ###end<br/>
+        <br/>
+                {{/each}}              
+              </div>
+            </template>
+        </semantic-query>
+      </div>
+    </template>
+
+    
+    <template id='materializeFR'>
+      <semantic-query query="
+		PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/>
+     SELECT $subjectM ?predicate ?value WHERE {
+        GRAPH ?g{ 
+          {{#each bindings }}
+          {
+   				$subjectM a <{{domain.value}}> .
+   				MINUS { $subjectX owl:sameAs $subjectM }
+   				OPTIONAL { $subjectM owl:sameAs $subjectX } 
+   				BIND(  IF( BOUND($subjectX), $subjectX, $subjectM ) as $subject  )
+            
+          {{ graphPattern.value }}
+          Bind (<{{FR.value}}> as ?predicate)
+          #Range:{{range.value}}
+          } UNION
+          {{/each}}
+          {}
+        }
+        }">
+      </semantic-query>             
+    </template>
+    <template id='materializeFR-test'>
+      <div>
+      {{#each bindings as |bind|}}
+      <semantic-if query="PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/> ASK {  {{ bind.graphPattern.value }} } " then='{{> then }}'>
+        <template id="then">
+          {{log "then" domain.value}}
+          <semantic-query  query="
+		 		PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/>
+     		SELECT $subjectM ?predicate ?value WHERE {
+
+   				$subjectM a <{{domain.value}}> .
+   				MINUS { $subjectX owl:sameAs $subjectM }
+   				OPTIONAL { $subjectM owl:sameAs $subjectX } 
+   				BIND(  IF( BOUND($subjectX), $subjectX, $subjectM ) as $subject  )
+            
+          {{ graphPattern.value }}
+          Bind (<{{FR.value}}> as ?predicate)
+          #Range:{{range.value}}
+   
+        }
+       "></semantic-query>
+        </template>
+      </semantic-if>
+      {{/each}}
+      </div>
+    </template>
+
+   
+    
+    
+    
+    <template id='runInsertQuery'>
+            <div>
+              <ul>
+                {{#if bindings}}
+                {{#each bindings as |bind|}}
+                <p>Bind ( {{bind.value}} ) as ?predicate </p>
+                {{/each}}
+                {{/if}}
+              </ul>
+              }
+            </div>
+
+    </template>
+    
+    <template id='TMP'>
+      <semantic-context repository='default'>
+        <semantic-query query='{{query}}'
+       template='{{> list2}}'
+      >
+        <template id='list2'>
+          <div>
+          {{#each bindings as |bind|}}
+        	{{ log bind}}
+          {{/each}}
+            </div>
+        </template>  
+        </semantic-query>
+      </semantic-context>
+    </template>
+    
+
+  </semantic-query>
+</semantic-context>
+<hr/>
+  
+  
+  
+  
+  
+<semantic-context repository='default'>
+    <semantic-query query='
+    PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+    SELECT DISTINCT ?pred FROM <http://www.sealit.gr/ontology/FCFR/materialization> {?s ?pred ?o}' template='{{> showInstantiatedRelations}}' >
+      <template id='showInstantiatedRelations'>
+         <div>
+          <p><b>Instantiated Relations</b></p>
+          <ol type="1">
+          {{#each bindings as |bind|}}
+        	<li>{{ bind.pred.value }}</li>
+          {{/each}}
+          </ol>
+        </div>
+     </template>  
+   </semantic-query>
+</semantic-context>
+  <hr/>
+<semantic-context repository='default'>
+    <semantic-query query='
+		PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+    SELECT DISTINCT ?FR ?graphPattern ?range ?domain FROM [[>FCFRGraph_n]] {
+    ?FR rso:hasDomain ?domain .
+    ?FR rso:hasRange ?range .
+    ?FR rso:hasGraphPattern ?graphPattern .
+    MINUS{
+    GRAPH <http://www.sealit.gr/ontology/FCFR/materialization> {?s ?FR ?o} 
+    }
+    } ORDER BY ?range OFFSET 0 LIMIT 200' 
+                    templatePAUSE='{{> showNonInstantiatedRelations}}' >
+     
+      <template id='showNonInstantiatedRelations'>
+         <div>
+          <p><b>Non-Instantiated Relations</b></p>
+          <ol type="1">
+          {{#each bindings as |bind|}}
+            <li><b>{{ bind.FR.value }}</b>&nbsp;<i>{{ bind.range.value }}</i>&nbsp;
+              <semantic-if query="PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/> 
+                              ASK {  {{ bind.graphPattern.value }} }" then='<b>pattern EXISTS!!</b>'>
+              </semantic-if>
+            </li>
+          {{/each}}
+          </ol>
+           <br/><br/>
+           <b>Materialization Query6 (retry the failed cases):</b><br/>
+           {{> NonInstantiatedRelationsInsertQuery}}
+           
+        </div>
+     </template>  
+     <template id='NonInstantiatedRelationsInsertQuery'>
+         <div>
+          <p><b>Non-Instantiated Relations Ouery (set a LIMIT 10-30 for a better performance)</b></p>
+           <br/>
+        		[[> prefices ]]
+            INSERT { GRAPH  [[>materializationGraph]] { $subjectM ?predicate ?value } } <br/>
+      			#USING &lt;http://www.sealit.gr/DB&gt;<br/>
+            WHERE {<br/>
+        SELECT $subjectM ?predicate ?value WHERE {<br/>
+        <ul>
+        #GRAPH ?g{ 
+          {{#each bindings as |bind|}}
+          <semantic-if query="PREFIX sealitFR: <http://www.sealit.gr/ontology/FR/> 
+                              ASK {  {{ bind.graphPattern.value }} } " then='{{> then }}'>
+            <template id="then">
+              <div>
+          {
+          <p>{{ graphPattern.value }}</p>
+          <p>OPTIONAL {$subjectMaster owl:sameAs $subject}</p>
+          <p>OPTIONAL {$valueMaster owl:sameAs ?value}</p>
+          <p>BIND( IF(BOUND($subjectMaster), $subjectMaster, $subject) as $subjectM )</p>
+          <p>BIND( IF(BOUND($valueMaster), $valueMaster, ?value) as ?valueM )</p>
+          <p>Bind (&lt;{{FR.value}}&gt; as ?predicate)</p>
+          <p><i>#Range:{{range.value}}</i></p>
+          } UNION
+              </div>
+            </template>         
+          </semantic-if>      
+          {{/each}}
+          {}
+        #}#GRAPH
+        </ul>
+        }} <br/>
+        <br/>
+        <br/>
+        </div>
+     </template>  
+   </semantic-query>
+</semantic-context>
+<hr/> 
+  [[!-- 
+<semantic-context repository='default'>
+   <semantic-query query='
+    PREFIX sealit: <http://www.sealit.gr/ontology/sealit#>
+    SELECT DISTINCT ?pLabel {?s ?pLabel ?o .FILTER( isLiteral(?o))}' template='{{> showLabelRelations}}' >
+      <template id='showLabelRelations'>
+         <div>
+           <p><b>Relations for Literals</b></p>
+          <ol type="1">
+          {{#each bindings as |bind|}}
+        	<li>{{ bind.pLabel.value }}</li>
+          {{/each}}
+          </ol>
+        </div>
+     </template>  
+   </semantic-query>
+</semantic-context>
+--]]
+  <hr/> 
+<semantic-context repository='default'>
+   <semantic-query query='
+   SELECT DISTINCT ?category ?inst FROM [[>FCFRGraph_n]] {
+      ?category rdf:type rso:FundamentalCategory .
+      BIND( EXISTS { 
+      SELECT ?category {
+        GRAPH <http://www.sealit.gr/DB>{
+          {?s ?p ?o . ?s a ?category} 
+          UNION {?s ?p ?o . ?o a ?category} 
+          UNION  {?s ?p ?o . FILTER(DATATYPE(?o) = ?category)}
+        }
+      }
+      } as ?inst) 
+
+      }
+' 
+                   
+    template='{{> showCategories}}' >
+      <template id='showCategories'>
+         <div>
+           <p><b>Instantiated Categories</b></p>
+           <p>select distinct ?category ?usedAs {
+             ?category rdf:type rso:FundamentalCategory
+             {?domainForRelation rso:hasDomain ?category. Bind ("domain" as ?usedAs)}
+             union {?rangeForRelation rso:hasRange ?category. Bind ("range" as ?usedAs)}
+             }
+           </p>
+           
+          <ol type="1">
+          {{#each bindings as |bind|}}
+        	<li>{{ bind.usedAs.value }}----{{ bind.category.value }}</li>
+          {{/each}}
+          </ol>
+        </div>
+     </template>  
+   </semantic-query>
+</semantic-context>
+
+</div>				

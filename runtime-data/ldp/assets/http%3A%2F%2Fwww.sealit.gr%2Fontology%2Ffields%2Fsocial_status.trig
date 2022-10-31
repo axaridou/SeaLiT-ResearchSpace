@@ -1,0 +1,32 @@
+
+<http://www.sealit.gr/ontology/fields/social_status/context> {
+  <http://www.sealit.gr/ontology/fields/social_status> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-5accf77c94d5426fad2aaca9bf0ac02b-z0knfa .
+  
+  _:genid-5accf77c94d5426fad2aaca9bf0ac02b-ejte7r <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/social_status> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-5accf77c94d5426fad2aaca9bf0ac02b-ejte7r .
+  
+  _:genid-5accf77c94d5426fad2aaca9bf0ac02b-z0knfa a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-5accf77c94d5426fad2aaca9bf0ac02b-ejte7r a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/social_status> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "social status"@en .
+  
+  _:genid-5accf77c94d5426fad2aaca9bf0ac02b-z0knfa <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+  $subject sealit:has_social_status ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/social_status> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-02-25T18:40:41.197Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/social_status> .
+  
+  <http://www.sealit.gr/ontology/fields/social_status> a <http://www.w3.org/ns/ldp#Resource> .
+}

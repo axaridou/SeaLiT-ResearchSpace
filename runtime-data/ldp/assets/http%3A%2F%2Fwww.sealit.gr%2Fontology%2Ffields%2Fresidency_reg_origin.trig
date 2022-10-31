@@ -1,0 +1,31 @@
+
+<http://www.sealit.gr/ontology/fields/residency_reg_origin/context> {
+  <http://www.sealit.gr/ontology/fields/residency_reg_origin> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-0099f5168f33449f93e3934ce08581c1-bd69ds <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/residency_reg_origin> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-0099f5168f33449f93e3934ce08581c1-bd69ds;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-0099f5168f33449f93e3934ce08581c1-2th7nn .
+  
+  _:genid-0099f5168f33449f93e3934ce08581c1-bd69ds a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-0099f5168f33449f93e3934ce08581c1-2th7nn a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+  $subject crm:P2_has_type ?value .
+  ?value crm:P2_has_type <http://www.sealit.gr/DB/types/nationality>
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/residency_reg_origin> <http://www.w3.org/2000/01/rdf-schema#label>
+      "origin"@en;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-22T19:19:17.084Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/residency_reg_origin> .
+  
+  <http://www.sealit.gr/ontology/fields/residency_reg_origin> a <http://www.w3.org/ns/ldp#Resource> .
+}

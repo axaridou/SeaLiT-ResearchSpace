@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/2022b575-0939-48e0-b4f3-64f77f05edb1/context> {
+  <http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/2022b575-0939-48e0-b4f3-64f77f05edb1>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://www.sealit.gr/DB/ship/08735818-25A2-36F6-AC9A-ADD9AB4FDD63>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ship Ider";
+    <http://www.metaphacts.com/ontologies/platform#setItemIndex> 1;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-22T09:36:42.959Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://83.212.169.164:10315/container/setContainer/0a5844bf-676e-49e6-8a1e-52b401fd480d>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/2022b575-0939-48e0-b4f3-64f77f05edb1> .
+  
+  <http://83.212.169.164:10315/container/0a5844bf-676e-49e6-8a1e-52b401fd480d/2022b575-0939-48e0-b4f3-64f77f05edb1>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

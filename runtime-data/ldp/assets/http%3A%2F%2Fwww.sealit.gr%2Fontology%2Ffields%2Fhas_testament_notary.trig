@@ -1,0 +1,39 @@
+
+<http://www.sealit.gr/ontology/fields/has_testament_notary/context> {
+  <http://www.sealit.gr/ontology/fields/has_testament_notary> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-d77844e014c94a98b5608810563e5c1d-t49mw <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person .
+?value a crm:E21_Person .
+$subject crm:P100i_died_in ?death .
+?death crm:P67i_is_referred_to_by ?doc .
+?doc crm:P2_has_type <http://www.sealit.gr/DB/doc%20types/last%20will%20and%20testament> .
+?doc crm:P94i_was_created_by/crm:P01i_is_domain_of ?domain . 
+?domain crm:P14.1_in_the_role_of <http://www.sealit.gr/DB/role%20types/notary> .
+?domain crm:P02_has_range ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_testament_notary> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-d77844e014c94a98b5608810563e5c1d-p02rxg <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_testament_notary> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-d77844e014c94a98b5608810563e5c1d-t49mw;
+    <http://www.w3.org/2000/01/rdf-schema#label> "has testament notary"@en;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-d77844e014c94a98b5608810563e5c1d-p02rxg .
+  
+  _:genid-d77844e014c94a98b5608810563e5c1d-p02rxg a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-d77844e014c94a98b5608810563e5c1d-t49mw a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_testament_notary> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-08-04T15:26:51.448Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_testament_notary> .
+  
+  <http://www.sealit.gr/ontology/fields/has_testament_notary> a <http://www.w3.org/ns/ldp#Resource> .
+}

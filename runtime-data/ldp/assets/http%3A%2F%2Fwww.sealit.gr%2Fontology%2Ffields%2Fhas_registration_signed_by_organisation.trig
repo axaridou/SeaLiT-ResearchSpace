@@ -1,0 +1,37 @@
+
+<http://www.sealit.gr/ontology/fields/has_registration_signed_by_organisation/context> {
+  <http://www.sealit.gr/ontology/fields/has_registration_signed_by_organisation> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-c4b4fa11f64b466eb1da1722d90fbaf4-6gb05i <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/has_registration_signed_by_organisation> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Ship>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-c4b4fa11f64b466eb1da1722d90fbaf4-z9ef6f;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-c4b4fa11f64b466eb1da1722d90fbaf4-6gb05i;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> .
+  
+  _:genid-c4b4fa11f64b466eb1da1722d90fbaf4-6gb05i a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-c4b4fa11f64b466eb1da1722d90fbaf4-z9ef6f a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/has_registration_signed_by_organisation> <http://www.w3.org/2000/01/rdf-schema#label>
+      "registration signed by organisation"@en .
+  
+  _:genid-c4b4fa11f64b466eb1da1722d90fbaf4-z9ef6f <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+$subject a sealit:Ship .
+?value a crm:E40_Legal_Body .
+$subject sealit:is_registered_by/crm:P70i_is_documented_in ?doc .
+?doc crm:P106_is_composed_of ?mark .
+?mark crm:P2_has_type <http://www.sealit.gr/DB/doc%20types/signature> .
+?mark crm:P94i_was_created_by/crm:P14_carried_out_by ?value .
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/has_registration_signed_by_organisation> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-27T09:19:36.822Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/has_registration_signed_by_organisation> .
+  
+  <http://www.sealit.gr/ontology/fields/has_registration_signed_by_organisation> a <http://www.w3.org/ns/ldp#Resource> .
+}

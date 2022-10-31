@@ -1,0 +1,17 @@
+
+<http://83.212.169.164:10315/container/queryContainer/testttttt/context> {
+  <http://83.212.169.164:10315/container/queryContainer/testttttt> a <http://spinrdf.org/sp#Query>,
+      <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "testttttt";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE { ?subject <http://www.sealit.gr/ontology/FR/had_member> <http://www.sealit.gr/DB/person/87DC00C7-5A00-383C-8A33-DDB4EC82A97D>. }
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZRAYwE4FtIFEAsAGA+gDICmA5gIYA2+AQnDAJ4gA0yUA2qCsVF+YqgyYATAEZ8ABWIowcAHYsQ3RAB4AFgBcNAB0gB6PQHdjAOjDEqASw0nSKPfI1xKcUgz0AxAEp615GPhoxGgARtIAfIowHOwgXsSyAK4oSDzMoJYolrwgACqIKIoAajka0mi5DNo8kCAAcuRBMHX0aSAAblSJNSCaOvpGpuZWNnZ6ACI0etUy8noAHADs4wDCuLgriwC0AKwAgutbAMzzRytb83tHR1vjk9iYK-PCewCcyyAAvp+slORhlEQAHFLOQkHA0HAAAQrKhIcikOQIVgwBKoSzaDSWeTA0HgyEwuEIpGKDSJbSUGrAb4AXRpPxAiTklgAjt0AJLRSC4T701gAMw49KAA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/guest>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-23T11:38:11.674Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/queryContainer/testttttt> .
+  
+  <http://83.212.169.164:10315/container/queryContainer/testttttt> a <http://www.w3.org/ns/ldp#Resource> .
+}

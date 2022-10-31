@@ -1,0 +1,207 @@
+[[> sealit:Page_breadcrumb ]]
+
+<style>
+  #record-tabs .tab-ontodia {
+    margin: 0px;
+    padding: 2px 0px 0px;
+    width: 100%;
+    height: calc(100vh - 300px);
+  }
+</style>
+
+<div class="page">
+
+  [[!-- [[> Platform:DefaultResourceHeader ]] --]]
+  
+  [[> sealit:MasterResourceHeader ]]
+
+  <bs-tabs id='record-tabs' class='page__body-navtabs--borderless' default-active-key='summary' unmount-on-exit=true>
+
+      <bs-tab event-key='summary' title='Summary'>
+      <div data-flex-layout='row top-stretch'>
+   
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+                      
+             
+  <mp-field-visualization
+    subject='[[this]]'
+    fields='[[fieldDefinitions 
+    
+
+    
+http://www.sealit.gr/ontology/fields/has_first_name	=	"http://www.sealit.gr/ontology/fields/has_first_name"
+http://www.sealit.gr/ontology/fields/has_last_name	=	"http://www.sealit.gr/ontology/fields/has_last_name"
+
+
+http://www.sealit.gr/ontology/fields/has_identification_type = "http://www.sealit.gr/ontology/fields/has_identification_type"
+http://www.sealit.gr/ontology/fields/works_at = "http://www.sealit.gr/ontology/fields/works_at"
+http://www.sealit.gr/ontology/fields/works_as = "http://www.sealit.gr/ontology/fields/works_as"
+http://www.sealit.gr/ontology/fields/owning_company = "http://www.sealit.gr/ontology/fields/owning_company"
+
+http://www.sealit.gr/ontology/fields/has_sex_type = "http://www.sealit.gr/ontology/fields/has_sex_type"
+http://www.sealit.gr/ontology/fields/has_condition = "http://www.sealit.gr/ontology/fields/has_condition"
+http://www.sealit.gr/ontology/fields/related_to_observation = "http://www.sealit.gr/ontology/fields/related_to_observation"
+
+http://www.sealit.gr/ontology/fields/household_id = "http://www.sealit.gr/ontology/fields/household_id"
+http://www.sealit.gr/ontology/fields/role_in_household = "http://www.sealit.gr/ontology/fields/role_in_household"
+http://www.sealit.gr/ontology/fields/residency_reg_address = "http://www.sealit.gr/ontology/fields/residency_reg_address"
+
+http://www.sealit.gr/ontology/fields/has_children = "http://www.sealit.gr/ontology/fields/has_children"
+http://www.sealit.gr/ontology/fields/has_family_members = "http://www.sealit.gr/ontology/fields/has_family_members"
+http://www.sealit.gr/ontology/fields/in_a_family_with_total_members = "http://www.sealit.gr/ontology/fields/in_a_family_with_total_members"
+http://www.sealit.gr/ontology/fields/order_of_family_member = "http://www.sealit.gr/ontology/fields/order_of_family_member"
+
+
+http://www.sealit.gr/ontology/fields/age = "http://www.sealit.gr/ontology/fields/age"
+http://www.sealit.gr/ontology/fields/residency_reg_origin = "http://www.sealit.gr/ontology/fields/residency_reg_origin"
+http://www.sealit.gr/ontology/fields/social_status = "http://www.sealit.gr/ontology/fields/social_status"
+http://www.sealit.gr/ontology/fields/religion_status = "http://www.sealit.gr/ontology/fields/religion_status"
+
+http://www.sealit.gr/ontology/fields/related_to_people = "http://www.sealit.gr/ontology/fields/related_to_people"
+    
+
+http://www.sealit.gr/ontology/fields/is_transcriber_of ="http://www.sealit.gr/ontology/fields/is_transcriber_of"
+http://www.sealit.gr/ontology/fields/has_profession = "http://www.sealit.gr/ontology/fields/has_profession" 
+http://www.sealit.gr/ontology/fields/has_father = "http://www.sealit.gr/ontology/fields/has_father"
+http://www.sealit.gr/ontology/fields/has_parent = "http://www.sealit.gr/ontology/fields/has_parent"
+http://www.sealit.gr/ontology/fields/has_mother = "http://www.sealit.gr/ontology/fields/has_mother"
+
+http://www.sealit.gr/ontology/fields/was_born_at_division = "http://www.sealit.gr/ontology/fields/was_born_at_division"
+http://www.sealit.gr/ontology/fields/was_born_at = "http://www.sealit.gr/ontology/fields/was_born_at"
+http://www.sealit.gr/ontology/fields/was_born_in = "http://www.sealit.gr/ontology/fields/was_born_in"
+
+http://www.sealit.gr/ontology/fields/death_reg = "http://www.sealit.gr/ontology/fields/death_reg"
+
+http://www.sealit.gr/ontology/fields/date_of_death = "http://www.sealit.gr/ontology/fields/date_of_death"
+http://www.sealit.gr/ontology/fields/place_of_death = "http://www.sealit.gr/ontology/fields/place_of_death"
+http://www.sealit.gr/ontology/fields/reason_of_death = "http://www.sealit.gr/ontology/fields/reason_of_death"
+http://www.sealit.gr/ontology/fields/has_testament_notary = "http://www.sealit.gr/ontology/fields/has_testament_notary"
+http://www.sealit.gr/ontology/fields/is_testament_notary_of = "http://www.sealit.gr/ontology/fields/is_testament_notary_of"
+http://www.sealit.gr/ontology/fields/has_transcription_of_death = "http://www.sealit.gr/ontology/fields/has_transcription_of_death"
+
+http://www.sealit.gr/ontology/fields/is_parent_of = "http://www.sealit.gr/ontology/fields/is_parent_of"
+http://www.sealit.gr/ontology/fields/is_father_of = "http://www.sealit.gr/ontology/fields/is_father_of"
+http://www.sealit.gr/ontology/fields/is_mother_of = "http://www.sealit.gr/ontology/fields/is_mother_of"
+http://www.sealit.gr/ontology/fields/has_current_or_former_residence = "http://www.sealit.gr/ontology/fields/has_current_or_former_residence"
+http://www.sealit.gr/ontology/fields/participated_in_voyage = "http://www.sealit.gr/ontology/fields/participated_in_voyage"
+http://www.sealit.gr/ontology/fields/participated_in_voyage_of_ship = "http://www.sealit.gr/ontology/fields/participated_in_voyage_of_ship"
+http://www.sealit.gr/ontology/fields/was_captain_of = "http://www.sealit.gr/ontology/fields/was_captain_of"
+http://www.sealit.gr/ontology/fields/was_employed_as = "http://www.sealit.gr/ontology/fields/was_employed_as"
+http://www.sealit.gr/ontology/fields/had_payment = "http://www.sealit.gr/ontology/fields/had_payment"
+http://www.sealit.gr/ontology/fields/was_recruited_at = "http://www.sealit.gr/ontology/fields/was_recruited_at"
+http://www.sealit.gr/ontology/fields/was_discharged_at = "http://www.sealit.gr/ontology/fields/was_discharged_at"
+http://www.sealit.gr/ontology/fields/had_discharge_state = "http://www.sealit.gr/ontology/fields/had_discharge_state"
+
+http://www.sealit.gr/ontology/fields/had_passport_or_other_license = "http://www.sealit.gr/ontology/fields/had_passport_or_other_license"
+
+http://www.sealit.gr/ontology/fields/work_status = "http://www.sealit.gr/ontology/fields/work_status"
+http://www.sealit.gr/ontology/fields/had_a_work_permit_days = "http://www.sealit.gr/ontology/fields/had_a_work_permit_days"
+http://www.sealit.gr/ontology/fields/had_a_work_permit_days_at_port_of_exit = "http://www.sealit.gr/ontology/fields/had_a_work_permit_days_at_port_of_exit"
+http://www.sealit.gr/ontology/fields/had_a_work_permit_at_port_of_exit = "http://www.sealit.gr/ontology/fields/had_a_work_permit_at_port_of_exit"
+http://www.sealit.gr/ontology/fields/gave_payment_at = "http://www.sealit.gr/ontology/fields/gave_payment_at"
+http://www.sealit.gr/ontology/fields/gave_payment_for_good = "http://www.sealit.gr/ontology/fields/gave_payment_for_good"
+
+http://www.sealit.gr/ontology/fields/has_crew_payment = "http://www.sealit.gr/ontology/fields/has_crew_payment"
+
+http://www.sealit.gr/ontology/fields/provided = "http://www.sealit.gr/ontology/fields/provided"
+http://www.sealit.gr/ontology/fields/had_provided = "http://www.sealit.gr/ontology/fields/had_provided"
+http://www.sealit.gr/ontology/fields/had_provided_in_company = "http://www.sealit.gr/ontology/fields/had_provided_in_company"
+http://www.sealit.gr/ontology/fields/has_end_of_contract_agreement = "http://www.sealit.gr/ontology/fields/has_end_of_contract_agreement"
+
+http://www.sealit.gr/ontology/fields/service_on_board = "http://www.sealit.gr/ontology/fields/service_on_board"
+
+http://www.sealit.gr/ontology/fields/participates_in_a_sale_as = "http://www.sealit.gr/ontology/fields/participates_in_a_sale_as"
+http://www.sealit.gr/ontology/fields/participates_in_a_sale_with_share = "http://www.sealit.gr/ontology/fields/participates_in_a_sale_with_share"
+
+http://www.sealit.gr/ontology/fields/provided_military_service_at = "http://www.sealit.gr/ontology/fields/provided_military_service_at"
+http://www.sealit.gr/ontology/fields/has_inscription_to_military_service_folio = "http://www.sealit.gr/ontology/fields/has_inscription_to_military_service_folio"
+
+http://www.sealit.gr/ontology/fields/has_graduation_foundation = "http://www.sealit.gr/ontology/fields/has_graduation_foundation"
+http://www.sealit.gr/ontology/fields/has_language_capacity = "http://www.sealit.gr/ontology/fields/has_language_capacity"
+http://www.sealit.gr/ontology/fields/has_literacy_status = "http://www.sealit.gr/ontology/fields/has_literacy_status"
+http://www.sealit.gr/ontology/fields/formerly_or_currently_possesses = "http://www.sealit.gr/ontology/fields/formerly_or_currently_possesses"
+
+http://www.sealit.gr/ontology/fields/is_current_or_former_member_for = "http://www.sealit.gr/ontology/fields/is_current_or_former_member_for"
+
+http://www.sealit.gr/ontology/fields/was_student_in = "http://www.sealit.gr/ontology/fields/was_student_in"
+http://www.sealit.gr/ontology/fields/participation_in_exams = "http://www.sealit.gr/ontology/fields/participation_in_exams"
+http://www.sealit.gr/ontology/fields/paying_exempt_scholarship = "http://www.sealit.gr/ontology/fields/paying_exempt_scholarship"
+
+http://www.sealit.gr/ontology/fields/has_note = "http://www.sealit.gr/ontology/fields/has_note"
+http://www.sealit.gr/ontology/fields/is_documented_in = "http://www.sealit.gr/ontology/fields/is_documented_in"
+
+
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+
+            </table>
+          
+ <semantic-query query='
+SELECT $subject ?label WHERE { 
+  
+  ?? (sealit:person_is_registered_by|^sealit:registers_person)  $subject .
+  $subject a sealit:Civil_Registration .
+  $subject rdfs:label ?label.
+
+}'
+   template="{{> related_civil_registration}}">
+
+   <template id="related_civil_registration">
+   <div>
+   {{#each bindings}}
+<bs-panel header='About {{label.value}}' collapsible="false"> 
+  <mp-field-visualization
+    subject='{{subject.value}}'
+    fields='[[fieldDefinitions 
+http://www.sealit.gr/ontology/fields/is_documented_in = "http://www.sealit.gr/ontology/fields/is_documented_in"
+http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of = "http://www.sealit.gr/ontology/fields/occurred_in_the_presence_of"
+http://www.sealit.gr/ontology/fields/has_type	=	"http://www.sealit.gr/ontology/fields/has_type"
+http://www.sealit.gr/ontology/fields/registers_person = "http://www.sealit.gr/ontology/fields/registers_person"
+http://www.sealit.gr/ontology/fields/has_timespan = "http://www.sealit.gr/ontology/fields/has_timespan"
+http://www.sealit.gr/ontology/fields/took_place_at = "http://www.sealit.gr/ontology/fields/took_place_at"
+http://www.sealit.gr/ontology/fields/has_note = "http://www.sealit.gr/ontology/fields/has_note"
+    ]]'
+    template='{{> rsp:FieldBasedVisualization fields=fields }}'
+  ></mp-field-visualization>
+      </bs-panel>
+   {{/each}}
+    </div>
+   </template>
+</semantic-query>   
+          
+          
+[[#if (ask "ASK {?? crm:P2_has_type <http://www.sealit.gr/DB/type/master>}") ]]
+[[> sealit:Resource_info 		registered_as=true ]]
+[[else]]
+[[> sealit:Resource_info 		sourceinfo=true ]] 
+[[> sealit:Resource_info 		registry=true ]]
+[[/if]]
+
+
+          
+          </div>
+
+      </div>
+    </bs-tab>
+    
+    </bs-tabs>
+</div>
+
+[[!--
+[[#> rsp:Resource fc='actors' fcLabel='Actor (Person)']]
+  [[#*inline "summary"]]
+    [[> rsp:ActorSummary]]
+  [[/inline]]
+  [[#*inline "wikidata"]]
+    [[> rsp:ActorRelated]]
+  [[/inline]]
+[[/ rsp:Resource]]
+--]]

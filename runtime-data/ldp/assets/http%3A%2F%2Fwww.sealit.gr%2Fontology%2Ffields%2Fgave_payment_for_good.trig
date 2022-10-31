@@ -1,0 +1,41 @@
+
+<http://www.sealit.gr/ontology/fields/gave_payment_for_good/context> {
+  <http://www.sealit.gr/ontology/fields/gave_payment_for_good> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-ae54c91cb24c45368ad8df61a96883c6-bimyl8;
+    a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-ae54c91cb24c45368ad8df61a96883c6-f4phlg a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-ae54c91cb24c45368ad8df61a96883c6-bimyl8 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/gave_payment_for_good> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-ae54c91cb24c45368ad8df61a96883c6-f4phlg <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a crm:E21_Person .
+$subject sealit:gave_payment_for ?money_for_things .
+?money_for_things sealit:for_thing ?thing .
+?thing crm:P2_has_type/rdfs:label ?valueA .
+OPTIONAL{?thing crm:P43_has_dimension/crm:P90_has_value ?value1 .
+BIND(STRDT(REPLACE(STR(?value1),  \",\",  \"\\\\.\"), xsd:decimal) as ?valueB)}
+OPTIONAL{?thing crm:P43_has_dimension/crm:P91_has_unit/rdfs:label ?valueC .}
+OPTIONAL{?money_for_things crm:P17_was_motivated_by/rdfs:label ?valueD .}
+BIND ( CONCAT(?valueA, COALESCE(CONCAT( \", that costed \", STR(?valueB), \"\"), \"\"), COALESCE(CONCAT( \" \", ?valueC, \"\"), \"\"), COALESCE(CONCAT( \", \", ?valueD, \"\"), \"\") ) AS ?value )
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/gave_payment_for_good> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gave payment for good"@en;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-ae54c91cb24c45368ad8df61a96883c6-f4phlg .
+  
+  _:genid-ae54c91cb24c45368ad8df61a96883c6-bimyl8 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/gave_payment_for_good> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-29T12:36:35.402Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/gave_payment_for_good> .
+  
+  <http://www.sealit.gr/ontology/fields/gave_payment_for_good> a <http://www.w3.org/ns/ldp#Resource> .
+}

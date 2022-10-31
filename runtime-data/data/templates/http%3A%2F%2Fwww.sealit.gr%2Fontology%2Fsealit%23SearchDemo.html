@@ -1,0 +1,77 @@
+<style>
+  .cell-label{
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+  }
+</style>
+
+<ol class="page-breadcrumb">
+  <li>
+    <mp-link title="Home" url="/">Home</mp-link>
+  </li>
+  <li class="active">SearchDemo</li>
+</ol>
+
+<mp-event-proxy id='clipboard-update-on-save-set' on-event-source='save-set-result-action'
+                proxy-event-type='Component.Refresh' proxy-targets='["clipboard-sidebar"]'
+></mp-event-proxy>
+
+<mp-event-proxy id='clipboard-update-on-save-search' on-event-source='save-search-result-action'
+                proxy-event-type='Component.Refresh' proxy-targets='["clipboard-sidebar"]'
+></mp-event-proxy>
+
+<mp-event-proxy id='clipboard-update-on-persisted-component' on-event-source='persit-component-action'
+                proxy-event-type='Component.Refresh' proxy-targets='["clipboard-sidebar"]'
+></mp-event-proxy>
+
+[[>rsp:SearchTourSteps]]
+<mp-event-proxy id='guided-tour-run' on-event-type='Component.Loaded' on-event-source='semantic-search'
+  proxy-event-type='GuidedTour.RunIfNotSeen' proxy-targets='["guided-tour-search"]'>
+</mp-event-proxy>
+
+<div class="page">
+  [[#>rsp:ClipboardSidebar]]
+  <div class='page__body--borderless'>
+
+  <bs-tabs id='record-tabs' default-active-key='semanticSearch' unmount-on-exit=true>
+
+  <bs-tab event-key='keywordSearch' title='Keyword search'>
+ 		[[>sealit:KeywordSearch]]  
+  </bs-tab>
+
+  <bs-tab event-key='semanticSearch' title='Semantic search'>  
+		[[>sealit:SemanticSearch]]
+  </bs-tab>
+    
+  <bs-tab event-key='View_all' title='View all'>
+ 		[[>sealit:PerTypeSearch]]       
+  </bs-tab>
+    
+  <bs-tab event-key="map" title="Map">
+    <semantic-map
+      query='
+      PREFIX wgs84_pos:<http://www.w3.org/2003/01/geo/wgs84_pos#>
+      select ?lat ?lng ?description WHERE {
+      ?place rdf:type crm:E53_Place .
+      optional { ?place skos:prefLabel ?descriptionX .}
+      optional { ?place rdfs:label ?labelX .}
+      ?place crm:P87_is_identified_by ?coordinates .
+      ?coordinates wgs84_pos:lat ?lat .
+      ?coordinates wgs84_pos:long ?lng .
+        Bind (COALESCE(?descriptionX, ?labelX, CONCAT(?lat,?lng)) as ?description )
+      } limit 100
+      '
+      ></semantic-map>
+   </bs-tab>
+   </bs-tabs>
+  </div>
+  [[/rsp:ClipboardSidebar]]
+  <div class="semantic-search-results-actions pull-right"><p class="wysiwyg-text-align-center"><strong><em>Icons made by&nbsp;</em></strong><a href="https://www.freepik.com/home"><strong><em>Freepik</em></strong></a><strong><em>&nbsp;from&nbsp;</em></strong><strong><em><a href="http://www.flaticon.com/">www.flaticon.com</a></em></strong></p></div>
+</div>

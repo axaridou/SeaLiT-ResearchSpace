@@ -1,0 +1,33 @@
+
+<http://www.sealit.gr/ontology/fields/participates_in_a_sale_as/context> {
+  <http://www.sealit.gr/ontology/fields/participates_in_a_sale_as> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "participates in a sale as"@en .
+  
+  _:genid-24dfe6f21eac451d84281082d771c450-uwm9et <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label WHERE {
+$subject a crm:E21_Person .
+$subject crm:P01i_is_domain_of/crm:P14.1_in_the_role_of ?value .
+$subject ^crm:P11_had_participant ?sale .
+?sale crm:P2_has_type <http://www.sealit.gr/DB/event%20types/sale> .
+}""";
+    a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-24dfe6f21eac451d84281082d771c450-z0xi09 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/participates_in_a_sale_as> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-24dfe6f21eac451d84281082d771c450-z0xi09 .
+  
+  _:genid-24dfe6f21eac451d84281082d771c450-z0xi09 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/participates_in_a_sale_as> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-24dfe6f21eac451d84281082d771c450-uwm9et;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-09-25T21:16:55.947Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/participates_in_a_sale_as> .
+  
+  <http://www.sealit.gr/ontology/fields/participates_in_a_sale_as> a <http://www.w3.org/ns/ldp#Resource> .
+}

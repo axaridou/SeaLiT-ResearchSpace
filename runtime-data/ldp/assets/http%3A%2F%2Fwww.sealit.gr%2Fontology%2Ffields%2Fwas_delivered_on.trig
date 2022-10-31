@@ -1,0 +1,35 @@
+
+<http://www.sealit.gr/ontology/fields/was_delivered_on/context> {
+  <http://www.sealit.gr/ontology/fields/was_delivered_on> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-64aa2cece3a949448d525b790a43ad22-npmn4k .
+  
+  _:genid-64aa2cece3a949448d525b790a43ad22-npmn4k <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a sealit:Ship .
+$subject crm:P12i_was_present_at ?activity .
+?activity crm:P2_has_type <http://www.sealit.gr/DB/activity%20types/delivery> . 
+?activity crm:P4_has_time-span/(crm:P82a_begin_of_the_begin|crm:P82_at_some_time_within) ?value1 .
+BIND (STRDT(STR(?value1), xsd:date) as ?value)
+}""" .
+  
+  _:genid-64aa2cece3a949448d525b790a43ad22-n94fsv a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/was_delivered_on> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Ship>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "was delivered for service on"@en .
+  
+  _:genid-64aa2cece3a949448d525b790a43ad22-npmn4k a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-64aa2cece3a949448d525b790a43ad22-n94fsv <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/was_delivered_on> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#date>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-64aa2cece3a949448d525b790a43ad22-n94fsv;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-07-27T12:32:37.822Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/was_delivered_on> .
+  
+  <http://www.sealit.gr/ontology/fields/was_delivered_on> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,80 @@
+
+<http://83.212.107.202:10315/container/persistedComponentContainer/c27c5092-84d6-4b6e-a1e3-e87462a0fb49/context> {
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-kttiq <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps>
+      _:genid-fe432bf7203444afa882aeb6a16cf17c-unrhab .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-d8j6o <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/category>
+      "object" .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-e7lw8 <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets>
+      _:genid-fe432bf7203444afa882aeb6a16cf17c-pnpq1o .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c27c5092-84d6-4b6e-a1e3-e87462a0fb49>
+    <http://www.metaphacts.com/ontologies/persist/componentContext> _:genid-fe432bf7203444afa882aeb6a16cf17c-kttiq .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-pnpq1o <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>
+      _:genid-fe432bf7203444afa882aeb6a16cf17c-d8j6o .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-e7lw8 <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/query>
+      """PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?object ?label (COUNT(DISTINCT ?subject) AS ?count) WHERE {
+  ?__value___964c98af_dcef_4856_a1e9_2b24d4e5edef <http://www.sealit.gr/ontology/FR/has_ship_type> <http://www.sealit.gr/DB/Concept/Brigantino>.
+  { ?subject <http://www.sealit.gr/ontology/FR/was_crew_at> ?__value___964c98af_dcef_4856_a1e9_2b24d4e5edef. }
+  OPTIONAL { ?subject <http://www.sealit.gr/ontology/FR/embarked_at> ?object. }
+  MINUS { ?master owl:sameAs ?object. }
+  OPTIONAL { ?object rdfs:label ?label. }
+  BIND(IF(BOUND(?object), ?object, \"Unknown\") AS ?object)
+}
+GROUP BY ?object ?label
+ORDER BY DESC (?count)
+LIMIT 50000""" .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c27c5092-84d6-4b6e-a1e3-e87462a0fb49>
+    <http://www.metaphacts.com/ontologies/persist/componentType> <http://www.metaphacts.com/ontologies/persist/components/semantic-chart>;
+    a <http://www.metaphacts.com/ontologies/persist/PersistedComponent> .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-kttiq <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext>
+      _:genid-fe432bf7203444afa882aeb6a16cf17c-1tb6q2 .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c27c5092-84d6-4b6e-a1e3-e87462a0fb49>
+    <http://www.w3.org/2000/01/rdf-schema#comment> "This is the descr" .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-unrhab <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps/partials>
+      _:genid-fe432bf7203444afa882aeb6a16cf17c-q1gaqf .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-pnpq1o <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-e7lw8 <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/type>
+      "bar" .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c27c5092-84d6-4b6e-a1e3-e87462a0fb49>
+    <http://www.w3.org/2000/01/rdf-schema#label> "Diagram example 1" .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-e7lw8 <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/id>
+      "search-result-chart" .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-1tb6q2 <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/repository>
+      "default" .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c27c5092-84d6-4b6e-a1e3-e87462a0fb49>
+    <http://www.metaphacts.com/ontologies/persist/componentProps> _:genid-fe432bf7203444afa882aeb6a16cf17c-e7lw8 .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-1tb6q2 <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/isDefault>
+      true .
+  
+  _:genid-fe432bf7203444afa882aeb6a16cf17c-d8j6o <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/value>
+      "count" .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c27c5092-84d6-4b6e-a1e3-e87462a0fb49>
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-03T13:02:13.540Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#persistedComponentContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.107.202:10315/container/persistedComponentContainer/c27c5092-84d6-4b6e-a1e3-e87462a0fb49> .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/c27c5092-84d6-4b6e-a1e3-e87462a0fb49>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

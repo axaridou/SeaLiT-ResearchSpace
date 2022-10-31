@@ -1,0 +1,16 @@
+
+<sealit:test/context> {
+  <sealit:test> a <http://spinrdf.org/sp#Query>, <http://spinrdf.org/sp#Select>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "sealit:test";
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?subject WHERE { ?subject <http://www.sealit.gr/ontology/FR/has_ship_type> <http://www.sealit.gr/DB/ship%20type/brich%20sconnez>. }
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/platform#searchState> "N4IgziBcoCYPZXAUwIYBsCWAXSBlAFhgA4gA0IAxlANqgBOSU9KidYkAKkgB5ZkgNEAHnxYsRSAHpJAdzkA6MKkxZ5AczqS4AOyxw0cNQE9JAMQBKk-CjAB9MISK2sRokgB8-GDWohzSMDgAVzoKRlJQDDoMJhAOVn4ANVisJDoAWw5XRkgQADkUdKQYPLgYcJAAN3QgnJBRcSlZBSV0bHVNABEAIUkHYgBSACYABhc3SQAjaIp8YZGwCh1tJAAvEABfDfI0FEmkNERpjFmAAkXlta8AimiiLAwdI5n8c6XtFfXyLCCiNBzQGAgmo1AEHk9oHEEuRkpDUhksm5EAUiiUyhVqmhaogGhJpHIZIplO0NJIen1HPNxkgpi95hcPlctjs9gdYvFcnwYSk0plsogADLYNLofiY7G5Y5nBmfLwoLDy-mQjkCJI8hFK-KFYqlcpimp1XFNAnyGQAZnkcDoakkoxGAEZJAANACyAtwsyQ6RQAGIwFhoto1JttiBdkGgihQYgQ1sALpx0NBbQYACOtQAkt5ICMNonyAAzGiJoA";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-10-06T08:16:15.296Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#queryContainer> <http://www.w3.org/ns/ldp#contains>
+      <sealit:test> .
+  
+  <sealit:test> a <http://www.w3.org/ns/ldp#Resource> .
+}

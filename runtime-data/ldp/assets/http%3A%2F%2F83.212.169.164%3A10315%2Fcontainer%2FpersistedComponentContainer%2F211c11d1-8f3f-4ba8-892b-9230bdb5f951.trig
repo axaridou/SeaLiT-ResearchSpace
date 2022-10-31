@@ -1,0 +1,84 @@
+
+<http://83.212.169.164:10315/container/persistedComponentContainer/211c11d1-8f3f-4ba8-892b-9230bdb5f951/context> {
+  _:genid-419fed91bf2f49219fe8b74a1355c3f0-5i5s5x <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/value>
+      "count" .
+  
+  _:genid-419fed91bf2f49219fe8b74a1355c3f0-opbajg <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps>
+      _:genid-419fed91bf2f49219fe8b74a1355c3f0-paibs7 .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/211c11d1-8f3f-4ba8-892b-9230bdb5f951>
+    <http://www.metaphacts.com/ontologies/persist/componentContext> _:genid-419fed91bf2f49219fe8b74a1355c3f0-opbajg .
+  
+  _:genid-419fed91bf2f49219fe8b74a1355c3f0-5i5s5x <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/category>
+      "object" .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/211c11d1-8f3f-4ba8-892b-9230bdb5f951>
+    <http://www.w3.org/2000/01/rdf-schema#comment> "distribution" .
+  
+  _:genid-419fed91bf2f49219fe8b74a1355c3f0-f89d2e <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/isDefault>
+      true .
+  
+  _:genid-419fed91bf2f49219fe8b74a1355c3f0-paibs7 <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps/partials>
+      _:genid-419fed91bf2f49219fe8b74a1355c3f0-kah92lm .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/211c11d1-8f3f-4ba8-892b-9230bdb5f951>
+    <http://www.metaphacts.com/ontologies/persist/componentProps> _:genid-419fed91bf2f49219fe8b74a1355c3f0-ize4o;
+    <http://www.metaphacts.com/ontologies/persist/componentType> <http://www.metaphacts.com/ontologies/persist/components/semantic-chart>;
+    a <http://www.metaphacts.com/ontologies/persist/PersistedComponent> .
+  
+  _:genid-419fed91bf2f49219fe8b74a1355c3f0-opbajg <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext>
+      _:genid-419fed91bf2f49219fe8b74a1355c3f0-f89d2e .
+  
+  _:genid-419fed91bf2f49219fe8b74a1355c3f0-pzh2qq <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>
+      _:genid-419fed91bf2f49219fe8b74a1355c3f0-5i5s5x;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+  
+  _:genid-419fed91bf2f49219fe8b74a1355c3f0-ize4o <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets>
+      _:genid-419fed91bf2f49219fe8b74a1355c3f0-pzh2qq .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/211c11d1-8f3f-4ba8-892b-9230bdb5f951>
+    <http://www.w3.org/2000/01/rdf-schema#label> "professions in a region" .
+  
+  _:genid-419fed91bf2f49219fe8b74a1355c3f0-f89d2e <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/repository>
+      "default" .
+  
+  _:genid-419fed91bf2f49219fe8b74a1355c3f0-ize4o <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/query>
+      """PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo: <http://www.bigdata.com/rdf/geospatial#>
+PREFIX wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX geoliteral: <http://www.bigdata.com/rdf/geospatial/literals/v1#>
+SELECT ?object ?label (COUNT(DISTINCT ?subject) AS ?count) WHERE {
+  ?subject <http://www.sealit.gr/ontology/FR/had_location_of_residence> ?place_53a28a09_1fff_4076_8d96_50540ef76832.
+  ?place_53a28a09_1fff_4076_8d96_50540ef76832 crm:P87_is_identified_by ?coord_1ea167e9_c9be_4b56_afe1_cba750c522cd.
+  SERVICE geo:search {
+    ?coord_1ea167e9_c9be_4b56_afe1_cba750c522cd geo:search \"inRectangle\";
+      geo:predicate wgs84_pos:lat_long;
+      geo:searchDatatype geoliteral:lat-lon;
+      geo:spatialRectangleSouthWest \"38.28170596483403#5.7538350346721225\"^^xsd:string;
+      geo:spatialRectangleNorthEast \"44.39347007207999#14.542897534672116\"^^xsd:string.
+  }
+  OPTIONAL { ?subject <http://www.sealit.gr/ontology/FR/had_profession> ?object. }
+  MINUS { ?master owl:sameAs ?object. }
+  OPTIONAL { ?object rdfs:label ?label. }
+  BIND(IF(BOUND(?object), ?object, \"Unknown\") AS ?object)
+}
+GROUP BY ?object ?label
+ORDER BY (?object) DESC (?count)
+LIMIT 50000""";
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/type> "bar";
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/id> "search-result-chart" .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/211c11d1-8f3f-4ba8-892b-9230bdb5f951>
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-17T09:35:56.296Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#persistedComponentContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.169.164:10315/container/persistedComponentContainer/211c11d1-8f3f-4ba8-892b-9230bdb5f951> .
+  
+  <http://83.212.169.164:10315/container/persistedComponentContainer/211c11d1-8f3f-4ba8-892b-9230bdb5f951>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

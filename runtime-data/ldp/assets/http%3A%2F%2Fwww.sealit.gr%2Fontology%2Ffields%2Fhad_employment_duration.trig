@@ -1,0 +1,45 @@
+
+<http://www.sealit.gr/ontology/fields/had_employment_duration/context> {
+  <http://www.sealit.gr/ontology/fields/had_employment_duration> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-48277d72950143438d34294ac16df127-st489;
+    a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-48277d72950143438d34294ac16df127-st489 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/had_employment_duration> <http://www.metaphacts.com/ontology/fields#selectPattern>
+      _:genid-48277d72950143438d34294ac16df127-glk9pk;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string> .
+  
+  _:genid-48277d72950143438d34294ac16df127-glk9pk a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT DISTINCT ?value ?label {
+$subject sealit:for_employment_period ?timespan.
+
+?timespan sealit:had_duration ?value .
+?value sealit:value_duration  ?value_duration .  
+BIND (IF(CONTAINS(STR(?value_duration),\"T\"), STRBEFORE(STR(?value_duration),\"T\"), STR(?value_duration))  as ?duration_Date)
+BIND (IF(CONTAINS(STR(?value_duration),\"T\"), STRAFTER(STR(?value_duration),\"T\"), \"\") as ?duration_Time)
+BIND (CONCAT(\"\",
+COALESCE(REPLACE(REPLACE(REPLACE(REPLACE(STR(?duration_Date), \"P\",\"\"), \"Y\", \" year(s), \"), \"M\", \" month(s), \"), \"D\", \" day(s), \"), \"A\"),
+COALESCE(REPLACE(REPLACE(REPLACE(REPLACE(STR(?duration_Time), \"T\",\"\"), \"H\", \" hour(s), \"), \"M\", \" minute(s), \"), \"S\", \" second(s), \"),\"B\")
+           ) as ?durationXX ) 
+BIND ( IF(STRENDS(?durationXX,\", \"), SUBSTR(?durationXX, 0, STRLEN(?durationXX)-2), ?durationXX) as ?durationYY )
+BIND ( IF(BOUND(?durationYY), CONCAT(\"\", ?durationYY), \"\") as ?durationText  )
+BIND ( ?durationText as ?label )
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/had_employment_duration> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Crew_Payment> .
+  
+  _:genid-48277d72950143438d34294ac16df127-st489 <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/had_employment_duration> <http://www.w3.org/2000/01/rdf-schema#label>
+      "had duration (OBSOLETE)"@en;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-05T06:58:05.622Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/had_employment_duration> .
+  
+  <http://www.sealit.gr/ontology/fields/had_employment_duration> a <http://www.w3.org/ns/ldp#Resource> .
+}

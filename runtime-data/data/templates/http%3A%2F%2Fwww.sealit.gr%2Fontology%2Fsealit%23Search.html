@@ -1,0 +1,135 @@
+<style>
+  .cell-label{
+    display: inline;
+    padding: .2em .6em .3em .2em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+</style>
+
+<ol class="page-breadcrumb">
+  <li>
+    <mp-link title="Home" url="/">Home</mp-link>
+  </li>
+  <li class="active">Search</li>
+</ol>
+
+
+  
+<mp-event-proxy id='clipboard-update-on-save-set' on-event-source='save-set-result-action'
+                proxy-event-type='Component.Refresh' proxy-targets='["clipboard-sidebar"]'
+></mp-event-proxy>
+
+<mp-event-proxy id='clipboard-update-on-save-search' on-event-source='save-search-result-action'
+                proxy-event-type='Component.Refresh' proxy-targets='["clipboard-sidebar"]'
+></mp-event-proxy>
+
+<mp-event-proxy id='clipboard-update-on-persisted-component' on-event-source='persit-component-action'
+                proxy-event-type='Component.Refresh' proxy-targets='["clipboard-sidebar"]'
+></mp-event-proxy>
+
+[[!--
+[[>rsp:SearchTourSteps]]
+<mp-event-proxy id='guided-tour-run' on-event-type='Component.Loaded' on-event-source='semantic-search'
+  proxy-event-type='GuidedTour.RunIfNotSeen' proxy-targets='["guided-tour-search"]'>
+</mp-event-proxy>
+--]]
+<div class="page">
+  [[#>rsp:ClipboardSidebar]]
+  
+  <div class='page__body--borderless'>     
+
+  <bs-tabs id='record-tabs' default-active-key='[[#if (urlParam "tab")]][[urlParam "tab"]][[else]]semanticSearch[[/if]]' unmount-on-exit=true >
+  <bs-tab event-key='keywordSearch' title='Keyword search'>
+ 		[[>sealit:KeywordSearch]]
+  </bs-tab>
+
+  <bs-tab event-key='semanticSearch' title='Semantic search'>  
+		[[>sealit:SemanticSearch]]
+  </bs-tab>
+    
+  <bs-tab event-key='Records' title='Records'>
+ 		[[>sealit:PerTypeSearch_Records]]
+  </bs-tab>
+    
+  <bs-tab event-key='census_la_ciotat' title='Census la ciotat'>
+ 		[[>sealit:PerTypeSearch_census_la_ciotat]]
+  </bs-tab>
+    
+  <bs-tab event-key='crew_list_ruoli' title='Crew list (ruoli di equipaggio)'>
+ 		[[>sealit:PerTypeSearch_crew_list_ruoli]]
+  </bs-tab>
+    
+  <bs-tab event-key='civil_register' title='Civil register'>
+ 		[[>sealit:PerTypeSearch_civil_register]]
+  </bs-tab>
+   
+  <bs-tab event-key='payroll_of_russian_steam' title='Payroll of russian steam navigation and trading company'>
+ 		[[>sealit:PerTypeSearch_payroll_of_russian_steam]]
+  </bs-tab>
+  
+  <bs-tab event-key='first_national_all_russian' title='First national all-russian census of the russian empire'>
+ 		[[>sealit:PerTypeSearch_first_national_all_russian]]
+  </bs-tab>
+    
+  <bs-tab event-key='crew_and_displacement' title='Crew and displacement list (roll)'>
+ 		[[>sealit:PerTypeSearch_crew_and_displacement]]
+  </bs-tab>   
+
+  <bs-tab event-key='spanish_crew_list' title='General spanish crew list'>
+ 		[[>sealit:PerTypeSearch_spanish_crew_list]]
+  </bs-tab> 
+   
+  <bs-tab event-key='register_of_maritime_workers' title='Register of maritime workers'>
+ 		[[>sealit:PerTypeSearch_register_of_maritime_workers]]
+  </bs-tab>
+    
+  <bs-tab event-key='sailors_register' title='Sailors register'>
+ 		[[>sealit:PerTypeSearch_sailors_register]]
+  </bs-tab>
+    
+  <bs-tab event-key='shipyards_of_messageries_maritimes' title='Shipyards of messageries maritimes'>
+ 		[[>sealit:PerTypeSearch_shipyards_of_messageries_maritimes]]
+  </bs-tab>
+    
+  <bs-tab event-key='list_of_ships' title='List of ships'>
+ 		[[>sealit:PerTypeSearch_list_of_ships]]
+  </bs-tab>
+
+  <bs-tab event-key='naval_ship_register_list' title='Naval ship register list'>
+ 		[[>sealit:PerTypeSearch_naval_ship_register_list]]
+  </bs-tab>
+ 
+  <bs-tab event-key='payroll' title='Payroll'>
+ 		[[>sealit:PerTypeSearch_payroll]]
+  </bs-tab>
+    
+  <bs-tab event-key='register_of_maritime_personnel' title='Register of Maritime Personnel'>
+ 		[[>sealit:PerTypeSearch_register_of_maritime_personnel]]
+  </bs-tab>
+    
+  <bs-tab event-key='students_register' title='Students register'>
+ 		[[>sealit:PerTypeSearch_students_register]]
+  </bs-tab>
+    
+  <bs-tab event-key='seagoing_personel' title='Seagoing Personel'>
+ 		[[>sealit:PerTypeSearch_seagoing_personel]]
+  </bs-tab>
+
+
+   </bs-tabs>
+  </div>
+ 
+  [[/rsp:ClipboardSidebar]]
+</div>
+
+[[!--
+  <div class="semantic-search-results-actions pull-right"><p class="wysiwyg-text-align-center"><strong><em>Icons made by&nbsp;</em></strong><a href="https://www.freepik.com/home"><strong><em>Freepik</em></strong></a><strong><em>&nbsp;from&nbsp;</em></strong><strong><em><a href="http://www.flaticon.com/">www.flaticon.com</a></em></strong></p></div>
+  --]]

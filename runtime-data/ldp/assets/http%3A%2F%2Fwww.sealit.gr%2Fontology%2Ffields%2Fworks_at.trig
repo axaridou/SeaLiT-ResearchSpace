@@ -1,0 +1,30 @@
+
+<http://www.sealit.gr/ontology/fields/works_at/context> {
+  <http://www.sealit.gr/ontology/fields/works_at> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+  
+  _:genid-5e399c15722e4962913fc16dea94751e-zcqhe <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/works_at> <http://www.w3.org/2000/01/rdf-schema#label>
+      "works at"@en;
+    <http://www.metaphacts.com/ontology/fields#range> <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body>;
+    <http://www.metaphacts.com/ontology/fields#insertPattern> _:genid-5e399c15722e4962913fc16dea94751e-zcqhe;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-5e399c15722e4962913fc16dea94751e-yzni9h .
+  
+  _:genid-5e399c15722e4962913fc16dea94751e-zcqhe a <http://spinrdf.org/sp#Query> .
+  
+  _:genid-5e399c15722e4962913fc16dea94751e-yzni9h a <http://spinrdf.org/sp#Query>;
+    <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject sealit:works_at ?value.
+  ?value rdfs:label ?label.
+}""" .
+  
+  <http://www.sealit.gr/ontology/fields/works_at> a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-03-16T19:30:45.568Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/works_at> .
+  
+  <http://www.sealit.gr/ontology/fields/works_at> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,166 @@
+
+[[> sealit:Page_breadcrumb ]]
+
+<style>
+  #record-tabs .tab-ontodia {
+    margin: 0px;
+    padding: 2px 0px 0px;
+    width: 100%;
+    height: calc(100vh - 300px);
+  }
+</style>
+
+<div class="page">
+
+  [[!-- [[> Platform:DefaultResourceHeader ]] --]]
+  
+  [[> sealit:MasterResourceHeader ]]
+
+ 
+  <bs-tabs id='record-tabs' class='page__body-navtabs--borderless' default-active-key='summary' unmount-on-exit=true>
+
+        <bs-tab event-key='summary' title='Summary'>
+      <div data-flex-layout='row top-stretch'>
+   
+        <div class='table-responsive'>
+          <table class='table'>
+            <thead role='header'>
+              <tr>
+                <th>Field</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+           
+            <mp-field-visualization
+                subject='[[this]]'
+                fields='[[fieldDefinitions
+
+http://www.sealit.gr/ontology/fields/has_type	=	"http://www.sealit.gr/ontology/fields/has_type"
+http://www.sealit.gr/ontology/fields/coordinates = "http://www.sealit.gr/ontology/fields/coordinates"
+http://www.sealit.gr/ontology/fields/has_broader_place = "http://www.sealit.gr/ontology/fields/has_broader_place"
+http://www.sealit.gr/ontology/fields/is_place_of_construction_for = "http://www.sealit.gr/ontology/fields/is_place_of_construction_for"
+http://www.sealit.gr/ontology/fields/is_registration_place_of	=	"http://www.sealit.gr/ontology/fields/is_registration_place_of"
+http://www.sealit.gr/ontology/fields/is_destination_of = "http://www.sealit.gr/ontology/fields/is_destination_of"
+http://www.sealit.gr/ontology/fields/related_to_voyage = "http://www.sealit.gr/ontology/fields/related_to_voyage"
+http://www.sealit.gr/ontology/fields/is_place_of_birth = "http://www.sealit.gr/ontology/fields/is_place_of_birth" 
+http://www.sealit.gr/ontology/fields/is_current_or_former_residence_for	=	"http://www.sealit.gr/ontology/fields/is_current_or_former_residence_for"
+http://www.sealit.gr/ontology/fields/referred_to_by = "http://www.sealit.gr/ontology/fields/referred_to_by"
+
+                ]]'
+                template='{{> rsp:FieldBasedVisualization fields=fields }}'
+              ></mp-field-visualization>
+
+            </table>
+          
+[[#if (ask "ASK {?? crm:P2_has_type <http://www.sealit.gr/DB/type/master>}") ]]
+[[> sealit:Resource_info 		registered_as=true ]]
+[[else]]
+[[> sealit:Resource_info 		sourceinfo=true ]] 
+[[> sealit:Resource_info 		registry=true ]]
+[[/if]]
+        
+          </div>
+      </div>
+    </bs-tab>
+    
+   <bs-tab event-key="placeOnMap" title="Map">
+      <semantic-map id="view-place-on-map"
+          queryOLD='
+            PREFIX wgs84_pos:<http://www.w3.org/2003/01/geo/wgs84_pos#>
+            SELECT ?subject ?lat ?lng ?link ?description WHERE {
+              VALUES ?subject { ?? }
+              ?subject crm:P87_is_identified_by ?coordinates .
+              ?coordinates wgs84_pos:lat ?lat .
+              ?coordinates wgs84_pos:long ?lng .
+              OPTIONAL { ?subject skos:prefLabel ?descriptionX .}
+              OPTIONAL { ?subject rdfs:label ?labelX .}
+              OPTIONAL { ?subject a ?type .}
+              BIND ( COALESCE(?descriptionX, ?labelX, CONCAT(?lat,",",?lng), STR(?subject)) as ?description )
+              BIND ( COALESCE(REPLACE(STR(?subject),"(^http.*/)", "", "i")) as ?linkX )
+              BIND ( COALESCE(REPLACE(?linkX,"(%20)", " ", "i")) as ?link )
+            } LIMIT 100	
+          '
+            query='
+            PREFIX wgs84_pos:<http://www.w3.org/2003/01/geo/wgs84_pos#>
+            SELECT DISTINCT ?subject ?lat ?lng ?link ?description ?label WHERE {
+            VALUES ?subject { ?? }
+  
+              ?subject crm:P87_is_identified_by ?coordinates.
+              OPTIONAL { ?subject rdfs:label ?label . }
+              ?coordinates  wgs84_pos:lat_long ?lat_long .
+              BIND(STRBEFORE(STR(?lat_long), "#") as ?lat)
+							BIND(STRAFTER(STR(?lat_long), "#") as ?lng)
+              OPTIONAL { ?subject skos:prefLabel ?descriptionX. }
+              OPTIONAL { ?subject rdfs:label ?labelX. }
+              OPTIONAL { ?subject rdf:type ?type. }
+              BIND(COALESCE(?descriptionX, ?labelX, CONCAT(?lat,",",?lng), STR(?subject)) AS ?description)
+              BIND(COALESCE(REPLACE(STR(?subject), "(^http.*/)", "", "i")) AS ?linkX)
+              BIND(COALESCE(REPLACE(?linkX, "(%20)", " ", "i")) AS ?link)
+            }
+            LIMIT 100
+          '
+                    
+                    query2='
+            PREFIX wgs84_pos:<http://www.w3.org/2003/01/geo/wgs84_pos#>
+            SELECT DISTINCT ?subject ?lat ?lng ?link ?description ?label WHERE {
+            VALUES ?subject { ?? }
+  
+              OPTIONAL {
+                SELECT ?subject ?coordinates ?lat_long ?lat ?lng WHERE {
+                  VALUES ?subject { ?? }
+                  ?subject crm:P87_is_identified_by ?coordinates.
+                  ?coordinates wgs84_pos:lat_long ?lat_long.
+                  BIND(STRBEFORE(STR(?lat_long), "#") AS ?lat)
+                  BIND(STRAFTER(STR(?lat_long), "#") AS ?lng)
+                }
+                LIMIT 1
+              }
+              OPTIONAL {
+                SELECT ?subject ?label WHERE {
+                  VALUES ?subject { ?? }
+                  ?subject rdfs:label ?label.
+                }
+                LIMIT 1
+              }
+              OPTIONAL {
+                SELECT ?subject ?descriptionX WHERE {
+                  VALUES ?subject { ?? }
+                  ?subject skos:prefLabel ?descriptionX.
+                }
+                LIMIT 1
+              }
+              BIND ( ?label as ?labelX )
+              OPTIONAL { ?subject rdf:type ?type. }
+              BIND(COALESCE(?descriptionX, ?labelX, CONCAT(?lat,",",?lng), STR(?subject)) AS ?description)
+              BIND(COALESCE(REPLACE(STR(?subject), "(^http.*/)", "", "i")) AS ?linkX)
+              BIND(COALESCE(REPLACE(?linkX, "(%20)", " ", "i")) AS ?link)
+            }
+            LIMIT 100
+          '
+
+           tuple-template="<div>
+                                    Try to find about place <i>{{label.value}}</i> at:<br/>
+                           <a href='https://en.wikipedia.org/wiki/{{label.value}}' target='_blank'>en.wikipedia.org</a><br/>
+                           <a href='https://www.google.com/search?q={{label.value}}' target='_blank'>www.google.com</a><br/>
+                                    <br/>
+                                    </div>
+                                         "
+                    
+           no-result-template='<div>Map cannot be shown: either no locations or coordinates were found</div>'
+                    >
+        </semantic-map>
+    </bs-tab>
+    </bs-tabs>
+</div>
+
+
+[[!--
+[[#> rsp:Resource fc='places' fcLabel='Place record']]
+  [[#*inline "summary"]]
+    [[> rsp:PlaceSummary]]
+  [[/inline]]
+  [[#*inline "wikidata"]]
+    [[> rsp:PlaceRelated]]
+  [[/inline]]
+[[/ rsp:Resource]]
+--]]

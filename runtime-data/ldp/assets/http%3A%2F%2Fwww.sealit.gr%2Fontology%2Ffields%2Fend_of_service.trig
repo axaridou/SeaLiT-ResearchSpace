@@ -1,0 +1,42 @@
+
+<http://www.sealit.gr/ontology/fields/end_of_service/context> {
+  _:genid-9e1e426cf10640adababdb571eceac3f-cvl58 a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/end_of_service> a <http://www.metaphacts.com/ontology/fields#Field> .
+  
+  _:genid-9e1e426cf10640adababdb571eceac3f-cvl58 <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+  $subject crm:P115i_is_finished_by ?end.
+OPTIONAL {?end crm:P4_has_time-span/crm:P82b_end_of_the_end/rdfs:label ?endtime.}
+OPTIONAL {?end crm:P17_was_motivated_by/rdfs:label ?reason.}
+      
+BIND (  CONCAT(
+      COALESCE(?endtime, \"\"), 
+      CONCAT( \" reason: \",
+      COALESCE(?reason, \"\")))
+
+AS ?value)
+      
+
+}""" .
+  
+  _:genid-9e1e426cf10640adababdb571eceac3f-s3rnoj <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/end_of_service> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-9e1e426cf10640adababdb571eceac3f-s3rnoj;
+    <http://www.w3.org/2000/01/rdf-schema#label> "end of service"@en .
+  
+  _:genid-9e1e426cf10640adababdb571eceac3f-s3rnoj a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/end_of_service> <http://www.metaphacts.com/ontology/fields#domain>
+      <http://www.sealit.gr/ontology/sealit#Service>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-9e1e426cf10640adababdb571eceac3f-cvl58;
+    <http://www.metaphacts.com/ontology/fields#xsdDatatype> <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-10-06T11:16:55.032Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/end_of_service> .
+  
+  <http://www.sealit.gr/ontology/fields/end_of_service> a <http://www.w3.org/ns/ldp#Resource> .
+}

@@ -1,0 +1,16 @@
+
+<http://83.212.169.164:10315/container/Uncategorized/07df49df-7520-4aff-9c6a-4c647355e4bf/context> {
+  <http://83.212.169.164:10315/container/Uncategorized/07df49df-7520-4aff-9c6a-4c647355e4bf>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://83.212.169.164:10315/container/queryContainer/look_at_the_suggested_values>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "look at the suggested values";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2021-06-09T08:31:37.212Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform/user/admin/setContainer/Uncategorized>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.169.164:10315/container/Uncategorized/07df49df-7520-4aff-9c6a-4c647355e4bf> .
+  
+  <http://83.212.169.164:10315/container/Uncategorized/07df49df-7520-4aff-9c6a-4c647355e4bf>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

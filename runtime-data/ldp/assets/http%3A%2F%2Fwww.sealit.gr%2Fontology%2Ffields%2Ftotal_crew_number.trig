@@ -1,0 +1,36 @@
+
+<http://www.sealit.gr/ontology/fields/total_crew_number/context> {
+  <http://www.sealit.gr/ontology/fields/total_crew_number> a <http://www.metaphacts.com/ontology/fields#Field>;
+    <http://www.metaphacts.com/ontology/fields#domain> <http://www.sealit.gr/ontology/sealit#Voyage>;
+    <http://www.metaphacts.com/ontology/fields#selectPattern> _:genid-2feabc09e2f84825ae0189998e715e7e-kqvvzj .
+  
+  _:genid-2feabc09e2f84825ae0189998e715e7e-ax7hp <http://spinrdf.org/sp#text> "INSERT { $subject ?predicate $value} WHERE {}" .
+  
+  <http://www.sealit.gr/ontology/fields/total_crew_number> <http://www.metaphacts.com/ontology/fields#insertPattern>
+      _:genid-2feabc09e2f84825ae0189998e715e7e-ax7hp .
+  
+  _:genid-2feabc09e2f84825ae0189998e715e7e-kqvvzj a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/total_crew_number> <http://www.w3.org/2000/01/rdf-schema#label>
+      "total crew number"@en .
+  
+  _:genid-2feabc09e2f84825ae0189998e715e7e-kqvvzj <http://spinrdf.org/sp#text> """SELECT ?value ?label WHERE {
+$subject a sealit:Voyage .
+$subject crm:P14_carried_out_by ?group .
+?group a crm:E74_Group ; rdfs:label ?grpLabel. FILTER ( STRSTARTS(?grpLabel, \"total crew number\")) 
+?group crm:P3_has_note  ?value .
+}""" .
+  
+  _:genid-2feabc09e2f84825ae0189998e715e7e-ax7hp a <http://spinrdf.org/sp#Query> .
+  
+  <http://www.sealit.gr/ontology/fields/total_crew_number> <http://www.metaphacts.com/ontology/fields#xsdDatatype>
+      <http://www.w3.org/2001/XMLSchema#string>;
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-01T18:45:34.473Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#fieldDefinitionContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.sealit.gr/ontology/fields/total_crew_number> .
+  
+  <http://www.sealit.gr/ontology/fields/total_crew_number> a <http://www.w3.org/ns/ldp#Resource> .
+}

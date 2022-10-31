@@ -1,0 +1,73 @@
+
+<http://83.212.107.202:10315/container/persistedComponentContainer/8ec88859-e663-47ab-a8f1-7cab79647d34/context> {
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-n5b5q <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext>
+      _:genid-afbad1008f4841a08e8ebb9f469836b8-us0rhg .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/8ec88859-e663-47ab-a8f1-7cab79647d34>
+    <http://www.metaphacts.com/ontologies/persist/componentContext> _:genid-afbad1008f4841a08e8ebb9f469836b8-n5b5q .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-rf8l7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>
+      _:genid-afbad1008f4841a08e8ebb9f469836b8-w0n4kf .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/8ec88859-e663-47ab-a8f1-7cab79647d34>
+    <http://www.metaphacts.com/ontologies/persist/componentType> <http://www.metaphacts.com/ontologies/persist/components/semantic-chart>;
+    a <http://www.metaphacts.com/ontologies/persist/PersistedComponent>;
+    <http://www.metaphacts.com/ontologies/persist/componentProps> _:genid-afbad1008f4841a08e8ebb9f469836b8-ru08l9;
+    <http://www.w3.org/2000/01/rdf-schema#label> "test" .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-us0rhg <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/repository>
+      "default" .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-ru08l9 <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/query>
+      """PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?object ?label (COUNT(DISTINCT ?subject) AS ?count) WHERE {
+  ?subject <http://www.sealit.gr/ontology/FR/had_profession> <http://www.sealit.gr/DB/Profession%20type/capitano%20di%20seconda%20classe>.
+  OPTIONAL { ?subject <http://www.sealit.gr/ontology/FR/discharged_at> ?object. }
+  MINUS { ?master owl:sameAs ?object. }
+  OPTIONAL { ?object rdfs:label ?label. }
+  BIND(IF(BOUND(?object), ?object, \"Unknown\") AS ?object)
+}
+GROUP BY ?object ?label
+ORDER BY DESC (?count)
+LIMIT 50000""" .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-gmleoj <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps/partials>
+      _:genid-afbad1008f4841a08e8ebb9f469836b8-h6tw9j .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-rf8l7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-n5b5q <http://www.metaphacts.com/ontologies/persist/componentContext/templateProps>
+      _:genid-afbad1008f4841a08e8ebb9f469836b8-gmleoj .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-ru08l9 <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets>
+      _:genid-afbad1008f4841a08e8ebb9f469836b8-rf8l7 .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-us0rhg <http://www.metaphacts.com/ontologies/persist/componentContext/semanticContext/isDefault>
+      true .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/8ec88859-e663-47ab-a8f1-7cab79647d34>
+    <http://www.w3.org/2000/01/rdf-schema#comment> "vis test" .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-w0n4kf <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/value>
+      "count" .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-ru08l9 <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/type>
+      "bar";
+    <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/id> "search-result-chart" .
+  
+  _:genid-afbad1008f4841a08e8ebb9f469836b8-w0n4kf <http://www.metaphacts.com/ontologies/persist/components/semantic-chart/sets/_item/0/category>
+      "object" .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/8ec88859-e663-47ab-a8f1-7cab79647d34>
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-09T14:49:15.603Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#persistedComponentContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://83.212.107.202:10315/container/persistedComponentContainer/8ec88859-e663-47ab-a8f1-7cab79647d34> .
+  
+  <http://83.212.107.202:10315/container/persistedComponentContainer/8ec88859-e663-47ab-a8f1-7cab79647d34>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}

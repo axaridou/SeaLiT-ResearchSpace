@@ -1,0 +1,42 @@
+[[!-- USELESS --]]
+{{#switch subjtype.value}}
+
+{{#case "http://www.sealit.gr/ontology/sealit#Ship" break=true}}
+ <semantic-table query='[[> sealit:queries ship=true limit=false subject=subject ]]'></semantic-table>
+{{/case}}
+
+{{#case "http://www.sealit.gr/ontology/sealit#Voyage" break=true}}
+ <semantic-table query='[[> sealit:queries voyage=true limit=false subject=subject ]]'></semantic-table>
+{{/case}}
+
+{{#case "http://www.cidoc-crm.org/cidoc-crm/E21_Person" break=true}}
+ <semantic-table query='[[> sealit:queries person=true limit=false subject=subject ]]'></semantic-table>
+{{/case}}
+
+{{#case "http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body" break=true}}
+ <semantic-table query='[[> sealit:queries organization=true limit=false subject=subject ]]'></semantic-table>
+{{/case}}
+
+{{#case "http://www.sealit.gr/ontology/sealit#Crew_Payment" break=true}}
+ <semantic-table query='[[> sealit:queries crew_payment=true limit=false subject=subject ]]'></semantic-table>
+{{/case}}
+
+{{#case "http://www.sealit.gr/ontology/sealit#Ship_Crew_Employment" break=true}}
+ <semantic-table query='[[> sealit:queries crew_employment=true limit=false subject=subject ]]'></semantic-table>
+{{/case}}
+
+
+{{#case "http://www.sealit.gr/ontology/FC/Record" break=true}}
+ <semantic-table query='[[> sealit:queries record=true limit=false subject=subject ]]'></semantic-table>
+{{/case}}
+
+{{#case "http://www.cidoc-crm.org/cidoc-crm/E53_Place" break=true}}
+ <semantic-table query='[[> sealit:queries place=true limit=false subject=subject ]]'></semantic-table>
+{{/case}}
+
+{{#default}}
+ <semantic-table query='[[> sealit:queries limit=false subject=subject ]]'></semantic-table>
+{{/default}}
+  
+{{/switch}}
+

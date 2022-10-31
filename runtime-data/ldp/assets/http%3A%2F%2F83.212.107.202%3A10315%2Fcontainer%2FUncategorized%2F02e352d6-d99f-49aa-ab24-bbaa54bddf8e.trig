@@ -1,0 +1,16 @@
+
+<http://83.212.107.202:10315/container/Uncategorized/02e352d6-d99f-49aa-ab24-bbaa54bddf8e/context> {
+  <http://83.212.107.202:10315/container/Uncategorized/02e352d6-d99f-49aa-ab24-bbaa54bddf8e>
+    <http://www.metaphacts.com/ontologies/platform#setItem> <http://83.212.107.202:10315/container/persistedComponentContainer/c27c5092-84d6-4b6e-a1e3-e87462a0fb49>;
+    a <http://www.metaphacts.com/ontologies/platform#SetItem>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Diagram example 1";
+    a <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2020-12-03T13:02:14.603Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform/user/admin/setContainer/Uncategorized>
+    <http://www.w3.org/ns/ldp#contains> <http://83.212.107.202:10315/container/Uncategorized/02e352d6-d99f-49aa-ab24-bbaa54bddf8e> .
+  
+  <http://83.212.107.202:10315/container/Uncategorized/02e352d6-d99f-49aa-ab24-bbaa54bddf8e>
+    a <http://www.w3.org/ns/ldp#Resource> .
+}
