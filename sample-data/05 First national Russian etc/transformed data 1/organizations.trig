@@ -1,0 +1,61 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire>
+        a           crm:E55_Type ;
+        rdfs:label  "first national all-russian census of the russian empire" .
+
+<http://www.sealit.gr/DB/organization_appellation/FFD7D699-DE38-3AA3-8571-F4B117A8389E>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Государственный архив Одесской области" .
+
+<http://www.sealit.gr/DB/register_record/2017-12-18T13%3A14%3A02.364Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "First national all-Russian census of the Russian Empire, 2.9.64, Карантинная, 3, 1897, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Census%20Odessa.html?name=2017-12-18T13:14:02.364Z_2&templateTitle=First%20national%20all-Russian%20census%20of%20the%20Russian%20Empire&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/36989008-FC91-3D7E-BF59-20D83DCEA823>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.9.64, Карантинная, 3, 1897, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T13%3A14%3A02.364Z_2> , <http://www.sealit.gr/DB/organisation/%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Государственный архив Одесской области" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/FFD7D699-DE38-3AA3-8571-F4B117A8389E> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/register_record_point/EF22C457-E302-3C3C-BC63-4FEDEE336705>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.260, Военный спуск, 2, 1897, Anna  Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-11-23T10%3A39%3A19.154Z_10> , <http://www.sealit.gr/DB/organisation/%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8> .
+
+<http://www.sealit.gr/DB/organisation/%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record/2017-11-23T10%3A39%3A19.154Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "First national all-Russian census of the Russian Empire, 2.8.260, Военный спуск, 2, 1897, Anna  Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Census%20Odessa.html?name=2017-11-23T10:39:19.154Z_10&templateTitle=First%20national%20all-Russian%20census%20of%20the%20Russian%20Empire&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Census%20Odessa.html?name=2017-12-18T13:14:02.364Z_2&templateTitle=First%20national%20all-Russian%20census%20of%20the%20Russian%20Empire&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Census%20Odessa.html?name=2017-11-23T10:39:19.154Z_10&templateTitle=First%20national%20all-Russian%20census%20of%20the%20Russian%20Empire&mode=teamView>
+        a       rdfs:Resource .

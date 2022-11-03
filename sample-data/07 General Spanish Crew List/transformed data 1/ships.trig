@@ -1,0 +1,61 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list>
+        a           crm:E55_Type ;
+        rdfs:label  "general spanish crew list" .
+
+<http://www.sealit.gr/DB/ship%20type/vapor>
+        a           crm:E55_Type ;
+        rdfs:label  "vapor" .
+
+<http://www.sealit.gr/DB/ship%20name/alfonso%20xii>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Alfonso XII" .
+
+<http://www.sealit.gr/DB/register_record/2019-12-06T21%3A15%3A04.364Z_40>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Alfonso XII, 1912-04-21, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-06T21:15:04.364Z_40&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-06T21:15:04.364Z_40&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/674802A7-E1EF-3101-9A87-E0DECC3D0F4E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XII, 1912-04-21, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-06T21%3A15%3A04.364Z_40> , <http://www.sealit.gr/DB/ship/45F2E435-5BCF-3FC9-B020-D339FA79A46C> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/ship/45F2E435-5BCF-3FC9-B020-D339FA79A46C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<urn:uuid:ca23bbbe-f8ad-4645-9484-26d36c1958d7>
+        a                     sealit:Ship_Registration ;
+        rdfs:label            "Registration of Alfonso XII" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/ship/0A916A52-4872-34AB-BF08-EB7BCD2A54D8>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Alfonso XII" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/alfonso%20xii> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/vapor> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <urn:uuid:ca23bbbe-f8ad-4645-9484-26d36c1958d7> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/45F2E435-5BCF-3FC9-B020-D339FA79A46C> .
+
+<http://www.sealit.gr/DB/location/barcelona>
+        a           crm:E53_Place ;
+        rdfs:label  "Barcelona" .

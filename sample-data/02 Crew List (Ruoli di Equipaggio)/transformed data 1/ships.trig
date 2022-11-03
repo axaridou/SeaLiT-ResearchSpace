@@ -1,0 +1,82 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/ship/E072D523-4DE4-3423-9C06-955E78790754>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Adelaide" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/adelaide> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/ship%20type/brigantino%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by    <http://www.sealit.gr/DB/registration_number/357> ;
+        sealit:was_constructed_by  <urn:uuid:9bbd35a2-182d-479e-b61e-d712624cabbf> ;
+        owl:sameAs                 <http://www.sealit.gr/DB/ship/74BC3DDA-8386-37D4-9CF5-44A688A0C9FA> .
+
+<http://www.sealit.gr/DB/location/all%60estero>
+        a           crm:E53_Place ;
+        rdfs:label  "all`estero" .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<urn:uuid:9bbd35a2-182d-479e-b61e-d712624cabbf>
+        a                     sealit:Ship_Construction ;
+        rdfs:label            "Construction of Adelaide" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1846> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/all%60estero> .
+
+<http://www.sealit.gr/DB/date/1846>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1846" ;
+        crm:P82_at_some_time_within  "1846"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T14:02:15.448Z_17&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/ship/74BC3DDA-8386-37D4-9CF5-44A688A0C9FA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<http://www.sealit.gr/DB/ship%20type/brigantino%20barca>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino barca" .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T14:02:15.448Z_17&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/ship%20name/adelaide>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Adelaide" .
+
+<http://www.sealit.gr/DB/register_record_point/C6D240C8-2732-34C7-A5BB-74D7BF83FDC6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/ship/74BC3DDA-8386-37D4-9CF5-44A688A0C9FA> .
+
+<http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<http://www.sealit.gr/DB/ship_identifier/357>
+        a                sealit:Ship_ID ;
+        rdfs:label       "357" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/357>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Adelaide" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/357> .

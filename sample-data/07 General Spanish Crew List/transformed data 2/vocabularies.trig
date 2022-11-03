@@ -1,0 +1,1086 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record/2020-02-06T18%3A52%3A46.972Z_58>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Manila, Unknown, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-02-06T18:52:46.972Z_58&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/6BED15A9-1811-3F58-910B-D5454A0CBB16>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Caupolicán, 1866-06-27, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-28T17%3A29%3A05.846Z_21> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-11-28T17%3A29%3A05.846Z_21>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Caupolicán, 1866-06-27, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-28T17:29:05.846Z_21&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/18334BF6-FD35-322B-B2A6-92CBD5621249>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Isla de Luzón, 1892-03-00, Enric Garcia | row: 7, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T20%3A18%3A46.965Z_39> , <http://www.sealit.gr/DB/capell%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-11-26T17%3A06%3A30.958Z_18>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Dalia, 1865-11-26, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-26T17:06:30.958Z_18&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/3FCBEBD0-EF9C-3067-8C3C-93E34583903C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), vapor, Carlos, Austria,  Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-18T12%3A18%3A05.764Z_2> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/78AFB06F-6AC9-3A45-A409-AFF3F3EB9E72>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Viñuelas, 1882-06-30, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-02T19%3A04%3A10.763Z_55> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-11-26T16%3A36%3A10.748Z_17>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Dalia, 1865-09-01, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-26T16:36:10.748Z_17&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/996FE835-CBFD-3949-B1CE-DDB5E3756420>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Clotilde, 1874-04-04, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-27T16%3A10%3A03.330Z_43> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T17:46:31.702Z_33&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/4462D450-54E4-37FA-BDB9-42F2B0BA5595>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Santander, 1883-04-15, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T19%3A13%3A26.137Z_37> , sealitDB:vapor .
+
+<urn:uuid:8d60df2b-9c20-4946-ae58-c4470a121010>
+        a           skos:ConceptScheme ;
+        rdfs:label  "status_capacity_role_es" .
+
+<http://www.sealit.gr/DB/register_record/2019-11-25T21%3A52%3A03.598Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Churruca, 1863-05-13, Enric  Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-25T21:52:03.598Z_10&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/025D0AFE-0A04-3EE0-9C72-6BC9F67AC42A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Bella Dolores, 1874-02-26, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-27T16%3A52%3A26.650Z_45> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/BC51C26F-A9F8-3A3F-94C3-952BB1415788>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Victoria, 1846-05-08, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-03T20%3A02%3A43.259Z_29> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<urn:uuid:fce4f4b8-ab70-4eae-8aa6-56dc98476fd3>
+        a           skos:ConceptScheme ;
+        rdfs:label  "status_capacity_role_es" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-03-01T08:00:54.298Z_59&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-01-01T07:43:12.339Z_50&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-12-02T21%3A46%3A08.424Z_25>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Cronómetro, 1880-11-17, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T21:46:08.424Z_25&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-02-02T15%3A39%3A56.447Z_54>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, España, Unknown, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-02-02T15:39:56.447Z_54&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/164F1FEF-37C8-30C9-BDAC-5A5FB7A4A514>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Betis, 1918-12-24, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-27T16%3A01%3A20.700Z_42> , sealitDB:vapor .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T22:34:19.436Z_27&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-07T20:09:49.612Z_41&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/D9B2FD98-8749-3B4F-95BC-661278F4187E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfredo, 1874-09-29, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-29T05%3A20%3A08.006Z_3> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-10-03T07:07:18.426Z_16&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-03-01T08%3A00%3A54.298Z_59>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, San Francisco de Paula (a) India, 1889-09-16, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-03-01T08:00:54.298Z_59&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T17:55:25.899Z_34&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-01-25T21:43:14.920Z_52&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T18:19:47.465Z_24&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-08-29T05%3A41%3A49.948Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Lorenzo, 1897, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-29T05:41:49.948Z_4&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-03T19:42:51.809Z_28&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T11:23:37.938Z_9&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-22T14:32:13.159Z_1&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-01-01T07%3A43%3A12.339Z_50>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Bella Dolores, 1882/09/28, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-01-01T07:43:12.339Z_50&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-01-25T22:21:35.606Z_53&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-30T21:33:27.437Z_48&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-08-26T15%3A10%3A59.165Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Concepción, 1850-03-23, Enric  Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-26T15:10:59.165Z_1&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T16:01:20.700Z_42&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-02-06T18:52:46.972Z_58&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/AE9126D0-16BC-3D55-A022-EC6C8F91A2D1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Victoria, 1845-10-14, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-03T19%3A42%3A51.809Z_28> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/7898BE8F-57FC-3EFB-8535-51EA2734412D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Isla de Luzón, 1892-03-00, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T20%3A18%3A46.965Z_39> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+sealitDB:vapor  a  crm:E55_Type .
+
+<http://www.sealit.gr/DB/register_record_point/12E9718E-584D-373E-A593-BE70F2A35C3F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, San Francisco de Paula (a) India, 1889-09-16, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-03-01T08%3A00%3A54.298Z_59> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<urn:uuid:664e8457-ddc4-4307-8878-615cd6c08487>
+        a           skos:ConceptScheme ;
+        rdfs:label  "ship_type_es" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-26T16:36:10.748Z_17&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T17:57:28.797Z_23&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/90F534C8-2474-37FD-AA34-77CBE01BF2F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Isla de Cebú, 1883, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T19%3A44%3A36.075Z_38> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/985DD9D8-C1D4-376F-BFD2-1B40B2702A90>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, España, Unknown, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-02T15%3A39%3A56.447Z_54> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/980D372B-8673-30E4-AC5B-508B745A5BF5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Isla de Luzón, 1892-03-00, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T20%3A18%3A46.965Z_39> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/E722B069-FD51-32C8-8783-74E3BA48526B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, España, Unknown, Enric Garcia | row: 7, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-02T15%3A39%3A56.447Z_54> , <http://www.sealit.gr/DB/capell%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/07CD8CFB-2B28-368D-8BAD-9009154C52DA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Cronómetro, 1879-03-10, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-02T22%3A14%3A50.387Z_26> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-26T15:10:59.165Z_1&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/3C1DABA4-A201-3AA1-8DCF-31512BC3228B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record/2019-08-31T11%3A23%3A37.938Z_9>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Modesta, 1874-03-17, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T11:23:37.938Z_9&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<urn:uuid:abdae186-fa77-4ce2-886f-493ae65a7aa4>
+        a           skos:ConceptScheme ;
+        rdfs:label  "status_capacity_role_es" .
+
+<http://www.sealit.gr/DB/capell%C3%A1n>
+        a       crm:E55_Type .
+
+<http://www.sealit.gr/DB/register_record_point/02A817B1-EC2C-3692-B7CD-D8AAF3D8BD0C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), vapor, Carlos, Austria,  Enric Garcia | row: 28, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-18T12%3A18%3A05.764Z_2> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/95B35F86-A05E-308C-9688-FF83AB01A52C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Cronómetro, 1879-12-09, Garcia Enric | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-31T18%3A10%3A11.611Z_11> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/Concept/capit%C3%A1n>
+        a              skos:Concept ;
+        rdfs:label     "Capitán" ;
+        owl:sameAs     <http://www.sealit.gr/DB/capit%C3%A1n> ;
+        skos:inScheme  <urn:uuid:8d60df2b-9c20-4946-ae58-c4470a121010> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-02T17%3A57%3A28.797Z_23>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Caupolicán, 1869-12-02, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T17:57:28.797Z_23&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-01-01T08%3A15%3A17.619Z_51>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Bella Dolores, 1883/08/23, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-01-01T08:15:17.619Z_51&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T17:45:58.780Z_10&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/Concept/vapor>
+        a              skos:Concept ;
+        rdfs:label     "vapor" ;
+        owl:sameAs     sealitDB:vapor ;
+        skos:inScheme  <urn:uuid:664e8457-ddc4-4307-8878-615cd6c08487> .
+
+<http://www.sealit.gr/DB/register_record_point/7EBE3282-AFCF-34BD-B494-AF0332472632>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Cataluña, 1912-04-01, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-26T15%3A37%3A19.930Z_2> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/4A3A8553-FD74-35D2-92CC-A9E9E2AACD82>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, España, 1882-04-1, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-05T20%3A31%3A08.147Z_57> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-08-31T18%3A10%3A11.611Z_11>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Cronómetro, 1879-12-09, Garcia Enric" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T18:10:11.611Z_11&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T18:10:11.611Z_11&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/2A623D91-FD78-31AB-9F4D-2B08137F355D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Cronómetro, 1878-12-09, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-02T22%3A34%3A19.436Z_27> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/31B1F7BE-5037-3D6F-A27E-37DFADD476BE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, España, 1882-04-1, Enric Garcia | row: 7, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-05T20%3A31%3A08.147Z_57> , <http://www.sealit.gr/DB/primer%20m%C3%A9dico> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-01-25T21:04:38.586Z_51&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/94987B7D-9CA9-3CFA-9834-72F63BCE87F2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, San Ignacio de Loyola, , Jordi Ibarz | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-22T14%3A32%3A13.159Z_1> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/83D01692-6F73-36D9-AD93-47E7A54D57EF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Cronómetro, 1879-03-10, Garcia Enric | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-31T17%3A45%3A58.780Z_10> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/53664F2D-458A-3C96-82B2-0B9CCF87F7E5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 2, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , <http://www.sealit.gr/DB/capell%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-06T21%3A15%3A04.364Z_40>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Alfonso XII, 1912-04-21, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-06T21:15:04.364Z_40&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-02-05T19%3A46%3A39.247Z_56>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Manila, 1881-04-29, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-02-05T19:46:39.247Z_56&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/718B5989-3C03-3213-8E0D-488260731EF3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Viñuelas, 1882-06-30, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-02T19%3A04%3A10.763Z_55> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/E15A14E8-9098-3A77-A3F5-97CB276DB017>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Nuevo Copérnico, 1876-08-21, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-01-25T21%3A04%3A38.586Z_51> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-27T17%3A24%3A25.868Z_46>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Bella Dolores, 1876-08-03, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T17:24:25.868Z_46&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T19:13:26.137Z_37&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-03T20:02:43.259Z_29&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/A00AF031-44C1-3D92-8516-70FD3BF0764C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Julio, 1841-05-12, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-26T15%3A57%3A51.293Z_14> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/A2166E12-F42A-33F5-BE1E-50EC9E1BE1A2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Dalia, 1865-09-01, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-26T16%3A36%3A10.748Z_17> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2020-02-02T19%3A04%3A10.763Z_55>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Viñuelas, 1882-06-30, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-02-02T19:04:10.763Z_55&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/F48C05AA-D3EE-3CE2-96EC-35697E6A8D8E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Cronómetro, 1880-11-17, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-02T21%3A46%3A08.424Z_25> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-26T17:06:30.958Z_18&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-02-05T20%3A31%3A08.147Z_57>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, España, 1882-04-1, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-02-05T20:31:08.147Z_57&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/331294B4-017C-3017-82E9-3DEB6D3E5F1A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Concepción, 1850-03-23, Enric  Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-26T15%3A10%3A59.165Z_1> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/Concept/primer%20m%C3%A9dico>
+        a              skos:Concept ;
+        rdfs:label     "Primer médico" ;
+        owl:sameAs     <http://www.sealit.gr/DB/primer%20m%C3%A9dico> ;
+        skos:inScheme  <urn:uuid:87cbb2d6-1ffe-48ee-a5f2-e834f607d756> .
+
+<http://www.sealit.gr/DB/register_record_point/AD35B0B0-DAE1-3353-8B74-D0F7F754741C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Julio, 1842-03-02, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-26T16%3A12%3A41.050Z_15> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-26T16:12:41.050Z_15&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/741D13F7-DCD9-39F4-82AF-BF8DE1D4C14D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Concepción, 1852-04-22, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T17%3A46%3A31.702Z_33> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-29T05:41:49.948Z_4&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/D1FBA420-F803-3338-972F-72DCBCA846BF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Bella Dolores, 1880-11-27, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-30T21%3A33%3A27.437Z_48> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-18T12%3A18%3A05.764Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), vapor, Carlos, Austria,  Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-03-18T12:18:05.764Z_2&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/876BDA4A-DEB2-3D00-AD8D-5240AD6D4E20>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Caupolicán, 1865-03-09, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-28T16%3A47%3A01.944Z_20> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-02T17%3A29%3A45.561Z_22>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Caupolicán, 1868-09-04, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T17:29:45.561Z_22&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/33417F59-EFB6-3411-94CD-9FBC12EFC9D1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 4, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , <http://www.sealit.gr/DB/segundo%20m%C3%A9dico> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-04T19%3A44%3A36.075Z_38>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Isla de Cebú, 1883, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T19:44:36.075Z_38&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T22:14:50.387Z_26&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/99761E26-69E7-30FC-8C5D-50D6C09977C6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Santander, 1883-04-15, Enric Garcia | row: 6, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T19%3A13%3A26.137Z_37> , <http://www.sealit.gr/DB/capell%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-08-31T10%3A54%3A32.700Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Modesta, 1871-12-28, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T10:54:32.700Z_7&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-08-31T10%3A41%3A33.857Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Modesta, 1870-08-18, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T10:41:33.857Z_6&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-02-02T19:04:10.763Z_55&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-12-30T21%3A48%3A31.255Z_49>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Bella Dolores, 1882-01-19, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-30T21:48:31.255Z_49&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/6F30CE1D-8650-364C-9AE9-2FB9F5DF68E8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Nuevo Copérnico, 1879-11-22, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-01-25T22%3A21%3A35.606Z_53> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T11:12:46.853Z_8&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/A34471E7-0E7B-386B-B9E7-FD270B3AB501>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Cataluña, 1912-04-01, Enric Garcia | row: 2, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-26T15%3A37%3A19.930Z_2> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/CE803B03-7E79-3BB3-8F9F-FEFE1F8E35A6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), vapor, Carlos, Austria,  Enric Garcia | row: 34, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-18T12%3A18%3A05.764Z_2> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-06T21:15:04.364Z_40&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-26T15:57:51.293Z_14&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/8D672107-3FC5-3BCF-A2D3-F5B23E95CE5E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Caupolicán, 1869-12-02, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-02T17%3A57%3A28.797Z_23> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/2016B4FE-299B-3154-9650-FFCF57C3BD4B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 3, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , <http://www.sealit.gr/DB/primer%20m%C3%A9dico> .
+
+<http://www.sealit.gr/DB/register_record/2020-01-25T21%3A43%3A14.920Z_52>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Nuevo Copérnico, 1878-01-08, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-01-25T21:43:14.920Z_52&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-07T20:09:49.612Z_41&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T17:22:44.159Z_31&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/Concept/capell%C3%A1n>
+        a              skos:Concept ;
+        rdfs:label     "Capellán" ;
+        owl:sameAs     <http://www.sealit.gr/DB/capell%C3%A1n> ;
+        skos:inScheme  <urn:uuid:abdae186-fa77-4ce2-886f-493ae65a7aa4> .
+
+<http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew and displacement list (roll)" .
+
+<http://www.sealit.gr/DB/register_record_point/39E6A4BE-F070-3C00-BBE1-A19F6BC4A733>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, España, 1882-04-1, Enric Garcia | row: 8, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-05T20%3A31%3A08.147Z_57> , <http://www.sealit.gr/DB/capell%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-02-05T19:46:39.247Z_56&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-12-27T16%3A52%3A26.650Z_45>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Bella Dolores, 1874-02-26, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T16:52:26.650Z_45&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/EDE2A18F-0B6B-3A46-BC63-3AF05D103896>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Viñuelas, 1882-06-30, Enric Garcia | row: 8, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-02T19%3A04%3A10.763Z_55> , <http://www.sealit.gr/DB/primer%20m%C3%A9dico> .
+
+<http://www.sealit.gr/DB/register_record_point/D67C769A-1C66-3362-9C8E-8F2D5F070D71>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Bella Dolores, 1878-06-28, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-27T20%3A24%3A54.107Z_47> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T17:33:23.446Z_32&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/674802A7-E1EF-3101-9A87-E0DECC3D0F4E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XII, 1912-04-21, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-06T21%3A15%3A04.364Z_40> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record/2019-08-26T15%3A37%3A19.930Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Cataluña, 1912-04-01, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-26T15:37:19.930Z_2&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/6C887C29-C80F-3217-91C3-71AA82376B35>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Concepción, 1850-01-28, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T17%3A33%3A23.446Z_32> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T20:24:54.107Z_47&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-12-02T22%3A14%3A50.387Z_26>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Cronómetro, 1879-03-10, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T22:14:50.387Z_26&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/32529466-16E6-39BD-9EBE-DCB5984ECE53>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Manila, Unknown, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-06T18%3A52%3A46.972Z_58> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/E70B2593-F383-36B4-AF39-575D0E7B0D56>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Salvador, 1855-02-08, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T18%3A12%3A35.794Z_35> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T16:52:26.650Z_45&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/A6E8657C-D94E-3DEE-80E9-4F2F3C23DA41>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Modesta, 1872-11-28, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-31T11%3A12%3A46.853Z_8> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-29T05:20:08.006Z_3&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-26T17:18:10.294Z_19&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/79177AA6-D5DC-3056-97F8-F727432B07C3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Caupolicán, 1868-09-04, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-02T17%3A29%3A45.561Z_22> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-27T16%3A24%3A44.263Z_44>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Bella Dolores, 1873-06-05, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T16:24:44.263Z_44&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-30T21:48:31.255Z_49&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/929BFF56-0DB2-3897-BF10-E77757BD8961>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, España, Unknown, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-02T15%3A39%3A56.447Z_54> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T16:10:03.330Z_43&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-11-26T17%3A18%3A10.294Z_19>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Caupolicán, 1865, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-26T17:18:10.294Z_19&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-27T16%3A10%3A03.330Z_43>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Clotilde, 1874-04-04, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T16:10:03.330Z_43&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/CFDF6CDC-2399-3F8E-98F7-51D4D3CC1EEB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Isla de Cebú, 1883, Enric Garcia | row: 6, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T19%3A44%3A36.075Z_38> , <http://www.sealit.gr/DB/capell%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/4828D756-0F84-320B-B650-4B151ABEEE42>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Caupolicán, 1865-03-09, Enric Garcia | row: 2, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-28T16%3A47%3A01.944Z_20> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-04T17%3A46%3A31.702Z_33>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Concepción, 1852-04-22, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T17:46:31.702Z_33&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/9E716821-C88F-35F9-868F-889787B0CAF7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-04T17%3A55%3A25.899Z_34>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Concepción, 1852-12-17, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T17:55:25.899Z_34&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/37D65CCB-0304-33FF-AE1C-86CB2536DFFB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Modesta, 1874-03-17, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-31T11%3A23%3A37.938Z_9> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-25T22:26:51.391Z_13&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/2A15B9BD-08A3-3ADC-9DA9-23DDD90F2BBA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Caupolicán, 1870-12-28, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-02T18%3A19%3A47.465Z_24> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2018-10-03T07%3A07%3A18.426Z_16>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), vapor, Isleño, , Clàudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-10-03T07:07:18.426Z_16&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/886AD2DE-AABA-3598-BD4C-FA67748D7A4A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Lorenzo, 1897, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-29T05%3A41%3A49.948Z_4> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/60203AE4-A665-3DC7-AC42-44F9AA860904>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XII, 1912-04-21, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-06T21%3A15%3A04.364Z_40> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/primer%20m%C3%A9dico>
+        a       crm:E55_Type .
+
+<http://www.sealit.gr/DB/register_record_point/101E0F7A-7955-3008-B9A3-A1859DCE95B1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, España, 1882-04-1, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-05T20%3A31%3A08.147Z_57> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/3617D9E7-FB44-3750-A1FF-80E318D2FC25>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, España, Unknown, Enric Garcia | row: 6, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-02T15%3A39%3A56.447Z_54> , <http://www.sealit.gr/DB/primer%20m%C3%A9dico> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-04T17%3A22%3A44.159Z_31>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Victoria, 1848-09-13, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T17:22:44.159Z_31&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/90B1B4EF-6B53-374A-B0DF-24B240A67977>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Manila, 1881-04-29, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-05T19%3A46%3A39.247Z_56> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/A5F48981-914E-3097-8637-B1315D2399D0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Nuevo Copérnico, 1878-01-08, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-01-25T21%3A43%3A14.920Z_52> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-26T15:37:19.930Z_2&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<urn:uuid:87cbb2d6-1ffe-48ee-a5f2-e834f607d756>
+        a           skos:ConceptScheme ;
+        rdfs:label  "status_capacity_role_es" .
+
+<http://www.sealit.gr/DB/register_record_point/671C6D54-475F-3180-8EE3-3AC9C71B2C04>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Concepción, 1852-12-17, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T17%3A55%3A25.899Z_34> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-28T17:29:05.846Z_21&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/5DF8D15E-B21D-3F0F-AD9D-8BDF86D7D2D6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Viñuelas, 1882-06-30, Enric Garcia | row: 7, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-02T19%3A04%3A10.763Z_55> , <http://www.sealit.gr/DB/capell%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-27T20%3A24%3A54.107Z_47>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Bella Dolores, 1878-06-28, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T20:24:54.107Z_47&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-01-01T08:15:17.619Z_51&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/segundo%20m%C3%A9dico>
+        a       crm:E55_Type .
+
+<http://www.sealit.gr/DB/Concept/segundo%20m%C3%A9dico>
+        a              skos:Concept ;
+        rdfs:label     "Segundo médico" ;
+        owl:sameAs     <http://www.sealit.gr/DB/segundo%20m%C3%A9dico> ;
+        skos:inScheme  <urn:uuid:fce4f4b8-ab70-4eae-8aa6-56dc98476fd3> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-02-05T20:31:08.147Z_57&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/9CFB4BF0-7B50-3BA0-BFCD-B70774412AB5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Caupolicán, 1865, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-26T17%3A18%3A10.294Z_19> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-08-31T11%3A12%3A46.853Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Modesta, 1872-11-28, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T11:12:46.853Z_8&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/6122F97A-34AE-32FE-B6FB-B13121CA556B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), vapor, Carlos, Austria,  Enric Garcia | row: 2, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-18T12%3A18%3A05.764Z_2> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-27T16%3A01%3A20.700Z_42>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Betis, 1918-12-24, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T16:01:20.700Z_42&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-25T21:52:03.598Z_10&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/register_record/2019-11-26T16%3A12%3A41.050Z_15>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Julio, 1842-03-02, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-26T16:12:41.050Z_15&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T10:41:33.857Z_6&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-11-28T16%3A47%3A01.944Z_20>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Caupolicán, 1865-03-09, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-28T16:47:01.944Z_20&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-02T22%3A34%3A19.436Z_27>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Cronómetro, 1878-12-09, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T22:34:19.436Z_27&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/AC7DA0D0-E1BB-37D2-BED6-BFFF45365567>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), vapor, Isleño, , Clàudia Mateo | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-03T07%3A07%3A18.426Z_16> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/BF6DFF2A-DC0A-34DB-B6B5-F9592C911995>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Bella Dolores, 1883/08/23, Enric Garcia | row: 12, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-01-01T08%3A15%3A17.619Z_51> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/8E428FA2-9EF1-3891-9299-4FF06A19F92D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Victoria, 1848-09-13, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T17%3A22%3A44.159Z_31> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T17:24:25.868Z_46&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-02-02T15:39:56.447Z_54&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-28T16:47:01.944Z_20&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/CE886160-2D9A-3481-BE0F-EE785C0A8C65>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Modesta, 1871-12-28, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-31T10%3A54%3A32.700Z_7> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-04T17%3A33%3A23.446Z_32>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Concepción, 1850-01-28, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T17:33:23.446Z_32&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-01-25T21%3A04%3A38.586Z_51>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Nuevo Copérnico, 1876-08-21, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-01-25T21:04:38.586Z_51&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-04T18%3A21%3A25.265Z_36>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Salvador, 1855-12-27, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T18:21:25.265Z_36&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-03T19%3A42%3A51.809Z_28>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Victoria, 1845-10-14, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-03T19:42:51.809Z_28&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/9F28DBE1-29B4-3218-9F86-8669D6A8F9CC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Santander, 1883-04-15, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T19%3A13%3A26.137Z_37> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/57F386E0-DB57-39A7-916F-5FD5AD863231>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XII, 1912-04-21, Enric Garcia | row: 2, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-06T21%3A15%3A04.364Z_40> , <http://www.sealit.gr/DB/capell%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-27T16:24:44.263Z_44&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T17:29:45.561Z_22&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/DF5BBA52-2C59-3587-AC65-A1F25194133E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Josefina, 1865-01-11, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-25T22%3A26%3A51.391Z_13> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-30T21%3A33%3A27.437Z_48>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Bella Dolores, 1880-11-27, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-30T21:33:27.437Z_48&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T19:44:36.075Z_38&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/5CEB04B8-BDF4-3B6D-AF70-AAB0520EE27D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Isla de Cebú, 1883, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T19%3A44%3A36.075Z_38> , sealitDB:vapor .
+
+<http://www.sealit.gr/DB/register_record_point/39B284AA-9406-3CC3-AE73-491177879844>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Bella Dolores, 1882-01-19, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-30T21%3A48%3A31.255Z_49> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/39878A1D-D54C-32AB-828C-DE846F6EA66F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Modesta, 1870-08-18, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-08-31T10%3A41%3A33.857Z_6> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T20:18:46.965Z_39&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-11-25T22%3A26%3A51.391Z_13>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Josefina, 1865-01-11, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-25T22:26:51.391Z_13&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T18:12:35.794Z_35&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-12-04T18%3A12%3A35.794Z_35>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Salvador, 1855-02-08, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T18:12:35.794Z_35&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-11-22T14%3A32%3A13.159Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, San Ignacio de Loyola, , Jordi Ibarz" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-22T14:32:13.159Z_1&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T21:46:08.424Z_25&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-08-29T05%3A20%3A08.006Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Alfredo, 1874-09-29, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-29T05:20:08.006Z_3&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-08-31T17%3A45%3A58.780Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Cronómetro, 1879-03-10, Garcia Enric" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T17:45:58.780Z_10&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-04T19%3A13%3A26.137Z_37>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Santander, 1883-04-15, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T19:13:26.137Z_37&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/66FD495E-D722-3941-8A11-FCE4EB43BC7A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Salvador, 1855-12-27, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-04T18%3A21%3A25.265Z_36> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/A81BA217-FF4C-3EF7-B20C-3513F6901C1C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Bella Dolores, 1882/09/28, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-01-01T07%3A43%3A12.339Z_50> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-08-31T10:54:32.700Z_7&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-12-03T20%3A02%3A43.259Z_29>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Victoria, 1846-05-08, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-03T20:02:43.259Z_29&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-04T20%3A18%3A46.965Z_39>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Isla de Luzón, 1892-03-00, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T20:18:46.965Z_39&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-02T18%3A19%3A47.465Z_24>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Caupolicán, 1870-12-28, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-02T18:19:47.465Z_24&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/F809FE53-3CF7-318B-8C44-DED163451F4D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Bella Dolores, 1876-08-03, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-27T17%3A24%3A25.868Z_46> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-03-18T12:18:05.764Z_2&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-11-26T15%3A57%3A51.293Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Julio, 1841-05-12, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-11-26T15:57:51.293Z_14&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/capit%C3%A1n>
+        a       crm:E55_Type .
+
+<http://www.sealit.gr/DB/register_record_point/24C77126-8011-3CFE-8D44-47B840CFFB63>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Dalia, 1865-11-26, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-26T17%3A06%3A30.958Z_18> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/EEFA8031-5A70-3855-AC81-28B4C3D0AED7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Churruca, 1863-05-13, Enric  Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-25T21%3A52%3A03.598Z_10> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/05954976-2AD2-3C7F-B327-019080D3977E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Bella Dolores, 1883/08/23, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-01-01T08%3A15%3A17.619Z_51> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/register_record_point/4AD83BAB-C2DE-32C1-97ED-A8F1179506CF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Bella Dolores, 1873-06-05, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-27T16%3A24%3A44.263Z_44> , <http://www.sealit.gr/DB/capit%C3%A1n> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-04T18:21:25.265Z_36&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list>
+        a           crm:E55_Type ;
+        rdfs:label  "general spanish crew list" .
+
+<http://www.sealit.gr/DB/register_record/2020-01-25T22%3A21%3A35.606Z_53>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Nuevo Copérnico, 1879-11-22, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2020-01-25T22:21:35.606Z_53&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .

@@ -1,0 +1,436 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/recruitment/08ED5DAB-9256-301B-BB19-7CB6AB0BC612>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Eugenio Agacino Armas" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1929-02-23> .
+
+<urn:uuid:cf75bcb6-d8f1-4650-8147-d6dd02e0eb3c>
+        a                crm:E74_Group ;
+        rdfs:label       "total crew number of Alfonso XIII" ;
+        crm:P3_has_note  "244" .
+
+<urn:uuid:4afdbb4d-262e-425e-97a4-0c53f3b10236>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/person_age/37>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 37" ;
+        sealit:value_duration  "P37Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/employment/FFAD8D3B-BDF0-320A-A5F0-4FDAD6A261B2>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Luís Arbea Arguináriz" ;
+        crm:P02i_is_range_of  <urn:uuid:4561f36b-deb1-44d1-aaaf-80ff63c8c37e> .
+
+<urn:uuid:1273a331-720f-4909-ae8d-3f28d650c22d>
+        a                     sealit:Ship_Registration ;
+        rdfs:label            "Registration of Alfonso XIII" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/profession%20type/capit%C3%A1n>
+        a           sealit:Profession ;
+        rdfs:label  "Capitán" .
+
+<http://www.sealit.gr/DB/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<urn:uuid:4787d8e4-dc96-47ad-95f3-c3c94d1141c5>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/segundo%20m%C3%A9dico> .
+
+<http://www.sealit.gr/DB/role%20types/issuing%20authority>
+        a           crm:E55_Type ;
+        rdfs:label  "issuing authority" .
+
+<http://www.sealit.gr/DB/tonnage/5914>
+        a                  sealit:Tonnage ;
+        rdfs:label         "tonnage of Alfonso XIII" ;
+        crm:P90_has_value  "5914" .
+
+<http://www.sealit.gr/DB/location/santander>
+        a           crm:E53_Place ;
+        rdfs:label  "Santander" .
+
+<http://www.sealit.gr/DB/doc%20types/source%20identity>
+        a           crm:E55_Type ;
+        rdfs:label  "source identity" .
+
+<http://www.sealit.gr/DB/location/barcelona>
+        a                crm:E53_Place ;
+        rdfs:label       "Barcelona" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<urn:uuid:d34ff5a5-dcda-4371-8a1c-334f495e1b49>
+        a                     crm:E33_Linguistic_Object ;
+        crm:P72_has_language  <http://www.sealit.gr/DB/language/italian> .
+
+<http://www.sealit.gr/DB/person_age/57>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 57" ;
+        sealit:value_duration  "P57Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/place%20type/port>
+        a           crm:E55_Type ;
+        rdfs:label  "port" .
+
+<http://www.sealit.gr/DB/title/EC796FAD-B349-3B5C-9D60-FB1D69BFB263>
+        a           crm:E35_Title ;
+        rdfs:label  "Lista de tripulantes" .
+
+<urn:uuid:a9c1ec15-d685-45db-9a46-df1ceb8c06ba>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/primer%20m%C3%A9dico> .
+
+<urn:uuid:4561f36b-deb1-44d1-aaaf-80ff63c8c37e>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/capell%C3%A1n> .
+
+<http://www.sealit.gr/DB/profession%20type/capell%C3%A1n>
+        a           sealit:Profession ;
+        rdfs:label  "Capellán" .
+
+<http://www.sealit.gr/DB/payment/75EFFBD3-A3FF-3D96-9AB1-D41A6194904C>
+        a                       sealit:Crew_Payment ;
+        rdfs:label              "Payment to José Luño Ramírez" ;
+        crm:P01i_is_domain_of   <urn:uuid:a9c1ec15-d685-45db-9a46-df1ceb8c06ba> ;
+        sealit:had_money_value  <urn:uuid:7324121e-eef9-4f4e-a7c2-7a47727d9199> .
+
+<urn:uuid:0ed2d079-670a-4006-8389-61c83c1b0da3>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/primer%20m%C3%A9dico> .
+
+<urn:uuid:47512929-e337-4265-aa79-e4cbf0add09d>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/capell%C3%A1n> .
+
+<http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list>
+        a           crm:E55_Type ;
+        rdfs:label  "general spanish crew list" .
+
+<http://www.sealit.gr/DB/location/madrid>
+        a           crm:E53_Place ;
+        rdfs:label  "Madrid" .
+
+<http://www.sealit.gr/DB/payment/FFAD8D3B-BDF0-320A-A5F0-4FDAD6A261B2>
+        a                       sealit:Crew_Payment ;
+        rdfs:label              "Payment to Luís Arbea Arguináriz" ;
+        crm:P01i_is_domain_of   <urn:uuid:47512929-e337-4265-aa79-e4cbf0add09d> ;
+        sealit:had_money_value  <urn:uuid:078b9048-c831-4a74-9e27-049463ba8f54> .
+
+<http://www.sealit.gr/DB/person/96623906-5EC9-3329-B411-1BA777B23342>
+        a                        crm:E21_Person ;
+        rdfs:label               "José María Cirujeda Gayoso" ;
+        crm:P43_has_dimension    <http://www.sealit.gr/DB/person_age/37> ;
+        crm:P98i_was_born        <urn:uuid:04616aa7-bdcd-42c5-9f88-d40a4df6c58f> ;
+        sealit:gave_service_for  <http://www.sealit.gr/DB/payment/F75A9F1E-F907-3BC8-8A8A-1457BDD4EE97> ;
+        sealit:had_provided      <http://www.sealit.gr/DB/employment/F75A9F1E-F907-3BC8-8A8A-1457BDD4EE97> ;
+        sealit:has_first_name    "José María" ;
+        sealit:has_last_name     "Cirujeda Gayoso" ;
+        sealit:has_profession    <http://www.sealit.gr/DB/profession%20type/segundo%20m%C3%A9dico> .
+
+<http://www.sealit.gr/DB/ownership/1A02219A-E255-3256-AE3F-5FE25FD4E337>
+        a                 sealit:Ship_Ownership_Phase ;
+        rdfs:label        "Ownership of Alfonso XIII" ;
+        sealit:has_owner  <http://www.sealit.gr/DB/organisation/compa%C3%B1%C3%ADa%20trasatl%C3%A1ntica%20espa%C3%B1ola> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41>
+        a                        crm:E73_Information_Object ;
+        rdfs:label               "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia" ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , <http://www.sealit.gr/DB/doc%20types/record%20information> ;
+        crm:P67_refers_to        <http://www.sealit.gr/DB/Document_of_Register/0A7DFE4C-17C5-4647-9A98-7A7E6FB0EC90> ;
+        crm:P94i_was_created_by  <urn:uuid:d8c66840-d926-4877-afb9-bbe0f4326d0a> .
+
+<urn:uuid:850b7d22-d415-4a7b-8aac-0bbaa884251f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Luís Arbea Arguináriz" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/santander> .
+
+<http://www.sealit.gr/DB/organisation/navlab-universit%C3%A0%20di%20genova>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "NAVLAB-Università di Genova" .
+
+<urn:uuid:04616aa7-bdcd-42c5-9f88-d40a4df6c58f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of José María Cirujeda Gayoso" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/madrid> .
+
+<http://www.sealit.gr/DB/location/el%20viso%20del%20marqu%C3%A9s%20%28ciudad%20real%29>
+        a           crm:E53_Place ;
+        rdfs:label  "El Viso del Marqués (Ciudad Real)" .
+
+<http://www.sealit.gr/DB/employment/08ED5DAB-9256-301B-BB19-7CB6AB0BC612>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Eugenio Agacino Armas" ;
+        crm:P02i_is_range_of  <urn:uuid:4afdbb4d-262e-425e-97a4-0c53f3b10236> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/08ED5DAB-9256-301B-BB19-7CB6AB0BC612> .
+
+<urn:uuid:7324121e-eef9-4f4e-a7c2-7a47727d9199>
+        a                       sealit:E97_Monetary_Amount ;
+        rdfs:label              "monetary amount 500" ;
+        sealit:P181_has_amount  "500" .
+
+<http://www.sealit.gr/DB/person_age/50>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 50" ;
+        sealit:value_duration  "P50Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/profession%20type/primer%20m%C3%A9dico>
+        a           sealit:Profession ;
+        rdfs:label  "Primer médico" .
+
+<http://www.sealit.gr/DB/organisation/capitan%20eugenio%20agacino%20armas>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Capitan Eugenio Agacino Armas" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation/C915A7B6-E4E1-3EB2-BF8A-BD9E28630D28> .
+
+<http://www.sealit.gr/DB/appellation/006849BA-751C-393B-AC1C-BB5A6AE9D1F0>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Archivo General de Marina Álvaro de Bazan/Fondo Capitanía Marítima de Ferrol" .
+
+<http://www.sealit.gr/DB/payment/08ED5DAB-9256-301B-BB19-7CB6AB0BC612>
+        a                       sealit:Crew_Payment ;
+        rdfs:label              "Payment to Eugenio Agacino Armas" ;
+        crm:P01i_is_domain_of   <urn:uuid:c07fd1a0-4a84-4985-8bfe-05d2a8d5e864> ;
+        sealit:for_service      <http://www.sealit.gr/DB/employment/08ED5DAB-9256-301B-BB19-7CB6AB0BC612> ;
+        sealit:had_money_value  <urn:uuid:6b9cc7d5-3e3b-45bb-abde-2bc682dbd5b6> .
+
+<urn:uuid:d3392d58-58c1-45bc-97a9-fc48d35d565b>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Alfonso XIII" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/alfonso%20xiii> .
+
+<http://www.sealit.gr/DB/ship/DE3B7443-DF0D-30B3-8F88-A4C195CB785C>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Alfonso XIII" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/alfonso%20xiii> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/ship%20type/vapor> ;
+        sealit:has_phase           <http://www.sealit.gr/DB/ownership/1A02219A-E255-3256-AE3F-5FE25FD4E337> ;
+        sealit:has_tonnage         <http://www.sealit.gr/DB/tonnage/5914> ;
+        sealit:is_registered_by    <urn:uuid:1273a331-720f-4909-ae8d-3f28d650c22d> ;
+        sealit:voyages             <urn:uuid:2a6da0eb-814b-43e1-a2e8-b655dd32c215> ;
+        sealit:was_constructed_by  <urn:uuid:d3392d58-58c1-45bc-97a9-fc48d35d565b> .
+
+<urn:uuid:d90f2d27-aac7-458a-81a7-500ad80f2497>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of José Luño Ramírez" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/zaragoza> .
+
+<http://www.sealit.gr/DB/profession%20type/segundo%20m%C3%A9dico>
+        a           sealit:Profession ;
+        rdfs:label  "Segundo médico" .
+
+<http://www.sealit.gr/DB/employment/F75A9F1E-F907-3BC8-8A8A-1457BDD4EE97>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of José María Cirujeda Gayoso" ;
+        crm:P02i_is_range_of  <urn:uuid:4787d8e4-dc96-47ad-95f3-c3c94d1141c5> .
+
+<urn:uuid:357b2ffa-a124-417b-a33d-46fa5647f057>
+        a                            crm:E52_Time-Span ;
+        crm:P82a_begin_of_the_begin  "1929-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/location/gij%C3%B3n>
+        a           crm:E53_Place ;
+        rdfs:label  "Gijón" .
+
+<http://www.sealit.gr/DB/Document_of_Register/0A7DFE4C-17C5-4647-9A98-7A7E6FB0EC90>
+        a                        crm:E18_Physical_Thing , crm:E31_Document ;
+        rdfs:label               "Document Lista de tripulantes" ;
+        crm:P102_has_title       <http://www.sealit.gr/DB/title/EC796FAD-B349-3B5C-9D60-FB1D69BFB263> ;
+        crm:P128_carries         <urn:uuid:d34ff5a5-dcda-4371-8a1c-334f495e1b49> ;
+        crm:P1_is_identified_by  <urn:uuid:fe413716-a871-4407-ab31-117557fd091a> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/doc%20types/source%20identity> ;
+        crm:P3_has_note          "Capitán. Copy provided by José Vázquez Lijó" ;
+        crm:P49_has_former_or_current_keeper
+                <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20marina%20%C3%A1lvaro%20de%20bazan/fondo%20capitan%C3%ADa%20mar%C3%ADtima%20de%20ferrol> ;
+        crm:P94i_was_created_by  <urn:uuid:531058ed-c929-4bed-89f5-245b9fdcec3a> .
+
+<urn:uuid:fe413716-a871-4407-ab31-117557fd091a>
+        a                crm:E42_Identifier ;
+        rdfs:label       "Comandancia de Marina del Puerto de La Coruña s/n" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/person/D1FF370D-455C-3FE1-AC51-E9DF884424CB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luís Arbea Arguináriz" ;
+        crm:P43_has_dimension    <http://www.sealit.gr/DB/person_age/57> ;
+        crm:P98i_was_born        <urn:uuid:850b7d22-d415-4a7b-8aac-0bbaa884251f> ;
+        sealit:gave_service_for  <http://www.sealit.gr/DB/payment/FFAD8D3B-BDF0-320A-A5F0-4FDAD6A261B2> ;
+        sealit:had_provided      <http://www.sealit.gr/DB/employment/FFAD8D3B-BDF0-320A-A5F0-4FDAD6A261B2> ;
+        sealit:has_first_name    "Luís" ;
+        sealit:has_last_name     "Arbea Arguináriz" ;
+        sealit:has_profession    <http://www.sealit.gr/DB/profession%20type/capell%C3%A1n> .
+
+<http://www.sealit.gr/DB/organisation/archivo%20general%20de%20marina%20%C3%A1lvaro%20de%20bazan/fondo%20capitan%C3%ADa%20mar%C3%ADtima%20de%20ferrol>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Archivo General de Marina Álvaro de Bazan/Fondo Capitanía Marítima de Ferrol" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation/006849BA-751C-393B-AC1C-BB5A6AE9D1F0> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/el%20viso%20del%20marqu%C3%A9s%20%28ciudad%20real%29> .
+
+<urn:uuid:2a6da0eb-814b-43e1-a2e8-b655dd32c215>
+        a                       sealit:Voyage ;
+        rdfs:label              "Voyage of ship Alfonso XIII" ;
+        crm:P14_carried_out_by  <http://www.sealit.gr/DB/person/96623906-5EC9-3329-B411-1BA777B23342> , <http://www.sealit.gr/DB/person/C198B2A4-DB27-3B20-A0E3-274FD443864E> , <http://www.sealit.gr/DB/person/D1FF370D-455C-3FE1-AC51-E9DF884424CB> , <http://www.sealit.gr/DB/person/05667E19-0076-39BF-B9B3-B491CECD1B9B> , <urn:uuid:cf75bcb6-d8f1-4650-8147-d6dd02e0eb3c> ;
+        crm:P4_has_time-span    <urn:uuid:357b2ffa-a124-417b-a33d-46fa5647f057> ;
+        sealit:destination      <http://www.sealit.gr/DB/location/gij%C3%B3n> .
+
+<urn:uuid:c07fd1a0-4a84-4985-8bfe-05d2a8d5e864>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/capit%C3%A1n> .
+
+<urn:uuid:0a3cd5d2-c568-464b-962c-2025b42a6274>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "carried out by" ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/organisation/capitan%20eugenio%20agacino%20armas> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/role%20types/issuing%20authority> .
+
+<http://www.sealit.gr/DB/person/344C15CB-798F-3163-8F11-6478223D9EA2>
+        a                      crm:E21_Person ;
+        rdfs:label             "Enric Garcia" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/organisation/navlab-universit%C3%A0%20di%20genova> ;
+        sealit:has_first_name  "Enric" ;
+        sealit:has_last_name   "Garcia" .
+
+<http://www.sealit.gr/DB/appellation/C915A7B6-E4E1-3EB2-BF8A-BD9E28630D28>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Capitan Eugenio Agacino Armas" .
+
+<http://www.sealit.gr/DB/location/bilbao>
+        a           crm:E53_Place ;
+        rdfs:label  "Bilbao" .
+
+<http://www.sealit.gr/DB/appellation/F69E0F7C-1A09-313A-9101-DE7DC22D6F15>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Compañía Trasatlántica Española" .
+
+<urn:uuid:078b9048-c831-4a74-9e27-049463ba8f54>
+        a                       sealit:E97_Monetary_Amount ;
+        rdfs:label              "monetary amount 400" ;
+        sealit:P181_has_amount  "400" .
+
+<urn:uuid:d8c66840-d926-4877-afb9-bbe0f4326d0a>
+        a                       crm:E65_Creation ;
+        rdfs:label              "Creation of doc General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia" ;
+        crm:P14_carried_out_by  <http://www.sealit.gr/DB/person/344C15CB-798F-3163-8F11-6478223D9EA2> ;
+        crm:P4_has_time-span    <urn:uuid:60fea701-9539-42b0-8e41-09abf851dcf2> .
+
+<http://www.sealit.gr/DB/ship%20type/vapor>
+        a           crm:E55_Type ;
+        rdfs:label  "vapor" .
+
+<urn:uuid:09f21996-7ccb-4fd7-b53a-1ff531558d3f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Eugenio Agacino Armas" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/bilbao> .
+
+<http://www.sealit.gr/DB/ship%20name/alfonso%20xiii>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Alfonso XIII" .
+
+<http://www.sealit.gr/DB/person_age/40>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 40" ;
+        sealit:value_duration  "P40Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/payment/F75A9F1E-F907-3BC8-8A8A-1457BDD4EE97>
+        a                       sealit:Crew_Payment ;
+        rdfs:label              "Payment to José María Cirujeda Gayoso" ;
+        crm:P01i_is_domain_of   <urn:uuid:167a0b33-7692-4137-8f70-091333dd49dd> ;
+        sealit:had_money_value  <urn:uuid:78da13c1-6f04-4507-b221-0bf2f3ae1ef3> .
+
+<urn:uuid:531058ed-c929-4bed-89f5-245b9fdcec3a>
+        a                      crm:E65_Creation ;
+        crm:P01i_is_domain_of  <urn:uuid:0a3cd5d2-c568-464b-962c-2025b42a6274> ;
+        crm:P4_has_time-span   <http://www.sealit.gr/DB/timespan/1929-02-23> .
+
+<urn:uuid:60fea701-9539-42b0-8e41-09abf851dcf2>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "2019-12-07 2021-12-07T13:49:28" ;
+        crm:P82a_begin_of_the_begin  "2019-12-07"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end      "2021-12-07T13:49:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<urn:uuid:167a0b33-7692-4137-8f70-091333dd49dd>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/segundo%20m%C3%A9dico> .
+
+<http://www.sealit.gr/DB/doc%20types/record%20information>
+        a           crm:E55_Type ;
+        rdfs:label  "record information" .
+
+<http://www.sealit.gr/DB/person/C198B2A4-DB27-3B20-A0E3-274FD443864E>
+        a                        crm:E21_Person ;
+        rdfs:label               "José Luño Ramírez" ;
+        crm:P43_has_dimension    <http://www.sealit.gr/DB/person_age/40> ;
+        crm:P98i_was_born        <urn:uuid:d90f2d27-aac7-458a-81a7-500ad80f2497> ;
+        sealit:gave_service_for  <http://www.sealit.gr/DB/payment/75EFFBD3-A3FF-3D96-9AB1-D41A6194904C> ;
+        sealit:had_provided      <http://www.sealit.gr/DB/employment/75EFFBD3-A3FF-3D96-9AB1-D41A6194904C> ;
+        sealit:has_first_name    "José" ;
+        sealit:has_last_name     "Luño Ramírez" ;
+        sealit:has_profession    <http://www.sealit.gr/DB/profession%20type/primer%20m%C3%A9dico> .
+
+<http://www.sealit.gr/DB/language/italian>
+        a           crm:E56_Language ;
+        rdfs:label  "Italian" .
+
+<urn:uuid:6b9cc7d5-3e3b-45bb-abde-2bc682dbd5b6>
+        a                       sealit:E97_Monetary_Amount ;
+        rdfs:label              "monetary amount 700" ;
+        sealit:P181_has_amount  "700" .
+
+<http://www.sealit.gr/DB/location/zaragoza>
+        a           crm:E53_Place ;
+        rdfs:label  "Zaragoza" .
+
+<urn:uuid:78da13c1-6f04-4507-b221-0bf2f3ae1ef3>
+        a                       sealit:E97_Monetary_Amount ;
+        rdfs:label              "monetary amount 450" ;
+        sealit:P181_has_amount  "450" .
+
+<http://www.sealit.gr/DB/timespan/1929-02-23>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1929-02-23" ;
+        crm:P82_at_some_time_within  "1929-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/organisation/compa%C3%B1%C3%ADa%20trasatl%C3%A1ntica%20espa%C3%B1ola>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Compañía Trasatlántica Española" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation/F69E0F7C-1A09-313A-9101-DE7DC22D6F15> .
+
+<http://www.sealit.gr/DB/person/05667E19-0076-39BF-B9B3-B491CECD1B9B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Eugenio Agacino Armas" ;
+        crm:P43_has_dimension    <http://www.sealit.gr/DB/person_age/50> ;
+        crm:P98i_was_born        <urn:uuid:09f21996-7ccb-4fd7-b53a-1ff531558d3f> ;
+        sealit:gave_service_for  <http://www.sealit.gr/DB/payment/08ED5DAB-9256-301B-BB19-7CB6AB0BC612> ;
+        sealit:had_provided      <http://www.sealit.gr/DB/employment/08ED5DAB-9256-301B-BB19-7CB6AB0BC612> ;
+        sealit:has_first_name    "Eugenio" ;
+        sealit:has_last_name     "Agacino Armas" ;
+        sealit:has_profession    <http://www.sealit.gr/DB/profession%20type/capit%C3%A1n> .
+
+<http://www.sealit.gr/DB/date/1929-02-23>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1929-02-23" ;
+        crm:P82_at_some_time_within  "1929-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/employment/75EFFBD3-A3FF-3D96-9AB1-D41A6194904C>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of José Luño Ramírez" ;
+        crm:P02i_is_range_of  <urn:uuid:0ed2d079-670a-4006-8389-61c83c1b0da3> .

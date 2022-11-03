@@ -1,0 +1,75 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list>
+        a           crm:E55_Type ;
+        rdfs:label  "general spanish crew list" .
+
+<http://www.sealit.gr/DB/register_record/2019-12-06T21%3A15%3A04.364Z_40>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Alfonso XII, 1912-04-21, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-06T21:15:04.364Z_40&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-06T21:15:04.364Z_40&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/70A6ED5F-BDC0-31E0-8950-FECC3A5BF9E9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XII, 1912-04-21, Enric Garcia | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-06T21%3A15%3A04.364Z_40> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20marina%20%C3%A1lvaro%20de%20bazan/fondo%20capitan%C3%ADa%20mar%C3%ADtima%20de%20ferrol> .
+
+<http://www.sealit.gr/DB/organisation/capitan%20eugenio%20agacino%20armas>
+        a       crm:E40_Legal_Body .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-07T20:09:49.612Z_41&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/organization_appellation/006849BA-751C-393B-AC1C-BB5A6AE9D1F0>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Archivo General de Marina Álvaro de Bazan/Fondo Capitanía Marítima de Ferrol" .
+
+<http://www.sealit.gr/DB/organisation/archivo%20general%20de%20marina%20%C3%A1lvaro%20de%20bazan/fondo%20capitan%C3%ADa%20mar%C3%ADtima%20de%20ferrol>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/7BDF3B72-F1FF-3AF3-9F6C-4B480C3BF35F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/capitan%20eugenio%20agacino%20armas> , <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20marina%20%C3%A1lvaro%20de%20bazan/fondo%20capitan%C3%ADa%20mar%C3%ADtima%20de%20ferrol> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-07T20:09:49.612Z_41&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-archivo%20general%20de%20marina%20%C3%A1lvaro%20de%20bazan/fondo%20capitan%C3%ADa%20mar%C3%ADtima%20de%20ferrol>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Archivo General de Marina Álvaro de Bazan/Fondo Capitanía Marítima de Ferrol" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/006849BA-751C-393B-AC1C-BB5A6AE9D1F0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20marina%20%C3%A1lvaro%20de%20bazan/fondo%20capitan%C3%ADa%20mar%C3%ADtima%20de%20ferrol> .
+
+<http://www.sealit.gr/DB/organization_appellation/C915A7B6-E4E1-3EB2-BF8A-BD9E28630D28>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Capitan Eugenio Agacino Armas" .
+
+<http://www.sealit.gr/DB/organisation/master_uri-capitan%20eugenio%20agacino%20armas>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Capitan Eugenio Agacino Armas" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/C915A7B6-E4E1-3EB2-BF8A-BD9E28630D28> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/capitan%20eugenio%20agacino%20armas> .

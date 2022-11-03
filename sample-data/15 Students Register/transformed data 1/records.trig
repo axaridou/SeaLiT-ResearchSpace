@@ -1,0 +1,3399 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/person_birth/19664E06-F2D7-3C45-AD9D-992C15D2970F>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Francesco Horn" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/49F1C505-A6EF-3D93-8F2E-BA9EA8B8E6C2> .
+
+<http://www.sealit.gr/DB/person/1B0BCB23-ACD7-305A-8C91-D832A4C152E8>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giorgio Kosher" ;
+        sealit:has_first_name  "Giorgio" ;
+        sealit:has_last_name   "Kosher" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/trafficante> .
+
+<http://www.sealit.gr/DB/course/78208B81-99D8-32CF-972B-7FDE310EA166>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Contabilità camerale" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/E11D8B3A-61F6-3BA9-B8B2-2FF692773E5E> .
+
+<http://www.sealit.gr/DB/course/7F581171-DC53-3DCF-8F8C-390CDD13FDEE>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Stile tedesco" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/868E41E8-02BC-358E-BE00-EE356DABCCE0> .
+
+<http://www.sealit.gr/DB/person/F2E8DADA-AC83-38C4-9B20-CDC7252AE7B8>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Muratti" ;
+        crm:P01i_is_domain_of       <urn:uuid:369cc90c-adf9-408a-bd2c-d2d7d96e1f74> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/834B0624-8C2F-3B80-9C84-FB0D1C1EFBB1> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/E96CA1BE-9FDE-3D7B-A7B6-E25C41A6A6E5> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Giuseppe" ;
+        sealit:has_last_name        "Muratti" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/18A9BF8C-53B8-37E3-846C-D06AFDB3A281>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Cesare Ellul" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/4DE2B431-FEF4-317C-9365-BC944DD99B46> .
+
+<urn:uuid:369cc90c-adf9-408a-bd2c-d2d7d96e1f74>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/profession%20type/tappeziere>
+        a           sealit:Profession ;
+        rdfs:label  "tappeziere" .
+
+<http://www.sealit.gr/DB/religion/cattolica>
+        a           sealit:Religion_Status ;
+        rdfs:label  "Cattolica" .
+
+<http://www.sealit.gr/DB/location/vodowice>
+        a           crm:E53_Place ;
+        rdfs:label  "Vodowice" .
+
+<http://www.sealit.gr/DB/person_birth/34E6C86D-8949-3B04-B919-673108C71D81>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Michele Menz" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/hohenems> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/DC22CE6F-5E2A-3F23-8B6D-BCB1D66247C6> .
+
+<http://www.sealit.gr/DB/person/C410D989-005F-3C80-AB7B-538908A004B9>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Gnesto" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Gnesto" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/agente%20di%20commercio> .
+
+<urn:uuid:d08518ec-2a1f-4f86-901f-1a67993451df>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/scholarship> .
+
+<http://www.sealit.gr/DB/person/82732162-154F-3E3D-8B53-9CBB27980516>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Sebastiano D`Adda" ;
+        crm:P01i_is_domain_of       <urn:uuid:0e7ce149-eb06-41d3-9bea-a75e6f87e6f0> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/28117C44-485A-39F5-B12D-738F41DB7180> ;
+        crm:P3_has_note             "conte" ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/EBC5FBD6-B0A1-3DE8-8682-D8286BC52A46> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Sebastiano" ;
+        sealit:has_last_name        "D`Adda" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/85BEA8FB-EDBB-39CD-8747-8FB620C76114>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Guglielmo Polli" ;
+        crm:P01i_is_domain_of       <urn:uuid:5dfece5c-83be-414d-8b9b-3a3586b682ae> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/1500851C-9D6E-3D62-933D-FEFA87983B84> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/61DE91A9-FFD7-3962-9F07-9AD5F0CC063A> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Guglielmo" ;
+        sealit:has_last_name        "Polli" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/A4266A99-2913-37C8-A131-0CA6E2AF02CE>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Kosher" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/1B0BCB23-ACD7-305A-8C91-D832A4C152E8> .
+
+<http://www.sealit.gr/DB/course/683FB63D-97D0-3D7E-A67E-81E9F9906409>
+        a                        sealit:Course ;
+        rdfs:label               "Course Commercio - 2a sezione Semester: 2° [1850-1851]" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/course_title/5DEEEE95-49B7-3810-BC26-7212CCF5B1FC> ;
+        crm:P4_has_time-span     <urn:uuid:4f912852-943b-44a8-8c08-bc55322e323e> ;
+        crm:P9_consists_of       <http://www.sealit.gr/DB/course_section/683FB63D-97D0-3D7E-A67E-81E9F9906409> ;
+        crm:P9i_forms_part_of    <http://www.sealit.gr/DB/teaching_unit/13499450-4FD9-3632-92F9-2BBD1D8C48E0> .
+
+<http://www.sealit.gr/DB/person/4962F18B-4988-3FFE-8283-7FEFDDFDB8C2>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Francesco Sollinger" ;
+        crm:P01i_is_domain_of       <urn:uuid:37e1f9d3-c56e-49f0-bf8b-b7f21a5d771b> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/4962F18B-4988-3FFE-8283-7FEFDDFDB8C2> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/E7A854D9-8E43-3B82-98C4-5FBEDF699269> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Francesco" ;
+        sealit:has_last_name        "Sollinger" ;
+        sealit:has_profession       <http://www.sealit.gr/DB/profession%20type/negoziante> ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/991BE04A-70BC-3EE0-901D-DE048AAFEA89>
+        a                      crm:E21_Person ;
+        rdfs:label             "Matteo Pirona" ;
+        sealit:has_first_name  "Matteo" ;
+        sealit:has_last_name   "Pirona" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/agente%20di%20commercio> .
+
+<http://www.sealit.gr/DB/person/C3822B2F-A996-33F2-B918-B29A2F007C5B>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Carlo Sigon" ;
+        crm:P01i_is_domain_of       <urn:uuid:fcda04bd-36ca-40e4-ac1b-23e5a02b2d29> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/5B2B26FA-432F-3829-863F-66A7C4462093> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/CF2DBD92-4EC2-3735-9171-B3D3CFB600E4> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Carlo" ;
+        sealit:has_last_name        "Sigon" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course_subject/52BCB3B6-4440-38A1-B72C-EBA582D9A353>
+        a                sealit:Subject ;
+        rdfs:label       "Disegno della stessa" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person_birth/3E401DD0-E0C6-3FA9-8D60-9120174571EB>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Pietro Paduan" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/D8D2DDCF-EEDD-3060-90E2-7A5E60A7F79E> .
+
+<http://www.sealit.gr/DB/profession%20type/trafficante>
+        a           sealit:Profession ;
+        rdfs:label  "trafficante" .
+
+<http://www.sealit.gr/DB/person/C5589CE1-0E60-348A-957D-4FCF9AC69E50>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Pegan" ;
+        crm:P01i_is_domain_of       <urn:uuid:4428eaf0-ea7c-46a8-b194-191eccd8be2f> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/EB599C7D-2F2E-39EB-970E-147104D29B5A> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/AB55F6C5-C19A-32E9-95FA-3C5A25ADDCC8> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Giuseppe" ;
+        sealit:has_last_name        "Pegan" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/4EE49806-18DC-3A0D-B79F-D9A9B66C7639>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Carlo Detrosia" ;
+        crm:P01i_is_domain_of       <urn:uuid:2d2f7630-4ff1-45ae-bbc9-524b0a382dfe> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/5FD9F230-6DC9-3AB5-9282-BF3186DC42DC> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/57EE7F54-7F0A-3A09-80F6-A0161D4A05E2> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Carlo" ;
+        sealit:has_last_name        "Detrosia" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/2376CAA6-6857-340F-AE98-EC73B7D9BF27>
+        a                      crm:E21_Person ;
+        rdfs:label             "Trifone Prodanovich" ;
+        sealit:has_first_name  "Trifone" ;
+        sealit:has_last_name   "Prodanovich" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/possidente> .
+
+<http://www.sealit.gr/DB/course/D31227FF-00CE-3551-8276-92B55194F386>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Fisica" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/ACA10B2E-53C6-3FE2-87E8-57054ED65C7B> .
+
+<http://www.sealit.gr/DB/person/FD4DDAE1-92D4-309C-9A3F-5A5399EF8C38>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Ferdinando Chiarpei" ;
+        crm:P01i_is_domain_of       <urn:uuid:bdfd1fc4-8393-4baa-9a7b-473ff48948bd> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/108E3CFE-77ED-3FA2-AC4D-E435D3C1A7A1> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/28A80E99-F851-3049-AE99-FB4CE5915D66> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Ferdinando" ;
+        sealit:has_last_name        "Chiarpei" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course/716DC329-6E4E-369E-A0F6-B9879777C744>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Mercinomia" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/FAADC95B-0FA5-376D-AABC-28B26A2E46EE> .
+
+<urn:uuid:bcde300a-3cd6-4fc1-a05c-e6467565c000>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/108E3CFE-77ED-3FA2-AC4D-E435D3C1A7A1>
+        a                      crm:E21_Person ;
+        rdfs:label             "Carlo Chiarpei" ;
+        sealit:has_first_name  "Carlo" ;
+        sealit:has_last_name   "Chiarpei" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/ingegnere> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/direzione%20delle%20fabbriche> .
+
+<http://www.sealit.gr/DB/person/A9292678-48B2-3C6A-8C40-071957921C9C>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Gustavo Pirona" ;
+        crm:P01i_is_domain_of       <urn:uuid:15fd83a9-26af-4bea-af45-9bbac4459be9> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/991BE04A-70BC-3EE0-901D-DE048AAFEA89> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/54FA4799-98E1-32D6-869A-71C0D92F7C42> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Gustavo" ;
+        sealit:has_last_name        "Pirona" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/0E8E5159-8E56-3088-98BF-845958B2E226>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giacomo Lemesich" ;
+        crm:P01i_is_domain_of       <urn:uuid:60dcb586-1063-4308-ae0e-c2826c9aeff7> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/CF1A5992-DD65-3BBF-9BAA-667BD30E44CC> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/8073F221-3002-3719-A014-74B77F5D324A> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Giacomo" ;
+        sealit:has_last_name        "Lemesich" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/1FF8BD35-278C-3BEA-AFD4-B868F6F7FFEA>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Antonio Gallo" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/9841B7F7-974B-3F5A-96AD-476F51D03B77> .
+
+<urn:uuid:a293e40b-58b3-4be3-a67f-aaff571b75d6>
+        a                     crm:E12_Production ;
+        rdfs:label            "Production of collection Accademia di commercio e nautica in Trieste" ;
+        crm:P4_has_time-span  <urn:uuid:eb718a96-58c2-4cf4-b964-c0321ce37324> .
+
+<http://www.sealit.gr/DB/person_birth/99057DD0-78D7-306A-B7DD-B37E731E4EBC>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Angelo Morschene" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/F2956553-35D3-3B5E-BF50-3A9B4DA6AE69> .
+
+<http://www.sealit.gr/DB/person/BB3D334A-EDFC-32C3-A40F-6F602F74BDE3>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Orel" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Orel" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/dottore%20in%20legge> .
+
+<urn:uuid:806f3f3d-fa36-4cd7-93c6-b3910d41b1c5>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course/B3771BBC-0D2F-3A02-AD94-6798E7988998>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Aritmetica" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/5FFE9F85-1FBF-3F8D-A08A-3A90CAFEBF8D> .
+
+<http://www.sealit.gr/DB/person/5313754F-DE1E-3A0D-BF19-AACE870AD2F0>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Ferdinando De Fiori" ;
+        crm:P01i_is_domain_of       <urn:uuid:1c6ffe63-b4aa-40d2-8e73-f04d2bc2888a> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/1E3D5B7A-3228-3528-BC77-BCBF8566C829> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/804173B6-12E5-351B-9F82-EDA502BD8B44> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Ferdinando" ;
+        sealit:has_last_name        "De Fiori" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:081de8c7-77ea-4100-a3c5-7f460715cd7c>
+        a                       crm:E65_Creation ;
+        rdfs:label              "Creation of doc Students Register, 150, 1850-1851, Erica Mezzoli" ;
+        crm:P14_carried_out_by  <http://www.sealit.gr/DB/person/F01D9467-534E-3CB1-A11F-FBC921755836> ;
+        crm:P4_has_time-span    <urn:uuid:5b5d517d-63ca-46c5-bd44-5e801972ccc0> .
+
+<http://www.sealit.gr/DB/person_birth/41172CE5-A28C-3679-9215-AC2BF0522E06>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giovanni Martellanz" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/opchina> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/7C98BCF5-CF56-33DC-A6F6-FD5D1D5C03DD> .
+
+<http://www.sealit.gr/DB/person_birth/321E0D55-C8EE-3168-8358-31B01E99B5E2>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Nicolò Rusco" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/CE0DF921-B0F7-3365-AD00-D0C15264BEA1> .
+
+<http://www.sealit.gr/DB/person/D8D2DDCF-EEDD-3060-90E2-7A5E60A7F79E>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Paduan" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Paduan" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/oste> .
+
+<http://www.sealit.gr/DB/person/7AC86907-7D79-31FF-AE42-FA7EBF87403E>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Willitschitsch" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Willitschitsch" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/segretario> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/luogotenenza> .
+
+<http://www.sealit.gr/DB/profession%20type/orologiajo>
+        a           sealit:Profession ;
+        rdfs:label  "orologiajo" .
+
+<urn:uuid:f5536427-d7a8-4e4e-9b85-6623c13c8444>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/36AFC39D-2D75-30CD-828C-6E0EE0B9E7B3>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Nicolò Bognolo" ;
+        crm:P01i_is_domain_of       <urn:uuid:362cd851-b360-44bf-b252-6ffc1bc3abfe> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/CF91DFFF-0281-3AE3-979A-67003F6AB1E9> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/9E6BFFB8-6A72-32D1-AB0A-C991FFCD7A6C> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Nicolò" ;
+        sealit:has_last_name        "Bognolo" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/E8FBB35B-61ED-3247-A570-BB50DF858E75>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giulio Lerehenthal" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/vodowice> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/91FEB8B9-AC01-311A-939A-532A02009230> .
+
+<http://www.sealit.gr/DB/person/831D5A9D-EECD-3C79-A4B0-8AEDD4AD641F>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giovanni Revelanta" ;
+        sealit:has_first_name  "Giovanni" ;
+        sealit:has_last_name   "Revelanta" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/capo%20maestro%20muratore> .
+
+<http://www.sealit.gr/DB/person/0E57D04B-BD31-31AC-A3D5-09402933E9CC>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Nicolò Rusco" ;
+        crm:P01i_is_domain_of       <urn:uuid:f755657e-b0eb-4528-add4-90d9ab14ad70> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/CE0DF921-B0F7-3365-AD00-D0C15264BEA1> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/321E0D55-C8EE-3168-8358-31B01E99B5E2> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Giuseppe Nicolò" ;
+        sealit:has_last_name        "Rusco" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/7BBCA876-7E26-3FF8-8A06-35CED325E88D>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Pietro Valdoni" ;
+        crm:P01i_is_domain_of       <urn:uuid:e9cb34c2-63bb-4699-afc9-3f4f9bc38829> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/CC6838F6-0383-31AF-AF6F-963F76CE6823> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/0C7F5161-5A7E-3706-95E5-78A354B64EF7> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Pietro" ;
+        sealit:has_last_name        "Valdoni" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/type%20of%20participation/paying>
+        a           crm:E55_Type ;
+        rdfs:label  "Paying" .
+
+<urn:uuid:893bde0c-dd18-4bc2-883f-0686cda3f8c0>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/154C15A8-6D17-3BA6-90A3-D4A5CB6BCDBD>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Alessandro Caicali" ;
+        crm:P01i_is_domain_of       <urn:uuid:9e6b83e7-11a9-43a9-8ebd-61082df4b15e> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/D2A2C1B5-54C2-3AF4-981C-2DFE88549C56> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/6B41D29F-1326-386A-AE89-1FC9D8B42A10> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Alessandro" ;
+        sealit:has_last_name        "Caicali" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/greco-orientale> .
+
+<http://www.sealit.gr/DB/course/F98FF386-CFFB-3695-AEEC-664E08EBA76B>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Calligrafia" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/A934FE2E-EFD9-3880-A125-2E41BD72A97E> .
+
+<http://www.sealit.gr/DB/semester/2%C2%B0>
+        a           sealit:Semester ;
+        rdfs:label  "2°" .
+
+<urn:uuid:5969eba9-9bd8-4cc2-b5fa-31f91da1b721>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/FC08A262-5E13-3806-B765-5403CCC2D2B3>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Luigi Urbanis" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/CE81FEB9-C87A-33AE-9255-C0E43B409EE2> .
+
+<urn:uuid:d881635b-dd29-4c8f-a579-2c6cfb47ae3e>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/doc%20types/source%20identity>
+        a           crm:E55_Type ;
+        rdfs:label  "source identity" .
+
+<http://www.sealit.gr/DB/person/D6D9BC45-1FF4-304E-8F17-7FD54589D300>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Kosher" ;
+        crm:P01i_is_domain_of       <urn:uuid:80748c03-9827-4ae4-9baa-3db8aa1b32a4> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/1B0BCB23-ACD7-305A-8C91-D832A4C152E8> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/A4266A99-2913-37C8-A131-0CA6E2AF02CE> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Giuseppe" ;
+        sealit:has_last_name        "Kosher" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/profession%20type/fabbricatore%20di%20birra>
+        a           sealit:Profession ;
+        rdfs:label  "fabbricatore di birra" .
+
+<http://www.sealit.gr/DB/profession%20type/sagrestano>
+        a           sealit:Profession ;
+        rdfs:label  "sagrestano" .
+
+<http://www.sealit.gr/DB/person/3323465A-7ECB-3B63-B9BA-843D372406E2>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giorgio Prodanovich" ;
+        crm:P01i_is_domain_of       <urn:uuid:1d92ee17-6dac-4970-828c-7b912c35f717> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/2376CAA6-6857-340F-AE98-EC73B7D9BF27> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/2BB5D00F-62E3-3857-859B-F2028218814C> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Giorgio" ;
+        sealit:has_last_name        "Prodanovich" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/greco-illirica> .
+
+<http://www.sealit.gr/DB/Document_of_Register/DAA942BB-91AB-4512-95A3-11F7AFFBF7D9>
+        a                        crm:E31_Document , crm:E18_Physical_Thing ;
+        rdfs:label               "Document Accademia di commercio e nautica in Trieste - Registri di classificazione - 150" ;
+        crm:P102_has_title       <http://www.sealit.gr/DB/appellation/849A326A-31C6-3975-987C-569BB4C1E267> ;
+        crm:P128_carries         <urn:uuid:39fe84f2-cf9b-4b65-9959-cf17c465f484> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/register_identifier/150> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/doc%20types/source%20identity> ;
+        crm:P46i_forms_part_of   <http://www.sealit.gr/DB/collection/38A878A9-9083-3AA9-9B0E-A0211DE5D42E> ;
+        crm:P49_has_former_or_current_keeper
+                <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> ;
+        crm:P94i_was_created_by  <urn:uuid:6faa5aed-39e1-4f26-8077-ee69d5b29903> .
+
+<http://www.sealit.gr/DB/profession%20type/dispensiere>
+        a           sealit:Profession ;
+        rdfs:label  "dispensiere" .
+
+<urn:uuid:1c6ffe63-b4aa-40d2-8e73-f04d2bc2888a>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/scholarship> .
+
+<http://www.sealit.gr/DB/person/9CEFB3E6-4DC4-345C-87AD-19BAFB2BA50F>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Antonio Willitschitsch" ;
+        crm:P01i_is_domain_of       <urn:uuid:d8d66537-8ead-48df-a2e6-45c1a635e036> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/7AC86907-7D79-31FF-AE42-FA7EBF87403E> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/C05C490B-D342-3310-8604-535054A8337A> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Antonio" ;
+        sealit:has_last_name        "Willitschitsch" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:280a7c61-69dc-4f3c-8e51-06ad63391c64>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/61DE91A9-FFD7-3962-9F07-9AD5F0CC063A>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Guglielmo Polli" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/1500851C-9D6E-3D62-933D-FEFA87983B84> .
+
+<http://www.sealit.gr/DB/course_subject/5FFE9F85-1FBF-3F8D-A08A-3A90CAFEBF8D>
+        a                sealit:Subject ;
+        rdfs:label       "Aritmetica" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/course_section/8A8BA725-E29A-3888-857A-D2ABB286219A>
+        a                           sealit:Section ;
+        rdfs:label                  "Section of course Nautica - 2a sezione Semester: 2° [1850-1851]" ;
+        crm:P1_is_identified_by     <http://www.sealit.gr/DB/course_number/2a%20sezione> ;
+        crm:P9_consists_of          <http://www.sealit.gr/DB/course/A4AD3085-2AE2-3C1D-9F7E-0CA40DCFE681> , <http://www.sealit.gr/DB/course/8143FD48-F7E0-3902-A72C-86E224510952> , <http://www.sealit.gr/DB/course/9E3CB9FD-8420-3D8F-9729-F1D37C71412C> , <http://www.sealit.gr/DB/course/E5EB655B-2602-3E21-B8D3-F06F049106F6> , <http://www.sealit.gr/DB/course/FDE13A09-0A4B-3344-933B-F68E9B24C3D6> , <http://www.sealit.gr/DB/course/5FD309E6-9A43-344B-A8F9-7122F4A2E83B> , <http://www.sealit.gr/DB/course/44EFED95-0803-3F22-AB86-4BCDA30BAC57> , <http://www.sealit.gr/DB/course/4FD5F2B3-D44A-3294-9C48-90BE99B12E20> , <http://www.sealit.gr/DB/course/70FA2CC9-8285-3C79-B301-39FD3B4201B8> , <http://www.sealit.gr/DB/course/8C5C26BB-1A5B-339D-B780-CD9A53731360> , <http://www.sealit.gr/DB/course/A4643397-54EB-35DC-870F-D126CD500277> ;
+        sealit:had_student          <http://www.sealit.gr/DB/person/4F9F70BC-74B1-3816-9439-649CC20B6461> , <http://www.sealit.gr/DB/person/3CF7B55B-5F1E-3FF4-A786-59085FCDF426> , <http://www.sealit.gr/DB/person/7383DD2F-F003-3FD3-8BE0-F344AC571D35> , <http://www.sealit.gr/DB/person/33125797-F099-3720-95B7-E042696612B5> , <http://www.sealit.gr/DB/person/78A932DB-ADBE-3F74-83DF-37A6E8C002E5> , <http://www.sealit.gr/DB/person/9AB25C66-CD6E-3EC9-88D4-AB03FD494FB8> , <http://www.sealit.gr/DB/person/B376B97E-D162-3063-9E6D-BCF573A780E4> , <http://www.sealit.gr/DB/person/E428DC83-55CE-3367-ADFA-D0C5D045C6B1> , <http://www.sealit.gr/DB/person/129DB3F2-C96C-3BC1-B464-B3B72D7BF848> ;
+        sealit:with_no_of_students  "9" .
+
+<http://www.sealit.gr/DB/profession%20type/capo-maestro%20muratore>
+        a           sealit:Profession ;
+        rdfs:label  "capo-maestro muratore" .
+
+<http://www.sealit.gr/DB/person/256B525F-ADFC-3751-9E14-64176DF96A5B>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giorgio Beserianni" ;
+        crm:P01i_is_domain_of       <urn:uuid:dbffb560-32c8-4f53-a0e6-9a2959f12c2a> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/B0E26056-ED20-37B2-90AA-6EEBB1B41814> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/62D8D596-A2C8-3691-B5AF-473160DA1DEB> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Giorgio" ;
+        sealit:has_last_name        "Beserianni" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/greco-orientale> .
+
+<http://www.sealit.gr/DB/course_subject/A934FE2E-EFD9-3880-A125-2E41BD72A97E>
+        a                sealit:Subject ;
+        rdfs:label       "Calligrafia" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person_birth/77B7B7D3-3A92-3368-A60F-AA677B5B3FE3>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Cesare Damiani" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/zara> ;
+        crm:P96_by_mother     <http://www.sealit.gr/DB/person/3D3DCDD1-DEE7-3942-A65A-920A525FC1BB> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7>
+        a                        crm:E73_Information_Object ;
+        rdfs:label               "Students Register, 150, 1850-1851, Erica Mezzoli" ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/template%20types/students%20register> , <http://www.sealit.gr/DB/doc%20types/record%20information> ;
+        crm:P67_refers_to        <http://www.sealit.gr/DB/Document_of_Register/DAA942BB-91AB-4512-95A3-11F7AFFBF7D9> ;
+        crm:P94i_was_created_by  <urn:uuid:081de8c7-77ea-4100-a3c5-7f460715cd7c> .
+
+<urn:uuid:62e11b04-6e7e-4df4-80c9-750856bad5e2>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/66ADD9A2-6EBC-3A14-916C-9D6EED1412D6>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Angelo Morschene" ;
+        crm:P01i_is_domain_of       <urn:uuid:bf7ca740-f2de-441a-bd6e-a3f9cab02f1b> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/F2956553-35D3-3B5E-BF50-3A9B4DA6AE69> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/99057DD0-78D7-306A-B7DD-B37E731E4EBC> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Angelo" ;
+        sealit:has_last_name        "Morschene" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/israelitica> .
+
+<http://www.sealit.gr/DB/profession%20type/fabbro>
+        a           sealit:Profession ;
+        rdfs:label  "fabbro" .
+
+<http://www.sealit.gr/DB/location/vienna>
+        a           crm:E53_Place ;
+        rdfs:label  "Vienna" .
+
+<http://www.sealit.gr/DB/person/CE0DF921-B0F7-3365-AD00-D0C15264BEA1>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giovanni Mario Rusco" ;
+        sealit:has_first_name  "Giovanni Mario" ;
+        sealit:has_last_name   "Rusco" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/magazziniere> .
+
+<http://www.sealit.gr/DB/person/1500851C-9D6E-3D62-933D-FEFA87983B84>
+        a                      crm:E21_Person ;
+        rdfs:label             "Felice Polli" ;
+        sealit:has_first_name  "Felice" ;
+        sealit:has_last_name   "Polli" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/costruttore%20navale> .
+
+<http://www.sealit.gr/DB/location/capodistria>
+        a           crm:E53_Place ;
+        rdfs:label  "Capodistria" .
+
+<http://www.sealit.gr/DB/person/28117C44-485A-39F5-B12D-738F41DB7180>
+        a                      crm:E21_Person ;
+        rdfs:label             "Antonio D`Adda" ;
+        sealit:has_first_name  "Antonio" ;
+        sealit:has_last_name   "D`Adda" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/dispensiere> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/ufficio%20tabacchi%20e%20bolli> .
+
+<http://www.sealit.gr/DB/person_birth/3F54CAA4-F288-3719-B965-987E5E226EAA>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Carlo Girotti" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P96_by_mother     <http://www.sealit.gr/DB/person/A840B1A8-08EA-3128-882D-C5E09171F0A6> .
+
+<http://www.sealit.gr/DB/person/1E3D5B7A-3228-3528-BC77-BCBF8566C829>
+        a                      crm:E21_Person ;
+        rdfs:label             "D.re Francesco De Fiori" ;
+        sealit:has_first_name  "D.re Francesco" ;
+        sealit:has_last_name   "De Fiori" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/professore> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/accademia> .
+
+<urn:uuid:ba61cd33-d4ab-4f81-ba6c-8c46912e4c31>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/template%20types/students%20register>
+        a           crm:E55_Type ;
+        rdfs:label  "students register" .
+
+<http://www.sealit.gr/DB/person/881BF5B2-5ECF-3BFC-AF41-C29BA2B0150D>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Eugenio Stratti" ;
+        crm:P01i_is_domain_of       <urn:uuid:2b84cb8e-c22a-47c4-8f6d-f07416e83605> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/D3B4E3B5-8D51-3A36-A4EF-67E9D76BC3AF> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/74656AA8-845E-3B80-9E95-DD062EB531ED> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Eugenio" ;
+        sealit:has_last_name        "Stratti" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/greco-orientale> .
+
+<urn:uuid:47f95b8a-bd2b-4695-ad77-80a7e4be33a5>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/C05C490B-D342-3310-8604-535054A8337A>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Antonio Willitschitsch" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/7AC86907-7D79-31FF-AE42-FA7EBF87403E> .
+
+<urn:uuid:24c8408c-08b2-41a2-8869-eccdf2e3f83d>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/7322C8F7-6C66-3832-9BEC-DC11B442F516>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Pietro Paduan" ;
+        crm:P01i_is_domain_of       <urn:uuid:a209acfa-b46b-43e9-bc4b-a4c95907d3d3> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/D8D2DDCF-EEDD-3060-90E2-7A5E60A7F79E> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/3E401DD0-E0C6-3FA9-8D60-9120174571EB> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Pietro" ;
+        sealit:has_last_name        "Paduan" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course/4FD5F2B3-D44A-3294-9C48-90BE99B12E20>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Disegno della stessa" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/52BCB3B6-4440-38A1-B72C-EBA582D9A353> .
+
+<http://www.sealit.gr/DB/person/1E7BBF27-23FA-384E-AB5E-E0314EACEC2C>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Graziadio Pincherle" ;
+        crm:P01i_is_domain_of       <urn:uuid:d78e1343-4b80-4125-b549-6f1c7a0c4501> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/2A4F0090-BE39-3611-B117-407188FB5F74> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/03F2235D-128F-30F7-B7BE-D5DDF70143B9> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Graziadio" ;
+        sealit:has_last_name        "Pincherle" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/israelitica> .
+
+<http://www.sealit.gr/DB/person/B376B97E-D162-3063-9E6D-BCF573A780E4>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Enrico Margutti" ;
+        crm:P01i_is_domain_of       <urn:uuid:7e81ab48-aff7-4d1c-94bf-ed0ff8f00f9f> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/857A71BA-CDBA-3F29-89A1-896EDBFE841C> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/5A8948EA-99A5-37D8-A8A2-D797E166E6FE> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Enrico" ;
+        sealit:has_last_name        "Margutti" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/847983AB-BD83-3FCB-BD76-FA1B51C52D5B>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Roberto Eggenhöffner" ;
+        crm:P01i_is_domain_of       <urn:uuid:8237ee40-34da-4318-b632-1f636b0b87cc> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/9B7364DC-55D2-3724-A42C-96BBBA60C2A6> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/19B97CCA-2D95-3A62-BE0E-61443F5DC05E> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Roberto" ;
+        sealit:has_last_name        "Eggenhöffner" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:b4aa466f-035e-46c1-9bc7-32c48dca6711>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/EBC5FBD6-B0A1-3DE8-8682-D8286BC52A46>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Sebastiano D`Adda" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/venezia> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/28117C44-485A-39F5-B12D-738F41DB7180> .
+
+<http://www.sealit.gr/DB/person/49F1C505-A6EF-3D93-8F2E-BA9EA8B8E6C2>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Francesco Horn" ;
+        crm:P01i_is_domain_of       <urn:uuid:d881635b-dd29-4c8f-a579-2c6cfb47ae3e> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/49F1C505-A6EF-3D93-8F2E-BA9EA8B8E6C2> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/19664E06-F2D7-3C45-AD9D-992C15D2970F> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Francesco" ;
+        sealit:has_last_name        "Horn" ;
+        sealit:has_profession       <http://www.sealit.gr/DB/profession%20type/legatore%20di%20libri> ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/3912E97E-2455-38A7-A9D5-DC9616425996>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Revelanta" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/pisino> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/831D5A9D-EECD-3C79-A4B0-8AEDD4AD641F> .
+
+<urn:uuid:91c91103-119d-4cb1-9d14-f01e404dffed>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/profession%20type/dottore%20in%20legge>
+        a           sealit:Profession ;
+        rdfs:label  "Dottore in legge" .
+
+<http://www.sealit.gr/DB/course/8A8BA725-E29A-3888-857A-D2ABB286219A>
+        a                        sealit:Course ;
+        rdfs:label               "Course Nautica - 2a sezione Semester: 2° [1850-1851]" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/course_title/71354DC8-3753-3464-B44E-CFF3E19FE7E6> ;
+        crm:P4_has_time-span     <urn:uuid:88dedbfe-488a-41f6-95be-60931e697e09> ;
+        crm:P9_consists_of       <http://www.sealit.gr/DB/course_section/8A8BA725-E29A-3888-857A-D2ABB286219A> ;
+        crm:P9i_forms_part_of    <http://www.sealit.gr/DB/teaching_unit/13499450-4FD9-3632-92F9-2BBD1D8C48E0> .
+
+<http://www.sealit.gr/DB/course_subject/0343B2E8-49DB-3664-8FC5-16D9EF7436DA>
+        a                sealit:Subject ;
+        rdfs:label       "Disegno navale" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person/66AD7E20-FB82-3D7C-9DAD-8FE80A75BC35>
+        a                      crm:E21_Person ;
+        rdfs:label             "Massimiliano Maffei" ;
+        sealit:has_first_name  "Massimiliano" ;
+        sealit:has_last_name   "Maffei" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/capitano%20mercantile> .
+
+<urn:uuid:cf05b758-8aa6-4a77-a883-4c3f5012b880>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course%20subject%20types/oblligatory>
+        a           crm:E55_Type ;
+        rdfs:label  "Oblligatory" .
+
+<http://www.sealit.gr/DB/person_birth/8073F221-3002-3719-A014-74B77F5D324A>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giacomo Lemesich" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/cherso> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/CF1A5992-DD65-3BBF-9BAA-667BD30E44CC> .
+
+<http://www.sealit.gr/DB/organisation/imperial%20regia%20corte%20di%20giustizia>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Imperial Regia Corte di Giustizia" .
+
+<http://www.sealit.gr/DB/organisation/luogotenenza>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Luogotenenza" .
+
+<http://www.sealit.gr/DB/course/9E3CB9FD-8420-3D8F-9729-F1D37C71412C>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Fisica" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/ACA10B2E-53C6-3FE2-87E8-57054ED65C7B> .
+
+<http://www.sealit.gr/DB/person/857A71BA-CDBA-3F29-89A1-896EDBFE841C>
+        a                      crm:E21_Person ;
+        rdfs:label             "Alessandro Margutti" ;
+        sealit:has_first_name  "Alessandro" ;
+        sealit:has_last_name   "Margutti" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/agente> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<urn:uuid:4f2c5172-44ff-4bfa-bc0a-138cdf0e0f9d>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/doc%20types/record%20information>
+        a           crm:E55_Type ;
+        rdfs:label  "record information" .
+
+<http://www.sealit.gr/DB/person/D3B4E3B5-8D51-3A36-A4EF-67E9D76BC3AF>
+        a                      crm:E21_Person ;
+        rdfs:label             "Nicolò Stratti" ;
+        sealit:has_first_name  "Nicolò" ;
+        sealit:has_last_name   "Stratti" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/possidente> .
+
+<http://www.sealit.gr/DB/person/5FB1DDD3-9709-3C4D-B047-39CB1904B830>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Carlo Müller" ;
+        crm:P01i_is_domain_of       <urn:uuid:b4aa466f-035e-46c1-9bc7-32c48dca6711> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/3ED97E03-CB24-392E-85C5-F618AD6E8157> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/EC1A2FD6-459D-395C-8846-75977F2DF52F> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Carlo" ;
+        sealit:has_last_name        "Müller" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/86ADE9BB-7159-3113-BAB0-0145DE2099CD>
+        a                      crm:E21_Person ;
+        rdfs:label             "Tommaso Gruden" ;
+        sealit:has_first_name  "Tommaso" ;
+        sealit:has_last_name   "Gruden" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/possidente> .
+
+<http://www.sealit.gr/DB/organisation/magistrato%20di%20sanit%C3%A0>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Magistrato di Sanità" .
+
+<http://www.sealit.gr/DB/person/975685DE-2013-3D0A-8625-ACFA77E1A240>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giovanni Nepomuceno Steiss" ;
+        sealit:has_first_name  "Giovanni Nepomuceno" ;
+        sealit:has_last_name   "Steiss" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/impiegato> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/magistrato%20di%20sanit%C3%A0> .
+
+<http://www.sealit.gr/DB/profession%20type/agente%20generale>
+        a           sealit:Profession ;
+        rdfs:label  "agente generale" .
+
+<http://www.sealit.gr/DB/profession%20type/commerciante>
+        a           sealit:Profession ;
+        rdfs:label  "commerciante" .
+
+<urn:uuid:595fbd9a-7f97-48c0-82c9-cbc98c709f07>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/3C61EEF7-4A90-39E1-BED4-2AADD6850E4F>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Marco Pontini" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/terzo> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/3F25CF89-0A79-3CAC-BE46-9798A26FED56> .
+
+<http://www.sealit.gr/DB/person_birth/8BCA6C04-9B45-36D8-BED4-3633CFD2CD5F>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giorgio Minas" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/CD5CEBDC-83F1-37DD-BDE4-0DA9BFB4E0E3> .
+
+<http://www.sealit.gr/DB/person/C651F0B1-A408-327F-B953-7F49D4E9FC47>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Gruden" ;
+        crm:P01i_is_domain_of       <urn:uuid:ec31b5da-4464-43cb-969f-fc56899fe51f> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/86ADE9BB-7159-3113-BAB0-0145DE2099CD> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/E05D0D84-0798-3D19-8141-E427C6510899> ;
+        sealit:has_current_age      "12" ;
+        sealit:has_first_name       "Giuseppe" ;
+        sealit:has_last_name        "Gruden" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/9BCFE1A2-4F8F-327D-8441-E9E1A0AC9373>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Fink" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/A084839F-5DE9-3022-87FD-388C7F1EFBE5> .
+
+<http://www.sealit.gr/DB/person/5B2B26FA-432F-3829-863F-66A7C4462093>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Sigon" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Sigon" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/ispettore> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/civici%20pompieri> .
+
+<http://www.sealit.gr/DB/person/09D8103B-EC3E-372B-A949-3FAB4B414D2C>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Gerzabeck" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Gerzabeck" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante> .
+
+<http://www.sealit.gr/DB/person_birth/057F82F9-5B66-34B5-93D2-371BEB7CE7FB>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Francesco Gossleth" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/E92F8A61-E4B1-3B5E-8598-165441C27397> .
+
+<http://www.sealit.gr/DB/person/549941EA-5BAB-30CB-842A-75EAE43D6051>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Carlo Girotti" ;
+        crm:P01i_is_domain_of       <urn:uuid:f8b511fc-16ee-4b91-afc1-346f556e5999> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/A840B1A8-08EA-3128-882D-C5E09171F0A6> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/3F54CAA4-F288-3719-B965-987E5E226EAA> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Carlo" ;
+        sealit:has_last_name        "Girotti" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course/F5E8195E-66B7-3DD6-A706-53E623CE9964>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Lingua inglese" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/5FEC1303-FA1B-3E6B-99C3-8B386EBF91E8> .
+
+<http://www.sealit.gr/DB/person_birth/6B41D29F-1326-386A-AE89-1FC9D8B42A10>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Alessandro Caicali" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/D2A2C1B5-54C2-3AF4-981C-2DFE88549C56> .
+
+<http://www.sealit.gr/DB/course_subject/1A542B8F-4F57-3499-BF1D-3EEA2A354F45>
+        a                sealit:Subject ;
+        rdfs:label       "Geografia" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<urn:uuid:622a3540-3683-47f8-a586-d1d59d912420>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/location/cherso>
+        a           crm:E53_Place ;
+        rdfs:label  "Cherso" .
+
+<http://www.sealit.gr/DB/person/F01D9467-534E-3CB1-A11F-FBC921755836>
+        a                      crm:E21_Person ;
+        rdfs:label             "Erica Mezzoli" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/organisation/forth/ims> ;
+        sealit:has_first_name  "Erica" ;
+        sealit:has_last_name   "Mezzoli" .
+
+<http://www.sealit.gr/DB/person_birth/28A80E99-F851-3049-AE99-FB4CE5915D66>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Ferdinando Chiarpei" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/gorizia> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/108E3CFE-77ED-3FA2-AC4D-E435D3C1A7A1> .
+
+<http://www.sealit.gr/DB/course/FDC3EC74-4F3F-348B-9C9A-66718E279943>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Fisica" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/ACA10B2E-53C6-3FE2-87E8-57054ED65C7B> .
+
+<http://www.sealit.gr/DB/person/D2A2C1B5-54C2-3AF4-981C-2DFE88549C56>
+        a                      crm:E21_Person ;
+        rdfs:label             "Atanasio Caicali" ;
+        sealit:has_first_name  "Atanasio" ;
+        sealit:has_last_name   "Caicali" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/professore%20di%20lingua%20greca> .
+
+<http://www.sealit.gr/DB/course_subject/A76FB48B-9E46-3400-AD6D-E0B23A48E30F>
+        a                sealit:Subject ;
+        rdfs:label       "Lingua francese" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/profession%20type/capo%20maestro%20muratore>
+        a           sealit:Profession ;
+        rdfs:label  "capo maestro muratore" .
+
+<http://www.sealit.gr/DB/person/85AF92C9-8711-3970-BF6D-ED8D413D480F>
+        a                      crm:E21_Person ;
+        rdfs:label             "Trifone Miailovich" ;
+        sealit:has_first_name  "Trifone" ;
+        sealit:has_last_name   "Miailovich" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/nostromo> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/location/ragusa>
+        a           crm:E53_Place ;
+        rdfs:label  "Ragusa" .
+
+<http://www.sealit.gr/DB/person/DEC4DFD2-E653-3779-861A-BD9113B54023>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuliano Tessari" ;
+        sealit:has_first_name  "Giuliano" ;
+        sealit:has_last_name   "Tessari" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/impiegato> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/ufficio%20di%20borsa> .
+
+<http://www.sealit.gr/DB/register_identifier/150>
+        a                crm:E42_Identifier ;
+        rdfs:label       "150" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/course_subject/F885707E-0CC8-31C7-A766-D5323D4422AF>
+        a                sealit:Subject ;
+        rdfs:label       "Scienza di commercio" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person/9E784324-D65E-3CFC-ABFF-AA2BE0D462A9>
+        a                      crm:E21_Person ;
+        rdfs:label             "Isacco Coen" ;
+        sealit:has_first_name  "Isacco" ;
+        sealit:has_last_name   "Coen" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/possidente> .
+
+<http://www.sealit.gr/DB/person/0478B07F-7C6F-33D3-BB70-23435D5EE4EF>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giorgio Minas" ;
+        crm:P01i_is_domain_of       <urn:uuid:d5945258-0337-44a1-a8ec-513fca702cf9> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/CD5CEBDC-83F1-37DD-BDE4-0DA9BFB4E0E3> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/8BCA6C04-9B45-36D8-BED4-3633CFD2CD5F> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Giorgio" ;
+        sealit:has_last_name        "Minas" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/8C205E8C-DF5B-3F23-8AA7-F52332DA8E97>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Nicolò Tessari" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/DEC4DFD2-E653-3779-861A-BD9113B54023> .
+
+<http://www.sealit.gr/DB/course_subject/E11D8B3A-61F6-3BA9-B8B2-2FF692773E5E>
+        a                sealit:Subject ;
+        rdfs:label       "Contabilità camerale" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person/570D4C3A-34B5-3CED-801F-99BAB50FAA40>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giovanni Gajo" ;
+        crm:P01i_is_domain_of       <urn:uuid:62667665-5e1c-4447-8112-5d0dabd6dc9f> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/05EFC956-4B6F-30D8-A4BD-237DC783F748> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/C57F0FED-2216-3F94-9E09-81C70AD68ACA> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Giovanni" ;
+        sealit:has_last_name        "Gajo" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/F694F694-5125-370B-B607-B5817E4767B1>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giovanni Trost" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/6504A97A-D608-315B-8094-9DDEAAF69B59> .
+
+<http://www.sealit.gr/DB/person/E92F8A61-E4B1-3B5E-8598-165441C27397>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Francesco Gossleth" ;
+        crm:P01i_is_domain_of       <urn:uuid:91c91103-119d-4cb1-9d14-f01e404dffed> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/E92F8A61-E4B1-3B5E-8598-165441C27397> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/057F82F9-5B66-34B5-93D2-371BEB7CE7FB> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Francesco" ;
+        sealit:has_last_name        "Gossleth" ;
+        sealit:has_profession       <http://www.sealit.gr/DB/profession%20type/possidente> ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:af4a5317-5d7e-42ba-a04a-79fb017edeef>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/profession%20type/marittimo>
+        a           sealit:Profession ;
+        rdfs:label  "marittimo" .
+
+<http://www.sealit.gr/DB/profession%20type/ispettore>
+        a           sealit:Profession ;
+        rdfs:label  "ispettore" .
+
+<http://www.sealit.gr/DB/person/EA2AD328-245E-38EF-BD12-3C40C479A628>
+        a                      crm:E21_Person ;
+        rdfs:label             "Leopoldo Schallmeiner" ;
+        sealit:has_first_name  "Leopoldo" ;
+        sealit:has_last_name   "Schallmeiner" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/fabbricatore%20di%20birra> .
+
+<http://www.sealit.gr/DB/religion/greco-illirica>
+        a           sealit:Religion_Status ;
+        rdfs:label  "Greco-illirica" .
+
+<http://www.sealit.gr/DB/person/9AB25C66-CD6E-3EC9-88D4-AB03FD494FB8>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giovanni Miailovich" ;
+        crm:P01i_is_domain_of       <urn:uuid:622a3540-3683-47f8-a586-d1d59d912420> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/85AF92C9-8711-3970-BF6D-ED8D413D480F> ;
+        crm:P3_has_note             "straordinario" ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/25871C22-6999-3F98-A8EA-2AD742C263E8> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Giovanni" ;
+        sealit:has_last_name        "Miailovich" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/greco-illirica> .
+
+<http://www.sealit.gr/DB/course/FDE13A09-0A4B-3344-933B-F68E9B24C3D6>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Stile italiano" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/6743D013-E889-3669-9490-642C60D4D2DA> .
+
+<http://www.sealit.gr/DB/person/90802F63-852B-31A7-94C6-29AE8558B3DD>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Graziano Morpurgo" ;
+        crm:P01i_is_domain_of       <urn:uuid:7f084595-a93d-4e65-82f0-b56b12ca995f> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/97A29EEF-6FCE-3621-A8B8-CBDDB9EEC6AF> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/C90516E7-E2F0-34E5-B570-D60B0061D07D> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Graziano" ;
+        sealit:has_last_name        "Morpurgo" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/israelitica> .
+
+<urn:uuid:7c4664eb-fde3-4dcd-9c72-0517129a96f7>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<urn:uuid:85f9fb8d-803a-4e80-89a9-2d68d3a91dce>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course/ED0D8519-5D63-324B-B397-7210AEC78585>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Diritto marittimo" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/AB1B601A-35AD-399B-85A6-034AAD6D6960> .
+
+<urn:uuid:267c8d54-a4df-4ae4-86c1-a3361bbf376a>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course_number/2a%20sezione>
+        a           crm:E42_Identifier ;
+        rdfs:label  "2a sezione" .
+
+<http://www.sealit.gr/DB/person/E428DC83-55CE-3367-ADFA-D0C5D045C6B1>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Enrico Beller" ;
+        crm:P01i_is_domain_of       <urn:uuid:7cd1a5e3-9d08-487e-8ab5-272f7b06bfa2> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/8110CAB2-7305-3EEF-AD1C-B0DB0D562481> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/1C77D620-B68F-3509-878D-1F64F272FA08> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Enrico" ;
+        sealit:has_last_name        "Beller" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/profession%20type/assicuratore>
+        a           sealit:Profession ;
+        rdfs:label  "assicuratore" .
+
+<http://www.sealit.gr/DB/profession%20type/podest%C3%A0%20di%20trieste>
+        a           sealit:Profession ;
+        rdfs:label  "Podestà di Trieste" .
+
+<http://www.sealit.gr/DB/profession%20type/sacerdote%20catechista>
+        a           sealit:Profession ;
+        rdfs:label  "sacerdote catechista" .
+
+<http://www.sealit.gr/DB/person/DCEFC67D-FB54-30A9-B81F-FFD9CF7221A7>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Adolfo Steiss" ;
+        crm:P01i_is_domain_of       <urn:uuid:8129ca7d-47b7-47eb-8504-a2faee6eb42b> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/975685DE-2013-3D0A-8625-ACFA77E1A240> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/3A7D2636-723A-3A04-860E-20CE46D39803> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Adolfo" ;
+        sealit:has_last_name        "Steiss" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/8A9403BA-63EA-333E-B7F7-72A3D62D2D11>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Federico Schönerer" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/7EDC6112-7FAF-3C94-A51D-C69D5719E050> .
+
+<http://www.sealit.gr/DB/person_birth/911A7650-8B61-399A-8418-B7A088EE6D0E>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Tommaso Pugliato" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/89C78650-A8E7-3C34-AFB7-56B6C7D05771> .
+
+<urn:uuid:60513e88-0863-4a33-90f3-b8425d004782>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/D67C2A99-5C9B-39D2-8D3E-51F9B80B040A>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Alfredo Tomlanovich" ;
+        crm:P01i_is_domain_of       <urn:uuid:bb8deda8-8cf5-4d47-ae63-d0264d9b43d2> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/96CE0EFD-64A2-301D-A79F-4CAF7D48EE5D> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/2F4D480F-0A70-383F-BCD8-716C8D81ABFF> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Alfredo" ;
+        sealit:has_last_name        "Tomlanovich" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/03F2235D-128F-30F7-B7BE-D5DDF70143B9>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Graziadio Pincherle" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/2A4F0090-BE39-3611-B117-407188FB5F74> .
+
+<http://www.sealit.gr/DB/profession%20type/ingegnere>
+        a           sealit:Profession ;
+        rdfs:label  "ingegnere" .
+
+<urn:uuid:bdfd1fc4-8393-4baa-9a7b-473ff48948bd>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/9B7364DC-55D2-3724-A42C-96BBBA60C2A6>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francesco Eggenhöffner" ;
+        sealit:has_first_name  "Francesco" ;
+        sealit:has_last_name   "Eggenhöffner" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/possidente> .
+
+<http://www.sealit.gr/DB/person/FC47B640-FDA6-3790-9F48-0AC83A9A3A36>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giovanni Schiavon" ;
+        sealit:has_first_name  "Giovanni" ;
+        sealit:has_last_name   "Schiavon" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/costruttore%20navale> .
+
+<http://www.sealit.gr/DB/profession%20type/caffettiere>
+        a           sealit:Profession ;
+        rdfs:label  "caffettiere" .
+
+<urn:uuid:2b84cb8e-c22a-47c4-8f6d-f07416e83605>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course_subject/F56E63F3-BED8-3302-A4E5-092F8990CC5D>
+        a                sealit:Subject ;
+        rdfs:label       "Geografia e storia" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person/0ECA5E2B-B914-3EB5-95E2-D578F6DB9DC1>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Antonio Orel" ;
+        crm:P01i_is_domain_of       <urn:uuid:23e0bf08-0824-4151-8d24-efa140a42a2b> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/BB3D334A-EDFC-32C3-A40F-6F602F74BDE3> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/2391DE2D-9989-37BD-8EF9-978153DD6DB9> ;
+        sealit:has_current_age      "17" ;
+        sealit:has_first_name       "Antonio" ;
+        sealit:has_last_name        "Orel" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/3ED97E03-CB24-392E-85C5-F618AD6E8157>
+        a                      crm:E21_Person ;
+        rdfs:label             "Mattias Müller" ;
+        sealit:has_first_name  "Mattias" ;
+        sealit:has_last_name   "Müller" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante%20di%20piano-forti> .
+
+<http://www.sealit.gr/DB/profession%20type/capitano%20mercantile>
+        a           sealit:Profession ;
+        rdfs:label  "capitano mercantile" .
+
+<http://www.sealit.gr/DB/person/6CF4106C-893D-37C5-BFD2-B591CEA29163>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Mosè Maurizio Jung" ;
+        crm:P01i_is_domain_of       <urn:uuid:74702594-bacc-4151-af86-80083ad4d11b> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/06F4BB40-7E66-383C-9D13-133A2A1D0B2C> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/7C96BBF2-98A9-37D9-BF96-06C23A70465D> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Mosè Maurizio" ;
+        sealit:has_last_name        "Jung" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/israelitica> .
+
+<http://www.sealit.gr/DB/organisation/direzione%20delle%20fabbriche>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Direzione delle fabbriche" .
+
+<http://www.sealit.gr/DB/person/E2FA768B-08B4-3819-A110-1BF4D06CAA29>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Aristide Cuscoleca" ;
+        crm:P01i_is_domain_of       <urn:uuid:7c4664eb-fde3-4dcd-9c72-0517129a96f7> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/A7D86092-4B45-3CBE-82A9-DC90731BC3B1> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/BED62AA0-5AA3-35E0-B821-1BFC72DA74B8> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Aristide" ;
+        sealit:has_last_name        "Cuscoleca" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/greco-orientale> .
+
+<http://www.sealit.gr/DB/person/DC22CE6F-5E2A-3F23-8B6D-BCB1D66247C6>
+        a                      crm:E21_Person ;
+        rdfs:label             "Samuele Menz" ;
+        sealit:has_first_name  "Samuele" ;
+        sealit:has_last_name   "Menz" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/agente%20generale> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/assicurazione%20adriatica> .
+
+<http://www.sealit.gr/DB/profession%20type/cancellista>
+        a           sealit:Profession ;
+        rdfs:label  "cancellista" .
+
+<http://www.sealit.gr/DB/organisation/accademia>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Accademia" .
+
+<http://www.sealit.gr/DB/location/auber>
+        a           crm:E53_Place ;
+        rdfs:label  "Auber" .
+
+<http://www.sealit.gr/DB/person_birth/FF9660FD-12FD-38CB-BC1D-C8820C2F380F>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Alessandro Maffei" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/66AD7E20-FB82-3D7C-9DAD-8FE80A75BC35> .
+
+<http://www.sealit.gr/DB/person_birth/108790DB-B361-3D44-83A0-B6FA4E21E2AA>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Egidio Padovan" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/9E0EFF9A-E0C4-35E3-8A85-5628174FE3C2> .
+
+<http://www.sealit.gr/DB/person_birth/E4815368-4BB0-34FD-99C0-91282835917D>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giacomo Podich" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/ragusa> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/5CA0AFAD-F233-3E89-AC59-52CEFDC2EB4C> .
+
+<http://www.sealit.gr/DB/person/834B0624-8C2F-3B80-9C84-FB0D1C1EFBB1>
+        a                      crm:E21_Person ;
+        rdfs:label             "D.re Giuseppe Muratti" ;
+        sealit:has_first_name  "D.re Giuseppe" ;
+        sealit:has_last_name   "Muratti" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/avvocato> .
+
+<http://www.sealit.gr/DB/person_birth/0C7F5161-5A7E-3706-95E5-78A354B64EF7>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Pietro Valdoni" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P96_by_mother     <http://www.sealit.gr/DB/person/CC6838F6-0383-31AF-AF6F-963F76CE6823> .
+
+<http://www.sealit.gr/DB/location/milano>
+        a           crm:E53_Place ;
+        rdfs:label  "Milano" .
+
+<urn:uuid:d61a445c-9f0b-420b-9f35-03d38fbddd64>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/CF1A5992-DD65-3BBF-9BAA-667BD30E44CC>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giovanni Lemesich" ;
+        sealit:has_first_name  "Giovanni" ;
+        sealit:has_last_name   "Lemesich" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante> .
+
+<http://www.sealit.gr/DB/person_birth/C57F0FED-2216-3F94-9E09-81C70AD68ACA>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giovanni Gajo" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/05EFC956-4B6F-30D8-A4BD-237DC783F748> .
+
+<http://www.sealit.gr/DB/type%20of%20participation/scholarship>
+        a           crm:E55_Type ;
+        rdfs:label  "Scholarship" .
+
+<http://www.sealit.gr/DB/location/pisino>
+        a           crm:E53_Place ;
+        rdfs:label  "Pisino" .
+
+<http://www.sealit.gr/DB/course/A52D8BEE-C713-3A4A-A599-8432A91F3A95>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Aritmetica mercantile" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/68171A14-F5B3-3FD9-B62B-93E9D29D62D3> .
+
+<http://www.sealit.gr/DB/person/91FEB8B9-AC01-311A-939A-532A02009230>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francesco Lerehenthal" ;
+        sealit:has_first_name  "Francesco" ;
+        sealit:has_last_name   "Lerehenthal" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/segretario%20camerale> .
+
+<http://www.sealit.gr/DB/location/gratz>
+        a           crm:E53_Place ;
+        rdfs:label  "Gratz" .
+
+<http://www.sealit.gr/DB/location/terzo>
+        a           crm:E53_Place ;
+        rdfs:label  "Terzo" .
+
+<urn:uuid:8237ee40-34da-4318-b632-1f636b0b87cc>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/5ACF341C-F805-3339-BCFD-3334F968B470>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Corrado Zenari" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/78E9334B-1D37-38D5-85DE-0A62475EEF12> .
+
+<http://www.sealit.gr/DB/person_birth/E1C6C207-6248-3DD7-8932-8CFBD3A4A678>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giovanni Manzutto" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/umago> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/542352AD-7005-379D-BAEF-963868CDDFCF> .
+
+<http://www.sealit.gr/DB/person_birth/7C96BBF2-98A9-37D9-BF96-06C23A70465D>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Mosè Maurizio Jung" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/milano> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/06F4BB40-7E66-383C-9D13-133A2A1D0B2C> .
+
+<urn:uuid:387a8609-8df6-47d7-b2f0-3fd9c63e93be>
+        a                         crm:E52_Time-Span ;
+        rdfs:label                "Timespan for teaching course Nautica" ;
+        crm:P78_is_identified_by  <http://www.sealit.gr/DB/semester/2%C2%B0> .
+
+<http://www.sealit.gr/DB/person/129DB3F2-C96C-3BC1-B464-B3B72D7BF848>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Eustachio Schiavon" ;
+        crm:P01i_is_domain_of       <urn:uuid:f5536427-d7a8-4e4e-9b85-6623c13c8444> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/FC47B640-FDA6-3790-9F48-0AC83A9A3A36> ;
+        crm:P3_has_note             "straordinario" ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/773A0039-64B9-3E47-A5FC-EB27CC6898AB> ;
+        sealit:has_current_age      "17" ;
+        sealit:has_first_name       "Eustachio" ;
+        sealit:has_last_name        "Schiavon" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course_subject/6743D013-E889-3669-9490-642C60D4D2DA>
+        a                sealit:Subject ;
+        rdfs:label       "Stile italiano" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<urn:uuid:50fcb9aa-887c-4acc-9672-67c0bdc7a7f1>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/location/umago>
+        a           crm:E53_Place ;
+        rdfs:label  "Umago" .
+
+<http://www.sealit.gr/DB/collection/38A878A9-9083-3AA9-9B0E-A0211DE5D42E>
+        a                          crm:E78_Collection ;
+        rdfs:label                 "Collection Accademia di commercio e nautica in Trieste" ;
+        crm:P102_has_title         <http://www.sealit.gr/DB/collection_title/38A878A9-9083-3AA9-9B0E-A0211DE5D42E> ;
+        crm:P108i_was_produced_by  <urn:uuid:a293e40b-58b3-4be3-a67f-aaff571b75d6> .
+
+<http://www.sealit.gr/DB/person/96CE0EFD-64A2-301D-A79F-4CAF7D48EE5D>
+        a                      crm:E21_Person ;
+        rdfs:label             "fu Antonio Tomlanovich" ;
+        sealit:has_first_name  "fu Antonio" ;
+        sealit:has_last_name   "Tomlanovich" .
+
+<http://www.sealit.gr/DB/course/673642DD-24EF-3CD3-AE33-931A4109F161>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Geografia e storia" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/F56E63F3-BED8-3302-A4E5-092F8990CC5D> .
+
+<http://www.sealit.gr/DB/person/78A932DB-ADBE-3F74-83DF-37A6E8C002E5>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giacomo Podich" ;
+        crm:P01i_is_domain_of       <urn:uuid:2c6eb9b0-cfe1-4517-8fe2-4f4d2d5f66f7> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/5CA0AFAD-F233-3E89-AC59-52CEFDC2EB4C> ;
+        crm:P3_has_note             "straordinario" ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/E4815368-4BB0-34FD-99C0-91282835917D> ;
+        sealit:has_current_age      "34" ;
+        sealit:has_first_name       "Giacomo" ;
+        sealit:has_last_name        "Podich" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:4f912852-943b-44a8-8c08-bc55322e323e>
+        a                         crm:E52_Time-Span ;
+        rdfs:label                "Timespan for teaching course Commercio" ;
+        crm:P78_is_identified_by  <http://www.sealit.gr/DB/semester/2%C2%B0> .
+
+<http://www.sealit.gr/DB/person/C85081F5-EE0E-3CA1-ADD3-45457AC0A72F>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giovanni Martellanz" ;
+        crm:P01i_is_domain_of       <urn:uuid:8dc99ec8-0866-4e0a-bbf1-a8c7b5178166> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/7C98BCF5-CF56-33DC-A6F6-FD5D1D5C03DD> ;
+        crm:P3_has_note             "straordinario" ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/41172CE5-A28C-3679-9215-AC2BF0522E06> ;
+        sealit:has_current_age      "17" ;
+        sealit:has_first_name       "Giovanni" ;
+        sealit:has_last_name        "Martellanz" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/9E6BFFB8-6A72-32D1-AB0A-C991FFCD7A6C>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Nicolò Bognolo" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/rovigo> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/CF91DFFF-0281-3AE3-979A-67003F6AB1E9> .
+
+<http://www.sealit.gr/DB/location/palmanuova>
+        a           crm:E53_Place ;
+        rdfs:label  "Palmanuova" .
+
+<http://www.sealit.gr/DB/person_birth/CF2DBD92-4EC2-3735-9171-B3D3CFB600E4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Carlo Sigon" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/5B2B26FA-432F-3829-863F-66A7C4462093> .
+
+<urn:uuid:194aed9c-79fa-445b-a217-25050aead0ee>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/B0E26056-ED20-37B2-90AA-6EEBB1B41814>
+        a                      crm:E21_Person ;
+        rdfs:label             "Apostolo Beserianni" ;
+        sealit:has_first_name  "Apostolo" ;
+        sealit:has_last_name   "Beserianni" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/sagrestano> .
+
+<urn:uuid:1adf5613-fea1-432a-b229-b9db42180345>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/B26D94E9-4832-368D-B97F-AEADC7A2B4E0>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Egidio Padovan" ;
+        crm:P01i_is_domain_of       <urn:uuid:62e11b04-6e7e-4df4-80c9-750856bad5e2> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/9E0EFF9A-E0C4-35E3-8A85-5628174FE3C2> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/108790DB-B361-3D44-83A0-B6FA4E21E2AA> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Egidio" ;
+        sealit:has_last_name        "Padovan" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:d8d66537-8ead-48df-a2e6-45c1a635e036>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<urn:uuid:7e81ab48-aff7-4d1c-94bf-ed0ff8f00f9f>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/scholarship> .
+
+<http://www.sealit.gr/DB/profession%20type/professore>
+        a           sealit:Profession ;
+        rdfs:label  "professore" .
+
+<http://www.sealit.gr/DB/person/5D03E3F3-BE13-3A30-8A83-EDC2FC24410D>
+        a                      crm:E21_Person ;
+        rdfs:label             "Matteo Pirona" ;
+        sealit:has_first_name  "Matteo" ;
+        sealit:has_last_name   "Pirona" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/magazziniere> .
+
+<http://www.sealit.gr/DB/profession%20type/sensale%20patentato%20in%20noleggi>
+        a           sealit:Profession ;
+        rdfs:label  "sensale patentato in noleggi" .
+
+<http://www.sealit.gr/DB/course/8143FD48-F7E0-3902-A72C-86E224510952>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Astronomia" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/138C4AF8-6119-33BF-AEA5-7355CB8C11CE> .
+
+<http://www.sealit.gr/DB/religion/greco-orientale>
+        a           sealit:Religion_Status ;
+        rdfs:label  "Greco-orientale" .
+
+<http://www.sealit.gr/DB/person_birth/EB87B040-1586-305F-B7F0-0DDFDE5B7F1B>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Antonio Sillani" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/F1DB45A8-1B9C-3122-BBA3-E80B5FF6EB0F> .
+
+<http://www.sealit.gr/DB/person_birth/D7204C37-CBF4-3D98-8306-A3451563EC95>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Monti" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/587417BF-ACC8-3BF8-88BE-DA6D4E309C4C> .
+
+<http://www.sealit.gr/DB/person/F0651D1C-09FC-3AFA-B464-00ED22430E68>
+        a                      crm:E21_Person ;
+        rdfs:label             "Martino Menz" ;
+        sealit:has_first_name  "Martino" ;
+        sealit:has_last_name   "Menz" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante> .
+
+<http://www.sealit.gr/DB/person/D9E4B749-470B-368E-953A-27E3A7414FE3>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giovanni Trost" ;
+        crm:P01i_is_domain_of       <urn:uuid:d61a445c-9f0b-420b-9f35-03d38fbddd64> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/6504A97A-D608-315B-8094-9DDEAAF69B59> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/F694F694-5125-370B-B607-B5817E4767B1> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Giovanni" ;
+        sealit:has_last_name        "Trost" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course/7F4D6121-E974-3722-BF91-3B29331862B0>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Geografia" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/1A542B8F-4F57-3499-BF1D-3EEA2A354F45> .
+
+<http://www.sealit.gr/DB/location/gorizia>
+        a           crm:E53_Place ;
+        rdfs:label  "Gorizia" .
+
+<http://www.sealit.gr/DB/location/perzagno>
+        a           crm:E53_Place ;
+        rdfs:label  "Perzagno" .
+
+<http://www.sealit.gr/DB/location/rovigo>
+        a           crm:E53_Place ;
+        rdfs:label  "Rovigo" .
+
+<http://www.sealit.gr/DB/person/1E405E40-357D-3500-91AE-896D75D49B51>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Antonio Sillani" ;
+        crm:P01i_is_domain_of       <urn:uuid:587b14fe-1bf5-4fed-b743-deae546d0c26> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/F1DB45A8-1B9C-3122-BBA3-E80B5FF6EB0F> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/EB87B040-1586-305F-B7F0-0DDFDE5B7F1B> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Antonio" ;
+        sealit:has_last_name        "Sillani" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course/E6EAEF7A-363A-3F6A-8C96-C7A50CAE31DD>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Religione" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/ECC136B3-0C16-347F-96FE-D27C3E3003FE> .
+
+<http://www.sealit.gr/DB/person_birth/57E8F674-73FC-30E0-B44F-A063876A8F26>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Miloss Buich" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/serb> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/F9DFA236-D11C-34D5-8251-7078D546B001> .
+
+<http://www.sealit.gr/DB/person/4DE2B431-FEF4-317C-9365-BC944DD99B46>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Ellul" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Ellul" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante> .
+
+<http://www.sealit.gr/DB/location/venezia>
+        a           crm:E53_Place ;
+        rdfs:label  "Venezia" .
+
+<urn:uuid:23e0bf08-0824-4151-8d24-efa140a42a2b>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/location/serb>
+        a           crm:E53_Place ;
+        rdfs:label  "Serb" .
+
+<urn:uuid:3a8d0fbf-dd52-4880-94dd-18f6bd7a4a82>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/DC497634-F190-381B-AE95-02D7C760C049>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Abramo Coen" ;
+        crm:P01i_is_domain_of       <urn:uuid:893bde0c-dd18-4bc2-883f-0686cda3f8c0> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/9E784324-D65E-3CFC-ABFF-AA2BE0D462A9> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/8B3406C1-7B52-3EB4-9506-1FB80797EF75> ;
+        sealit:has_current_age      "17" ;
+        sealit:has_first_name       "Abramo" ;
+        sealit:has_last_name        "Coen" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/israelitica> .
+
+<http://www.sealit.gr/DB/course_subject/68171A14-F5B3-3FD9-B62B-93E9D29D62D3>
+        a                sealit:Subject ;
+        rdfs:label       "Aritmetica mercantile" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<urn:uuid:8dc99ec8-0866-4e0a-bbf1-a8c7b5178166>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<urn:uuid:bf7ca740-f2de-441a-bd6e-a3f9cab02f1b>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/542352AD-7005-379D-BAEF-963868CDDFCF>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giovanni Manzutto" ;
+        crm:P01i_is_domain_of       <urn:uuid:244754fb-a5b1-49fb-a7e8-07070ecfeac0> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/542352AD-7005-379D-BAEF-963868CDDFCF> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/E1C6C207-6248-3DD7-8932-8CFBD3A4A678> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Giovanni" ;
+        sealit:has_last_name        "Manzutto" ;
+        sealit:has_profession       <http://www.sealit.gr/DB/profession%20type/possidente> ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/5B075292-3BB8-384F-9BD0-6403BA67627C>
+        a                      crm:E21_Person ;
+        rdfs:label             "Pietro Covacevic" ;
+        sealit:has_first_name  "Pietro" ;
+        sealit:has_last_name   "Covacevic" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante> .
+
+<http://www.sealit.gr/DB/person_birth/E05D0D84-0798-3D19-8141-E427C6510899>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Gruden" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/nabresina> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/86ADE9BB-7159-3113-BAB0-0145DE2099CD> .
+
+<urn:uuid:4428eaf0-ea7c-46a8-b194-191eccd8be2f>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/E96CA1BE-9FDE-3D7B-A7B6-E25C41A6A6E5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Muratti" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/834B0624-8C2F-3B80-9C84-FB0D1C1EFBB1> .
+
+<http://www.sealit.gr/DB/person_birth/773A0039-64B9-3E47-A5FC-EB27CC6898AB>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Eustachio Schiavon" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/venezia> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/FC47B640-FDA6-3790-9F48-0AC83A9A3A36> .
+
+<urn:uuid:7f084595-a93d-4e65-82f0-b56b12ca995f>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<urn:uuid:4c0a9070-6757-4ad9-8856-b16e64581b3b>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course/B3DBFC03-2766-35B2-81AF-D85752C39CE9>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Disegno navale" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/0343B2E8-49DB-3664-8FC5-16D9EF7436DA> .
+
+<http://www.sealit.gr/DB/course_title/5DEEEE95-49B7-3810-BC26-7212CCF5B1FC>
+        a           crm:E35_Title ;
+        rdfs:label  "Commercio" .
+
+<http://www.sealit.gr/DB/person/3CF7B55B-5F1E-3FF4-A786-59085FCDF426>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Fink" ;
+        crm:P01i_is_domain_of       <urn:uuid:e47bbeb5-da93-4c65-91ca-5246802d58b8> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/A084839F-5DE9-3022-87FD-388C7F1EFBE5> ;
+        crm:P3_has_note             "straordinario" ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/9BCFE1A2-4F8F-327D-8441-E9E1A0AC9373> ;
+        sealit:has_current_age      "17" ;
+        sealit:has_first_name       "Giuseppe" ;
+        sealit:has_last_name        "Fink" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/97A29EEF-6FCE-3621-A8B8-CBDDB9EEC6AF>
+        a                      crm:E21_Person ;
+        rdfs:label             "Rafaele Marco Morpurgo" ;
+        sealit:has_first_name  "Rafaele Marco" ;
+        sealit:has_last_name   "Morpurgo" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/assicuratore> .
+
+<http://www.sealit.gr/DB/person/6E2E99F9-E7DA-3F52-A4B0-AE478B3FF7F6>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Zernitz" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Zernitz" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/calzolajo> .
+
+<http://www.sealit.gr/DB/person_birth/19B97CCA-2D95-3A62-BE0E-61443F5DC05E>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Roberto Eggenhöffner" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/9B7364DC-55D2-3724-A42C-96BBBA60C2A6> .
+
+<urn:uuid:40077e9d-485b-49b6-894b-9f16e6566d3a>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<urn:uuid:d78e1343-4b80-4125-b549-6f1c7a0c4501>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<urn:uuid:d5945258-0337-44a1-a8ec-513fca702cf9>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/89C78650-A8E7-3C34-AFB7-56B6C7D05771>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Pugliato" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Pugliato" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/orologiajo> .
+
+<http://www.sealit.gr/DB/person/8110CAB2-7305-3EEF-AD1C-B0DB0D562481>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Beller" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Beller" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/ufficiante> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/azienda%20assicuratrice> .
+
+<http://www.sealit.gr/DB/person/6CC48AF5-EA1B-3701-9F69-8317E897AC58>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Federico Iovio" ;
+        crm:P01i_is_domain_of       <urn:uuid:267c8d54-a4df-4ae4-86c1-a3361bbf376a> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/A742B12E-3826-3F65-9AC9-14BD08D8E9C8> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/75E63B75-C63A-33BC-9C14-BDB41687E90D> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Federico" ;
+        sealit:has_last_name        "Iovio" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/226BB589-C1DA-3938-B56B-3F4A014AE7CB>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Alessandro Bertini" ;
+        crm:P01i_is_domain_of       <urn:uuid:dc4e15f9-f363-4426-89cd-c3187e226bb6> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/C4683991-9F6A-3184-986A-EB66E596A50D> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/A4586956-AAB5-3352-995C-368AABBEB9B0> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Alessandro" ;
+        sealit:has_last_name        "Bertini" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/teaching_unit/13499450-4FD9-3632-92F9-2BBD1D8C48E0>
+        a                     sealit:Teaching_Unit ;
+        rdfs:label            "Teaching in schoolyears 1850-1851" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/teaching_unit_timespan/13499450-4FD9-3632-92F9-2BBD1D8C48E0> .
+
+<http://www.sealit.gr/DB/person_birth/E7A854D9-8E43-3B82-98C4-5FBEDF699269>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Francesco Sollinger" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/4962F18B-4988-3FFE-8283-7FEFDDFDB8C2> .
+
+<http://www.sealit.gr/DB/course_subject/B1ADFC15-4681-3673-AA80-469C7D816AEC>
+        a                sealit:Subject ;
+        rdfs:label       "Contabilità" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<urn:uuid:408f432e-e5e5-4153-8287-c1eb7e83cae5>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course/3CF420AB-62D1-3474-994F-15D21D0ABC12>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Lingua inglese" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/5FEC1303-FA1B-3E6B-99C3-8B386EBF91E8> .
+
+<http://www.sealit.gr/DB/person_birth/4029A67A-AFDA-355B-915E-37DCB034A3ED>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giorgio Olivatti" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P96_by_mother     <http://www.sealit.gr/DB/person/30A970C7-CC64-3ABC-8E18-29FA17ECC28C> .
+
+<http://www.sealit.gr/DB/location/trieste>
+        a           crm:E53_Place ;
+        rdfs:label  "Trieste" .
+
+<urn:uuid:244754fb-a5b1-49fb-a7e8-07070ecfeac0>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/organisation/governo%20centrale%20marittimo>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Governo Centrale Marittimo" .
+
+<http://www.sealit.gr/DB/person/F2956553-35D3-3B5E-BF50-3A9B4DA6AE69>
+        a                      crm:E21_Person ;
+        rdfs:label             "Lazzaro Morschene" ;
+        sealit:has_first_name  "Lazzaro" ;
+        sealit:has_last_name   "Morschene" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/cambia-valute> .
+
+<http://www.sealit.gr/DB/profession%20type/pesatore>
+        a           sealit:Profession ;
+        rdfs:label  "pesatore" .
+
+<http://www.sealit.gr/DB/person/710A75A8-5980-33C3-9A08-90E7AE728E5C>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giorgio Olivatti" ;
+        crm:P01i_is_domain_of       <urn:uuid:239caafc-c18d-4a80-82c9-8f6c6311c2fd> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/30A970C7-CC64-3ABC-8E18-29FA17ECC28C> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/4029A67A-AFDA-355B-915E-37DCB034A3ED> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Giorgio" ;
+        sealit:has_last_name        "Olivatti" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course_section/8001568A-8EEC-3D49-85DB-7DAAB8A6416D>
+        a                           sealit:Section ;
+        rdfs:label                  "Section of course Commercio - 1a sezione Semester: 2° [1850-1851]" ;
+        crm:P1_is_identified_by     <http://www.sealit.gr/DB/course_number/1a%20sezione> ;
+        crm:P9_consists_of          <http://www.sealit.gr/DB/course/94119B89-7058-3832-BB50-8FD6EF361F68> , <http://www.sealit.gr/DB/course/716DC329-6E4E-369E-A0F6-B9879777C744> , <http://www.sealit.gr/DB/course/D31227FF-00CE-3551-8276-92B55194F386> , <http://www.sealit.gr/DB/course/E5CEC5F7-C58B-33A9-9DEB-B89027AA9708> , <http://www.sealit.gr/DB/course/87DD7D6C-494B-3DA1-903C-7849EE59E7B5> , <http://www.sealit.gr/DB/course/F98FF386-CFFB-3695-AEEC-664E08EBA76B> , <http://www.sealit.gr/DB/course/D86D4628-321B-382E-B6B2-445D9BFBDF5E> , <http://www.sealit.gr/DB/course/4309C889-E16C-3266-9039-6B38F4AE3820> , <http://www.sealit.gr/DB/course/7F581171-DC53-3DCF-8F8C-390CDD13FDEE> , <http://www.sealit.gr/DB/course/A52D8BEE-C713-3A4A-A599-8432A91F3A95> , <http://www.sealit.gr/DB/course/F5E8195E-66B7-3DD6-A706-53E623CE9964> ;
+        sealit:had_student          <http://www.sealit.gr/DB/person/549941EA-5BAB-30CB-842A-75EAE43D6051> , <http://www.sealit.gr/DB/person/82732162-154F-3E3D-8B53-9CBB27980516> , <http://www.sealit.gr/DB/person/881BF5B2-5ECF-3BFC-AF41-C29BA2B0150D> , <http://www.sealit.gr/DB/person/0E8E5159-8E56-3088-98BF-845958B2E226> , <http://www.sealit.gr/DB/person/4962F18B-4988-3FFE-8283-7FEFDDFDB8C2> , <http://www.sealit.gr/DB/person/B3437BBA-9DED-3BE6-A180-D815859D4CD2> , <http://www.sealit.gr/DB/person/04FF683D-F46D-3735-92B0-5BDE375D6724> , <http://www.sealit.gr/DB/person/C651F0B1-A408-327F-B953-7F49D4E9FC47> , <http://www.sealit.gr/DB/person/6CF4106C-893D-37C5-BFD2-B591CEA29163> , <http://www.sealit.gr/DB/person/6CC48AF5-EA1B-3701-9F69-8317E897AC58> , <http://www.sealit.gr/DB/person/86824C01-A6D5-37A9-81A2-442599576D3D> , <http://www.sealit.gr/DB/person/6239CE3A-B6A6-385D-9DCB-9F36C50BE80F> , <http://www.sealit.gr/DB/person/1E405E40-357D-3500-91AE-896D75D49B51> , <http://www.sealit.gr/DB/person/B86ECCB8-06F7-3E8A-806E-5891C8AD3822> , <http://www.sealit.gr/DB/person/7BBCA876-7E26-3FF8-8A06-35CED325E88D> , <http://www.sealit.gr/DB/person/9CEFB3E6-4DC4-345C-87AD-19BAFB2BA50F> , <http://www.sealit.gr/DB/person/5FB1DDD3-9709-3C4D-B047-39CB1904B830> , <http://www.sealit.gr/DB/person/AED64507-FD01-3F77-A3A2-8C3FEC74AC5C> , <http://www.sealit.gr/DB/person/0478B07F-7C6F-33D3-BB70-23435D5EE4EF> , <http://www.sealit.gr/DB/person/C25D4C19-EB2F-3EC6-B5B5-F1417FAAD2E3> , <http://www.sealit.gr/DB/person/78587EDA-31C0-320A-8ADF-22F53DD7719B> , <http://www.sealit.gr/DB/person/D6D9BC45-1FF4-304E-8F17-7FD54589D300> , <http://www.sealit.gr/DB/person/D9E4B749-470B-368E-953A-27E3A7414FE3> , <http://www.sealit.gr/DB/person/8D02BB01-7A7A-3B88-AF32-44C3A6393CA6> , <http://www.sealit.gr/DB/person/15A5487B-9AD1-3B16-96D3-3641AA5BC36A> , <http://www.sealit.gr/DB/person/9AD7A9C6-89BE-3212-B4CD-60D8776D390E> , <http://www.sealit.gr/DB/person/90802F63-852B-31A7-94C6-29AE8558B3DD> , <http://www.sealit.gr/DB/person/C85081F5-EE0E-3CA1-ADD3-45457AC0A72F> , <http://www.sealit.gr/DB/person/DCEFC67D-FB54-30A9-B81F-FFD9CF7221A7> , <http://www.sealit.gr/DB/person/E2FA768B-08B4-3819-A110-1BF4D06CAA29> , <http://www.sealit.gr/DB/person/847983AB-BD83-3FCB-BD76-FA1B51C52D5B> , <http://www.sealit.gr/DB/person/D67C2A99-5C9B-39D2-8D3E-51F9B80B040A> , <http://www.sealit.gr/DB/person/85BEA8FB-EDBB-39CD-8747-8FB620C76114> , <http://www.sealit.gr/DB/person/C3822B2F-A996-33F2-B918-B29A2F007C5B> , <http://www.sealit.gr/DB/person/226BB589-C1DA-3938-B56B-3F4A014AE7CB> , <http://www.sealit.gr/DB/person/7322C8F7-6C66-3832-9BEC-DC11B442F516> , <http://www.sealit.gr/DB/person/88182DB8-E51E-3462-850F-24B8BCE9213B> , <http://www.sealit.gr/DB/person/29ED4DB5-42F6-3E12-BCDA-1E55BEABA3FC> , <http://www.sealit.gr/DB/person/F2E8DADA-AC83-38C4-9B20-CDC7252AE7B8> , <http://www.sealit.gr/DB/person/154C15A8-6D17-3BA6-90A3-D4A5CB6BCDBD> , <http://www.sealit.gr/DB/person/1E7BBF27-23FA-384E-AB5E-E0314EACEC2C> , <http://www.sealit.gr/DB/person/FD4DDAE1-92D4-309C-9A3F-5A5399EF8C38> , <http://www.sealit.gr/DB/person/74813A3C-6D24-33E8-96A7-056687140E6F> , <http://www.sealit.gr/DB/person/A1757BAD-41A3-3B47-AC4F-E85EC90A1BEA> , <http://www.sealit.gr/DB/person/266B7A4D-0A1B-3DCF-A306-A8E9DA50E97C> , <http://www.sealit.gr/DB/person/1CDBC3A9-BE1F-3CAC-84E2-557E2E007FD8> ;
+        sealit:with_no_of_students  "46" .
+
+<urn:uuid:2c6eb9b0-cfe1-4517-8fe2-4f4d2d5f66f7>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course/75C6337C-0158-3A38-BFDC-3BDA0F4C076F>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Lingua inglese" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/5FEC1303-FA1B-3E6B-99C3-8B386EBF91E8> .
+
+<http://www.sealit.gr/DB/course_subject/3B49C431-0234-37B4-B067-FF473370855E>
+        a                sealit:Subject ;
+        rdfs:label       "Diritto mercantile e cambiario" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/profession%20type/magazziniere>
+        a           sealit:Profession ;
+        rdfs:label  "magazziniere" .
+
+<http://www.sealit.gr/DB/course/35C2DF85-5250-3267-82EE-5279DF7CE5F3>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Contabilità mercantile" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/CC4E18B0-697E-3675-9C14-2E0B3E229875> .
+
+<http://www.sealit.gr/DB/person/DEB02FA3-FCA0-39DA-8C4D-07E13AF3C204>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Marco Pontini" ;
+        crm:P01i_is_domain_of       <urn:uuid:85f9fb8d-803a-4e80-89a9-2d68d3a91dce> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/3F25CF89-0A79-3CAC-BE46-9798A26FED56> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/3C61EEF7-4A90-39E1-BED4-2AADD6850E4F> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Marco" ;
+        sealit:has_last_name        "Pontini" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/0A9E1AFD-A364-370E-BCDF-C21E8CB6848E>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giovanni Mattiassich" ;
+        crm:P01i_is_domain_of       <urn:uuid:89bc7a43-a30e-4064-8f17-2838491c149b> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/684B2057-9E9A-34DA-BBCF-3DEFBB4788F2> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/E0C386AD-0C8B-36CF-89B0-891FFD7489EA> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Giovanni" ;
+        sealit:has_last_name        "Mattiassich" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:0e7ce149-eb06-41d3-9bea-a75e6f87e6f0>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/06F4BB40-7E66-383C-9D13-133A2A1D0B2C>
+        a                      crm:E21_Person ;
+        rdfs:label             "Daniele Jung" ;
+        sealit:has_first_name  "Daniele" ;
+        sealit:has_last_name   "Jung" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante> .
+
+<http://www.sealit.gr/DB/course/A4643397-54EB-35DC-870F-D126CD500277>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Lingua inglese" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/5FEC1303-FA1B-3E6B-99C3-8B386EBF91E8> .
+
+<http://www.sealit.gr/DB/profession%20type/negoziante%20di%20piano-forti>
+        a           sealit:Profession ;
+        rdfs:label  "negoziante di piano-forti" .
+
+<http://www.sealit.gr/DB/person/1CDBC3A9-BE1F-3CAC-84E2-557E2E007FD8>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Adolfo Gnesto" ;
+        crm:P01i_is_domain_of       <urn:uuid:8402b9f0-de81-46bf-8640-45e3674e2004> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/C410D989-005F-3C80-AB7B-538908A004B9> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/5D5E1EB0-C253-34B6-BB43-8F75CC0CDC90> ;
+        sealit:has_current_age      "12" ;
+        sealit:has_first_name       "Adolfo" ;
+        sealit:has_last_name        "Gnesto" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/A840B1A8-08EA-3128-882D-C5E09171F0A6>
+        a                      crm:E21_Person ;
+        rdfs:label             "Catterina Girotti" ;
+        sealit:has_first_name  "Catterina" ;
+        sealit:has_last_name   "Girotti" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/madre%20vedova> .
+
+<http://www.sealit.gr/DB/course/A4AD3085-2AE2-3C1D-9F7E-0CA40DCFE681>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Contabilità" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/B1ADFC15-4681-3673-AA80-469C7D816AEC> .
+
+<http://www.sealit.gr/DB/profession%20type/contabile>
+        a           sealit:Profession ;
+        rdfs:label  "contabile" .
+
+<http://www.sealit.gr/DB/person/A4DE3E0A-D740-309F-8955-B9C017FA0141>
+        a                      crm:E21_Person ;
+        rdfs:label             "fu Giovanni Gasparovich" ;
+        sealit:has_first_name  "fu Giovanni" ;
+        sealit:has_last_name   "Gasparovich" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/marittimo> .
+
+<urn:uuid:f755657e-b0eb-4528-add4-90d9ab14ad70>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/A1757BAD-41A3-3B47-AC4F-E85EC90A1BEA>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Michele Menz" ;
+        crm:P01i_is_domain_of       <urn:uuid:ba61cd33-d4ab-4f81-ba6c-8c46912e4c31> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/DC22CE6F-5E2A-3F23-8B6D-BCB1D66247C6> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/34E6C86D-8949-3B04-B919-673108C71D81> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Michele" ;
+        sealit:has_last_name        "Menz" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/israelitica> .
+
+<http://www.sealit.gr/DB/profession%20type/segretario%20camerale>
+        a           sealit:Profession ;
+        rdfs:label  "Segretario camerale" .
+
+<http://www.sealit.gr/DB/person/8D02BB01-7A7A-3B88-AF32-44C3A6393CA6>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Paneira" ;
+        crm:P01i_is_domain_of       <urn:uuid:280a7c61-69dc-4f3c-8e51-06ad63391c64> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/0F998980-3126-3147-A53B-004906E071C8> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/FA450AD7-A4CF-3151-AEA5-86A3F2774773> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Giuseppe" ;
+        sealit:has_last_name        "Paneira" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/AED64507-FD01-3F77-A3A2-8C3FEC74AC5C>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Antonio Gallo" ;
+        crm:P01i_is_domain_of       <urn:uuid:3a8d0fbf-dd52-4880-94dd-18f6bd7a4a82> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/9841B7F7-974B-3F5A-96AD-476F51D03B77> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/1FF8BD35-278C-3BEA-AFD4-B868F6F7FFEA> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Antonio" ;
+        sealit:has_last_name        "Gallo" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/profession%20type/costruttore%20navale>
+        a           sealit:Profession ;
+        rdfs:label  "costruttore navale" .
+
+<http://www.sealit.gr/DB/profession%20type/maestro%20civico%20a%20servola>
+        a           sealit:Profession ;
+        rdfs:label  "maestro civico a Servola" .
+
+<http://www.sealit.gr/DB/person/684B2057-9E9A-34DA-BBCF-3DEFBB4788F2>
+        a                      crm:E21_Person ;
+        rdfs:label             "Antonio Mattiassich" ;
+        sealit:has_first_name  "Antonio" ;
+        sealit:has_last_name   "Mattiassich" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/capo-maestro%20muratore> .
+
+<http://www.sealit.gr/DB/person_birth/2BB5D00F-62E3-3857-859B-F2028218814C>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giorgio Prodanovich" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/2376CAA6-6857-340F-AE98-EC73B7D9BF27> .
+
+<http://www.sealit.gr/DB/person_birth/62D8D596-A2C8-3691-B5AF-473160DA1DEB>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giorgio Beserianni" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/B0E26056-ED20-37B2-90AA-6EEBB1B41814> .
+
+<http://www.sealit.gr/DB/course_subject/97CA48B9-298A-372A-BE04-E67E017ECAB0>
+        a                sealit:Subject ;
+        rdfs:label       "Matematica, algebra, trigonometria, meccanica" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person_birth/2F4D480F-0A70-383F-BCD8-716C8D81ABFF>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Alfredo Tomlanovich" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/96CE0EFD-64A2-301D-A79F-4CAF7D48EE5D> .
+
+<http://www.sealit.gr/DB/person/74813A3C-6D24-33E8-96A7-056687140E6F>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Wladislao Covacevic" ;
+        crm:P01i_is_domain_of       <urn:uuid:cf05b758-8aa6-4a77-a883-4c3f5012b880> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/5B075292-3BB8-384F-9BD0-6403BA67627C> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/3450F98D-8ECB-34F9-808F-64EBF72DFB42> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Wladislao" ;
+        sealit:has_last_name        "Covacevic" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/greco-illirica> .
+
+<http://www.sealit.gr/DB/person/0CA01E6E-3FC4-3248-944F-11266DB06AAE>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Carlo Perdich" ;
+        crm:P01i_is_domain_of       <urn:uuid:4c0a9070-6757-4ad9-8856-b16e64581b3b> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/06A6D9B3-C4E4-34B3-BDD5-3811179BA329> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/6B0BD7B9-403F-34E6-8393-C30DEDA2C9A8> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Carlo" ;
+        sealit:has_last_name        "Perdich" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/organisation/camera%20distrettuale>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Camera distrettuale" .
+
+<http://www.sealit.gr/DB/person/29ED4DB5-42F6-3E12-BCDA-1E55BEABA3FC>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Alessandro Maffei" ;
+        crm:P01i_is_domain_of       <urn:uuid:04226bee-eba6-4245-9270-04d96c0269d4> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/66AD7E20-FB82-3D7C-9DAD-8FE80A75BC35> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/FF9660FD-12FD-38CB-BC1D-C8820C2F380F> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Alessandro" ;
+        sealit:has_last_name        "Maffei" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:15fd83a9-26af-4bea-af45-9bbac4459be9>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/CAB46309-4DB7-3789-8F9A-820F324196FD>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Francesco Francovich" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/F2FBC4A4-ABE6-3489-BA13-173DB68DFC0B> .
+
+<http://www.sealit.gr/DB/course_title/71354DC8-3753-3464-B44E-CFF3E19FE7E6>
+        a           crm:E35_Title ;
+        rdfs:label  "Nautica" .
+
+<http://www.sealit.gr/DB/person/9841B7F7-974B-3F5A-96AD-476F51D03B77>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Gallo" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Gallo" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/tappeziere> .
+
+<http://www.sealit.gr/DB/course/D86D4628-321B-382E-B6B2-445D9BFBDF5E>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Religione" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/ECC136B3-0C16-347F-96FE-D27C3E3003FE> .
+
+<http://www.sealit.gr/DB/person_birth/1C77D620-B68F-3509-878D-1F64F272FA08>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Enrico Beller" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/vienna> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/8110CAB2-7305-3EEF-AD1C-B0DB0D562481> .
+
+<http://www.sealit.gr/DB/location/sabbioncello>
+        a           crm:E53_Place ;
+        rdfs:label  "Sabbioncello" .
+
+<http://www.sealit.gr/DB/person/DC623932-F0E7-3DFA-AA73-276913530041>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francesco Haltenbraner" ;
+        sealit:has_first_name  "Francesco" ;
+        sealit:has_last_name   "Haltenbraner" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante> .
+
+<http://www.sealit.gr/DB/person_birth/CF8AF737-443F-3E8A-8CE2-9335793FC3F3>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Luigi Zernitz" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/6E2E99F9-E7DA-3F52-A4B0-AE478B3FF7F6> .
+
+<http://www.sealit.gr/DB/person/78E9334B-1D37-38D5-85DE-0A62475EEF12>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giovanni Zenari" ;
+        sealit:has_first_name  "Giovanni" ;
+        sealit:has_last_name   "Zenari" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/segretario> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/governo%20centrale%20marittimo> .
+
+<urn:uuid:88dedbfe-488a-41f6-95be-60931e697e09>
+        a                         crm:E52_Time-Span ;
+        rdfs:label                "Timespan for teaching course Nautica" ;
+        crm:P78_is_identified_by  <http://www.sealit.gr/DB/semester/2%C2%B0> .
+
+<urn:uuid:04226bee-eba6-4245-9270-04d96c0269d4>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course/90C6FCDD-A9B3-332F-A056-1FFF62C3D79D>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Mercinomia" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/FAADC95B-0FA5-376D-AABC-28B26A2E46EE> .
+
+<urn:uuid:8129ca7d-47b7-47eb-8504-a2faee6eb42b>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/CE81FEB9-C87A-33AE-9255-C0E43B409EE2>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francesco Urbanis" ;
+        sealit:has_first_name  "Francesco" ;
+        sealit:has_last_name   "Urbanis" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/caffettiere> .
+
+<http://www.sealit.gr/DB/profession%20type/legatore%20di%20libri>
+        a           sealit:Profession ;
+        rdfs:label  "legatore di libri" .
+
+<http://www.sealit.gr/DB/person/A742B12E-3826-3F65-9AC9-14BD08D8E9C8>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francesco Iovio" ;
+        sealit:has_first_name  "Francesco" ;
+        sealit:has_last_name   "Iovio" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/impiegato> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/camera%20distrettuale> .
+
+<http://www.sealit.gr/DB/course_subject/868E41E8-02BC-358E-BE00-EE356DABCCE0>
+        a                sealit:Subject ;
+        rdfs:label       "Stile tedesco" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person_birth/24C79553-8353-34DC-92F5-A968F71C1C4A>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Schallmeiner" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/EA2AD328-245E-38EF-BD12-3C40C479A628> .
+
+<http://www.sealit.gr/DB/person_birth/8B3406C1-7B52-3EB4-9506-1FB80797EF75>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Abramo Coen" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/9E784324-D65E-3CFC-ABFF-AA2BE0D462A9> .
+
+<http://www.sealit.gr/DB/person/2A9DBB76-FD3D-394B-A34A-21D5D254A526>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Enrico Haltenbraner" ;
+        crm:P01i_is_domain_of       <urn:uuid:595fbd9a-7f97-48c0-82c9-cbc98c709f07> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/DC623932-F0E7-3DFA-AA73-276913530041> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/3B0C5D26-005C-3B9A-B187-88DC37E023EC> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Enrico" ;
+        sealit:has_last_name        "Haltenbraner" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/profession%20type/cambia-valute>
+        a           sealit:Profession ;
+        rdfs:label  "cambia-valute" .
+
+<urn:uuid:81242c38-5342-45cc-8c07-6f0252c81fba>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/15A5487B-9AD1-3B16-96D3-3641AA5BC36A>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Tommaso Pugliato" ;
+        crm:P01i_is_domain_of       <urn:uuid:24c8408c-08b2-41a2-8869-eccdf2e3f83d> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/89C78650-A8E7-3C34-AFB7-56B6C7D05771> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/911A7650-8B61-399A-8418-B7A088EE6D0E> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Tommaso" ;
+        sealit:has_last_name        "Pugliato" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/organisation/lloyd%20austriaco>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Lloyd austriaco" .
+
+<urn:uuid:239caafc-c18d-4a80-82c9-8f6c6311c2fd>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/F9DFA236-D11C-34D5-8251-7078D546B001>
+        a                      crm:E21_Person ;
+        rdfs:label             "Daniele Buich" ;
+        sealit:has_first_name  "Daniele" ;
+        sealit:has_last_name   "Buich" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/sacerdote%20catechista> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/scuole%20illiriche> .
+
+<urn:uuid:39fe84f2-cf9b-4b65-9959-cf17c465f484>
+        a                     crm:E33_Linguistic_Object ;
+        rdfs:label            "Content of doc Registri di classificazione - 150" ;
+        crm:P72_has_language  <http://www.sealit.gr/DB/language/italian> .
+
+<http://www.sealit.gr/DB/person/F1DB45A8-1B9C-3122-BBA3-E80B5FF6EB0F>
+        a                      crm:E21_Person ;
+        rdfs:label             "Vincenzo Sillani" ;
+        sealit:has_first_name  "Vincenzo" ;
+        sealit:has_last_name   "Sillani" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/sartore> .
+
+<http://www.sealit.gr/DB/person/7EDC6112-7FAF-3C94-A51D-C69D5719E050>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francesco Schönerer" ;
+        sealit:has_first_name  "Francesco" ;
+        sealit:has_last_name   "Schönerer" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/giardiniere> .
+
+<urn:uuid:8034e6aa-c985-4c36-bfac-8a28092e2963>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<urn:uuid:dbffb560-32c8-4f53-a0e6-9a2959f12c2a>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course/E5EB655B-2602-3E21-B8D3-F06F049106F6>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Religione" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/ECC136B3-0C16-347F-96FE-D27C3E3003FE> .
+
+<http://www.sealit.gr/DB/person/C25D4C19-EB2F-3EC6-B5B5-F1417FAAD2E3>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Corrado Zenari" ;
+        crm:P01i_is_domain_of       <urn:uuid:0c9d3bfa-b539-4a8b-93b6-6e255b4e62d0> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/78E9334B-1D37-38D5-85DE-0A62475EEF12> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/5ACF341C-F805-3339-BCFD-3334F968B470> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Corrado" ;
+        sealit:has_last_name        "Zenari" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/7383DD2F-F003-3FD3-8BE0-F344AC571D35>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Cesare Damiani" ;
+        crm:P01i_is_domain_of       <urn:uuid:99f0cfce-64e4-47b0-87a1-f96811084d8f> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/3D3DCDD1-DEE7-3942-A65A-920A525FC1BB> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/77B7B7D3-3A92-3368-A60F-AA677B5B3FE3> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Cesare" ;
+        sealit:has_last_name        "Damiani" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/CC6838F6-0383-31AF-AF6F-963F76CE6823>
+        a                      crm:E21_Person ;
+        rdfs:label             "Antonia Valdoni" ;
+        sealit:has_first_name  "Antonia" ;
+        sealit:has_last_name   "Valdoni" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/madre%20vedova> .
+
+<http://www.sealit.gr/DB/person_birth/3450F98D-8ECB-34F9-808F-64EBF72DFB42>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Wladislao Covacevic" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/ragusa> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/5B075292-3BB8-384F-9BD0-6403BA67627C> .
+
+<urn:uuid:e47bbeb5-da93-4c65-91ca-5246802d58b8>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/profession%20type/segretario>
+        a           sealit:Profession ;
+        rdfs:label  "Segretario" .
+
+<http://www.sealit.gr/DB/location/hohenems>
+        a           crm:E53_Place ;
+        rdfs:label  "Hohenems" .
+
+<http://www.sealit.gr/DB/course/87DD7D6C-494B-3DA1-903C-7849EE59E7B5>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Stile italiano" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/6743D013-E889-3669-9490-642C60D4D2DA> .
+
+<http://www.sealit.gr/DB/person/CF91DFFF-0281-3AE3-979A-67003F6AB1E9>
+        a                      crm:E21_Person ;
+        rdfs:label             "Lodovico Bognolo" ;
+        sealit:has_first_name  "Lodovico" ;
+        sealit:has_last_name   "Bognolo" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/cancellista> ;
+        sealit:works_at        <http://www.sealit.gr/DB/organisation/imperial%20regia%20corte%20di%20giustizia> .
+
+<http://www.sealit.gr/DB/person/9E0EFF9A-E0C4-35E3-8A85-5628174FE3C2>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francesco Padovan" ;
+        sealit:has_first_name  "Francesco" ;
+        sealit:has_last_name   "Padovan" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante> .
+
+<http://www.sealit.gr/DB/person/C4683991-9F6A-3184-986A-EB66E596A50D>
+        a                      crm:E21_Person ;
+        rdfs:label             "Catterina Bertini" ;
+        sealit:has_first_name  "Catterina" ;
+        sealit:has_last_name   "Bertini" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/madre%20vedova> .
+
+<http://www.sealit.gr/DB/course/959D1B8F-9AB4-35F3-BD0E-0CE9D1346C7E>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Calligrafia" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/A934FE2E-EFD9-3880-A125-2E41BD72A97E> .
+
+<http://www.sealit.gr/DB/person/7C98BCF5-CF56-33DC-A6F6-FD5D1D5C03DD>
+        a                      crm:E21_Person ;
+        rdfs:label             "Cristiano Martellanz" ;
+        sealit:has_first_name  "Cristiano" ;
+        sealit:has_last_name   "Martellanz" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/maestro%20civico%20a%20servola> .
+
+<urn:uuid:dc4e15f9-f363-4426-89cd-c3187e226bb6>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/54FA4799-98E1-32D6-869A-71C0D92F7C42>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gustavo Pirona" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/991BE04A-70BC-3EE0-901D-DE048AAFEA89> .
+
+<http://www.sealit.gr/DB/person/3F25CF89-0A79-3CAC-BE46-9798A26FED56>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Pontini" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Pontini" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/possidente> .
+
+<http://www.sealit.gr/DB/person_birth/C90516E7-E2F0-34E5-B570-D60B0061D07D>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Graziano Morpurgo" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/97A29EEF-6FCE-3621-A8B8-CBDDB9EEC6AF> .
+
+<http://www.sealit.gr/DB/profession%20type/impiegato>
+        a           sealit:Profession ;
+        rdfs:label  "impiegato" .
+
+<http://www.sealit.gr/DB/course/12B6382C-9BB7-30CB-8E09-E5E490D664CB>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Fisica" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/ACA10B2E-53C6-3FE2-87E8-57054ED65C7B> .
+
+<urn:uuid:99f0cfce-64e4-47b0-87a1-f96811084d8f>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/scholarship> .
+
+<http://www.sealit.gr/DB/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<http://www.sealit.gr/DB/organisation/ufficio%20tabacchi%20e%20bolli>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Ufficio Tabacchi e Bolli" .
+
+<http://www.sealit.gr/DB/course/BE7E09FF-40F7-3E0E-AA51-6C6BD2A6CC28>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Religione" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/ECC136B3-0C16-347F-96FE-D27C3E3003FE> .
+
+<http://www.sealit.gr/DB/course_number/1a%20sezione>
+        a           crm:E42_Identifier ;
+        rdfs:label  "1a sezione" .
+
+<http://www.sealit.gr/DB/course_subject/ACA10B2E-53C6-3FE2-87E8-57054ED65C7B>
+        a                sealit:Subject ;
+        rdfs:label       "Fisica" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person/3D3DCDD1-DEE7-3942-A65A-920A525FC1BB>
+        a                      crm:E21_Person ;
+        rdfs:label             "Nicoletta Damiani" ;
+        sealit:has_first_name  "Nicoletta" ;
+        sealit:has_last_name   "Damiani" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/madre%20vedova> .
+
+<http://www.sealit.gr/DB/location/zara>
+        a           crm:E53_Place ;
+        rdfs:label  "Zara" .
+
+<http://www.sealit.gr/DB/person_birth/2391DE2D-9989-37BD-8EF9-978153DD6DB9>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Antonio Orel" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/lubiana> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/BB3D334A-EDFC-32C3-A40F-6F602F74BDE3> .
+
+<http://www.sealit.gr/DB/person_birth/FA450AD7-A4CF-3151-AEA5-86A3F2774773>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Paneira" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/palmanuova> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/0F998980-3126-3147-A53B-004906E071C8> .
+
+<http://www.sealit.gr/DB/course/FE80EBCF-08BE-3B95-BA77-2F8D9FA70C02>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Matematica, algebra, trigonometria, meccanica" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/97CA48B9-298A-372A-BE04-E67E017ECAB0> .
+
+<http://www.sealit.gr/DB/course_subject/CC4E18B0-697E-3675-9C14-2E0B3E229875>
+        a                sealit:Subject ;
+        rdfs:label       "Contabilità mercantile" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person_birth/EC1A2FD6-459D-395C-8846-75977F2DF52F>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Carlo Müller" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/3ED97E03-CB24-392E-85C5-F618AD6E8157> .
+
+<http://www.sealit.gr/DB/course_subject/AB1B601A-35AD-399B-85A6-034AAD6D6960>
+        a                sealit:Subject ;
+        rdfs:label       "Diritto marittimo" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/profession%20type/madre%20vedova>
+        a           sealit:Profession ;
+        rdfs:label  "madre vedova" .
+
+<http://www.sealit.gr/DB/organisation/civici%20pompieri>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Civici pompieri" .
+
+<http://www.sealit.gr/DB/person_birth/25871C22-6999-3F98-A8EA-2AD742C263E8>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giovanni Miailovich" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/perzagno> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/85AF92C9-8711-3970-BF6D-ED8D413D480F> .
+
+<http://www.sealit.gr/DB/course_section/6AE158A1-BF93-3D7B-B25E-B7F62CAA8840>
+        a                           sealit:Section ;
+        rdfs:label                  "Section of course Nautica - 1a sezione Semester: 2° [1850-1851]" ;
+        crm:P1_is_identified_by     <http://www.sealit.gr/DB/course_number/1a%20sezione> ;
+        crm:P9_consists_of          <http://www.sealit.gr/DB/course/75C6337C-0158-3A38-BFDC-3BDA0F4C076F> , <http://www.sealit.gr/DB/course/8E93CA4C-6FB3-3AC8-A48B-14CEA8353A46> , <http://www.sealit.gr/DB/course/E6EAEF7A-363A-3F6A-8C96-C7A50CAE31DD> , <http://www.sealit.gr/DB/course/B3771BBC-0D2F-3A02-AD94-6798E7988998> , <http://www.sealit.gr/DB/course/959D1B8F-9AB4-35F3-BD0E-0CE9D1346C7E> , <http://www.sealit.gr/DB/course/673642DD-24EF-3CD3-AE33-931A4109F161> , <http://www.sealit.gr/DB/course/12B6382C-9BB7-30CB-8E09-E5E490D664CB> , <http://www.sealit.gr/DB/course/FE80EBCF-08BE-3B95-BA77-2F8D9FA70C02> , <http://www.sealit.gr/DB/course/3AEFEB75-EDC1-3A96-A14F-4FC8F0B5C4C9> , <http://www.sealit.gr/DB/course/B3DBFC03-2766-35B2-81AF-D85752C39CE9> , <http://www.sealit.gr/DB/course/F70191F3-E7E6-3972-B859-12568137A88D> ;
+        sealit:had_student          <http://www.sealit.gr/DB/person/5313754F-DE1E-3A0D-BF19-AACE870AD2F0> , <http://www.sealit.gr/DB/person/A9292678-48B2-3C6A-8C40-071957921C9C> , <http://www.sealit.gr/DB/person/C5589CE1-0E60-348A-957D-4FCF9AC69E50> , <http://www.sealit.gr/DB/person/0ECA5E2B-B914-3EB5-95E2-D578F6DB9DC1> , <http://www.sealit.gr/DB/person/36AFC39D-2D75-30CD-828C-6E0EE0B9E7B3> , <http://www.sealit.gr/DB/person/0A9E1AFD-A364-370E-BCDF-C21E8CB6848E> , <http://www.sealit.gr/DB/person/F2FBC4A4-ABE6-3489-BA13-173DB68DFC0B> , <http://www.sealit.gr/DB/person/DEB02FA3-FCA0-39DA-8C4D-07E13AF3C204> ;
+        sealit:with_no_of_students  "8" .
+
+<urn:uuid:62667665-5e1c-4447-8112-5d0dabd6dc9f>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/804173B6-12E5-351B-9F82-EDA502BD8B44>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Ferdinando De Fiori" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/como> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/1E3D5B7A-3228-3528-BC77-BCBF8566C829> .
+
+<urn:uuid:ec31b5da-4464-43cb-969f-fc56899fe51f>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/organisation/azienda%20assicuratrice>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Azienda assicuratrice" .
+
+<http://www.sealit.gr/DB/profession%20type/sartore>
+        a           sealit:Profession ;
+        rdfs:label  "sartore" .
+
+<http://www.sealit.gr/DB/person/04FF683D-F46D-3735-92B0-5BDE375D6724>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Nicolò Tessari" ;
+        crm:P01i_is_domain_of       <urn:uuid:8034e6aa-c985-4c36-bfac-8a28092e2963> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/DEC4DFD2-E653-3779-861A-BD9113B54023> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/8C205E8C-DF5B-3F23-8AA7-F52332DA8E97> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Nicolò" ;
+        sealit:has_last_name        "Tessari" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course/8E93CA4C-6FB3-3AC8-A48B-14CEA8353A46>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Stile tedesco" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/868E41E8-02BC-358E-BE00-EE356DABCCE0> .
+
+<http://www.sealit.gr/DB/course/A05C31B9-84CD-3034-9E92-45588F024C24>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Stile tedesco" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/868E41E8-02BC-358E-BE00-EE356DABCCE0> .
+
+<http://www.sealit.gr/DB/course/F70191F3-E7E6-3972-B859-12568137A88D>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Lingua francese" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/A76FB48B-9E46-3400-AD6D-E0B23A48E30F> .
+
+<urn:uuid:8402b9f0-de81-46bf-8640-45e3674e2004>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/profession%20type/oste>
+        a           sealit:Profession ;
+        rdfs:label  "oste" .
+
+<http://www.sealit.gr/DB/person/EB599C7D-2F2E-39EB-970E-147104D29B5A>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giacomo Pegan" ;
+        sealit:has_first_name  "Giacomo" ;
+        sealit:has_last_name   "Pegan" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/possidente> .
+
+<http://www.sealit.gr/DB/profession%20type/calzolajo>
+        a           sealit:Profession ;
+        rdfs:label  "calzolajo" .
+
+<http://www.sealit.gr/DB/collection_title/38A878A9-9083-3AA9-9B0E-A0211DE5D42E>
+        a           crm:E35_Title ;
+        rdfs:label  "Accademia di commercio e nautica in Trieste" .
+
+<http://www.sealit.gr/DB/person/266B7A4D-0A1B-3DCF-A306-A8E9DA50E97C>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Revelanta" ;
+        crm:P01i_is_domain_of       <urn:uuid:f002eeaf-2555-42b3-9337-bdb2a62102cc> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/831D5A9D-EECD-3C79-A4B0-8AEDD4AD641F> ;
+        crm:P3_has_note             "straordinario" ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/3912E97E-2455-38A7-A9D5-DC9616425996> ;
+        sealit:has_current_age      "18" ;
+        sealit:has_first_name       "Giuseppe" ;
+        sealit:has_last_name        "Revelanta" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/5A8948EA-99A5-37D8-A8A2-D797E166E6FE>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Enrico Margutti" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/857A71BA-CDBA-3F29-89A1-896EDBFE841C> .
+
+<urn:uuid:5b5d517d-63ca-46c5-bd44-5e801972ccc0>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "2018-03-26 2021-07-02T13:57:03" ;
+        crm:P82a_begin_of_the_begin  "2018-03-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "2021-07-02T13:57:03"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://www.sealit.gr/DB/person/B86ECCB8-06F7-3E8A-806E-5891C8AD3822>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Luigi Zernitz" ;
+        crm:P01i_is_domain_of       <urn:uuid:81242c38-5342-45cc-8c07-6f0252c81fba> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/6E2E99F9-E7DA-3F52-A4B0-AE478B3FF7F6> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/CF8AF737-443F-3E8A-8CE2-9335793FC3F3> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Luigi" ;
+        sealit:has_last_name        "Zernitz" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person_birth/2B025234-3087-30C5-B5BF-D14C607C38D9>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Martino Gasparovich" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/sabbioncello> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/A4DE3E0A-D740-309F-8955-B9C017FA0141> .
+
+<http://www.sealit.gr/DB/profession%20type/ufficiante>
+        a           sealit:Profession ;
+        rdfs:label  "ufficiante" .
+
+<http://www.sealit.gr/DB/person_birth/57EE7F54-7F0A-3A09-80F6-A0161D4A05E2>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Carlo Detrosia" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/5FD9F230-6DC9-3AB5-9282-BF3186DC42DC> .
+
+<urn:uuid:74702594-bacc-4151-af86-80083ad4d11b>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/profession%20type/avvocato>
+        a           sealit:Profession ;
+        rdfs:label  "avvocato" .
+
+<http://www.sealit.gr/DB/location/lubiana>
+        a           crm:E53_Place ;
+        rdfs:label  "Lubiana" .
+
+<http://www.sealit.gr/DB/course/6AE158A1-BF93-3D7B-B25E-B7F62CAA8840>
+        a                        sealit:Course ;
+        rdfs:label               "Course Nautica - 1a sezione Semester: 2° [1850-1851]" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/course_title/71354DC8-3753-3464-B44E-CFF3E19FE7E6> ;
+        crm:P4_has_time-span     <urn:uuid:387a8609-8df6-47d7-b2f0-3fd9c63e93be> ;
+        crm:P9_consists_of       <http://www.sealit.gr/DB/course_section/6AE158A1-BF93-3D7B-B25E-B7F62CAA8840> ;
+        crm:P9i_forms_part_of    <http://www.sealit.gr/DB/teaching_unit/13499450-4FD9-3632-92F9-2BBD1D8C48E0> .
+
+<http://www.sealit.gr/DB/person_birth/3B0C5D26-005C-3B9A-B187-88DC37E023EC>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Enrico Haltenbraner" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/DC623932-F0E7-3DFA-AA73-276913530041> .
+
+<http://www.sealit.gr/DB/person_birth/D5E6B0F6-6A7A-33A0-B923-733DDBD54947>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Menz" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/F0651D1C-09FC-3AFA-B464-00ED22430E68> .
+
+<http://www.sealit.gr/DB/person/78587EDA-31C0-320A-8ADF-22F53DD7719B>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Menz" ;
+        crm:P01i_is_domain_of       <urn:uuid:60513e88-0863-4a33-90f3-b8425d004782> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/F0651D1C-09FC-3AFA-B464-00ED22430E68> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/D5E6B0F6-6A7A-33A0-B923-733DDBD54947> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Giuseppe" ;
+        sealit:has_last_name        "Menz" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/israelitica> .
+
+<http://www.sealit.gr/DB/religion/israelitica>
+        a           sealit:Religion_Status ;
+        rdfs:label  "Israelitica" .
+
+<http://www.sealit.gr/DB/course/36BDD39A-1F34-33A0-AEF3-9852B8EBCBD6>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Diritto mercantile e cambiario" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/3B49C431-0234-37B4-B067-FF473370855E> .
+
+<http://www.sealit.gr/DB/person_birth/747D8390-B04C-3815-9980-F4A27558047A>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Adolfo Pirona" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/5D03E3F3-BE13-3A30-8A83-EDC2FC24410D> .
+
+<http://www.sealit.gr/DB/profession%20type/agente>
+        a           sealit:Profession ;
+        rdfs:label  "agente" .
+
+<http://www.sealit.gr/DB/person/5CA0AFAD-F233-3E89-AC59-52CEFDC2EB4C>
+        a                      crm:E21_Person ;
+        rdfs:label             "Matteo Podich" ;
+        sealit:has_first_name  "Matteo" ;
+        sealit:has_last_name   "Podich" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/capitano%20marittimo> .
+
+<urn:uuid:f8b511fc-16ee-4b91-afc1-346f556e5999>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/AB55F6C5-C19A-32E9-95FA-3C5A25ADDCC8>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giuseppe Pegan" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/auber> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/EB599C7D-2F2E-39EB-970E-147104D29B5A> .
+
+<http://www.sealit.gr/DB/person_birth/40F904B5-15E3-3863-BDF7-3A2B716105D1>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Antonio Gerzabeck" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/09D8103B-EC3E-372B-A949-3FAB4B414D2C> .
+
+<urn:uuid:9b0d0c0a-aaa1-4342-bc13-7dacf4c802c2>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/6B0BD7B9-403F-34E6-8393-C30DEDA2C9A8>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Carlo Perdich" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P96_by_mother     <http://www.sealit.gr/DB/person/06A6D9B3-C4E4-34B3-BDD5-3811179BA329> .
+
+<urn:uuid:2d2f7630-4ff1-45ae-bbc9-524b0a382dfe>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/profession%20type/negoziante>
+        a           sealit:Profession ;
+        rdfs:label  "negoziante" .
+
+<http://www.sealit.gr/DB/person/3AFBCBEA-ABD7-3CD2-826C-6FD9B52DF120>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Vittorio Tommasini" ;
+        crm:P01i_is_domain_of       <urn:uuid:806f3f3d-fa36-4cd7-93c6-b3910d41b1c5> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/8CF45328-41E9-304E-8146-897E86386695> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/A93CAD25-4033-3D54-839E-965E4BE2F525> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Vittorio" ;
+        sealit:has_last_name        "Tommasini" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/location/opchina>
+        a           crm:E53_Place ;
+        rdfs:label  "Opchina" .
+
+<http://www.sealit.gr/DB/person/6504A97A-D608-315B-8094-9DDEAAF69B59>
+        a                      crm:E21_Person ;
+        rdfs:label             "Biagio Trost" ;
+        sealit:has_first_name  "Biagio" ;
+        sealit:has_last_name   "Trost" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/pesatore> .
+
+<urn:uuid:5dfece5c-83be-414d-8b9b-3a3586b682ae>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/2A4F0090-BE39-3611-B117-407188FB5F74>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giuseppe Pincherle" ;
+        sealit:has_first_name  "Giuseppe" ;
+        sealit:has_last_name   "Pincherle" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante> .
+
+<urn:uuid:60dcb586-1063-4308-ae0e-c2826c9aeff7>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course_subject/ECC136B3-0C16-347F-96FE-D27C3E3003FE>
+        a                sealit:Subject ;
+        rdfs:label       "Religione" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person/5FD9F230-6DC9-3AB5-9282-BF3186DC42DC>
+        a                      crm:E21_Person ;
+        rdfs:label             "Volfango Detrosia" ;
+        sealit:has_first_name  "Volfango" ;
+        sealit:has_last_name   "Detrosia" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/possidente> .
+
+<http://www.sealit.gr/DB/person/F2FBC4A4-ABE6-3489-BA13-173DB68DFC0B>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Francesco Francovich" ;
+        crm:P01i_is_domain_of       <urn:uuid:5969eba9-9bd8-4cc2-b5fa-31f91da1b721> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/F2FBC4A4-ABE6-3489-BA13-173DB68DFC0B> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/CAB46309-4DB7-3789-8F9A-820F324196FD> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Francesco" ;
+        sealit:has_last_name        "Francovich" ;
+        sealit:has_profession       <http://www.sealit.gr/DB/profession%20type/fabbro> ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/teaching_unit_timespan/13499450-4FD9-3632-92F9-2BBD1D8C48E0>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Timespan of teaching in schoolyears 1850-1851" ;
+        crm:P82a_begin_of_the_begin  "1850"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1851"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/course/3AEFEB75-EDC1-3A96-A14F-4FC8F0B5C4C9>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 1a sezione Semester: 2° [1850-1851] under subject Stile italiano" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/6743D013-E889-3669-9490-642C60D4D2DA> .
+
+<urn:uuid:7cd1a5e3-9d08-487e-8ab5-272f7b06bfa2>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<urn:uuid:f002eeaf-2555-42b3-9337-bdb2a62102cc>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/E0C386AD-0C8B-36CF-89B0-891FFD7489EA>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giovanni Mattiassich" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/capodistria> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/684B2057-9E9A-34DA-BBCF-3DEFBB4788F2> .
+
+<http://www.sealit.gr/DB/person/8CF45328-41E9-304E-8146-897E86386695>
+        a                      crm:E21_Person ;
+        rdfs:label             "Muzio Tommasini" ;
+        sealit:has_first_name  "Muzio" ;
+        sealit:has_last_name   "Tommasini" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/podest%C3%A0%20di%20trieste> .
+
+<http://www.sealit.gr/DB/appellation/CFAC4BD4-0609-3BAD-887B-EA79E660FCDF>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Archivio di Stato di Trieste" .
+
+<http://www.sealit.gr/DB/course/94119B89-7058-3832-BB50-8FD6EF361F68>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Geografia e storia" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/F56E63F3-BED8-3302-A4E5-092F8990CC5D> .
+
+<http://www.sealit.gr/DB/course/8C5C26BB-1A5B-339D-B780-CD9A53731360>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Costruzione navale e manovra" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/F7DBBF59-0EE1-35E0-9F27-C1F47F0924A9> .
+
+<http://www.sealit.gr/DB/course/8001568A-8EEC-3D49-85DB-7DAAB8A6416D>
+        a                        sealit:Course ;
+        rdfs:label               "Course Commercio - 1a sezione Semester: 2° [1850-1851]" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/course_title/5DEEEE95-49B7-3810-BC26-7212CCF5B1FC> ;
+        crm:P4_has_time-span     <urn:uuid:193294af-67ed-42ad-b9a4-4c7c2b861a4b> ;
+        crm:P9_consists_of       <http://www.sealit.gr/DB/course_section/8001568A-8EEC-3D49-85DB-7DAAB8A6416D> ;
+        crm:P9i_forms_part_of    <http://www.sealit.gr/DB/teaching_unit/13499450-4FD9-3632-92F9-2BBD1D8C48E0> .
+
+<http://www.sealit.gr/DB/course/E5CEC5F7-C58B-33A9-9DEB-B89027AA9708>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Scienza di commercio" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/F885707E-0CC8-31C7-A766-D5323D4422AF> .
+
+<http://www.sealit.gr/DB/person_birth/BED62AA0-5AA3-35E0-B821-1BFC72DA74B8>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Aristide Cuscoleca" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/A7D86092-4B45-3CBE-82A9-DC90731BC3B1> .
+
+<http://www.sealit.gr/DB/person/B3437BBA-9DED-3BE6-A180-D815859D4CD2>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Monti" ;
+        crm:P01i_is_domain_of       <urn:uuid:408f432e-e5e5-4153-8287-c1eb7e83cae5> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/587417BF-ACC8-3BF8-88BE-DA6D4E309C4C> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/D7204C37-CBF4-3D98-8306-A3451563EC95> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Giuseppe" ;
+        sealit:has_last_name        "Monti" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:0c9d3bfa-b539-4a8b-93b6-6e255b4e62d0>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/A7D86092-4B45-3CBE-82A9-DC90731BC3B1>
+        a                      crm:E21_Person ;
+        rdfs:label             "Cristo Cuscoleca" ;
+        sealit:has_first_name  "Cristo" ;
+        sealit:has_last_name   "Cuscoleca" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/possidente> .
+
+<urn:uuid:89bc7a43-a30e-4064-8f17-2838491c149b>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/profession%20type/giardiniere>
+        a           sealit:Profession ;
+        rdfs:label  "giardiniere" .
+
+<http://www.sealit.gr/DB/person/0F998980-3126-3147-A53B-004906E071C8>
+        a                      crm:E21_Person ;
+        rdfs:label             "Antonio Paneira" ;
+        sealit:has_first_name  "Antonio" ;
+        sealit:has_last_name   "Paneira" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/negoziante> .
+
+<http://www.sealit.gr/DB/organisation/ufficio%20di%20borsa>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Ufficio di Borsa" .
+
+<http://www.sealit.gr/DB/organisation/assicurazione%20adriatica>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Assicurazione adriatica" .
+
+<http://www.sealit.gr/DB/course_subject/FAADC95B-0FA5-376D-AABC-28B26A2E46EE>
+        a                sealit:Subject ;
+        rdfs:label       "Mercinomia" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<urn:uuid:80748c03-9827-4ae4-9baa-3db8aa1b32a4>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person_birth/74656AA8-845E-3B80-9E95-DD062EB531ED>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Eugenio Stratti" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/D3B4E3B5-8D51-3A36-A4EF-67E9D76BC3AF> .
+
+<http://www.sealit.gr/DB/person/B3EE12C3-722B-37C7-83D3-B32AB6632226>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Adolfo Pirona" ;
+        crm:P01i_is_domain_of       <urn:uuid:194aed9c-79fa-445b-a217-25050aead0ee> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/5D03E3F3-BE13-3A30-8A83-EDC2FC24410D> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/747D8390-B04C-3815-9980-F4A27558047A> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Adolfo" ;
+        sealit:has_last_name        "Pirona" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/33125797-F099-3720-95B7-E042696612B5>
+        a                      crm:E21_Person ;
+        rdfs:label             "Filippo Artelli" ;
+        crm:P01i_is_domain_of  <urn:uuid:d08518ec-2a1f-4f86-901f-1a67993451df> ;
+        crm:P3_has_note        "straordinario" ;
+        sealit:has_first_name  "Filippo" ;
+        sealit:has_last_name   "Artelli" .
+
+<urn:uuid:a9fe8cc4-2eba-49cb-b303-0e8906232215>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Timespan of creation of doc Registri di classificazione - 150" ;
+        crm:P82a_begin_of_the_begin  "1850"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1851"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:6faa5aed-39e1-4f26-8077-ee69d5b29903>
+        a                     crm:E65_Creation ;
+        rdfs:label            "Registration of doc Registri di classificazione - 150" ;
+        crm:P4_has_time-span  <urn:uuid:a9fe8cc4-2eba-49cb-b303-0e8906232215> .
+
+<http://www.sealit.gr/DB/person/CD5CEBDC-83F1-37DD-BDE4-0DA9BFB4E0E3>
+        a                      crm:E21_Person ;
+        rdfs:label             "Abramo Minas" ;
+        sealit:has_first_name  "Abramo" ;
+        sealit:has_last_name   "Minas" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/sensale%20patentato%20in%20noleggi> .
+
+<http://www.sealit.gr/DB/person_birth/A4586956-AAB5-3352-995C-368AABBEB9B0>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Alessandro Bertini" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P96_by_mother     <http://www.sealit.gr/DB/person/C4683991-9F6A-3184-986A-EB66E596A50D> .
+
+<http://www.sealit.gr/DB/course/F7D802D1-7134-33C1-BC87-DC717EFD0D6D>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Lingua francese" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/A76FB48B-9E46-3400-AD6D-E0B23A48E30F> .
+
+<http://www.sealit.gr/DB/person_birth/A93CAD25-4033-3D54-839E-965E4BE2F525>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Vittorio Tommasini" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/8CF45328-41E9-304E-8146-897E86386695> .
+
+<http://www.sealit.gr/DB/person/A919B39B-C8A4-328A-99AD-2472284E767C>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Luigi Urbanis" ;
+        crm:P01i_is_domain_of       <urn:uuid:9b0d0c0a-aaa1-4342-bc13-7dacf4c802c2> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/CE81FEB9-C87A-33AE-9255-C0E43B409EE2> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/FC08A262-5E13-3806-B765-5403CCC2D2B3> ;
+        sealit:has_current_age      "15" ;
+        sealit:has_first_name       "Luigi" ;
+        sealit:has_last_name        "Urbanis" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course_subject/F7DBBF59-0EE1-35E0-9F27-C1F47F0924A9>
+        a                sealit:Subject ;
+        rdfs:label       "Costruzione navale e manovra" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/profession%20type/professore%20di%20lingua%20greca>
+        a           sealit:Profession ;
+        rdfs:label  "professore di lingua greca" .
+
+<http://www.sealit.gr/DB/location/nabresina>
+        a           crm:E53_Place ;
+        rdfs:label  "Nabresina" .
+
+<urn:uuid:fcda04bd-36ca-40e4-ac1b-23e5a02b2d29>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course_subject/138C4AF8-6119-33BF-AEA5-7355CB8C11CE>
+        a                sealit:Subject ;
+        rdfs:label       "Astronomia" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/course/9AE19A69-6C55-3175-9347-FF285A1B7E52>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Aritmetica" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/5FFE9F85-1FBF-3F8D-A08A-3A90CAFEBF8D> .
+
+<urn:uuid:eb718a96-58c2-4cf4-b964-c0321ce37324>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Timespan of production of collection Accademia di commercio e nautica in Trieste" ;
+        crm:P82a_begin_of_the_begin  "1816"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1923"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/course/D441B2F4-8FC7-3B08-A452-D8C5F4AB79D3>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 2a sezione Semester: 2° [1850-1851] under subject Stile italiano" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/6743D013-E889-3669-9490-642C60D4D2DA> .
+
+<http://www.sealit.gr/DB/person_birth/75E63B75-C63A-33BC-9C14-BDB41687E90D>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Federico Iovio" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/gratz> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/A742B12E-3826-3F65-9AC9-14BD08D8E9C8> .
+
+<http://www.sealit.gr/DB/profession%20type/capitano%20marittimo>
+        a           sealit:Profession ;
+        rdfs:label  "capitano marittimo" .
+
+<http://www.sealit.gr/DB/person/88182DB8-E51E-3462-850F-24B8BCE9213B>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Federico Schönerer" ;
+        crm:P01i_is_domain_of       <urn:uuid:40077e9d-485b-49b6-894b-9f16e6566d3a> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/7EDC6112-7FAF-3C94-A51D-C69D5719E050> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/8A9403BA-63EA-333E-B7F7-72A3D62D2D11> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Federico" ;
+        sealit:has_last_name        "Schönerer" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/course_subject/5FEC1303-FA1B-3E6B-99C3-8B386EBF91E8>
+        a                sealit:Subject ;
+        rdfs:label       "Lingua inglese" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/course%20subject%20types/oblligatory> .
+
+<http://www.sealit.gr/DB/person/30A970C7-CC64-3ABC-8E18-29FA17ECC28C>
+        a                      crm:E21_Person ;
+        rdfs:label             "Maria Olivatti" ;
+        sealit:has_first_name  "Maria" ;
+        sealit:has_last_name   "Olivatti" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/madre%20vedova> .
+
+<http://www.sealit.gr/DB/person/4F9F70BC-74B1-3816-9439-649CC20B6461>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Martino Gasparovich" ;
+        crm:P01i_is_domain_of       <urn:uuid:af4a5317-5d7e-42ba-a04a-79fb017edeef> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/A4DE3E0A-D740-309F-8955-B9C017FA0141> ;
+        crm:P3_has_note             "straordinario" ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/2B025234-3087-30C5-B5BF-D14C607C38D9> ;
+        sealit:has_current_age      "27" ;
+        sealit:has_first_name       "Martino" ;
+        sealit:has_last_name        "Gasparovich" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/6239CE3A-B6A6-385D-9DCB-9F36C50BE80F>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giuseppe Schallmeiner" ;
+        crm:P01i_is_domain_of       <urn:uuid:4f2c5172-44ff-4bfa-bc0a-138cdf0e0f9d> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/EA2AD328-245E-38EF-BD12-3C40C479A628> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/24C79553-8353-34DC-92F5-A968F71C1C4A> ;
+        sealit:has_current_age      "14" ;
+        sealit:has_first_name       "Giuseppe" ;
+        sealit:has_last_name        "Schallmeiner" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:362cd851-b360-44bf-b252-6ffc1bc3abfe>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/06A6D9B3-C4E4-34B3-BDD5-3811179BA329>
+        a                      crm:E21_Person ;
+        rdfs:label             "Catterina Perdich" ;
+        sealit:has_first_name  "Catterina" ;
+        sealit:has_last_name   "Perdich" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/madre%20vedova> .
+
+<http://www.sealit.gr/DB/person_birth/5D5E1EB0-C253-34B6-BB43-8F75CC0CDC90>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Adolfo Gnesto" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/C410D989-005F-3C80-AB7B-538908A004B9> .
+
+<http://www.sealit.gr/DB/person/24BC38F8-E0EF-330F-84A0-55BA1F4FDC7F>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Cesare Ellul" ;
+        crm:P01i_is_domain_of       <urn:uuid:47f95b8a-bd2b-4695-ad77-80a7e4be33a5> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/4DE2B431-FEF4-317C-9365-BC944DD99B46> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/18A9BF8C-53B8-37E3-846C-D06AFDB3A281> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Cesare" ;
+        sealit:has_last_name        "Ellul" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/person/86824C01-A6D5-37A9-81A2-442599576D3D>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Antonio Gerzabeck" ;
+        crm:P01i_is_domain_of       <urn:uuid:1adf5613-fea1-432a-b229-b9db42180345> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/09D8103B-EC3E-372B-A949-3FAB4B414D2C> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/40F904B5-15E3-3863-BDF7-3A2B716105D1> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Antonio" ;
+        sealit:has_last_name        "Gerzabeck" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<urn:uuid:e9cb34c2-63bb-4699-afc9-3f4f9bc38829>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<urn:uuid:37e1f9d3-c56e-49f0-bf8b-b7f21a5d771b>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/person/B5E25C78-B4C0-3B2B-9239-E3BAA17C6004>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giulio Lerehenthal" ;
+        crm:P01i_is_domain_of       <urn:uuid:bcde300a-3cd6-4fc1-a05c-e6467565c000> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/91FEB8B9-AC01-311A-939A-532A02009230> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/E8FBB35B-61ED-3247-A570-BB50DF858E75> ;
+        sealit:has_current_age      "13" ;
+        sealit:has_first_name       "Giulio" ;
+        sealit:has_last_name        "Lerehenthal" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/cattolica> .
+
+<http://www.sealit.gr/DB/language/italian>
+        a           crm:E56_Language ;
+        rdfs:label  "Italian" .
+
+<urn:uuid:9e6b83e7-11a9-43a9-8ebd-61082df4b15e>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/location/como>
+        a           crm:E53_Place ;
+        rdfs:label  "Como" .
+
+<http://www.sealit.gr/DB/person/05EFC956-4B6F-30D8-A4BD-237DC783F748>
+        a                      crm:E21_Person ;
+        rdfs:label             "Edoardo Gajo" ;
+        sealit:has_first_name  "Edoardo" ;
+        sealit:has_last_name   "Gajo" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/agente%20di%20commercio> .
+
+<urn:uuid:193294af-67ed-42ad-b9a4-4c7c2b861a4b>
+        a                         crm:E52_Time-Span ;
+        rdfs:label                "Timespan for teaching course Commercio" ;
+        crm:P78_is_identified_by  <http://www.sealit.gr/DB/semester/2%C2%B0> .
+
+<urn:uuid:a209acfa-b46b-43e9-bc4b-a4c95907d3d3>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/course/44EFED95-0803-3F22-AB86-4BCDA30BAC57>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Lingua francese" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/A76FB48B-9E46-3400-AD6D-E0B23A48E30F> .
+
+<http://www.sealit.gr/DB/person/A084839F-5DE9-3022-87FD-388C7F1EFBE5>
+        a                      crm:E21_Person ;
+        rdfs:label             "Giovanni Fink" ;
+        sealit:has_first_name  "Giovanni" ;
+        sealit:has_last_name   "Fink" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/contabile> .
+
+<http://www.sealit.gr/DB/profession%20type/nostromo>
+        a           sealit:Profession ;
+        rdfs:label  "nostromo" .
+
+<http://www.sealit.gr/DB/person/9AD7A9C6-89BE-3212-B4CD-60D8776D390E>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Miloss Buich" ;
+        crm:P01i_is_domain_of       <urn:uuid:50fcb9aa-887c-4acc-9672-67c0bdc7a7f1> ;
+        crm:P152_has_parent         <http://www.sealit.gr/DB/person/F9DFA236-D11C-34D5-8251-7078D546B001> ;
+        crm:P98i_was_born           <http://www.sealit.gr/DB/person_birth/57E8F674-73FC-30E0-B44F-A063876A8F26> ;
+        sealit:has_current_age      "16" ;
+        sealit:has_first_name       "Miloss" ;
+        sealit:has_last_name        "Buich" ;
+        sealit:has_religion_status  <http://www.sealit.gr/DB/religion/greco-illirica> .
+
+<http://www.sealit.gr/DB/course/70FA2CC9-8285-3C79-B301-39FD3B4201B8>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Geografia e storia" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/F56E63F3-BED8-3302-A4E5-092F8990CC5D> .
+
+<urn:uuid:587b14fe-1bf5-4fed-b743-deae546d0c26>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/organisation/scuole%20illiriche>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Scuole illiriche" .
+
+<http://www.sealit.gr/DB/person/587417BF-ACC8-3BF8-88BE-DA6D4E309C4C>
+        a                      crm:E21_Person ;
+        rdfs:label             "Luigi Monti" ;
+        sealit:has_first_name  "Luigi" ;
+        sealit:has_last_name   "Monti" ;
+        sealit:has_profession  <http://www.sealit.gr/DB/profession%20type/commerciante> .
+
+<http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Archivio di Stato di Trieste" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation/CFAC4BD4-0609-3BAD-887B-EA79E660FCDF> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/trieste> .
+
+<http://www.sealit.gr/DB/course/5FD309E6-9A43-344B-A8F9-7122F4A2E83B>
+        a                   sealit:Course ;
+        rdfs:label          "Nautica - 2a sezione Semester: 2° [1850-1851] under subject Diritto marittimo" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/AB1B601A-35AD-399B-85A6-034AAD6D6960> .
+
+<http://www.sealit.gr/DB/profession%20type/possidente>
+        a           sealit:Profession ;
+        rdfs:label  "possidente" .
+
+<http://www.sealit.gr/DB/profession%20type/agente%20di%20commercio>
+        a           sealit:Profession ;
+        rdfs:label  "agente di commercio" .
+
+<http://www.sealit.gr/DB/course/4309C889-E16C-3266-9039-6B38F4AE3820>
+        a                   sealit:Course ;
+        rdfs:label          "Commercio - 1a sezione Semester: 2° [1850-1851] under subject Lingua francese" ;
+        sealit:has_subject  <http://www.sealit.gr/DB/course_subject/A76FB48B-9E46-3400-AD6D-E0B23A48E30F> .
+
+<urn:uuid:bb8deda8-8cf5-4d47-ae63-d0264d9b43d2>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<urn:uuid:1d92ee17-6dac-4970-828c-7b912c35f717>
+        a           crm:PC_student_in ;
+        rdfs:label  "participation in lesson" ;
+        crm:P.2_status_of_participation
+                <http://www.sealit.gr/DB/type%20of%20participation/paying> .
+
+<http://www.sealit.gr/DB/organisation/forth/ims>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "FORTH/IMS" .
+
+<http://www.sealit.gr/DB/person_birth/3A7D2636-723A-3A04-860E-20CE46D39803>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Adolfo Steiss" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/trieste> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/975685DE-2013-3D0A-8625-ACFA77E1A240> .
+
+<http://www.sealit.gr/DB/course_section/683FB63D-97D0-3D7E-A67E-81E9F9906409>
+        a                           sealit:Section ;
+        rdfs:label                  "Section of course Commercio - 2a sezione Semester: 2° [1850-1851]" ;
+        crm:P1_is_identified_by     <http://www.sealit.gr/DB/course_number/2a%20sezione> ;
+        crm:P9_consists_of          <http://www.sealit.gr/DB/course/35C2DF85-5250-3267-82EE-5279DF7CE5F3> , <http://www.sealit.gr/DB/course/D441B2F4-8FC7-3B08-A452-D8C5F4AB79D3> , <http://www.sealit.gr/DB/course/F7D802D1-7134-33C1-BC87-DC717EFD0D6D> , <http://www.sealit.gr/DB/course/36BDD39A-1F34-33A0-AEF3-9852B8EBCBD6> , <http://www.sealit.gr/DB/course/FDC3EC74-4F3F-348B-9C9A-66718E279943> , <http://www.sealit.gr/DB/course/78208B81-99D8-32CF-972B-7FDE310EA166> , <http://www.sealit.gr/DB/course/7F4D6121-E974-3722-BF91-3B29331862B0> , <http://www.sealit.gr/DB/course/9AE19A69-6C55-3175-9347-FF285A1B7E52> , <http://www.sealit.gr/DB/course/90C6FCDD-A9B3-332F-A056-1FFF62C3D79D> , <http://www.sealit.gr/DB/course/A05C31B9-84CD-3034-9E92-45588F024C24> , <http://www.sealit.gr/DB/course/3CF420AB-62D1-3474-994F-15D21D0ABC12> , <http://www.sealit.gr/DB/course/ED0D8519-5D63-324B-B397-7210AEC78585> , <http://www.sealit.gr/DB/course/BE7E09FF-40F7-3E0E-AA51-6C6BD2A6CC28> ;
+        sealit:had_student          <http://www.sealit.gr/DB/person/DC497634-F190-381B-AE95-02D7C760C049> , <http://www.sealit.gr/DB/person/542352AD-7005-379D-BAEF-963868CDDFCF> , <http://www.sealit.gr/DB/person/B3EE12C3-722B-37C7-83D3-B32AB6632226> , <http://www.sealit.gr/DB/person/B5E25C78-B4C0-3B2B-9239-E3BAA17C6004> , <http://www.sealit.gr/DB/person/A919B39B-C8A4-328A-99AD-2472284E767C> , <http://www.sealit.gr/DB/person/0CA01E6E-3FC4-3248-944F-11266DB06AAE> , <http://www.sealit.gr/DB/person/710A75A8-5980-33C3-9A08-90E7AE728E5C> , <http://www.sealit.gr/DB/person/3AFBCBEA-ABD7-3CD2-826C-6FD9B52DF120> , <http://www.sealit.gr/DB/person/2A9DBB76-FD3D-394B-A34A-21D5D254A526> , <http://www.sealit.gr/DB/person/E92F8A61-E4B1-3B5E-8598-165441C27397> , <http://www.sealit.gr/DB/person/256B525F-ADFC-3751-9E14-64176DF96A5B> , <http://www.sealit.gr/DB/person/570D4C3A-34B5-3CED-801F-99BAB50FAA40> , <http://www.sealit.gr/DB/person/B26D94E9-4832-368D-B97F-AEADC7A2B4E0> , <http://www.sealit.gr/DB/person/0E57D04B-BD31-31AC-A3D5-09402933E9CC> , <http://www.sealit.gr/DB/person/49F1C505-A6EF-3D93-8F2E-BA9EA8B8E6C2> , <http://www.sealit.gr/DB/person/4EE49806-18DC-3A0D-B79F-D9A9B66C7639> , <http://www.sealit.gr/DB/person/3323465A-7ECB-3B63-B9BA-843D372406E2> , <http://www.sealit.gr/DB/person/66ADD9A2-6EBC-3A14-916C-9D6EED1412D6> , <http://www.sealit.gr/DB/person/24BC38F8-E0EF-330F-84A0-55BA1F4FDC7F> ;
+        sealit:with_no_of_students  "19" .
+
+<http://www.sealit.gr/DB/appellation/849A326A-31C6-3975-987C-569BB4C1E267>
+        a           crm:E35_Title ;
+        rdfs:label  "Registri di classificazione" .

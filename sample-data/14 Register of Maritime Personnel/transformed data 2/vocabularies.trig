@@ -1,0 +1,94 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/Concept/soltero>
+        a              skos:Concept ;
+        rdfs:label     "soltero" ;
+        owl:sameAs     sealitDB:soltero ;
+        skos:inScheme  <urn:uuid:e10ae560-51c9-49b1-bf8f-a7a0e0e9457d> .
+
+sealitDB:viudo  a  crm:E55_Type .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime_Register_ES.html?name=2019-09-17T11:03:41.913Z_1&templateTitle=Register%20of%20Maritime%20personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/69E4537E-A2EC-3056-9D55-76DA29C3ACE6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime personel, , 2019, Claudia Mateo | row: 1, table: register_of_maritime_personnel" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel> , sealitDB:template ;
+        crm:P67_refers_to  sealitDB:soltero , sealitDB:casado , <http://www.sealit.gr/DB/register_record/2019-11-26T11%3A29%3A28.260Z_1> , sealitDB:viudo .
+
+<urn:uuid:e10ae560-51c9-49b1-bf8f-a7a0e0e9457d>
+        a           skos:ConceptScheme ;
+        rdfs:label  "marital_status_es" .
+
+sealitDB:soltero  a  crm:E55_Type .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime_Register_ES.html?name=2019-11-26T12:03:39.590Z_1&templateTitle=Register%20of%20Maritime%20personel&mode=teamView>
+        a       rdfs:Resource .
+
+<urn:uuid:ad354843-faf9-4beb-a98f-3f9c16903dba>
+        a           skos:ConceptScheme ;
+        rdfs:label  "marital_status_es" .
+
+<http://www.sealit.gr/DB/Concept/viudo>
+        a              skos:Concept ;
+        rdfs:label     "viudo" ;
+        owl:sameAs     sealitDB:viudo ;
+        skos:inScheme  <urn:uuid:047af4fb-318c-4864-9f33-f054ef351ee8> .
+
+<http://www.sealit.gr/DB/register_record/2019-11-26T12%3A03%3A39.590Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime personel, , 1904-00-00, Claudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime_Register_ES.html?name=2019-11-26T12:03:39.590Z_1&templateTitle=Register%20of%20Maritime%20personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-09-17T11%3A03%3A41.913Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime personel, , ," ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime_Register_ES.html?name=2019-09-17T11:03:41.913Z_1&templateTitle=Register%20of%20Maritime%20personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/E565B921-D7CF-3947-8000-03F9B9B5F28B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime personel, , 1904-00-00, Claudia Mateo | row: 1, table: register_of_maritime_personnel" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel> , sealitDB:template ;
+        crm:P67_refers_to  sealitDB:soltero , sealitDB:casado , <http://www.sealit.gr/DB/register_record/2019-11-26T12%3A03%3A39.590Z_1> , sealitDB:viudo .
+
+sealitDB:casado  a  crm:E55_Type .
+
+<http://www.sealit.gr/DB/Concept/casado>
+        a              skos:Concept ;
+        rdfs:label     "casado" ;
+        owl:sameAs     sealitDB:casado ;
+        skos:inScheme  <urn:uuid:ad354843-faf9-4beb-a98f-3f9c16903dba> .
+
+<http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel>
+        a           crm:E55_Type ;
+        rdfs:label  "register of maritime personel" .
+
+<http://www.sealit.gr/DB/register_record/2019-11-26T11%3A29%3A28.260Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime personel, , 2019, Claudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime_Register_ES.html?name=2019-11-26T11:29:28.260Z_1&templateTitle=Register%20of%20Maritime%20personel&mode=teamView> .
+
+<urn:uuid:047af4fb-318c-4864-9f33-f054ef351ee8>
+        a           skos:ConceptScheme ;
+        rdfs:label  "marital_status_es" .
+
+<http://www.sealit.gr/DB/register_record_point/66018B90-757F-32A1-9609-E11438730449>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime personel, , , | row: 1, table: register_of_maritime_personnel" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-09-17T11%3A03%3A41.913Z_1> , sealitDB:soltero .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime_Register_ES.html?name=2019-11-26T11:29:28.260Z_1&templateTitle=Register%20of%20Maritime%20personel&mode=teamView>
+        a       rdfs:Resource .

@@ -1,0 +1,2702 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record_point/50F94B11-84AA-3C7F-8C75-BFA77469A78B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 8, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/7AFBADE2-2124-3DC0-B646-3C334246A4B3> .
+
+<http://www.sealit.gr/DB/ship_identifier/1979>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1979" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/028E4509-53FA-3A23-A449-D27AC0CA4984>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 11, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/539AB5C0-710C-3564-BF8C-7B83820B0436> .
+
+<http://www.sealit.gr/DB/ship/7A430DCE-6A3E-3799-AA1D-E63E5622B755>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Fede in Dio" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/fede%20in%20dio> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/674> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/513F62CA-38E1-3E1E-A0B9-769BFCD35137> .
+
+<http://www.sealit.gr/DB/ship/372E6D30-4820-390B-8C53-1EC0BF8B3976>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Fratellanza" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/fratellanza> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/4599> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A94A4DE1-4FE5-393A-8382-98575495DDB1> .
+
+<http://www.sealit.gr/DB/ship%20name/mio%20cugino>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Mio Cugino" .
+
+<http://www.sealit.gr/DB/ship%20name/cottardo>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Cottardo" .
+
+<http://www.sealit.gr/DB/ship/5EEDB9F3-6292-3CD5-98B3-9B8EED8A317B>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/registration_number/7083>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Giuseppina" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/7083> .
+
+<http://www.sealit.gr/DB/registration_number/7741>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Panchito" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/7741> .
+
+<http://www.sealit.gr/DB/registration_number/8265>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Nome del Padre" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8265> .
+
+<http://www.sealit.gr/DB/ship/5A0D3231-04B9-3491-9E60-2FD35E3A58A3>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/8B749831-6D8F-3070-9270-23AFA97FBDD2>
+        a                        sealit:Ship ;
+        rdfs:label               "ship N.S. della Guardia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/n.s.%20della%20guardia> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6927> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/D7D43213-25D1-38F0-BC09-A2E6483287C9> .
+
+<http://www.sealit.gr/DB/ship/9BB5756D-1050-34BA-95B1-682A130E72AD>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Emilia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/emilia> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/3218> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/38E5A0C1-96AA-39E4-8F0E-95D646DA7382> .
+
+<http://www.sealit.gr/DB/ship/7857F4B0-3062-3A94-88CB-017FEED8D8A4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/38E5A0C1-96AA-39E4-8F0E-95D646DA7382>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/5A209E4C-BC02-3436-B872-B177AF50B86F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Nadir" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/nadir> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1767> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/7AFBADE2-2124-3DC0-B646-3C334246A4B3> .
+
+<http://www.sealit.gr/DB/ship/1A73FDF9-998D-3C8A-A390-2DA0F1A8EDF5>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Giano" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/giano> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8032> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/51650B02-4799-396A-8D34-1FF5ACC2DA8A> .
+
+<http://www.sealit.gr/DB/ship/52326E02-E675-39E9-B8AC-85625DF6628F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/349D3B21-F8D4-3854-9E91-83DB1C9350B6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 8, table: displacement_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/8C205501-4B9B-3184-96AF-602296BA0232> .
+
+<http://www.sealit.gr/DB/ship/23C73A0F-1ED4-38B1-81F7-98E118B71220>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/n.s.%20della%20guardia>
+        a           sealit:Ship_Name ;
+        rdfs:label  "N.S. della Guardia" .
+
+<http://www.sealit.gr/DB/ship/1EFC60DC-0309-351C-B4B1-05BA7C9970A1>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/moderazione>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Moderazione" .
+
+<http://www.sealit.gr/DB/ship/7ED32BC2-1689-3E24-B41D-C26E5C0FE382>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/B0044EF4-8525-3363-8DDD-AF153CFC2A4C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/BAC0961D-E5D3-3822-ABC7-64023EFB5E68>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Nuovo Diligente" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/nuovo%20diligente> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6268> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/8C205501-4B9B-3184-96AF-602296BA0232> .
+
+<http://www.sealit.gr/DB/ship%20name/angelica>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Angelica" .
+
+<http://www.sealit.gr/DB/registration_number/4695>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Santissimo Nome di Maria" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/4695> .
+
+<http://www.sealit.gr/DB/ship/ABFE4B6D-974A-3A6B-A14D-03C68F430ECC>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Erminia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/erminia> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/23C73A0F-1ED4-38B1-81F7-98E118B71220> .
+
+<http://www.sealit.gr/DB/ship_identifier/9089>
+        a                sealit:Ship_ID ;
+        rdfs:label       "9089" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/2085>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Pacchetto Dominicano" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/2085> .
+
+<http://www.sealit.gr/DB/register_record_point/1373F696-FA89-3F47-BB69-B098D68ED8BC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 6, table: displacement_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/D1E9B9BB-835E-31EA-B5DB-E80888945EE4> .
+
+<http://www.sealit.gr/DB/ship/73218F94-5746-3330-8CAC-1485B16B2650>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Temi" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/temi> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/2194BED5-D127-3F44-90C2-B15A6989BA44> .
+
+<http://www.sealit.gr/DB/ship/DFCB0902-6877-3CA5-8838-DEE3E2EA557F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/17589E78-2010-313C-BBC3-1CD39FF8A4B7>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/2A1E69E8-46E1-3912-89B9-7DC64BEFA2EC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 13, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/A94A4DE1-4FE5-393A-8382-98575495DDB1> .
+
+<http://www.sealit.gr/DB/ship_identifier/1021>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1021" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/9B70F11F-C45C-331C-9EB8-D18F17BA8A2A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/59D07B66-3045-3E29-A6F4-A4C958E27341>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/723FBC15-9BF8-37AC-8015-515F53FEC0E0>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Mio Cugino" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/mio%20cugino> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino%20a%20palo> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/7197> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/5A0D3231-04B9-3491-9E60-2FD35E3A58A3> .
+
+<http://www.sealit.gr/DB/ship/C62775F4-07A9-36AC-B5D7-4A7F24A24D81>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/6418>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6418" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/C46B04A4-7028-3788-A179-C60F21773564>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 11, table: displacement_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/9628EA77-A56B-3E58-89FC-613307DD7EA4> .
+
+<http://www.sealit.gr/DB/register_record_point/7C941E70-1480-3FB7-87FA-BC7440B8F154>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 15, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/025BCFF7-4C16-3D21-99A8-A2DB162C7568> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2018-10-23T07:23:32.182Z_1&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/ship/9628EA77-A56B-3E58-89FC-613307DD7EA4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/87EA84A1-6A53-32F7-AF69-3460825FA652>
+        a                        sealit:Ship ;
+        rdfs:label               "ship N. Signora d. Provvidenza" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/n.%20signora%20d.%20provvidenza> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/pinco> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/5741> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/499827B0-0AC8-3B8B-9141-D4B56C824132> .
+
+<http://www.sealit.gr/DB/ship/185650B7-F3F6-3A0D-916B-FC0FBED87577>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/15B45459-C5C8-35E4-8941-A9BFBF73D238>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/registration_number/4973>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Silvio" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/4973> .
+
+<http://www.sealit.gr/DB/register_record_point/34F05381-089D-3214-B727-9F3EA37F28C0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 4, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/1EFC60DC-0309-351C-B4B1-05BA7C9970A1> .
+
+<http://www.sealit.gr/DB/ship/111BE442-CE1C-3AB8-940B-20F0F39195BB>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/2541>
+        a                sealit:Ship_ID ;
+        rdfs:label       "2541" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship_identifier/3934>
+        a                sealit:Ship_ID ;
+        rdfs:label       "3934" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship_identifier/1455>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1455" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/2122>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Paola Schiaffino" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/2122> .
+
+<http://www.sealit.gr/DB/ship/D1E9B9BB-835E-31EA-B5DB-E80888945EE4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/temi>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Temi" .
+
+<http://www.sealit.gr/DB/register_record_point/404A263E-F44A-378E-814D-1E4029BCEEDC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 9, table: displacement_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/9146635C-8148-31E9-8EA5-8E356E4FAEB0> .
+
+<http://www.sealit.gr/DB/register_record_point/016BC48A-6BFE-3F38-9766-AB74B5C28BF0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 19, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/7D41BCE4-53B7-3E1D-9687-0B3D2EF0512A> .
+
+<http://www.sealit.gr/DB/ship/A7416DE6-B0F7-311D-8028-55C1DF395CCE>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/5430>
+        a                sealit:Ship_ID ;
+        rdfs:label       "5430" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/3954>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Leonida" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/3954> .
+
+<http://www.sealit.gr/DB/ship/8DB2ABAF-9724-36D4-BC52-F85A72D494B4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/registration_number/8959>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of italico" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8959> .
+
+<http://www.sealit.gr/DB/ship/B934D0A0-4099-3AE5-BA9E-E0EC1648BDFA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/6B82F973-3C7A-3EF2-BA27-B1123F23FE67>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Nuova Elena" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/nuova%20elena> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6160> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/DFCB0902-6877-3CA5-8838-DEE3E2EA557F> .
+
+<http://www.sealit.gr/DB/ship/8C205501-4B9B-3184-96AF-602296BA0232>
+        a       sealit:Ship .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2018-10-22T09:20:57.942Z_2&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/registration_number/6927>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of N.S. della Guardia" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6927> .
+
+<http://www.sealit.gr/DB/ship/63CF93A7-D645-3C5F-8AEC-EE86070BC7A2>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/948A2613-774B-3B4B-AE77-B6893CBD31B2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 6, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/AE02BCFB-9549-3507-B289-92B8F9FA518A> .
+
+<http://www.sealit.gr/DB/ship/513F62CA-38E1-3E1E-A0B9-769BFCD35137>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/1BF3DE6D-7C97-321D-B96F-D39B1B94B842>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/AAB84A60-264A-3A08-A74A-7A57A13DAA20>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/due%20terese>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Due Terese" .
+
+<http://www.sealit.gr/DB/ship/43AA33FB-F8A1-3514-81A8-F56BBBC9CA23>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Enoch" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/enoch> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/3365> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/9F3DB41D-D91F-3158-92C1-581D1EC07BA8> .
+
+<http://www.sealit.gr/DB/ship/CDC15720-D101-3A05-B49F-41FC1226563A>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Nuovo Diligente" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/nuovo%20diligente> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1774> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/05A7152D-B626-35CB-ACCF-09154E0825A7> .
+
+<http://www.sealit.gr/DB/ship/4649FF53-04EB-3DB4-8522-CB5DF5FA1D76>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Ernesto" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/ernesto> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/3235> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/8DB2ABAF-9724-36D4-BC52-F85A72D494B4> .
+
+<http://www.sealit.gr/DB/register_record_point/9A47E564-EEC8-31E7-B212-716506DF0643>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 3, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/59D07B66-3045-3E29-A6F4-A4C958E27341> .
+
+<http://www.sealit.gr/DB/ship_identifier/5538>
+        a                sealit:Ship_ID ;
+        rdfs:label       "5538" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/6AC773C8-F5B4-3925-8531-4B34ECE722A8>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Sirena" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/sirena> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/09C5C3E9-4163-3D92-A71F-6F2331BCEB0A> .
+
+<http://www.sealit.gr/DB/ship%20type/brick%20barca>
+        a           crm:E55_Type ;
+        rdfs:label  "brick barca" .
+
+<http://www.sealit.gr/DB/register_record_point/CC9E4695-7B75-3E2A-9339-96857CDEF93F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 20, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/DFCB0902-6877-3CA5-8838-DEE3E2EA557F> .
+
+<http://www.sealit.gr/DB/register_record_point/1B06452F-3317-3612-B21A-1006BE52D846>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 13, Giorgio Parodi | row: 11, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-23T07%3A23%3A32.182Z_1> , <http://www.sealit.gr/DB/ship/A124439B-3518-34A8-99B0-587FC4C61694> .
+
+<http://www.sealit.gr/DB/ship%20name/santissimo%20nome%20di%20maria>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Santissimo Nome di Maria" .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/ship/41B60561-950D-3CB8-AC09-865B8936B77D>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/88430C58-17D5-36FE-AF90-AE352AE6BF50>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/436489EB-CC5A-3A57-B5FF-B9127FB59630>
+        a                        sealit:Ship ;
+        rdfs:label               "ship N. S. del Rosario" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/n.%20s.%20del%20rosario> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1840> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/164616B2-1F48-3E8D-9DBD-C71A0109A19D> .
+
+<http://www.sealit.gr/DB/ship/809D1257-EB1D-347D-AA05-A80ABF44E2E2>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/E3BCC6FC-78AE-301B-AB1A-FD49F61C5780>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Sei Fratelli" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/sei%20fratelli> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/nave> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6633> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/B0044EF4-8525-3363-8DDD-AF153CFC2A4C> .
+
+<http://www.sealit.gr/DB/ship%20name/sirena>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Sirena" .
+
+<http://www.sealit.gr/DB/ship/AB6C3AFD-B75D-3557-96D3-9C0F687DFA37>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Fison" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/fison> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8044> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/441D4955-C691-35AF-83A4-3561D3021156> .
+
+<http://www.sealit.gr/DB/ship_identifier/6244>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6244" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/6F5FB5C5-5F09-3F0F-86B1-7F44E58918D5>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/sollecito>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Sollecito" .
+
+<http://www.sealit.gr/DB/ship_identifier/6817>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6817" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/DF440EC0-5466-324B-8B91-1A599D4CC8BF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 22, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/41B60561-950D-3CB8-AC09-865B8936B77D> .
+
+<http://www.sealit.gr/DB/registration_number/4431>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Angiolina" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/4431> .
+
+<http://www.sealit.gr/DB/ship%20name/genio>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Genio" .
+
+<http://www.sealit.gr/DB/ship%20name/il%20prospero>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Il Prospero" .
+
+<http://www.sealit.gr/DB/registration_number/7826>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of N.S. del Boschetto" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/7826> .
+
+<http://www.sealit.gr/DB/register_record_point/A202AE6E-109F-325D-9B67-43C992EBE855>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 13, Giorgio Parodi | row: 7, table: displacement_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-23T07%3A23%3A32.182Z_1> , <http://www.sealit.gr/DB/ship/A76F085B-52DA-3039-8B7F-4DAFDF62CA57> .
+
+<http://www.sealit.gr/DB/ship%20type/brigantino>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino" .
+
+<http://www.sealit.gr/DB/register_record_point/A7AE223D-CE30-3016-A559-5F9D44EFEC95>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 19, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/3B6B2F00-490A-363E-98F6-DFC90047AACF> .
+
+<http://www.sealit.gr/DB/ship_identifier/6160>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6160" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/8899>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Industria" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8899> .
+
+<http://www.sealit.gr/DB/registration_number/4599>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Fratellanza" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/4599> .
+
+<http://www.sealit.gr/DB/ship%20name/fanny>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Fanny" .
+
+<http://www.sealit.gr/DB/ship/87BFCC1C-3A62-3D41-9D6A-9253F72B2CF1>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Pacchetto Dominicano" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/pacchetto%20dominicano> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/4391> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/FEC08FC0-5F4B-31B7-AB7A-A127687340E9> .
+
+<http://www.sealit.gr/DB/ship/484406C9-2EC8-37EE-B381-CEDA982A43DF>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/67C9D0F7-CAC7-3FDD-979D-314FBEB148C0>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/648029BD-638A-32B2-BDCA-691814062555>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/2107>
+        a                sealit:Ship_ID ;
+        rdfs:label       "2107" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship_identifier/6383>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6383" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/E1095DDF-225E-3972-A087-20BDF4C9F07C>
+        a                        sealit:Ship ;
+        rdfs:label               "ship montenero" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/montenero> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8521> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A76F085B-52DA-3039-8B7F-4DAFDF62CA57> , <http://www.sealit.gr/DB/ship/6F8F7C0C-2EBE-3279-8904-9DD5D67A6343> .
+
+<http://www.sealit.gr/DB/registration_number/1899>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Maria Borzone" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1899> .
+
+<http://www.sealit.gr/DB/ship/D72C097B-EC63-321E-A3D1-0371CED58016>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Due Marie" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/due%20marie> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/9353> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/B3BC3564-EA6E-3CB6-96C4-283C3082C19E> .
+
+<http://www.sealit.gr/DB/ship/2194BED5-D127-3F44-90C2-B15A6989BA44>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/B542FD77-4E8C-3A1E-A444-8F32D952E280>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Angiolina" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/angiolina> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/4431> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/26C39424-A9B2-3A17-B942-0C5D4C77784C> .
+
+<http://www.sealit.gr/DB/register_record_point/A2E40CF6-B0D1-3082-9C98-5AC5A11E737B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 13, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/B3BC3564-EA6E-3CB6-96C4-283C3082C19E> .
+
+<http://www.sealit.gr/DB/register_record_point/954F2224-574F-38EB-A9EE-8E1E17E8F222>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 2, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/A2FE8944-AFB7-314B-AF50-AB4DCDB96966> .
+
+<http://www.sealit.gr/DB/ship_identifier/6268>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6268" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/EC288C02-DD4E-3F91-9CB5-2DDB4B5637BF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 17, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/64ED5222-5AEB-3754-880A-FED598F9D70B> .
+
+<http://www.sealit.gr/DB/ship_identifier/3235>
+        a                sealit:Ship_ID ;
+        rdfs:label       "3235" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/3369>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Nuovo San Prospero" , "Registration of Audace" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/3369> .
+
+<http://www.sealit.gr/DB/ship/ABCEFBBC-4F80-3C9F-BC83-7F7026991EDE>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Chiara" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/chiara> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8979> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/1EFC60DC-0309-351C-B4B1-05BA7C9970A1> .
+
+<http://www.sealit.gr/DB/ship/AD829D01-9A4B-3734-8CC3-20A4C89CA05B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Erminia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/erminia> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/253> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/3B6B2F00-490A-363E-98F6-DFC90047AACF> .
+
+<http://www.sealit.gr/DB/ship/17082CE5-4454-3672-B815-CDF3DD0C963D>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Rosa" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/rosa> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/bombarda> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1674> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/AAB84A60-264A-3A08-A74A-7A57A13DAA20> .
+
+<http://www.sealit.gr/DB/ship_identifier/7788>
+        a                sealit:Ship_ID ;
+        rdfs:label       "7788" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/1206>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Provvidenza" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1206> .
+
+<http://www.sealit.gr/DB/ship/F338581A-F7A4-3F7A-9D6A-918224B0152B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Anna Olivari" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/anna%20olivari> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1607> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/41B60561-950D-3CB8-AC09-865B8936B77D> .
+
+<http://www.sealit.gr/DB/registration_number/4497>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of San Paolo" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/4497> .
+
+<http://www.sealit.gr/DB/ship%20name/magenta>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Magenta" .
+
+<http://www.sealit.gr/DB/registration_number/1840>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of N. S. del Rosario" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1840> .
+
+<http://www.sealit.gr/DB/ship_identifier/9634>
+        a                sealit:Ship_ID ;
+        rdfs:label       "9634" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/9146635C-8148-31E9-8EA5-8E356E4FAEB0>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/7CDEC620-F14E-3D58-8C09-550C27A2C318>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/5334>
+        a                sealit:Ship_ID ;
+        rdfs:label       "5334" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/4C2DF37D-7922-3FC8-9450-3D322DF735C4>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Prospero" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/prospero> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/9764> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/57406E32-3C20-3BF0-9B8C-C308A0B4CBEE> .
+
+<http://www.sealit.gr/DB/ship%20name/fison>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Fison" .
+
+<http://www.sealit.gr/DB/ship%20name/silvio>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Silvio" .
+
+<http://www.sealit.gr/DB/ship_identifier/1607>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1607" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/536C0EFC-6B0B-3489-8E18-9FDE38C5147F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship N.S. del Boschetto" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/n.s.%20del%20boschetto> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/bombarda> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/9076> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/539AB5C0-710C-3564-BF8C-7B83820B0436> .
+
+<http://www.sealit.gr/DB/ship%20name/chiara>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Chiara" .
+
+<http://www.sealit.gr/DB/ship_identifier/7197>
+        a                sealit:Ship_ID ;
+        rdfs:label       "7197" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/fratellanza>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Fratellanza" .
+
+<http://www.sealit.gr/DB/registration_number/9292>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of San Fortunato" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/9292> .
+
+<http://www.sealit.gr/DB/ship_identifier/8464>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8464" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/erminia>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Erminia" .
+
+<http://www.sealit.gr/DB/ship/B3C46A24-F364-3B86-B7F9-E4365F396088>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/registration_number/1767>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Nadir" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1767> .
+
+<http://www.sealit.gr/DB/ship_identifier/3259>
+        a                sealit:Ship_ID ;
+        rdfs:label       "3259" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/nostra%20signora%20della%20misericordia>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Nostra Signora della Misericordia" .
+
+<http://www.sealit.gr/DB/registration_number/7833>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Nuovo Diligente" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/7833> .
+
+<http://www.sealit.gr/DB/ship/AD98E723-0A4F-315B-B95A-F83D32782F71>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Nome del Padre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/nome%20del%20padre> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8265> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/9628EA77-A56B-3E58-89FC-613307DD7EA4> .
+
+<http://www.sealit.gr/DB/ship%20name/giano>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Giano" .
+
+<http://www.sealit.gr/DB/ship%20name/nuovo%20san%20prospero>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Nuovo San Prospero" .
+
+<http://www.sealit.gr/DB/ship/3B6B2F00-490A-363E-98F6-DFC90047AACF>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/DA7596D5-542E-3203-981A-AB780A296965>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/C1083FE5-830F-358D-8DBF-A98D37B60DBA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/7083>
+        a                sealit:Ship_ID ;
+        rdfs:label       "7083" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/8932DC53-3AD4-3661-BC8E-C4907449BF60>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 12, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/5EEDB9F3-6292-3CD5-98B3-9B8EED8A317B> .
+
+<http://www.sealit.gr/DB/ship_identifier/7741>
+        a                sealit:Ship_ID ;
+        rdfs:label       "7741" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship_identifier/8265>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8265" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/6397>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Genio" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6397> .
+
+<http://www.sealit.gr/DB/ship/DC6F2C2F-46DB-3BA0-A0FF-D914B5EFBB54>
+        a                        sealit:Ship ;
+        rdfs:label               "ship San Prospero" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/san%20prospero> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1958> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/AE02BCFB-9549-3507-B289-92B8F9FA518A> .
+
+<http://www.sealit.gr/DB/ship%20name/maria%20borzone>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Maria Borzone" .
+
+<http://www.sealit.gr/DB/registration_number/1442>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Enoch" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1442> .
+
+<http://www.sealit.gr/DB/ship%20name/amabile%20antonietta>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Amabile Antonietta" .
+
+<http://www.sealit.gr/DB/ship%20name/n.s.%20del%20boschetto>
+        a           sealit:Ship_Name ;
+        rdfs:label  "N.S. del Boschetto" .
+
+<http://www.sealit.gr/DB/registration_number/9063>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Antonia" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/9063> .
+
+<http://www.sealit.gr/DB/registration_number/6633>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Sei Fratelli" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6633> .
+
+<http://www.sealit.gr/DB/ship/3737A750-1B87-3142-8E98-183D276A8AFC>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/4695>
+        a                sealit:Ship_ID ;
+        rdfs:label       "4695" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/8901>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Delfino" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8901> .
+
+<http://www.sealit.gr/DB/registration_number/8032>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Giano" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8032> .
+
+<http://www.sealit.gr/DB/ship/164616B2-1F48-3E8D-9DBD-C71A0109A19D>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/9EB91AE1-5614-31B6-B95F-8E753EE8E747>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 17, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/38E5A0C1-96AA-39E4-8F0E-95D646DA7382> .
+
+<http://www.sealit.gr/DB/ship/A124439B-3518-34A8-99B0-587FC4C61694>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/ernesto>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Ernesto" .
+
+<http://www.sealit.gr/DB/ship/7D41BCE4-53B7-3E1D-9687-0B3D2EF0512A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/40C43229-DEB8-356A-92BA-645F5B9CDB71>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Panchito" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/panchito> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/bombarda> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/7741> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A389377E-C6EB-339E-81A7-CBDE7995D203> .
+
+<http://www.sealit.gr/DB/registration_number/8521>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of montenero" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8521> .
+
+<http://www.sealit.gr/DB/registration_number/8044>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Fison" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8044> .
+
+<http://www.sealit.gr/DB/ship_identifier/4973>
+        a                sealit:Ship_ID ;
+        rdfs:label       "4973" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship_identifier/1674>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1674" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/2497>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Paolina" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/2497> .
+
+<http://www.sealit.gr/DB/registration_number/2889>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Fanny" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/2889> .
+
+<http://www.sealit.gr/DB/register_record_point/8677E8AB-976D-3336-AF93-07F98053CE7C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 22, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/8DB2ABAF-9724-36D4-BC52-F85A72D494B4> .
+
+<http://www.sealit.gr/DB/ship/58C85893-4242-3EC2-8C22-1531D411B9D3>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Industria" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/industria> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8899> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/AFB7A28A-8E24-356C-8F06-8C41614E53F9> .
+
+<http://www.sealit.gr/DB/registration_number/5741>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of N. Signora d. Provvidenza" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/5741> .
+
+<http://www.sealit.gr/DB/register_record_point/69F3C340-0BC9-3CA3-BE50-CDEDD55A1E59>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 4, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/8520496F-2B96-3F9F-8CFF-58691901AE96> .
+
+<http://www.sealit.gr/DB/registration_number/9353>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Due Marie" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/9353> .
+
+<http://www.sealit.gr/DB/register_record_point/DB57931B-493A-3BEC-9B41-AB4D6583E8B3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 22, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/513F62CA-38E1-3E1E-A0B9-769BFCD35137> .
+
+<http://www.sealit.gr/DB/ship%20name/enoch>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Enoch" .
+
+<http://www.sealit.gr/DB/registration_number/5626>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Nuovo San Prospero" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/5626> .
+
+<http://www.sealit.gr/DB/register_record_point/805A35BB-F1CC-3F8A-8706-DA0D7D6B7BEF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 6, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/164616B2-1F48-3E8D-9DBD-C71A0109A19D> .
+
+<http://www.sealit.gr/DB/ship/AC3327BA-6E41-3409-A832-18A4AB867C28>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Maria Borzone" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/maria%20borzone> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1899> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/4EF353B8-6A08-30F2-822B-4A24401EB03D> .
+
+<http://www.sealit.gr/DB/registration_number/1774>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Nuovo Diligente" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1774> .
+
+<http://www.sealit.gr/DB/ship_identifier/3954>
+        a                sealit:Ship_ID ;
+        rdfs:label       "3954" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/64ED5222-5AEB-3754-880A-FED598F9D70B>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/registration_number/8207>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Il Prospero" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8207> .
+
+<http://www.sealit.gr/DB/ship_identifier/8959>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8959" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/D0DFA0FD-8AF8-3F08-A83D-EF0769AEDC83>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Angelica" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/angelica> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8546> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/6F5FB5C5-5F09-3F0F-86B1-7F44E58918D5> .
+
+<http://www.sealit.gr/DB/ship_identifier/6927>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6927" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/D104E56A-2E5E-3613-A8B8-B877829483DA>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Fratelanza" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/fratelanza> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/3259> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/63CF93A7-D645-3C5F-8AEC-EE86070BC7A2> .
+
+<http://www.sealit.gr/DB/ship%20name/due%20marie>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Due Marie" .
+
+<http://www.sealit.gr/DB/register_record_point/40ADD699-7ED3-3DA8-B612-7B655119C295>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 4, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/A389377E-C6EB-339E-81A7-CBDE7995D203> .
+
+<http://www.sealit.gr/DB/ship/8B8D8E33-215D-3309-99AA-7F4E7D08000F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Giuseppina" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/giuseppina> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/7083> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/88430C58-17D5-36FE-AF90-AE352AE6BF50> .
+
+<http://www.sealit.gr/DB/ship/1CF6EC51-A747-3D3D-A5D9-3030E88A7D2D>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Fratellanza" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/fratellanza> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/4855> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/1FA96914-8721-3C74-9B31-8D5C6A952857> .
+
+<http://www.sealit.gr/DB/ship/72BCC0F9-1E34-32D1-9DD5-43A167BAE215>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/838E694D-2793-359F-A588-6D453F04B91E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 13, Giorgio Parodi | row: 8, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-23T07%3A23%3A32.182Z_1> , <http://www.sealit.gr/DB/ship/111BE442-CE1C-3AB8-940B-20F0F39195BB> .
+
+<http://www.sealit.gr/DB/registration_number/8979>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Chiara" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8979> .
+
+<http://www.sealit.gr/DB/registration_number/5288>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Magenta" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/5288> .
+
+<http://www.sealit.gr/DB/register_record_point/98DCE825-0D35-33A8-8603-57E72DCBE0CE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 15, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/57406E32-3C20-3BF0-9B8C-C308A0B4CBEE> .
+
+<http://www.sealit.gr/DB/register_record_point/9810AAD0-2A1A-3EB5-8727-4C3222724CE9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 4, table: displacement_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/EF7AC3DE-5A95-3A20-B8BF-C81AD5103FD0> .
+
+<http://www.sealit.gr/DB/ship/3CA2E93C-0EEF-3BBE-B32D-40835AA22226>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Nuovo Diligente" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/nuovo%20diligente> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/7833> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/9146635C-8148-31E9-8EA5-8E356E4FAEB0> .
+
+<http://www.sealit.gr/DB/registration_number/2124>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Due Terese" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/2124> .
+
+<http://www.sealit.gr/DB/ship_identifier/3218>
+        a                sealit:Ship_ID ;
+        rdfs:label       "3218" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/64BEACE3-3B41-3DB6-98E7-B428B646E6E9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 18, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/52326E02-E675-39E9-B8AC-85625DF6628F> .
+
+<http://www.sealit.gr/DB/ship/025BCFF7-4C16-3D21-99A8-A2DB162C7568>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/D5F1A5DA-4B9F-3F88-B032-A0CF0ED2D2A4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 8, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/0DA62B29-17A4-331B-881F-CDC9A00F230B> .
+
+<http://www.sealit.gr/DB/ship/80E9601B-4E6D-31E9-9BDD-9E08089F2040>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Moderazione" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/moderazione> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6817> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/3A5E3B0C-788E-33A5-868B-72D2F65FCEF3> , <http://www.sealit.gr/DB/ship/6ED98728-EA08-3F5F-A3A7-58E50D7755FC> .
+
+<http://www.sealit.gr/DB/registration_number/1979>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Italico" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1979> .
+
+<http://www.sealit.gr/DB/register_record_point/3EA9D3B9-99E5-34CB-95AE-D07EE4B92CBA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 8, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/15B45459-C5C8-35E4-8941-A9BFBF73D238> .
+
+<http://www.sealit.gr/DB/ship/AE02BCFB-9549-3507-B289-92B8F9FA518A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/panchito>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Panchito" .
+
+<http://www.sealit.gr/DB/register_record_point/5854E64F-0138-3838-8EFD-B9EBBDB7B9AC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 7, table: displacement_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/18CFFC44-B2A6-312F-BC07-874E148994EA> .
+
+<http://www.sealit.gr/DB/ship_identifier/4431>
+        a                sealit:Ship_ID ;
+        rdfs:label       "4431" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/64E06D04-DA98-3514-9190-001F8FA5CDF2>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Nuovo San Prospero" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/nuovo%20san%20prospero> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/5626> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/18CFFC44-B2A6-312F-BC07-874E148994EA> .
+
+<http://www.sealit.gr/DB/ship_identifier/7826>
+        a                sealit:Ship_ID ;
+        rdfs:label       "7826" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/angiolina%20camogli>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Angiolina Camogli" .
+
+<http://www.sealit.gr/DB/register_record_point/DB140D2D-59EF-3526-BB95-15039E8C5109>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 21, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/C1083FE5-830F-358D-8DBF-A98D37B60DBA> .
+
+<http://www.sealit.gr/DB/ship/087D09D7-198B-369E-88A8-545A0B1ACA65>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Sollecito" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/sollecito> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/9089> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/9B70F11F-C45C-331C-9EB8-D18F17BA8A2A> .
+
+<http://www.sealit.gr/DB/ship/1FA96914-8721-3C74-9B31-8D5C6A952857>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/registration_number/6622>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Italico" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6622> .
+
+<http://www.sealit.gr/DB/ship/C622FB49-D2D8-3DD6-8DB6-398E0E513EB3>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Il Prospero" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/il%20prospero> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8207> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/7857F4B0-3062-3A94-88CB-017FEED8D8A4> .
+
+<http://www.sealit.gr/DB/register_record_point/EC628488-F3C2-3EC3-A5C3-514495593861>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 10, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/AAB84A60-264A-3A08-A74A-7A57A13DAA20> .
+
+<http://www.sealit.gr/DB/ship/63B39EC2-C926-3250-A900-27B65F153C57>
+        a                        sealit:Ship ;
+        rdfs:label               "ship san prospero" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/san%20prospero> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/bombarda> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/2541> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/111BE442-CE1C-3AB8-940B-20F0F39195BB> , <http://www.sealit.gr/DB/ship/3737A750-1B87-3142-8E98-183D276A8AFC> .
+
+<http://www.sealit.gr/DB/ship/7AFBADE2-2124-3DC0-B646-3C334246A4B3>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/41416C65-0514-37C7-B725-B7728542F0A0>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Paolina" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/paolina> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/polacca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/2497> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/52326E02-E675-39E9-B8AC-85625DF6628F> .
+
+<http://www.sealit.gr/DB/registration_number/6990>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Nostra Signora della Misericordia" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6990> .
+
+<http://www.sealit.gr/DB/ship_identifier/8899>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8899" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/9F63814F-E8FC-33ED-8D3D-D6F68BE92F37>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Pomona" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/pomona> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/5302> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/484406C9-2EC8-37EE-B381-CEDA982A43DF> .
+
+<http://www.sealit.gr/DB/ship_identifier/4599>
+        a                sealit:Ship_ID ;
+        rdfs:label       "4599" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/047A6160-6F4C-3DCA-B758-8B0C138A751A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/6963499B-AFD0-3B3A-82E4-57EBBAA36BC1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 1, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/9F3DB41D-D91F-3158-92C1-581D1EC07BA8> .
+
+<http://www.sealit.gr/DB/ship%20name/leonida>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Leonida" .
+
+<http://www.sealit.gr/DB/ship/0B82D3BB-81F5-335F-A6E8-0BFB624538D6>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Antonia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/antonia> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/9063> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/15B45459-C5C8-35E4-8941-A9BFBF73D238> .
+
+<http://www.sealit.gr/DB/ship%20name/italico>
+        a           sealit:Ship_Name ;
+        rdfs:label  "italico" , "Italico" .
+
+<http://www.sealit.gr/DB/ship_identifier/1958>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1958" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/6D75DC7E-F1E8-3930-8A5A-CC0544CF78B9>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Carmine" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/carmine> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/bombarda> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6244> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/8520496F-2B96-3F9F-8CFF-58691901AE96> .
+
+<http://www.sealit.gr/DB/register_record_point/B4132C88-164B-3FAD-A7AA-50A00B5D1A70>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 1, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/631CD2A1-AFDB-3C79-95C9-A47CB8E5A77F> .
+
+<http://www.sealit.gr/DB/ship%20type/brigantino%20a%20palo>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino a palo" .
+
+<http://www.sealit.gr/DB/registration_number/3365>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Enoch" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/3365> .
+
+<http://www.sealit.gr/DB/registration_number/1021>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Nuova Speranza in Dio" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1021> .
+
+<http://www.sealit.gr/DB/ship/44A2F9F0-9270-3D0A-BDE4-61109B47B2F5>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/C174034E-84BC-38AA-BB58-8E94CAFB481F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 10, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/69147E8E-AE5A-38C4-A7D0-33068E098520> .
+
+<http://www.sealit.gr/DB/register_record_point/EC3C0D0A-B3C8-3C87-8455-3A0CACC3C6CE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 17, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/6ED98728-EA08-3F5F-A3A7-58E50D7755FC> .
+
+<http://www.sealit.gr/DB/register_record_point/0C953BF3-862C-3BF8-BF63-0B98BF55D0A9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 19, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/26C39424-A9B2-3A17-B942-0C5D4C77784C> .
+
+<http://www.sealit.gr/DB/ship/0DA62B29-17A4-331B-881F-CDC9A00F230B>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/E9DF7CF9-4E77-35D8-8280-408C0B6A9535>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 3, table: displacement_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/186B8A68-745E-30F3-93CA-6F609599B4CE> .
+
+<http://www.sealit.gr/DB/register_record_point/5B6F21E5-C5E5-31A7-993E-581A7F7FBF33>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 12, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/809D1257-EB1D-347D-AA05-A80ABF44E2E2> .
+
+<http://www.sealit.gr/DB/registration_number/9764>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Prospero" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/9764> .
+
+<http://www.sealit.gr/DB/ship_identifier/3369>
+        a                sealit:Ship_ID ;
+        rdfs:label       "3369" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/2541>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of san prospero" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/2541> .
+
+<http://www.sealit.gr/DB/registration_number/1455>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Maria Geronima Antola" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1455> .
+
+<http://www.sealit.gr/DB/registration_number/4855>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Fratellanza" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/4855> .
+
+<http://www.sealit.gr/DB/register_record_point/CE08A0D0-1BAD-3E47-B656-337DE20AC19E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 14, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/09C5C3E9-4163-3D92-A71F-6F2331BCEB0A> .
+
+<http://www.sealit.gr/DB/registration_number/9076>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of N.S. del Boschetto" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/9076> .
+
+<http://www.sealit.gr/DB/register_record_point/14EEAF2B-3339-3861-B875-13E8A32671D3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 6, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/17589E78-2010-313C-BBC3-1CD39FF8A4B7> .
+
+<http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2018-10-22T09:20:57.942Z_2&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/DA5BF3B6-67DE-31BA-8C63-CF5087FCF3E3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 9, Federica Valle | row: 23, table: displacement_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T06%3A58%3A33.796Z_1> , <http://www.sealit.gr/DB/ship/3A5E3B0C-788E-33A5-868B-72D2F65FCEF3> .
+
+<http://www.sealit.gr/DB/ship/441D4955-C691-35AF-83A4-3561D3021156>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/4497>
+        a                sealit:Ship_ID ;
+        rdfs:label       "4497" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/E5287851-661E-30AB-A46D-6BEE3529FCD8>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Audace" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/audace> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/3369> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A2FE8944-AFB7-314B-AF50-AB4DCDB96966> .
+
+<http://www.sealit.gr/DB/ship/207DAA58-43EB-3856-B1E4-8E3306F65CEF>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Paola Schiaffino" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/paola%20schiaffino> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/2122> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/C0A862E8-E345-384C-90E9-E6F081C70820> .
+
+<http://www.sealit.gr/DB/ship/A94A4DE1-4FE5-393A-8382-98575495DDB1>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/6EE74E25-1B40-3C9D-984D-55F1B950027A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 7, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/AEF0EFE3-41B7-34F2-BD24-1E151F526BD7> .
+
+<http://www.sealit.gr/DB/registration_number/3866>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Sirena" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/3866> .
+
+<http://www.sealit.gr/DB/register_record_point/116A536B-68E1-30C9-A2FA-3CA6B90CDA78>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 16, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/63CF93A7-D645-3C5F-8AEC-EE86070BC7A2> .
+
+<http://www.sealit.gr/DB/ship/795BAF8F-042D-3137-907B-A2121DD801A6>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Maria Geronima Antola" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/maria%20geronima%20antola> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1455> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/E45361E7-8559-318F-A7E4-C6F76D81C64D> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/ship%20name/prospero%20razeto>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Prospero Razeto" .
+
+<http://www.sealit.gr/DB/ship/CD90C88B-4BC5-394B-95FC-70DAE68F457F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/225719FC-353B-3986-BF12-3BA077729EBA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/534A387B-3241-3459-A9CA-758767805A9A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 2, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/185650B7-F3F6-3A0D-916B-FC0FBED87577> .
+
+<http://www.sealit.gr/DB/ship/00533E3D-3611-3CB0-969D-B6051BD3EBEB>
+        a                        sealit:Ship ;
+        rdfs:label               "ship N.S. del Boschetto" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/n.s.%20del%20boschetto> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/7826> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/DA7596D5-542E-3203-981A-AB780A296965> .
+
+<http://www.sealit.gr/DB/ship_identifier/9292>
+        a                sealit:Ship_ID ;
+        rdfs:label       "9292" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/6628>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of S. Fortunato" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6628> .
+
+<http://www.sealit.gr/DB/register_record_point/EBB28FA1-3F63-32C8-9F2F-24EAD998EB75>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 11, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/BA455DD3-3EFF-3699-96FC-6B98DE71E4CD> .
+
+<http://www.sealit.gr/DB/ship/6EE7AB26-94C0-397C-B4B1-1CAC2A31DB13>
+        a                        sealit:Ship ;
+        rdfs:label               "ship S. Fortunato" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/s.%20fortunato> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6628> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/B0CCAB82-4FE9-346C-9004-3D779E0DD61E> .
+
+<http://www.sealit.gr/DB/registration_number/4391>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Pacchetto Dominicano" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/4391> .
+
+<http://www.sealit.gr/DB/ship_identifier/2085>
+        a                sealit:Ship_ID ;
+        rdfs:label       "2085" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/52C58DAB-E3B2-39C5-BB5A-3B1263849394>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 9, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/B3C46A24-F364-3B86-B7F9-E4365F396088> .
+
+<http://www.sealit.gr/DB/ship_identifier/7833>
+        a                sealit:Ship_ID ;
+        rdfs:label       "7833" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/CF52652D-50DA-37D2-AD3C-4473D41116A8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 7, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/7857F4B0-3062-3A94-88CB-017FEED8D8A4> .
+
+<http://www.sealit.gr/DB/ship%20name/maria%20geronima%20antola>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Maria Geronima Antola" .
+
+<http://www.sealit.gr/DB/ship%20type/nave>
+        a           crm:E55_Type ;
+        rdfs:label  "nave" .
+
+<http://www.sealit.gr/DB/ship/51650B02-4799-396A-8D34-1FF5ACC2DA8A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/ulisse>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Ulisse" .
+
+<http://www.sealit.gr/DB/registration_number/8546>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Angelica" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8546> .
+
+<http://www.sealit.gr/DB/register_record_point/CBF2DE88-0331-3CAF-9513-697DCCFC2D7F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 10, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/FEC08FC0-5F4B-31B7-AB7A-A127687340E9> .
+
+<http://www.sealit.gr/DB/register_record_point/325E56E9-DF4B-35DD-B95A-2AE7EC809E12>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 8, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/225719FC-353B-3986-BF12-3BA077729EBA> .
+
+<http://www.sealit.gr/DB/ship_identifier/6397>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6397" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/5302>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Pomona" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/5302> .
+
+<http://www.sealit.gr/DB/ship_identifier/9063>
+        a                sealit:Ship_ID ;
+        rdfs:label       "9063" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/n.%20s.%20del%20rosario>
+        a           sealit:Ship_Name ;
+        rdfs:label  "N. S. del Rosario" .
+
+<http://www.sealit.gr/DB/ship_identifier/6633>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6633" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/2243B8F8-D5DC-37C9-BA2E-42B1DBD5B070>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 1, table: displacement_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/484406C9-2EC8-37EE-B381-CEDA982A43DF> .
+
+<http://www.sealit.gr/DB/register_record_point/41C7F082-E948-3410-BDF2-6597E7C3453C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 10, table: displacement_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/9B70F11F-C45C-331C-9EB8-D18F17BA8A2A> .
+
+<http://www.sealit.gr/DB/ship_identifier/8901>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8901" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship_identifier/8032>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8032" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/CE1206FB-E20C-3682-9012-14FAF2E63167>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 4, table: displacement_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/0FCD1C4D-0DF1-3333-96CB-75DE977F2650> .
+
+<http://www.sealit.gr/DB/ship/D08AE792-2B4E-3129-A0D2-942997E88AC7>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Cottardo" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/cottardo> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6418> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/178E415C-63E7-321F-8FCC-CCAFAA11BDC0> .
+
+<http://www.sealit.gr/DB/ship_identifier/2122>
+        a                sealit:Ship_ID ;
+        rdfs:label       "2122" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/9DF6881D-1E41-31D1-9CBA-F7CC15ED1F33>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 14, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/51650B02-4799-396A-8D34-1FF5ACC2DA8A> .
+
+<http://www.sealit.gr/DB/ship%20name/metilde>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Metilde" .
+
+<http://www.sealit.gr/DB/ship/631CD2A1-AFDB-3C79-95C9-A47CB8E5A77F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/E45361E7-8559-318F-A7E4-C6F76D81C64D>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/BFF3EB54-39AE-3014-AA6D-6BF6F18B0428>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Magenta" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/magenta> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/5288> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/047A6160-6F4C-3DCA-B758-8B0C138A751A> .
+
+<http://www.sealit.gr/DB/register_record_point/B632F504-9A7E-3A57-9656-00C4439E8260>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 5, table: displacement_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/C0A862E8-E345-384C-90E9-E6F081C70820> .
+
+<http://www.sealit.gr/DB/register_record_point/54C7EB20-7891-3091-82EE-5DE1FB3E0A6D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 18, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/67C9D0F7-CAC7-3FDD-979D-314FBEB148C0> .
+
+<http://www.sealit.gr/DB/register_record_point/0B70695F-4DEA-3C06-9293-C2320994E680>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 9, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/6F8F7C0C-2EBE-3279-8904-9DD5D67A6343> .
+
+<http://www.sealit.gr/DB/ship/E85C6D0E-754F-3375-B003-A4533FF1CFCB>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Prospero Razeto" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/prospero%20razeto> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6176> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/2FF6DEC3-A01E-3995-8147-C95B28174D6F> .
+
+<http://www.sealit.gr/DB/ship/F29B836A-C29E-3546-B44E-5E6517B4A2B5>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Enoch" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/enoch> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1442> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/0DA62B29-17A4-331B-881F-CDC9A00F230B> .
+
+<http://www.sealit.gr/DB/ship/730B5C8C-7D73-3EBA-A454-086099D7AB62>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/delfino>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Delfino" .
+
+<http://www.sealit.gr/DB/register_record_point/1528335B-5936-3E1D-8D2F-57E3EE38E408>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 5, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/88430C58-17D5-36FE-AF90-AE352AE6BF50> .
+
+<http://www.sealit.gr/DB/ship_identifier/8521>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8521" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship_identifier/8044>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8044" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/6176>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Prospero Razeto" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6176> .
+
+<http://www.sealit.gr/DB/ship/18CFFC44-B2A6-312F-BC07-874E148994EA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/510D1D59-0C14-3C2B-8ECC-96AAB827ED6D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 11, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/B0044EF4-8525-3363-8DDD-AF153CFC2A4C> .
+
+<http://www.sealit.gr/DB/ship/029401D1-AA2B-3096-998C-DF581D7A3F6F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Due Terese" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/due%20terese> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/2124> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/BA455DD3-3EFF-3699-96FC-6B98DE71E4CD> .
+
+<http://www.sealit.gr/DB/registration_number/2107>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Ulisse" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/2107> .
+
+<http://www.sealit.gr/DB/ship/A208A50D-C63F-3520-AC13-BB7D7E318440>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Nostra Signora della Misericordia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/nostra%20signora%20della%20misericordia> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/bombarda> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6990> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/730B5C8C-7D73-3EBA-A454-086099D7AB62> .
+
+<http://www.sealit.gr/DB/ship_identifier/5741>
+        a                sealit:Ship_ID ;
+        rdfs:label       "5741" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship_identifier/9353>
+        a                sealit:Ship_ID ;
+        rdfs:label       "9353" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/A22FF798-E7B9-30A2-97C2-D0ED5DCE25DA>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Genio" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/genio> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6397> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/EF7AC3DE-5A95-3A20-B8BF-C81AD5103FD0> , <http://www.sealit.gr/DB/ship/B934D0A0-4099-3AE5-BA9E-E0EC1648BDFA> .
+
+<http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29>
+        a           crm:E55_Type ;
+        rdfs:label  "register of maritime workers (matricole della gente di mare)" .
+
+<http://www.sealit.gr/DB/ship_identifier/5626>
+        a                sealit:Ship_ID ;
+        rdfs:label       "5626" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/6FD3D511-2234-39A0-BB3C-FCAC61E61B2A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 19, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/730B5C8C-7D73-3EBA-A454-086099D7AB62> .
+
+<http://www.sealit.gr/DB/register_record_point/30A31DBD-75DA-3507-BCAE-7E50739B0CC8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 20, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/6F5FB5C5-5F09-3F0F-86B1-7F44E58918D5> .
+
+<http://www.sealit.gr/DB/ship/BA455DD3-3EFF-3699-96FC-6B98DE71E4CD>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/8CB64F54-7907-3145-B5C6-75EF02A6C186>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Italico" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/italico> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6622> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/186B8A68-745E-30F3-93CA-6F609599B4CE> .
+
+<http://www.sealit.gr/DB/registration_number/3235>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Ernesto" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/3235> .
+
+<http://www.sealit.gr/DB/ship%20type/polacca>
+        a           crm:E55_Type ;
+        rdfs:label  "polacca" .
+
+<http://www.sealit.gr/DB/ship/A3AC5812-E29B-32D3-AB31-CE9CC85D16CA>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Delfino" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/delfino> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8901> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/C1083FE5-830F-358D-8DBF-A98D37B60DBA> .
+
+<http://www.sealit.gr/DB/ship_identifier/8207>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8207" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/A3EEBC4B-9F19-3D8A-9E2E-1793B4153026>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 17, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/2194BED5-D127-3F44-90C2-B15A6989BA44> .
+
+<http://www.sealit.gr/DB/ship/CD731F9A-6574-359E-BA44-A632DD5B4BF0>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Nuovo San Prospero" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/nuovo%20san%20prospero> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/3369> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/D1E9B9BB-835E-31EA-B5DB-E80888945EE4> .
+
+<http://www.sealit.gr/DB/ship/3A5E3B0C-788E-33A5-868B-72D2F65FCEF3>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/C0A862E8-E345-384C-90E9-E6F081C70820>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/F3AA699C-99B8-357C-B759-C157DC61D5DF>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Provvidenza" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/provvidenza> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1206> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/44A2F9F0-9270-3D0A-BDE4-61109B47B2F5> , <http://www.sealit.gr/DB/ship/69147E8E-AE5A-38C4-A7D0-33068E098520> .
+
+<http://www.sealit.gr/DB/ship/1C802B54-BE70-338F-98D6-E391EC4A0B2A>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Pacchetto Dominicano" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/pacchetto%20dominicano> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/2085> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/1D2F57B5-89F2-3420-A9CB-2292E0816569> .
+
+<http://www.sealit.gr/DB/ship/539AB5C0-710C-3564-BF8C-7B83820B0436>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/3C731A2D-155E-3EF9-863E-9EF7C95234BD>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Avemaria" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/avemaria> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/185650B7-F3F6-3A0D-916B-FC0FBED87577> .
+
+<http://www.sealit.gr/DB/ship%20name/fede%20in%20dio>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Fede in Dio" .
+
+<http://www.sealit.gr/DB/register_record_point/B3095DC6-D62C-3F91-BE68-024945F4FD9E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 16, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/72BCC0F9-1E34-32D1-9DD5-43A167BAE215> .
+
+<http://www.sealit.gr/DB/ship%20name/rosa>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Rosa" .
+
+<http://www.sealit.gr/DB/ship%20name/audace>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Audace" .
+
+<http://www.sealit.gr/DB/ship%20name/antonia>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Antonia" .
+
+<http://www.sealit.gr/DB/ship%20name/fratelanza>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Fratelanza" .
+
+<http://www.sealit.gr/DB/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<http://www.sealit.gr/DB/registration_number/1607>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Anna Olivari" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1607> .
+
+<http://www.sealit.gr/DB/register_record_point/5DA7C569-A883-30E6-B765-B339D0F28A38>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 12, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/A7416DE6-B0F7-311D-8028-55C1DF395CCE> .
+
+<http://www.sealit.gr/DB/ship_identifier/8979>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8979" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/2DF9D042-D843-3352-963B-809291579855>
+        a                        sealit:Ship ;
+        rdfs:label               "ship San Fortunato" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/san%20fortunato> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/9292> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/648029BD-638A-32B2-BDCA-691814062555> .
+
+<http://www.sealit.gr/DB/register_record_point/9A97E032-9E3C-37EF-98B6-2C00170D723F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 5, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/05A7152D-B626-35CB-ACCF-09154E0825A7> .
+
+<http://www.sealit.gr/DB/ship_identifier/5288>
+        a                sealit:Ship_ID ;
+        rdfs:label       "5288" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/giuseppina>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Giuseppina" .
+
+<http://www.sealit.gr/DB/ship/7AF9601C-DA2D-3C47-AEC8-F99D0A3A0393>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Fede in Dio" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/fede%20in%20dio> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/7ED32BC2-1689-3E24-B41D-C26E5C0FE382> .
+
+<http://www.sealit.gr/DB/ship%20name/sei%20fratelli>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Sei Fratelli" .
+
+<http://www.sealit.gr/DB/ship%20name/pacchetto%20dominicano>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Pacchetto Dominicano" .
+
+<http://www.sealit.gr/DB/registration_number/9089>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Sollecito" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/9089> .
+
+<http://www.sealit.gr/DB/register_record_point/C454AF73-E59B-38E5-8CC0-EF905334FCBE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 3, table: displacement_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/B934D0A0-4099-3AE5-BA9E-E0EC1648BDFA> .
+
+<http://www.sealit.gr/DB/registration_number/3259>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Fratelanza" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/3259> .
+
+<http://www.sealit.gr/DB/ship/D7D43213-25D1-38F0-BC09-A2E6483287C9>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/8939A063-3FFB-3BE7-B4B8-12F71D71FEA3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 13, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/CD90C88B-4BC5-394B-95FC-70DAE68F457F> .
+
+<http://www.sealit.gr/DB/register_record_point/7ACBD09F-A0C7-37EE-A355-88A35BB943BA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 11, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/44A2F9F0-9270-3D0A-BDE4-61109B47B2F5> .
+
+<http://www.sealit.gr/DB/ship%20type/pinco>
+        a           crm:E55_Type ;
+        rdfs:label  "pinco" .
+
+<http://www.sealit.gr/DB/ship_identifier/1899>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1899" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/4A92A0CD-127C-3DD0-8E75-A96E79728255>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Ulisse" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/ulisse> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/2107> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/5EEDB9F3-6292-3CD5-98B3-9B8EED8A317B> .
+
+<http://www.sealit.gr/DB/ship/8520496F-2B96-3F9F-8CFF-58691901AE96>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/registration_number/6418>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Cottardo" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6418> .
+
+<http://www.sealit.gr/DB/register_record_point/962A7D61-E0B5-3BAC-81F2-12AA9E54A3B5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 6, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/178E415C-63E7-321F-8FCC-CCAFAA11BDC0> .
+
+<http://www.sealit.gr/DB/ship/610A684A-8734-36E1-A840-FD28D42EB880>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Enoch" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/enoch> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/5430> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/7CDEC620-F14E-3D58-8C09-550C27A2C318> .
+
+<http://www.sealit.gr/DB/ship/DDDC9EBB-4AE8-3591-A740-4BC30347F4DF>
+        a                        sealit:Ship ;
+        rdfs:label               "ship italico" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/italico> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8959> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A124439B-3518-34A8-99B0-587FC4C61694> , <http://www.sealit.gr/DB/ship/72BCC0F9-1E34-32D1-9DD5-43A167BAE215> .
+
+<http://www.sealit.gr/DB/register_record/2018-10-22T06%3A58%3A33.796Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime workers (Matricole della gente di mare), 9, Federica Valle" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2018-10-22T06:58:33.796Z_1&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView> .
+
+<http://www.sealit.gr/DB/ship%20name/pomona>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Pomona" .
+
+<http://www.sealit.gr/DB/ship_identifier/6622>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6622" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/3934>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Santina" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/3934> .
+
+<http://www.sealit.gr/DB/ship%20name/provvidenza>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Provvidenza" .
+
+<http://www.sealit.gr/DB/ship/4EF353B8-6A08-30F2-822B-4A24401EB03D>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/6990>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6990" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/8A6311AE-B902-357C-A6C3-663F5502B22B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Legnano" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/legnano> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/631CD2A1-AFDB-3C79-95C9-A47CB8E5A77F> .
+
+<http://www.sealit.gr/DB/ship_identifier/674>
+        a                sealit:Ship_ID ;
+        rdfs:label       "674" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/n.%20signora%20d.%20provvidenza>
+        a           sealit:Ship_Name ;
+        rdfs:label  "N. Signora d. Provvidenza" .
+
+<http://www.sealit.gr/DB/register_record_point/285AF91B-D77E-39F8-8B94-CB574349B063>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 10, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/FA98853B-50F9-3515-8E24-277F7229AE9E> .
+
+<http://www.sealit.gr/DB/ship%20name/nuova%20elena>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Nuova Elena" .
+
+<http://www.sealit.gr/DB/ship/2FF6DEC3-A01E-3995-8147-C95B28174D6F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/1206>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1206" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/emilia>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Emilia" .
+
+<http://www.sealit.gr/DB/register_record_point/0F8973E5-AD97-389C-B819-FE3F1D9B3C97>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 3, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/499827B0-0AC8-3B8B-9141-D4B56C824132> .
+
+<http://www.sealit.gr/DB/register_record_point/40270399-222C-3E57-BF49-E2EFF83722AC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 18, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/4EF353B8-6A08-30F2-822B-4A24401EB03D> .
+
+<http://www.sealit.gr/DB/ship/DC5E5718-A613-342D-A335-7934CFA6A5BC>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Sirena" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/sirena> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/3866> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/CD90C88B-4BC5-394B-95FC-70DAE68F457F> .
+
+<http://www.sealit.gr/DB/ship/178E415C-63E7-321F-8FCC-CCAFAA11BDC0>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/1840>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1840" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/A389377E-C6EB-339E-81A7-CBDE7995D203>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/26C39424-A9B2-3A17-B942-0C5D4C77784C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/3365>
+        a                sealit:Ship_ID ;
+        rdfs:label       "3365" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/D3DF6964-AD63-30E9-8617-C9A30F73673B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Amabile Antonietta" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/amabile%20antonietta> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/9634> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/AEF0EFE3-41B7-34F2-BD24-1E151F526BD7> .
+
+<http://www.sealit.gr/DB/ship/11022842-0A64-34CF-90E4-CF6BC1982C1C>
+        a                        sealit:Ship ;
+        rdfs:label               "ship San Paolo" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/san%20paolo> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/4497> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/7D41BCE4-53B7-3E1D-9687-0B3D2EF0512A> .
+
+<http://www.sealit.gr/DB/ship/48AB5787-07F9-34BA-B678-E56E101DB239>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Due Marie" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/due%20marie> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/8464> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/FA98853B-50F9-3515-8E24-277F7229AE9E> .
+
+<http://www.sealit.gr/DB/registration_number/5430>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Enoch" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/5430> .
+
+<http://www.sealit.gr/DB/register_record_point/2C0BB6A6-410C-3376-A91B-ECFCE160130C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 16, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/047A6160-6F4C-3DCA-B758-8B0C138A751A> .
+
+<http://www.sealit.gr/DB/ship/B0CCAB82-4FE9-346C-9004-3D779E0DD61E>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/05A7152D-B626-35CB-ACCF-09154E0825A7>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/nuova%20speranza%20in%20dio>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Nuova Speranza in Dio" .
+
+<http://www.sealit.gr/DB/register_record_point/B21E2578-6E64-3E26-A681-E9A19AA86C2F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 5, table: displacement_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/5A0D3231-04B9-3491-9E60-2FD35E3A58A3> .
+
+<http://www.sealit.gr/DB/ship/6ED98728-EA08-3F5F-A3A7-58E50D7755FC>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/registration_number/1674>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Rosa" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1674> .
+
+<http://www.sealit.gr/DB/ship_identifier/9764>
+        a                sealit:Ship_ID ;
+        rdfs:label       "9764" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/anna%20olivari>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Anna Olivari" .
+
+<http://www.sealit.gr/DB/ship/6F8F7C0C-2EBE-3279-8904-9DD5D67A6343>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/1767>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1767" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship_identifier/4855>
+        a                sealit:Ship_ID ;
+        rdfs:label       "4855" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship_identifier/9076>
+        a                sealit:Ship_ID ;
+        rdfs:label       "9076" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record/2018-10-23T07%3A23%3A32.182Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime workers (Matricole della gente di mare), 13, Giorgio Parodi" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2018-10-23T07:23:32.182Z_1&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView> .
+
+<http://www.sealit.gr/DB/ship%20name/s.%20fortunato>
+        a           sealit:Ship_Name ;
+        rdfs:label  "S. Fortunato" .
+
+<http://www.sealit.gr/DB/ship%20name/paola%20schiaffino>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Paola Schiaffino" .
+
+<http://www.sealit.gr/DB/ship%20name/nome%20del%20padre>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Nome del Padre" .
+
+<http://www.sealit.gr/DB/ship/0FCD1C4D-0DF1-3333-96CB-75DE977F2650>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/A76F085B-52DA-3039-8B7F-4DAFDF62CA57>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/montenero>
+        a           sealit:Ship_Name ;
+        rdfs:label  "montenero" .
+
+<http://www.sealit.gr/DB/register_record_point/A5BA83FA-57FA-3D00-99A1-7CB9DB6FA0A3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 3, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/648029BD-638A-32B2-BDCA-691814062555> .
+
+<http://www.sealit.gr/DB/register_record_point/E3DF395E-6992-3663-9BE3-F4F9E2D97DCD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 20, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/23C73A0F-1ED4-38B1-81F7-98E118B71220> .
+
+<http://www.sealit.gr/DB/ship%20name/avemaria>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Avemaria" .
+
+<http://www.sealit.gr/DB/ship%20name/industria>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Industria" .
+
+<http://www.sealit.gr/DB/ship/FA98853B-50F9-3515-8E24-277F7229AE9E>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/san%20fortunato>
+        a           sealit:Ship_Name ;
+        rdfs:label  "San Fortunato" .
+
+<http://www.sealit.gr/DB/registration_number/5538>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of San Prospero" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/5538> .
+
+<http://www.sealit.gr/DB/ship_identifier/3866>
+        a                sealit:Ship_ID ;
+        rdfs:label       "3866" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/F0EF8CD0-B8CA-3FCA-8F85-04ECE393E6CA>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Fanny" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/fanny> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/2889> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A7416DE6-B0F7-311D-8028-55C1DF395CCE> .
+
+<http://www.sealit.gr/DB/ship%20name/santina>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Santina" .
+
+<http://www.sealit.gr/DB/register_record_point/1C2EB53E-8DF7-3366-864A-31B330DF785D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 15, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/3737A750-1B87-3142-8E98-183D276A8AFC> .
+
+<http://www.sealit.gr/DB/register_record_point/D0E458AD-C963-392B-9F38-829E681E28A8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 21, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/D7D43213-25D1-38F0-BC09-A2E6483287C9> .
+
+<http://www.sealit.gr/DB/ship_identifier/1442>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1442" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20type/bombarda>
+        a           crm:E55_Type ;
+        rdfs:label  "bombarda" .
+
+<http://www.sealit.gr/DB/ship/B3BC3564-EA6E-3CB6-96C4-283C3082C19E>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/angiolina>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Angiolina" .
+
+<http://www.sealit.gr/DB/ship_identifier/6628>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6628" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/1329DDB3-1F41-393E-879F-B27985CFC030>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 1, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/E45361E7-8559-318F-A7E4-C6F76D81C64D> .
+
+<http://www.sealit.gr/DB/ship/FEC08FC0-5F4B-31B7-AB7A-A127687340E9>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/FFFA7F08-472E-3425-AB1D-EF116DDEC3DE>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Angiolina Camogli" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/angiolina%20camogli> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/5334> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/0FCD1C4D-0DF1-3333-96CB-75DE977F2650> .
+
+<http://www.sealit.gr/DB/registration_number/6244>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Carmine" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6244> .
+
+<http://www.sealit.gr/DB/register_record_point/4B16DE60-0664-3182-9B2E-DCCF47BA11A1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 2, table: displacement_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/2FF6DEC3-A01E-3995-8147-C95B28174D6F> .
+
+<http://www.sealit.gr/DB/ship_identifier/4391>
+        a                sealit:Ship_ID ;
+        rdfs:label       "4391" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/09C5C3E9-4163-3D92-A71F-6F2331BCEB0A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/registration_number/6817>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Moderazione" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6817> .
+
+<http://www.sealit.gr/DB/ship/AEF0EFE3-41B7-34F2-BD24-1E151F526BD7>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/F0148DFE-0C55-37A7-AFB8-74FD7639994F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 7, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/B0CCAB82-4FE9-346C-9004-3D779E0DD61E> .
+
+<http://www.sealit.gr/DB/ship/D67A71BD-98E0-39BC-A668-8C76DB043913>
+        a                        sealit:Ship ;
+        rdfs:label               "ship San Prospero" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/san%20prospero> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/bombarda> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/5538> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/17589E78-2010-313C-BBC3-1CD39FF8A4B7> .
+
+<http://www.sealit.gr/DB/ship%20name/argo>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Argo" .
+
+<http://www.sealit.gr/DB/registration_number/253>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Erminia" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/253> .
+
+<http://www.sealit.gr/DB/ship_identifier/8546>
+        a                sealit:Ship_ID ;
+        rdfs:label       "8546" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/6160>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Nuova Elena" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6160> .
+
+<http://www.sealit.gr/DB/ship/43205618-7D3B-3638-93F8-7B2F1C5BF789>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Santina" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/santina> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/3934> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/59D07B66-3045-3E29-A6F4-A4C958E27341> .
+
+<http://www.sealit.gr/DB/ship/9F3DB41D-D91F-3158-92C1-581D1EC07BA8>
+        a       sealit:Ship .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2018-10-22T06:58:33.796Z_1&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/ship_identifier/5302>
+        a                sealit:Ship_ID ;
+        rdfs:label       "5302" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/nuovo%20diligente>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Nuovo Diligente" .
+
+<http://www.sealit.gr/DB/ship/EF7AC3DE-5A95-3A20-B8BF-C81AD5103FD0>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship_identifier/2497>
+        a                sealit:Ship_ID ;
+        rdfs:label       "2497" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/registration_number/3218>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Emilia" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/3218> .
+
+<http://www.sealit.gr/DB/ship_identifier/2889>
+        a                sealit:Ship_ID ;
+        rdfs:label       "2889" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/33DA3E7F-96B0-3812-B092-AC40665EC231>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Metilde" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/metilde> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/1BF3DE6D-7C97-321D-B96F-D39B1B94B842> .
+
+<http://www.sealit.gr/DB/register_record_point/5CA4C6A0-BC05-3CB5-8FC6-A26267B72948>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 2, table: displacement_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/C62775F4-07A9-36AC-B5D7-4A7F24A24D81> .
+
+<http://www.sealit.gr/DB/register_record_point/E3A274A9-12E1-3EC5-A89D-DFA3555A1917>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 9, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/1D2F57B5-89F2-3420-A9CB-2292E0816569> .
+
+<http://www.sealit.gr/DB/registration_number/6383>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Maria Borzone" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6383> .
+
+<http://www.sealit.gr/DB/ship/71C8FF02-BD5F-3007-9CE2-DD2B8C46401E>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Leonida" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/leonida> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/3954> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/225719FC-353B-3986-BF12-3BA077729EBA> .
+
+<http://www.sealit.gr/DB/ship/57406E32-3C20-3BF0-9B8C-C308A0B4CBEE>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/A2FE8944-AFB7-314B-AF50-AB4DCDB96966>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/03B2E4F1-0877-39A3-A22E-B5DB08FA2D04>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Argo" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/argo> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/7788> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/B3C46A24-F364-3B86-B7F9-E4365F396088> .
+
+<http://www.sealit.gr/DB/register_record_point/8098CCA3-9D86-3CDB-9981-4AB64826FEC0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 25, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/DA7596D5-542E-3203-981A-AB780A296965> .
+
+<http://www.sealit.gr/DB/register_record_point/86AEC4A5-6FD8-3098-865C-0E1551788F20>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 23, table: displacement_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/AFB7A28A-8E24-356C-8F06-8C41614E53F9> .
+
+<http://www.sealit.gr/DB/registration_number/6268>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Nuovo Diligente" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/6268> .
+
+<http://www.sealit.gr/DB/ship%20name/san%20paolo>
+        a           sealit:Ship_Name ;
+        rdfs:label  "San Paolo" .
+
+<http://www.sealit.gr/DB/ship/499827B0-0AC8-3B8B-9141-D4B56C824132>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/90A41A86-31F0-3EAC-9725-C381BF81DD3E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 15, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/1FA96914-8721-3C74-9B31-8D5C6A952857> .
+
+<http://www.sealit.gr/DB/ship_identifier/1774>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1774" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/carmine>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Carmine" .
+
+<http://www.sealit.gr/DB/register_record_point/CDF9CD5A-5FFD-34F5-ADE2-B56231F77B46>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 14, table: displacement_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/7ED32BC2-1689-3E24-B41D-C26E5C0FE382> .
+
+<http://www.sealit.gr/DB/registration_number/674>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Fede in Dio" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/674> .
+
+<http://www.sealit.gr/DB/ship%20name/paolina>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Paolina" .
+
+<http://www.sealit.gr/DB/ship_identifier/6176>
+        a                sealit:Ship_ID ;
+        rdfs:label       "6176" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/san%20prospero>
+        a           sealit:Ship_Name ;
+        rdfs:label  "san prospero" , "San Prospero" .
+
+<http://www.sealit.gr/DB/registration_number/7788>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Argo" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/7788> .
+
+<http://www.sealit.gr/DB/registration_number/1958>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of San Prospero" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1958> .
+
+<http://www.sealit.gr/DB/ship%20name/nadir>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Nadir" .
+
+<http://www.sealit.gr/DB/ship/69147E8E-AE5A-38C4-A7D0-33068E098520>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/A8C8F07E-6E53-3E9E-AFBD-D840F6C38325>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 12, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/441D4955-C691-35AF-83A4-3561D3021156> .
+
+<http://www.sealit.gr/DB/register_record_point/9220CB1E-85FD-3EB0-8FFA-48830935067B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 13, table: displacement_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/1BF3DE6D-7C97-321D-B96F-D39B1B94B842> .
+
+<http://www.sealit.gr/DB/registration_number/9634>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Amabile Antonietta" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/9634> .
+
+<http://www.sealit.gr/DB/registration_number/5334>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Angiolina Camogli" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/5334> .
+
+<http://www.sealit.gr/DB/ship/1BC23ABF-41D7-38CF-A58F-5F6FAEFC85DA>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Santissimo Nome di Maria" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/santissimo%20nome%20di%20maria> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/4695> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/809D1257-EB1D-347D-AA05-A80ABF44E2E2> .
+
+<http://www.sealit.gr/DB/ship/07A5A269-9C9A-3207-8C50-ADFF68BBB735>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Nuova Speranza in Dio" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/nuova%20speranza%20in%20dio> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1021> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/C62775F4-07A9-36AC-B5D7-4A7F24A24D81> .
+
+<http://www.sealit.gr/DB/ship_identifier/253>
+        a                sealit:Ship_ID ;
+        rdfs:label       "253" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship/AFB7A28A-8E24-356C-8F06-8C41614E53F9>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/CFBD3527-3E3E-3E3E-B5C1-70EC89B6EC9F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Maria Borzone" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/maria%20borzone> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brick%20barca> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/6383> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/64ED5222-5AEB-3754-880A-FED598F9D70B> .
+
+<http://www.sealit.gr/DB/ship/186B8A68-745E-30F3-93CA-6F609599B4CE>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/legnano>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Legnano" .
+
+<http://www.sealit.gr/DB/registration_number/7197>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Mio Cugino" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/7197> .
+
+<http://www.sealit.gr/DB/ship/E2EFC001-F664-3F69-85FA-0ECEF7A8FBD5>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Silvio" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/silvio> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/4973> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/67C9D0F7-CAC7-3FDD-979D-314FBEB148C0> .
+
+<http://www.sealit.gr/DB/registration_number/8464>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Due Marie" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/8464> .
+
+<http://www.sealit.gr/DB/ship/98B2E9BB-52FD-3E75-9971-CD3559768F6D>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Italico" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/italico> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <http://www.sealit.gr/DB/registration_number/1979> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/025BCFF7-4C16-3D21-99A8-A2DB162C7568> .
+
+<http://www.sealit.gr/DB/register_record_point/5F583A00-8FD1-3B00-968D-CBD8B00216F1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 2, table: displacement_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/ship/7CDEC620-F14E-3D58-8C09-550C27A2C318> .
+
+<http://www.sealit.gr/DB/ship_identifier/2124>
+        a                sealit:Ship_ID ;
+        rdfs:label       "2124" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/ship%20name/prospero>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Prospero" .
+
+<http://www.sealit.gr/DB/ship/1D2F57B5-89F2-3420-A9CB-2292E0816569>
+        a       sealit:Ship .

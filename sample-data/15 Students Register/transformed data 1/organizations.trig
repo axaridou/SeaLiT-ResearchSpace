@@ -1,0 +1,687 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Students Register, 151, 1851-1852, Erica Mezzoli" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-03-26T08:54:45.818Z_6&templateTitle=Students%20Register&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/B70FCDA2-5064-3F1E-A202-F4B9B29E0008>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 2, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/scuole%20illiriche> .
+
+<http://www.sealit.gr/DB/organization_appellation/4CAC876E-5FB2-3DD9-A6F0-D2E09E394A36>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Imperial Regia Corte di Giustizia" .
+
+<http://www.sealit.gr/DB/register_record_point/E39B3AD3-E3CB-3B5F-9A73-9891E57D9103>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 10, table: students_list_7" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/1D7FFE7C-D356-3281-80E6-BDC9F944749D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 173, 1890-1892, Erica Mezzoli | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-26T19%3A15%3A59.765Z_3> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<http://www.sealit.gr/DB/register_record_point/6CB40EB4-07AC-3B8D-BC54-795608216FD0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 177, 1899-1901, Erica Mezzoli | row: 21, table: students_list_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-03T17%3A04%3A52.236Z_10> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organization_appellation/1E328748-1CA1-3E9C-A652-E86BB2426C57>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Scuole illiriche" .
+
+<http://www.sealit.gr/DB/register_record_point/82DA9703-AF27-3ECB-AC57-DA8F01751A3C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 177, 1899-1901, Erica Mezzoli | row: 4, table: students_list_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-03T17%3A04%3A52.236Z_10> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/147D4333-E38E-3C8A-A4E0-7245BC598DFC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 53, table: students_list_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/ufficio%20di%20borsa> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-magistrato%20di%20sanit%C3%A0>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Magistrato di Sanità" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/CE2ADE0A-FB6D-3B0F-B340-18D76C06214C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/magistrato%20di%20sanit%C3%A0> .
+
+<http://www.sealit.gr/DB/register_record_point/F49A10FF-8A06-3194-8535-CA48062A20B1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 171, 1886-1888, Erica Mezzoli | row: 5, table: students_list_21" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-20T12%3A16%3A04.216Z_1> , <http://www.sealit.gr/DB/organisation/luogotenenza> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-13T20%3A20%3A00.730Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Students Register, 175, 1894-1896, Erica Mezzoli" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-03-13T20:20:00.730Z_5&templateTitle=Students%20Register&mode=teamView> .
+
+<http://www.sealit.gr/DB/organisation/scuole%20illiriche>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/EDFFFA2C-0200-3D7E-BACE-E07234A60742>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 24, table: students_list_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/camera%20distrettuale> .
+
+<http://www.sealit.gr/DB/organisation/assicurazione%20adriatica>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/761162E4-754C-3804-9EDE-2550B101F649>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 14, table: students_list_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-governo%20centrale%20marittimo>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Governo Centrale Marittimo" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/AAE33616-E1E8-314C-89AD-41178DA1893A> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/governo%20centrale%20marittimo> .
+
+<http://www.sealit.gr/DB/register_record_point/CACAEEA3-889E-3205-B7A3-C942C9ECFCEF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 196, 1895-1896, Erica Mezzoli | row: 1, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-28T19%3A39%3A39.058Z_8> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/3100D4FC-C325-384A-B7DE-D3371327669E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 18, table: students_list_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/magistrato%20di%20sanit%C3%A0> .
+
+<http://www.sealit.gr/DB/register_record/2018-01-23T18%3A45%3A08.082Z_20>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Students Register, 172, 1888-1890, Erica Mezzoli" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-01-23T18:45:08.082Z_20&templateTitle=Students%20Register&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/21FFE625-B379-3B78-A6E9-E61A06824153>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 39, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/ufficio%20di%20borsa> .
+
+<http://www.sealit.gr/DB/register_record_point/0E92D9D2-D0FE-3170-A6DE-42B66915D867>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 10, table: students_list_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/B7D912C1-A975-3DC1-98B2-AEADD9496DF3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 23, table: students_list_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/governo%20centrale%20marittimo> .
+
+<http://www.sealit.gr/DB/register_record_point/48762A95-D635-3C07-803A-DBE5E09AC77F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 1, table: students_list_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/imperial%20regia%20corte%20di%20giustizia> .
+
+<http://www.sealit.gr/DB/register_record_point/B5FE5EE6-F1DE-33DA-A97B-60D751FFC850>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 14, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/camera%20distrettuale> .
+
+<http://www.sealit.gr/DB/register_record_point/97F88DDA-C612-31A8-B72B-CF0223C1C86A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 1, table: students_list_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/imperial%20regia%20corte%20di%20giustizia> .
+
+<http://www.sealit.gr/DB/register_record_point/5D0507F2-BB2C-3BC6-AD2B-835ECAD07E51>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 44, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/governo%20centrale%20marittimo> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-azienda%20assicuratrice>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Azienda assicuratrice" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/A5C7680D-4269-3B41-A0CC-7E69954865A4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/azienda%20assicuratrice> .
+
+<http://www.sealit.gr/DB/register_record/2018-04-03T17%3A04%3A52.236Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Students Register, 177, 1899-1901, Erica Mezzoli" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-04-03T17:04:52.236Z_10&templateTitle=Students%20Register&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/8760546E-B8C0-3F38-A574-CA5CDF1F41C9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 21, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/assicurazione%20adriatica> .
+
+<http://www.sealit.gr/DB/register_record_point/D6002459-99FE-31B4-8BC3-557FC424CA0C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 177, 1899-1901, Erica Mezzoli | row: 8, table: students_list_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-03T17%3A04%3A52.236Z_10> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-scuole%20illiriche>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Scuole illiriche" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/1E328748-1CA1-3E9C-A652-E86BB2426C57> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/scuole%20illiriche> .
+
+<http://www.sealit.gr/DB/organization_appellation/ABFAB611-F842-34E3-94DD-365CA03B587C>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Ufficio Tabacchi e Bolli" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-03-26T08:54:45.818Z_6&templateTitle=Students%20Register&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/85B5567C-D71B-3E3D-B47C-BF6E9470A969>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 7, table: students_list_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-ufficio%20tabacchi%20e%20bolli>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Ufficio Tabacchi e Bolli" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/ABFAB611-F842-34E3-94DD-365CA03B587C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/ufficio%20tabacchi%20e%20bolli> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-02-14T18:23:32.668Z_4&templateTitle=Students%20Register&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/organisation/master_uri-assicurazione%20adriatica>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Assicurazione adriatica" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/41B79E38-0077-3785-8026-017F5EA6453B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/assicurazione%20adriatica> .
+
+<http://www.sealit.gr/DB/register_record_point/37D43D07-AEBA-3CE7-8865-A95CDE213441>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 196, 1895-1896, Erica Mezzoli | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-28T19%3A39%3A39.058Z_8> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-accademia>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Accademia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/6C6F3B40-0AA5-36C5-8EE4-A0AFEBF53376> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/accademia> .
+
+<http://www.sealit.gr/DB/register_record_point/D23D3A54-44FD-3AA9-BF66-0C295C51CAD4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 21, table: students_list_7" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/magistrato%20di%20sanit%C3%A0>
+        a       crm:E40_Legal_Body .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/register_record_point/3335653F-BE41-36B2-A908-93C842EF0D2F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 26, table: students_list_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/ufficio%20di%20borsa>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/organisation/master_uri-civici%20pompieri>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Civici pompieri" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/1080B20C-62C4-3229-8B9D-4F9C4B0F8F4B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/civici%20pompieri> .
+
+<http://www.sealit.gr/DB/register_record/2018-01-26T19%3A15%3A59.765Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Students Register, 173, 1890-1892, Erica Mezzoli" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-01-26T19:15:59.765Z_3&templateTitle=Students%20Register&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/3DBAA75C-8FA3-3C46-AE00-8D4211BF620C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 22, table: students_list_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/governo%20centrale%20marittimo> .
+
+<http://www.sealit.gr/DB/organization_appellation/41B79E38-0077-3785-8026-017F5EA6453B>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Assicurazione adriatica" .
+
+<http://www.sealit.gr/DB/organisation/lloyd%20austriaco>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/1B7677B6-E9B3-3917-86FB-4C9BBF8AD237>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 43, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/luogotenenza> .
+
+<http://www.sealit.gr/DB/organisation/imperial%20regia%20corte%20di%20giustizia>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/CA9B8FD2-6AC3-3A6F-B621-BD4FE9E7E621>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 177, 1899-1901, Erica Mezzoli | row: 11, table: students_list_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-03T17%3A04%3A52.236Z_10> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-01-23T18:45:08.082Z_20&templateTitle=Students%20Register&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/1AF4A699-29CE-3D96-BE70-A78744F7F9C3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 11, table: students_list_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/assicurazione%20adriatica> .
+
+<http://www.sealit.gr/DB/organization_appellation/6C6F3B40-0AA5-36C5-8EE4-A0AFEBF53376>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Accademia" .
+
+<http://www.sealit.gr/DB/register_record_point/20C6BA0F-00B1-385C-90F2-3883A6AC6079>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 13, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/1A4DD8C6-9A48-3EF6-A193-994357C9E917>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 20, table: students_list_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-archivio%20di%20stato%20di%20trieste>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Archivio di Stato di Trieste" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/CFAC4BD4-0609-3BAD-887B-EA79E660FCDF> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-camera%20distrettuale>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Camera distrettuale" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/17A2B31E-1B71-3779-953D-11665AB18764> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/camera%20distrettuale> .
+
+<http://www.sealit.gr/DB/register_record_point/44C7CCBC-DB98-3606-89DE-261F5DC951AC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 2, table: students_list_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/accademia> .
+
+<http://www.sealit.gr/DB/organisation/luogotenenza>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record/2018-03-28T19%3A39%3A39.058Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Students Register, 196, 1895-1896, Erica Mezzoli" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-03-28T19:39:39.058Z_8&templateTitle=Students%20Register&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Students Register, 150, 1850-1851, Erica Mezzoli" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-03-26T12:48:08.097Z_7&templateTitle=Students%20Register&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/90919A98-72AB-369D-9564-AA2F71F06099>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 2, table: students_list_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/accademia> .
+
+<http://www.sealit.gr/DB/register_record_point/7FF1B7D9-D8AE-33FF-B96E-76A571A886CF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 21, table: students_list_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/governo%20centrale%20marittimo> .
+
+<http://www.sealit.gr/DB/register_record_point/AD493EDB-16F8-3B2B-B09B-351FE4A84409>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 175, 1894-1896, Erica Mezzoli | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-13T20%3A20%3A00.730Z_5> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<http://www.sealit.gr/DB/organization_appellation/CE2ADE0A-FB6D-3B0F-B340-18D76C06214C>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Magistrato di Sanità" .
+
+<http://www.sealit.gr/DB/register_record_point/F84C6DBF-C84D-3AD9-9DBD-70EE37027E42>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 7, table: students_list_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/azienda%20assicuratrice>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/9DFDE501-E753-3CFB-AE40-3BC9361E601B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 6, table: students_list_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/F05875F7-AADC-347F-AEE1-5199BCB35020>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 177, 1899-1901, Erica Mezzoli | row: 17, table: students_list_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-03T17%3A04%3A52.236Z_10> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/59861091-AA34-387D-9CA4-BFD8DC9F1B02>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 171, 1886-1888, Erica Mezzoli | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-20T12%3A16%3A04.216Z_1> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<http://www.sealit.gr/DB/organisation/ufficio%20tabacchi%20e%20bolli>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/579FFBD0-6BC7-3299-B1E8-DC1A11B32996>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 177, 1899-1901, Erica Mezzoli | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-03T17%3A04%3A52.236Z_10> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<http://www.sealit.gr/DB/register_record_point/6C6EF215-1798-3ED2-876B-F9F9B131785B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 18, table: students_list_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-01-20T12:16:04.216Z_1&templateTitle=Students%20Register&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/organization_appellation/2F07D3DF-A2B1-30F0-95A6-548EFAA34245>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Luogotenenza" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-03-13T20:20:00.730Z_5&templateTitle=Students%20Register&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-03-26T12:48:08.097Z_7&templateTitle=Students%20Register&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/7CAD0287-83B8-360F-9746-A31ECF0BB87A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<http://www.sealit.gr/DB/register_record/2018-01-20T12%3A16%3A04.216Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Students Register, 171, 1886-1888, Erica Mezzoli" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-01-20T12:16:04.216Z_1&templateTitle=Students%20Register&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/1C704FE5-EB6A-3DFC-85EE-562AFF43DF2B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 7, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/ufficio%20tabacchi%20e%20bolli> .
+
+<http://www.sealit.gr/DB/organization_appellation/17A2B31E-1B71-3779-953D-11665AB18764>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Camera distrettuale" .
+
+<http://www.sealit.gr/DB/organisation/accademia>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/0F33C757-3525-3C7A-8E29-45F8112F24DE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 40, table: students_list_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/577C4366-45AF-38ED-A630-9DAED1BC3AC5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 177, 1899-1901, Erica Mezzoli | row: 6, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-03T17%3A04%3A52.236Z_10> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/governo%20centrale%20marittimo>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/organization_appellation/23087EF1-D3E2-3429-8078-1EEE691B781A>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Ufficio di Borsa" .
+
+<http://www.sealit.gr/DB/organisation/master_uri-imperial%20regia%20corte%20di%20giustizia>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Imperial Regia Corte di Giustizia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/4CAC876E-5FB2-3DD9-A6F0-D2E09E394A36> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/imperial%20regia%20corte%20di%20giustizia> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-luogotenenza>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Luogotenenza" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/2F07D3DF-A2B1-30F0-95A6-548EFAA34245> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/luogotenenza> .
+
+<http://www.sealit.gr/DB/register_record_point/54C014DF-679F-3CD0-ACE0-FC4274DB72BC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 1, table: students_list_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/azienda%20assicuratrice> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-03-28T19:39:39.058Z_8&templateTitle=Students%20Register&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-02-14T18%3A23%3A32.668Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Students Register, 174, 1892-1894, Erica Mezzoli" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-02-14T18:23:32.668Z_4&templateTitle=Students%20Register&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/C9F682A8-7CE6-3EAB-BD96-10D2F0796E79>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 37, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/magistrato%20di%20sanit%C3%A0> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-03-29T19:11:26.226Z_9&templateTitle=Students%20Register&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/A8111A0C-6839-398E-95E3-90E8B76E6E0E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 174, 1892-1894, Erica Mezzoli | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-02-14T18%3A23%3A32.668Z_4> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<http://www.sealit.gr/DB/register_record_point/37509941-ACC2-3060-87EB-5F1DB4529ADB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 3, table: students_list_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organization_appellation/AAE33616-E1E8-314C-89AD-41178DA1893A>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Governo Centrale Marittimo" .
+
+<http://www.sealit.gr/DB/register_record_point/D67E8E49-15C3-30BD-A61D-B3E26998C7F7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 1, table: students_list_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/azienda%20assicuratrice> .
+
+<http://www.sealit.gr/DB/organisation/camera%20distrettuale>
+        a       crm:E40_Legal_Body .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-01-26T19:15:59.765Z_3&templateTitle=Students%20Register&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/4B6DC661-424F-3A25-B85B-338A62075DDB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 10, table: students_list_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/0FDBF596-92EB-37BD-AA16-10045EA648E0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 7, table: students_list_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/8796A292-0A7B-37A3-A736-1300C3CB5FAC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 34, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/civici%20pompieri> .
+
+<http://www.sealit.gr/DB/register_record_point/A23018A7-3A79-3C12-9C28-4FCCD569F185>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 172, 1888-1890, Erica Mezzoli | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-23T18%3A45%3A08.082Z_20> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<http://www.sealit.gr/DB/organization_appellation/CFAC4BD4-0609-3BAD-887B-EA79E660FCDF>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Archivio di Stato di Trieste" .
+
+<http://www.sealit.gr/DB/register_record_point/AF50BC39-2557-3DC0-BB13-F9BC2AB7F635>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 177, 1899-1901, Erica Mezzoli | row: 7, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-03T17%3A04%3A52.236Z_10> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-lloyd%20austriaco>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Lloyd austriaco" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/E744DEEB-D137-383B-A7C0-A9CC07610367> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organization_appellation/33AEAFE9-6DBC-3DDC-A9EE-051D44863EB5>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Direzione delle fabbriche" .
+
+<http://www.sealit.gr/DB/register_record_point/1AB40FC3-5722-3675-AE40-001BDD718AEE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 196, 1895-1896, Erica Mezzoli | row: 2, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-28T19%3A39%3A39.058Z_8> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-direzione%20delle%20fabbriche>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Direzione delle fabbriche" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/33AEAFE9-6DBC-3DDC-A9EE-051D44863EB5> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/direzione%20delle%20fabbriche> .
+
+<http://www.sealit.gr/DB/register_record_point/582EBB45-60EC-3388-A656-4855A19E87BE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 4, table: students_list_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organization_appellation/A5C7680D-4269-3B41-A0CC-7E69954865A4>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Azienda assicuratrice" .
+
+<http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Students Register, 176, 1896-1899, Erica Mezzoli" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-03-29T19:11:26.226Z_9&templateTitle=Students%20Register&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/E804D111-D535-33C7-AB79-4C541E0CDA20>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 196, 1895-1896, Erica Mezzoli | row: 7, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-28T19%3A39%3A39.058Z_8> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/B8C69BE1-B537-3C54-B446-1DCC3FB4AEBC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<http://www.sealit.gr/DB/organization_appellation/1080B20C-62C4-3229-8B9D-4F9C4B0F8F4B>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Civici pompieri" .
+
+<http://www.sealit.gr/DB/register_record_point/BE836681-969B-3380-8C67-333534FC2E3C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 196, 1895-1896, Erica Mezzoli | row: 24, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-28T19%3A39%3A39.058Z_8> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-ufficio%20di%20borsa>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Ufficio di Borsa" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/23087EF1-D3E2-3429-8078-1EEE691B781A> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/ufficio%20di%20borsa> .
+
+<http://www.sealit.gr/DB/organisation/civici%20pompieri>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/organisation/direzione%20delle%20fabbriche>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/FDEE8E23-40D9-39F8-B2B9-58E626950F6C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 150, 1850-1851, Erica Mezzoli | row: 4, table: students_list_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A48%3A08.097Z_7> , <http://www.sealit.gr/DB/organisation/direzione%20delle%20fabbriche> .
+
+<http://www.sealit.gr/DB/organization_appellation/E744DEEB-D137-383B-A7C0-A9CC07610367>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Lloyd austriaco" .
+
+<http://www.sealit.gr/DB/template%20types/students%20register>
+        a           crm:E55_Type ;
+        rdfs:label  "students register" .
+
+<http://www.sealit.gr/DB/register_record_point/3AA0C4B4-4A3B-31BD-B26D-159CE3670C47>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 151, 1851-1852, Erica Mezzoli | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T08%3A54%3A45.818Z_6> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20trieste> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Students%20Register.html?name=2018-04-03T17:04:52.236Z_10&templateTitle=Students%20Register&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/F9EE44F6-A720-3400-ABBD-83C9C50360F7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 176, 1896-1899, Erica Mezzoli | row: 8, table: students_list_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-29T19%3A11%3A26.226Z_9> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .
+
+<http://www.sealit.gr/DB/register_record_point/9F28224C-3F4F-311A-B516-CB857B8A94C4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Students Register, 177, 1899-1901, Erica Mezzoli | row: 12, table: students_list_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/students%20register> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-03T17%3A04%3A52.236Z_10> , <http://www.sealit.gr/DB/organisation/lloyd%20austriaco> .

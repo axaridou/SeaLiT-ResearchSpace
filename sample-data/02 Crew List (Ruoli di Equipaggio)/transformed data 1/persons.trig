@@ -1,0 +1,535 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/person/2DE139C3-9D0F-3652-8FEB-49C9B5D20A16>
+        a                        crm:E21_Person ;
+        rdfs:label               "Siro Dellepiane" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/2100> , <http://www.sealit.gr/DB/appellation_surname/8F4CEC4B-D0D3-3350-B3CD-F9D5B2EED7B8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:73ebeaa1-203a-45bc-99e6-3a256fc9e9b4> ;
+        sealit:has_first_name    "Siro" ;
+        sealit:has_last_name     "Dellepiane" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/0B50E2DA-3AFA-33DF-A7D9-CE478F51B4BB> .
+
+<urn:uuid:12bf27bf-9af6-4d36-a67b-32815edd5f31>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Liceti" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1804> .
+
+<http://www.sealit.gr/DB/ids/6004>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6004" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<urn:uuid:145232eb-a7a0-4efe-a43c-5876fa8aca01>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Rovello" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1828> .
+
+<urn:uuid:b8308b3c-5817-4c62-a1b1-fff0773c9cd6>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Mosto" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1835> .
+
+<http://www.sealit.gr/DB/appellation_surname/EB963EF9-4C16-3855-9034-B02B3AA8420E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Dellacasagrande" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/54434F9B-0625-3EFE-8BA9-4FCB0801065A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mosto" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/6C35F4C2-9272-3CF7-8404-999B732DC2EB>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/36EFB75F-CBDB-3621-A8BC-1CB9CC257EB2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gian Lorenzo Liceti" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/2401> , <http://www.sealit.gr/DB/appellation_surname/D5AFD420-6FE3-3B5E-8B11-33CA7DCAC4EC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:12bf27bf-9af6-4d36-a67b-32815edd5f31> ;
+        sealit:has_first_name    "Gian Lorenzo" ;
+        sealit:has_last_name     "Liceti" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/15252E8B-83FE-391F-A6A9-2E324A00A7D7> .
+
+<http://www.sealit.gr/DB/person/6ED926BC-0418-3C11-ADF7-5C2E06183A4D>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/ids/9882>
+        a                crm:E42_Identifier ;
+        rdfs:label       "9882" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/3A310B05-0BE7-3739-8511-2A2954415DCD>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/ids/2100>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2100" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/966A7589-EB49-37F5-8262-E6ACBDDD6728>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/1FB8086F-80F9-3F65-8657-4334CF33BDC5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 4, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/6C35F4C2-9272-3CF7-8404-999B732DC2EB> .
+
+<http://www.sealit.gr/DB/person/AAFC92C1-EF12-3D4E-A3FE-6D910CAAF8CB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Franco Gio.Maria Costa" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/19354> , <http://www.sealit.gr/DB/appellation_surname/6F50B8C8-A110-32C7-90CB-CD28FDE3713C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:60760993-85e3-4cad-ac23-142936209655> ;
+        sealit:has_first_name    "Franco Gio.Maria" ;
+        sealit:has_last_name     "Costa" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/774A983D-AF46-3808-86DE-CEBD2A060285> .
+
+<urn:uuid:e6005fb6-7965-4432-8521-f75836513347>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Figari" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1828> .
+
+<http://www.sealit.gr/DB/date/1804>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1804" ;
+        crm:P82_at_some_time_within  "1804"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Figari" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/8DDEDA86-9D48-3DE2-9AEC-D6A1EFF6C2F1>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/83DECC05-2BD9-3190-A0AE-0A39CEA0D905>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Tixe" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<urn:uuid:38a6fffa-5432-4e0e-9ac9-bb908b00ca34>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Tixe" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1807> .
+
+<http://www.sealit.gr/DB/appellation_surname/D5AFD420-6FE3-3B5E-8B11-33CA7DCAC4EC>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Liceti" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/4C23B655-2D5E-3D10-9F18-746FB9EFFB22>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Lervetto" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/12933> , <http://www.sealit.gr/DB/appellation_surname/D82D0A1F-D493-3C1E-B560-5E0AF709DC15> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:46c92350-88f9-4dbe-ad01-68c8cd231640> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Lervetto" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/3A310B05-0BE7-3739-8511-2A2954415DCD> .
+
+<http://www.sealit.gr/DB/register_record_point/CD04716E-C507-3015-B2E9-037D01CB9EA4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 5, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/D80AFE36-BC55-36F8-B671-94FDF01DF45F> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T14:02:15.448Z_17&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/C6D240C8-2732-34C7-A5BB-74D7BF83FDC6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/399508B5-9E43-3C36-AA96-0183EB80BFF9> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/date/1809>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1809" ;
+        crm:P82_at_some_time_within  "1809"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/ids/5223>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5223" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/19F214A4-A049-37DE-88B6-B381CFBF6D3D>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/3BF76989-B29B-3196-A129-CB45301CF692>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 6, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/F96ADA42-B5AA-30A7-9F3C-1EA3260A6263> .
+
+<http://www.sealit.gr/DB/ids/5208>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5208" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/CF9A2634-69E3-31C2-BC87-4D759E878F66>
+        a                        crm:E21_Person ;
+        rdfs:label               "Cesare Figari" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/6004> , <http://www.sealit.gr/DB/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e6005fb6-7965-4432-8521-f75836513347> ;
+        sealit:has_first_name    "Cesare" ;
+        sealit:has_last_name     "Figari" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/66C48074-E29E-3E3D-9B7C-CCB17E121034> .
+
+<urn:uuid:356df41a-99d1-4df9-9682-28a4388af286>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Figari" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1830> .
+
+<http://www.sealit.gr/DB/register_record_point/8251C3A7-7F18-3409-9CE1-C51A44F7B9B6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 11, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/6ED926BC-0418-3C11-ADF7-5C2E06183A4D> .
+
+<urn:uuid:9708d112-07fc-4c6b-b579-5f76af0f5be5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Figari" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1843> .
+
+<http://www.sealit.gr/DB/date/1844>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1844" ;
+        crm:P82_at_some_time_within  "1844"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/4DB12AC3-BE2A-35AC-9C85-7FC6A425A974>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 8, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/15252E8B-83FE-391F-A6A9-2E324A00A7D7> .
+
+<urn:uuid:46c92350-88f9-4dbe-ad01-68c8cd231640>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Lervetto" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1841> .
+
+<http://www.sealit.gr/DB/appellation_surname/6F50B8C8-A110-32C7-90CB-CD28FDE3713C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Costa" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/65CA9747-DDBF-3BDB-86A1-63B8DA33A779>
+        a                        crm:E21_Person ;
+        rdfs:label               "Adamo Tixe" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/5208> , <http://www.sealit.gr/DB/appellation_surname/83DECC05-2BD9-3190-A0AE-0A39CEA0D905> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:38a6fffa-5432-4e0e-9ac9-bb908b00ca34> ;
+        sealit:has_first_name    "Adamo" ;
+        sealit:has_last_name     "Tixe" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6C35F4C2-9272-3CF7-8404-999B732DC2EB> .
+
+<http://www.sealit.gr/DB/register_record_point/1B9DDE02-A1FF-36EA-86A8-C8F34B9B2F47>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 3, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/0B50E2DA-3AFA-33DF-A7D9-CE478F51B4BB> .
+
+<http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<http://www.sealit.gr/DB/person/EE22B133-504F-34CD-8A67-281E63BD6D41>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/ids/12933>
+        a                crm:E42_Identifier ;
+        rdfs:label       "12933" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<http://www.sealit.gr/DB/appellation_surname/8F4CEC4B-D0D3-3350-B3CD-F9D5B2EED7B8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Dellepiane" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/date/1849>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1849" ;
+        crm:P82_at_some_time_within  "1849"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/ids/6268>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6268" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/ids/9253>
+        a                crm:E42_Identifier ;
+        rdfs:label       "9253" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/774A983D-AF46-3808-86DE-CEBD2A060285>
+        a       crm:E21_Person .
+
+<urn:uuid:60760993-85e3-4cad-ac23-142936209655>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Costa" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1849> .
+
+<http://www.sealit.gr/DB/date/1830>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1830" ;
+        crm:P82_at_some_time_within  "1830"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1843>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1843" ;
+        crm:P82_at_some_time_within  "1843"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/B433B938-7203-3614-B04B-B7642661F288>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 2, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/EE22B133-504F-34CD-8A67-281E63BD6D41> .
+
+<http://www.sealit.gr/DB/person/FE9BD019-7CAE-3AED-83F9-F2DDB12F2EFC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Clemente Luigi Figari" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/13132> , <http://www.sealit.gr/DB/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:9708d112-07fc-4c6b-b579-5f76af0f5be5> ;
+        sealit:has_first_name    "Clemente Luigi" ;
+        sealit:has_last_name     "Figari" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8DDEDA86-9D48-3DE2-9AEC-D6A1EFF6C2F1> .
+
+<http://www.sealit.gr/DB/date/1828>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1828" ;
+        crm:P82_at_some_time_within  "1828"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/appellation_surname/D82D0A1F-D493-3C1E-B560-5E0AF709DC15>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Lervetto" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/399508B5-9E43-3C36-AA96-0183EB80BFF9>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/F5C3CEFE-319F-39F7-8529-B2FC31B16F72>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 13, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/19F214A4-A049-37DE-88B6-B381CFBF6D3D> .
+
+<http://www.sealit.gr/DB/person/E798F16D-EBB7-3967-962A-C71502DDD330>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Francesco Mosto" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/9882> , <http://www.sealit.gr/DB/appellation_surname/54434F9B-0625-3EFE-8BA9-4FCB0801065A> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:b8308b3c-5817-4c62-a1b1-fff0773c9cd6> ;
+        sealit:has_first_name    "Antonio Francesco" ;
+        sealit:has_last_name     "Mosto" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/EE22B133-504F-34CD-8A67-281E63BD6D41> .
+
+<http://www.sealit.gr/DB/person/13A0FEA0-A3A8-3D94-A7E8-0B2825E242C3>
+        a                        crm:E21_Person ;
+        rdfs:label               "Cesare Figari" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Cesare" ;
+        sealit:has_last_name     "Figari" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/399508B5-9E43-3C36-AA96-0183EB80BFF9> .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/date/1835>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1835" ;
+        crm:P82_at_some_time_within  "1835"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1807>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1807" ;
+        crm:P82_at_some_time_within  "1807"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/E2CC738D-ECE6-344C-978A-94ED425703DC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 10, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/8DDEDA86-9D48-3DE2-9AEC-D6A1EFF6C2F1> .
+
+<urn:uuid:0cbf6f00-3a9a-491d-96b5-2a611cc233ef>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Tapani" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1830> .
+
+<http://www.sealit.gr/DB/person/68EA4CDF-66AB-30ED-BFD4-1A7C5F9902D8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Domenico Caviglia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/16197> , <http://www.sealit.gr/DB/appellation_surname/940275FA-D1E3-3264-A0B4-52F4FB215237> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:aaf3cab7-dd9d-4b4c-a732-79ce57504ff3> ;
+        sealit:has_first_name    "Giuseppe Domenico" ;
+        sealit:has_last_name     "Caviglia" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6ED926BC-0418-3C11-ADF7-5C2E06183A4D> .
+
+<http://www.sealit.gr/DB/register_record_point/316A70FD-963B-32A7-858C-9A7647BD0B30>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 9, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/3A310B05-0BE7-3739-8511-2A2954415DCD> .
+
+<urn:uuid:73ebeaa1-203a-45bc-99e6-3a256fc9e9b4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Dellepiane" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1819> .
+
+<http://www.sealit.gr/DB/person/D80AFE36-BC55-36F8-B671-94FDF01DF45F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/15252E8B-83FE-391F-A6A9-2E324A00A7D7>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/6B97588B-55B7-3E8F-AA2D-2F34ABF9E6E9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Michele Rovello" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/5223> , <http://www.sealit.gr/DB/appellation_surname/46EB443F-ECDC-3C2A-A50A-B8DCFFC3456C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:145232eb-a7a0-4efe-a43c-5876fa8aca01> ;
+        sealit:has_first_name    "Michele" ;
+        sealit:has_last_name     "Rovello" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D80AFE36-BC55-36F8-B671-94FDF01DF45F> .
+
+<http://www.sealit.gr/DB/person/0B50E2DA-3AFA-33DF-A7D9-CE478F51B4BB>
+        a       crm:E21_Person .
+
+<urn:uuid:273261b7-837b-421c-aec4-3e791c6d2dcf>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Dellacasagrande" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1809> .
+
+<http://www.sealit.gr/DB/appellation_surname/4FFFDAC4-0785-3906-BEC2-41F599415CBB>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Tapani" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/843C8D2F-E5D9-3377-BE21-54BD1203A832>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Tapani" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/6268> , <http://www.sealit.gr/DB/appellation_surname/4FFFDAC4-0785-3906-BEC2-41F599415CBB> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:0cbf6f00-3a9a-491d-96b5-2a611cc233ef> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Tapani" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/966A7589-EB49-37F5-8262-E6ACBDDD6728> .
+
+<http://www.sealit.gr/DB/register_record_point/B7C766B2-1FD0-3B2E-829E-6E77A881F464>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 12, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/774A983D-AF46-3808-86DE-CEBD2A060285> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T14:02:15.448Z_17&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/952A6D06-ADDB-3DFF-84A4-1FA72AAC44E5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giobatta Dellacasagrande" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/9253> , <http://www.sealit.gr/DB/appellation_surname/EB963EF9-4C16-3855-9034-B02B3AA8420E> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:273261b7-837b-421c-aec4-3e791c6d2dcf> ;
+        sealit:has_first_name    "Giobatta" ;
+        sealit:has_last_name     "Dellacasagrande" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F96ADA42-B5AA-30A7-9F3C-1EA3260A6263> .
+
+<http://www.sealit.gr/DB/register_record_point/5BEC7A35-2A1B-3F4B-86AD-9D1A73602D9D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 7, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/966A7589-EB49-37F5-8262-E6ACBDDD6728> .
+
+<http://www.sealit.gr/DB/ids/2401>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2401" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/ids/13132>
+        a                crm:E42_Identifier ;
+        rdfs:label       "13132" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/appellation_surname/940275FA-D1E3-3264-A0B4-52F4FB215237>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Caviglia" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/66C48074-E29E-3E3D-9B7C-CCB17E121034>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/ids/19354>
+        a                crm:E42_Identifier ;
+        rdfs:label       "19354" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/date/1819>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1819" ;
+        crm:P82_at_some_time_within  "1819"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/C3843F94-27DD-3203-B896-63EEBEB22569>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/person/66C48074-E29E-3E3D-9B7C-CCB17E121034> .
+
+<http://www.sealit.gr/DB/appellation_surname/46EB443F-ECDC-3C2A-A50A-B8DCFFC3456C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rovello" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/date/1841>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1841" ;
+        crm:P82_at_some_time_within  "1841"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<http://www.sealit.gr/DB/person/B401D474-A216-3295-830D-FE0849125890>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Figari" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:356df41a-99d1-4df9-9682-28a4388af286> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Figari" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/19F214A4-A049-37DE-88B6-B381CFBF6D3D> .
+
+<http://www.sealit.gr/DB/ids/16197>
+        a                crm:E42_Identifier ;
+        rdfs:label       "16197" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<urn:uuid:aaf3cab7-dd9d-4b4c-a732-79ce57504ff3>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Caviglia" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1844> .
+
+<http://www.sealit.gr/DB/person/F96ADA42-B5AA-30A7-9F3C-1EA3260A6263>
+        a       crm:E21_Person .

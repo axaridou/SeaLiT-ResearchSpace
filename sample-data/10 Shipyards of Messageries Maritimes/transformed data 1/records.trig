@@ -1,0 +1,2293 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/date/1856-06-21>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1856-06-21" ;
+        crm:P82_at_some_time_within  "1856-06-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:f07a0725-dc46-4e4d-8fe9-39cd971d2b5b>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/registration%20number/83>
+        a           crm:E42_Identifier ;
+        rdfs:label  "83" .
+
+<urn:uuid:778a3a53-6353-4852-b274-0c0708171148>
+        a                     crm:E7_Activity ;
+        rdfs:label            "delivery of the libretto" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/document%20types/libretto%20delivery> ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1855-12-13> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<urn:uuid:755a0147-401f-4d6b-a39f-0612d47fabbc>
+        a                     crm:E7_Activity ;
+        rdfs:label            "delivery of the libretto" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/document%20types/libretto%20delivery> ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1857-07-22> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<http://www.sealit.gr/DB/employment/4E42FBAA-6B79-377B-9CAA-7621443F7F0B>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Gabes FABRE" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/4E42FBAA-6B79-377B-9CAA-7621443F7F0B> , <http://www.sealit.gr/DB/employment_carried_out/4E42FBAA-6B79-377B-9CAA-7621443F7F0B> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/76> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/79C9E243-586A-3423-91F4-DBC21C548C98> .
+
+<http://www.sealit.gr/DB/document%20identifier/192>
+        a           crm:E42_Identifier ;
+        rdfs:label  "192" .
+
+<http://www.sealit.gr/DB/birth/88ED2957-BB27-3054-8D4B-3F5B32FDB981>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Adolphe GREEN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1834> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/peitiers> .
+
+<http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2>
+        a                        crm:E73_Information_Object ;
+        rdfs:label               "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki" ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , <http://www.sealit.gr/DB/doc%20types/record%20information> ;
+        crm:P67_refers_to        <http://www.sealit.gr/DB/Document_of_Register/C02C60FA-4FC9-445A-9DBA-EC4215AFF5E0> ;
+        crm:P94i_was_created_by  <http://www.sealit.gr/DB/creation/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<http://www.sealit.gr/DB/location/peitiers>
+        a           crm:E53_Place ;
+        rdfs:label  "Peitiers" .
+
+<http://www.sealit.gr/DB/family_group/66F53FD0-5B8B-3612-B571-B6EF1C06C54F>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Jean FOREST" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/66F53FD0-5B8B-3612-B571-B6EF1C06C54F> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "2" .
+
+<http://www.sealit.gr/DB/date/1829>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1829" ;
+        crm:P82_at_some_time_within  "1829"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/carried_out_by/51A3A77E-B479-37E2-955B-D763547CEC39>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/registration%20number/95>
+        a           crm:E42_Identifier ;
+        rdfs:label  "95" .
+
+<http://www.sealit.gr/DB/carried_out_by/231EB6D5-E1F1-38C3-99D7-72EB15469D2E>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/person/463EE58A-BF10-365D-BFBE-2794F7D492C1>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Jean FOREST" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/66F53FD0-5B8B-3612-B571-B6EF1C06C54F> ;
+        crm:P70i_is_documented_in  <urn:uuid:27f4d8ab-7b56-4c7d-85f7-0735a8c8307b> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/66F53FD0-5B8B-3612-B571-B6EF1C06C54F> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/27D64923-86E3-3024-84A8-04D9CC13E1DD> ;
+        sealit:has_first_name      "Jean" ;
+        sealit:has_last_name       "FOREST" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/document%20identifier/102>
+        a           crm:E42_Identifier ;
+        rdfs:label  "102" .
+
+<http://www.sealit.gr/DB/discharge/51A3A77E-B479-37E2-955B-D763547CEC39>
+        a                         sealit:Discharge ;
+        rdfs:label                "Discharge of Marius BOISQ" ;
+        crm:P17_was_motivated_by  <http://www.sealit.gr/DB/reason%20types/d%C3%A9ced%C3%A9> .
+
+<http://www.sealit.gr/DB/date/1830>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1830" ;
+        crm:P82_at_some_time_within  "1830"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/document%20types/libretto%20delivery>
+        a           crm:E55_Type ;
+        rdfs:label  "delivery of libretto" .
+
+<http://www.sealit.gr/DB/carried_out_by/AAF3EF8A-7200-3263-9AAE-D21A834E80F5>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<urn:uuid:cd170e37-eab5-4fa0-abbd-ce176744867e>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/birth/24EC17FA-4A7E-32DC-B849-62FFE63CDC04>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Marius BOISQ" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1829> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<http://www.sealit.gr/DB/libretto%20document/115>
+        a                        crm:E31_Document ;
+        rdfs:label               "Libretto document 115" ;
+        crm:P16i_was_used_for    <urn:uuid:31577f0d-f785-41f9-a346-7f8dd3be9502> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/document%20identifier/115> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/document%20types/libretto> .
+
+<http://www.sealit.gr/DB/birth/C6000A5B-3F2E-3134-B075-3D8A13660536>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Hypolite BOIDIN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/0> .
+
+<http://www.sealit.gr/DB/family_group/FFDA6D12-A6C7-3EB4-9E28-2B3BDB88F163>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Auguste PAUL" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/discharge/AAF3EF8A-7200-3263-9AAE-D21A834E80F5>
+        a                         sealit:Discharge ;
+        rdfs:label                "Discharge of Joseph VACHER" ;
+        crm:P17_was_motivated_by  <http://www.sealit.gr/DB/reason%20types/d%C3%A9ced%C3%A9> .
+
+<http://www.sealit.gr/DB/location/monpellier>
+        a           crm:E53_Place ;
+        rdfs:label  "Monpellier" .
+
+<http://www.sealit.gr/DB/registration%20number/77>
+        a           crm:E42_Identifier ;
+        rdfs:label  "77" .
+
+<http://www.sealit.gr/DB/employment_period/79C9E243-586A-3423-91F4-DBC21C548C98>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Gabes FABRE" ;
+        crm:P82a_begin_of_the_begin  "1854-11-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1856-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/employment_carried_out/BD85C287-244B-3E1D-ADEA-9776E9D3F531>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/document%20identifier/114>
+        a           crm:E42_Identifier ;
+        rdfs:label  "114" .
+
+<http://www.sealit.gr/DB/employment/4C8C92DB-8680-3D8C-B528-06B82CCEBF57>
+        a                          sealit:Employment ;
+        rdfs:label                 "Employment of Jacques RAVAGNOL" ;
+        crm:P01i_is_domain_of      <http://www.sealit.gr/DB/carried_out_by/4C8C92DB-8680-3D8C-B528-06B82CCEBF57> , <http://www.sealit.gr/DB/employment_carried_out/4C8C92DB-8680-3D8C-B528-06B82CCEBF57> ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/registration%20number/79> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/employment_period/3ED2A837-0714-32DD-9872-F8E2553E90A7> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/libretto%20document/192> .
+
+<http://www.sealit.gr/DB/birth/88B77FE6-0EF1-322A-BC28-4F9AB9C9CCF5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Charles DESCHAMPS" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1830> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/dullux%20%28suisse%29> .
+
+<http://www.sealit.gr/DB/location/barcelone>
+        a           crm:E53_Place ;
+        rdfs:label  "Barcelone" .
+
+<http://www.sealit.gr/DB/family_group/86626A01-7C71-3585-8544-8969A79ACA99>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of François ASTIER" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/birth/599444F8-94B3-38D5-8536-A360A9A64C0C>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Louis BAUBUIN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1834> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/marchienne> .
+
+<http://www.sealit.gr/DB/family_group/CA6F1D93-7BE1-3CB5-97BB-DE63A6B0DE83>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Joseph VACHER" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/carried_out_by/3BB11686-5632-39D1-B033-5C1A20E43930>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/date/1812>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1812" ;
+        crm:P82_at_some_time_within  "1812"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/9990E648-CABB-38E3-B574-178B4CA44CCF>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Adolphe GREEN" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/88ED2957-BB27-3054-8D4B-3F5B32FDB981> ;
+        crm:P70i_is_documented_in  <urn:uuid:c4d2836c-9b2d-40de-876a-9770e506e6bb> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/88ED2957-BB27-3054-8D4B-3F5B32FDB981> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/8ACE155E-7D40-3BAE-A303-7E7BD031EDD0> ;
+        sealit:has_first_name      "Adolphe" ;
+        sealit:has_last_name       "GREEN" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/carried_out_by/34B95294-A9FD-3909-AA0C-BB5A730F8DD8>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/registration%20number/89>
+        a           crm:E42_Identifier ;
+        rdfs:label  "89" .
+
+<urn:uuid:d6bd1483-0da2-4098-8a40-bd014ed77fd2>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "performed" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/roles%20type/phd%20candidate> .
+
+<http://www.sealit.gr/DB/employment_carried_out/3B0588BD-04E0-3E31-80AB-EF776D00A602>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/family_membership/24EC17FA-4A7E-32DC-B849-62FFE63CDC04>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/1> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femme> .
+
+<http://www.sealit.gr/DB/employment_carried_out/5565E49E-8748-37B8-AE1B-6CC38055EA05>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/person/686C4F2C-1C92-3166-8DD5-919CFC58A456>
+        a                      crm:E21_Person ;
+        rdfs:label             "Popi Vasilaki" ;
+        crm:P02i_is_range_of   <urn:uuid:d6bd1483-0da2-4098-8a40-bd014ed77fd2> ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/organisation/forth/ims> ;
+        sealit:has_first_name  "Popi" ;
+        sealit:has_last_name   "Vasilaki" .
+
+<http://www.sealit.gr/DB/employment_carried_out/51A3A77E-B479-37E2-955B-D763547CEC39>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<urn:uuid:5393b22e-bd31-4684-b0e9-63fa041dc6ee>
+        a                     crm:E7_Activity ;
+        rdfs:label            "delivery of the libretto" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/document%20types/libretto%20delivery> ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1855-12-13> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<http://www.sealit.gr/DB/family_membership/C6000A5B-3F2E-3134-B075-3D8A13660536>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/1> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femme> .
+
+<http://www.sealit.gr/DB/doc%20types/source%20identity>
+        a           crm:E55_Type ;
+        rdfs:label  "source identity" .
+
+<http://www.sealit.gr/DB/employment/8ACE155E-7D40-3BAE-A303-7E7BD031EDD0>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Adolphe GREEN" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/8ACE155E-7D40-3BAE-A303-7E7BD031EDD0> , <http://www.sealit.gr/DB/employment_carried_out/8ACE155E-7D40-3BAE-A303-7E7BD031EDD0> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/94> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/C9D77395-92E6-3CD2-93E3-BBB996A6E660> .
+
+<http://www.sealit.gr/DB/date/1824>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1824" ;
+        crm:P82_at_some_time_within  "1824"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/registration%20number/90>
+        a           crm:E42_Identifier ;
+        rdfs:label  "90" .
+
+<http://www.sealit.gr/DB/person/5EE25F6E-F396-3740-8FE5-90F6468DD975>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Claude PETIT" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/6856CB74-EC7C-3014-880C-131ADC074BF4> ;
+        crm:P70i_is_documented_in  <urn:uuid:724fe49f-62ae-4810-a1d7-313b6d4003af> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/6856CB74-EC7C-3014-880C-131ADC074BF4> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/3B0588BD-04E0-3E31-80AB-EF776D00A602> ;
+        sealit:has_first_name      "Claude" ;
+        sealit:has_last_name       "PETIT" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/libretto%20document/109>
+        a                        crm:E31_Document ;
+        rdfs:label               "Libretto document 109" ;
+        crm:P16i_was_used_for    <urn:uuid:1b69c979-d27d-45d4-a06d-a18a23bb2fba> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/document%20identifier/109> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/document%20types/libretto> .
+
+<http://www.sealit.gr/DB/employment_carried_out/AAF3EF8A-7200-3263-9AAE-D21A834E80F5>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/employment_period/87C67445-D1E3-3BD8-B3AA-BC76E8C980EE>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Jean CASTAGNE" ;
+        crm:P82a_begin_of_the_begin  "1854-05-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1855-12-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/DAE3380E-A37E-32D6-8DD5-D1A0D5603E1C>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Manuel CARBONNEL" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/7D9A3C28-CAD7-362F-AB01-8C7DC3EC5B1D> ;
+        crm:P70i_is_documented_in  <urn:uuid:fcd2244e-2d8a-4a99-a82c-238a8233dc16> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/7D9A3C28-CAD7-362F-AB01-8C7DC3EC5B1D> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/231EB6D5-E1F1-38C3-99D7-72EB15469D2E> ;
+        sealit:has_first_name      "Manuel" ;
+        sealit:has_last_name       "CARBONNEL" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/location/venice>
+        a           crm:E53_Place ;
+        rdfs:label  "Venice" .
+
+<http://www.sealit.gr/DB/employment_period/8EA835FA-192C-31EC-85E0-3ED847C3D6F4>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Joseph VACHER" ;
+        crm:P82a_begin_of_the_begin  "1853-06-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1868-08-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/death/2F478371-C87F-34B7-9D33-36EEF7B1C05D>
+        a                     crm:E69_Death ;
+        rdfs:label            "Death of Marius PEZET" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1887-09-13> .
+
+<http://www.sealit.gr/DB/family_group/7D9A3C28-CAD7-362F-AB01-8C7DC3EC5B1D>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Manuel CARBONNEL" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/employment_period/16D5956F-5388-3D17-9417-56BE392F5468>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Joachim CARBONNEL" ;
+        crm:P82a_begin_of_the_begin  "1855-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1855-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/employment_carried_out/CC7EECF9-2070-39E2-BB66-8E59F89DF648>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/border> .
+
+<http://www.sealit.gr/DB/death/24EC17FA-4A7E-32DC-B849-62FFE63CDC04>
+        a                     crm:E69_Death ;
+        rdfs:label            "Death of Marius BOISQ" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1878-08-10> .
+
+<http://www.sealit.gr/DB/employment_period/A05B5FC9-3B88-3405-B8F9-C94B5D7E6B99>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Eugène CAPONY" ;
+        crm:P82a_begin_of_the_begin  "1851-05-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1857-10-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:df08a711-323a-4325-a331-579ec5dad500>
+        a                     crm:E33_Linguistic_Object ;
+        crm:P72_has_language  <http://www.sealit.gr/DB/language/french> .
+
+<urn:uuid:7d4adedc-9a3c-475e-869d-0518469b605b>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3>
+        a                     crm:E21_Person ;
+        rdfs:label            "Aubert" ;
+        sealit:has_last_name  "Aubert" .
+
+<http://www.sealit.gr/DB/date/1806>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1806" ;
+        crm:P82_at_some_time_within  "1806"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:13ad6073-be2d-45fc-b293-8d7a73c3a7c6>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/family%20membership%20quantity/1>
+        a                  crm:E54_Dimension ;
+        rdfs:label         "1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/types/quantity> ;
+        crm:P90_has_value  "1" .
+
+<http://www.sealit.gr/DB/employment_carried_out/34B95294-A9FD-3909-AA0C-BB5A730F8DD8>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/birth/E46737DF-2F4C-3998-B1FF-72B5384A480A>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gabes FABRE" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1833> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/marseile> .
+
+<http://www.sealit.gr/DB/person/C8A996F6-CB38-3C24-AA79-2FDE5A537B33>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Marius PEZET" ;
+        crm:P100i_died_in          <http://www.sealit.gr/DB/death/2F478371-C87F-34B7-9D33-36EEF7B1C05D> ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/2F478371-C87F-34B7-9D33-36EEF7B1C05D> ;
+        crm:P70i_is_documented_in  <urn:uuid:2f79e192-e8d7-44db-bf64-c20743653689> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/2F478371-C87F-34B7-9D33-36EEF7B1C05D> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/0402BCC8-051A-3C17-903B-62688FFA7BF8> ;
+        sealit:has_first_name      "Marius" ;
+        sealit:has_last_name       "PEZET" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/birth/C9F60D19-CBBF-3655-81D0-B58EC0D7469B>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Jérôme LAVIE" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1814> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/border> .
+
+<http://www.sealit.gr/DB/family_group/ACCE64EC-BC61-3A75-A1BA-E60ACAEF99C2>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Joachim CARBONNEL" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/birth/D4FD6B46-DAD5-38AA-8870-A60D5BF45972>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Louis BOUIS" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1825> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/toulon> .
+
+<http://www.sealit.gr/DB/family_group/2F478371-C87F-34B7-9D33-36EEF7B1C05D>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Marius PEZET" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/2F478371-C87F-34B7-9D33-36EEF7B1C05D> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "3" .
+
+<http://www.sealit.gr/DB/profession%20type/ajusteur>
+        a                sealit:Profession ;
+        rdfs:label       "ajusteur" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/profession%20status/worker> .
+
+<http://www.sealit.gr/DB/registration%20number/84>
+        a           crm:E42_Identifier ;
+        rdfs:label  "84" .
+
+<http://www.sealit.gr/DB/types/quantity>
+        a           crm:E55_Type ;
+        rdfs:label  "quantity" .
+
+<http://www.sealit.gr/DB/doc%20types/record%20information>
+        a           crm:E55_Type ;
+        rdfs:label  "record information" .
+
+<http://www.sealit.gr/DB/employment_period/3ED2A837-0714-32DD-9872-F8E2553E90A7>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Jacques RAVAGNOL" ;
+        crm:P82a_begin_of_the_begin  "1853-08-03"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "186103-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/family_group/D694876D-BADC-36CA-8E3F-5C21CC91DFA1>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Geoffroy BRUNO" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/employment_carried_out/97756392-80A1-37E8-BCE7-6EE56CC5318E>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/family%20types/femme>
+        a           crm:E55_Type ;
+        rdfs:label  "Femme" .
+
+<http://www.sealit.gr/DB/employment/CD83580D-D564-343E-A227-B020616E2486>
+        a                          sealit:Employment ;
+        rdfs:label                 "Employment of Joseph BONIFAY" ;
+        crm:P01i_is_domain_of      <http://www.sealit.gr/DB/carried_out_by/CD83580D-D564-343E-A227-B020616E2486> , <http://www.sealit.gr/DB/employment_carried_out/CD83580D-D564-343E-A227-B020616E2486> ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/registration%20number/93> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/employment_period/1CB6353B-0021-3595-B9B6-4E7A9230DE2A> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/libretto%20document/1628> .
+
+<http://www.sealit.gr/DB/employment/3B0588BD-04E0-3E31-80AB-EF776D00A602>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Claude PETIT" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/3B0588BD-04E0-3E31-80AB-EF776D00A602> , <http://www.sealit.gr/DB/employment_carried_out/3B0588BD-04E0-3E31-80AB-EF776D00A602> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/77> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/659D4907-4609-32AD-A404-E7628923433B> .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/6852865E-8EB4-3C00-9BD0-F57689EDB47B>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/birth/C4CEF959-A054-3B9D-AB80-049249A8B4EE>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Fritz BIRBAUM" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1816> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/couvet%20%28suisse%29> .
+
+<http://www.sealit.gr/DB/employment/5565E49E-8748-37B8-AE1B-6CC38055EA05>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Charles DESCHAMPS" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/5565E49E-8748-37B8-AE1B-6CC38055EA05> , <http://www.sealit.gr/DB/employment_carried_out/5565E49E-8748-37B8-AE1B-6CC38055EA05> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/89> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/29F308A5-D6CA-339B-872A-E5A8F9BF3D74> .
+
+<http://www.sealit.gr/DB/carried_out_by/D15D073D-1A52-3A71-91A5-DC53D36AA26B>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/person/577048DD-3A48-318D-8591-44A8FDFC63C4>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Louis BAUBUIN" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/599444F8-94B3-38D5-8536-A360A9A64C0C> ;
+        crm:P70i_is_documented_in  <urn:uuid:13ad6073-be2d-45fc-b293-8d7a73c3a7c6> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/599444F8-94B3-38D5-8536-A360A9A64C0C> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/8676468E-1AE6-3602-986E-6038AF78D099> ;
+        sealit:has_first_name      "Louis" ;
+        sealit:has_last_name       "BAUBUIN" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/person/59985D27-2933-314B-941B-61915CE10E7E>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Charles DESCHAMPS" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/88B77FE6-0EF1-322A-BC28-4F9AB9C9CCF5> ;
+        crm:P70i_is_documented_in  <urn:uuid:1f23565e-4f67-487f-b446-42e3fc4957f2> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/88B77FE6-0EF1-322A-BC28-4F9AB9C9CCF5> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/5565E49E-8748-37B8-AE1B-6CC38055EA05> ;
+        sealit:has_first_name      "Charles" ;
+        sealit:has_last_name       "DESCHAMPS" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/registration%20number/96>
+        a           crm:E42_Identifier ;
+        rdfs:label  "96" .
+
+<http://www.sealit.gr/DB/carried_out_by/6A05BDDC-4687-32D8-9BAD-C856731CC899>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/family_membership/C9F60D19-CBBF-3655-81D0-B58EC0D7469B>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/12> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femmeenfants> .
+
+<http://www.sealit.gr/DB/registration%20number/100>
+        a           crm:E42_Identifier ;
+        rdfs:label  "100" .
+
+<http://www.sealit.gr/DB/carried_out_by/27D64923-86E3-3024-84A8-04D9CC13E1DD>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/family_membership/D4FD6B46-DAD5-38AA-8870-A60D5BF45972>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/1> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femme> .
+
+<http://www.sealit.gr/DB/date/1831>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1831" ;
+        crm:P82_at_some_time_within  "1831"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/location/beausser>
+        a           crm:E53_Place ;
+        rdfs:label  "Beausser" .
+
+<http://www.sealit.gr/DB/person/D6B15459-7543-3FCF-9238-68E1314CCE4E>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Joseph VACHER" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/CA6F1D93-7BE1-3CB5-97BB-DE63A6B0DE83> ;
+        crm:P70i_is_documented_in  <urn:uuid:a1536007-f985-4be9-98d3-244475c45508> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/CA6F1D93-7BE1-3CB5-97BB-DE63A6B0DE83> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/AAF3EF8A-7200-3263-9AAE-D21A834E80F5> ;
+        sealit:has_first_name      "Joseph" ;
+        sealit:has_last_name       "VACHER" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/employment/CC7EECF9-2070-39E2-BB66-8E59F89DF648>
+        a                          sealit:Employment ;
+        rdfs:label                 "Employment of Jérôme LAVIE" ;
+        crm:P01i_is_domain_of      <http://www.sealit.gr/DB/carried_out_by/CC7EECF9-2070-39E2-BB66-8E59F89DF648> , <http://www.sealit.gr/DB/employment_carried_out/CC7EECF9-2070-39E2-BB66-8E59F89DF648> ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/registration%20number/91> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/employment_period/69FDD8E4-22F9-35E6-B85E-0E57CD0E3AD8> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/libretto%20document/115> .
+
+<http://www.sealit.gr/DB/family_group/B1F90E2D-666B-30BF-AB37-AF30D8E4142B>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Joseph Pierre GIVAUDAN" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/employment_period/FBC4A9CB-37DB-3F06-B16B-01FD8EABC2C8>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Marius PEZET" ;
+        crm:P82a_begin_of_the_begin  "1881-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1887-09-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/registration%20number/78>
+        a           crm:E42_Identifier ;
+        rdfs:label  "78" .
+
+<http://www.sealit.gr/DB/document%20identifier/115>
+        a           crm:E42_Identifier ;
+        rdfs:label  "115" .
+
+<http://www.sealit.gr/DB/employment/4B180417-6275-37D6-8CA3-2703517CAF8E>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Auguste PAUL" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/4B180417-6275-37D6-8CA3-2703517CAF8E> , <http://www.sealit.gr/DB/employment_carried_out/4B180417-6275-37D6-8CA3-2703517CAF8E> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/98> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/3D058AA8-70E3-3631-BA69-F79FB86F547F> .
+
+<http://www.sealit.gr/DB/family_membership/C4CEF959-A054-3B9D-AB80-049249A8B4EE>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/1> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femme> .
+
+<urn:uuid:a1536007-f985-4be9-98d3-244475c45508>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/employment/8676468E-1AE6-3602-986E-6038AF78D099>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Louis BAUBUIN" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/8676468E-1AE6-3602-986E-6038AF78D099> , <http://www.sealit.gr/DB/employment_carried_out/8676468E-1AE6-3602-986E-6038AF78D099> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/83> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/317BAC6E-7CF3-3E97-A22A-5A442EA8D50E> .
+
+<http://www.sealit.gr/DB/date/1813>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1813" ;
+        crm:P82_at_some_time_within  "1813"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/family%20membership%20quantity/11>
+        a                  crm:E54_Dimension ;
+        rdfs:label         "11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/types/quantity> ;
+        crm:P90_has_value  "11" .
+
+<http://www.sealit.gr/DB/family_group/20E780F3-4D0A-3C00-AA67-A18C61F3FE20>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Joseph BONIFAY" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/20E780F3-4D0A-3C00-AA67-A18C61F3FE20> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "2" .
+
+<urn:uuid:d54bcd67-f6f9-477c-9da4-6e41d02a8d07>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/person/EBE59B3D-B352-31DA-8E97-BF529B32C8DE>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Joachim CARBONNEL" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/ACCE64EC-BC61-3A75-A1BA-E60ACAEF99C2> ;
+        crm:P70i_is_documented_in  <urn:uuid:f07a0725-dc46-4e4d-8fe9-39cd971d2b5b> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/ACCE64EC-BC61-3A75-A1BA-E60ACAEF99C2> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/6A05BDDC-4687-32D8-9BAD-C856731CC899> ;
+        sealit:has_first_name      "Joachim" ;
+        sealit:has_last_name       "CARBONNEL" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/employment_carried_out/D15D073D-1A52-3A71-91A5-DC53D36AA26B>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/location/basses%20alpes>
+        a           crm:E53_Place ;
+        rdfs:label  "Basses Alpes" .
+
+<http://www.sealit.gr/DB/birth/65F1CA58-838C-3DEC-A626-D6D55944A205>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Eugène CAPONY" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1821> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/toulon> .
+
+<http://www.sealit.gr/DB/employment_carried_out/6A05BDDC-4687-32D8-9BAD-C856731CC899>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<urn:uuid:528e801e-b98b-41a7-8b48-0afeb2b1d73f>
+        a                     crm:E7_Activity ;
+        rdfs:label            "delivery of the libretto" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/document%20types/libretto%20delivery> ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1855-12-13> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<http://www.sealit.gr/DB/location/beaufert>
+        a           crm:E53_Place ;
+        rdfs:label  "Beaufert" .
+
+<http://www.sealit.gr/DB/concepts/page>
+        a           crm:E55_Type ;
+        rdfs:label  "Page" .
+
+<http://www.sealit.gr/DB/employment/97756392-80A1-37E8-BCE7-6EE56CC5318E>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Jean CASTAGNE" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/97756392-80A1-37E8-BCE7-6EE56CC5318E> , <http://www.sealit.gr/DB/employment_carried_out/97756392-80A1-37E8-BCE7-6EE56CC5318E> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/92> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/87C67445-D1E3-3BD8-B3AA-BC76E8C980EE> .
+
+<http://www.sealit.gr/DB/date/1825>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1825" ;
+        crm:P82_at_some_time_within  "1825"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/registration%20number/91>
+        a           crm:E42_Identifier ;
+        rdfs:label  "91" .
+
+<http://www.sealit.gr/DB/carried_out_by/E7A9B8EF-F30D-3119-A4E5-60186351B39C>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/service%20types/company>
+        a           crm:E55_Type ;
+        rdfs:label  "service in company" .
+
+<urn:uuid:4483f6b5-9628-4889-9881-8b173241a04a>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 5" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/employment_carried_out/27D64923-86E3-3024-84A8-04D9CC13E1DD>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/birth/6856CB74-EC7C-3014-880C-131ADC074BF4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Claude PETIT" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1815> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/vernon%20sur%20marne> .
+
+<urn:uuid:d5b53fd7-236b-46c8-a1b3-f46dc1007091>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/employment/9B39D9E7-8C35-3B65-AA3A-236AB5DE8D9D>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Louis BOUIS" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/employment_carried_out/9B39D9E7-8C35-3B65-AA3A-236AB5DE8D9D> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/86> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/853A6D98-14BB-39F1-B395-0A2A55C97A85> ;
+        sealit:ended_by          <http://www.sealit.gr/DB/discharge/9B39D9E7-8C35-3B65-AA3A-236AB5DE8D9D> .
+
+<http://www.sealit.gr/DB/document%20identifier/109>
+        a           crm:E42_Identifier ;
+        rdfs:label  "109" .
+
+<http://www.sealit.gr/DB/libretto%20document/111>
+        a                        crm:E31_Document ;
+        rdfs:label               "Libretto document 111" ;
+        crm:P16i_was_used_for    <urn:uuid:8b900f89-c011-4e97-8187-5cb6eb9ebe64> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/document%20identifier/111> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/document%20types/libretto> .
+
+<http://www.sealit.gr/DB/person/0CA59432-19C7-3CC1-9A2E-E707A4E50E92>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Eugène CAPONY" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/65F1CA58-838C-3DEC-A626-D6D55944A205> ;
+        crm:P70i_is_documented_in  <urn:uuid:1a21cfe1-4103-48c1-97d9-51fb05807159> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/65F1CA58-838C-3DEC-A626-D6D55944A205> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/34B95294-A9FD-3909-AA0C-BB5A730F8DD8> ;
+        sealit:has_first_name      "Eugène" ;
+        sealit:has_last_name       "CAPONY" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/document%20types/libretto>
+        a           crm:E55_Type ;
+        rdfs:label  "libretto" .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/A15D1B1C-A9E3-37BF-82BE-1AF275017E63>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/location/bordeaux>
+        a           crm:E53_Place ;
+        rdfs:label  "Bordeaux" .
+
+<urn:uuid:b6e6f8a0-c0bd-477f-8c91-fda1fea548e4>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/person/B46E25F3-43BD-310E-9AC5-F9D788FC9C85>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Marius BOISQ" ;
+        crm:P100i_died_in          <http://www.sealit.gr/DB/death/24EC17FA-4A7E-32DC-B849-62FFE63CDC04> ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/24EC17FA-4A7E-32DC-B849-62FFE63CDC04> ;
+        crm:P70i_is_documented_in  <urn:uuid:03bf9962-5fb4-4571-b051-e570bfd3a245> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/24EC17FA-4A7E-32DC-B849-62FFE63CDC04> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/51A3A77E-B479-37E2-955B-D763547CEC39> ;
+        sealit:has_first_name      "Marius" ;
+        sealit:has_last_name       "BOISQ" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/employment_period/C9D77395-92E6-3CD2-93E3-BBB996A6E660>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Adolphe GREEN" ;
+        crm:P82a_begin_of_the_begin  "1854-05-09"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1854-02-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/registration%20number/73>
+        a           crm:E42_Identifier ;
+        rdfs:label  "73" .
+
+<http://www.sealit.gr/DB/family_group/C4CEF959-A054-3B9D-AB80-049249A8B4EE>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Fritz BIRBAUM" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/C4CEF959-A054-3B9D-AB80-049249A8B4EE> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "2" .
+
+<urn:uuid:e355d569-d8ad-489b-9ffc-2b5268ba21e2>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 5" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/carried_out_by/0CB5A867-C85F-379D-BF1A-6F4AB5F7DAB5>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/employment_period/1CB6353B-0021-3595-B9B6-4E7A9230DE2A>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Joseph BONIFAY" ;
+        crm:P82a_begin_of_the_begin  "1853-08-09"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1889-07-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:fcd2244e-2d8a-4a99-a82c-238a8233dc16>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 5" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/family_membership/6856CB74-EC7C-3014-880C-131ADC074BF4>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/11> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femmeenfants> .
+
+<http://www.sealit.gr/DB/employment_carried_out/231EB6D5-E1F1-38C3-99D7-72EB15469D2E>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/carried_out_by/18F45650-55E0-3E97-B289-3A6FE4C1F4C2>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/date/1819>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1819" ;
+        crm:P82_at_some_time_within  "1819"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/2AE20A8A-8A84-3D68-AB21-970D66D0A44B>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Jacques RAVAGNOL" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/0E494223-F20F-3A9D-A2AC-5719FE531615> ;
+        crm:P70i_is_documented_in  <urn:uuid:76780315-64dc-4f98-98cf-4dcb20187382> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/0E494223-F20F-3A9D-A2AC-5719FE531615> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/4C8C92DB-8680-3D8C-B528-06B82CCEBF57> ;
+        sealit:has_first_name      "Jacques" ;
+        sealit:has_last_name       "RAVAGNOL" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/registration%20number/85>
+        a           crm:E42_Identifier ;
+        rdfs:label  "85" .
+
+<http://www.sealit.gr/DB/person/256D6E58-E106-3D29-8926-E27DC5013F68>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Gabes FABRE" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/E46737DF-2F4C-3998-B1FF-72B5384A480A> ;
+        crm:P70i_is_documented_in  <urn:uuid:e7351695-e268-4685-9e3a-0b1bb23aa260> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/E46737DF-2F4C-3998-B1FF-72B5384A480A> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/4E42FBAA-6B79-377B-9CAA-7621443F7F0B> ;
+        sealit:has_first_name      "Gabes" ;
+        sealit:has_last_name       "FABRE" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/employment_carried_out/E7A9B8EF-F30D-3119-A4E5-60186351B39C>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/date/1820>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1820" ;
+        crm:P82_at_some_time_within  "1820"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/5C5DAFA4-4A80-390C-9A96-87BD46EF14B3>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/employment_period/69FDD8E4-22F9-35E6-B85E-0E57CD0E3AD8>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Jérôme LAVIE" ;
+        crm:P82a_begin_of_the_begin  "1853-01-04"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1870-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/death/C6000A5B-3F2E-3134-B075-3D8A13660536>
+        a                     crm:E69_Death ;
+        rdfs:label            "Death of Hypolite BOIDIN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1868-08-21> .
+
+<http://www.sealit.gr/DB/libretto%20document/105>
+        a                        crm:E31_Document ;
+        rdfs:label               "Libretto document 105" ;
+        crm:P16i_was_used_for    <urn:uuid:5393b22e-bd31-4684-b0e9-63fa041dc6ee> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/document%20identifier/105> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/document%20types/libretto> .
+
+<http://www.sealit.gr/DB/birth/9E776D04-381C-3C34-BAD7-1A3F424D447D>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Jacques RAMIEN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1819> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/cognac> .
+
+<http://www.sealit.gr/DB/family_group/88ED2957-BB27-3054-8D4B-3F5B32FDB981>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Adolphe GREEN" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/person/0D6AC15C-0DC5-3EA5-9DD6-5F076151A28C>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Geoffroy BRUNO" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/D694876D-BADC-36CA-8E3F-5C21CC91DFA1> ;
+        crm:P70i_is_documented_in  <urn:uuid:cd170e37-eab5-4fa0-abbd-ce176744867e> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/D694876D-BADC-36CA-8E3F-5C21CC91DFA1> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/3B326B89-86CF-3595-B434-C0CF23E8B982> ;
+        sealit:has_first_name      "Geoffroy" ;
+        sealit:has_last_name       "BRUNO" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/employment_carried_out/3BB11686-5632-39D1-B033-5C1A20E43930>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/person/FEB77F31-11B9-3FA0-ACDD-AFFB688A7DF2>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Jean CASTAGNE" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/BEE73D95-B5E2-3D09-B97B-282914137A19> ;
+        crm:P70i_is_documented_in  <urn:uuid:d5b53fd7-236b-46c8-a1b3-f46dc1007091> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/BEE73D95-B5E2-3D09-B97B-282914137A19> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/97756392-80A1-37E8-BCE7-6EE56CC5318E> ;
+        sealit:has_first_name      "Jean" ;
+        sealit:has_last_name       "CASTAGNE" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/date/1878-08-10>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1878-08-10" ;
+        crm:P82_at_some_time_within  "1878-08-10" .
+
+<http://www.sealit.gr/DB/person/855BF6B8-A7E1-3025-8F2F-55F805AD9294>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Jérôme LAVIE" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/C9F60D19-CBBF-3655-81D0-B58EC0D7469B> ;
+        crm:P70i_is_documented_in  <urn:uuid:5eaef46a-6129-4393-95ae-96daae073aa7> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/C9F60D19-CBBF-3655-81D0-B58EC0D7469B> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/CC7EECF9-2070-39E2-BB66-8E59F89DF648> ;
+        sealit:has_first_name      "Jérôme" ;
+        sealit:has_last_name       "LAVIE" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/employment/BD85C287-244B-3E1D-ADEA-9776E9D3F531>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Hypolite BOIDIN" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/BD85C287-244B-3E1D-ADEA-9776E9D3F531> , <http://www.sealit.gr/DB/employment_carried_out/BD85C287-244B-3E1D-ADEA-9776E9D3F531> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/80> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/144D1675-6EBB-34A3-B3B6-621ADC73A428> .
+
+<http://www.sealit.gr/DB/carried_out_by/3B326B89-86CF-3595-B434-C0CF23E8B982>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/person/02BB891E-CA7A-3A86-A874-9467B59C7694>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Jacques RAMIEN" ;
+        crm:P70i_is_documented_in  <urn:uuid:c47e3135-d76a-4be2-a269-3c3b2306b038> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/9E776D04-381C-3C34-BAD7-1A3F424D447D> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/0CB5A867-C85F-379D-BF1A-6F4AB5F7DAB5> ;
+        sealit:has_first_name      "Jacques" ;
+        sealit:has_last_name       "RAMIEN" .
+
+<http://www.sealit.gr/DB/birth/BEE73D95-B5E2-3D09-B97B-282914137A19>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Jean CASTAGNE" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1812> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/biot> .
+
+<http://www.sealit.gr/DB/family_group/24EC17FA-4A7E-32DC-B849-62FFE63CDC04>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Marius BOISQ" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/24EC17FA-4A7E-32DC-B849-62FFE63CDC04> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "2" .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/B9494EE8-86FA-38D9-BAF6-1D62E59931F3>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/reason%20types/d%C3%A9ced%C3%A9>
+        a           crm:E1_CRM_Entity ;
+        rdfs:label  "Décedé" .
+
+<http://www.sealit.gr/DB/registration%20number/79>
+        a           crm:E42_Identifier ;
+        rdfs:label  "79" .
+
+<http://www.sealit.gr/DB/family_group/C6000A5B-3F2E-3134-B075-3D8A13660536>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Hypolite BOIDIN" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/C6000A5B-3F2E-3134-B075-3D8A13660536> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "2" .
+
+<urn:uuid:e7351695-e268-4685-9e3a-0b1bb23aa260>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/10600B61-1C7E-34A5-A212-088BEC049B3F>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/date/1814>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1814" ;
+        crm:P82_at_some_time_within  "1814"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/birth/2107E5D0-B20A-39A0-8DF3-C0FE52A74B13>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Antoine GUILLON" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1797> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/bordeaux> .
+
+<http://www.sealit.gr/DB/registration%20number/80>
+        a           crm:E42_Identifier ;
+        rdfs:label  "80" .
+
+<http://www.sealit.gr/DB/family%20membership%20quantity/12>
+        a                  crm:E54_Dimension ;
+        rdfs:label         "12" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/types/quantity> ;
+        crm:P90_has_value  "12" .
+
+<http://www.sealit.gr/DB/employment_period/853A6D98-14BB-39F1-B395-0A2A55C97A85>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Louis BOUIS" ;
+        crm:P82a_begin_of_the_begin  "1854-03-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1856-06-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/family_group/599444F8-94B3-38D5-8536-A360A9A64C0C>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Louis BAUBUIN" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/family_group/88B77FE6-0EF1-322A-BC28-4F9AB9C9CCF5>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Charles DESCHAMPS" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/employment/51A3A77E-B479-37E2-955B-D763547CEC39>
+        a                          sealit:Employment ;
+        rdfs:label                 "Employment of Marius BOISQ" ;
+        crm:P01i_is_domain_of      <http://www.sealit.gr/DB/carried_out_by/51A3A77E-B479-37E2-955B-D763547CEC39> , <http://www.sealit.gr/DB/employment_carried_out/51A3A77E-B479-37E2-955B-D763547CEC39> ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/registration%20number/99> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/employment_period/A2A40F04-F506-3F5B-BED2-AAA491CDFC9C> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/libretto%20document/109> ;
+        sealit:ended_by            <http://www.sealit.gr/DB/discharge/51A3A77E-B479-37E2-955B-D763547CEC39> .
+
+<http://www.sealit.gr/DB/birth/0E494223-F20F-3A9D-A2AC-5719FE531615>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Jacques RAVAGNOL" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1813> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/venice> .
+
+<http://www.sealit.gr/DB/employment/231EB6D5-E1F1-38C3-99D7-72EB15469D2E>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Manuel CARBONNEL" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/231EB6D5-E1F1-38C3-99D7-72EB15469D2E> , <http://www.sealit.gr/DB/employment_carried_out/231EB6D5-E1F1-38C3-99D7-72EB15469D2E> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/100> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/BA9D2B7B-03D4-3483-9E78-DEED2E8F8CA8> .
+
+<http://www.sealit.gr/DB/location/tregnon>
+        a           crm:E53_Place ;
+        rdfs:label  "Tregnon" .
+
+<http://www.sealit.gr/DB/person/F6097946-6DAB-305E-947F-EB933EDF4CA5>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Jean VOISIN" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/2DBB3AC0-7F7E-3366-BBE1-2D06F18D7B37> ;
+        crm:P70i_is_documented_in  <urn:uuid:c7d8efcf-e256-4a4c-9624-aaa407851743> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/2DBB3AC0-7F7E-3366-BBE1-2D06F18D7B37> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/9D01E194-20DF-31F5-AB23-4EC1261DED38> ;
+        sealit:has_first_name      "Jean" ;
+        sealit:has_last_name       "VOISIN" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/carried_out_by/7D2A40B3-335A-36A5-AAD2-4EE809BA6E22>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/employment/AAF3EF8A-7200-3263-9AAE-D21A834E80F5>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Joseph VACHER" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/AAF3EF8A-7200-3263-9AAE-D21A834E80F5> , <http://www.sealit.gr/DB/employment_carried_out/AAF3EF8A-7200-3263-9AAE-D21A834E80F5> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/81> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/8EA835FA-192C-31EC-85E0-3ED847C3D6F4> ;
+        sealit:ended_by          <http://www.sealit.gr/DB/discharge/AAF3EF8A-7200-3263-9AAE-D21A834E80F5> .
+
+<http://www.sealit.gr/DB/person/391A3378-6E32-355E-9538-885CB9E4BE59>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Fritz BIRBAUM" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/C4CEF959-A054-3B9D-AB80-049249A8B4EE> ;
+        crm:P70i_is_documented_in  <urn:uuid:7d4adedc-9a3c-475e-869d-0518469b605b> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/C4CEF959-A054-3B9D-AB80-049249A8B4EE> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/18F45650-55E0-3E97-B289-3A6FE4C1F4C2> ;
+        sealit:has_first_name      "Fritz" ;
+        sealit:has_last_name       "BIRBAUM" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/23CF6D7E-9E82-32BF-BDB1-3DAD04D29992>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/registration%20number/92>
+        a           crm:E42_Identifier ;
+        rdfs:label  "92" .
+
+<http://www.sealit.gr/DB/date/1887-09-13>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1887-09-13" ;
+        crm:P82_at_some_time_within  "1887-09-13" .
+
+<http://www.sealit.gr/DB/employment_period/144D1675-6EBB-34A3-B3B6-621ADC73A428>
+        a                        crm:E52_Time-Span ;
+        rdfs:label               "Employment period of Hypolite BOIDIN" ;
+        crm:P82b_end_of_the_end  "1855-09-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/employment_period/A2A40F04-F506-3F5B-BED2-AAA491CDFC9C>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Marius BOISQ" ;
+        crm:P82a_begin_of_the_begin  "1851-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1878-08-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/65116176-70D9-3DD6-923A-E1BC1372CD41>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Auguste PAUL" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/FFDA6D12-A6C7-3EB4-9E28-2B3BDB88F163> ;
+        crm:P70i_is_documented_in  <urn:uuid:4483f6b5-9628-4889-9881-8b173241a04a> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/FFDA6D12-A6C7-3EB4-9E28-2B3BDB88F163> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/4B180417-6275-37D6-8CA3-2703517CAF8E> ;
+        sealit:has_first_name      "Auguste" ;
+        sealit:has_last_name       "PAUL" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/family_membership/2107E5D0-B20A-39A0-8DF3-C0FE52A74B13>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/14> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femmeenfants> .
+
+<http://www.sealit.gr/DB/birth/1130C8C3-8254-37F3-9C1F-4EB2F7905A4E>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Jacques RUISSY" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1820> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/basses%20alpes> .
+
+<http://www.sealit.gr/DB/employment_period/659D4907-4609-32AD-A404-E7628923433B>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Claude PETIT" ;
+        crm:P82a_begin_of_the_begin  "1855-04-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1856-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/family_membership/0E494223-F20F-3A9D-A2AC-5719FE531615>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/11> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femmeenfants> .
+
+<http://www.sealit.gr/DB/employment/3BB11686-5632-39D1-B033-5C1A20E43930>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of François ASTIER" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/3BB11686-5632-39D1-B033-5C1A20E43930> , <http://www.sealit.gr/DB/employment_carried_out/3BB11686-5632-39D1-B033-5C1A20E43930> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/85> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/37924D3C-A8EB-372B-A5EF-FAB51F21580F> .
+
+<http://www.sealit.gr/DB/profession%20status/worker>
+        a                crm:E55_Type ;
+        rdfs:label       "worker" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/profession%20status> .
+
+<http://www.sealit.gr/DB/location/border>
+        a           crm:E53_Place ;
+        rdfs:label  "Border" .
+
+<http://www.sealit.gr/DB/employment/34B95294-A9FD-3909-AA0C-BB5A730F8DD8>
+        a                          sealit:Employment ;
+        rdfs:label                 "Employment of Eugène CAPONY" ;
+        crm:P01i_is_domain_of      <http://www.sealit.gr/DB/carried_out_by/34B95294-A9FD-3909-AA0C-BB5A730F8DD8> , <http://www.sealit.gr/DB/employment_carried_out/34B95294-A9FD-3909-AA0C-BB5A730F8DD8> ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/registration%20number/73> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/employment_period/A05B5FC9-3B88-3405-B8F9-C94B5D7E6B99> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/libretto%20document/101> .
+
+<http://www.sealit.gr/DB/employment_period/74959A19-C352-3D77-8D61-49260E68178E>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Jean VOISIN" ;
+        crm:P82a_begin_of_the_begin  "1851-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1867-04-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:1a21cfe1-4103-48c1-97d9-51fb05807159>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/status%20types/marital%20status>
+        a           crm:E55_Type ;
+        rdfs:label  "marital status" .
+
+<http://www.sealit.gr/DB/registration%20number/74>
+        a           crm:E42_Identifier ;
+        rdfs:label  "74" .
+
+<http://www.sealit.gr/DB/types/profession%20status>
+        a           crm:E55_Type ;
+        rdfs:label  "profession status" .
+
+<http://www.sealit.gr/DB/location/couvet%20%28suisse%29>
+        a           crm:E53_Place ;
+        rdfs:label  "Couvet (Suisse)" .
+
+<http://www.sealit.gr/DB/document%20identifier/111>
+        a           crm:E42_Identifier ;
+        rdfs:label  "111" .
+
+<urn:uuid:5eaef46a-6129-4393-95ae-96daae073aa7>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/carried_out_by/0402BCC8-051A-3C17-903B-62688FFA7BF8>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/location/valezza>
+        a           crm:E53_Place ;
+        rdfs:label  "Valezza" .
+
+<http://www.sealit.gr/DB/date/1855-12-13>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1855-12-13" ;
+        crm:P82_at_some_time_within  "1855-12-13" .
+
+<urn:uuid:4cbed919-cef1-495d-a90a-31641e9ca3bf>
+        a                     crm:E7_Activity ;
+        rdfs:label            "delivery of the libretto" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/document%20types/libretto%20delivery> ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1855-12-13> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<http://www.sealit.gr/DB/carried_out_by/9D01E194-20DF-31F5-AB23-4EC1261DED38>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/employment_carried_out/7D2A40B3-335A-36A5-AAD2-4EE809BA6E22>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/family_group/E46737DF-2F4C-3998-B1FF-72B5384A480A>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Gabes FABRE" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/registration%20number/86>
+        a           crm:E42_Identifier ;
+        rdfs:label  "86" .
+
+<http://www.sealit.gr/DB/family_group/C9F60D19-CBBF-3655-81D0-B58EC0D7469B>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Jérôme LAVIE" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/C9F60D19-CBBF-3655-81D0-B58EC0D7469B> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "4" .
+
+<http://www.sealit.gr/DB/employment_period/3D058AA8-70E3-3631-BA69-F79FB86F547F>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Auguste PAUL" ;
+        crm:P82a_begin_of_the_begin  "1854-09-23"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1856-03-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/discharge/0402BCC8-051A-3C17-903B-62688FFA7BF8>
+        a                         sealit:Discharge ;
+        rdfs:label                "Discharge of Marius PEZET" ;
+        crm:P17_was_motivated_by  <http://www.sealit.gr/DB/reason%20types/d%C3%A9ced%C3%A9> .
+
+<http://www.sealit.gr/DB/family_group/D4FD6B46-DAD5-38AA-8870-A60D5BF45972>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Louis BOUIS" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/D4FD6B46-DAD5-38AA-8870-A60D5BF45972> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "2" .
+
+<http://www.sealit.gr/DB/birth/2DBB3AC0-7F7E-3366-BBE1-2D06F18D7B37>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Jean VOISIN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1806> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/varigneux> .
+
+<http://www.sealit.gr/DB/location/dullux%20%28suisse%29>
+        a           crm:E53_Place ;
+        rdfs:label  "Dullux (Suisse)" .
+
+<urn:uuid:6ae5e3e5-c0eb-4ea7-9da0-4fd69d51904e>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<urn:uuid:31577f0d-f785-41f9-a346-7f8dd3be9502>
+        a                     crm:E7_Activity ;
+        rdfs:label            "delivery of the libretto" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/document%20types/libretto%20delivery> ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1855-12-13> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<http://www.sealit.gr/DB/creation/C81E728D-9D4C-3F63-AF06-7F89CC14862C>
+        a                       crm:E65_Creation ;
+        rdfs:label              "Creation of doc Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki" ;
+        crm:P14_carried_out_by  <http://www.sealit.gr/DB/person/686C4F2C-1C92-3166-8DD5-919CFC58A456> ;
+        crm:P4_has_time-span    <urn:uuid:4d0a51fb-1d6c-441e-b0ea-063bd8d739ee> .
+
+<http://www.sealit.gr/DB/date/1821>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1821" ;
+        crm:P82_at_some_time_within  "1821"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/types/family>
+        a           crm:E55_Type ;
+        rdfs:label  "family" .
+
+<http://www.sealit.gr/DB/registration%20number/98>
+        a           crm:E42_Identifier ;
+        rdfs:label  "98" .
+
+<http://www.sealit.gr/DB/employment_period/57A80E89-6938-348A-8263-3C1C3133D512>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Jacques RAMIEN" ;
+        crm:P82a_begin_of_the_begin  "1854-01-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1855-11-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c47e3135-d76a-4be2-a269-3c3b2306b038>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/carried_out_by/4E42FBAA-6B79-377B-9CAA-7621443F7F0B>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/family_group/0E494223-F20F-3A9D-A2AC-5719FE531615>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Jacques RAVAGNOL" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/0E494223-F20F-3A9D-A2AC-5719FE531615> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "3" .
+
+<http://www.sealit.gr/DB/document%20identifier/105>
+        a           crm:E42_Identifier ;
+        rdfs:label  "105" .
+
+<http://www.sealit.gr/DB/date/1833>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1833" ;
+        crm:P82_at_some_time_within  "1833"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/9F762651-F181-370F-9835-0670AF769B2D>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/person/037D97C8-3A0B-39E2-BBA5-6E38128D0862>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Jacques RUISSY" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/1130C8C3-8254-37F3-9C1F-4EB2F7905A4E> ;
+        crm:P70i_is_documented_in  <urn:uuid:607428aa-7d7a-4bf9-987d-a82cdaae2f88> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/1130C8C3-8254-37F3-9C1F-4EB2F7905A4E> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/7D2A40B3-335A-36A5-AAD2-4EE809BA6E22> ;
+        sealit:has_first_name      "Jacques" ;
+        sealit:has_last_name       "RUISSY" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/family_membership/2DBB3AC0-7F7E-3366-BBE1-2D06F18D7B37>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/1> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femme> .
+
+<http://www.sealit.gr/DB/employment_period/600D9595-B50E-3D0F-A002-7B6ED660B4BE>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Joseph Pierre GIVAUDAN" ;
+        crm:P82a_begin_of_the_begin  "1854-07-11"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1899-09-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/employment_carried_out/0402BCC8-051A-3C17-903B-62688FFA7BF8>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/employment_carried_out/9D01E194-20DF-31F5-AB23-4EC1261DED38>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<urn:uuid:a3826827-a339-48a8-8381-9ae155b5b1cd>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/person/A3244696-D027-3256-9B9D-5980381797ED>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Joseph BONIFAY" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/20E780F3-4D0A-3C00-AA67-A18C61F3FE20> ;
+        crm:P70i_is_documented_in  <urn:uuid:d54bcd67-f6f9-477c-9da4-6e41d02a8d07> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/20E780F3-4D0A-3C00-AA67-A18C61F3FE20> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/CD83580D-D564-343E-A227-B020616E2486> ;
+        sealit:has_first_name      "Joseph" ;
+        sealit:has_last_name       "BONIFAY" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/employment/D15D073D-1A52-3A71-91A5-DC53D36AA26B>
+        a                          sealit:Employment ;
+        rdfs:label                 "Employment of Joseph Pierre GIVAUDAN" ;
+        crm:P01i_is_domain_of      <http://www.sealit.gr/DB/carried_out_by/D15D073D-1A52-3A71-91A5-DC53D36AA26B> , <http://www.sealit.gr/DB/employment_carried_out/D15D073D-1A52-3A71-91A5-DC53D36AA26B> ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/registration%20number/78> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/employment_period/600D9595-B50E-3D0F-A002-7B6ED660B4BE> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/libretto%20document/105> .
+
+<http://www.sealit.gr/DB/date/1815>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1815" ;
+        crm:P82_at_some_time_within  "1815"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/family%20membership%20quantity/13>
+        a                  crm:E54_Dimension ;
+        rdfs:label         "13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/types/quantity> ;
+        crm:P90_has_value  "13" .
+
+<http://www.sealit.gr/DB/registration%20number/81>
+        a           crm:E42_Identifier ;
+        rdfs:label  "81" .
+
+<http://www.sealit.gr/DB/employment_period/BA07E85B-5F0F-3D13-A54D-450FB55BC955>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Geoffroy BRUNO" ;
+        crm:P82a_begin_of_the_begin  "1855-01-04"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1857-06-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/865F91FB-211E-3B92-89C2-1452DAC9FAB6>
+        a       crm:E16_Measurement .
+
+<urn:uuid:bb319531-bda5-4269-beb0-4a12066aa66a>
+        a                     crm:E7_Activity ;
+        rdfs:label            "delivery of the libretto" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/document%20types/libretto%20delivery> ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1855-12-13> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/A06D76D8-4EC5-39D9-98F7-04F27AF95AC7>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/employment/6A05BDDC-4687-32D8-9BAD-C856731CC899>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Joachim CARBONNEL" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/6A05BDDC-4687-32D8-9BAD-C856731CC899> , <http://www.sealit.gr/DB/employment_carried_out/6A05BDDC-4687-32D8-9BAD-C856731CC899> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/82> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/16D5956F-5388-3D17-9417-56BE392F5468> .
+
+<urn:uuid:c7d8efcf-e256-4a4c-9624-aaa407851743>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/carried_out_by/4C8C92DB-8680-3D8C-B528-06B82CCEBF57>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/employment/27D64923-86E3-3024-84A8-04D9CC13E1DD>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Jean FOREST" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/27D64923-86E3-3024-84A8-04D9CC13E1DD> , <http://www.sealit.gr/DB/employment_carried_out/27D64923-86E3-3024-84A8-04D9CC13E1DD> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/75> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/7DA0792C-62B6-3BE9-B051-20343AAAFEA1> .
+
+<urn:uuid:4d0a51fb-1d6c-441e-b0ea-063bd8d739ee>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "2019-05-16 2022-01-24T17:44:14" ;
+        crm:P82a_begin_of_the_begin  "2019-05-16"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "2022-01-24T17:44:14"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://www.sealit.gr/DB/libretto%20document/101>
+        a                        crm:E31_Document ;
+        rdfs:label               "Libretto document 101" ;
+        crm:P16i_was_used_for    <urn:uuid:778a3a53-6353-4852-b274-0c0708171148> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/document%20identifier/101> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/document%20types/libretto> .
+
+<http://www.sealit.gr/DB/employment_carried_out/4E42FBAA-6B79-377B-9CAA-7621443F7F0B>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/registration%20number/93>
+        a           crm:E42_Identifier ;
+        rdfs:label  "93" .
+
+<http://www.sealit.gr/DB/family_group/65F1CA58-838C-3DEC-A626-D6D55944A205>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Eugène CAPONY" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/employment_carried_out/0CB5A867-C85F-379D-BF1A-6F4AB5F7DAB5>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/location/varigneux>
+        a           crm:E53_Place ;
+        rdfs:label  "Varigneux" .
+
+<http://www.sealit.gr/DB/birth/FFDA6D12-A6C7-3EB4-9E28-2B3BDB88F163>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Auguste PAUL" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1834> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/beaufert> .
+
+<http://www.sealit.gr/DB/family_group/6856CB74-EC7C-3014-880C-131ADC074BF4>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Claude PETIT" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/6856CB74-EC7C-3014-880C-131ADC074BF4> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "3" .
+
+<http://www.sealit.gr/DB/carried_out_by/8ACE155E-7D40-3BAE-A303-7E7BD031EDD0>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/employment_carried_out/18F45650-55E0-3E97-B289-3A6FE4C1F4C2>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/3E99C961-7B67-3D54-B3C0-F37058312AE5>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/person/75CBC9F1-B5F0-383E-AE60-6DD885D02B74>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Hypolite BOIDIN" ;
+        crm:P100i_died_in          <http://www.sealit.gr/DB/death/C6000A5B-3F2E-3134-B075-3D8A13660536> ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/C6000A5B-3F2E-3134-B075-3D8A13660536> ;
+        crm:P70i_is_documented_in  <urn:uuid:b6e6f8a0-c0bd-477f-8c91-fda1fea548e4> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/C6000A5B-3F2E-3134-B075-3D8A13660536> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/BD85C287-244B-3E1D-ADEA-9776E9D3F531> ;
+        sealit:has_first_name      "Hypolite" ;
+        sealit:has_last_name       "BOIDIN" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/employment_period/0DE78177-E680-3718-BD7D-D6C69FDEFF4A>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Antoine GUILLON" ;
+        crm:P82a_begin_of_the_begin  "1854-12-11"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1856-04-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/libretto%20document/1628>
+        a                        crm:E31_Document ;
+        rdfs:label               "Libretto document 1628" ;
+        crm:P16i_was_used_for    <urn:uuid:755a0147-401f-4d6b-a39f-0612d47fabbc> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/document%20identifier/1628> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/document%20types/libretto> .
+
+<http://www.sealit.gr/DB/registration%20number/75>
+        a           crm:E42_Identifier ;
+        rdfs:label  "75" .
+
+<urn:uuid:1f23565e-4f67-487f-b446-42e3fc4957f2>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<urn:uuid:724fe49f-62ae-4810-a1d7-313b6d4003af>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/family_membership/BEE73D95-B5E2-3D09-B97B-282914137A19>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/13> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femmeenfants> .
+
+<http://www.sealit.gr/DB/employment_carried_out/4C8C92DB-8680-3D8C-B528-06B82CCEBF57>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/employment/E7A9B8EF-F30D-3119-A4E5-60186351B39C>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Antoine GUILLON" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/E7A9B8EF-F30D-3119-A4E5-60186351B39C> , <http://www.sealit.gr/DB/employment_carried_out/E7A9B8EF-F30D-3119-A4E5-60186351B39C> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/96> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/0DE78177-E680-3718-BD7D-D6C69FDEFF4A> .
+
+<http://www.sealit.gr/DB/registration%20number/87>
+        a           crm:E42_Identifier ;
+        rdfs:label  "87" .
+
+<http://www.sealit.gr/DB/date/1797>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1797" ;
+        crm:P82_at_some_time_within  "1797"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1857-07-22>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1857-07-22" ;
+        crm:P82_at_some_time_within  "1857-07-22" .
+
+<http://www.sealit.gr/DB/employment_carried_out/3B326B89-86CF-3595-B434-C0CF23E8B982>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat>
+        a           crm:E55_Type ;
+        rdfs:label  "employment records, shipyards of messageries maritimes, la ciotat" .
+
+<urn:uuid:1b69c979-d27d-45d4-a06d-a18a23bb2fba>
+        a                     crm:E7_Activity ;
+        rdfs:label            "delivery of the libretto" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/document%20types/libretto%20delivery> ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1855-12-13> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<urn:uuid:27f4d8ab-7b56-4c7d-85f7-0735a8c8307b>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/birth/7D9A3C28-CAD7-362F-AB01-8C7DC3EC5B1D>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Manuel CARBONNEL" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1834> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/barcelone> .
+
+<http://www.sealit.gr/DB/registration%20number/99>
+        a           crm:E42_Identifier ;
+        rdfs:label  "99" .
+
+<http://www.sealit.gr/DB/employment_carried_out/8ACE155E-7D40-3BAE-A303-7E7BD031EDD0>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/carried_out_by/CD83580D-D564-343E-A227-B020616E2486>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/carried_out_by/3B0588BD-04E0-3E31-80AB-EF776D00A602>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/profession%20type/border>
+        a                sealit:Profession ;
+        rdfs:label       "Border" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/profession%20status/worker> .
+
+<http://www.sealit.gr/DB/date/1834>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1834" ;
+        crm:P82_at_some_time_within  "1834"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/employment/0CB5A867-C85F-379D-BF1A-6F4AB5F7DAB5>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Jacques RAMIEN" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/0CB5A867-C85F-379D-BF1A-6F4AB5F7DAB5> , <http://www.sealit.gr/DB/employment_carried_out/0CB5A867-C85F-379D-BF1A-6F4AB5F7DAB5> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/88> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/57A80E89-6938-348A-8263-3C1C3133D512> .
+
+<http://www.sealit.gr/DB/carried_out_by/5565E49E-8748-37B8-AE1B-6CC38055EA05>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/person/9F536148-6938-34AA-9E3D-AE093D1FC642>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Louis BOUIS" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/D4FD6B46-DAD5-38AA-8870-A60D5BF45972> ;
+        crm:P70i_is_documented_in  <urn:uuid:a3826827-a339-48a8-8381-9ae155b5b1cd> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/D4FD6B46-DAD5-38AA-8870-A60D5BF45972> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/9B39D9E7-8C35-3B65-AA3A-236AB5DE8D9D> ;
+        sealit:has_first_name      "Louis" ;
+        sealit:has_last_name       "BOUIS" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/employment_period/317BAC6E-7CF3-3E97-A22A-5A442EA8D50E>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Louis BAUBUIN" ;
+        crm:P82a_begin_of_the_begin  "1855-03-03"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1855-07-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/employment/18F45650-55E0-3E97-B289-3A6FE4C1F4C2>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Fritz BIRBAUM" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/18F45650-55E0-3E97-B289-3A6FE4C1F4C2> , <http://www.sealit.gr/DB/employment_carried_out/18F45650-55E0-3E97-B289-3A6FE4C1F4C2> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/84> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/4C3295E2-4003-35F3-A1BB-E775B7D36BAC> .
+
+<http://www.sealit.gr/DB/location/perpignan>
+        a           crm:E53_Place ;
+        rdfs:label  "Perpignan" .
+
+<http://www.sealit.gr/DB/birth/ACCE64EC-BC61-3A75-A1BA-E60ACAEF99C2>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Joachim CARBONNEL" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1831> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/perpignan> .
+
+<http://www.sealit.gr/DB/person/123229A2-6F25-325D-84C8-899512FE8619>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Joseph Pierre GIVAUDAN" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/B1F90E2D-666B-30BF-AB37-AF30D8E4142B> ;
+        crm:P70i_is_documented_in  <urn:uuid:263286cd-2a8c-4c70-a42c-b5b618e14a68> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/B1F90E2D-666B-30BF-AB37-AF30D8E4142B> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/D15D073D-1A52-3A71-91A5-DC53D36AA26B> ;
+        sealit:has_first_name      "Joseph Pierre" ;
+        sealit:has_last_name       "GIVAUDAN" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<urn:uuid:607428aa-7d7a-4bf9-987d-a82cdaae2f88>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/birth/2F478371-C87F-34B7-9D33-36EEF7B1C05D>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Marius PEZET" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1819> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<http://www.sealit.gr/DB/family_group/BEE73D95-B5E2-3D09-B97B-282914137A19>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Jean CASTAGNE" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/BEE73D95-B5E2-3D09-B97B-282914137A19> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "5" .
+
+<http://www.sealit.gr/DB/Document_of_Register/C02C60FA-4FC9-445A-9DBA-EC4215AFF5E0>
+        a                  crm:E31_Document , crm:E18_Physical_Thing ;
+        crm:P128_carries   <urn:uuid:df08a711-323a-4325-a331-579ec5dad500> ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/doc%20types/source%20identity> ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/maritime_worker_stats/9F762651-F181-370F-9835-0670AF769B2D> , <http://www.sealit.gr/DB/maritime_worker_stats/A06D76D8-4EC5-39D9-98F7-04F27AF95AC7> , <http://www.sealit.gr/DB/maritime_worker_stats/865F91FB-211E-3B92-89C2-1452DAC9FAB6> , <http://www.sealit.gr/DB/maritime_worker_stats/F505D7CE-6DAF-3E6E-A224-D04B6FF2608A> , <http://www.sealit.gr/DB/maritime_worker_stats/D1DAAF3B-899F-348A-9C64-36BC24A96C6A> , <http://www.sealit.gr/DB/maritime_worker_stats/5C5DAFA4-4A80-390C-9A96-87BD46EF14B3> , <http://www.sealit.gr/DB/maritime_worker_stats/23CF6D7E-9E82-32BF-BDB1-3DAD04D29992> , <http://www.sealit.gr/DB/maritime_worker_stats/A15D1B1C-A9E3-37BF-82BE-1AF275017E63> , <http://www.sealit.gr/DB/maritime_worker_stats/10600B61-1C7E-34A5-A212-088BEC049B3F> , <http://www.sealit.gr/DB/maritime_worker_stats/604D413E-B246-3C6D-B882-95C9295854E5> , <http://www.sealit.gr/DB/maritime_worker_stats/3E99C961-7B67-3D54-B3C0-F37058312AE5> , <http://www.sealit.gr/DB/maritime_worker_stats/6852865E-8EB4-3C00-9BD0-F57689EDB47B> , <http://www.sealit.gr/DB/maritime_worker_stats/B9494EE8-86FA-38D9-BAF6-1D62E59931F3> .
+
+<http://www.sealit.gr/DB/date/1868-08-21>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1868-08-21" ;
+        crm:P82_at_some_time_within  "1868-08-21" .
+
+<http://www.sealit.gr/DB/carried_out_by/CC7EECF9-2070-39E2-BB66-8E59F89DF648>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/location/marchienne>
+        a           crm:E53_Place ;
+        rdfs:label  "Marchienne" .
+
+<http://www.sealit.gr/DB/birth/D694876D-BADC-36CA-8E3F-5C21CC91DFA1>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Geoffroy BRUNO" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1819> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/valezza> .
+
+<http://www.sealit.gr/DB/location/hyeres>
+        a           crm:E53_Place ;
+        rdfs:label  "Hyeres" .
+
+<http://www.sealit.gr/DB/libretto%20document/192>
+        a                        crm:E31_Document ;
+        rdfs:label               "Libretto document 192" ;
+        crm:P16i_was_used_for    <urn:uuid:4cbed919-cef1-495d-a90a-31641e9ca3bf> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/document%20identifier/192> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/document%20types/libretto> .
+
+<http://www.sealit.gr/DB/date/1816>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1816" ;
+        crm:P82_at_some_time_within  "1816"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:03bf9962-5fb4-4571-b051-e570bfd3a245>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 5" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/registration%20number/82>
+        a           crm:E42_Identifier ;
+        rdfs:label  "82" .
+
+<http://www.sealit.gr/DB/family%20membership%20quantity/14>
+        a                  crm:E54_Dimension ;
+        rdfs:label         "14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/types/quantity> ;
+        crm:P90_has_value  "14" .
+
+<http://www.sealit.gr/DB/reason%20types/embarqu%C3%A9%20comme%20chauffeur>
+        a           crm:E1_CRM_Entity ;
+        rdfs:label  "embarqué comme chauffeur" .
+
+<http://www.sealit.gr/DB/family_group/2107E5D0-B20A-39A0-8DF3-C0FE52A74B13>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Antoine GUILLON" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/2107E5D0-B20A-39A0-8DF3-C0FE52A74B13> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "6" .
+
+<http://www.sealit.gr/DB/carried_out_by/4B180417-6275-37D6-8CA3-2703517CAF8E>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/person/EE0E1E45-16CC-37FB-8321-C62FEC290544>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Antoine GUILLON" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/2107E5D0-B20A-39A0-8DF3-C0FE52A74B13> ;
+        crm:P70i_is_documented_in  <urn:uuid:e355d569-d8ad-489b-9ffc-2b5268ba21e2> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/2107E5D0-B20A-39A0-8DF3-C0FE52A74B13> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/E7A9B8EF-F30D-3119-A4E5-60186351B39C> ;
+        sealit:has_first_name      "Antoine" ;
+        sealit:has_last_name       "GUILLON" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/mari%C3%A9> .
+
+<http://www.sealit.gr/DB/carried_out_by/8676468E-1AE6-3602-986E-6038AF78D099>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/marital%20status/gar%C3%A7on>
+        a                sealit:Social_Status ;
+        rdfs:label       "Garçon" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/status%20types/marital%20status> .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/F505D7CE-6DAF-3E6E-A224-D04B6FF2608A>
+        a       crm:E16_Measurement .
+
+<urn:uuid:263286cd-2a8c-4c70-a42c-b5b618e14a68>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/libretto%20document/102>
+        a                        crm:E31_Document ;
+        rdfs:label               "Libretto document 102" ;
+        crm:P16i_was_used_for    <urn:uuid:528e801e-b98b-41a7-8b48-0afeb2b1d73f> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/document%20identifier/102> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/document%20types/libretto> .
+
+<http://www.sealit.gr/DB/date/1828>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1828" ;
+        crm:P82_at_some_time_within  "1828"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/employment/3B326B89-86CF-3595-B434-C0CF23E8B982>
+        a                        sealit:Employment ;
+        rdfs:label               "Employment of Geoffroy BRUNO" ;
+        crm:P01i_is_domain_of    <http://www.sealit.gr/DB/carried_out_by/3B326B89-86CF-3595-B434-C0CF23E8B982> , <http://www.sealit.gr/DB/employment_carried_out/3B326B89-86CF-3595-B434-C0CF23E8B982> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/registration%20number/95> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span     <http://www.sealit.gr/DB/employment_period/BA07E85B-5F0F-3D13-A54D-450FB55BC955> .
+
+<http://www.sealit.gr/DB/registration%20number/94>
+        a           crm:E42_Identifier ;
+        rdfs:label  "94" .
+
+<http://www.sealit.gr/DB/employment_carried_out/CD83580D-D564-343E-A227-B020616E2486>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/family_membership/2F478371-C87F-34B7-9D33-36EEF7B1C05D>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/11> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femmeenfants> .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/D1DAAF3B-899F-348A-9C64-36BC24A96C6A>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/location/toulouse>
+        a           crm:E53_Place ;
+        rdfs:label  "Toulouse" .
+
+<http://www.sealit.gr/DB/document%20identifier/101>
+        a           crm:E42_Identifier ;
+        rdfs:label  "101" .
+
+<http://www.sealit.gr/DB/birth/B1F90E2D-666B-30BF-AB37-AF30D8E4142B>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Joseph Pierre GIVAUDAN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1828> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/hyeres> .
+
+<http://www.sealit.gr/DB/location/la%20ciotat>
+        a           crm:E53_Place ;
+        rdfs:label  "La Ciotat" .
+
+<http://www.sealit.gr/DB/carried_out_by/97756392-80A1-37E8-BCE7-6EE56CC5318E>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .
+
+<http://www.sealit.gr/DB/libretto%20document/114>
+        a                        crm:E31_Document ;
+        rdfs:label               "Libretto document 114" ;
+        crm:P16i_was_used_for    <urn:uuid:bb319531-bda5-4269-beb0-4a12066aa66a> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/document%20identifier/114> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/document%20types/libretto> .
+
+<http://www.sealit.gr/DB/document%20identifier/1628>
+        a           crm:E42_Identifier ;
+        rdfs:label  "1628" .
+
+<http://www.sealit.gr/DB/location/toulon>
+        a           crm:E53_Place ;
+        rdfs:label  "Toulon" .
+
+<http://www.sealit.gr/DB/employment_period/4C3295E2-4003-35F3-A1BB-E775B7D36BAC>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Fritz BIRBAUM" ;
+        crm:P82a_begin_of_the_begin  "1855-04-12"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "18556-10-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/marital%20status/mari%C3%A9>
+        a                sealit:Social_Status ;
+        rdfs:label       "marié" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/status%20types/marital%20status> .
+
+<http://www.sealit.gr/DB/family_group/1130C8C3-8254-37F3-9C1F-4EB2F7905A4E>
+        a                crm:E74_Group ;
+        rdfs:label       "Family members of Jacques RUISSY" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/date/0>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 0" ;
+        crm:P82_at_some_time_within  "0"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/registration%20number/76>
+        a           crm:E42_Identifier ;
+        rdfs:label  "76" .
+
+<http://www.sealit.gr/DB/family%20types/femmeenfants>
+        a           crm:E55_Type ;
+        rdfs:label  "femmeEnfants" , "FemmeEnfants" .
+
+<http://www.sealit.gr/DB/employment/7D2A40B3-335A-36A5-AAD2-4EE809BA6E22>
+        a                          sealit:Employment ;
+        rdfs:label                 "Employment of Jacques RUISSY" ;
+        crm:P01i_is_domain_of      <http://www.sealit.gr/DB/carried_out_by/7D2A40B3-335A-36A5-AAD2-4EE809BA6E22> , <http://www.sealit.gr/DB/employment_carried_out/7D2A40B3-335A-36A5-AAD2-4EE809BA6E22> ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/registration%20number/74> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/employment_period/E608D9F4-B854-37B6-9008-92021B7B5337> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/libretto%20document/102> .
+
+<http://www.sealit.gr/DB/birth/66F53FD0-5B8B-3612-B571-B6EF1C06C54F>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Jean FOREST" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1824> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/toulouse> .
+
+<http://www.sealit.gr/DB/employment_period/37924D3C-A8EB-372B-A5EF-FAB51F21580F>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of François ASTIER" ;
+        crm:P82a_begin_of_the_begin  "1855-01-04"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1855-07-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/birth/20E780F3-4D0A-3C00-AA67-A18C61F3FE20>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Joseph BONIFAY" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1831> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/beausser> .
+
+<http://www.sealit.gr/DB/roles%20type/phd%20candidate>
+        a           crm:E55_Type ;
+        rdfs:label  "PhD candidate" .
+
+<http://www.sealit.gr/DB/discharge/9B39D9E7-8C35-3B65-AA3A-236AB5DE8D9D>
+        a                         sealit:Discharge ;
+        rdfs:label                "Discharge of Louis BOUIS" ;
+        crm:P17_was_motivated_by  <http://www.sealit.gr/DB/reason%20types/embarqu%C3%A9%20comme%20chauffeur> ;
+        crm:P4_has_time-span      <http://www.sealit.gr/DB/date/1856-06-21> .
+
+<http://www.sealit.gr/DB/employment_period/29F308A5-D6CA-339B-872A-E5A8F9BF3D74>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Charles DESCHAMPS" ;
+        crm:P82a_begin_of_the_begin  "1855-05-23"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1855-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/employment_carried_out/4B180417-6275-37D6-8CA3-2703517CAF8E>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/employment_carried_out/8676468E-1AE6-3602-986E-6038AF78D099>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/profession%20types/manager>
+        a           sealit:Profession ;
+        rdfs:label  "manager" .
+
+<urn:uuid:8b900f89-c011-4e97-8187-5cb6eb9ebe64>
+        a                     crm:E7_Activity ;
+        rdfs:label            "delivery of the libretto" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/document%20types/libretto%20delivery> ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1855-12-13> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/la%20ciotat> .
+
+<http://www.sealit.gr/DB/registration%20number/88>
+        a           crm:E42_Identifier ;
+        rdfs:label  "88" .
+
+<http://www.sealit.gr/DB/location/marseile>
+        a           crm:E53_Place ;
+        rdfs:label  "Marseile" .
+
+<http://www.sealit.gr/DB/employment_period/7DA0792C-62B6-3BE9-B051-20343AAAFEA1>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Jean FOREST" ;
+        crm:P82a_begin_of_the_begin  "1854-03-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1856-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/location/biot>
+        a           crm:E53_Place ;
+        rdfs:label  "Biot" .
+
+<http://www.sealit.gr/DB/maritime_worker_stats/604D413E-B246-3C6D-B882-95C9295854E5>
+        a       crm:E16_Measurement .
+
+<http://www.sealit.gr/DB/date/1823>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1823" ;
+        crm:P82_at_some_time_within  "1823"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/location/cognac>
+        a           crm:E53_Place ;
+        rdfs:label  "Cognac" .
+
+<http://www.sealit.gr/DB/family_group/2DBB3AC0-7F7E-3366-BBE1-2D06F18D7B37>
+        a                      crm:E74_Group ;
+        rdfs:label             "Family members of Jean VOISIN" ;
+        crm:P01i_is_domain_of  <http://www.sealit.gr/DB/family_membership/2DBB3AC0-7F7E-3366-BBE1-2D06F18D7B37> ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/types/family> ;
+        crm:P3_has_note        "2" .
+
+<urn:uuid:2f79e192-e8d7-44db-bf64-c20743653689>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/employment_period/BA9D2B7B-03D4-3483-9E78-DEED2E8F8CA8>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Manuel CARBONNEL" ;
+        crm:P82a_begin_of_the_begin  "1855-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1867-08-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/family_membership/66F53FD0-5B8B-3612-B571-B6EF1C06C54F>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/1> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femme> .
+
+<http://www.sealit.gr/DB/birth/86626A01-7C71-3585-8544-8969A79ACA99>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of François ASTIER" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1823> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/monpellier> .
+
+<http://www.sealit.gr/DB/birth/CA6F1D93-7BE1-3CB5-97BB-DE63A6B0DE83>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Joseph VACHER" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1830> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/tregnon> .
+
+<http://www.sealit.gr/DB/family_membership/20E780F3-4D0A-3C00-AA67-A18C61F3FE20>
+        a                          crm:PC107_has_current_or_former_member ;
+        crm:P02_has_range          <http://www.sealit.gr/DB/family%20membership%20quantity/1> ;
+        crm:P107.1_kind_of_member  <http://www.sealit.gr/DB/family%20types/femme> .
+
+<http://www.sealit.gr/DB/language/french>
+        a           crm:E56_Language ;
+        rdfs:label  "French" .
+
+<urn:uuid:76780315-64dc-4f98-98cf-4dcb20187382>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/location/vernon%20sur%20marne>
+        a           crm:E53_Place ;
+        rdfs:label  "Vernon sur Marne" .
+
+<http://www.sealit.gr/DB/employment/0402BCC8-051A-3C17-903B-62688FFA7BF8>
+        a                          sealit:Employment ;
+        rdfs:label                 "Employment of Marius PEZET" ;
+        crm:P01i_is_domain_of      <http://www.sealit.gr/DB/carried_out_by/0402BCC8-051A-3C17-903B-62688FFA7BF8> , <http://www.sealit.gr/DB/employment_carried_out/0402BCC8-051A-3C17-903B-62688FFA7BF8> ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/registration%20number/87> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/employment_period/FBC4A9CB-37DB-3F06-B16B-01FD8EABC2C8> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/libretto%20document/111> ;
+        sealit:ended_by            <http://www.sealit.gr/DB/discharge/0402BCC8-051A-3C17-903B-62688FFA7BF8> .
+
+<http://www.sealit.gr/DB/employment_carried_out/9B39D9E7-8C35-3B65-AA3A-236AB5DE8D9D>
+        a                         crm:PC14_carried_out_by ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/ajusteur> .
+
+<http://www.sealit.gr/DB/employment_period/E608D9F4-B854-37B6-9008-92021B7B5337>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Employment period of Jacques RUISSY" ;
+        crm:P82a_begin_of_the_begin  "1851-10-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1886-10-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c4d2836c-9b2d-40de-876a-9770e506e6bb>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/concepts/page> .
+
+<http://www.sealit.gr/DB/employment/9D01E194-20DF-31F5-AB23-4EC1261DED38>
+        a                          sealit:Employment ;
+        rdfs:label                 "Employment of Jean VOISIN" ;
+        crm:P01i_is_domain_of      <http://www.sealit.gr/DB/carried_out_by/9D01E194-20DF-31F5-AB23-4EC1261DED38> , <http://www.sealit.gr/DB/employment_carried_out/9D01E194-20DF-31F5-AB23-4EC1261DED38> ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/registration%20number/90> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/service%20types/company> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/employment_period/74959A19-C352-3D77-8D61-49260E68178E> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/libretto%20document/114> .
+
+<http://www.sealit.gr/DB/person/2969C3D9-5BA4-328C-804C-8924DAA477DC>
+        a                          crm:E21_Person ;
+        rdfs:label                 "François ASTIER" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/family_group/86626A01-7C71-3585-8544-8969A79ACA99> ;
+        crm:P70i_is_documented_in  <urn:uuid:6ae5e3e5-c0eb-4ea7-9da0-4fd69d51904e> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/la%20ciotat> ;
+        crm:P98i_was_born          <http://www.sealit.gr/DB/birth/86626A01-7C71-3585-8544-8969A79ACA99> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/employment/3BB11686-5632-39D1-B033-5C1A20E43930> ;
+        sealit:has_first_name      "François" ;
+        sealit:has_last_name       "ASTIER" ;
+        sealit:has_social_status   <http://www.sealit.gr/DB/marital%20status/gar%C3%A7on> .
+
+<http://www.sealit.gr/DB/organisation/forth/ims>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "FORTH/IMS" .
+
+<http://www.sealit.gr/DB/carried_out_by/BD85C287-244B-3E1D-ADEA-9776E9D3F531>
+        a                         crm:PC14_carried_out_by ;
+        crm:P02_has_range         <http://www.sealit.gr/DB/person/C6E14F79-9B18-3CCD-AFE2-1771356742B3> ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20types/manager> .

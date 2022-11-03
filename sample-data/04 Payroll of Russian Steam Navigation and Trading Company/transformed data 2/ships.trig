@@ -1,0 +1,685 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record_point/C4654A4B-DA6B-3372-8F51-7D7C95ADC642>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 13, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/252EC2CC-EB3B-3C26-9892-F31CA2420BB3> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-01-19T12:24:53.367Z_1&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/6187E4D0-9650-35AF-B35E-CAA8981E2866>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 91, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/ship/B0CA4AA8-9359-3574-A302-B9E56D6DB654> .
+
+<http://www.sealit.gr/DB/ship/8C7F8653-73D8-36ED-96EB-724A786BB3FD>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B3%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9%20%5B%D0%BC%D0%B5%D1%80%5D>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Григорий [Мер]" .
+
+<http://www.sealit.gr/DB/ship/AA4C5386-358B-335B-8EC2-C58F2E41E37D>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/979B0EF3-4F6B-34E5-80FD-96BCAF91216B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Суворов" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%81%D1%83%D0%B2%D0%BE%D1%80%D0%BE%D0%B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/6AC6CE8B-F68F-3B5F-BD26-797F1DDED05D> .
+
+<http://www.sealit.gr/DB/ship/9014795D-D57B-3C17-A52D-E370008CF1CC>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/3531B0B8-0C46-3D7E-8708-3EBCAB440C01>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/0980D66B-AE18-31EC-A512-2A7ECC15E43B>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/70A012E9-05F5-300E-8A6F-2040AFD23032>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Чихачев" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%87%D0%B8%D1%85%D0%B0%D1%87%D0%B5%D0%B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/F1DD0319-C57B-3320-A6C6-AA9DD4F50430> , <http://www.sealit.gr/DB/ship/A4C02E74-ABD3-3D7C-8907-2552CE86D8B4> , <http://www.sealit.gr/DB/ship/B0CA4AA8-9359-3574-A302-B9E56D6DB654> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2019-02-04T11:24:15.277Z_8&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/E8A66E04-B399-3C3C-9DBA-8F576483266A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 11, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/B55A2FF3-5259-3AFD-ADA6-0021DE8F6EE5> .
+
+<http://www.sealit.gr/DB/register_record_point/729BBF0B-4DE3-33AB-8E9C-5DA50588CDB4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 2, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/5CC8CE37-AF41-3E16-AE41-BA23CE04075F> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B1%D0%B5%D0%BB%D1%8C%D0%B1%D0%B5%D0%BA>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Бельбек" .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%81%D0%BA%D0%BE%D1%80%D1%8B%D0%B9>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Скорый" .
+
+<http://www.sealit.gr/DB/register_record_point/8DAB5072-6F04-3A2D-BE17-C8DAC2F66F5F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko | row: 2, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-03T10%3A01%3A49.330Z_16> , <http://www.sealit.gr/DB/ship/5CC44FDD-F6E8-3D0D-B1D8-1A2AA145A5EB> .
+
+<http://www.sealit.gr/DB/ship/A389049A-C256-3524-B0CB-67822157AEDF>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/A5CF7283-F3FC-3404-9807-DDD5BD1AF311>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/87F92341-EF6F-35A2-BD8F-C6518B523678>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 24, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/5A8E7049-FB10-3D4B-BC21-1D94318833AA> .
+
+<http://www.sealit.gr/DB/ship/10CDD184-0B97-3C47-94F2-4B7D2FB592E5>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/30FA9D70-2793-3922-B8C2-BFF8FB344725>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/9FBBA5EE-9B1C-377A-81E4-6798B207D0B8>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B8%D0%B3%D1%80>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Тигр" .
+
+<http://www.sealit.gr/DB/register_record_point/59F840F9-4E6F-376D-B6AA-38D66D0AC106>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko | row: 3, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko | row: 6, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko | row: 7, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko | row: 5, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko | row: 16, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko | row: 1, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko | row: 12, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/ship/6D2C6675-F764-3848-8AF3-DF0CE2BEF79B> , <http://www.sealit.gr/DB/ship/A389049A-C256-3524-B0CB-67822157AEDF> , <http://www.sealit.gr/DB/ship/30FA9D70-2793-3922-B8C2-BFF8FB344725> , <http://www.sealit.gr/DB/ship/4803392B-6F4D-39CE-87CB-4DC74D98204A> , <http://www.sealit.gr/DB/register_record/2020-11-03T10%3A01%3A49.330Z_16> , <http://www.sealit.gr/DB/ship/5B39669D-503E-36FE-910D-B8528FB2FBAA> , <http://www.sealit.gr/DB/ship/4BBC9124-FAF9-3783-A4FB-EFA7FE73DD2C> , <http://www.sealit.gr/DB/ship/CDFCDB7B-1D6E-34C4-98E2-4786D2D5591C> .
+
+<http://www.sealit.gr/DB/ship/9D48B8AA-183D-3306-890C-749725C34DD4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/A966F8F2-C979-3967-9F85-E9EAB09C77B8>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/00A67EC6-D599-3437-BD56-462AE432F592>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 9, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/02644DAB-1141-3202-93A3-E5021046F181> .
+
+<http://www.sealit.gr/DB/ship/6D2C6675-F764-3848-8AF3-DF0CE2BEF79B>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/B084D287-78DF-38B6-A873-25ECFB789366>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/619A3A67-FB93-370A-A546-8CFE00105755>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 115, 18.12.1906-, Anna  Sydorenko | row: 12, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-17T07%3A45%3A41.744Z_2> , <http://www.sealit.gr/DB/ship/F40D699C-4985-3382-AE63-DBFB3B5C7C85> .
+
+<http://www.sealit.gr/DB/ship/A8D55535-DFEC-3B3E-A9CB-DB920A5F2FBE>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/64752066-2565-313C-B7B6-8867E48B4964>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 74, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/ship/93C9316D-14AE-3EA7-937A-D7110D9E99F7> .
+
+<http://www.sealit.gr/DB/ship/ABD14D0F-4292-36A6-B8B5-AB361E75296A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/CA94D959-F466-3152-88DB-44CCF9C3DC33>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/83993D94-67D3-3EFC-8674-4AD182F82349>
+        a       sealit:Ship .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-10-29T12:38:48.853Z_13&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/ship/1E2AAC48-F2AF-30CF-B87E-6B6D5A3C7022>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/CDFCDB7B-1D6E-34C4-98E2-4786D2D5591C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/BDAD7BBC-FD8D-3CB3-B0C9-A03922FF905F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/389A9873-A0C9-3B53-8EB8-A01E51435191>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/95FE3E5E-B83C-3CEA-9839-E4B675C4A733>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/4803392B-6F4D-39CE-87CB-4DC74D98204A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/6216389D-F574-3298-B9AE-A1FDEA4F3F98>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%82%D0%BE%D1%82%D0%BB%D0%B5%D0%B1%D0%B5%D0%BD>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Тотлебен" .
+
+<http://www.sealit.gr/DB/ship/6BCCD79C-9D77-3301-B400-863116988C68>
+        a       sealit:Ship .
+
+<urn:uuid:6f6d39ed-7529-4cd4-84bf-31766c58e082>
+        a                 sealit:Ship_Ownership_Phase ;
+        rdfs:label        "Ownership of Ростов" ;
+        sealit:has_owner  <http://www.sealit.gr/DB/organization/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%B0%D1%80%D0%BE%D1%85%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0%20%D0%B8%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BB%D0%B8> .
+
+<http://www.sealit.gr/DB/ship/FDEC5270-5B97-3197-B687-8A901EA923AD>
+        a                        sealit:Ship ;
+        rdfs:label               "ship [Новороссийск]" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%5B%D0%BD%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%5D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/CCDE758E-69B6-3903-914E-B6EE18E41015> , <http://www.sealit.gr/DB/ship/052580F3-8806-3A8E-ADB2-ADADFF9BB8A6> .
+
+<http://www.sealit.gr/DB/ship/D2BA94E2-D771-356A-BFD3-3B1AE190E74D>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Тигр" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B8%D0%B3%D1%80> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/02644DAB-1141-3202-93A3-E5021046F181> , <http://www.sealit.gr/DB/ship/F40D699C-4985-3382-AE63-DBFB3B5C7C85> , <http://www.sealit.gr/DB/ship/5CC44FDD-F6E8-3D0D-B1D8-1A2AA145A5EB> , <http://www.sealit.gr/DB/ship/8E1F679E-8933-3F77-A989-086A6A3C38B6> .
+
+<http://www.sealit.gr/DB/ship/E3CC2FA8-2413-33FA-8446-37444D62A66F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Великий Князь Константин" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/8D4B5F05-A2C9-3649-B7AC-60D26997B301> , <http://www.sealit.gr/DB/ship/3A9EA158-9D26-3459-8AD1-6621935AA938> , <http://www.sealit.gr/DB/ship/83993D94-67D3-3EFC-8674-4AD182F82349> .
+
+<http://www.sealit.gr/DB/ship/1A17A6CA-E0EC-3227-A54A-0EACAA8BE057>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record/2020-10-29T12%3A38%3A48.853Z_13>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 85, 18.01.1910-17.08.1910, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-10-29T12:38:48.853Z_13&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/ship/1C8F1494-5860-399A-9F21-248C1A0871A8>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%20%D0%BE%D0%BB%D1%8C%D0%B3%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Королева Ольга" .
+
+<http://www.sealit.gr/DB/ship/C7F921B6-CDC9-3A72-9462-D53A9E217233>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/4285B3DE-D366-3657-99D8-11903A941948>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/73764A0F-2039-331D-A447-CA6F7E07D6B4>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Цесаревич" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B5%D1%81%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/4803392B-6F4D-39CE-87CB-4DC74D98204A> , <http://www.sealit.gr/DB/ship/B2FFC466-45E0-34E1-96D5-949B754E79CE> , <http://www.sealit.gr/DB/ship/A389049A-C256-3524-B0CB-67822157AEDF> , <http://www.sealit.gr/DB/ship/CDFCDB7B-1D6E-34C4-98E2-4786D2D5591C> , <http://www.sealit.gr/DB/ship/5B39669D-503E-36FE-910D-B8528FB2FBAA> , <http://www.sealit.gr/DB/ship/6105CA48-1491-39A1-81A1-C5C1712A164F> , <http://www.sealit.gr/DB/ship/4BBC9124-FAF9-3783-A4FB-EFA7FE73DD2C> , <http://www.sealit.gr/DB/ship/BDAD7BBC-FD8D-3CB3-B0C9-A03922FF905F> , <http://www.sealit.gr/DB/ship/30FA9D70-2793-3922-B8C2-BFF8FB344725> , <http://www.sealit.gr/DB/ship/6D2C6675-F764-3848-8AF3-DF0CE2BEF79B> , <http://www.sealit.gr/DB/ship/389A9873-A0C9-3B53-8EB8-A01E51435191> .
+
+<http://www.sealit.gr/DB/ship/3A9EA158-9D26-3459-8AD1-6621935AA938>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/A769B362-67A1-3A84-8A8C-74726423F97E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 7, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/12BDDABD-AD84-32E9-9ED3-5B8D32D55822> .
+
+<http://www.sealit.gr/DB/ship/B55A2FF3-5259-3AFD-ADA6-0021DE8F6EE5>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/052580F3-8806-3A8E-ADB2-ADADFF9BB8A6>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/4BBC9124-FAF9-3783-A4FB-EFA7FE73DD2C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/252EC2CC-EB3B-3C26-9892-F31CA2420BB3>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%5B%D0%BD%D0%B0%D1%85%D0%B8%D0%BC%D0%BE%D0%B2%5D>
+        a           sealit:Ship_Name ;
+        rdfs:label  "[Нахимов]" .
+
+<http://www.sealit.gr/DB/ship/5179905A-C564-3758-81B8-E8C21E70BEEF>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Великий Князь Александр" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C%20%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/12BDDABD-AD84-32E9-9ED3-5B8D32D55822> , <http://www.sealit.gr/DB/ship/DD4A973E-6824-3C70-8DDF-CC5F60D54804> , <http://www.sealit.gr/DB/ship/95FE3E5E-B83C-3CEA-9839-E4B675C4A733> , <http://www.sealit.gr/DB/ship/FF711AE0-E6FC-3B31-AD66-B6DA093D8A64> .
+
+<http://www.sealit.gr/DB/ship/1C354783-C3D3-3F85-B5EB-20E6CD377DF0>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B0%D1%80%D0%B8%D1%86%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Царица" .
+
+<http://www.sealit.gr/DB/ship/0923687D-E597-3939-B8CE-58F2A604E5F5>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Игорь" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/FAC1C523-BA88-3C0D-8C80-FEFF09F6D059> .
+
+<http://www.sealit.gr/DB/ship/EC727203-B0E9-332B-84C7-312EE047A718>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/48D31993-6609-3CE2-8CD0-E989CB552A06>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko | row: 14, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-03T10%3A01%3A49.330Z_16> , <http://www.sealit.gr/DB/ship/A4C02E74-ABD3-3D7C-8907-2552CE86D8B4> .
+
+<http://www.sealit.gr/DB/register_record_point/0CBEA22B-1637-3318-8A71-9480D996D262>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 92, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 51, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 116, table: payroll" ;
+        crm:P2_has_type    sealitDB:template , <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/ship/BDAD7BBC-FD8D-3CB3-B0C9-A03922FF905F> , <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/ship/389A9873-A0C9-3B53-8EB8-A01E51435191> , <http://www.sealit.gr/DB/ship/B2FFC466-45E0-34E1-96D5-949B754E79CE> .
+
+<http://www.sealit.gr/DB/ship/FF711AE0-E6FC-3B31-AD66-B6DA093D8A64>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B2>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Ростов" .
+
+<http://www.sealit.gr/DB/ship/8E1F679E-8933-3F77-A989-086A6A3C38B6>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/2352C1E2-839A-3A53-8FC1-4AB77E5B88D0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 8, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/6AC6CE8B-F68F-3B5F-BD26-797F1DDED05D> .
+
+<http://www.sealit.gr/DB/ship/ABD266EB-84C8-3CA4-B2FB-76A5C4D98FB6>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Тотлебен" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%82%D0%BE%D1%82%D0%BB%D0%B5%D0%B1%D0%B5%D0%BD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/EC727203-B0E9-332B-84C7-312EE047A718> , <http://www.sealit.gr/DB/ship/0980D66B-AE18-31EC-A512-2A7ECC15E43B> , <http://www.sealit.gr/DB/ship/CA94D959-F466-3152-88DB-44CCF9C3DC33> .
+
+<http://www.sealit.gr/DB/register_record/2018-06-07T09%3A42%3A23.374Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 119, 31.12.1908   -01.09.1909              , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-06-07T09:42:23.374Z_5&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/93A5862D-82B6-3167-9C60-567375577BDB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 20, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 25, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 23, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/ship/0980D66B-AE18-31EC-A512-2A7ECC15E43B> , <http://www.sealit.gr/DB/ship/CA94D959-F466-3152-88DB-44CCF9C3DC33> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/EC727203-B0E9-332B-84C7-312EE047A718> .
+
+<http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2019-02-04T11:24:15.277Z_8&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/01A484F5-7D01-39B1-9E0A-97E9962E6A52>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 111, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 57, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/ship/95FE3E5E-B83C-3CEA-9839-E4B675C4A733> , <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/ship/FF711AE0-E6FC-3B31-AD66-B6DA093D8A64> .
+
+<http://www.sealit.gr/DB/register_record/2018-04-17T07%3A45%3A41.744Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 115, 18.12.1906-, Anna  Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-04-17T07:45:41.744Z_2&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-04-17T07:45:41.744Z_2&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/ship/BAD1101A-64A6-34E6-B3C3-7F74534D550A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/5CB9E4AC-9EE1-39E2-8E41-8A44DAA8D19B>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/1759A308-4143-32FC-BB55-407227B19963>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 14, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/A8D55535-DFEC-3B3E-A9CB-DB920A5F2FBE> .
+
+<http://www.sealit.gr/DB/ship/4D8FDF61-7FB0-3E22-8E66-8889D6D78F4D>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/6AC6CE8B-F68F-3B5F-BD26-797F1DDED05D>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/A4C02E74-ABD3-3D7C-8907-2552CE86D8B4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/8D4B5F05-A2C9-3649-B7AC-60D26997B301>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%5B%D0%BD%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%5D>
+        a           sealit:Ship_Name ;
+        rdfs:label  "[Новороссийск]" .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B0%D1%80%D1%8C>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Царь" .
+
+<http://www.sealit.gr/DB/ship/F40D699C-4985-3382-AE63-DBFB3B5C7C85>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/5CC44FDD-F6E8-3D0D-B1D8-1A2AA145A5EB>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/31C9C6B1-31CB-3D04-8084-5C78FBFDD011>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Цесаревич Георгий" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B5%D1%81%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87%20%D0%B3%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/CDA8DCF1-0DC5-33A0-A28A-04065353A195> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Игорь" .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%81%D1%83%D0%B2%D0%BE%D1%80%D0%BE%D0%B2>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Суворов" .
+
+<http://www.sealit.gr/DB/ship/B88631EF-60EC-3F92-9AE4-DD34BC7B5252>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Королева Ольга" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%20%D0%BE%D0%BB%D1%8C%D0%B3%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A5CF7283-F3FC-3404-9807-DDD5BD1AF311> , <http://www.sealit.gr/DB/ship/93C9316D-14AE-3EA7-937A-D7110D9E99F7> .
+
+<http://www.sealit.gr/DB/ship/8D8887CF-3065-3EE5-BEA6-405666489BF4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/DD4A973E-6824-3C70-8DDF-CC5F60D54804>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/6DCD2684-3FBC-3A06-BD00-67BE78ADA8F9>
+        a                        sealit:Ship ;
+        rdfs:label               "ship [Нахимов]" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%5B%D0%BD%D0%B0%D1%85%D0%B8%D0%BC%D0%BE%D0%B2%5D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/B55A2FF3-5259-3AFD-ADA6-0021DE8F6EE5> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Великий Князь Константин" .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%87%D0%B8%D1%85%D0%B0%D1%87%D0%B5%D0%B2>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Чихачев" .
+
+<http://www.sealit.gr/DB/organization/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%B0%D1%80%D0%BE%D1%85%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0%20%D0%B8%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BB%D0%B8>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "organisation Русское общество пароходства и торговли" .
+
+<http://www.sealit.gr/DB/register_record_point/F8ACFB03-A8FF-3502-9BC6-3DB30B018F87>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 16, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/7066E7F7-0E49-35CA-968A-03825C838F05> .
+
+<http://www.sealit.gr/DB/register_record_point/C1F7A083-A84D-38D5-A531-D15A2F6975D1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 4, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/A5CF7283-F3FC-3404-9807-DDD5BD1AF311> .
+
+<http://www.sealit.gr/DB/ship/B2E7ECDE-70FE-3313-B699-E7C09887876E>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/5B39669D-503E-36FE-910D-B8528FB2FBAA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/F1DD0319-C57B-3320-A6C6-AA9DD4F50430>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/5EF5365A-DFD6-37D6-BE4F-E6DB725E8376>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 10, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/8D4B5F05-A2C9-3649-B7AC-60D26997B301> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C%20%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Великий Князь Александр" .
+
+<http://www.sealit.gr/DB/register_record_point/1533BE56-636F-34BF-8420-E0718F476881>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 18, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/8D8887CF-3065-3EE5-BEA6-405666489BF4> .
+
+<http://www.sealit.gr/DB/ship/5A8E7049-FB10-3D4B-BC21-1D94318833AA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/2CA364C9-B3E1-319A-B20D-F8BFA7481CF4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/03494428-37A4-32CE-8F48-5A4C0F45DE46>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Григорий [Мер]" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B3%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9%20%5B%D0%BC%D0%B5%D1%80%5D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/7066E7F7-0E49-35CA-968A-03825C838F05> .
+
+<http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company>
+        a           crm:E55_Type ;
+        rdfs:label  "payroll of russian steam navigation and trading company" .
+
+<http://www.sealit.gr/DB/ship/32DD52AB-BDF0-38BE-A7D7-C2827991171B>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/9323EEE0-DD5C-38F4-ADC8-999428E89096>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 26, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 12, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 14, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 8, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 1, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 7, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 19, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 27, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 10, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 21, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 13, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 16, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 15, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 17, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 25, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 22, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 24, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 2, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 18, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 3, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 9, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 20, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 4, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 11, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 6, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 23, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 5, table: payroll" ;
+        crm:P2_has_type    sealitDB:template , <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/ship/BAD1101A-64A6-34E6-B3C3-7F74534D550A> , <http://www.sealit.gr/DB/ship/9FBBA5EE-9B1C-377A-81E4-6798B207D0B8> , <http://www.sealit.gr/DB/ship/9014795D-D57B-3C17-A52D-E370008CF1CC> , <http://www.sealit.gr/DB/ship/1A17A6CA-E0EC-3227-A54A-0EACAA8BE057> , <http://www.sealit.gr/DB/ship/A966F8F2-C979-3967-9F85-E9EAB09C77B8> , <http://www.sealit.gr/DB/ship/C838E85A-4A87-3468-A5DC-73A99F8A3780> , <http://www.sealit.gr/DB/ship/4D8FDF61-7FB0-3E22-8E66-8889D6D78F4D> , <http://www.sealit.gr/DB/ship/1C354783-C3D3-3F85-B5EB-20E6CD377DF0> , <http://www.sealit.gr/DB/ship/9D48B8AA-183D-3306-890C-749725C34DD4> , <http://www.sealit.gr/DB/ship/B2E7ECDE-70FE-3313-B699-E7C09887876E> , <http://www.sealit.gr/DB/ship/10CDD184-0B97-3C47-94F2-4B7D2FB592E5> , <http://www.sealit.gr/DB/ship/AA4C5386-358B-335B-8EC2-C58F2E41E37D> , <http://www.sealit.gr/DB/ship/5CB9E4AC-9EE1-39E2-8E41-8A44DAA8D19B> , <http://www.sealit.gr/DB/ship/8C7F8653-73D8-36ED-96EB-724A786BB3FD> , <http://www.sealit.gr/DB/ship/1C8F1494-5860-399A-9F21-248C1A0871A8> , <http://www.sealit.gr/DB/ship/53554A29-333D-369D-B5DD-01E76A40C175> , <http://www.sealit.gr/DB/ship/2CA364C9-B3E1-319A-B20D-F8BFA7481CF4> , <http://www.sealit.gr/DB/ship/6BCCD79C-9D77-3301-B400-863116988C68> , <http://www.sealit.gr/DB/ship/32DD52AB-BDF0-38BE-A7D7-C2827991171B> , <http://www.sealit.gr/DB/ship/71DD78C4-2388-3269-9B33-1EAC7F7FB766> , <http://www.sealit.gr/DB/ship/B084D287-78DF-38B6-A873-25ECFB789366> , <http://www.sealit.gr/DB/ship/6216389D-F574-3298-B9AE-A1FDEA4F3F98> , <http://www.sealit.gr/DB/ship/66CF531F-8E11-3EED-86CB-DB2C993E74AD> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/3531B0B8-0C46-3D7E-8708-3EBCAB440C01> , <http://www.sealit.gr/DB/ship/C7F921B6-CDC9-3A72-9462-D53A9E217233> , <http://www.sealit.gr/DB/ship/4285B3DE-D366-3657-99D8-11903A941948> , <http://www.sealit.gr/DB/ship/ABD14D0F-4292-36A6-B8B5-AB361E75296A> .
+
+<http://www.sealit.gr/DB/register_record_point/C7367860-45D6-3616-A69F-164020BDC3F1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 102, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/ship/8E1F679E-8933-3F77-A989-086A6A3C38B6> .
+
+<http://www.sealit.gr/DB/ship/5CC8CE37-AF41-3E16-AE41-BA23CE04075F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record/2020-11-03T10%3A01%3A49.330Z_16>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-11-03T10:01:49.330Z_16&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/ship/870369A9-04A7-3FA3-B2F9-2F864FDB2740>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Россия" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/8D8887CF-3065-3EE5-BEA6-405666489BF4> .
+
+<http://www.sealit.gr/DB/register_record_point/891DC58A-1393-385F-8129-400433250B3A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 6, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/CDA8DCF1-0DC5-33A0-A28A-04065353A195> .
+
+<http://www.sealit.gr/DB/ship/254FBFE6-16E9-3D29-AE18-A15FACBC51A7>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Царь" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B0%D1%80%D1%8C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A8D55535-DFEC-3B3E-A9CB-DB920A5F2FBE> .
+
+<http://www.sealit.gr/DB/ship/06CFC3BC-77FA-3674-B5D8-9C047B7BAE7E>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Ростов" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_phase         <urn:uuid:6f6d39ed-7529-4cd4-84bf-31766c58e082> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/3531B0B8-0C46-3D7E-8708-3EBCAB440C01> , <http://www.sealit.gr/DB/ship/B2E7ECDE-70FE-3313-B699-E7C09887876E> , <http://www.sealit.gr/DB/ship/1C8F1494-5860-399A-9F21-248C1A0871A8> , <http://www.sealit.gr/DB/ship/4D8FDF61-7FB0-3E22-8E66-8889D6D78F4D> , <http://www.sealit.gr/DB/ship/32DD52AB-BDF0-38BE-A7D7-C2827991171B> , <http://www.sealit.gr/DB/ship/6216389D-F574-3298-B9AE-A1FDEA4F3F98> , <http://www.sealit.gr/DB/ship/B084D287-78DF-38B6-A873-25ECFB789366> , <http://www.sealit.gr/DB/ship/C7F921B6-CDC9-3A72-9462-D53A9E217233> , <http://www.sealit.gr/DB/ship/6BCCD79C-9D77-3301-B400-863116988C68> , <http://www.sealit.gr/DB/ship/A966F8F2-C979-3967-9F85-E9EAB09C77B8> , <http://www.sealit.gr/DB/ship/C838E85A-4A87-3468-A5DC-73A99F8A3780> , <http://www.sealit.gr/DB/ship/BAD1101A-64A6-34E6-B3C3-7F74534D550A> , <http://www.sealit.gr/DB/ship/53554A29-333D-369D-B5DD-01E76A40C175> , <http://www.sealit.gr/DB/ship/5CB9E4AC-9EE1-39E2-8E41-8A44DAA8D19B> , <http://www.sealit.gr/DB/ship/1C354783-C3D3-3F85-B5EB-20E6CD377DF0> , <http://www.sealit.gr/DB/ship/71DD78C4-2388-3269-9B33-1EAC7F7FB766> , <http://www.sealit.gr/DB/ship/10CDD184-0B97-3C47-94F2-4B7D2FB592E5> , <http://www.sealit.gr/DB/ship/4285B3DE-D366-3657-99D8-11903A941948> , <http://www.sealit.gr/DB/ship/9FBBA5EE-9B1C-377A-81E4-6798B207D0B8> , <http://www.sealit.gr/DB/ship/9014795D-D57B-3C17-A52D-E370008CF1CC> , <http://www.sealit.gr/DB/ship/2CA364C9-B3E1-319A-B20D-F8BFA7481CF4> , <http://www.sealit.gr/DB/ship/66CF531F-8E11-3EED-86CB-DB2C993E74AD> , <http://www.sealit.gr/DB/ship/AA4C5386-358B-335B-8EC2-C58F2E41E37D> , <http://www.sealit.gr/DB/ship/1A17A6CA-E0EC-3227-A54A-0EACAA8BE057> , <http://www.sealit.gr/DB/ship/ABD14D0F-4292-36A6-B8B5-AB361E75296A> , <http://www.sealit.gr/DB/ship/8C7F8653-73D8-36ED-96EB-724A786BB3FD> , <http://www.sealit.gr/DB/ship/9D48B8AA-183D-3306-890C-749725C34DD4> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-11-03T10:01:49.330Z_16&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-01-19T12:24:53.367Z_1&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/59700927-5CD0-3F51-A13B-DC32F3FF4125>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 27, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/FAC1C523-BA88-3C0D-8C80-FEFF09F6D059> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B5%D1%81%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Цесаревич" .
+
+<http://www.sealit.gr/DB/register_record_point/679ABCA6-C7BC-322E-BCE2-88C8871A1514>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 15, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 12, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/ship/CCDE758E-69B6-3903-914E-B6EE18E41015> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/052580F3-8806-3A8E-ADB2-ADADFF9BB8A6> .
+
+<http://www.sealit.gr/DB/ship/B0CA4AA8-9359-3574-A302-B9E56D6DB654>
+        a       sealit:Ship .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/register_record_point/D47BB47D-B438-3820-9DA3-5678AA36C0D5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 26, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/F1DD0319-C57B-3320-A6C6-AA9DD4F50430> .
+
+<http://www.sealit.gr/DB/register_record_point/9F2E53E9-A474-35C8-9DB1-223D5337F798>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 119, 31.12.1908   -01.09.1909              , Anna Sydorenko | row: 9, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-07T09%3A42%3A23.374Z_5> , <http://www.sealit.gr/DB/ship/DD4A973E-6824-3C70-8DDF-CC5F60D54804> .
+
+<http://www.sealit.gr/DB/ship/FAC1C523-BA88-3C0D-8C80-FEFF09F6D059>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/02644DAB-1141-3202-93A3-E5021046F181>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/B63FC7B5-50B2-3DEF-99F1-AD380BDBC079>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 141, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 127, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/ship/3A9EA158-9D26-3459-8AD1-6621935AA938> , <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/ship/83993D94-67D3-3EFC-8674-4AD182F82349> .
+
+<http://www.sealit.gr/DB/ship/6105CA48-1491-39A1-81A1-C5C1712A164F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/C838E85A-4A87-3468-A5DC-73A99F8A3780>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B5%D1%81%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87%20%D0%B3%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Цесаревич Георгий" .
+
+<http://www.sealit.gr/DB/register_record_point/B1528623-E9FF-35F2-883F-AB8B78AA03D1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 3, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/ship/6105CA48-1491-39A1-81A1-C5C1712A164F> .
+
+<http://www.sealit.gr/DB/ship/53554A29-333D-369D-B5DD-01E76A40C175>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Россия" .
+
+<http://www.sealit.gr/DB/ship/12BDDABD-AD84-32E9-9ED3-5B8D32D55822>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/13B951CC-F28A-31DA-9FD7-A4CC894A678D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 85, 18.01.1910-17.08.1910, Anna Sydorenko | row: 6, table: payroll" , "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 85, 18.01.1910-17.08.1910, Anna Sydorenko | row: 4, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/ship/1E2AAC48-F2AF-30CF-B87E-6B6D5A3C7022> , <http://www.sealit.gr/DB/register_record/2020-10-29T12%3A38%3A48.853Z_13> , <http://www.sealit.gr/DB/ship/A3DA1262-DDFE-3384-BF39-27382E9DF596> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-06-07T09:42:23.374Z_5&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/ship/B2FFC466-45E0-34E1-96D5-949B754E79CE>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/71DD78C4-2388-3269-9B33-1EAC7F7FB766>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/7066E7F7-0E49-35CA-968A-03825C838F05>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/93C9316D-14AE-3EA7-937A-D7110D9E99F7>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/857CF3D5-9471-396B-8A45-F5477AD47E51>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Бельбек" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B1%D0%B5%D0%BB%D1%8C%D0%B1%D0%B5%D0%BA> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/5CC8CE37-AF41-3E16-AE41-BA23CE04075F> .
+
+<http://www.sealit.gr/DB/ship/4D93C40E-4BAB-36F3-BD2D-50263DF76124>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Царица" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B0%D1%80%D0%B8%D1%86%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/252EC2CC-EB3B-3C26-9892-F31CA2420BB3> .
+
+<http://www.sealit.gr/DB/ship/A3DA1262-DDFE-3384-BF39-27382E9DF596>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/CCDE758E-69B6-3903-914E-B6EE18E41015>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/66CF531F-8E11-3EED-86CB-DB2C993E74AD>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/ship/CDA8DCF1-0DC5-33A0-A28A-04065353A195>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/7BEB4F02-23B1-382F-9BEC-A8060FA226E1>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Скорый" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%81%D0%BA%D0%BE%D1%80%D1%8B%D0%B9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/5A8E7049-FB10-3D4B-BC21-1D94318833AA> , <http://www.sealit.gr/DB/ship/1E2AAC48-F2AF-30CF-B87E-6B6D5A3C7022> , <http://www.sealit.gr/DB/ship/A3DA1262-DDFE-3384-BF39-27382E9DF596> .

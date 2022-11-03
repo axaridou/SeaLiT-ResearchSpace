@@ -1,0 +1,2737 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/registration/EECD468A-FC72-3126-99DA-BAD9EBD707B7>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Pablo Brugueras" ;
+        crm:P14_carried_out_by     <urn:uuid:9f642a52-5ef8-4ebf-b4fd-3b68d85a7e6c> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-26> ;
+        crm:P70i_is_documented_in  <urn:uuid:f91a67ad-11b6-442a-a4a5-2dc56f28ea3a> .
+
+<urn:uuid:1ab6e1ce-b6e7-4763-9898-3fbe1a0222a9>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/41C71AF2-177F-3E8E-BF6D-7CA9AC7E5488>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Fulgencio Vives" ;
+        crm:P14_carried_out_by     <urn:uuid:188a564f-bd27-44fd-99a8-f34c31bc1a8b> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-08> ;
+        crm:P70i_is_documented_in  <urn:uuid:370d500f-4793-463f-b0db-75e5276aa64a> .
+
+<http://www.sealit.gr/DB/person/FE0B471E-F0D9-30D0-A5F8-A1B16D733FA0>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francisco Parera" ;
+        sealit:has_first_name  "Francisco" ;
+        sealit:has_last_name   "Parera" .
+
+<http://www.sealit.gr/DB/birth/541BD625-7B41-3C0A-8C4A-7B63C4DB99D4>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Bartolome Grange" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/838D4E9A-D8F8-3B2A-87B9-63BC968DC28B> .
+
+<urn:uuid:77360788-24c0-46ff-9736-d6eff5e443a9>
+        a                crm:E31_Document ;
+        rdfs:label       "136" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/date/1859-09-27>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-09-27" ;
+        crm:P82_at_some_time_within  "1859-09-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/D43E302D-582A-3EFD-B629-2956CDD23FF2>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Herminio Macaya" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/4FA8DD0A-8729-3219-B904-1317A7FA0B86> ;
+        sealit:has_first_name           "Herminio" ;
+        sealit:has_last_name            "Macaya" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/4FA8DD0A-8729-3219-B904-1317A7FA0B86> .
+
+<http://www.sealit.gr/DB/person/D32D6F1C-BAFC-3257-A653-620AA82D951E>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Riera" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/57C43EBB-5941-398E-B823-ACDA290F7EEB> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Riera" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/57C43EBB-5941-398E-B823-ACDA290F7EEB> .
+
+<http://www.sealit.gr/DB/language/spanish%20%28castellano%29>
+        a           crm:E56_Language ;
+        rdfs:label  "Spanish (Castellano)" .
+
+<urn:uuid:d54d29f0-cbbf-4f24-a9fb-d84b9e8b1090>
+        a                crm:E31_Document ;
+        rdfs:label       "162" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/FD8B2AFE-B121-3D9F-AFD5-81B89EFF1E3B>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Gibert" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Gibert" .
+
+<http://www.sealit.gr/DB/person/0B4FF985-48FE-3725-B80B-2F8BFDF5ACD5>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Mari" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/FC0595D2-8832-36B3-97A0-95C66B7D4736> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Mari" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/FC0595D2-8832-36B3-97A0-95C66B7D4736> .
+
+<http://www.sealit.gr/DB/birth/8398CAB0-AD2A-3FD8-B7EF-5F68AEE99936>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Antonio Monne" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/550C0E9D-25BD-3D93-8260-5EBB8C252DF0> .
+
+<urn:uuid:7ec47091-559c-4250-8cd2-70a03166036f>
+        a                crm:E31_Document ;
+        rdfs:label       "147" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/registration/2602D587-57DF-3320-8AB9-B00A08E2C37D>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Joaquin Pi" ;
+        crm:P14_carried_out_by     <urn:uuid:d3867237-5f70-4384-8240-10b948140618> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-04> ;
+        crm:P70i_is_documented_in  <urn:uuid:d41f6314-858f-4dc6-98ee-bb7cd25fba8b> .
+
+<http://www.sealit.gr/DB/person/165EE328-8B56-33BE-8361-685FB794BF1D>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Juanim" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/BBFBD01B-CE6D-355D-B317-4E987707D625> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Juanim" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/BBFBD01B-CE6D-355D-B317-4E987707D625> .
+
+<http://www.sealit.gr/DB/registration/A05B5F6B-4664-3F86-8DB5-F3450B5D8EC8>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Ibars" ;
+        crm:P14_carried_out_by     <urn:uuid:c0b25a9d-c0e5-41a1-8fa0-51051f7d1d03> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-08> ;
+        crm:P70i_is_documented_in  <urn:uuid:634b894b-f587-48d4-8514-50eed1d6657f> .
+
+<http://www.sealit.gr/DB/person/9EF79A6C-8CBE-39F7-A97E-33D79F278A56>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Antonio Panades" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/D80F2E4B-0C76-300A-8BB6-1009677ECD31> ;
+        sealit:has_first_name           "Antonio" ;
+        sealit:has_last_name            "Panades" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/D80F2E4B-0C76-300A-8BB6-1009677ECD31> .
+
+<http://www.sealit.gr/DB/person/250AD5CA-1A4C-3843-9630-B94C5C7D21F9>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Vidal" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/77221AC7-0B1A-30B0-9FCE-CB5BF91E0425> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Vidal" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/77221AC7-0B1A-30B0-9FCE-CB5BF91E0425> .
+
+<http://www.sealit.gr/DB/date/1859-10-14>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-14" ;
+        crm:P82_at_some_time_within  "1859-10-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:b7e88eb3-8895-45de-84af-9f854ca1db62>
+        a                crm:E31_Document ;
+        rdfs:label       "151" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:75197881-4568-4de7-a95a-a2b9045148e3>
+        a                crm:E31_Document ;
+        rdfs:label       "89" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:645c7ba8-2b47-4938-a6ac-93c1572cf29e>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/date/1859-08-08>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-08-08" ;
+        crm:P82_at_some_time_within  "1859-08-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-09-09>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-09-09" ;
+        crm:P82_at_some_time_within  "1859-09-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/birth/50430D5B-98AB-3C7A-B27E-51C13C82F9AB>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Pedro Baldo" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/DA88A99B-DDA0-38BA-8D9A-F050E1F62F98> .
+
+<http://www.sealit.gr/DB/birth/D80F2E4B-0C76-300A-8BB6-1009677ECD31>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Antonio Panades" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/7243EAAB-8718-3F7B-A746-E1114910E67E> .
+
+<http://www.sealit.gr/DB/birth/77745603-CF84-392B-8F9D-7819B3E50BD7>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Juan Jover" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/26047178-0F85-3694-9FE9-DD7406E8B7A2> .
+
+<urn:uuid:0a027d76-b9aa-423f-8ea8-a70eebf9d536>
+        a                crm:E31_Document ;
+        rdfs:label       "132" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/29A9513F-078F-319C-ADF8-432A316C862D>
+        a                      crm:E21_Person ;
+        rdfs:label             "Miguel Mari" ;
+        sealit:has_first_name  "Miguel" ;
+        sealit:has_last_name   "Mari" .
+
+<http://www.sealit.gr/DB/Doc%20types/folio>
+        a           crm:E55_Type ;
+        rdfs:label  "folio" .
+
+<http://www.sealit.gr/DB/appellation/26F10A35-5090-3B48-A7E4-1DA9ACF5C1AA>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Boletín Oficial de la Provincia de Barcelona" .
+
+<urn:uuid:66515671-7e64-42bb-9123-7986c269ea39>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/60C02C6D-1AB5-332D-B641-9B5580297450>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Carlos Busquets" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/452B0A1B-EFB3-3F1D-9C1C-1E94187AB539> ;
+        sealit:has_first_name           "Carlos" ;
+        sealit:has_last_name            "Busquets" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/452B0A1B-EFB3-3F1D-9C1C-1E94187AB539> .
+
+<http://www.sealit.gr/DB/person/657250DE-98A2-3CE4-9A0D-6B556B9F5055>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Domingo Gras" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/5A76CD0F-E054-3C29-BC75-B0CB5C9AD341> ;
+        sealit:has_first_name           "Domingo" ;
+        sealit:has_last_name            "Gras" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/5A76CD0F-E054-3C29-BC75-B0CB5C9AD341> .
+
+<http://www.sealit.gr/DB/person/A04EC764-E0B9-3981-A22E-56FF5CBCA31C>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Viche" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/193096B7-A269-33C3-A7D2-FCA8EF9F047C> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Viche" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/193096B7-A269-33C3-A7D2-FCA8EF9F047C> .
+
+<http://www.sealit.gr/DB/registration/B53051CF-5270-3AEC-A02B-631E6838E58B>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Domingo Parera" ;
+        crm:P14_carried_out_by     <urn:uuid:fbc01e80-7379-4b8c-8c0a-9aa542fb548f> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-12> ;
+        crm:P70i_is_documented_in  <urn:uuid:0a027d76-b9aa-423f-8ea8-a70eebf9d536> .
+
+<http://www.sealit.gr/DB/date/1859-07-19>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-07-19" ;
+        crm:P82_at_some_time_within  "1859-07-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:188a564f-bd27-44fd-99a8-f34c31bc1a8b>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:3456c5bf-6729-4525-9175-b4e4fc4e304e>
+        a                crm:E31_Document ;
+        rdfs:label       "161" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/registration/04AF90D1-6ED9-3CD3-901B-07615FF476CC>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Pedro Costa" ;
+        crm:P14_carried_out_by     <urn:uuid:a8933bda-ce7c-414f-bca5-b2d430b8fd44> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-30> ;
+        crm:P70i_is_documented_in  <urn:uuid:0416a3b3-cbb9-4fcb-91af-3067872eee28> .
+
+<http://www.sealit.gr/DB/registration/B382BF43-7E1C-3C6C-9A76-42901A37E87C>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Pedro Pareta" ;
+        crm:P14_carried_out_by     <urn:uuid:32a23f3e-0d70-478b-b3f4-facf14bfed78> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-05-17> ;
+        crm:P70i_is_documented_in  <urn:uuid:16367e63-de55-4de1-a82c-9e642b85313a> .
+
+<http://www.sealit.gr/DB/person/EEACC501-95E5-3913-8912-37A1A540F81E>
+        a                      crm:E21_Person ;
+        rdfs:label             "Miguel Viñas" ;
+        sealit:has_first_name  "Miguel" ;
+        sealit:has_last_name   "Viñas" .
+
+<urn:uuid:a5052dd5-1495-478f-a631-a48ccd666232>
+        a                crm:E31_Document ;
+        rdfs:label       "123" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29>
+        a           crm:E55_Type ;
+        rdfs:label  "sailors register (libro de registro de marineros)" .
+
+<http://www.sealit.gr/DB/date/1859-07-20>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-07-20" ;
+        crm:P82_at_some_time_within  "1859-07-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c5e9b9b3-b0c5-4f0a-be73-2199dbe4fca7>
+        a                crm:E31_Document ;
+        rdfs:label       "9" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:0c9c146a-9145-45fa-a908-20020a13a628>
+        a                crm:E31_Document ;
+        rdfs:label       "58" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/date/1859-09-22>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-09-22" ;
+        crm:P82_at_some_time_within  "1859-09-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/1BD3EBA9-372E-3101-AB07-668B57DDB0E8>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Gras" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Gras" .
+
+<urn:uuid:6919b020-e40b-4067-a95b-d653aec232c9>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "performed" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/roles%20type/supervisor> .
+
+<http://www.sealit.gr/DB/person/FEAE7FB0-28B5-3DD1-BB67-E0E31E2658DF>
+        a                      crm:E21_Person ;
+        rdfs:label             "Marcos Macaya" ;
+        sealit:has_first_name  "Marcos" ;
+        sealit:has_last_name   "Macaya" .
+
+<http://www.sealit.gr/DB/birth/83C9EB71-834D-3D68-ABF2-810C11524D17>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Isidro Albert" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/D17B503A-7CE0-3E07-874C-2B6642905BFE> .
+
+<urn:uuid:4de47414-f483-46f7-af42-f2f6c78735e8>
+        a                        crm:E31_Document ;
+        rdfs:label               "Folder Boletín Oficial de la Provincia de Barcelona" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/series%20identifier/237> , <http://www.sealit.gr/DB/appellation/26F10A35-5090-3B48-A7E4-1DA9ACF5C1AA> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/doc%20types/series> , <http://www.sealit.gr/DB/doc%20types/folder> .
+
+<http://www.sealit.gr/DB/doc%20types/source%20identity>
+        a           crm:E55_Type ;
+        rdfs:label  "source identity" .
+
+<http://www.sealit.gr/DB/date/1859-10-08>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-08" ;
+        crm:P82_at_some_time_within  "1859-10-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:a8933bda-ce7c-414f-bca5-b2d430b8fd44>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<urn:uuid:50534179-a69e-4a2d-a8b7-ce6883189d9e>
+        a                crm:E31_Document ;
+        rdfs:label       "112" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:06fa33fc-c307-4d4a-be0f-b43426d160c7>
+        a                crm:E31_Document ;
+        rdfs:label       "106" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/D72E4592-DBEF-3A51-8F55-C5C2AE6D713D>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Manuel Capellans" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/EC52E975-A83C-3D3D-81AE-325749CA2B4E> ;
+        sealit:has_first_name           "Manuel" ;
+        sealit:has_last_name            "Capellans" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/EC52E975-A83C-3D3D-81AE-325749CA2B4E> .
+
+<http://www.sealit.gr/DB/registration/4FA8DD0A-8729-3219-B904-1317A7FA0B86>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Herminio Macaya" ;
+        crm:P14_carried_out_by     <urn:uuid:b704f413-297c-4ac7-8bb8-cd6919489273> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-17> ;
+        crm:P70i_is_documented_in  <urn:uuid:d54d29f0-cbbf-4f24-a9fb-d84b9e8b1090> .
+
+<urn:uuid:0416a3b3-cbb9-4fcb-91af-3067872eee28>
+        a                crm:E31_Document ;
+        rdfs:label       "15" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:abe98e18-f06a-42f7-b106-bdf8be4f69be>
+        a                crm:E31_Document ;
+        rdfs:label       "134" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/40760341-2CD5-34F5-B2B2-6426CA840354>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Antonio Monne" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/8398CAB0-AD2A-3FD8-B7EF-5F68AEE99936> ;
+        sealit:has_first_name           "Antonio" ;
+        sealit:has_last_name            "Monne" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/8398CAB0-AD2A-3FD8-B7EF-5F68AEE99936> .
+
+<urn:uuid:11cfd6bb-89a9-45e5-87d1-6b813b4c5c37>
+        a                crm:E31_Document ;
+        rdfs:label       "139" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:f91a67ad-11b6-442a-a4a5-2dc56f28ea3a>
+        a                crm:E31_Document ;
+        rdfs:label       "138" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/24B2FC62-55DB-3C6A-9133-3648E0FFF60A>
+        a                      crm:E21_Person ;
+        rdfs:label             "Pablo Alie" ;
+        sealit:has_first_name  "Pablo" ;
+        sealit:has_last_name   "Alie" .
+
+<http://www.sealit.gr/DB/birth/EC52E975-A83C-3D3D-81AE-325749CA2B4E>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Manuel Capellans" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/E0CB4768-0FCE-3AC0-BC91-975F610E3CB3> .
+
+<http://www.sealit.gr/DB/birth/C9E71DFE-2445-38E8-A0BD-93BD60ACAC50>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jaime Carrobe" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/D4078F49-E511-3AFE-ABDF-827FBE02EE18> .
+
+<http://www.sealit.gr/DB/person/DD6D6DDC-E90E-3307-981C-0048A36EB256>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Joaquin Pi" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/2602D587-57DF-3320-8AB9-B00A08E2C37D> ;
+        sealit:has_first_name           "Joaquin" ;
+        sealit:has_last_name            "Pi" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/2602D587-57DF-3320-8AB9-B00A08E2C37D> .
+
+<http://www.sealit.gr/DB/date/1859-10-21>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-21" ;
+        crm:P82_at_some_time_within  "1859-10-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/registration/FC0595D2-8832-36B3-97A0-95C66B7D4736>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Mari" ;
+        crm:P14_carried_out_by     <urn:uuid:3ce689c1-cf44-4c40-98eb-d2072e8d3a67> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-08-24> ;
+        crm:P70i_is_documented_in  <urn:uuid:e9302c05-c88d-4b7c-b572-1447a5562de7> .
+
+<http://www.sealit.gr/DB/person/0433CBBB-39BF-369F-9B66-B99183B99A5C>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Geronimo Clausells" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/ECF1D6D2-3FB9-3BD8-9A07-93B92B93E28F> ;
+        sealit:has_first_name           "Geronimo" ;
+        sealit:has_last_name            "Clausells" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/ECF1D6D2-3FB9-3BD8-9A07-93B92B93E28F> .
+
+<urn:uuid:630dc913-05f5-4b74-a560-4972283ccdea>
+        a                crm:E31_Document ;
+        rdfs:label       "160" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/birth/14DD8A73-8A9F-3EA6-A916-280F3B61F78B>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Alie" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/24B2FC62-55DB-3C6A-9133-3648E0FFF60A> .
+
+<http://www.sealit.gr/DB/person/DBA7740C-9650-350A-885E-5800E148DACF>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Martinella" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/8553C1FF-17E0-328D-97A3-9630A26C6959> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Martinella" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/8553C1FF-17E0-328D-97A3-9630A26C6959> .
+
+<http://www.sealit.gr/DB/registration/ED4C4ED1-723F-3AEC-BC96-4744B1F4C772>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Francisco Roig" ;
+        crm:P14_carried_out_by     <urn:uuid:71b0bca8-d74e-4a68-bf27-f5e5d19b5ce8> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-21> ;
+        crm:P70i_is_documented_in  <urn:uuid:75197881-4568-4de7-a95a-a2b9045148e3> .
+
+<http://www.sealit.gr/DB/doc%20types/record%20information>
+        a           crm:E55_Type ;
+        rdfs:label  "record information" .
+
+<http://www.sealit.gr/DB/date/1859-07-26>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-07-26" ;
+        crm:P82_at_some_time_within  "1859-07-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/952CAB54-42D7-3D71-B548-7B42D76BD3D3>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Miguel Tersol" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/C4FF1BDB-65E2-3F3C-89D4-E4A98F0DCBC2> ;
+        sealit:has_first_name           "Miguel" ;
+        sealit:has_last_name            "Tersol" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/C4FF1BDB-65E2-3F3C-89D4-E4A98F0DCBC2> .
+
+<http://www.sealit.gr/DB/date/1859-09-28>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-09-28" ;
+        crm:P82_at_some_time_within  "1859-09-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:d8979aaa-7086-496a-9cbb-ea152febf4cc>
+        a                crm:E31_Document ;
+        rdfs:label       "164" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/date/1859-10-03>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-03" ;
+        crm:P82_at_some_time_within  "1859-10-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:5f20d0a7-5a01-4883-8a63-2dfca0d7c52b>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/541BD625-7B41-3C0A-8C4A-7B63C4DB99D4>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Bartolome Grange" ;
+        crm:P14_carried_out_by     <urn:uuid:aa47205c-65d4-4bd5-bab1-9397b2638067> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-05-14> ;
+        crm:P70i_is_documented_in  <urn:uuid:86095dd7-3e6e-4604-8859-66d8a9f2a885> .
+
+<http://www.sealit.gr/DB/person/CE7AD6AD-18C3-369E-BC6E-1D812ED72EA2>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Bartolome Grange" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/541BD625-7B41-3C0A-8C4A-7B63C4DB99D4> ;
+        sealit:has_first_name           "Bartolome" ;
+        sealit:has_last_name            "Grange" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/541BD625-7B41-3C0A-8C4A-7B63C4DB99D4> .
+
+<http://www.sealit.gr/DB/person/64FFFC0C-8F51-3414-8072-12EE6440E90B>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Pascual" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/72D7894B-5FF5-33A3-B877-F287C7FC197E> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Pascual" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/72D7894B-5FF5-33A3-B877-F287C7FC197E> .
+
+<urn:uuid:12a9afa6-731d-4f51-85f8-9f1fcbdfdb7a>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:e9608097-e35a-4a6d-92f5-e61fcbd71645>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/4B9B5E14-F5A7-3BFE-A59B-AD697A2AB48E>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Rafael Gibert" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/65AE9E87-A81E-357C-9538-BA0C317CCCA6> ;
+        sealit:has_first_name           "Rafael" ;
+        sealit:has_last_name            "Gibert" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/65AE9E87-A81E-357C-9538-BA0C317CCCA6> .
+
+<http://www.sealit.gr/DB/birth/77221AC7-0B1A-30B0-9FCE-CB5BF91E0425>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Juan Vidal" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/587C12E4-A793-3B00-AAF2-451D65950F97> .
+
+<http://www.sealit.gr/DB/birth/59108CC6-C56D-3E42-96DD-DA7AB8CB83BB>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Juan Pijem" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/499895F7-DC21-38D2-B577-018C33D0CFC9> .
+
+<http://www.sealit.gr/DB/birth/A133758B-14CC-3B2C-AD94-B13A0AF9E434>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Juan Casademunt" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/A32A7AAE-595E-3556-967D-898A11B53C2A> .
+
+<http://www.sealit.gr/DB/person/B8E8CE87-AA59-3B97-B2ED-980823AAB14B>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Andres Alegre" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/6A29998E-DC4D-3366-9DAF-6EA3D374E904> ;
+        sealit:has_first_name           "Andres" ;
+        sealit:has_last_name            "Alegre" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/6A29998E-DC4D-3366-9DAF-6EA3D374E904> .
+
+<urn:uuid:b9f1a09a-fc91-4776-a23b-4e61479ebe5d>
+        a                crm:E31_Document ;
+        rdfs:label       "163" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/birth/49FEA3ED-8923-3C39-960A-8D239577FFE6>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Juan Cros" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/04850EF5-D99F-3BAD-8AE4-568DF03C7283> .
+
+<urn:uuid:ac97de96-d9d0-4c91-ab9d-17218bbbbc83>
+        a                crm:E31_Document ;
+        rdfs:label       "17" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/birth/452B0A1B-EFB3-3F1D-9C1C-1E94187AB539>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Carlos Busquets" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/A4ABD31D-3C5D-3BCC-B46F-F8486B01CB16> .
+
+<http://www.sealit.gr/DB/registration/8398CAB0-AD2A-3FD8-B7EF-5F68AEE99936>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Antonio Monne" ;
+        crm:P14_carried_out_by     <urn:uuid:21fd9bb4-f97e-4840-8ce7-da525335774b> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-27> ;
+        crm:P70i_is_documented_in  <urn:uuid:0a934246-ee24-4c33-8cac-f21166afd675> .
+
+<urn:uuid:32a23f3e-0d70-478b-b3f4-facf14bfed78>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/D80BFD3F-4F38-3298-B0A0-6D83A6AFC303>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Roig" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Roig" .
+
+<http://www.sealit.gr/DB/date/1859-07-08>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-07-08" ;
+        crm:P82_at_some_time_within  "1859-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/0170238F-4E45-32D6-8E5D-360401F396D3>
+        a                      crm:E21_Person ;
+        rdfs:label             "Miguel Balet" ;
+        sealit:has_first_name  "Miguel" ;
+        sealit:has_last_name   "Balet" .
+
+<http://www.sealit.gr/DB/person/5E3F4BA3-83C1-3AA7-A1F9-3C8A36B5BCBA>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Domingo Parera" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/B53051CF-5270-3AEC-A02B-631E6838E58B> ;
+        sealit:has_first_name           "Domingo" ;
+        sealit:has_last_name            "Parera" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/B53051CF-5270-3AEC-A02B-631E6838E58B> .
+
+<http://www.sealit.gr/DB/person/FAD7C323-B2B0-37FA-9FD5-DEEC5D6ADB6A>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jose Arbat" ;
+        sealit:has_first_name  "Jose" ;
+        sealit:has_last_name   "Arbat" .
+
+<http://www.sealit.gr/DB/birth/F0282A80-2DED-335F-982F-2D694CEF5090>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Miguel Panades" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/C6517C93-BA3D-3AAD-B8C0-9DCAD2717F39> .
+
+<http://www.sealit.gr/DB/person/334167BB-8A4B-3355-8894-FF3EDB072D0B>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jose Resta" ;
+        sealit:has_first_name  "Jose" ;
+        sealit:has_last_name   "Resta" .
+
+<http://www.sealit.gr/DB/person/1D16248C-5B02-3730-872B-DE11AF6EAEE4>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jaime de Yebra" ;
+        sealit:has_first_name  "Jaime" ;
+        sealit:has_last_name   "de Yebra" .
+
+<http://www.sealit.gr/DB/registration/D80F2E4B-0C76-300A-8BB6-1009677ECD31>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Antonio Panades" ;
+        crm:P14_carried_out_by     <urn:uuid:eecd27a0-dd5f-4619-90a3-05ed3f382d32> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-03> ;
+        crm:P70i_is_documented_in  <urn:uuid:7ec47091-559c-4250-8cd2-70a03166036f> .
+
+<http://www.sealit.gr/DB/birth/72D7894B-5FF5-33A3-B877-F287C7FC197E>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Pascual" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/6FDE67F6-5DA9-3CE1-AF5A-DB2215AA4E4A> .
+
+<urn:uuid:aa47205c-65d4-4bd5-bab1-9397b2638067>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/77745603-CF84-392B-8F9D-7819B3E50BD7>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Juan Jover" ;
+        crm:P14_carried_out_by     <urn:uuid:7d97d6eb-5a32-422a-81da-2b59e6ea0e86> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-05-14> ;
+        crm:P70i_is_documented_in  <urn:uuid:8e60c076-e59b-4e46-8ac7-bd7a4cb1696a> .
+
+<urn:uuid:86f6a345-c715-4438-b1d0-56e081ca12fc>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/date/1859-06-19>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-06-19" ;
+        crm:P82_at_some_time_within  "1859-06-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:6f0a8381-bfc2-4103-b6d6-4506dbeaa5a2>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/26047178-0F85-3694-9FE9-DD7406E8B7A2>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jose Jover" ;
+        sealit:has_first_name  "Jose" ;
+        sealit:has_last_name   "Jover" .
+
+<http://www.sealit.gr/DB/birth/6A29998E-DC4D-3366-9DAF-6EA3D374E904>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Andres Alegre" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/1E10EA30-467E-3168-ACD1-21DE5965CEA5> .
+
+<urn:uuid:9dbf0085-ab07-4b39-91b2-c803c2139b5f>
+        a                crm:E31_Document ;
+        rdfs:label       "7" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:0c13bb67-1af3-4fd9-ba13-ab4552dc772d>
+        a                crm:E31_Document ;
+        rdfs:label       "7" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/2F89C2D0-059F-3480-9144-17DC325E042B>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jorge Gras" ;
+        sealit:has_first_name  "Jorge" ;
+        sealit:has_last_name   "Gras" .
+
+<http://www.sealit.gr/DB/roles%20type/supervisor>
+        a           crm:E55_Type ;
+        rdfs:label  "supervisor" .
+
+<http://www.sealit.gr/DB/date/1859-05-14>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-05-14" ;
+        crm:P82_at_some_time_within  "1859-05-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-08-22>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-08-22" ;
+        crm:P82_at_some_time_within  "1859-08-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/303E28AB-2CBA-32A8-8CA8-7DEF8904AA6E>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Francisco Liña" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/F58312DC-97CD-3CA9-AD58-CF2E435EE765> ;
+        sealit:has_first_name           "Francisco" ;
+        sealit:has_last_name            "Liña" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/F58312DC-97CD-3CA9-AD58-CF2E435EE765> .
+
+<urn:uuid:eecd27a0-dd5f-4619-90a3-05ed3f382d32>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/F58312DC-97CD-3CA9-AD58-CF2E435EE765>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Francisco Liña" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/AAE504F5-8777-35A0-A7B0-F49BD4ED3163> .
+
+<urn:uuid:b57aca7e-8f83-4b24-b43f-ca8da573a8fd>
+        a                crm:E31_Document ;
+        rdfs:label       "6" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:04fa4cf3-fdc7-497f-94a9-ad3c4b5b5a88>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/B08C78DE-A9B9-3EA4-9A2F-88540C0397FD>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Pijem" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/59108CC6-C56D-3E42-96DD-DA7AB8CB83BB> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Pijem" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/59108CC6-C56D-3E42-96DD-DA7AB8CB83BB> .
+
+<http://www.sealit.gr/DB/person/6B6742F7-F585-3893-8EC1-8461631FD7CE>
+        a                      crm:E21_Person ;
+        rdfs:label             "Gaspar Perez" ;
+        sealit:has_first_name  "Gaspar" ;
+        sealit:has_last_name   "Perez" .
+
+<http://www.sealit.gr/DB/birth/20E8B1AF-028E-3FC0-9664-6BD308FEE907>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Erasmo Roig" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/CABE45D8-EF1D-30A9-B989-2C8CA605A700> .
+
+<urn:uuid:ab278eb1-a497-4d87-b82f-a852a4a282a8>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:86095dd7-3e6e-4604-8859-66d8a9f2a885>
+        a                crm:E31_Document ;
+        rdfs:label       "4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/registration/83C9EB71-834D-3D68-ABF2-810C11524D17>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Isidro Albert" ;
+        crm:P14_carried_out_by     <urn:uuid:b72e96d5-b331-49a8-8dde-10f400af2495> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-14> ;
+        crm:P70i_is_documented_in  <urn:uuid:630dc913-05f5-4b74-a560-4972283ccdea> .
+
+<http://www.sealit.gr/DB/date/1859-05-26>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-05-26" ;
+        crm:P82_at_some_time_within  "1859-05-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/E0CB4768-0FCE-3AC0-BC91-975F610E3CB3>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jacinto Capellans" ;
+        sealit:has_first_name  "Jacinto" ;
+        sealit:has_last_name   "Capellans" .
+
+<http://www.sealit.gr/DB/birth/6E8E58D4-87F5-355E-8DE9-CF32F05311F0>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Felix Miralpeix" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/28AF045B-21B7-3665-937D-9CCC77C61A85> .
+
+<http://www.sealit.gr/DB/date/1859-10-10>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-10" ;
+        crm:P82_at_some_time_within  "1859-10-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:ee42ee1f-2654-49c1-b0bc-8ff32e0c0758>
+        a                crm:E31_Document ;
+        rdfs:label       "13" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/birth/193096B7-A269-33C3-A7D2-FCA8EF9F047C>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Juan Viche" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/A8391964-F4FA-37C3-95C8-C3DC49BDD1AD> .
+
+<http://www.sealit.gr/DB/birth/ECF1D6D2-3FB9-3BD8-9A07-93B92B93E28F>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Geronimo Clausells" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/2EEA5C4F-DB2A-36AB-A019-3643FE094AE7> .
+
+<urn:uuid:045e25df-b538-4cb6-be17-c4b0c371dde3>
+        a                crm:E31_Document ;
+        rdfs:label       "103" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/registration/3515CF4C-D22E-3C06-B85E-FD3993951E95>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Froilan Graner" ;
+        crm:P14_carried_out_by     <urn:uuid:c20f82aa-b2e3-45d0-9c6d-0fb20bcb7555> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-18> ;
+        crm:P70i_is_documented_in  <urn:uuid:ac97de96-d9d0-4c91-ab9d-17218bbbbc83> .
+
+<http://www.sealit.gr/DB/person/838D4E9A-D8F8-3B2A-87B9-63BC968DC28B>
+        a                      crm:E21_Person ;
+        rdfs:label             "Pablo Grange" ;
+        sealit:has_first_name  "Pablo" ;
+        sealit:has_last_name   "Grange" .
+
+<http://www.sealit.gr/DB/person/05EE1252-520F-3F51-B0E4-B35D62770ED6>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Mestre" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Mestre" .
+
+<http://www.sealit.gr/DB/person/E93F86B2-586C-3926-BC6D-D91D3DB04658>
+        a                      crm:E21_Person ;
+        rdfs:label             "Julian Llopis" ;
+        sealit:has_first_name  "Julian" ;
+        sealit:has_last_name   "Llopis" .
+
+<urn:uuid:f57baa9d-6970-44e9-8e1c-2f1a24a5a765>
+        a                crm:E31_Document ;
+        rdfs:label       "60" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/32646ADF-FC1E-3F5E-8055-EADCB5DE25FC>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jose Batlle" ;
+        sealit:has_first_name  "Jose" ;
+        sealit:has_last_name   "Batlle" .
+
+<urn:uuid:ca22dcd5-29dd-4fd4-a0b9-3bb02cd589c4>
+        a                crm:E31_Document ;
+        rdfs:label       "122" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/F3EA25EE-17E8-31AE-9960-5D8E349F78AF>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Jover" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/77745603-CF84-392B-8F9D-7819B3E50BD7> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Jover" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/77745603-CF84-392B-8F9D-7819B3E50BD7> .
+
+<urn:uuid:3fe1cfbc-a17a-4c06-9c9d-f92f761b5646>
+        a                crm:E31_Document ;
+        rdfs:label       "99" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:133749e4-29ad-4b83-8eaa-a0c9bc98751d>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/6CAD9DAE-FAFC-3E48-93D6-B0AC1EAB1A4D>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Felix Mestre" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/05EE1252-520F-3F51-B0E4-B35D62770ED6> .
+
+<http://www.sealit.gr/DB/organisation/university%20of%20barcelona>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "University of Barcelona" .
+
+<http://www.sealit.gr/DB/date/1859-06-14>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-06-14" ;
+        crm:P82_at_some_time_within  "1859-06-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-07-15>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-07-15" ;
+        crm:P82_at_some_time_within  "1859-07-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-08-16>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-08-16" ;
+        crm:P82_at_some_time_within  "1859-08-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/registration/EC52E975-A83C-3D3D-81AE-325749CA2B4E>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Manuel Capellans" ;
+        crm:P14_carried_out_by     <urn:uuid:133749e4-29ad-4b83-8eaa-a0c9bc98751d> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-09> ;
+        crm:P70i_is_documented_in  <urn:uuid:241754ab-72eb-444a-b1d6-43fca344d056> .
+
+<http://www.sealit.gr/DB/person/63023FCB-C78A-3DFC-AF6D-0379EB8CB2EA>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jordi Ibarz" ;
+        crm:P02i_is_range_of   <urn:uuid:6919b020-e40b-4067-a95b-d653aec232c9> ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/organisation/university%20of%20barcelona> ;
+        sealit:has_first_name  "Jordi" ;
+        sealit:has_last_name   "Ibarz" .
+
+<http://www.sealit.gr/DB/registration/C9E71DFE-2445-38E8-A0BD-93BD60ACAC50>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jaime Carrobe" ;
+        crm:P14_carried_out_by     <urn:uuid:7e5463b4-3505-4876-9e8f-9ada3f18328d> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-07-20> ;
+        crm:P70i_is_documented_in  <urn:uuid:c5e9b9b3-b0c5-4f0a-be73-2199dbe4fca7> .
+
+<http://www.sealit.gr/DB/registration/BBFBD01B-CE6D-355D-B317-4E987707D625>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Juan Juanim" ;
+        crm:P14_carried_out_by     <urn:uuid:2076fe44-742d-4f4a-992a-3c6cadcdf0d9> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-08-08> ;
+        crm:P70i_is_documented_in  <urn:uuid:aada100f-866d-4f73-b3ac-1a76d2ebc382> .
+
+<urn:uuid:b1ecebab-a275-4fd8-b066-d3a3213dba2a>
+        a                crm:E31_Document ;
+        rdfs:label       "137" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/2EEA5C4F-DB2A-36AB-A019-3643FE094AE7>
+        a                      crm:E21_Person ;
+        rdfs:label             "Pedro Clausells" ;
+        sealit:has_first_name  "Pedro" ;
+        sealit:has_last_name   "Clausells" .
+
+<http://www.sealit.gr/DB/person/28AF045B-21B7-3665-937D-9CCC77C61A85>
+        a                      crm:E21_Person ;
+        rdfs:label             "otro Miralpeix" ;
+        sealit:has_first_name  "otro" ;
+        sealit:has_last_name   "Miralpeix" .
+
+<http://www.sealit.gr/DB/birth/DD01C863-B53F-3EBA-9694-3403C1CEF70C>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Blanch" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/AADA6C45-E432-31F0-8927-07ADF33B9096> .
+
+<http://www.sealit.gr/DB/birth/932232B8-DC68-3EB6-8501-E7CCD0ED42EF>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Esteban Llopis" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/E93F86B2-586C-3926-BC6D-D91D3DB04658> .
+
+<http://www.sealit.gr/DB/person/79428F8A-F8FA-31F6-9A0A-F0C5B9337333>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Roses" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/F1E88F49-1939-3A6A-B3D1-9BF9436DF722> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Roses" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/F1E88F49-1939-3A6A-B3D1-9BF9436DF722> .
+
+<urn:uuid:21fd9bb4-f97e-4840-8ce7-da525335774b>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/0FCDB601-D87B-3074-BD27-D298F763C971>
+        a                      crm:E21_Person ;
+        rdfs:label             "Geronimo Pi" ;
+        sealit:has_first_name  "Geronimo" ;
+        sealit:has_last_name   "Pi" .
+
+<urn:uuid:19589652-f7b8-42e8-8fe6-38437183de7d>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:643678f3-9fb6-43c5-b6c5-eb15a15b6814>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/14DD8A73-8A9F-3EA6-A916-280F3B61F78B>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Alie" ;
+        crm:P14_carried_out_by     <urn:uuid:7588292a-6c09-4390-ac50-3f94e3c0ce86> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-14> ;
+        crm:P70i_is_documented_in  <urn:uuid:ee42ee1f-2654-49c1-b0bc-8ff32e0c0758> .
+
+<http://www.sealit.gr/DB/birth/31F449B0-7665-3C17-BC4E-F6BF2B0A745A>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Isidro Balet" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/0170238F-4E45-32D6-8E5D-360401F396D3> .
+
+<urn:uuid:3149d552-e07b-410d-b97b-7017dbbb8fac>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:7d97d6eb-5a32-422a-81da-2b59e6ea0e86>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/date/1859-10-04>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-04" ;
+        crm:P82_at_some_time_within  "1859-10-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:6253293b-6237-4ef9-bb11-76712bb6d28d>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/6FDE67F6-5DA9-3CE1-AF5A-DB2215AA4E4A>
+        a                      crm:E21_Person ;
+        rdfs:label             "otro Pascual" ;
+        sealit:has_first_name  "otro" ;
+        sealit:has_last_name   "Pascual" .
+
+<urn:uuid:3b51448b-c511-424d-a87e-59077eef11ab>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/series%20identifier/237>
+        a           crm:E42_Identifier ;
+        rdfs:label  "237" .
+
+<http://www.sealit.gr/DB/date/1859-09-30>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-09-30" ;
+        crm:P82_at_some_time_within  "1859-09-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:b159d99e-c9f6-42d0-bd12-be4409b62b38>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/AADA6C45-E432-31F0-8927-07ADF33B9096>
+        a                      crm:E21_Person ;
+        rdfs:label             "Antonio Blanch" ;
+        sealit:has_first_name  "Antonio" ;
+        sealit:has_last_name   "Blanch" .
+
+<http://www.sealit.gr/DB/birth/DA9D66FF-2ED5-3DFB-BDCD-CA4B144169F6>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Borras" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/1EC7184D-058B-37E6-8140-EEA6B0FD3D8E> .
+
+<http://www.sealit.gr/DB/registration/59108CC6-C56D-3E42-96DD-DA7AB8CB83BB>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Juan Pijem" ;
+        crm:P14_carried_out_by     <urn:uuid:baf32db8-7241-4041-8f7b-c79cf5d69ce6> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-28> ;
+        crm:P70i_is_documented_in  <urn:uuid:ed579afd-4d12-4db4-b678-369c7436d5bf> .
+
+<http://www.sealit.gr/DB/registration/A133758B-14CC-3B2C-AD94-B13A0AF9E434>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Juan Casademunt" ;
+        crm:P14_carried_out_by     <urn:uuid:8b1ed2f7-7c7e-4925-ad01-00cade0392aa> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-07-08> ;
+        crm:P70i_is_documented_in  <urn:uuid:322c5f96-9444-4050-84dd-829b39c1400d> .
+
+<http://www.sealit.gr/DB/registration/77221AC7-0B1A-30B0-9FCE-CB5BF91E0425>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Juan Vidal" ;
+        crm:P14_carried_out_by     <urn:uuid:12a9afa6-731d-4f51-85f8-9f1fcbdfdb7a> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-22> ;
+        crm:P70i_is_documented_in  <urn:uuid:269f11cc-7610-411f-b799-3818fdbbbffb> .
+
+<http://www.sealit.gr/DB/person/499895F7-DC21-38D2-B577-018C33D0CFC9>
+        a                      crm:E21_Person ;
+        rdfs:label             "Martirian Pijem" ;
+        sealit:has_first_name  "Martirian" ;
+        sealit:has_last_name   "Pijem" .
+
+<http://www.sealit.gr/DB/person/AAE504F5-8777-35A0-A7B0-F49BD4ED3163>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Liña" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Liña" .
+
+<http://www.sealit.gr/DB/person/D4078F49-E511-3AFE-ABDF-827FBE02EE18>
+        a                      crm:E21_Person ;
+        rdfs:label             "Geronimo Carrobe" ;
+        sealit:has_first_name  "Geronimo" ;
+        sealit:has_last_name   "Carrobe" .
+
+<http://www.sealit.gr/DB/person/3A183E8C-3746-3706-9B80-25F8975606E0>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Subirats" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/6F9F3C23-090C-3D0D-9545-A8C0410EE67E> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Subirats" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/6F9F3C23-090C-3D0D-9545-A8C0410EE67E> .
+
+<urn:uuid:9e722d95-a23b-49d4-9429-5d2a4ebbec18>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:298b3270-fb9e-4141-a0cf-5f8583dc47b1>
+        a                crm:E31_Document ;
+        rdfs:label       "10" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/birth/C77D8751-2A0B-3CB7-A5C5-608FD8D5FD41>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Antonio Alsina" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/75019F89-0DF2-37A5-879C-0CFF6C689C31> .
+
+<http://www.sealit.gr/DB/person/A8391964-F4FA-37C3-95C8-C3DC49BDD1AD>
+        a                      crm:E21_Person ;
+        rdfs:label             "otro Viche" ;
+        sealit:has_first_name  "otro" ;
+        sealit:has_last_name   "Viche" .
+
+<http://www.sealit.gr/DB/person/4808BC74-9AC7-3C84-993A-BF40B0746765>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francisco Ribo" ;
+        sealit:has_first_name  "Francisco" ;
+        sealit:has_last_name   "Ribo" .
+
+<urn:uuid:48f934f6-c708-4620-a3d4-d5c01b669d62>
+        a                crm:E31_Document ;
+        rdfs:label       "101" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/date/1859-09-12>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-09-12" ;
+        crm:P82_at_some_time_within  "1859-09-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/5B2221FB-C857-354A-AB92-262D73F3EC55>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Esteban Llopis" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/932232B8-DC68-3EB6-8501-E7CCD0ED42EF> ;
+        sealit:has_first_name           "Esteban" ;
+        sealit:has_last_name            "Llopis" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/932232B8-DC68-3EB6-8501-E7CCD0ED42EF> .
+
+<http://www.sealit.gr/DB/registration/72D7894B-5FF5-33A3-B877-F287C7FC197E>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Pascual" ;
+        crm:P14_carried_out_by     <urn:uuid:beb993c9-06f7-41f6-a88f-2e466290571e> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-20> ;
+        crm:P70i_is_documented_in  <urn:uuid:2e31afaa-1083-4a36-8b48-1a85d8dea3e0> .
+
+<http://www.sealit.gr/DB/registration/F0282A80-2DED-335F-982F-2D694CEF5090>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Miguel Panades" ;
+        crm:P14_carried_out_by     <urn:uuid:643678f3-9fb6-43c5-b6c5-eb15a15b6814> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-20> ;
+        crm:P70i_is_documented_in  <urn:uuid:d8979aaa-7086-496a-9cbb-ea152febf4cc> .
+
+<urn:uuid:d18561e0-4804-40b0-80a4-b0df62b8233b>
+        a                crm:E31_Document ;
+        rdfs:label       "6" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:7588292a-6c09-4390-ac50-3f94e3c0ce86>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<urn:uuid:baf32db8-7241-4041-8f7b-c79cf5d69ce6>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/90BC6FC6-C7DA-39D4-A017-46890327BE6A>
+        a                      crm:E21_Person ;
+        rdfs:label             "Miguel Pareta" ;
+        sealit:has_first_name  "Miguel" ;
+        sealit:has_last_name   "Pareta" .
+
+<http://www.sealit.gr/DB/birth/5A76CD0F-E054-3C29-BC75-B0CB5C9AD341>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Domingo Gras" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/2F89C2D0-059F-3480-9144-17DC325E042B> .
+
+<http://www.sealit.gr/DB/person/E83C697C-F53B-30DA-AFD3-8A6981FC67E3>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Felix Mestre" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/6CAD9DAE-FAFC-3E48-93D6-B0AC1EAB1A4D> ;
+        sealit:has_first_name           "Felix" ;
+        sealit:has_last_name            "Mestre" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/6CAD9DAE-FAFC-3E48-93D6-B0AC1EAB1A4D> .
+
+<http://www.sealit.gr/DB/person/61E6CA77-7F8F-3DC8-B181-D0EA394132E9>
+        a                      crm:E21_Person ;
+        rdfs:label             "Antonio Juanim" ;
+        sealit:has_first_name  "Antonio" ;
+        sealit:has_last_name   "Juanim" .
+
+<urn:uuid:09006b05-7973-452a-bfec-5eee81eae457>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/6DA2A8F6-43CF-3BE9-9A6A-E9C32BCAEF5E>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Borras" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/DA9D66FF-2ED5-3DFB-BDCD-CA4B144169F6> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Borras" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/DA9D66FF-2ED5-3DFB-BDCD-CA4B144169F6> .
+
+<http://www.sealit.gr/DB/birth/F823623E-E946-3FAC-87EE-540610EF3F3C>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Juan Batlle" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/32646ADF-FC1E-3F5E-8055-EADCB5DE25FC> .
+
+<http://www.sealit.gr/DB/person/1DB09D41-EDED-3396-A8A0-7FD9316E86B9>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Pedro Pareta" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/B382BF43-7E1C-3C6C-9A76-42901A37E87C> ;
+        sealit:has_first_name           "Pedro" ;
+        sealit:has_last_name            "Pareta" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/B382BF43-7E1C-3C6C-9A76-42901A37E87C> .
+
+<urn:uuid:21f7ce7b-91cf-48e5-b871-1325052a87e4>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/date/1859-06-21>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-06-21" ;
+        crm:P82_at_some_time_within  "1859-06-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/birth/3D403261-FA22-3469-98F5-35CA27C67BEE>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Salvador Vallet" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/D8810F19-B7C7-363B-BE4E-EA128062261B> .
+
+<http://www.sealit.gr/DB/registration/6A29998E-DC4D-3366-9DAF-6EA3D374E904>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Andres Alegre" ;
+        crm:P14_carried_out_by     <urn:uuid:1b428dc3-8923-4a24-a111-7d53d2cff414> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-26> ;
+        crm:P70i_is_documented_in  <urn:uuid:77360788-24c0-46ff-9736-d6eff5e443a9> .
+
+<urn:uuid:241754ab-72eb-444a-b1d6-43fca344d056>
+        a                crm:E31_Document ;
+        rdfs:label       "12" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/F45B7DAE-786A-3405-BCF8-C02CC781C72E>
+        a                      crm:E21_Person ;
+        rdfs:label             "otro Subirats" ;
+        sealit:has_first_name  "otro" ;
+        sealit:has_last_name   "Subirats" .
+
+<http://www.sealit.gr/DB/registration/F58312DC-97CD-3CA9-AD58-CF2E435EE765>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Francisco Liña" ;
+        crm:P14_carried_out_by     <urn:uuid:7cbc3303-e37e-4277-a8c5-e7fc997b977c> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-14> ;
+        crm:P70i_is_documented_in  <urn:uuid:3456c5bf-6729-4525-9175-b4e4fc4e304e> .
+
+<http://www.sealit.gr/DB/birth/316421EF-432A-3E62-AB18-3481E788D3E1>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Antonio Pauli" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/1F3F9453-40BD-3997-A486-627822A52F83> .
+
+<http://www.sealit.gr/DB/birth/973D5FCB-3A7D-3F53-99A3-9BCBB9C6A3EC>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Espiridion Perez" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/6B6742F7-F585-3893-8EC1-8461631FD7CE> .
+
+<urn:uuid:5f7b6374-0878-4840-8a38-72cfc3c0da56>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:60a43812-9007-4e64-95b3-f9f970831f64>
+        a                crm:E31_Document ;
+        rdfs:label       "2" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/birth/3C42F24B-5716-3867-9DD8-0F8155AA87DB>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Enrique Arbat" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/FAD7C323-B2B0-37FA-9FD5-DEEC5D6ADB6A> .
+
+<http://www.sealit.gr/DB/birth/F1E88F49-1939-3A6A-B3D1-9BF9436DF722>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Roses" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/B184198D-DD4B-3149-B796-790AE0A0D206> .
+
+<http://www.sealit.gr/DB/person/01112C51-8335-3B6D-8537-FB237BCAB0C2>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jaime Carrobe" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/C9E71DFE-2445-38E8-A0BD-93BD60ACAC50> ;
+        sealit:has_first_name           "Jaime" ;
+        sealit:has_last_name            "Carrobe" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/C9E71DFE-2445-38E8-A0BD-93BD60ACAC50> .
+
+<http://www.sealit.gr/DB/birth/8553C1FF-17E0-328D-97A3-9630A26C6959>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Martinella" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/991B7ED4-1208-38ED-98E7-0648DDB80B0C> .
+
+<http://www.sealit.gr/DB/registration/20E8B1AF-028E-3FC0-9664-6BD308FEE907>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Erasmo Roig" ;
+        crm:P14_carried_out_by     <urn:uuid:9e722d95-a23b-49d4-9429-5d2a4ebbec18> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-07-26> ;
+        crm:P70i_is_documented_in  <urn:uuid:76fdc238-aefe-48a6-b77f-2136c26b8b9f> .
+
+<urn:uuid:57e38ac6-478a-4be4-9aac-a5b955e19233>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "performed" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/roles%20type/research%20assistant> .
+
+<urn:uuid:7ae0d0e5-c269-41ed-ae80-3e8cb875937c>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/50430D5B-98AB-3C7A-B27E-51C13C82F9AB>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Pedro Baldo" ;
+        crm:P14_carried_out_by     <urn:uuid:09006b05-7973-452a-bfec-5eee81eae457> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-03> ;
+        crm:P70i_is_documented_in  <urn:uuid:f57baa9d-6970-44e9-8e1c-2f1a24a5a765> .
+
+<http://www.sealit.gr/DB/birth/C4FF1BDB-65E2-3F3C-89D4-E4A98F0DCBC2>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Miguel Tersol" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/83F8F92A-ABD2-347C-98FE-F47E1E99E151> .
+
+<http://www.sealit.gr/DB/person/C5655097-2FC2-3CF2-B6EC-1BAD0CD1FCB5>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Esteban Giralt" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/4AEDD598-BB7F-3809-A14A-1F877BDA165C> ;
+        sealit:has_first_name           "Esteban" ;
+        sealit:has_last_name            "Giralt" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/4AEDD598-BB7F-3809-A14A-1F877BDA165C> .
+
+<http://www.sealit.gr/DB/date/1859-10-11>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-11" ;
+        crm:P82_at_some_time_within  "1859-10-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-06-03>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-06-03" ;
+        crm:P82_at_some_time_within  "1859-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-09-06>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-09-06" ;
+        crm:P82_at_some_time_within  "1859-09-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:afdb3ab4-4693-48a5-82b7-41bca51deae2>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Sitjes (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/sitjes%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/57C43EBB-5941-398E-B823-ACDA290F7EEB>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Riera" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/C834CFCD-6833-3630-820A-02FC0E017EC5> .
+
+<http://www.sealit.gr/DB/registration/6E8E58D4-87F5-355E-8DE9-CF32F05311F0>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Felix Miralpeix" ;
+        crm:P14_carried_out_by     <urn:uuid:1ab6e1ce-b6e7-4763-9898-3fbe1a0222a9> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-06> ;
+        crm:P70i_is_documented_in  <urn:uuid:894060c9-cb7a-42e3-8db9-ed5538e1e1b4> .
+
+<http://www.sealit.gr/DB/person/9366F135-586F-327E-ABD4-E2296FF80728>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Batlle" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/F823623E-E946-3FAC-87EE-540610EF3F3C> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Batlle" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/F823623E-E946-3FAC-87EE-540610EF3F3C> .
+
+<http://www.sealit.gr/DB/person/6A132079-808D-381B-ABB6-B52FE131BD02>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Blanch" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/DD01C863-B53F-3EBA-9694-3403C1CEF70C> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Blanch" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/DD01C863-B53F-3EBA-9694-3403C1CEF70C> .
+
+<http://www.sealit.gr/DB/registration/193096B7-A269-33C3-A7D2-FCA8EF9F047C>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Juan Viche" ;
+        crm:P14_carried_out_by     <urn:uuid:ab278eb1-a497-4d87-b82f-a852a4a282a8> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-22> ;
+        crm:P70i_is_documented_in  <urn:uuid:abe98e18-f06a-42f7-b106-bdf8be4f69be> .
+
+<http://www.sealit.gr/DB/person/5C302D04-EDC3-3795-8163-E3F9D4C1AD28>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Celestino Roses" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/8C9663D1-0287-343F-B502-8D23AFDC13B8> ;
+        sealit:has_first_name           "Celestino" ;
+        sealit:has_last_name            "Roses" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/8C9663D1-0287-343F-B502-8D23AFDC13B8> .
+
+<urn:uuid:76fdc238-aefe-48a6-b77f-2136c26b8b9f>
+        a                crm:E31_Document ;
+        rdfs:label       "110" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:e70d8287-08cc-41e8-aede-354b66dc83df>
+        a                crm:E31_Document ;
+        rdfs:label       "68" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/995A4FF7-1ECD-37AE-9571-D0A4B58CE94D>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Francisco Roig" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/ED4C4ED1-723F-3AEC-BC96-4744B1F4C772> ;
+        sealit:has_first_name           "Francisco" ;
+        sealit:has_last_name            "Roig" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/ED4C4ED1-723F-3AEC-BC96-4744B1F4C772> .
+
+<http://www.sealit.gr/DB/person/A32A7AAE-595E-3556-967D-898A11B53C2A>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jose Casademunt" ;
+        sealit:has_first_name  "Jose" ;
+        sealit:has_last_name   "Casademunt" .
+
+<http://www.sealit.gr/DB/date/1859-06-15>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-06-15" ;
+        crm:P82_at_some_time_within  "1859-06-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/1EC7184D-058B-37E6-8140-EEA6B0FD3D8E>
+        a                      crm:E21_Person ;
+        rdfs:label             "otro Borras" ;
+        sealit:has_first_name  "otro" ;
+        sealit:has_last_name   "Borras" .
+
+<http://www.sealit.gr/DB/person/364EB6D6-A7CF-35EC-A745-858BFA9283FF>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Pedro Resta" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/FC4264D8-58E0-3A99-9D00-81E276C20B3A> ;
+        sealit:has_first_name           "Pedro" ;
+        sealit:has_last_name            "Resta" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/FC4264D8-58E0-3A99-9D00-81E276C20B3A> .
+
+<http://www.sealit.gr/DB/date/1859-05-10>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-05-10" ;
+        crm:P82_at_some_time_within  "1859-05-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/668EA8D2-4ACB-3B8B-9394-31060DB6BA77>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Vallsolel" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Vallsolel" .
+
+<http://www.sealit.gr/DB/register_record/2019-10-11T11%3A15%3A46.008Z_4>
+        a                        crm:E73_Information_Object ;
+        rdfs:label               "Sailors register (Libro de registro de marineros), 1864-10-02, Clàudia Mateo Jordi Ibarz" ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29> , <http://www.sealit.gr/DB/doc%20types/record%20information> ;
+        crm:P67_refers_to        <http://www.sealit.gr/DB/Document_of_Register/7F697CF0-80B8-45C5-9C30-09E406600D4B> ;
+        crm:P94i_was_created_by  <urn:uuid:304dfe6a-f103-4760-888c-6a7d2ce5d954> .
+
+<urn:uuid:d41f6314-858f-4dc6-98ee-bb7cd25fba8b>
+        a                crm:E31_Document ;
+        rdfs:label       "149" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/registration/932232B8-DC68-3EB6-8501-E7CCD0ED42EF>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Esteban Llopis" ;
+        crm:P14_carried_out_by     <urn:uuid:62e4bf20-b99c-43f7-837a-352945e2b0a8> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-11> ;
+        crm:P70i_is_documented_in  <urn:uuid:3db27f98-ba28-4502-bac2-d5f74ce70f1c> .
+
+<http://www.sealit.gr/DB/person/2B75DD63-2C58-3E00-9449-1A82B225F14A>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Isidro Albert" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/83C9EB71-834D-3D68-ABF2-810C11524D17> ;
+        sealit:has_first_name           "Isidro" ;
+        sealit:has_last_name            "Albert" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/83C9EB71-834D-3D68-ABF2-810C11524D17> .
+
+<urn:uuid:2076fe44-742d-4f4a-992a-3c6cadcdf0d9>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:561b63b2-7f31-49b8-bd18-1153236e41ed>
+        a                crm:E31_Document ;
+        rdfs:label       "120" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/B75E1D32-043B-3722-96CB-08E83D793BA8>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Fulgencio Vives" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/41C71AF2-177F-3E8E-BF6D-7CA9AC7E5488> ;
+        sealit:has_first_name           "Fulgencio" ;
+        sealit:has_last_name            "Vives" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/41C71AF2-177F-3E8E-BF6D-7CA9AC7E5488> .
+
+<urn:uuid:304dfe6a-f103-4760-888c-6a7d2ce5d954>
+        a                       crm:E65_Creation ;
+        rdfs:label              "Creation of doc Sailors register (Libro de registro de marineros), 1864-10-02, Clàudia Mateo Jordi Ibarz" ;
+        crm:P14_carried_out_by  <http://www.sealit.gr/DB/person/63023FCB-C78A-3DFC-AF6D-0379EB8CB2EA> , <http://www.sealit.gr/DB/person/F9CA0FF4-F3C7-3BD1-814F-02FFE8ECE6B5> ;
+        crm:P4_has_time-span    <urn:uuid:abdc38f8-278b-44e9-b777-2da318ffd394> .
+
+<urn:uuid:8e2870bf-08c8-4e9b-b476-2f89fce7436d>
+        a                crm:E31_Document ;
+        rdfs:label       "159" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/registration/31F449B0-7665-3C17-BC4E-F6BF2B0A745A>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Isidro Balet" ;
+        crm:P14_carried_out_by     <urn:uuid:5f7b6374-0878-4840-8a38-72cfc3c0da56> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-14> ;
+        crm:P70i_is_documented_in  <urn:uuid:3ef77c4f-c42d-4d03-b4cb-c5ef25b073e9> .
+
+<http://www.sealit.gr/DB/person/F4798066-46BB-349F-BD8E-EFE34A899FCB>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Pablo Brugueras" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/EECD468A-FC72-3126-99DA-BAD9EBD707B7> ;
+        sealit:has_first_name           "Pablo" ;
+        sealit:has_last_name            "Brugueras" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/EECD468A-FC72-3126-99DA-BAD9EBD707B7> .
+
+<urn:uuid:8e60c076-e59b-4e46-8ac7-bd7a4cb1696a>
+        a                crm:E31_Document ;
+        rdfs:label       "53" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:ed579afd-4d12-4db4-b678-369c7436d5bf>
+        a                crm:E31_Document ;
+        rdfs:label       "94" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/book%20numbers/book%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "book number" .
+
+<urn:uuid:cc27166e-5766-45a4-809c-44267f61c2b0>
+        a                crm:E31_Document ;
+        rdfs:label       "105" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/date/1859-10-17>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-17" ;
+        crm:P82_at_some_time_within  "1859-10-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-06-09>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-06-09" ;
+        crm:P82_at_some_time_within  "1859-06-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/location/badalona%20%28barcelona%29>
+        a           crm:E53_Place ;
+        rdfs:label  "Badalona (Barcelona)" .
+
+<http://www.sealit.gr/DB/birth/8C9663D1-0287-343F-B502-8D23AFDC13B8>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Celestino Roses" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/F5CAB360-F006-3BC5-A876-FFEA95C82D57> .
+
+<http://www.sealit.gr/DB/person/957EA779-118D-3153-94FE-40394138FDE4>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Casademunt" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/A133758B-14CC-3B2C-AD94-B13A0AF9E434> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Casademunt" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/A133758B-14CC-3B2C-AD94-B13A0AF9E434> .
+
+<http://www.sealit.gr/DB/registration/DA9D66FF-2ED5-3DFB-BDCD-CA4B144169F6>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Borras" ;
+        crm:P14_carried_out_by     <urn:uuid:6eea8473-591b-4c44-bcf7-5591f2ee5b9d> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-07-08> ;
+        crm:P70i_is_documented_in  <urn:uuid:48f934f6-c708-4620-a3d4-d5c01b669d62> .
+
+<http://www.sealit.gr/DB/birth/65AE9E87-A81E-357C-9538-BA0C317CCCA6>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Rafael Gibert" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/FD8B2AFE-B121-3D9F-AFD5-81B89EFF1E3B> .
+
+<urn:uuid:37772784-402c-46be-83be-89735e7121c5>
+        a                crm:E31_Document ;
+        rdfs:label       "3" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/39613AC1-34B2-3AE6-BCE7-B9CEE8C6BE35>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Pedro Baldo" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/50430D5B-98AB-3C7A-B27E-51C13C82F9AB> ;
+        sealit:has_first_name           "Pedro" ;
+        sealit:has_last_name            "Baldo" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/50430D5B-98AB-3C7A-B27E-51C13C82F9AB> .
+
+<http://www.sealit.gr/DB/person/1F3F9453-40BD-3997-A486-627822A52F83>
+        a                      crm:E21_Person ;
+        rdfs:label             "Joaquin Pauli" ;
+        sealit:has_first_name  "Joaquin" ;
+        sealit:has_last_name   "Pauli" .
+
+<http://www.sealit.gr/DB/person/16B61E33-2268-3A50-9410-E781EF6E178D>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Ibars" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/A05B5F6B-4664-3F86-8DB5-F3450B5D8EC8> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Ibars" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/A05B5F6B-4664-3F86-8DB5-F3450B5D8EC8> .
+
+<urn:uuid:7e5463b4-3505-4876-9e8f-9ada3f18328d>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/doc%20types/series>
+        a           crm:E55_Type ;
+        rdfs:label  "Series" .
+
+<http://www.sealit.gr/DB/date/1859-06-10>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-06-10" ;
+        crm:P82_at_some_time_within  "1859-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-07-11>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-07-11" ;
+        crm:P82_at_some_time_within  "1859-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:62e4bf20-b99c-43f7-837a-352945e2b0a8>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:8b1ed2f7-7c7e-4925-ad01-00cade0392aa>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/603F7CE5-58C5-3195-B77C-2D20A6B166A8>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Juan Viñas" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/EEACC501-95E5-3913-8912-37A1A540F81E> .
+
+<http://www.sealit.gr/DB/person/04850EF5-D99F-3BAD-8AE4-568DF03C7283>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francisco Cros" ;
+        sealit:has_first_name  "Francisco" ;
+        sealit:has_last_name   "Cros" .
+
+<urn:uuid:c20f82aa-b2e3-45d0-9c6d-0fb20bcb7555>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/EAF97E71-A9B6-3AE9-8106-BD5530AF2AD8>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jorge Vallsolel" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/668EA8D2-4ACB-3B8B-9394-31060DB6BA77> .
+
+<http://www.sealit.gr/DB/birth/B53051CF-5270-3AEC-A02B-631E6838E58B>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Domingo Parera" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/FE0B471E-F0D9-30D0-A5F8-A1B16D733FA0> .
+
+<urn:uuid:3ef77c4f-c42d-4d03-b4cb-c5ef25b073e9>
+        a                crm:E31_Document ;
+        rdfs:label       "83" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:f17888cc-6e0f-4039-8938-dba26437024a>
+        a                crm:E31_Document ;
+        rdfs:label       "145" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:e9302c05-c88d-4b7c-b572-1447a5562de7>
+        a                crm:E31_Document ;
+        rdfs:label       "124" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/date/1859-08-24>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-08-24" ;
+        crm:P82_at_some_time_within  "1859-08-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/registration/5A76CD0F-E054-3C29-BC75-B0CB5C9AD341>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Domingo Gras" ;
+        crm:P14_carried_out_by     <urn:uuid:3149d552-e07b-410d-b97b-7017dbbb8fac> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-08-13> ;
+        crm:P70i_is_documented_in  <urn:uuid:cbe706f6-ae65-49aa-845c-43cc89385c44> .
+
+<urn:uuid:7cbc3303-e37e-4277-a8c5-e7fc997b977c>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/2CFD29AF-A76B-3FF9-91CC-C636339E5F44>
+        a                      crm:E21_Person ;
+        rdfs:label             "Pablo Mandaula" ;
+        sealit:has_first_name  "Pablo" ;
+        sealit:has_last_name   "Mandaula" .
+
+<http://www.sealit.gr/DB/person/550C0E9D-25BD-3D93-8260-5EBB8C252DF0>
+        a                      crm:E21_Person ;
+        rdfs:label             "Pablo Monne" ;
+        sealit:has_first_name  "Pablo" ;
+        sealit:has_last_name   "Monne" .
+
+<urn:uuid:d3867237-5f70-4384-8240-10b948140618>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/F823623E-E946-3FAC-87EE-540610EF3F3C>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Juan Batlle" ;
+        crm:P14_carried_out_by     <urn:uuid:8b547745-dd0c-4f5e-a4a6-a32cbfb3d53a> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-08-22> ;
+        crm:P70i_is_documented_in  <urn:uuid:ca22dcd5-29dd-4fd4-a0b9-3bb02cd589c4> .
+
+<http://www.sealit.gr/DB/birth/6F9F3C23-090C-3D0D-9545-A8C0410EE67E>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Subirats" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/F45B7DAE-786A-3405-BCF8-C02CC781C72E> .
+
+<http://www.sealit.gr/DB/registration/49FEA3ED-8923-3C39-960A-8D239577FFE6>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Juan Cros" ;
+        crm:P14_carried_out_by     <urn:uuid:65f9440d-e9f3-4e4b-b9ab-5c2c849bf6f8> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-27> ;
+        crm:P70i_is_documented_in  <urn:uuid:11cfd6bb-89a9-45e5-87d1-6b813b4c5c37> .
+
+<http://www.sealit.gr/DB/person/75019F89-0DF2-37A5-879C-0CFF6C689C31>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jaime Alsina" ;
+        sealit:has_first_name  "Jaime" ;
+        sealit:has_last_name   "Alsina" .
+
+<http://www.sealit.gr/DB/registration/3D403261-FA22-3469-98F5-35CA27C67BEE>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Salvador Vallet" ;
+        crm:P14_carried_out_by     <urn:uuid:3b51448b-c511-424d-a87e-59077eef11ab> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-08-16> ;
+        crm:P70i_is_documented_in  <urn:uuid:298b3270-fb9e-4141-a0cf-5f8583dc47b1> .
+
+<http://www.sealit.gr/DB/registration/452B0A1B-EFB3-3F1D-9C1C-1E94187AB539>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Carlos Busquets" ;
+        crm:P14_carried_out_by     <urn:uuid:e9608097-e35a-4a6d-92f5-e61fcbd71645> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-10> ;
+        crm:P70i_is_documented_in  <urn:uuid:b57aca7e-8f83-4b24-b43f-ca8da573a8fd> .
+
+<urn:uuid:3db27f98-ba28-4502-bac2-d5f74ce70f1c>
+        a                crm:E31_Document ;
+        rdfs:label       "78" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:3ce689c1-cf44-4c40-98eb-d2072e8d3a67>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/57EB99CB-1B4D-379B-9B3F-C01916222BDF>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Erasmo Roig" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/20E8B1AF-028E-3FC0-9664-6BD308FEE907> ;
+        sealit:has_first_name           "Erasmo" ;
+        sealit:has_last_name            "Roig" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/20E8B1AF-028E-3FC0-9664-6BD308FEE907> .
+
+<urn:uuid:65f9440d-e9f3-4e4b-b9ab-5c2c849bf6f8>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/52AC096E-8BBE-361C-BDDA-5F3A15217A37>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Gras" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/1BD3EBA9-372E-3101-AB07-668B57DDB0E8> .
+
+<urn:uuid:4eb70144-ce4a-431b-add4-4e2af3d9664b>
+        a                     crm:E33_Linguistic_Object ;
+        rdfs:label            "Content of doc 1864-10-02" ;
+        crm:P72_has_language  <http://www.sealit.gr/DB/language/spanish%20%28castellano%29> .
+
+<urn:uuid:1def8b12-44f6-47c7-a85b-c188765c8db7>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:9ffe0caf-bfe2-40a5-bd89-73d6137ebca0>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/973D5FCB-3A7D-3F53-99A3-9BCBB9C6A3EC>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Espiridion Perez" ;
+        crm:P14_carried_out_by     <urn:uuid:04fa4cf3-fdc7-497f-94a9-ad3c4b5b5a88> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-07-29> ;
+        crm:P70i_is_documented_in  <urn:uuid:50534179-a69e-4a2d-a8b7-ce6883189d9e> .
+
+<http://www.sealit.gr/DB/person/9309181E-BC2D-3A5D-85E0-BEFA863F62D8>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Viñas" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/603F7CE5-58C5-3195-B77C-2D20A6B166A8> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Viñas" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/603F7CE5-58C5-3195-B77C-2D20A6B166A8> .
+
+<http://www.sealit.gr/DB/registration/3C42F24B-5716-3867-9DD8-0F8155AA87DB>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Enrique Arbat" ;
+        crm:P14_carried_out_by     <urn:uuid:cb7e6537-bc4f-4fd5-86b1-8feca719722d> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-09> ;
+        crm:P70i_is_documented_in  <urn:uuid:e70d8287-08cc-41e8-aede-354b66dc83df> .
+
+<http://www.sealit.gr/DB/registration/F1E88F49-1939-3A6A-B3D1-9BF9436DF722>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Roses" ;
+        crm:P14_carried_out_by     <urn:uuid:5ec862f1-b27e-413c-95c7-a982edf3f0f2> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-10> ;
+        crm:P70i_is_documented_in  <urn:uuid:60a43812-9007-4e64-95b3-f9f970831f64> .
+
+<http://www.sealit.gr/DB/birth/4CF5E04A-997E-391B-ADE2-63A1A6238F38>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Dalmiro Mandaula" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/2CFD29AF-A76B-3FF9-91CC-C636339E5F44> .
+
+<urn:uuid:370d500f-4793-463f-b0db-75e5276aa64a>
+        a                crm:E31_Document ;
+        rdfs:label       "153" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/registration%20types/military%20service%20registration>
+        a           crm:E55_Type ;
+        rdfs:label  "military service registration" .
+
+<http://www.sealit.gr/DB/person/D60B858E-F821-332A-BA5C-C478F98D087A>
+        a                      crm:E21_Person ;
+        rdfs:label             "otro Ibars" ;
+        sealit:has_first_name  "otro" ;
+        sealit:has_last_name   "Ibars" .
+
+<http://www.sealit.gr/DB/registration/C4FF1BDB-65E2-3F3C-89D4-E4A98F0DCBC2>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Miguel Tersol" ;
+        crm:P14_carried_out_by     <urn:uuid:06ee4cd6-2693-4b48-ba58-07c2d6b637f2> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-07-11> ;
+        crm:P70i_is_documented_in  <urn:uuid:045e25df-b538-4cb6-be17-c4b0c371dde3> .
+
+<urn:uuid:c0b25a9d-c0e5-41a1-8fa0-51051f7d1d03>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:e33bee3f-116b-4920-8e82-98dc00150a2a>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Badalona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/badalona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/D8810F19-B7C7-363B-BE4E-EA128062261B>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francisco Vallet" ;
+        sealit:has_first_name  "Francisco" ;
+        sealit:has_last_name   "Vallet" .
+
+<http://www.sealit.gr/DB/registration/57C43EBB-5941-398E-B823-ACDA290F7EEB>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Riera" ;
+        crm:P14_carried_out_by     <urn:uuid:b5af46c2-2445-46a0-aa0b-a95425659e29> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-05-26> ;
+        crm:P70i_is_documented_in  <urn:uuid:0c9c146a-9145-45fa-a908-20020a13a628> .
+
+<urn:uuid:5ec862f1-b27e-413c-95c7-a982edf3f0f2>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Sitjes (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/sitjes%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/3D7C08D9-6980-37EB-8A37-1D386D0F3191>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Carmona" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/52031E1A-8B25-3A4D-920E-7CF52C2311DE> .
+
+<http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29>
+        a           crm:E53_Place ;
+        rdfs:label  "Barcelona (Barcelona)" .
+
+<http://www.sealit.gr/DB/person/CABE45D8-EF1D-30A9-B989-2C8CA605A700>
+        a                      crm:E21_Person ;
+        rdfs:label             "Felipe Roig" ;
+        sealit:has_first_name  "Felipe" ;
+        sealit:has_last_name   "Roig" .
+
+<urn:uuid:cbe706f6-ae65-49aa-845c-43cc89385c44>
+        a                crm:E31_Document ;
+        rdfs:label       "118" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/7C4F6E79-BA7B-33FA-8A9B-13A6A60B2369>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Antonio Alsina" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/C77D8751-2A0B-3CB7-A5C5-608FD8D5FD41> ;
+        sealit:has_first_name           "Antonio" ;
+        sealit:has_last_name            "Alsina" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/C77D8751-2A0B-3CB7-A5C5-608FD8D5FD41> .
+
+<http://www.sealit.gr/DB/person/F1B95105-F9A6-39FE-9597-F3F8C9DDB105>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Isidro Balet" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/31F449B0-7665-3C17-BC4E-F6BF2B0A745A> ;
+        sealit:has_first_name           "Isidro" ;
+        sealit:has_last_name            "Balet" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/31F449B0-7665-3C17-BC4E-F6BF2B0A745A> .
+
+<http://www.sealit.gr/DB/person/0C834A78-EEEC-3E16-B65B-6942BC4CE757>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Froilan Graner" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/3515CF4C-D22E-3C06-B85E-FD3993951E95> ;
+        sealit:has_first_name           "Froilan" ;
+        sealit:has_last_name            "Graner" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/3515CF4C-D22E-3C06-B85E-FD3993951E95> .
+
+<http://www.sealit.gr/DB/person/D06A788B-0088-323D-9882-E6E88D9F8402>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Vicente Ribo" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/800DCC50-E7A0-30B8-A970-093DC98473E6> ;
+        sealit:has_first_name           "Vicente" ;
+        sealit:has_last_name            "Ribo" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/800DCC50-E7A0-30B8-A970-093DC98473E6> .
+
+<urn:uuid:fbc01e80-7379-4b8c-8c0a-9aa542fb548f>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/FC4264D8-58E0-3A99-9D00-81E276C20B3A>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Pedro Resta" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/334167BB-8A4B-3355-8894-FF3EDB072D0B> .
+
+<http://www.sealit.gr/DB/person/86FFFA2C-EE1B-3C3B-92E1-3E8C037857AE>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jorge Vallsolel" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/EAF97E71-A9B6-3AE9-8106-BD5530AF2AD8> ;
+        sealit:has_first_name           "Jorge" ;
+        sealit:has_last_name            "Vallsolel" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/EAF97E71-A9B6-3AE9-8106-BD5530AF2AD8> .
+
+<http://www.sealit.gr/DB/date/1859-06-28>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-06-28" ;
+        crm:P82_at_some_time_within  "1859-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-07-29>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-07-29" ;
+        crm:P82_at_some_time_within  "1859-07-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-10-06>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-06" ;
+        crm:P82_at_some_time_within  "1859-10-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:b5af46c2-2445-46a0-aa0b-a95425659e29>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/7929EF6F-8F12-39FC-B717-464F18E84247>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Placido de Yebra" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/1D16248C-5B02-3730-872B-DE11AF6EAEE4> .
+
+<http://www.sealit.gr/DB/person/DA2089F3-F932-3B05-B5A4-29C923232F0A>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Antonio Pauli" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/316421EF-432A-3E62-AB18-3481E788D3E1> ;
+        sealit:has_first_name           "Antonio" ;
+        sealit:has_last_name            "Pauli" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/316421EF-432A-3E62-AB18-3481E788D3E1> .
+
+<http://www.sealit.gr/DB/person/791C28FD-182B-326D-8981-5CDE88911429>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Gras" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/52AC096E-8BBE-361C-BDDA-5F3A15217A37> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Gras" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/52AC096E-8BBE-361C-BDDA-5F3A15217A37> .
+
+<urn:uuid:71b0bca8-d74e-4a68-bf27-f5e5d19b5ce8>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/ECF1D6D2-3FB9-3BD8-9A07-93B92B93E28F>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Geronimo Clausells" ;
+        crm:P14_carried_out_by     <urn:uuid:b159d99e-c9f6-42d0-bd12-be4409b62b38> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-26> ;
+        crm:P70i_is_documented_in  <urn:uuid:b1ecebab-a275-4fd8-b066-d3a3213dba2a> .
+
+<http://www.sealit.gr/DB/roles%20type/research%20assistant>
+        a           crm:E55_Type ;
+        rdfs:label  "research assistant" .
+
+<urn:uuid:6e24186d-48f6-4174-8640-5f8d895c61d9>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Sitjes (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/sitjes%20%28barcelona%29> .
+
+<urn:uuid:b704f413-297c-4ac7-8bb8-cd6919489273>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/date/1859-10-18>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-18" ;
+        crm:P82_at_some_time_within  "1859-10-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:634b894b-f587-48d4-8514-50eed1d6657f>
+        a                crm:E31_Document ;
+        rdfs:label       "156" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/birth/4AEDD598-BB7F-3809-A14A-1F877BDA165C>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Esteban Giralt" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/6A4E818B-B9E2-31E7-9BFE-B9CE2342B769> .
+
+<http://www.sealit.gr/DB/person/6A4E818B-B9E2-31E7-9BFE-B9CE2342B769>
+        a                      crm:E21_Person ;
+        rdfs:label             "otro Giralt" ;
+        sealit:has_first_name  "otro" ;
+        sealit:has_last_name   "Giralt" .
+
+<urn:uuid:2e31afaa-1083-4a36-8b48-1a85d8dea3e0>
+        a                crm:E31_Document ;
+        rdfs:label       "165" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:b72e96d5-b331-49a8-8dde-10f400af2495>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/800DCC50-E7A0-30B8-A970-093DC98473E6>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Vicente Ribo" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/4808BC74-9AC7-3C84-993A-BF40B0746765> .
+
+<urn:uuid:8b547745-dd0c-4f5e-a4a6-a32cbfb3d53a>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/6CAD9DAE-FAFC-3E48-93D6-B0AC1EAB1A4D>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Felix Mestre" ;
+        crm:P14_carried_out_by     <urn:uuid:645c7ba8-2b47-4938-a6ac-93c1572cf29e> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-08-24> ;
+        crm:P70i_is_documented_in  <urn:uuid:a5052dd5-1495-478f-a631-a48ccd666232> .
+
+<http://www.sealit.gr/DB/person/71FBB046-EB52-3E16-B489-BD1036EF262D>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Placido de Yebra" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/7929EF6F-8F12-39FC-B717-464F18E84247> ;
+        sealit:has_first_name           "Placido" ;
+        sealit:has_last_name            "de Yebra" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/7929EF6F-8F12-39FC-B717-464F18E84247> .
+
+<http://www.sealit.gr/DB/registration/8C9663D1-0287-343F-B502-8D23AFDC13B8>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Celestino Roses" ;
+        crm:P14_carried_out_by     <urn:uuid:dcae1660-130a-4a7a-9711-d795b1476702> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-21> ;
+        crm:P70i_is_documented_in  <urn:uuid:9dbf0085-ab07-4b39-91b2-c803c2139b5f> .
+
+<http://www.sealit.gr/DB/birth/EECD468A-FC72-3126-99DA-BAD9EBD707B7>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Pablo Brugueras" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/7376019C-B5E7-3879-B189-B2A77840A9A2> .
+
+<http://www.sealit.gr/DB/date/1859-06-11>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-06-11" ;
+        crm:P82_at_some_time_within  "1859-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:dcae1660-130a-4a7a-9711-d795b1476702>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Sitjes (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/sitjes%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/date/1859-08-13>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-08-13" ;
+        crm:P82_at_some_time_within  "1859-08-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-09-14>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-09-14" ;
+        crm:P82_at_some_time_within  "1859-09-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/registration/65AE9E87-A81E-357C-9538-BA0C317CCCA6>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Rafael Gibert" ;
+        crm:P14_carried_out_by     <urn:uuid:21f7ce7b-91cf-48e5-b871-1325052a87e4> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-28> ;
+        crm:P70i_is_documented_in  <urn:uuid:f17888cc-6e0f-4039-8938-dba26437024a> .
+
+<http://www.sealit.gr/DB/birth/41C71AF2-177F-3E8E-BF6D-7CA9AC7E5488>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Fulgencio Vives" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/39BB04DD-A39E-33AC-BFA1-C762E6D112DA> .
+
+<http://www.sealit.gr/DB/registration/DD01C863-B53F-3EBA-9694-3403C1CEF70C>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Blanch" ;
+        crm:P14_carried_out_by     <urn:uuid:5f20d0a7-5a01-4883-8a63-2dfca0d7c52b> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-15> ;
+        crm:P70i_is_documented_in  <urn:uuid:0c13bb67-1af3-4fd9-ba13-ab4552dc772d> .
+
+<http://www.sealit.gr/DB/person/7376019C-B5E7-3879-B189-B2A77840A9A2>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Brugueras" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Brugueras" .
+
+<http://www.sealit.gr/DB/person/7F95AB40-4A36-3A8C-8611-F639B7BA34DF>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Enrique Arbat" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/3C42F24B-5716-3867-9DD8-0F8155AA87DB> ;
+        sealit:has_first_name           "Enrique" ;
+        sealit:has_last_name            "Arbat" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/3C42F24B-5716-3867-9DD8-0F8155AA87DB> .
+
+<urn:uuid:cb7e6537-bc4f-4fd5-86b1-8feca719722d>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/310F54B6-9BCC-38D1-BD83-7480A787417A>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Espiridion Perez" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/973D5FCB-3A7D-3F53-99A3-9BCBB9C6A3EC> ;
+        sealit:has_first_name           "Espiridion" ;
+        sealit:has_last_name            "Perez" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/973D5FCB-3A7D-3F53-99A3-9BCBB9C6A3EC> .
+
+<http://www.sealit.gr/DB/person/ED880085-2AC9-3261-9C09-8158552E63A8>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jose Costa" ;
+        sealit:has_first_name  "Jose" ;
+        sealit:has_last_name   "Costa" .
+
+<urn:uuid:d73423b4-5e03-4635-836f-79bb6956f41d>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/587C12E4-A793-3B00-AAF2-451D65950F97>
+        a                      crm:E21_Person ;
+        rdfs:label             "otro Vidal" ;
+        sealit:has_first_name  "otro" ;
+        sealit:has_last_name   "Vidal" .
+
+<http://www.sealit.gr/DB/registration/603F7CE5-58C5-3195-B77C-2D20A6B166A8>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Juan Viñas" ;
+        crm:P14_carried_out_by     <urn:uuid:d73423b4-5e03-4635-836f-79bb6956f41d> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-05-10> ;
+        crm:P70i_is_documented_in  <urn:uuid:10f56a4e-188f-438a-9c7f-9a5d48ca9de5> .
+
+<urn:uuid:16367e63-de55-4de1-a82c-9e642b85313a>
+        a                crm:E31_Document ;
+        rdfs:label       "55" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/registration/EAF97E71-A9B6-3AE9-8106-BD5530AF2AD8>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jorge Vallsolel" ;
+        crm:P14_carried_out_by     <urn:uuid:86f6a345-c715-4438-b1d0-56e081ca12fc> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-07-15> ;
+        crm:P70i_is_documented_in  <urn:uuid:cc27166e-5766-45a4-809c-44267f61c2b0> .
+
+<http://www.sealit.gr/DB/date/1859-05-17>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-05-17" ;
+        crm:P82_at_some_time_within  "1859-05-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/date/1859-09-26>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-09-26" ;
+        crm:P82_at_some_time_within  "1859-09-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/birth/2602D587-57DF-3320-8AB9-B00A08E2C37D>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Joaquin Pi" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/0FCDB601-D87B-3074-BD27-D298F763C971> .
+
+<http://www.sealit.gr/DB/date/1859-10-01>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-01" ;
+        crm:P82_at_some_time_within  "1859-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/birth/A05B5F6B-4664-3F86-8DB5-F3450B5D8EC8>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Ibars" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/D60B858E-F821-332A-BA5C-C478F98D087A> .
+
+<http://www.sealit.gr/DB/person/D3EA92DE-8840-3C51-AAF8-50B899B942F3>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Felix Miralpeix" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/6E8E58D4-87F5-355E-8DE9-CF32F05311F0> ;
+        sealit:has_first_name           "Felix" ;
+        sealit:has_last_name            "Miralpeix" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/6E8E58D4-87F5-355E-8DE9-CF32F05311F0> .
+
+<http://www.sealit.gr/DB/person/F9CA0FF4-F3C7-3BD1-814F-02FFE8ECE6B5>
+        a                      crm:E21_Person ;
+        rdfs:label             "Clàudia Mateo" ;
+        crm:P02i_is_range_of   <urn:uuid:57e38ac6-478a-4be4-9aac-a5b955e19233> ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/organisation/university%20of%20barcelona> ;
+        sealit:has_first_name  "Clàudia" ;
+        sealit:has_last_name   "Mateo" .
+
+<http://www.sealit.gr/DB/person/D17B503A-7CE0-3E07-874C-2B6642905BFE>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jaime Albert" ;
+        sealit:has_first_name  "Jaime" ;
+        sealit:has_last_name   "Albert" .
+
+<http://www.sealit.gr/DB/person/991B7ED4-1208-38ED-98E7-0648DDB80B0C>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Martinella" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Martinella" .
+
+<http://www.sealit.gr/DB/person/481115F9-1498-39E7-B47A-18F7299E6776>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jose Graner" ;
+        sealit:has_first_name  "Jose" ;
+        sealit:has_last_name   "Graner" .
+
+<urn:uuid:0637d93b-91b1-4f20-9489-460404cebddf>
+        a                crm:E31_Document ;
+        rdfs:label       "88" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/C834CFCD-6833-3630-820A-02FC0E017EC5>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Riera" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Riera" .
+
+<http://www.sealit.gr/DB/location/sitjes%20%28barcelona%29>
+        a           crm:E53_Place ;
+        rdfs:label  "Sitjes (Barcelona)" .
+
+<http://www.sealit.gr/DB/person/7243EAAB-8718-3F7B-A746-E1114910E67E>
+        a                      crm:E21_Person ;
+        rdfs:label             "Ramon Panades" ;
+        sealit:has_first_name  "Ramon" ;
+        sealit:has_last_name   "Panades" .
+
+<http://www.sealit.gr/DB/person/A4ABD31D-3C5D-3BCC-B46F-F8486B01CB16>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jose Busquets" ;
+        sealit:has_first_name  "Jose" ;
+        sealit:has_last_name   "Busquets" .
+
+<http://www.sealit.gr/DB/registration/6F9F3C23-090C-3D0D-9545-A8C0410EE67E>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Subirats" ;
+        crm:P14_carried_out_by     <urn:uuid:9ffe0caf-bfe2-40a5-bd89-73d6137ebca0> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-08-20> ;
+        crm:P70i_is_documented_in  <urn:uuid:561b63b2-7f31-49b8-bd18-1153236e41ed> .
+
+<http://www.sealit.gr/DB/registration/52AC096E-8BBE-361C-BDDA-5F3A15217A37>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Gras" ;
+        crm:P14_carried_out_by     <urn:uuid:7ae0d0e5-c269-41ed-ae80-3e8cb875937c> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-11> ;
+        crm:P70i_is_documented_in  <urn:uuid:8e2870bf-08c8-4e9b-b476-2f89fce7436d> .
+
+<http://www.sealit.gr/DB/registration/C77D8751-2A0B-3CB7-A5C5-608FD8D5FD41>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Antonio Alsina" ;
+        crm:P14_carried_out_by     <urn:uuid:19589652-f7b8-42e8-8fe6-38437183de7d> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-07-08> ;
+        crm:P70i_is_documented_in  <urn:uuid:3fe1cfbc-a17a-4c06-9c9d-f92f761b5646> .
+
+<http://www.sealit.gr/DB/birth/3515CF4C-D22E-3C06-B85E-FD3993951E95>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Froilan Graner" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/481115F9-1498-39E7-B47A-18F7299E6776> .
+
+<http://www.sealit.gr/DB/birth/04AF90D1-6ED9-3CD3-901B-07615FF476CC>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Pedro Costa" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/ED880085-2AC9-3261-9C09-8158552E63A8> .
+
+<http://www.sealit.gr/DB/birth/B382BF43-7E1C-3C6C-9A76-42901A37E87C>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Pedro Pareta" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/90BC6FC6-C7DA-39D4-A017-46890327BE6A> .
+
+<http://www.sealit.gr/DB/registration/4CF5E04A-997E-391B-ADE2-63A1A6238F38>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Dalmiro Mandaula" ;
+        crm:P14_carried_out_by     <urn:uuid:66515671-7e64-42bb-9123-7986c269ea39> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-06> ;
+        crm:P70i_is_documented_in  <urn:uuid:b7e88eb3-8895-45de-84af-9f854ca1db62> .
+
+<http://www.sealit.gr/DB/doc%20types/folder>
+        a           crm:E55_Type ;
+        rdfs:label  "Folder" .
+
+<urn:uuid:9b9447f4-47c4-4fa2-a0ba-775d96b2bf7a>
+        a                crm:E31_Document ;
+        rdfs:label       "16" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:894060c9-cb7a-42e3-8db9-ed5538e1e1b4>
+        a                crm:E31_Document ;
+        rdfs:label       "131" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/B184198D-DD4B-3149-B796-790AE0A0D206>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Roses" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Roses" .
+
+<http://www.sealit.gr/DB/Document_of_Register/7F697CF0-80B8-45C5-9C30-09E406600D4B>
+        a                        crm:E31_Document , crm:E18_Physical_Thing ;
+        rdfs:label               "Document Boletín Oficial de la Provincia de Barcelona" ;
+        crm:P106i_forms_part_of  <urn:uuid:4de47414-f483-46f7-af42-f2f6c78735e8> ;
+        crm:P128_carries         <urn:uuid:4eb70144-ce4a-431b-add4-4e2af3d9664b> ;
+        crm:P1_is_identified_by  <urn:uuid:bd1cae17-a38e-4c65-935f-58827545183d> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/doc%20types/source%20identity> .
+
+<http://www.sealit.gr/DB/birth/BBFBD01B-CE6D-355D-B317-4E987707D625>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Juan Juanim" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/61E6CA77-7F8F-3DC8-B181-D0EA394132E9> .
+
+<http://www.sealit.gr/DB/date/1859-08-20>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-08-20" ;
+        crm:P82_at_some_time_within  "1859-08-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/registration/3D7C08D9-6980-37EB-8A37-1D386D0F3191>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Carmona" ;
+        crm:P14_carried_out_by     <urn:uuid:e33bee3f-116b-4920-8e82-98dc00150a2a> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-10> ;
+        crm:P70i_is_documented_in  <urn:uuid:9b9447f4-47c4-4fa2-a0ba-775d96b2bf7a> .
+
+<urn:uuid:0a934246-ee24-4c33-8cac-f21166afd675>
+        a                crm:E31_Document ;
+        rdfs:label       "140" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:269f11cc-7610-411f-b799-3818fdbbbffb>
+        a                crm:E31_Document ;
+        rdfs:label       "133" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/registration/316421EF-432A-3E62-AB18-3481E788D3E1>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Antonio Pauli" ;
+        crm:P14_carried_out_by     <urn:uuid:afdb3ab4-4693-48a5-82b7-41bca51deae2> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-01> ;
+        crm:P70i_is_documented_in  <urn:uuid:d18561e0-4804-40b0-80a4-b0df62b8233b> .
+
+<http://www.sealit.gr/DB/person/F5CAB360-F006-3BC5-A876-FFEA95C82D57>
+        a                      crm:E21_Person ;
+        rdfs:label             "Antonio Roses" ;
+        sealit:has_first_name  "Antonio" ;
+        sealit:has_last_name   "Roses" .
+
+<urn:uuid:e076481e-e0f4-43f8-930f-678adfb69082>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/birth/4FA8DD0A-8729-3219-B904-1317A7FA0B86>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Herminio Macaya" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/FEAE7FB0-28B5-3DD1-BB67-E0E31E2658DF> .
+
+<http://www.sealit.gr/DB/person/39BB04DD-A39E-33AC-BFA1-C762E6D112DA>
+        a                      crm:E21_Person ;
+        rdfs:label             "Eudaldo Vives" ;
+        sealit:has_first_name  "Eudaldo" ;
+        sealit:has_last_name   "Vives" .
+
+<http://www.sealit.gr/DB/registration/FC4264D8-58E0-3A99-9D00-81E276C20B3A>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Pedro Resta" ;
+        crm:P14_carried_out_by     <urn:uuid:6f0a8381-bfc2-4103-b6d6-4506dbeaa5a2> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-07-19> ;
+        crm:P70i_is_documented_in  <urn:uuid:06fa33fc-c307-4d4a-be0f-b43426d160c7> .
+
+<http://www.sealit.gr/DB/registration/8553C1FF-17E0-328D-97A3-9630A26C6959>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Jose Martinella" ;
+        crm:P14_carried_out_by     <urn:uuid:6e24186d-48f6-4174-8640-5f8d895c61d9> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-19> ;
+        crm:P70i_is_documented_in  <urn:uuid:37772784-402c-46be-83be-89735e7121c5> .
+
+<urn:uuid:1b428dc3-8923-4a24-a111-7d53d2cff414>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<urn:uuid:9f642a52-5ef8-4ebf-b4fd-3b68d85a7e6c>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/7929EF6F-8F12-39FC-B717-464F18E84247>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Placido de Yebra" ;
+        crm:P14_carried_out_by     <urn:uuid:e076481e-e0f4-43f8-930f-678adfb69082> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-10-17> ;
+        crm:P70i_is_documented_in  <urn:uuid:b9f1a09a-fc91-4776-a23b-4e61479ebe5d> .
+
+<urn:uuid:06ee4cd6-2693-4b48-ba58-07c2d6b637f2>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/24BE6365-9369-3FB4-8D73-1DEAA2F745DE>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Miguel Panades" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/F0282A80-2DED-335F-982F-2D694CEF5090> ;
+        sealit:has_first_name           "Miguel" ;
+        sealit:has_last_name            "Panades" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/F0282A80-2DED-335F-982F-2D694CEF5090> .
+
+<urn:uuid:abdc38f8-278b-44e9-b777-2da318ffd394>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "2019-10-11 2021-02-09T12:16:18" ;
+        crm:P82a_begin_of_the_begin  "2019-10-11"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "2021-02-09T12:16:18"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://www.sealit.gr/DB/person/DA88A99B-DDA0-38BA-8D9A-F050E1F62F98>
+        a                      crm:E21_Person ;
+        rdfs:label             "Manuel Baldo" ;
+        sealit:has_first_name  "Manuel" ;
+        sealit:has_last_name   "Baldo" .
+
+<http://www.sealit.gr/DB/person/52C01327-48B6-384C-8A5E-6543618FF597>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Salvador Vallet" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/3D403261-FA22-3469-98F5-35CA27C67BEE> ;
+        sealit:has_first_name           "Salvador" ;
+        sealit:has_last_name            "Vallet" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/3D403261-FA22-3469-98F5-35CA27C67BEE> .
+
+<http://www.sealit.gr/DB/person/F58C2589-A466-3FEF-822C-4C50F48B43A7>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Carmona" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/3D7C08D9-6980-37EB-8A37-1D386D0F3191> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Carmona" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/3D7C08D9-6980-37EB-8A37-1D386D0F3191> .
+
+<http://www.sealit.gr/DB/person/5394A21A-636C-39F6-B74B-10D0C52A6B79>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Dalmiro Mandaula" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/4CF5E04A-997E-391B-ADE2-63A1A6238F38> ;
+        sealit:has_first_name           "Dalmiro" ;
+        sealit:has_last_name            "Mandaula" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/4CF5E04A-997E-391B-ADE2-63A1A6238F38> .
+
+<urn:uuid:beb993c9-06f7-41f6-a88f-2e466290571e>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/person/83F8F92A-ABD2-347C-98FE-F47E1E99E151>
+        a                      crm:E21_Person ;
+        rdfs:label             "Ramon Tersol" ;
+        sealit:has_first_name  "Ramon" ;
+        sealit:has_last_name   "Tersol" .
+
+<urn:uuid:322c5f96-9444-4050-84dd-829b39c1400d>
+        a                crm:E31_Document ;
+        rdfs:label       "100" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/A003136B-F93B-3C97-BCBE-B46334BEFEB3>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Cros" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/49FEA3ED-8923-3C39-960A-8D239577FFE6> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Cros" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/49FEA3ED-8923-3C39-960A-8D239577FFE6> .
+
+<http://www.sealit.gr/DB/birth/FC0595D2-8832-36B3-97A0-95C66B7D4736>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Mari" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/29A9513F-078F-319C-ADF8-432A316C862D> .
+
+<urn:uuid:bd1cae17-a38e-4c65-935f-58827545183d>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1864-10-02" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/book%20numbers/book%20number> .
+
+<http://www.sealit.gr/DB/person/C6517C93-BA3D-3AAD-B8C0-9DCAD2717F39>
+        a                      crm:E21_Person ;
+        rdfs:label             "Antonio Panades" ;
+        sealit:has_first_name  "Antonio" ;
+        sealit:has_last_name   "Panades" .
+
+<http://www.sealit.gr/DB/registration/4AEDD598-BB7F-3809-A14A-1F877BDA165C>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Esteban Giralt" ;
+        crm:P14_carried_out_by     <urn:uuid:6253293b-6237-4ef9-bb11-76712bb6d28d> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-09-30> ;
+        crm:P70i_is_documented_in  <urn:uuid:d4247707-0057-4855-afac-0f8fcf1a7208> .
+
+<http://www.sealit.gr/DB/date/1859-10-20>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859-10-20" ;
+        crm:P82_at_some_time_within  "1859-10-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:d4247707-0057-4855-afac-0f8fcf1a7208>
+        a                crm:E31_Document ;
+        rdfs:label       "14" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:10f56a4e-188f-438a-9c7f-9a5d48ca9de5>
+        a                crm:E31_Document ;
+        rdfs:label       "51" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<urn:uuid:6eea8473-591b-4c44-bcf7-5591f2ee5b9d>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "Organization in  Barcelona (Barcelona)" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona%20%28barcelona%29> .
+
+<http://www.sealit.gr/DB/registration/800DCC50-E7A0-30B8-A970-093DC98473E6>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Vicente Ribo" ;
+        crm:P14_carried_out_by     <urn:uuid:1def8b12-44f6-47c7-a85b-c188765c8db7> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1859-06-21> ;
+        crm:P70i_is_documented_in  <urn:uuid:0637d93b-91b1-4f20-9489-460404cebddf> .
+
+<http://www.sealit.gr/DB/person/52031E1A-8B25-3A4D-920E-7CF52C2311DE>
+        a                      crm:E21_Person ;
+        rdfs:label             "Diego Carmona" ;
+        sealit:has_first_name  "Diego" ;
+        sealit:has_last_name   "Carmona" .
+
+<urn:uuid:aada100f-866d-4f73-b3ac-1a76d2ebc382>
+        a                crm:E31_Document ;
+        rdfs:label       "114" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/Doc%20types/folio> .
+
+<http://www.sealit.gr/DB/person/11EC2A13-3A7D-3974-A89D-85FDF7D0A441>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Pedro Costa" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/04AF90D1-6ED9-3CD3-901B-07615FF476CC> ;
+        sealit:has_first_name           "Pedro" ;
+        sealit:has_last_name            "Costa" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/04AF90D1-6ED9-3CD3-901B-07615FF476CC> .
+
+<http://www.sealit.gr/DB/person/B37310A2-0BDB-3FEC-8F8C-CC114B164B5C>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jose Alie" ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/14DD8A73-8A9F-3EA6-A916-280F3B61F78B> ;
+        sealit:has_first_name           "Jose" ;
+        sealit:has_last_name            "Alie" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/14DD8A73-8A9F-3EA6-A916-280F3B61F78B> .
+
+<http://www.sealit.gr/DB/birth/ED4C4ED1-723F-3AEC-BC96-4744B1F4C772>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Francisco Roig" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/D80BFD3F-4F38-3298-B0A0-6D83A6AFC303> .
+
+<http://www.sealit.gr/DB/person/1E10EA30-467E-3168-ACD1-21DE5965CEA5>
+        a                      crm:E21_Person ;
+        rdfs:label             "Pablo Alegre" ;
+        sealit:has_first_name  "Pablo" ;
+        sealit:has_last_name   "Alegre" .

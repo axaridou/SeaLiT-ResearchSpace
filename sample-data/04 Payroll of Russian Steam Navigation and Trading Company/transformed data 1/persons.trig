@@ -1,0 +1,1137 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record_point/160D60BD-4EA1-36D5-94D2-689247061441>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 21, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/C971DA36-2928-3F6A-893E-77A6CA6785A3> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/EE1468C0-F654-345C-9DE5-DB94C5524E6A> .
+
+<http://www.sealit.gr/DB/appellation_surname/7650214F-E8C0-38E5-B632-2C2F7DC620B2>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Попович" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-01-19T12:24:53.367Z_1&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/51B38BAB-15F2-365C-8546-B1E83F6C43EC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Алексей Севастис" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/44C5DE8A-30F2-3EEC-AA38-B2AA5B13D2C1> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Алексей" ;
+        sealit:has_last_name     "Севастис" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/58945E50-D375-39E7-95F1-6F578F881F0D> .
+
+<urn:uuid:20f114ca-6acc-4969-b863-478ffb306e88>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Попович" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/9BB34AE5-5AA8-39D5-965F-CC1EFAED0801> .
+
+<http://www.sealit.gr/DB/person/FCBB603E-8A00-347C-AE30-6BCA9DC15519>
+        a                        crm:E21_Person ;
+        rdfs:label               "Мапусевич Ева" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/27993489-48E3-387A-84F0-F756BACC46F8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Мапусевич" ;
+        sealit:has_last_name     "Ева" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/5177C9A1-C45D-37B9-8A66-FBB865991EA8> .
+
+<http://www.sealit.gr/DB/person/72FD16F6-F05E-32EF-A012-B123A23232E0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Яков Попович" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/7650214F-E8C0-38E5-B632-2C2F7DC620B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:20f114ca-6acc-4969-b863-478ffb306e88> ;
+        sealit:has_first_name    "Яков" ;
+        sealit:has_last_name     "Попович" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/35C05CF3-BED6-31D5-A9F3-1F005FA90DD0> .
+
+<http://www.sealit.gr/DB/date/01.02.1881>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 01.02.1881" ;
+        crm:P82_at_some_time_within  "01.02.1881"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/83A5C966-8FBE-3991-940D-2216A0A5A4B5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/C452BE05-E76B-3CD3-9F68-E61A690BC2E3>
+        a                        crm:E21_Person ;
+        rdfs:label               "Степан Мисоцкий" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/ACB6E508-0F05-35A1-A369-06EA6327CA73> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Степан" ;
+        sealit:has_last_name     "Мисоцкий" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/33A3688E-26A2-3C4F-92C5-70B2625738DF> .
+
+<http://www.sealit.gr/DB/register_record_point/9C5137B9-814D-3A0D-A0BD-B95A4329C921>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 25, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/FDCE2CCE-8FDD-3853-A3CE-2F96F1C75EDA> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/83A5C966-8FBE-3991-940D-2216A0A5A4B5> .
+
+<http://www.sealit.gr/DB/person/F578D188-3DBA-37A1-9062-83FBE6C73C90>
+        a       crm:E21_Person .
+
+<urn:uuid:17f1e6b4-28e2-410f-8e2c-2950831b3fa9>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Сахацкий" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/10.07.1873> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/3C096329-D9C4-3BEA-8EEB-777097893F21> .
+
+<urn:uuid:88e96e00-1b2d-4a9e-bbbc-7be2164869bb>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Бубельчук" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/DE20717C-3FFC-3F04-8125-50DB4060E0E1> .
+
+<http://www.sealit.gr/DB/appellation_surname/A2955205-F6D4-3F1A-883E-9B5E790D9576>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Кромов" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/E774A17F-07DD-3B19-BE38-EFAB7725C048>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 5, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/14922638-85C9-3628-B6A1-5E07544BE12B> .
+
+<http://www.sealit.gr/DB/appellation_surname/AA7AD0B3-75E6-3B59-9D90-CA60D5C06776>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Сахацкий" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/7D2A1439-7706-3654-B238-424F2AC47F43>
+        a                        crm:E21_Person ;
+        rdfs:label               "Никита Клюев" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/54D4CBF8-2EFC-33A6-BC20-138E87BF0EB9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:1fc8663e-39cd-4780-bc3c-04a96f04ab13> ;
+        sealit:has_first_name    "Никита" ;
+        sealit:has_last_name     "Клюев" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/3B703006-5DE4-39C2-B849-2E30FFA35A1F> , <http://www.sealit.gr/DB/person/601134BB-F0EF-3A4B-A1AC-C88F01D0EA06> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2019-02-04T11:24:15.277Z_8&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<urn:uuid:793a6c83-d7f8-4ec6-8190-d307d1522f2c>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Деменчук" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/3089882A-4FA3-32E7-B653-BECC0AFAA24B> .
+
+<http://www.sealit.gr/DB/register_record_point/CC094C5F-D569-3048-ACD7-104D80B93C8A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 17, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/8FB6F74A-1084-3B91-B774-ED795F3BAA03> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/86193BA9-4D4F-3C39-8849-77758F29F00B> .
+
+<http://www.sealit.gr/DB/register_record_point/DECFF6B1-A5C8-34EA-9246-5BF8B3B5135E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 15, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/5BACF990-6B22-3747-B7C0-538764A3660B> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/3B703006-5DE4-39C2-B849-2E30FFA35A1F> .
+
+<urn:uuid:dc245a44-6b03-4456-a461-0244cab76d26>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Андреев" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/BD9E0F00-424D-3BD1-B3AA-36DC1BE351A5> .
+
+<http://www.sealit.gr/DB/register_record_point/FA9A9024-7DF9-301C-9340-5E6572C13B5B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 45, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/person/BFAF0960-549D-3BAD-80FE-679A765E58E8> .
+
+<http://www.sealit.gr/DB/person/11358A2D-EF7A-3006-8EB4-8085930488AB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Кириллович Быбик" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/2902BFE2-4CC2-3757-8B2D-B6E8BE35D962> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Кириллович" ;
+        sealit:has_last_name     "Быбик" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/B60481BB-C82C-33D8-BD7B-000DBD89DA81> .
+
+<urn:uuid:6b534747-c269-4d7c-8ee0-2abb06736ba9>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of [Ситино]" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/6D9DCDE6-48DC-34D0-A005-266E741D75DF> .
+
+<http://www.sealit.gr/DB/person/B9D89E4E-9860-347A-B54A-6976299E1CCB>
+        a       crm:E21_Person .
+
+<urn:uuid:470637f7-29fe-45ee-906a-bb5adf14a618>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Пискарева" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/22.10.1875> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/C4CCBEFE-3CEA-3685-87B1-AD44B431D01D> .
+
+<http://www.sealit.gr/DB/register_record_point/65EC1D62-D02B-341D-A8C9-3A7A81FA84DC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 4, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/B9D89E4E-9860-347A-B54A-6976299E1CCB> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/00EBF349-1A06-3F4A-A927-B85CF9FC8D96> .
+
+<http://www.sealit.gr/DB/person/752545BA-1BD9-3C7C-B008-7E580672A769>
+        a                        crm:E21_Person ;
+        rdfs:label               "Антон Андреев" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1B2CD1FD-D8E0-353E-9DC8-EEC57BE200E9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:dc245a44-6b03-4456-a461-0244cab76d26> ;
+        sealit:has_first_name    "Антон" ;
+        sealit:has_last_name     "Андреев" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D6E66207-F8B2-34A5-A7A6-D4845A8AA3DC> .
+
+<http://www.sealit.gr/DB/register_record_point/90102717-8925-335A-AEA2-0C39107789B3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 12, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/EB1BA029-D63E-3715-B438-4E989877E22D> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/B5ED61CF-045F-3E4A-8032-28685CED8827> .
+
+<http://www.sealit.gr/DB/person/F402F2AC-E7DC-3F2D-8D9A-0A6AF6073668>
+        a                        crm:E21_Person ;
+        rdfs:label               "Феодосеевич Козийчук" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/AC79479A-271F-39FF-8B82-7595D6961887> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Феодосеевич" ;
+        sealit:has_last_name     "Козийчук" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/B288968C-4997-3C67-A6CC-A57A914285B6> .
+
+<http://www.sealit.gr/DB/date/12.03.1874>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 12.03.1874" ;
+        crm:P82_at_some_time_within  "12.03.1874"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:64258dc6-0631-4a8c-b0bb-c9f3685aa4c3>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Карбовский" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/01.02.1881> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/8584010A-CE34-3752-B278-0DC689E14996> .
+
+<http://www.sealit.gr/DB/person/00EBF349-1A06-3F4A-A927-B85CF9FC8D96>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/CEC9D2C8-1376-32A4-B9E2-D20640A00919>
+        a                        crm:E21_Person ;
+        rdfs:label               "Иван Козийчук" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/AC79479A-271F-39FF-8B82-7595D6961887> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:3701ace9-6a4d-438e-a86b-45cf7d7c77c2> ;
+        sealit:has_first_name    "Иван" ;
+        sealit:has_last_name     "Козийчук" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/BB528B10-ABC7-30AB-9930-10809A529D30> .
+
+<http://www.sealit.gr/DB/person/C971DA36-2928-3F6A-893E-77A6CA6785A3>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/9BB34AE5-5AA8-39D5-965F-CC1EFAED0801>
+        a                        crm:E21_Person ;
+        rdfs:label               "Данилович Попович" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/7650214F-E8C0-38E5-B632-2C2F7DC620B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Данилович" ;
+        sealit:has_last_name     "Попович" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D31C65E6-78D8-3D6A-BD5D-98656F242D23> .
+
+<http://www.sealit.gr/DB/register_record_point/50E27FA2-1CB4-381C-B4CA-E6373482CF53>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 24, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/33A3688E-26A2-3C4F-92C5-70B2625738DF> .
+
+<http://www.sealit.gr/DB/person/DE20717C-3FFC-3F04-8125-50DB4060E0E1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Иосифович Бубельчук" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/2EA5B6A9-48E8-31DF-A8C1-96A469563E7A> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Иосифович" ;
+        sealit:has_last_name     "Бубельчук" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/00FB89D8-ED1D-31CE-9338-79D691AA885C> .
+
+<http://www.sealit.gr/DB/appellation_surname/D28D7842-712B-3C4C-801D-EB260C8473A3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ященко" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<urn:uuid:7ab1fa95-acf2-441d-90eb-7addf61b0f37>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Колпаков" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/14079698-4913-3760-A823-FAF83D7BA9C8> .
+
+<http://www.sealit.gr/DB/appellation_surname/ACB6E508-0F05-35A1-A369-06EA6327CA73>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Мисоцкий" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/6B4EBC05-ADE0-3738-8ED5-381E32FDB7FC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Афанасьевич Кутипренко" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/DBF4AAB5-D05F-3AB8-881F-5C7003605C05> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Афанасьевич" ;
+        sealit:has_last_name     "Кутипренко" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/C5B1D585-04BC-3B92-9668-2D1B609E2243> .
+
+<http://www.sealit.gr/DB/register_record_point/2CFD3802-F48D-358F-8E07-C64182B8FC07>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 6, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/B288968C-4997-3C67-A6CC-A57A914285B6> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/BB528B10-ABC7-30AB-9930-10809A529D30> .
+
+<urn:uuid:a69b4804-4814-4c94-8000-04f71c669e3a>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Жариж" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1855> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/1941482D-40D5-343A-9008-B765AB3FADC8> .
+
+<http://www.sealit.gr/DB/person/D31C65E6-78D8-3D6A-BD5D-98656F242D23>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/DB362887-0073-377F-92A8-CB134E3CE899>
+        a       crm:E21_Person .
+
+<urn:uuid:ef485be2-105b-45f9-a1ec-65e778c55982>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Кутипренко" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/16.10.1863> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/6B4EBC05-ADE0-3738-8ED5-381E32FDB7FC> .
+
+<http://www.sealit.gr/DB/appellation_surname/5482590C-06A3-3DDE-9642-80F01FD7C4B2>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Гритевицкий" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/42F8C45E-89C8-3241-9DDD-BF2351F8B56E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 14, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/58945E50-D375-39E7-95F1-6F578F881F0D> .
+
+<http://www.sealit.gr/DB/appellation_surname/F25984D2-150E-3368-B493-840E8A4EC8B4>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Пискарева" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/54D4CBF8-2EFC-33A6-BC20-138E87BF0EB9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Клюев" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/35C05CF3-BED6-31D5-A9F3-1F005FA90DD0>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/6039F1FB-24E9-3030-BB27-F6F8C2D7BF9C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 23, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/D564F3BE-B8D0-315F-91AB-E1BEEF64022C> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/7BDF7640-CBF4-3F47-B23E-149ABB4AEDEB> .
+
+<http://www.sealit.gr/DB/person/7BDF7640-CBF4-3F47-B23E-149ABB4AEDEB>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/date/16.10.1863>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 16.10.1863" ;
+        crm:P82_at_some_time_within  "16.10.1863"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/3089882A-4FA3-32E7-B653-BECC0AFAA24B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Федорович Деменчук" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F3DA70B0-2886-334B-BD3B-A2291E137EF7> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Федорович" ;
+        sealit:has_last_name     "Деменчук" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/B9D89E4E-9860-347A-B54A-6976299E1CCB> .
+
+<http://www.sealit.gr/DB/person/BD9E0F00-424D-3BD1-B3AA-36DC1BE351A5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Николаевич Андреев" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1B2CD1FD-D8E0-353E-9DC8-EEC57BE200E9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Николаевич" ;
+        sealit:has_last_name     "Андреев" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/230B3CCD-7616-330F-854A-6B8380722469> .
+
+<http://www.sealit.gr/DB/person/E167FECF-65EC-3D20-8BE3-C9CF02E75025>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/date/1886>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1886" ;
+        crm:P82_at_some_time_within  "1886"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/20B80F90-C2A1-37E7-ADF0-7E64B8C96BF8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 27, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/5177C9A1-C45D-37B9-8A66-FBB865991EA8> .
+
+<http://www.sealit.gr/DB/person/601134BB-F0EF-3A4B-A1AC-C88F01D0EA06>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/B9D7A310-D4BB-399A-985F-0C386C1B97C5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Онуфрий Повло" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EAC283BD-B428-3786-8529-D1B9A5E07195> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:10ae3100-b1aa-4989-b19e-0c0ac897622c> ;
+        sealit:has_first_name    "Онуфрий" ;
+        sealit:has_last_name     "Повло" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/EE1468C0-F654-345C-9DE5-DB94C5524E6A> .
+
+<http://www.sealit.gr/DB/register_record_point/667F7D75-6531-30CE-ADA5-B406102CF70D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 18, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/EF81C5EE-8EE2-37C4-9130-03D3D2F4B92B> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/6F912E76-07A8-3E6D-9612-017EFE6BFFD9> .
+
+<http://www.sealit.gr/DB/appellation_surname/D96C3B11-2258-36E2-B2D7-5167A567CBF8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Карбовский" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/27993489-48E3-387A-84F0-F756BACC46F8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ева" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/04109056-24AE-3531-8CC6-36D34BE9FF2B>
+        a       crm:E21_Person .
+
+<urn:uuid:1fc8663e-39cd-4780-bc3c-04a96f04ab13>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Клюев" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/343539D8-93C1-3009-AA03-0A07C5717DD5> .
+
+<urn:uuid:419ac02f-69e4-438d-ba51-897472d913d8>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Кромов" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/8CB03044-D8CA-3161-84F9-7FEA9AD6F3CA> .
+
+<http://www.sealit.gr/DB/date/02.02.1865>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 02.02.1865" ;
+        crm:P82_at_some_time_within  "02.02.1865"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:08fe286a-dd07-43f0-968d-46e96f1ae11b>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Быбик" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/03.04.1871> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/11358A2D-EF7A-3006-8EB4-8085930488AB> .
+
+<http://www.sealit.gr/DB/person/6222031B-C7A2-38D4-A582-CBBAE19BDF31>
+        a                        crm:E21_Person ;
+        rdfs:label               "Петрович Родиловакий" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/24115358-9DEB-3F89-BD5B-10B31CD1FE58> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Петрович" ;
+        sealit:has_last_name     "Родиловакий" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/57BDC2A1-F04C-3DF2-BCFB-B55ACDBD9862> .
+
+<http://www.sealit.gr/DB/person/B288968C-4997-3C67-A6CC-A57A914285B6>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/BFAF0960-549D-3BAD-80FE-679A765E58E8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/5D9CE7C0-B7D7-320C-B491-F7E2678A5E7C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Прокофьевич Охременко" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/61E4F017-59B7-3A05-865D-B9D495DFF51E> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Прокофьевич" ;
+        sealit:has_last_name     "Охременко" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D564F3BE-B8D0-315F-91AB-E1BEEF64022C> .
+
+<http://www.sealit.gr/DB/register_record_point/185EE74D-E7AA-303C-8BAD-0E7AE1BEC801>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 26, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/BA7D7033-7DB1-34E9-83AC-7E7E4D374364> .
+
+<http://www.sealit.gr/DB/person/343539D8-93C1-3009-AA03-0A07C5717DD5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Данилович Клюев" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/54D4CBF8-2EFC-33A6-BC20-138E87BF0EB9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Данилович" ;
+        sealit:has_last_name     "Клюев" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/5BACF990-6B22-3747-B7C0-538764A3660B> , <http://www.sealit.gr/DB/person/61F4408B-D213-3190-800D-530D3BEB98A4> .
+
+<http://www.sealit.gr/DB/appellation_surname/E22BF6FA-BEFD-37C4-BDA8-09E9D70B9C3B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Станкевич" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/EAC283BD-B428-3786-8529-D1B9A5E07195>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Повло" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/B0EEAF18-E194-387F-A5F1-6EC6A1113CD9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Болеслав Гритевицкий" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/5482590C-06A3-3DDE-9642-80F01FD7C4B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e387e4c6-b18b-4c65-87c9-3bf7b38604f8> ;
+        sealit:has_first_name    "Болеслав" ;
+        sealit:has_last_name     "Гритевицкий" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DB362887-0073-377F-92A8-CB134E3CE899> .
+
+<http://www.sealit.gr/DB/person/67939473-77A2-3317-A10A-B0A6B7F3C92C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Ефимович Ященко" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D28D7842-712B-3C4C-801D-EB260C8473A3> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Ефимович" ;
+        sealit:has_last_name     "Ященко" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8A9E3E13-D943-3FBA-A41F-BDD11CA44D97> .
+
+<http://www.sealit.gr/DB/person/EB1BA029-D63E-3715-B438-4E989877E22D>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/D6631833-0089-325E-B0BA-DBC5CA3EE7F9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 16, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/D31C65E6-78D8-3D6A-BD5D-98656F242D23> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/35C05CF3-BED6-31D5-A9F3-1F005FA90DD0> .
+
+<http://www.sealit.gr/DB/appellation_surname/61E4F017-59B7-3A05-865D-B9D495DFF51E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Охременко" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<urn:uuid:10ae3100-b1aa-4989-b19e-0c0ac897622c>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Повло" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/68A93060-9E66-38FD-97A2-CCC1CFB02D66> .
+
+<http://www.sealit.gr/DB/person/71F71652-29E1-3873-B0F9-D05333D0CAB7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Артем Колпаков" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B8815B5E-2626-3A50-8787-BD71DF7E6CE4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:7ab1fa95-acf2-441d-90eb-7addf61b0f37> ;
+        sealit:has_first_name    "Артем" ;
+        sealit:has_last_name     "Колпаков" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6F912E76-07A8-3E6D-9612-017EFE6BFFD9> .
+
+<http://www.sealit.gr/DB/person/00FB89D8-ED1D-31CE-9338-79D691AA885C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/833668C3-4ED9-320A-A689-645223CF27AA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 11, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/BA312A45-1A29-3980-8064-100E1B5D8793> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/04109056-24AE-3531-8CC6-36D34BE9FF2B> .
+
+<http://www.sealit.gr/DB/person/57BDC2A1-F04C-3DF2-BCFB-B55ACDBD9862>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/14079698-4913-3760-A823-FAF83D7BA9C8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Захарович Колпаков" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B8815B5E-2626-3A50-8787-BD71DF7E6CE4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Захарович" ;
+        sealit:has_last_name     "Колпаков" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/EF81C5EE-8EE2-37C4-9130-03D3D2F4B92B> .
+
+<http://www.sealit.gr/DB/person/5BACF990-6B22-3747-B7C0-538764A3660B>
+        a       crm:E21_Person .
+
+<urn:uuid:2cf00a6d-7f11-4cb7-98da-e529f9bf737f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Запорожец" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/02.02.1865> .
+
+<urn:uuid:3701ace9-6a4d-438e-a86b-45cf7d7c77c2>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Козийчук" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/29.08.1871> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/F402F2AC-E7DC-3F2D-8D9A-0A6AF6073668> .
+
+<http://www.sealit.gr/DB/person/C5B1D585-04BC-3B92-9668-2D1B609E2243>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2019-02-04T11:24:15.277Z_8&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/86193BA9-4D4F-3C39-8849-77758F29F00B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7C704446-F9C1-3970-9FC3-70CEB09A4703>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/58945E50-D375-39E7-95F1-6F578F881F0D>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/837C5478-AE1E-3B9A-BB88-E07CEB6F0CDF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 7, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/B60481BB-C82C-33D8-BD7B-000DBD89DA81> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/7C704446-F9C1-3970-9FC3-70CEB09A4703> .
+
+<http://www.sealit.gr/DB/person/2ED67810-326F-3DEF-B9E1-04031C80EDAF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Трифон Карбовский" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D96C3B11-2258-36E2-B2D7-5167A567CBF8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:64258dc6-0631-4a8c-b0bb-c9f3685aa4c3> ;
+        sealit:has_first_name    "Трифон" ;
+        sealit:has_last_name     "Карбовский" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/EB1BA029-D63E-3715-B438-4E989877E22D> .
+
+<http://www.sealit.gr/DB/person/1941482D-40D5-343A-9008-B765AB3FADC8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Мартинович Жариж" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/062DC5BD-5306-3CDE-9DF4-F9995ABFB7BF> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Мартинович" ;
+        sealit:has_last_name     "Жариж" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FBA70508-8519-3034-A1F7-588BDA7F23A3> .
+
+<http://www.sealit.gr/DB/person/5CBABD79-DED8-31D0-8B85-6C4C8F0205A5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Григорий Родиловакий" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/24115358-9DEB-3F89-BD5B-10B31CD1FE58> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ebc486d2-69cf-4583-a1a6-b286c2ed7964> ;
+        sealit:has_first_name    "Григорий" ;
+        sealit:has_last_name     "Родиловакий" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/C5D495BD-0D27-35F4-A68D-43CED990D932> .
+
+<http://www.sealit.gr/DB/date/1855>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1855" ;
+        crm:P82_at_some_time_within  "1855"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/EF81C5EE-8EE2-37C4-9130-03D3D2F4B92B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/DC87234B-948E-3B5B-85BE-717E207DE500>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 20, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/00FB89D8-ED1D-31CE-9338-79D691AA885C> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/207A72E1-B28F-3C28-B350-23E01303681D> .
+
+<http://www.sealit.gr/DB/person/16D267BD-F595-3321-BD51-01E5B3AB0811>
+        a                        crm:E21_Person ;
+        rdfs:label               "Анастасия Пискарева" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F25984D2-150E-3368-B493-840E8A4EC8B4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:470637f7-29fe-45ee-906a-bb5adf14a618> ;
+        sealit:has_first_name    "Анастасия" ;
+        sealit:has_last_name     "Пискарева" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/86193BA9-4D4F-3C39-8849-77758F29F00B> .
+
+<urn:uuid:3faff3b3-adba-4885-a525-40a1751f184f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of К[?][?]денков" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1886> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/563EB3A4-4644-3E96-A032-111F49377706> .
+
+<http://www.sealit.gr/DB/date/10.07.1873>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 10.07.1873" ;
+        crm:P82_at_some_time_within  "10.07.1873"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/D0466D2A-202E-34D5-B4F5-88977A597405>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/D564F3BE-B8D0-315F-91AB-E1BEEF64022C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/B5ED61CF-045F-3E4A-8032-28685CED8827>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/336A46BC-AD11-3BAF-A2D9-208F2832ED2F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Семен Деменчук" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F3DA70B0-2886-334B-BD3B-A2291E137EF7> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:793a6c83-d7f8-4ec6-8190-d307d1522f2c> ;
+        sealit:has_first_name    "Семен" ;
+        sealit:has_last_name     "Деменчук" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/00EBF349-1A06-3F4A-A927-B85CF9FC8D96> .
+
+<http://www.sealit.gr/DB/register_record_point/20C18616-0AB0-3B1B-95DA-C298946C969F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 2, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/6BB69DC8-5928-3A99-8C96-C29E9C5D851B> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/A02E15ED-8292-3DF8-B46C-5AA8B96F3850> .
+
+<http://www.sealit.gr/DB/date/03.04.1871>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 03.04.1871" ;
+        crm:P82_at_some_time_within  "03.04.1871"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/2E26F4A0-BFE0-3296-94AC-0358EBB26B0D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Семен К[?][?]денков" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/85B59B09-1EF5-3920-BE65-AD5BCC960C65> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:3faff3b3-adba-4885-a525-40a1751f184f> ;
+        sealit:has_first_name    "Семен" ;
+        sealit:has_last_name     "К[?][?]денков" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A02E15ED-8292-3DF8-B46C-5AA8B96F3850> .
+
+<http://www.sealit.gr/DB/person/6243A806-F0DA-3500-883E-28794C35DB26>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/90454F81-E1DC-3616-9808-4C3C0AEE02F0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Станиславович Гритевицкий" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/5482590C-06A3-3DDE-9642-80F01FD7C4B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Станиславович" ;
+        sealit:has_last_name     "Гритевицкий" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/666381A2-4306-350E-85BD-CA385ED8DFED> .
+
+<http://www.sealit.gr/DB/person/8CB03044-D8CA-3161-84F9-7FEA9AD6F3CA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Иванович Кромов" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/A2955205-F6D4-3F1A-883E-9B5E790D9576> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Иванович" ;
+        sealit:has_last_name     "Кромов" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FDCE2CCE-8FDD-3853-A3CE-2F96F1C75EDA> .
+
+<http://www.sealit.gr/DB/register_record_point/6E85884E-18FA-3442-97A8-9BD0F994AF19>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 13, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/666381A2-4306-350E-85BD-CA385ED8DFED> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/DB362887-0073-377F-92A8-CB134E3CE899> .
+
+<http://www.sealit.gr/DB/appellation_surname/AC79479A-271F-39FF-8B82-7595D6961887>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Козийчук" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/85B59B09-1EF5-3920-BE65-AD5BCC960C65>
+        a                crm:E41_Appellation ;
+        rdfs:label       "К[?][?]денков" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/2EA5B6A9-48E8-31DF-A8C1-96A469563E7A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Бубельчук" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/062DC5BD-5306-3CDE-9DF4-F9995ABFB7BF>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Жариж" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/33A3688E-26A2-3C4F-92C5-70B2625738DF>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/52F25F1E-690D-382C-AD22-814BD6B71E6A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Сильвестер Жариж" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/062DC5BD-5306-3CDE-9DF4-F9995ABFB7BF> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a69b4804-4814-4c94-8000-04f71c669e3a> ;
+        sealit:has_first_name    "Сильвестер" ;
+        sealit:has_last_name     "Жариж" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F578D188-3DBA-37A1-9062-83FBE6C73C90> .
+
+<urn:uuid:077a64a1-a97b-4ba4-898a-fd32ea4ea50d>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Ященко" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/67939473-77A2-3317-A10A-B0A6B7F3C92C> .
+
+<http://www.sealit.gr/DB/date/22.10.1875>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 22.10.1875" ;
+        crm:P82_at_some_time_within  "22.10.1875"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/CB53BDA7-5207-38D5-8C59-CCE098E198D1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Григорий Ященко" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D28D7842-712B-3C4C-801D-EB260C8473A3> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:077a64a1-a97b-4ba4-898a-fd32ea4ea50d> ;
+        sealit:has_first_name    "Григорий" ;
+        sealit:has_last_name     "Ященко" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6341FBE9-E3EF-3273-BF5F-866885C5DE50> .
+
+<http://www.sealit.gr/DB/person/BA7D7033-7DB1-34E9-83AC-7E7E4D374364>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/DBF4AAB5-D05F-3AB8-881F-5C7003605C05>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Кутипренко" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/FBA70508-8519-3034-A1F7-588BDA7F23A3>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/9B8B7E93-AB2D-3343-B004-F1D7F8EF6C80>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/14922638-85C9-3628-B6A1-5E07544BE12B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/C4CCBEFE-3CEA-3685-87B1-AD44B431D01D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Михайловна Пискарева" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F25984D2-150E-3368-B493-840E8A4EC8B4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Михайловна" ;
+        sealit:has_last_name     "Пискарева" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8FB6F74A-1084-3B91-B774-ED795F3BAA03> .
+
+<http://www.sealit.gr/DB/person/5177C9A1-C45D-37B9-8A66-FBB865991EA8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/06D39281-9519-36AC-B09B-6C4403EC12E6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 26, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/61F4408B-D213-3190-800D-530D3BEB98A4> , <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/person/601134BB-F0EF-3A4B-A1AC-C88F01D0EA06> .
+
+<http://www.sealit.gr/DB/person/6341FBE9-E3EF-3273-BF5F-866885C5DE50>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/68A93060-9E66-38FD-97A2-CCC1CFB02D66>
+        a                        crm:E21_Person ;
+        rdfs:label               "Михайлович Повло" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EAC283BD-B428-3786-8529-D1B9A5E07195> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Михайлович" ;
+        sealit:has_last_name     "Повло" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/C971DA36-2928-3F6A-893E-77A6CA6785A3> .
+
+<http://www.sealit.gr/DB/person/A02E15ED-8292-3DF8-B46C-5AA8B96F3850>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company>
+        a           crm:E55_Type ;
+        rdfs:label  "payroll of russian steam navigation and trading company" .
+
+<http://www.sealit.gr/DB/person/E7015562-ABF4-3F13-8C01-00809D3D5411>
+        a                        crm:E21_Person ;
+        rdfs:label               "Иван Кутипренко" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/DBF4AAB5-D05F-3AB8-881F-5C7003605C05> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ef485be2-105b-45f9-a1ec-65e778c55982> ;
+        sealit:has_first_name    "Иван" ;
+        sealit:has_last_name     "Кутипренко" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8BD027A4-DEA0-33DD-B888-832FA237C424> .
+
+<http://www.sealit.gr/DB/person/EE1468C0-F654-345C-9DE5-DB94C5524E6A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/8A9E3E13-D943-3FBA-A41F-BDD11CA44D97>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/date/29.08.1871>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 29.08.1871" ;
+        crm:P82_at_some_time_within  "29.08.1871"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/021751C6-4935-380D-A3EC-22B52D47C8CD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 130, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/person/9B8B7E93-AB2D-3343-B004-F1D7F8EF6C80> .
+
+<http://www.sealit.gr/DB/person/8584010A-CE34-3752-B278-0DC689E14996>
+        a                        crm:E21_Person ;
+        rdfs:label               "Иванович Карбовский" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D96C3B11-2258-36E2-B2D7-5167A567CBF8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Иванович" ;
+        sealit:has_last_name     "Карбовский" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/BFAF0960-549D-3BAD-80FE-679A765E58E8> , <http://www.sealit.gr/DB/person/4840BF88-AE64-38DD-BBCD-DBB5FD0442E9> , <http://www.sealit.gr/DB/person/9B8B7E93-AB2D-3343-B004-F1D7F8EF6C80> , <http://www.sealit.gr/DB/person/B5ED61CF-045F-3E4A-8032-28685CED8827> .
+
+<http://www.sealit.gr/DB/person/44FEDE6E-9216-3840-94B9-6B82365B60DC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Феодосий Охременко" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/61E4F017-59B7-3A05-865D-B9D495DFF51E> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:1877cce8-5b34-4b5e-b804-ee509fba4f03> ;
+        sealit:has_first_name    "Феодосий" ;
+        sealit:has_last_name     "Охременко" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7BDF7640-CBF4-3F47-B23E-149ABB4AEDEB> .
+
+<http://www.sealit.gr/DB/person/FDCE2CCE-8FDD-3853-A3CE-2F96F1C75EDA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/8FB6F74A-1084-3B91-B774-ED795F3BAA03>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/898052A0-21A9-35AA-9BA2-6602C929A806>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 1, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/E167FECF-65EC-3D20-8BE3-C9CF02E75025> .
+
+<http://www.sealit.gr/DB/appellation_surname/1B2CD1FD-D8E0-353E-9DC8-EEC57BE200E9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Андреев" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<urn:uuid:e387e4c6-b18b-4c65-87c9-3bf7b38604f8>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Гритевицкий" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/90454F81-E1DC-3616-9808-4C3C0AEE02F0> .
+
+<http://www.sealit.gr/DB/person/956029B2-2E87-3C57-8AD5-7895AADE0E90>
+        a                        crm:E21_Person ;
+        rdfs:label               "Григорий Кромов" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/A2955205-F6D4-3F1A-883E-9B5E790D9576> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:419ac02f-69e4-438d-ba51-897472d913d8> ;
+        sealit:has_first_name    "Григорий" ;
+        sealit:has_last_name     "Кромов" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/83A5C966-8FBE-3991-940D-2216A0A5A4B5> .
+
+<http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-01-19T12:24:53.367Z_1&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/3B703006-5DE4-39C2-B849-2E30FFA35A1F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/6552509E-8F5B-3844-84F0-92EA397C5A38>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 107, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/person/4840BF88-AE64-38DD-BBCD-DBB5FD0442E9> .
+
+<http://www.sealit.gr/DB/person/B9FAEA19-5397-3D3D-9D3B-418DD32127AC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Агафья Запорожец" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/81E5E822-EA9A-39D2-BEA6-8F1D3846B477> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Агафья" ;
+        sealit:has_last_name     "Запорожец" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/14922638-85C9-3628-B6A1-5E07544BE12B> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/register_record_point/B0A17207-B547-341B-8AAB-740C35F51BB0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 10, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/FBA70508-8519-3034-A1F7-588BDA7F23A3> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/F578D188-3DBA-37A1-9062-83FBE6C73C90> .
+
+<http://www.sealit.gr/DB/appellation_surname/FE3A0F3F-B995-3DDA-993D-6E91B0C0C114>
+        a                crm:E41_Appellation ;
+        rdfs:label       "[Ситино]" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/3C096329-D9C4-3BEA-8EEB-777097893F21>
+        a                        crm:E21_Person ;
+        rdfs:label               "Иванович Сахацкий" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/AA7AD0B3-75E6-3B59-9D90-CA60D5C06776> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Иванович" ;
+        sealit:has_last_name     "Сахацкий" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/BA312A45-1A29-3980-8064-100E1B5D8793> .
+
+<http://www.sealit.gr/DB/person/BB528B10-ABC7-30AB-9930-10809A529D30>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<http://www.sealit.gr/DB/person/B60481BB-C82C-33D8-BD7B-000DBD89DA81>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/379532D5-F2EE-3B33-835B-4F5DCB812CC7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Гавриил Сахацкий" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/AA7AD0B3-75E6-3B59-9D90-CA60D5C06776> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:17f1e6b4-28e2-410f-8e2c-2950831b3fa9> ;
+        sealit:has_first_name    "Гавриил" ;
+        sealit:has_last_name     "Сахацкий" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/04109056-24AE-3531-8CC6-36D34BE9FF2B> .
+
+<http://www.sealit.gr/DB/person/666381A2-4306-350E-85BD-CA385ED8DFED>
+        a       crm:E21_Person .
+
+<urn:uuid:1877cce8-5b34-4b5e-b804-ee509fba4f03>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Охременко" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/5D9CE7C0-B7D7-320C-B491-F7E2678A5E7C> .
+
+<http://www.sealit.gr/DB/appellation_surname/B8815B5E-2626-3A50-8787-BD71DF7E6CE4>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Колпаков" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/B13A034A-5E7F-3DE2-917A-3B178E383D4D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 22, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/230B3CCD-7616-330F-854A-6B8380722469> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/D6E66207-F8B2-34A5-A7A6-D4845A8AA3DC> .
+
+<http://www.sealit.gr/DB/person/02697017-08A0-3E11-B241-71C72D4FB31A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Никита Быбик" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/2902BFE2-4CC2-3757-8B2D-B6E8BE35D962> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:08fe286a-dd07-43f0-968d-46e96f1ae11b> ;
+        sealit:has_first_name    "Никита" ;
+        sealit:has_last_name     "Быбик" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7C704446-F9C1-3970-9FC3-70CEB09A4703> .
+
+<http://www.sealit.gr/DB/person/6D9DCDE6-48DC-34D0-A005-266E741D75DF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Кондратьевич [Ситино]" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/FE3A0F3F-B995-3DDA-993D-6E91B0C0C114> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Кондратьевич" ;
+        sealit:has_last_name     "[Ситино]" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6243A806-F0DA-3500-883E-28794C35DB26> .
+
+<http://www.sealit.gr/DB/person/6F912E76-07A8-3E6D-9612-017EFE6BFFD9>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/24115358-9DEB-3F89-BD5B-10B31CD1FE58>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Родиловакий" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/C5D495BD-0D27-35F4-A68D-43CED990D932>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/44C5DE8A-30F2-3EEC-AA38-B2AA5B13D2C1>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Севастис" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/2902BFE2-4CC2-3757-8B2D-B6E8BE35D962>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Быбик" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/BA312A45-1A29-3980-8064-100E1B5D8793>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/81E5E822-EA9A-39D2-BEA6-8F1D3846B477>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Запорожец" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/B900C679-DB2D-3856-BABF-2F11CD471EF6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Александр Станкевич" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/E22BF6FA-BEFD-37C4-BDA8-09E9D70B9C3B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Александр" ;
+        sealit:has_last_name     "Станкевич" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/BA7D7033-7DB1-34E9-83AC-7E7E4D374364> .
+
+<http://www.sealit.gr/DB/person/4139ED5C-9CEC-3CE9-8977-4C6B48E3ED21>
+        a                        crm:E21_Person ;
+        rdfs:label               "Федор Бубельчук" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/2EA5B6A9-48E8-31DF-A8C1-96A469563E7A> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:88e96e00-1b2d-4a9e-bbbc-7be2164869bb> ;
+        sealit:has_first_name    "Федор" ;
+        sealit:has_last_name     "Бубельчук" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/207A72E1-B28F-3C28-B350-23E01303681D> .
+
+<http://www.sealit.gr/DB/person/207A72E1-B28F-3C28-B350-23E01303681D>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/6BB69DC8-5928-3A99-8C96-C29E9C5D851B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/8899274D-6676-396E-8A8E-18673233B80F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Иван [Ситино]" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/FE3A0F3F-B995-3DDA-993D-6E91B0C0C114> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:6b534747-c269-4d7c-8ee0-2abb06736ba9> ;
+        sealit:has_first_name    "Иван" ;
+        sealit:has_last_name     "[Ситино]" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D0466D2A-202E-34D5-B4F5-88977A597405> .
+
+<http://www.sealit.gr/DB/appellation_surname/F3DA70B0-2886-334B-BD3B-A2291E137EF7>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Деменчук" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/A9275899-24D9-3A52-AC9B-C35476F17595>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 19, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/8A9E3E13-D943-3FBA-A41F-BDD11CA44D97> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/6341FBE9-E3EF-3273-BF5F-866885C5DE50> .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/person/8AE3A337-C718-320A-8EF3-4AF3393C53F8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Агафья Запорожец" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/81E5E822-EA9A-39D2-BEA6-8F1D3846B477> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2cf00a6d-7f11-4cb7-98da-e529f9bf737f> ;
+        sealit:has_first_name    "Агафья" ;
+        sealit:has_last_name     "Запорожец" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/E167FECF-65EC-3D20-8BE3-C9CF02E75025> .
+
+<http://www.sealit.gr/DB/person/230B3CCD-7616-330F-854A-6B8380722469>
+        a       crm:E21_Person .
+
+<urn:uuid:ebc486d2-69cf-4583-a1a6-b286c2ed7964>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Родиловакий" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/12.03.1874> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/6222031B-C7A2-38D4-A582-CBBAE19BDF31> .
+
+<http://www.sealit.gr/DB/person/D6E66207-F8B2-34A5-A7A6-D4845A8AA3DC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/8BD027A4-DEA0-33DD-B888-832FA237C424>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/4840BF88-AE64-38DD-BBCD-DBB5FD0442E9>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/563EB3A4-4644-3E96-A032-111F49377706>
+        a                        crm:E21_Person ;
+        rdfs:label               "Александрович К[?][?]денков" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/85B59B09-1EF5-3920-BE65-AD5BCC960C65> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Александрович" ;
+        sealit:has_last_name     "К[?][?]денков" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6BB69DC8-5928-3A99-8C96-C29E9C5D851B> .
+
+<http://www.sealit.gr/DB/register_record_point/74FF4C3C-DD67-3152-9B43-A501BF5D5114>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 3, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/6243A806-F0DA-3500-883E-28794C35DB26> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/D0466D2A-202E-34D5-B4F5-88977A597405> .
+
+<http://www.sealit.gr/DB/person/61F4408B-D213-3190-800D-530D3BEB98A4>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/9E53E403-957D-3420-A5C9-24762CA87F43>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 8, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/C5B1D585-04BC-3B92-9668-2D1B609E2243> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/8BD027A4-DEA0-33DD-B888-832FA237C424> .
+
+<http://www.sealit.gr/DB/register_record_point/EC11CDFF-285F-39CC-BFE9-36FFDBC311EA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 9, table: payroll" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/57BDC2A1-F04C-3DF2-BCFB-B55ACDBD9862> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/person/C5D495BD-0D27-35F4-A68D-43CED990D932> .

@@ -1,0 +1,1690 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/person/26625FDE-2CBF-3DE6-8477-62B6FDA8225E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/43334274-F00B-3B85-A5E6-0DB0F5C9053C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 13, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/5E7C41C0-DE6B-3699-9ACC-6C19B9663805> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/86E6F89E-B00B-3FEC-8C94-5BEF9BCEDFFA> .
+
+<http://www.sealit.gr/DB/ids/28>
+        a                crm:E42_Identifier ;
+        rdfs:label       "28" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/1AD365FF-239E-3D42-BB7C-338DA8428395>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/401BBB48-51F8-30EF-80DE-541E7560BAA3>
+        a                        crm:E21_Person ;
+        rdfs:label               "Lorenzo Carol" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/283> , <http://www.sealit.gr/DB/appellation_surname/150C16D9-D096-370A-B359-6111D7402397> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:014e5154-2708-45cf-b7ed-658a5a764158> ;
+        sealit:has_first_name    "Lorenzo" ;
+        sealit:has_last_name     "Carol" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/51BCA47F-6206-307B-AB96-BAF02BD66163> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-28T07:52:37.381Z_10&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/appellation_surname/ADC7ECD5-948E-3B32-8FE8-339A2A10C4A8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Vidal" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/0DB7E7A3-47AA-368A-A621-8DF2A01C99C6>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Perez" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/E2DD850D-5FDD-3D15-87BC-13A5CB57241C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Juan Font" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/194F5394-AE2E-3C74-9C3C-441B92862D1D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:218c15eb-4d27-4c47-ad12-0c836f9c9534> ;
+        sealit:has_first_name    "Juan" ;
+        sealit:has_last_name     "Font" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/86E6F89E-B00B-3FEC-8C94-5BEF9BCEDFFA> .
+
+<http://www.sealit.gr/DB/person/2046EFD2-E051-38C1-8E3B-DD65677D3E67>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jose Rodriguez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/3C31A642-927C-390A-9FCE-8E94BC3AB80E> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Jose" ;
+        sealit:has_last_name     "Rodriguez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/69608E4E-D433-3835-9F6F-06E0264BB9BD> .
+
+<http://www.sealit.gr/DB/register_record_point/8AE7CB21-8C35-35E8-A4B9-B950B3D55A86>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 31, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/93F59DF9-F7B5-3315-B6CD-F33B672EA6A4> .
+
+<http://www.sealit.gr/DB/person/F6BC149C-47CB-3F28-A6B7-234DE6EA9577>
+        a       crm:E21_Person .
+
+<urn:uuid:df80eb18-074d-4e6c-a4e8-eb6cabda4b13>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Perdigo" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/BF32499C-26E2-3929-AF83-D9EA6B3DA2F6> .
+
+<http://www.sealit.gr/DB/person/D87D205E-21FA-355C-9096-2FCDD910EF1C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Ruiz Duarte" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B2D20D2F-E330-335B-8869-B070B1DCE7DE> , <http://www.sealit.gr/DB/appellation_surname/87FDA93A-B58D-3443-A935-5F298CE7C696> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Ruiz Duarte" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8F50714D-5BE4-35B3-9631-EFFB6BC89BF5> .
+
+<http://www.sealit.gr/DB/register_record_point/1A9819A1-A6DF-3063-BC1A-E950D35DED9F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 10, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/3DA6B194-AC15-31F6-8432-F33E36634624> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/8E0D6CF1-790D-3337-B86F-477526AF68D5> .
+
+<http://www.sealit.gr/DB/person/8698345F-BDB0-37F0-85B4-BD3E62B68AA2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francis Smith" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/E95F770A-C4FB-31AC-AE48-73E4B2DFC0E6> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Francis" ;
+        sealit:has_last_name     "Smith" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/93F59DF9-F7B5-3315-B6CD-F33B672EA6A4> .
+
+<http://www.sealit.gr/DB/person/93F59DF9-F7B5-3315-B6CD-F33B672EA6A4>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/0D4FDFDA-03FE-374C-BE67-819BF9FD6BEC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 24, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/26625FDE-2CBF-3DE6-8477-62B6FDA8225E> .
+
+<http://www.sealit.gr/DB/register_record_point/F3B805C7-67DB-3F78-8409-B774CA5258FE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 26, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/14D1CB8D-3E5A-3436-A1A5-78C087BFEECB> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/FD9B4738-D023-3A04-83BF-61924676B6A9> .
+
+<http://www.sealit.gr/DB/person/A3B110FF-70E4-38CD-BC17-285F90C28672>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/ids/283>
+        a                crm:E42_Identifier ;
+        rdfs:label       "283" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/BCAB848F-49B5-3B98-BCB0-72595FF63FE2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jose Ag[ustin] Caballe" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/21> , <http://www.sealit.gr/DB/appellation_surname/1260C958-8453-33A5-8788-B11F6C772456> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:b7ba3d5a-f7cd-4fa3-91de-c1afe1957239> ;
+        sealit:has_first_name    "Jose Ag[ustin]" ;
+        sealit:has_last_name     "Caballe" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/2774111B-A290-35AD-A0EB-0BBB93ADA0F8> .
+
+<http://www.sealit.gr/DB/appellation_surname/6A488F27-B955-3EB9-A641-ACA69DA33488>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Seron" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/C6E299A6-FF0A-36AE-A0DB-641E44FA6ACC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Leopoldo Rafart" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/10> , <http://www.sealit.gr/DB/appellation_surname/7576779E-B35F-3EAF-B25D-660FB0866F69> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:5a099cae-be97-4162-8da9-c894c3b508d6> ;
+        sealit:has_first_name    "Leopoldo" ;
+        sealit:has_last_name     "Rafart" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/1AD365FF-239E-3D42-BB7C-338DA8428395> .
+
+<http://www.sealit.gr/DB/register_record_point/DC3F1372-6ABE-399E-83C9-816C5CD5FFE7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 35, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/69608E4E-D433-3835-9F6F-06E0264BB9BD> .
+
+<http://www.sealit.gr/DB/person/2ECF43E2-FD65-3BC9-93FE-4B77B5150193>
+        a                        crm:E21_Person ;
+        rdfs:label               "otro Carceller" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B9131BBF-FD0A-34AD-A9DE-BECAD3DDA66F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "otro" ;
+        sealit:has_last_name     "Carceller" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9A1F976F-3533-3C3B-945F-FBB2DA178C83> .
+
+<http://www.sealit.gr/DB/person/D1F4C3B2-C1C3-355C-90F7-8C93E290D07F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agustin Fernandez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/255> , <http://www.sealit.gr/DB/appellation_surname/0A4C05F8-4499-3E30-98A1-446C73B3FD49> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:417c571b-ca95-42e1-9b14-2e353cd8b2de> ;
+        sealit:has_first_name    "Agustin" ;
+        sealit:has_last_name     "Fernandez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FD9B4738-D023-3A04-83BF-61924676B6A9> .
+
+<http://www.sealit.gr/DB/person/DECBFBFB-0AB3-385C-9E2A-4BEBCD57715F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/ids/554>
+        a                crm:E42_Identifier ;
+        rdfs:label       "554" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<urn:uuid:99083e94-8d4d-43b0-a7f4-eb019c1a2239>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Cortes" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/977FE27A-E5D8-314B-A0E0-A368D9CB0119> .
+
+<http://www.sealit.gr/DB/appellation_surname/7F3FE887-D364-3411-B91D-551FF9CF05B2>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Reig" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/ids/825>
+        a                crm:E42_Identifier ;
+        rdfs:label       "825" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/269A5554-7809-3D36-9990-D1173390323D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Juan Pacheco" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/81205917-8DB1-37B1-9F8B-6847D0F6C752> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2dab61b5-bf34-4150-bbe5-adc51492ea54> ;
+        sealit:has_first_name    "Juan" ;
+        sealit:has_last_name     "Pacheco" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A3B110FF-70E4-38CD-BC17-285F90C28672> .
+
+<http://www.sealit.gr/DB/person/CA1BDA68-C0F7-381F-B043-8EC68B5A6ACA>
+        a                        crm:E21_Person ;
+        rdfs:label               "F[rancis]co Vicens" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/947> , <http://www.sealit.gr/DB/appellation_surname/85AC09AC-2463-3B4A-9975-946BD95204AE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ce395840-bd2c-4028-9fbd-a18964e8307e> ;
+        sealit:has_first_name    "F[rancis]co" ;
+        sealit:has_last_name     "Vicens" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/C6ED4EBF-DEBF-31E4-AA0B-ADAFCA3A25CA> .
+
+<http://www.sealit.gr/DB/person/32A7D14F-C7A0-3CC7-B667-E488910B6E53>
+        a                        crm:E21_Person ;
+        rdfs:label               "Vicente Miralles" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/62> , <http://www.sealit.gr/DB/appellation_surname/3E870830-9A27-3305-AE78-A4D8D0A94C36> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:74224b6d-e07d-4d04-9171-f9a051ab8e02> ;
+        sealit:has_first_name    "Vicente" ;
+        sealit:has_last_name     "Miralles" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/45863D6A-BED4-3974-8979-970A55CE60E0> .
+
+<http://www.sealit.gr/DB/ids/796>
+        a                crm:E42_Identifier ;
+        rdfs:label       "796" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/0A490CC5-D1B4-3019-A5E1-F5357592DDC4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 14, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/6075BB33-ED34-34E7-B715-DF5F0E57F389> .
+
+<http://www.sealit.gr/DB/register_record_point/65050740-070A-3F02-B611-FDD438342798>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 16, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/9A1F976F-3533-3C3B-945F-FBB2DA178C83> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/A1D5C821-DD2F-3721-8C2F-2891443914CF> .
+
+<http://www.sealit.gr/DB/person/BE482CE9-013C-3146-85F7-8F222A1BD2FC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fran[cis]co Paz" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/BC6C0954-8F55-3712-AB0E-ED5C2F94E829> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Fran[cis]co" ;
+        sealit:has_last_name     "Paz" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/54C801CA-DD50-3100-8A78-CE0F1666B91B> .
+
+<http://www.sealit.gr/DB/person/2440FF58-FEA0-3FA6-9034-C9A5E55CADCA>
+        a       crm:E21_Person .
+
+<urn:uuid:6762b4b6-28e1-47f7-a35a-49db7f8c7464>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Vendera" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/978AF70A-0480-3C28-8C3E-63F30B7429C2> .
+
+<http://www.sealit.gr/DB/person/F874573A-72F6-35D9-8B11-E85407AEFFEA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/479F310F-89D1-3C49-9F2C-078146272393>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Buros" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/81205917-8DB1-37B1-9F8B-6847D0F6C752>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Pacheco" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/A1D5C821-DD2F-3721-8C2F-2891443914CF>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/E6BBD350-64C2-3BD1-925C-C8E21C18730E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 12, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/9792069F-D557-375B-BAE2-3E4223C2809D> .
+
+<http://www.sealit.gr/DB/person/977FE27A-E5D8-314B-A0E0-A368D9CB0119>
+        a                        crm:E21_Person ;
+        rdfs:label               "Juan Cortes" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B895B8C8-A929-3B1B-B815-A5D5B0FFB3BB> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Juan" ;
+        sealit:has_last_name     "Cortes" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8432B797-2620-3CA2-8DFB-E4F074DC606A> .
+
+<http://www.sealit.gr/DB/ids/10>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/251AE96E-7006-3466-8D93-50B47D760F7F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Valentin Caballe" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1260C958-8453-33A5-8788-B11F6C772456> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Valentin" ;
+        sealit:has_last_name     "Caballe" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/91D9D905-4EDA-3FB5-8956-E7DE7A81E360> .
+
+<urn:uuid:5a099cae-be97-4162-8da9-c894c3b508d6>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Rafart" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/D60A6522-3598-3B08-B660-B076FD601062> .
+
+<http://www.sealit.gr/DB/appellation_surname/38F4E492-F71B-3D52-8937-04CA587A1E56>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mercader" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/names/surname%20b>
+        a           crm:E55_Type ;
+        rdfs:label  "surname B" .
+
+<http://www.sealit.gr/DB/person/2A68E70B-007E-3BC3-BCB3-2B819A93177C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pablo Fernandez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/0A4C05F8-4499-3E30-98A1-446C73B3FD49> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Pablo" ;
+        sealit:has_last_name     "Fernandez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/30DC2337-6800-3CB1-A2E4-B28E2CFBD10F> .
+
+<http://www.sealit.gr/DB/person/1A6199B8-14E8-33BE-8D03-E5CA9C8EC4B8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agustin Farche Saura" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EBCE6A01-BA3E-34BD-A6FB-6190E618D725> , <http://www.sealit.gr/DB/appellation_surname/4A14E3B3-45C3-3C63-8D3E-66D91BCE1AB0> , <http://www.sealit.gr/DB/ids/2180> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:1591fbca-699c-4057-b30b-57cde65e661a> ;
+        sealit:has_first_name    "Agustin" ;
+        sealit:has_last_name     "Farche Saura" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7AF0856B-F91D-36AB-86E1-F526C087A824> .
+
+<http://www.sealit.gr/DB/person/09506496-2BA7-3D0A-B1B8-01EBB1294AC3>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/DABD4AE6-5B04-38A0-82DF-B630B5360B47>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 7, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/CD4E3C65-23A2-3C1D-9398-59989BED276E> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/6C39B2E0-E9A0-3AC5-A4FD-7A6A09C69743> .
+
+<http://www.sealit.gr/DB/register_record_point/86206EDF-7129-3272-9613-500DFF905710>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 38, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/DAD7B517-E5DB-317F-A698-DD621096699E> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/2959BA1E-6F6B-3D46-A926-084284622B5C> .
+
+<http://www.sealit.gr/DB/person/13F41474-5BAC-3027-8EFF-30891E5D6FB5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/CC2CAB3B-4AB0-3449-A20D-4CE822DE5986>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pedro Moreira Morla" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/04D18B35-7F5D-36B6-9950-D04EBAC7A99B> , <http://www.sealit.gr/DB/appellation_surname/D9948318-411C-3073-96B5-17C06044673B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Pedro" ;
+        sealit:has_last_name     "Moreira Morla" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/26625FDE-2CBF-3DE6-8477-62B6FDA8225E> .
+
+<http://www.sealit.gr/DB/appellation_surname/1260C958-8453-33A5-8788-B11F6C772456>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Caballe" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/773C1573-9A72-33E1-AE06-2D44DBDF84E6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marti Buros" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/479F310F-89D1-3C49-9F2C-078146272393> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:077be9b4-532a-4fc5-b338-4304e76a6b5a> ;
+        sealit:has_first_name    "Marti" ;
+        sealit:has_last_name     "Buros" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/09506496-2BA7-3D0A-B1B8-01EBB1294AC3> .
+
+<http://www.sealit.gr/DB/appellation_surname/39F007DC-AC7E-34D9-B492-A7B553B8D47B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Sorrius" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/4534FF2F-ACB1-3D8F-BDE8-C4C23A0EC69C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/6476E29F-1CD2-36AB-90F2-47575A43951E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joaquin Perez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/0DB7E7A3-47AA-368A-A621-8DF2A01C99C6> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Joaquin" ;
+        sealit:has_last_name     "Perez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/232F06C1-25C2-3D06-94F4-DB8C9B585123> .
+
+<http://www.sealit.gr/DB/person/8D9D23B9-6501-3535-9A09-FA6D55340E73>
+        a                        crm:E21_Person ;
+        rdfs:label               "Estevan Rivera" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/15DE2DA1-1F5A-3308-9EDD-110108CE3599> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Estevan" ;
+        sealit:has_last_name     "Rivera" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/48640545-A291-3263-A97E-6970E9B3F92A> .
+
+<http://www.sealit.gr/DB/appellation_surname/0A4C05F8-4499-3E30-98A1-446C73B3FD49>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Fernandez" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> , <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/070E6691-4941-3CE8-8FB3-ABE6CD513679>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pedro Sorrius" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/39F007DC-AC7E-34D9-B492-A7B553B8D47B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Pedro" ;
+        sealit:has_last_name     "Sorrius" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A0629E2D-394D-39A2-8CA9-F7DACA42F7D1> .
+
+<urn:uuid:f5207387-7336-4f23-94ca-8b71a85ba1e3>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Pi" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/6EF52BEA-E441-3AFE-BEC5-9828722E0F90> .
+
+<http://www.sealit.gr/DB/person/C6ED4EBF-DEBF-31E4-AA0B-ADAFCA3A25CA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/9B94A237-4174-3CAC-B65B-64194A0FF7F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 9, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/8B3596CF-AF90-31C7-B859-1F3B2995C741> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/1AD365FF-239E-3D42-BB7C-338DA8428395> .
+
+<http://www.sealit.gr/DB/register_record_point/0E576A23-B64C-3C44-A565-0462B78307CB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 41, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/3AF19ACB-F0A8-39EB-A495-638C6E5257E2> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/45863D6A-BED4-3974-8979-970A55CE60E0> .
+
+<urn:uuid:ce395840-bd2c-4028-9fbd-a18964e8307e>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Vicens" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/6033CF47-B3DC-39AE-9091-B0F0AB9556F5> .
+
+<http://www.sealit.gr/DB/person/D60A6522-3598-3B08-B660-B076FD601062>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francisco Rafart" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/7576779E-B35F-3EAF-B25D-660FB0866F69> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Francisco" ;
+        sealit:has_last_name     "Rafart" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8B3596CF-AF90-31C7-B859-1F3B2995C741> .
+
+<http://www.sealit.gr/DB/person/495479AC-9352-3000-BD96-9F1DA3051E3C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/30DC2337-6800-3CB1-A2E4-B28E2CFBD10F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/E21DDA41-9991-30D8-B5D3-373E04CA34C7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joaquin Vinardell" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/42> , <http://www.sealit.gr/DB/appellation_surname/94D2B50A-4BD4-32CF-8432-FDBAF038649D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:f80f085c-6f19-4e47-8012-1d4aa1cf2c2c> ;
+        sealit:has_first_name    "Joaquin" ;
+        sealit:has_last_name     "Vinardell" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8E0D6CF1-790D-3337-B86F-477526AF68D5> .
+
+<http://www.sealit.gr/DB/person/2774111B-A290-35AD-A0EB-0BBB93ADA0F8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/8E0D6CF1-790D-3337-B86F-477526AF68D5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/79CC7BE4-6334-302B-B086-C9920643806B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pedro Mon Gelabe" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/599892AF-FC8F-3259-ADC7-A1895EC6B28B> , <http://www.sealit.gr/DB/appellation_surname/FD29458A-E58A-332A-AD87-34ED90AD51EC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Pedro" ;
+        sealit:has_last_name     "Mon Gelabe" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9792069F-D557-375B-BAE2-3E4223C2809D> .
+
+<http://www.sealit.gr/DB/appellation_surname/94D2B50A-4BD4-32CF-8432-FDBAF038649D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Vinardell" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/F8A18F29-E0CA-3267-9796-0917DB486788>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Pi" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/234> , <http://www.sealit.gr/DB/appellation_surname/12712567-2F1E-35D1-A676-D4394D24E066> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:f5207387-7336-4f23-94ca-8b71a85ba1e3> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Pi" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6C39B2E0-E9A0-3AC5-A4FD-7A6A09C69743> .
+
+<http://www.sealit.gr/DB/register_record_point/0A1FE69C-CB6D-309B-8638-1A3F9187163A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 18, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/ED8F5FFB-BDC8-3B25-804E-B53FA77186C2> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/97275CCB-7432-3073-A0B3-B666FC406B09> .
+
+<http://www.sealit.gr/DB/person/A0629E2D-394D-39A2-8CA9-F7DACA42F7D1>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/ids/97>
+        a                crm:E42_Identifier ;
+        rdfs:label       "97" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/ids/2281>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2281" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/E2AC71E1-237C-32CD-8415-B7151364CDA0>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/A67A471F-3A2C-3AC8-AF50-1907FB711319>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/D70E1A46-DCED-38CC-BB9C-8F5E579A0838>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 4, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/FD1E7E9C-A68F-3E0B-BBCA-DBEA6FF3F84A> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/E2AC71E1-237C-32CD-8415-B7151364CDA0> .
+
+<http://www.sealit.gr/DB/person/6EF52BEA-E441-3AFE-BEC5-9828722E0F90>
+        a                        crm:E21_Person ;
+        rdfs:label               "Rafael Pi" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/12712567-2F1E-35D1-A676-D4394D24E066> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Rafael" ;
+        sealit:has_last_name     "Pi" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/CD4E3C65-23A2-3C1D-9398-59989BED276E> .
+
+<http://www.sealit.gr/DB/person/2E06CC71-E87F-3CDE-AD4E-8B4FC9F24818>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jose Perdigo" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/234> , <http://www.sealit.gr/DB/appellation_surname/B8EBE0E8-1D69-36F7-ABE2-CCD98DF51DD9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:df80eb18-074d-4e6c-a4e8-eb6cabda4b13> ;
+        sealit:has_first_name    "Jose" ;
+        sealit:has_last_name     "Perdigo" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/97275CCB-7432-3073-A0B3-B666FC406B09> .
+
+<http://www.sealit.gr/DB/person/36BDA842-3BCC-3CE7-B694-2AD9BBFCDB16>
+        a       crm:E21_Person .
+
+<urn:uuid:59369bcb-7bda-4cf7-90db-38efd45ff3b0>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Pares" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/027F22CB-28D2-308F-B26C-9AC1ACB9E544> .
+
+<http://www.sealit.gr/DB/person/1A9F8C12-C7FB-3629-8A9E-DBB3A65A060C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Narciso Pares" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C39C4735-2A40-33BE-8766-E78EDA12EA85> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Narciso" ;
+        sealit:has_last_name     "Pares" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/13F41474-5BAC-3027-8EFF-30891E5D6FB5> .
+
+<http://www.sealit.gr/DB/person/DB5C61E8-3C08-309F-95E0-91995865A66B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/54E2B339-AF23-34A6-81D9-A99CD96E5952>
+        a                        crm:E21_Person ;
+        rdfs:label               "Roman Macia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/97> , <http://www.sealit.gr/DB/appellation_surname/080AD09B-B0C4-3097-B2C3-16C139B18BD0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:40d6c63b-7edc-44d9-9ff1-8d73f8126405> ;
+        sealit:has_first_name    "Roman" ;
+        sealit:has_last_name     "Macia" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/2959BA1E-6F6B-3D46-A926-084284622B5C> .
+
+<http://www.sealit.gr/DB/person/045A383F-6A53-3AD3-AD98-22B8A3876AF0>
+        a       crm:E21_Person .
+
+<urn:uuid:a693ba0e-aa07-4571-9370-3f60939ea9a9>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Mercader" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/99A125B9-0523-32D1-BD51-89A9A665639F> .
+
+<http://www.sealit.gr/DB/register_record_point/9F7719F0-F167-38A4-A962-168C7B8DF8A4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 36, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/4534FF2F-ACB1-3D8F-BDE8-C4C23A0EC69C> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/A3B110FF-70E4-38CD-BC17-285F90C28672> .
+
+<http://www.sealit.gr/DB/person/6C39B2E0-E9A0-3AC5-A4FD-7A6A09C69743>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/05BD8A10-2C32-38AB-A0B0-AB6631DC1841>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 19, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/8F50714D-5BE4-35B3-9631-EFFB6BC89BF5> .
+
+<http://www.sealit.gr/DB/register_record_point/5BD1D319-1F19-3762-B027-1BA13213FC82>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 34, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/8F5E2BAD-587D-3719-AB70-D7410891B294> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/09506496-2BA7-3D0A-B1B8-01EBB1294AC3> .
+
+<http://www.sealit.gr/DB/person/6033CF47-B3DC-39AE-9091-B0F0AB9556F5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Mateo Vicens" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/85AC09AC-2463-3B4A-9975-946BD95204AE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Mateo" ;
+        sealit:has_last_name     "Vicens" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/B0E628A7-A702-3814-997B-DA10506923AD> .
+
+<http://www.sealit.gr/DB/register_record_point/27136945-1682-35EC-9878-E0DBF825B50F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 44, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/FB10DFC2-896C-3629-BDF1-FD4C33A59BCA> .
+
+<http://www.sealit.gr/DB/ids/42>
+        a                crm:E42_Identifier ;
+        rdfs:label       "42" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/ids/21>
+        a                crm:E42_Identifier ;
+        rdfs:label       "21" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/620A7AD3-1D0F-3C84-82D8-889377D366C0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 22, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/F874573A-72F6-35D9-8B11-E85407AEFFEA> .
+
+<http://www.sealit.gr/DB/person/74F99D21-2DB3-3A09-9194-20DB17703526>
+        a                        crm:E21_Person ;
+        rdfs:label               "otro Reig" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/7F3FE887-D364-3411-B91D-551FF9CF05B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "otro" ;
+        sealit:has_last_name     "Reig" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/4DCC2CA0-5CAF-31EB-B354-378931FCA39D> .
+
+<http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-28T07:52:37.381Z_10&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/appellation_surname/194F5394-AE2E-3C74-9C3C-441B92862D1D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Font" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/9E06CACC-E42B-3C0F-917C-706FDF946B4E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/9713DDF7-B4D8-342E-943F-0E383EB6CB21>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 30, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/48640545-A291-3263-A97E-6970E9B3F92A> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/9D07058B-8B0D-3652-8592-AC35A53C6DD0> .
+
+<http://www.sealit.gr/DB/person/EB5D2F3E-A1A6-361B-9ACB-0280D9F90BFB>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/1CA0E4CF-524E-3F1F-B272-545C1A149968>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/8BFCF47C-44F8-3C20-8C22-BE6EAEB94EB7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Juan Carlos Mendes" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/01330EB9-BB3B-39BD-932C-54BAC0D7E552> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Juan Carlos" ;
+        sealit:has_last_name     "Mendes" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A67A471F-3A2C-3AC8-AF50-1907FB711319> .
+
+<http://www.sealit.gr/DB/appellation_surname/5EA4D910-4B52-3939-A5DA-496521692343>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Artau" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/98F6CA67-9CFB-36E7-BFF2-94651ACE2EB2>
+        a                        crm:E21_Person ;
+        rdfs:label               "F[rancis]co Valentin" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/76BF1508-C054-395F-A7A6-05468D76C22F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "F[rancis]co" ;
+        sealit:has_last_name     "Valentin" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F874573A-72F6-35D9-8B11-E85407AEFFEA> .
+
+<urn:uuid:d27dd947-7bba-43ea-82bb-08e7acee0926>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Paz" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/BE482CE9-013C-3146-85F7-8F222A1BD2FC> .
+
+<http://www.sealit.gr/DB/person/8899E841-B658-3B40-AA10-72EF04B3B369>
+        a                        crm:E21_Person ;
+        rdfs:label               "Guillermo Rivera" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/15DE2DA1-1F5A-3308-9EDD-110108CE3599> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:9f3958c2-920c-4265-aaa7-a9bf2b26b5bd> ;
+        sealit:has_first_name    "Guillermo" ;
+        sealit:has_last_name     "Rivera" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9D07058B-8B0D-3652-8592-AC35A53C6DD0> .
+
+<urn:uuid:74224b6d-e07d-4d04-9171-f9a051ab8e02>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Miralles" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/EED9AEF9-48BA-33EB-9405-21985DAD61A9> .
+
+<http://www.sealit.gr/DB/person/8679E4FB-8E5A-333B-B00A-F89D343361CF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pablo Seron" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/6A488F27-B955-3EB9-A641-ACA69DA33488> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:634c4c64-c5ca-44f0-a09c-c66aaab5d11f> ;
+        sealit:has_first_name    "Pablo" ;
+        sealit:has_last_name     "Seron" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F6BC149C-47CB-3F28-A6B7-234DE6EA9577> .
+
+<http://www.sealit.gr/DB/register_record_point/163F844A-E503-3869-B60C-37BC6441BCE4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 25, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/A0629E2D-394D-39A2-8CA9-F7DACA42F7D1> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/2ADA5ADC-C60F-3FA3-B9B3-A56C22B91CBC> .
+
+<http://www.sealit.gr/DB/appellation_surname/85AC09AC-2463-3B4A-9975-946BD95204AE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Vicens" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<urn:uuid:2355cf18-2661-4a2c-b27a-25071e11b486>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Sorrius" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/070E6691-4941-3CE8-8FB3-ABE6CD513679> .
+
+<http://www.sealit.gr/DB/appellation_surname/15DE2DA1-1F5A-3308-9EDD-110108CE3599>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rivera" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/BC6C0954-8F55-3712-AB0E-ED5C2F94E829>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Paz" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/B8EBE0E8-1D69-36F7-ABE2-CCD98DF51DD9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Perdigo" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/570B3A7E-5AD8-3ACD-84EE-047DFC2933E9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mafa" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/DAD7B517-E5DB-317F-A698-DD621096699E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/1CE69EC9-F6B9-3A6F-B3CC-9A6EC9324B17>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bautista Farche" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/4A14E3B3-45C3-3C63-8D3E-66D91BCE1AB0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Bautista" ;
+        sealit:has_last_name     "Farche" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/2440FF58-FEA0-3FA6-9034-C9A5E55CADCA> .
+
+<http://www.sealit.gr/DB/ids/255>
+        a                crm:E42_Identifier ;
+        rdfs:label       "255" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/ids/234>
+        a                crm:E42_Identifier ;
+        rdfs:label       "234" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/99A125B9-0523-32D1-BD51-89A9A665639F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francisco Mercader" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/38F4E492-F71B-3D52-8937-04CA587A1E56> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Francisco" ;
+        sealit:has_last_name     "Mercader" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/3AA608D3-084F-3C23-9830-212E8848536D> .
+
+<http://www.sealit.gr/DB/person/0191051C-4D77-3CFE-84AE-8F8409E35BCC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fran[cis]co Fernandez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/0A4C05F8-4499-3E30-98A1-446C73B3FD49> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Fran[cis]co" ;
+        sealit:has_last_name     "Fernandez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/14D1CB8D-3E5A-3436-A1A5-78C087BFEECB> .
+
+<http://www.sealit.gr/DB/person/5E7C41C0-DE6B-3699-9ACC-6C19B9663805>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/8432B797-2620-3CA2-8DFB-E4F074DC606A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/EED9AEF9-48BA-33EB-9405-21985DAD61A9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Cristobal Miralles" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/3E870830-9A27-3305-AE78-A4D8D0A94C36> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Cristobal" ;
+        sealit:has_last_name     "Miralles" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/3AF19ACB-F0A8-39EB-A495-638C6E5257E2> .
+
+<http://www.sealit.gr/DB/person/BFFA1F77-B704-317A-9E10-FA68FA3379AA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/3B42C8E1-1408-3A29-A7D5-9C5B36C0A6D7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 37, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/91D9D905-4EDA-3FB5-8956-E7DE7A81E360> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/2774111B-A290-35AD-A0EB-0BBB93ADA0F8> .
+
+<urn:uuid:417c571b-ca95-42e1-9b14-2e353cd8b2de>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Fernandez" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/0191051C-4D77-3CFE-84AE-8F8409E35BCC> .
+
+<http://www.sealit.gr/DB/person/45863D6A-BED4-3974-8979-970A55CE60E0>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/14691EE2-189A-3835-942C-ECC05B3D2A21>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jose Maria Vidal" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/ADC7ECD5-948E-3B32-8FE8-339A2A10C4A8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Jose Maria" ;
+        sealit:has_last_name     "Vidal" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DECBFBFB-0AB3-385C-9E2A-4BEBCD57715F> .
+
+<http://www.sealit.gr/DB/person/4E090450-2BE4-3F91-AFE3-FA99C5FC459F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jose Agustin Carceller" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/1991> , <http://www.sealit.gr/DB/appellation_surname/B9131BBF-FD0A-34AD-A9DE-BECAD3DDA66F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a1289cea-2053-44a0-91be-4994ce4d8c26> ;
+        sealit:has_first_name    "Jose Agustin" ;
+        sealit:has_last_name     "Carceller" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A1D5C821-DD2F-3721-8C2F-2891443914CF> .
+
+<urn:uuid:f80f085c-6f19-4e47-8012-1d4aa1cf2c2c>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Vinardell" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/1BDB16FA-D3BB-303D-B914-42D683A0378F> .
+
+<http://www.sealit.gr/DB/ids/726>
+        a                crm:E42_Identifier ;
+        rdfs:label       "726" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<urn:uuid:a1289cea-2053-44a0-91be-4994ce4d8c26>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Carceller" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/2ECF43E2-FD65-3BC9-93FE-4B77B5150193> .
+
+<http://www.sealit.gr/DB/person/789AA590-6F60-3E9A-9DF7-9D7E6136D8EF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jose Mercader" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/825> , <http://www.sealit.gr/DB/appellation_surname/38F4E492-F71B-3D52-8937-04CA587A1E56> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a693ba0e-aa07-4571-9370-3f60939ea9a9> ;
+        sealit:has_first_name    "Jose" ;
+        sealit:has_last_name     "Mercader" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DB5C61E8-3C08-309F-95E0-91995865A66B> .
+
+<http://www.sealit.gr/DB/person/B6C01467-3F2D-3C2D-AE09-33095D568629>
+        a                        crm:E21_Person ;
+        rdfs:label               "Cristobal Artau" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/225> , <http://www.sealit.gr/DB/appellation_surname/5EA4D910-4B52-3939-A5DA-496521692343> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2fbefcbd-d197-46ed-b9ca-f66f07919025> ;
+        sealit:has_first_name    "Cristobal" ;
+        sealit:has_last_name     "Artau" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FEA2DB6F-73EF-38B2-B92F-CC6AE01C0B50> .
+
+<http://www.sealit.gr/DB/person/978AF70A-0480-3C28-8C3E-63F30B7429C2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Juan Vendera" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/5E9034DB-26A4-3936-94D4-A33B33DC5DF5> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Juan" ;
+        sealit:has_last_name     "Vendera" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7266FBCE-E382-3EBE-BBC2-56D2A576D25C> .
+
+<http://www.sealit.gr/DB/register_record_point/6CB8FE4C-CF34-34EF-86C4-DD0690231A28>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 29, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/B0E628A7-A702-3814-997B-DA10506923AD> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/C6ED4EBF-DEBF-31E4-AA0B-ADAFCA3A25CA> .
+
+<http://www.sealit.gr/DB/person/89700A89-E653-3ACA-A56B-DE10EED03861>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joaquin Pares" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/28> , <http://www.sealit.gr/DB/appellation_surname/C39C4735-2A40-33BE-8766-E78EDA12EA85> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:5ce58507-4851-43e7-993b-e8d6b835f62c> ;
+        sealit:has_first_name    "Joaquin" ;
+        sealit:has_last_name     "Pares" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9E06CACC-E42B-3C0F-917C-706FDF946B4E> .
+
+<http://www.sealit.gr/DB/register_record_point/F0D1DD88-7BF7-3597-A37D-F0098D3F868E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 15, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/A67A471F-3A2C-3AC8-AF50-1907FB711319> .
+
+<http://www.sealit.gr/DB/register_record_point/7D4C3ED3-D13D-32CD-8121-BD85BCCBF7B6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 5, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/8432B797-2620-3CA2-8DFB-E4F074DC606A> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/1CA0E4CF-524E-3F1F-B272-545C1A149968> .
+
+<http://www.sealit.gr/DB/ids/947>
+        a                crm:E42_Identifier ;
+        rdfs:label       "947" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/DE532891-4F51-3289-BE9C-4C15A9C07B4B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Federico Vendera Cosot" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/23E60DD4-A2B5-3ED7-AB6F-ED470BD573F4> , <http://www.sealit.gr/DB/appellation_surname/5E9034DB-26A4-3936-94D4-A33B33DC5DF5> , <http://www.sealit.gr/DB/ids/2098> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:6762b4b6-28e1-47f7-a35a-49db7f8c7464> ;
+        sealit:has_first_name    "Federico" ;
+        sealit:has_last_name     "Vendera Cosot" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/045A383F-6A53-3AD3-AD98-22B8A3876AF0> .
+
+<urn:uuid:007d90e5-55f5-4feb-a4a9-e6306232764e>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Fernandez" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/2A68E70B-007E-3BC3-BCB3-2B819A93177C> .
+
+<http://www.sealit.gr/DB/register_record_point/53AA761B-B2CC-3D1C-9F77-166FD72D72E0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 32, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/7393892E-7FC6-396E-A270-9FE01180AE9D> .
+
+<http://www.sealit.gr/DB/register_record_point/81C56D9F-EE03-3B7A-93C4-188E144BB8C5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 39, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/7266FBCE-E382-3EBE-BBC2-56D2A576D25C> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/045A383F-6A53-3AD3-AD98-22B8A3876AF0> .
+
+<http://www.sealit.gr/DB/appellation_surname/04D18B35-7F5D-36B6-9950-D04EBAC7A99B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Morla" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .
+
+<http://www.sealit.gr/DB/person/2ADA5ADC-C60F-3FA3-B9B3-A56C22B91CBC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/16609D84-2982-3C6A-B22F-6BDA36DD1F01>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Babi" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .
+
+<http://www.sealit.gr/DB/ids/32>
+        a                crm:E42_Identifier ;
+        rdfs:label       "32" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew and displacement list (roll)" .
+
+<http://www.sealit.gr/DB/person/E57E5E90-2D5A-3366-93C4-974E301EB4FE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pedro Font" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/194F5394-AE2E-3C74-9C3C-441B92862D1D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Pedro" ;
+        sealit:has_last_name     "Font" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/5E7C41C0-DE6B-3699-9ACC-6C19B9663805> .
+
+<http://www.sealit.gr/DB/person/4228BD00-4398-3EDA-A576-D1C8F137E6F6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jose Antonio Cortes" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/726> , <http://www.sealit.gr/DB/appellation_surname/B895B8C8-A929-3B1B-B815-A5D5B0FFB3BB> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:99083e94-8d4d-43b0-a7f4-eb019c1a2239> ;
+        sealit:has_first_name    "Jose Antonio" ;
+        sealit:has_last_name     "Cortes" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/1CA0E4CF-524E-3F1F-B272-545C1A149968> .
+
+<http://www.sealit.gr/DB/appellation_surname/FD29458A-E58A-332A-AD87-34ED90AD51EC>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mon" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/B895B8C8-A929-3B1B-B815-A5D5B0FFB3BB>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cortes" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/F73AB256-AC46-3E5F-B045-F36846771D2C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 11, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/DECBFBFB-0AB3-385C-9E2A-4BEBCD57715F> .
+
+<http://www.sealit.gr/DB/person/508BEE08-19C2-3228-9E34-37B19CE04B9E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/3C31A642-927C-390A-9FCE-8E94BC3AB80E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rodriguez" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/C39C4735-2A40-33BE-8766-E78EDA12EA85>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Pares" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/01330EB9-BB3B-39BD-932C-54BAC0D7E552>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mendes" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/EBCE6A01-BA3E-34BD-A6FB-6190E618D725>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Saura" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .
+
+<http://www.sealit.gr/DB/person/014F5EE2-DB1C-3532-BE1B-A8F81A5F67F9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Eduardo Gonzalez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/0F5B2F91-CD59-32A1-A4B1-A03C4F2C4B19> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Eduardo" ;
+        sealit:has_last_name     "Gonzalez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/83422A45-82C6-35E8-AE6E-EE2FCAE71ADF> .
+
+<http://www.sealit.gr/DB/person/A8EA8826-7FF8-34BD-BAA5-EB46D8072AFF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Sebastian Marques" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B98ACD85-BE0F-3109-A695-5179546D9888> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Sebastian" ;
+        sealit:has_last_name     "Marques" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FB10DFC2-896C-3629-BDF1-FD4C33A59BCA> .
+
+<http://www.sealit.gr/DB/person/BF32499C-26E2-3929-AF83-D9EA6B3DA2F6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Elias Perdigo" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B8EBE0E8-1D69-36F7-ABE2-CCD98DF51DD9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Elias" ;
+        sealit:has_last_name     "Perdigo" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/ED8F5FFB-BDC8-3B25-804E-B53FA77186C2> .
+
+<http://www.sealit.gr/DB/person/6A72958B-E44B-35FA-93AC-CA7630431BC6>
+        a                        crm:E21_Person ;
+        rdfs:label               "David Salmon" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/E30D211C-66FE-3025-AFB7-9B79E4244FD0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "David" ;
+        sealit:has_last_name     "Salmon" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/B54942AC-DDC0-385A-BBE3-B303DD780988> .
+
+<http://www.sealit.gr/DB/ids/1991>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1991" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<urn:uuid:b7ba3d5a-f7cd-4fa3-91de-c1afe1957239>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Caballe" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/251AE96E-7006-3466-8D93-50B47D760F7F> .
+
+<http://www.sealit.gr/DB/ids/1018>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1018" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/appellation_surname/7D873D60-B8D1-3540-B72F-CBCCECD01A99>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Beruny" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/B2D20D2F-E330-335B-8869-B070B1DCE7DE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Duarte" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> , <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/150C16D9-D096-370A-B359-6111D7402397>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Carol" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/FD1E7E9C-A68F-3E0B-BBCA-DBEA6FF3F84A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/87FDA93A-B58D-3443-A935-5F298CE7C696>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ruiz" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/BEE3C5E3-B064-3765-94CC-22A0DD984F50>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 21, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/83422A45-82C6-35E8-AE6E-EE2FCAE71ADF> .
+
+<http://www.sealit.gr/DB/appellation_surname/E30D211C-66FE-3025-AFB7-9B79E4244FD0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Salmon" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/4DCC2CA0-5CAF-31EB-B354-378931FCA39D>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/8F50714D-5BE4-35B3-9631-EFFB6BC89BF5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/7576779E-B35F-3EAF-B25D-660FB0866F69>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rafart" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/CA7969A1-7055-37CB-A645-9B685F64D9ED>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/83422A45-82C6-35E8-AE6E-EE2FCAE71ADF>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/BFE1A049-18D8-3A76-88A1-5EF91EDF6C64>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 33, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/B54942AC-DDC0-385A-BBE3-B303DD780988> .
+
+<http://www.sealit.gr/DB/person/A984A75B-741C-3C77-88AB-9A0209327D86>
+        a                        crm:E21_Person ;
+        rdfs:label               "Benito Jose Beruny" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/796> , <http://www.sealit.gr/DB/appellation_surname/7D873D60-B8D1-3540-B72F-CBCCECD01A99> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:db2422c4-a43d-42c1-8cb6-546d73a09332> ;
+        sealit:has_first_name    "Benito Jose" ;
+        sealit:has_last_name     "Beruny" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/E2AC71E1-237C-32CD-8415-B7151364CDA0> .
+
+<urn:uuid:014e5154-2708-45cf-b7ed-658a5a764158>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Carol" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/338C702B-9599-3262-BDA6-497B7F8D0824> .
+
+<http://www.sealit.gr/DB/appellation_surname/B98ACD85-BE0F-3109-A695-5179546D9888>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Marques" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/6075BB33-ED34-34E7-B715-DF5F0E57F389>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/0391E7B4-090E-315E-8C5B-286D82230B4A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 20, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/36BDA842-3BCC-3CE7-B694-2AD9BBFCDB16> .
+
+<urn:uuid:5ce58507-4851-43e7-993b-e8d6b835f62c>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Pares" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/1A9F8C12-C7FB-3629-8A9E-DBB3A65A060C> .
+
+<http://www.sealit.gr/DB/person/1BDB16FA-D3BB-303D-B914-42D683A0378F>
+        a                        crm:E21_Person ;
+        rdfs:label               "otro Vinardell" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/94D2B50A-4BD4-32CF-8432-FDBAF038649D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "otro" ;
+        sealit:has_last_name     "Vinardell" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/3DA6B194-AC15-31F6-8432-F33E36634624> .
+
+<http://www.sealit.gr/DB/register_record_point/251D202F-69C5-314F-9EAE-2B12DFC6ED0B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 8, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/BFFA1F77-B704-317A-9E10-FA68FA3379AA> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/FEA2DB6F-73EF-38B2-B92F-CC6AE01C0B50> .
+
+<http://www.sealit.gr/DB/person/3AF19ACB-F0A8-39EB-A495-638C6E5257E2>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/51BCA47F-6206-307B-AB96-BAF02BD66163>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/B9131BBF-FD0A-34AD-A9DE-BECAD3DDA66F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Carceller" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/A42E201B-D48D-3AC1-B716-22F6DB521141>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gerardo Reig" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/554> , <http://www.sealit.gr/DB/appellation_surname/7F3FE887-D364-3411-B91D-551FF9CF05B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:6ab8cdd8-5e1f-4404-96c9-16881e379338> ;
+        sealit:has_first_name    "Gerardo" ;
+        sealit:has_last_name     "Reig" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/508BEE08-19C2-3228-9E34-37B19CE04B9E> .
+
+<http://www.sealit.gr/DB/register_record_point/067DEE1D-C47D-326C-9D2A-A7F2C3D98EBC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 3, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/3067AACA-F584-36DA-8ACA-2E3FE3AC8F63> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/51BCA47F-6206-307B-AB96-BAF02BD66163> .
+
+<http://www.sealit.gr/DB/person/ED8F5FFB-BDC8-3B25-804E-B53FA77186C2>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/9D07058B-8B0D-3652-8592-AC35A53C6DD0>
+        a       crm:E21_Person .
+
+<urn:uuid:9f3958c2-920c-4265-aaa7-a9bf2b26b5bd>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Rivera" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/8D9D23B9-6501-3535-9A09-FA6D55340E73> .
+
+<http://www.sealit.gr/DB/person/CCD4F910-0046-35CA-B2CC-C7B845EDEAC0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Manuel Ramon Fernandez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/32> , <http://www.sealit.gr/DB/appellation_surname/0A4C05F8-4499-3E30-98A1-446C73B3FD49> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:007d90e5-55f5-4feb-a4a9-e6306232764e> ;
+        sealit:has_first_name    "Manuel Ramon" ;
+        sealit:has_last_name     "Fernandez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FDA3D82A-60FD-3DB0-8A63-E331B5E5D55E> .
+
+<http://www.sealit.gr/DB/person/FDA3D82A-60FD-3DB0-8A63-E331B5E5D55E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/A26D6CE8-8BB9-3F38-90E9-F5FDCE689EBE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 28, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/232F06C1-25C2-3D06-94F4-DB8C9B585123> .
+
+<http://www.sealit.gr/DB/person/3DA6B194-AC15-31F6-8432-F33E36634624>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/9792069F-D557-375B-BAE2-3E4223C2809D>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/ids/2098>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2098" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<urn:uuid:6ab8cdd8-5e1f-4404-96c9-16881e379338>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Reig" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/74F99D21-2DB3-3A09-9194-20DB17703526> .
+
+<http://www.sealit.gr/DB/person/CD4E3C65-23A2-3C1D-9398-59989BED276E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/027F22CB-28D2-308F-B26C-9AC1ACB9E544>
+        a                        crm:E21_Person ;
+        rdfs:label               "otro Pares" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C39C4735-2A40-33BE-8766-E78EDA12EA85> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "otro" ;
+        sealit:has_last_name     "Pares" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/495479AC-9352-3000-BD96-9F1DA3051E3C> .
+
+<urn:uuid:077be9b4-532a-4fc5-b338-4304e76a6b5a>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Buros" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/0D918B06-947F-3E62-BF5C-2A67ADF71D2A> .
+
+<http://www.sealit.gr/DB/person/97275CCB-7432-3073-A0B3-B666FC406B09>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/12712567-2F1E-35D1-A676-D4394D24E066>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Pi" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/9C63421F-5F72-32E9-BE14-CD8429C538AD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fernando Duarte" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B2D20D2F-E330-335B-8869-B070B1DCE7DE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Fernando" ;
+        sealit:has_last_name     "Duarte" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6075BB33-ED34-34E7-B715-DF5F0E57F389> .
+
+<http://www.sealit.gr/DB/appellation_surname/D9948318-411C-3073-96B5-17C06044673B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Moreira" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/89D1F5EF-1D94-39BF-8D4C-5FE366A51DCF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joaquin Pares Babi" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C39C4735-2A40-33BE-8766-E78EDA12EA85> , <http://www.sealit.gr/DB/ids/1018> , <http://www.sealit.gr/DB/appellation_surname/16609D84-2982-3C6A-B22F-6BDA36DD1F01> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:59369bcb-7bda-4cf7-90db-38efd45ff3b0> ;
+        sealit:has_first_name    "Joaquin" ;
+        sealit:has_last_name     "Pares Babi" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DEFC6D26-F631-36B6-AAC8-5A97C5EFF50C> .
+
+<http://www.sealit.gr/DB/register_record_point/3F34718A-DB18-34D9-B3A6-E223E70E8468>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 2, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/495479AC-9352-3000-BD96-9F1DA3051E3C> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/DEFC6D26-F631-36B6-AAC8-5A97C5EFF50C> .
+
+<http://www.sealit.gr/DB/person/B0E628A7-A702-3814-997B-DA10506923AD>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/3AA608D3-084F-3C23-9830-212E8848536D>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/69608E4E-D433-3835-9F6F-06E0264BB9BD>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/E0FA7C77-1C04-37D8-A0BD-BD6B6FA97BB4>
+        a                        crm:E21_Person ;
+        rdfs:label               "Miguel Seron" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/6A488F27-B955-3EB9-A641-ACA69DA33488> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Miguel" ;
+        sealit:has_last_name     "Seron" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/EB5D2F3E-A1A6-361B-9ACB-0280D9F90BFB> .
+
+<http://www.sealit.gr/DB/person/338C702B-9599-3262-BDA6-497B7F8D0824>
+        a                        crm:E21_Person ;
+        rdfs:label               "Rafaela Carol" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/150C16D9-D096-370A-B359-6111D7402397> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Rafaela" ;
+        sealit:has_last_name     "Carol" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/3067AACA-F584-36DA-8ACA-2E3FE3AC8F63> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/appellation_surname/5E9034DB-26A4-3936-94D4-A33B33DC5DF5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Vendera" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/6D2A1A3E-ED0B-3161-9A91-5BECF0187E75>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Roser" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/DE530D97-CCA1-3495-A02A-05AF3723B088>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Pinto" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<urn:uuid:218c15eb-4d27-4c47-ad12-0c836f9c9534>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Font" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/E57E5E90-2D5A-3366-93C4-974E301EB4FE> .
+
+<http://www.sealit.gr/DB/person/5B567A8B-D325-3691-BF39-E7DBC583EFD5>
+        a                        crm:E21_Person ;
+        rdfs:label               "F. Roser" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/6D2A1A3E-ED0B-3161-9A91-5BECF0187E75> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "F." ;
+        sealit:has_last_name     "Roser" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7393892E-7FC6-396E-A270-9FE01180AE9D> .
+
+<http://www.sealit.gr/DB/person/3267D2EA-DBEA-3ECD-86C4-E57A6C6E90F2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Beruny" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/7D873D60-B8D1-3540-B72F-CBCCECD01A99> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Beruny" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FD1E7E9C-A68F-3E0B-BBCA-DBEA6FF3F84A> .
+
+<http://www.sealit.gr/DB/appellation_surname/080AD09B-B0C4-3097-B2C3-16C139B18BD0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Macia" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/FEA2DB6F-73EF-38B2-B92F-CC6AE01C0B50>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/2F566AD4-BF30-3429-AAB9-6496398998F1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 23, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/30DC2337-6800-3CB1-A2E4-B28E2CFBD10F> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/FDA3D82A-60FD-3DB0-8A63-E331B5E5D55E> .
+
+<http://www.sealit.gr/DB/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<http://www.sealit.gr/DB/person/3067AACA-F584-36DA-8ACA-2E3FE3AC8F63>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<http://www.sealit.gr/DB/person/69470BCD-8DCA-318D-BA9A-D56D0E7BFFEB>
+        a       crm:E21_Person .
+
+<urn:uuid:40d6c63b-7edc-44d9-9ff1-8d73f8126405>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Macia" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/D5429A53-9475-3D48-8CB9-941C731A3B14> .
+
+<http://www.sealit.gr/DB/person/91D9D905-4EDA-3FB5-8956-E7DE7A81E360>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/2959BA1E-6F6B-3D46-A926-084284622B5C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/B54942AC-DDC0-385A-BBE3-B303DD780988>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7AF0856B-F91D-36AB-86E1-F526C087A824>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/76BF1508-C054-395F-A7A6-05468D76C22F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Valentin" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/8F5E2BAD-587D-3719-AB70-D7410891B294>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/E95F770A-C4FB-31AC-AE48-73E4B2DFC0E6>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Smith" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/F89B7DFB-3AB5-3B47-BFA0-A9F8424F3915>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 43, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/4DCC2CA0-5CAF-31EB-B354-378931FCA39D> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/508BEE08-19C2-3228-9E34-37B19CE04B9E> .
+
+<http://www.sealit.gr/DB/person/B5AECD2C-5C35-3351-8DF0-BFD57B66D12F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bonancio Mafa Garriga" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D95D55F6-1DBE-3B90-A567-EF19C6FF5ACB> , <http://www.sealit.gr/DB/appellation_surname/570B3A7E-5AD8-3ACD-84EE-047DFC2933E9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Bonancio" ;
+        sealit:has_last_name     "Mafa Garriga" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/CA7969A1-7055-37CB-A645-9B685F64D9ED> .
+
+<http://www.sealit.gr/DB/person/7310B7B2-C6E8-3F3B-AAB2-DBE074368E81>
+        a                        crm:E21_Person ;
+        rdfs:label               "F[rancisc]o Pacheco" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/81205917-8DB1-37B1-9F8B-6847D0F6C752> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "F[rancisc]o" ;
+        sealit:has_last_name     "Pacheco" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/4534FF2F-ACB1-3D8F-BDE8-C4C23A0EC69C> .
+
+<http://www.sealit.gr/DB/person/DEFC6D26-F631-36B6-AAC8-5A97C5EFF50C>
+        a       crm:E21_Person .
+
+<urn:uuid:1591fbca-699c-4057-b30b-57cde65e661a>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Farche" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/1CE69EC9-F6B9-3A6F-B3CC-9A6EC9324B17> .
+
+<http://www.sealit.gr/DB/person/F38F50B5-A4CA-3301-A57F-E7B3558700ED>
+        a                        crm:E21_Person ;
+        rdfs:label               "Manuel Pinto Fernandez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/0A4C05F8-4499-3E30-98A1-446C73B3FD49> , <http://www.sealit.gr/DB/appellation_surname/DE530D97-CCA1-3495-A02A-05AF3723B088> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Manuel" ;
+        sealit:has_last_name     "Pinto Fernandez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/36BDA842-3BCC-3CE7-B694-2AD9BBFCDB16> .
+
+<urn:uuid:634c4c64-c5ca-44f0-a09c-c66aaab5d11f>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Seron" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/E0FA7C77-1C04-37D8-A0BD-BD6B6FA97BB4> .
+
+<http://www.sealit.gr/DB/register_record_point/1ED52F6F-89FA-348A-8051-C0B08939BAB5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/13F41474-5BAC-3027-8EFF-30891E5D6FB5> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/9E06CACC-E42B-3C0F-917C-706FDF946B4E> .
+
+<http://www.sealit.gr/DB/appellation_surname/23E60DD4-A2B5-3ED7-AB6F-ED470BD573F4>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cosot" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .
+
+<http://www.sealit.gr/DB/person/9A1F976F-3533-3C3B-945F-FBB2DA178C83>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/0F5B2F91-CD59-32A1-A4B1-A03C4F2C4B19>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gonzalez" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/BD7E4AB5-8318-3CAA-9607-7DC9569D31C6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 17, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/EB5D2F3E-A1A6-361B-9ACB-0280D9F90BFB> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/F6BC149C-47CB-3F28-A6B7-234DE6EA9577> .
+
+<http://www.sealit.gr/DB/ids/2180>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2180" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<urn:uuid:2dab61b5-bf34-4150-bbe5-adc51492ea54>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Pacheco" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/7310B7B2-C6E8-3F3B-AAB2-DBE074368E81> .
+
+<http://www.sealit.gr/DB/appellation_surname/599892AF-FC8F-3259-ADC7-A1895EC6B28B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gelabe" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .
+
+<http://www.sealit.gr/DB/register_record_point/D3DB72D6-2FB6-3F64-B2F0-DC21597F2665>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 42, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/54C801CA-DD50-3100-8A78-CE0F1666B91B> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/69470BCD-8DCA-318D-BA9A-D56D0E7BFFEB> .
+
+<http://www.sealit.gr/DB/person/F31F0842-F167-31EC-B897-01E133F36775>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jose Artau" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/5EA4D910-4B52-3939-A5DA-496521692343> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Jose" ;
+        sealit:has_last_name     "Artau" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/BFFA1F77-B704-317A-9E10-FA68FA3379AA> .
+
+<http://www.sealit.gr/DB/appellation_surname/4A14E3B3-45C3-3C63-8D3E-66D91BCE1AB0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Farche" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/7266FBCE-E382-3EBE-BBC2-56D2A576D25C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/86E6F89E-B00B-3FEC-8C94-5BEF9BCEDFFA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/0D918B06-947F-3E62-BF5C-2A67ADF71D2A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jose Buros" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/479F310F-89D1-3C49-9F2C-078146272393> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Jose" ;
+        sealit:has_last_name     "Buros" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8F5E2BAD-587D-3719-AB70-D7410891B294> .
+
+<http://www.sealit.gr/DB/register_record_point/308290ED-CC65-378E-8677-B05D057DE82A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 6, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/3AA608D3-084F-3C23-9830-212E8848536D> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/DB5C61E8-3C08-309F-95E0-91995865A66B> .
+
+<http://www.sealit.gr/DB/person/FB10DFC2-896C-3629-BDF1-FD4C33A59BCA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/54C801CA-DD50-3100-8A78-CE0F1666B91B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/45E04CF9-26E5-39E4-A116-AB412FDB013E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 27, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/CA7969A1-7055-37CB-A645-9B685F64D9ED> .
+
+<http://www.sealit.gr/DB/person/14D1CB8D-3E5A-3436-A1A5-78C087BFEECB>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7393892E-7FC6-396E-A270-9FE01180AE9D>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/8B3596CF-AF90-31C7-B859-1F3B2995C741>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/1CC1AA5E-C312-3480-BB51-43A9C6F3868B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jose Sorrius Bartuda" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F2BDB703-8223-3332-A92D-AF7A3B09B89F> , <http://www.sealit.gr/DB/ids/2281> , <http://www.sealit.gr/DB/appellation_surname/39F007DC-AC7E-34D9-B492-A7B553B8D47B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2355cf18-2661-4a2c-b27a-25071e11b486> ;
+        sealit:has_first_name    "Jose" ;
+        sealit:has_last_name     "Sorrius Bartuda" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/2ADA5ADC-C60F-3FA3-B9B3-A56C22B91CBC> .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/ids/62>
+        a                crm:E42_Identifier ;
+        rdfs:label       "62" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/person/D5429A53-9475-3D48-8CB9-941C731A3B14>
+        a                        crm:E21_Person ;
+        rdfs:label               "otro Macia" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/080AD09B-B0C4-3097-B2C3-16C139B18BD0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "otro" ;
+        sealit:has_last_name     "Macia" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DAD7B517-E5DB-317F-A698-DD621096699E> .
+
+<urn:uuid:2fbefcbd-d197-46ed-b9ca-f66f07919025>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Artau" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/F31F0842-F167-31EC-B897-01E133F36775> .
+
+<http://www.sealit.gr/DB/ids/146>
+        a                crm:E42_Identifier ;
+        rdfs:label       "146" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<http://www.sealit.gr/DB/register_record_point/60BFE7B3-A86A-3370-951F-C8F6EBA2E982>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 40, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/2440FF58-FEA0-3FA6-9034-C9A5E55CADCA> , <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/person/7AF0856B-F91D-36AB-86E1-F526C087A824> .
+
+<http://www.sealit.gr/DB/person/48640545-A291-3263-A97E-6970E9B3F92A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/ids/225>
+        a                crm:E42_Identifier ;
+        rdfs:label       "225" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/numbers/serial%20number> .
+
+<urn:uuid:db2422c4-a43d-42c1-8cb6-546d73a09332>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Beruny" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/3267D2EA-DBEA-3ECD-86C4-E57A6C6E90F2> .
+
+<http://www.sealit.gr/DB/appellation_surname/F2BDB703-8223-3332-A92D-AF7A3B09B89F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bartuda" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .
+
+<http://www.sealit.gr/DB/appellation_surname/3E870830-9A27-3305-AE78-A4D8D0A94C36>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Miralles" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/FD9B4738-D023-3A04-83BF-61924676B6A9>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/232F06C1-25C2-3D06-94F4-DB8C9B585123>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/070952C7-2DCF-35B9-A7F0-2B85D74D0F56>
+        a                        crm:E21_Person ;
+        rdfs:label               "Juan Antonio Paz" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ids/146> , <http://www.sealit.gr/DB/appellation_surname/BC6C0954-8F55-3712-AB0E-ED5C2F94E829> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:d27dd947-7bba-43ea-82bb-08e7acee0926> ;
+        sealit:has_first_name    "Juan Antonio" ;
+        sealit:has_last_name     "Paz" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/69470BCD-8DCA-318D-BA9A-D56D0E7BFFEB> .
+
+<http://www.sealit.gr/DB/appellation_surname/D95D55F6-1DBE-3B90-A567-EF19C6FF5ACB>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Garriga" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .

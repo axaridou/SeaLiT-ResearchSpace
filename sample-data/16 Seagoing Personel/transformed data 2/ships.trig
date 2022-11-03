@@ -1,0 +1,2183 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/ship/B017AFFD-2B69-3FB8-8CD8-B488E1C7EE8F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/8F20FE23-03CB-387A-BB2F-AF0F0A12B622>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B1%D1%83%D0%B3>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Буг" .
+
+<http://www.sealit.gr/DB/ship/FE01709F-1050-3128-8C86-8A015B55EEB9>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/9339CD6B-1D09-3B00-BFB1-C7A5B4BF851A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 31, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/B580BA10-71C4-3737-837B-0E5C0CD76CFE> .
+
+<http://www.sealit.gr/DB/ship/304A4218-30CE-3417-9FE0-72449695D17A>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Гуниб" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B3%D1%83%D0%BD%D0%B8%D0%B1> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/E6E936ED-B0A2-3ECF-8BE7-09210EECBC45> .
+
+<http://www.sealit.gr/DB/ship/9537810F-9DDA-3E49-9885-F10DDB848E97>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Крикун" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BA%D1%80%D0%B8%D0%BA%D1%83%D0%BD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/8C1B69A0-C958-3249-83EF-AC885217997E> .
+
+<http://www.sealit.gr/DB/ship/689F7A48-18EE-35DB-8A8B-1C08E3D4D490>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/0353A5A2-B1AA-353F-A888-C5DCEE3AD39C>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Дядя" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B4%D1%8F%D0%B4%D1%8F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/58BA776D-FFC2-3CF4-9ED2-8E29B00564E2> , <http://www.sealit.gr/DB/ship/93F8E3A0-9548-337C-9277-D9C8102E4493> .
+
+<http://www.sealit.gr/DB/ship/C5477A30-076D-34D1-B8C0-7F2281563DD4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/AB9770F1-828A-35A3-ABBD-5B44671F8366>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-10-25T07:39:36.945Z_2&templateTitle=Seagoing%20Personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/647E08C0-C213-329A-BC8D-D797300BC437>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 42, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/DEF01708-38F9-3D85-B137-41A62D3D9803> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BC%D0%B0%D1%82%D1%83%D1%88%D0%BA%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Матушка" .
+
+<http://www.sealit.gr/DB/ship/58BA776D-FFC2-3CF4-9ED2-8E29B00564E2>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/2B82B7E4-1CB9-3ECE-B8E9-42771A608A6C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 50, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/0B814026-D3D5-36AB-B049-36F8615ED9F0> .
+
+<http://www.sealit.gr/DB/register_record_point/AB1DF057-30B4-3DC5-9DCC-EB04EE6340E8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 79, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/AB3DE714-46AC-34EC-B6EE-2697AF223397> .
+
+<http://www.sealit.gr/DB/register_record_point/2FBF3D91-51F5-3DD1-B412-4294D2A6E580>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 33, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/2BA33AC1-DB5D-3AF1-A6B3-9A273140D86B> .
+
+<http://www.sealit.gr/DB/ship/AF7FAAE0-EDCE-3384-95AE-368535A783E4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B4%D0%B0%D1%82>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Митридат" .
+
+<http://www.sealit.gr/DB/ship/EEDA2FE8-2C3D-3452-97FB-7DF8C11F4807>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Азов" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B0%D0%B7%D0%BE%D0%B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/6F9CE629-CF6D-344E-9C5A-7B278A2EED24> , <http://www.sealit.gr/DB/ship/AB9770F1-828A-35A3-ABBD-5B44671F8366> .
+
+<http://www.sealit.gr/DB/register_record_point/760F6F11-FAB1-3C13-96E0-F3C630686B48>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 28, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/02A1FD6B-71BC-3C92-818F-EDE062E1F329> .
+
+<http://www.sealit.gr/DB/register_record_point/31D61D01-E375-37CC-9AB3-D1561197B677>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 92, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/FFE9297A-F6EC-30B3-BD66-7289001E92B8> .
+
+<http://www.sealit.gr/DB/register_record_point/656CE858-AF6C-3BCB-A59E-EC1455B4414A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 40, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/C5477A30-076D-34D1-B8C0-7F2281563DD4> .
+
+<http://www.sealit.gr/DB/ship/5FCA00A2-D0E9-3D3C-9AEF-B9C195B87E5B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Гусь" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B3%D1%83%D1%81%D1%8C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/C5477A30-076D-34D1-B8C0-7F2281563DD4> .
+
+<http://www.sealit.gr/DB/ship/7ED7E78B-6BE9-3AA0-98D6-7075AA320492>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/E68BA705-7EC8-39F4-A8EF-6D2D8D0AD9FE>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Дедушка" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B4%D0%B5%D0%B4%D1%83%D1%88%D0%BA%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/067D162F-2272-356C-A472-B058BC2BBAFB> , <http://www.sealit.gr/DB/ship/AB3DE714-46AC-34EC-B6EE-2697AF223397> .
+
+<http://www.sealit.gr/DB/register_record_point/06F067F8-DC2B-320B-8431-6C520812741B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 70, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/C0FE4055-10F2-398F-8CF0-24E48C86A1A9> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B5%D1%81%D1%82%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Веста" .
+
+<http://www.sealit.gr/DB/register_record_point/F0C08F2C-D9BB-3615-8555-1A9A6396D9D7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 79, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/84839BC4-6E1A-3243-A694-77BB67C65C2C> .
+
+<http://www.sealit.gr/DB/ship/DC2E5098-A6D7-33CC-99AA-DFF9E7C6F56A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/FE1050E1-583D-3365-8E45-EA8AB9EA5A5E>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/09693A00-3DE1-3972-8D91-9D1A2EEA7A97>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 72, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/A625C26B-E063-3FB9-AE46-8D9CB010B5FA> .
+
+<http://www.sealit.gr/DB/ship/2EF823FA-4F76-3CA8-B2F0-540F8666D94A>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Буг" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B1%D1%83%D0%B3> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/155CAE0A-501C-3F98-8894-6377BF492B4C> .
+
+<http://www.sealit.gr/DB/register_record_point/02BA48CE-3D0B-30CC-BA9B-831199701230>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 65, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/C48D4751-5674-36D2-9ADE-A3E3DA53DDBC> .
+
+<http://www.sealit.gr/DB/register_record_point/11E9F3AC-4463-3F43-867C-FA006B129510>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 34, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/1A779699-04D6-36E6-B5C0-047BCB7A19EF> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Одесса" .
+
+<http://www.sealit.gr/DB/ship/8FAD35BA-ABD5-3BE5-AFB6-EC6FB6CD41C8>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Император Александр" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%20%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/8F3449C3-EB70-3F91-A612-C66EAFE34018> , <http://www.sealit.gr/DB/ship/9AC22E3A-204B-33BE-BA1E-3C4EFC41D3BD> .
+
+<http://www.sealit.gr/DB/ship/BE0DC039-F77D-30B9-A586-F141354F3A41>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Эльборс" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%8D%D0%BB%D1%8C%D0%B1%D0%BE%D1%80%D1%81> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/2800DE00-F6ED-3F00-9A7D-70551E02749C> , <http://www.sealit.gr/DB/ship/492BCBF9-F1E0-32E1-A2A2-25F6EAEAE334> .
+
+<http://www.sealit.gr/DB/ship/F9B63618-BE56-3819-846E-B74983D1080A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/A18A6181-6F19-35E3-8BB7-0796F05007CE>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Ястреб" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%8F%D1%81%D1%82%D1%80%D0%B5%D0%B1> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/9AE5BC63-FA45-3337-99C4-5EAE89C5578D> , <http://www.sealit.gr/DB/ship/ADA1EACD-F612-3B86-8578-B16A12B554C3> .
+
+<http://www.sealit.gr/DB/register_record_point/C7E76AF0-0A52-31C1-9866-33C73F44CCC6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 52, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/8C1B69A0-C958-3249-83EF-AC885217997E> .
+
+<http://www.sealit.gr/DB/register_record_point/EF48C8AC-89AF-3B0F-94F7-CB3EE76D765C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 68, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/9AE5BC63-FA45-3337-99C4-5EAE89C5578D> .
+
+<http://www.sealit.gr/DB/ship/AFA3A365-A5E2-35D9-98DD-1C12FF87C75F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Юнона" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%8E%D0%BD%D0%BE%D0%BD%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/2AFF319F-E372-3757-A9C5-CE3E83C84E5A> , <http://www.sealit.gr/DB/ship/CC3CA194-18C4-3C6C-990E-854ADF3A79EF> , <http://www.sealit.gr/DB/ship/17775A0E-57F8-3B28-BEF1-3F024E265DDE> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B4%D1%8F%D0%B4%D1%8F>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Дядя" .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%8D%D0%BB%D1%8C%D0%B1%D0%BE%D1%80%D1%81>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Эльборс" .
+
+<http://www.sealit.gr/DB/ship/6D403E6A-D99D-3AA2-AA42-34BEC055A638>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/10AEF908-CE55-3BA0-85A1-FDE0DFCB0FA9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 17, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/C501C649-A01C-3539-8458-7C46ABF68B44> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BE%D0%BB%D0%B5%D0%B3>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Олег" .
+
+<http://www.sealit.gr/DB/register_record_point/8174EA7A-CE7B-3DF3-8EBB-837A5547C4E4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 44, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/EEE21F82-CF0A-3AB5-BABD-3473D2642416> .
+
+<http://www.sealit.gr/DB/register_record_point/F7C2E82B-F14B-3C60-BD93-21D0C767C0BD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 15, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/4DB6C5D0-EC06-39A2-BC0A-985C3ED24385> .
+
+<http://www.sealit.gr/DB/ship/E21B13D7-95DA-3219-ABBC-5181EB206A3F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Сестрица" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%81%D0%B5%D1%81%D1%82%D1%80%D0%B8%D1%86%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/33326FC1-EBF6-34A2-906B-0A87BFD68DAF> .
+
+<http://www.sealit.gr/DB/ship/F75BFC9F-AC81-330C-9ECA-4141223355E3>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/805FC701-4B55-3B92-8DD8-65DEB88C2AA5>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Бабушка" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B1%D0%B0%D0%B1%D1%83%D1%88%D0%BA%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A1459C7F-3979-3B2D-993F-DA7D396FC66D> , <http://www.sealit.gr/DB/ship/A1ABB010-3611-3D0A-9E49-4EE80785DB1F> , <http://www.sealit.gr/DB/ship/05E1533C-A77C-35CF-B1DB-EAE366EADCD3> .
+
+<http://www.sealit.gr/DB/ship/685BAE16-389C-30CA-B238-2AAA7B8A86B2>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/5CA36801-A48D-3CAD-9C43-D28D13AB7950>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 91, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/BEBB3849-6500-30F2-B739-331A59B4A854> .
+
+<http://www.sealit.gr/DB/ship/1E83261E-2EBA-3B7A-9AE3-52EC0116F587>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Лазарев" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BB%D0%B0%D0%B7%D0%B0%D1%80%D0%B5%D0%B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/4DDD86B2-FE0B-35E9-951E-BB4641161EC9> , <http://www.sealit.gr/DB/ship/F1AC1632-53C7-3CF1-8630-8B676D677337> , <http://www.sealit.gr/DB/ship/B1A8DB2C-7431-3632-9573-B4EE8BEDA8A9> .
+
+<http://www.sealit.gr/DB/ship/39FCE29D-B8A1-374D-AF43-374C4829FAC4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/ECFDBEF1-1EB5-3F23-AB23-E181A18D4952>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/A45FBEAE-B140-3A73-872C-A06C7BADECC7>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Генерал Коцебу" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%20%D0%BA%D0%BE%D1%86%D0%B5%D0%B1%D1%83> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/090AB481-95A7-3917-95E1-43517290F631> , <http://www.sealit.gr/DB/ship/B017AFFD-2B69-3FB8-8CD8-B488E1C7EE8F> .
+
+<http://www.sealit.gr/DB/register_record_point/9E1B0D3E-9A3D-34FD-B917-359946B35DD9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 49, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/60F72871-7BE6-30C0-AE8C-D4B29BDB4EBA> .
+
+<http://www.sealit.gr/DB/register_record_point/898B747F-7346-3468-AC34-65B73AA65393>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 100, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/B017AFFD-2B69-3FB8-8CD8-B488E1C7EE8F> .
+
+<http://www.sealit.gr/DB/register_record_point/5372E5E4-3F5C-339E-A220-9A72B4305733>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 80, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/AD9671A1-916B-34B6-A0E5-FEC6D558D078> .
+
+<http://www.sealit.gr/DB/ship/D0AB7DD3-CBFB-3F1F-91A1-83767E9265A8>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B0%D0%BA%D1%81%D0%B0%D0%B9>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Аксай" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BF%D0%B5%D1%80%D0%B2%D0%B5%D0%BD%D0%B5%D1%86>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Первенец" .
+
+<http://www.sealit.gr/DB/ship/C501C649-A01C-3539-8458-7C46ABF68B44>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/8F3039D8-C98C-3528-91AE-A271D753876C>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Голубчик" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D1%87%D0%B8%D0%BA> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/FE01709F-1050-3128-8C86-8A015B55EEB9> .
+
+<http://www.sealit.gr/DB/ship/EA609793-382A-3879-914C-465496E7E9B2>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%BE%D1%80%D0%BD%D0%B8%D0%BB%D0%BE%D0%B2>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Корнилов" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BD%D0%B0%D1%85%D0%B8%D0%BC%D0%BE%D0%B2>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Нахимов" .
+
+<http://www.sealit.gr/DB/ship/FDC68A31-678D-36E7-BFFB-4BCFE04D07A8>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B5%D1%82%D0%BA%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Тетка" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B0%D1%80%D0%B3%D0%BE%D0%BD%D0%B0%D0%B2%D1%82>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Аргонавт" .
+
+<http://www.sealit.gr/DB/register_record_point/10B4D402-77F4-3338-BDCC-E38EEA8AC7FC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 21, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/CC3CA194-18C4-3C6C-990E-854ADF3A79EF> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C%20%D0%BC%D0%B8%D1%85%D0%B0%D0%B8%D0%BB>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Великий Князь Михаил" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B1%D0%B0%D1%80%D1%8F%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Барятинский" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B7%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Запасной" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%B0%D1%87%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Кача" .
+
+<http://www.sealit.gr/DB/register_record_point/35757E9D-EE72-35B6-A7BB-6C32BE182E2D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 64, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/7F589354-BC21-3538-9521-CC50F31F2E7A> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BE%D0%BF%D1%8B%D1%82>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Опыт" .
+
+<http://www.sealit.gr/DB/ship/AB3DE714-46AC-34EC-B6EE-2697AF223397>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/EAAB0F63-73A2-3D27-BFC0-AD85044CF54B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Веста" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B5%D1%81%D1%82%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/EC9089B6-41E2-3396-9A42-625972043CEA> , <http://www.sealit.gr/DB/ship/E1E899E7-97D5-381D-A500-B5A4F8F76E3A> , <http://www.sealit.gr/DB/ship/EEE21F82-CF0A-3AB5-BABD-3473D2642416> .
+
+<http://www.sealit.gr/DB/ship/2CC24820-68D7-32F0-8320-F9E9A6DE006A>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Воробей" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%BE%D1%80%D0%BE%D0%B1%D0%B5%D0%B9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/1AAF916F-A0A7-3710-A7E9-F4105E776079> .
+
+<http://www.sealit.gr/DB/ship/225EA0BA-2D9B-3A1F-8533-3397F5485614>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Кубань" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BA%D1%83%D0%B1%D0%B0%D0%BD%D1%8C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/D7C9B3ED-F723-30F2-B693-33C490217ECE> , <http://www.sealit.gr/DB/ship/9CA5F27C-C44E-371C-AACE-8BA6C5B324D4> .
+
+<http://www.sealit.gr/DB/register_record_point/6B32F8CC-6A6E-38FF-A65D-9BD230A581A8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 101, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/1B4D2D88-FEFC-39A6-8377-37FD58BA236E> .
+
+<http://www.sealit.gr/DB/ship/4B445DCA-8C03-3FC9-A05F-2B811A402F53>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/E6C52852-ED5B-3CDB-BF71-3D9885A2DAAD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 59, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/5545ADC6-5973-32FE-91DF-D3049BCCC3A4> .
+
+<http://www.sealit.gr/DB/ship/D5AA635E-0DCC-3422-901D-338DA0B27E79>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Византия" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B8%D0%B7%D0%B0%D0%BD%D1%82%D0%B8%D1%8F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/ADF75441-5D37-347E-96D4-2DC7BB52FD1E> , <http://www.sealit.gr/DB/ship/F75BFC9F-AC81-330C-9ECA-4141223355E3> .
+
+<http://www.sealit.gr/DB/ship/B3D87463-E5A7-351C-88A4-1BC0FD6BEA92>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/CE35F273-FAAD-363B-9BA3-E7C1C8E2B488>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/2B1FC551-BD8F-3497-9E33-FF9D566579FA>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Аргонавт" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B0%D1%80%D0%B3%D0%BE%D0%BD%D0%B0%D0%B2%D1%82> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/39FCE29D-B8A1-374D-AF43-374C4829FAC4> , <http://www.sealit.gr/DB/ship/FFE9297A-F6EC-30B3-BD66-7289001E92B8> .
+
+<http://www.sealit.gr/DB/ship/DEF01708-38F9-3D85-B137-41A62D3D9803>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/4708AEFB-68B2-3F55-8030-49FFE19D1151>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/E25FAEF7-F7AC-31CF-AAF0-356AA8808BF2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 45, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/D6B3D2E2-DD43-3547-959A-23E846B6BF0B> .
+
+<http://www.sealit.gr/DB/template%20types/seagoing%20personel>
+        a           crm:E55_Type ;
+        rdfs:label  "seagoing personel" .
+
+<http://www.sealit.gr/DB/ship/17775A0E-57F8-3B28-BEF1-3F024E265DDE>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/615A6D2A-FCD5-35BF-BB9B-E8C300A423E5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 11, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/6F9CE629-CF6D-344E-9C5A-7B278A2EED24> .
+
+<http://www.sealit.gr/DB/ship/1C6E1961-5542-3F06-B2BB-377DFDEA29BB>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Альма" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A8CF943D-93EE-3E61-91EA-0B0CC508FC11> , <http://www.sealit.gr/DB/ship/C0FE4055-10F2-398F-8CF0-24E48C86A1A9> .
+
+<http://www.sealit.gr/DB/ship/E730E8C2-61B1-3866-9334-A756EA2A37B6>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/1BCC5C40-75DD-3C3C-A818-3D69941F0134>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Таврида" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B0%D0%B2%D1%80%D0%B8%D0%B4%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/9F643B95-5259-3D99-8F57-6879AC52F5D9> , <http://www.sealit.gr/DB/ship/4DB6C5D0-EC06-39A2-BC0A-985C3ED24385> .
+
+<http://www.sealit.gr/DB/register_record_point/32830B33-7FD3-3B99-A225-7A291A557FC0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 69, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/ADF75441-5D37-347E-96D4-2DC7BB52FD1E> .
+
+<http://www.sealit.gr/DB/register_record_point/0F4F4C2E-5544-35AA-A22A-70675D37B017>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 93, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/492BCBF9-F1E0-32E1-A2A2-25F6EAEAE334> .
+
+<http://www.sealit.gr/DB/ship/E2F7688C-E96F-3215-9100-FF285E881723>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/E6E936ED-B0A2-3ECF-8BE7-09210EECBC45>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/F46471A5-FC57-3894-B1A0-4500676B0CB3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 74, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/460A2E78-BB58-33F2-8609-FA8EA8D776C3> .
+
+<http://www.sealit.gr/DB/register_record_point/EF6B3D3A-A308-3AC3-9A70-98E3DAD3768E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 19, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/953A5BBD-77C7-3829-8705-2707F2C36659> .
+
+<http://www.sealit.gr/DB/ship/4DB6C5D0-EC06-39A2-BC0A-985C3ED24385>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/DF22C483-D76B-3C6B-AEA1-EE09B493A2BF>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Чихачев" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%87%D0%B8%D1%85%D0%B0%D1%87%D0%B5%D0%B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/21E0B30E-6A62-3EDF-8CDC-815E7AF36B6A> , <http://www.sealit.gr/DB/ship/3FEF827B-971F-3454-BFB2-8BB801B285C4> , <http://www.sealit.gr/DB/ship/D0028F37-8424-3C8D-9B4E-2E7F75468595> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%80%D0%B8%D0%BE%D0%BD>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Рион" .
+
+<http://www.sealit.gr/DB/register_record_point/AA27A67D-9D00-350C-B515-67B5003DA616>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 80, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/00D76894-60C1-3C5E-9010-500DAD492BFA> .
+
+<http://www.sealit.gr/DB/ship/07DA58CA-415A-33DD-9963-DF8BB194F036>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Дон" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B4%D0%BE%D0%BD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/4B445DCA-8C03-3FC9-A05F-2B811A402F53> .
+
+<http://www.sealit.gr/DB/ship/53D477A0-4368-32F2-A254-89E07C06E87B>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/95E7908B-7E4D-3137-869B-99E228798B2E>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Владимир" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/AF4C9584-7604-36AB-B84C-F171CAAD2CAD> , <http://www.sealit.gr/DB/ship/BEBB3849-6500-30F2-B739-331A59B4A854> .
+
+<http://www.sealit.gr/DB/register_record_point/1CFC9D5A-3245-33DB-88E3-49401D4BF0F3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 77, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/A8CF943D-93EE-3E61-91EA-0B0CC508FC11> .
+
+<http://www.sealit.gr/DB/ship/8CB0C855-65AE-329D-BDCB-B53EF4081510>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/D6B3D2E2-DD43-3547-959A-23E846B6BF0B>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/62C93021-833F-30D3-A6F2-44C7FF6A7D66>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 68, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/B2FF0613-DF16-37CB-9C5D-714D71811BDA> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BF%D0%B5%D1%82%D1%83%D1%85>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Петух" .
+
+<http://www.sealit.gr/DB/register_record_point/015A33C3-9CAA-368E-9659-286BFE1667A0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 85, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/47322DDD-2EFC-3F38-9FE9-6816962566A9> .
+
+<http://www.sealit.gr/DB/register_record_point/AAC561E6-77DC-3D19-BB8E-5A7FE531FA26>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 20, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/DC2E5098-A6D7-33CC-99AA-DFF9E7C6F56A> .
+
+<http://www.sealit.gr/DB/ship/9F643B95-5259-3D99-8F57-6879AC52F5D9>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/7885F9E2-31B7-3E0F-8151-728285690B74>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 35, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/D4A089A7-2D9E-3234-9B06-A8D2A2AB5475> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Великий Князь Константин" .
+
+<http://www.sealit.gr/DB/register_record_point/6AF5A3F4-9913-3750-8E48-FD9084527B46>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 81, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/D4A623AE-7995-34EE-B39A-663C34BF8020> .
+
+<http://www.sealit.gr/DB/register_record_point/6B6224DE-DF2C-398C-B81A-0DD1C433460E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 23, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/98B7E9DB-15D4-3A1A-A78A-47BA567DBBED> .
+
+<http://www.sealit.gr/DB/ship/07D49C6C-8BF8-35AF-A0BE-EE0D0C10C1D2>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/5F4F38C6-BBC4-3DA7-8758-BF974F21ECEF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 48, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/090AB481-95A7-3917-95E1-43517290F631> .
+
+<http://www.sealit.gr/DB/register_record_point/EBE2A0C7-DCF3-3F20-892E-05ABA6CFCE75>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 58, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/0DC0B550-18CA-3D71-A64A-8881284337B4> .
+
+<http://www.sealit.gr/DB/register_record_point/5A0BF5BE-1D8C-3EAE-847C-DAE8AB6E346F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 73, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/8CB0C855-65AE-329D-BDCB-B53EF4081510> .
+
+<http://www.sealit.gr/DB/ship/98B7E9DB-15D4-3A1A-A78A-47BA567DBBED>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/96E11D5B-5EE2-3D6B-BEA3-D4A546FBF766>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B3%D1%83%D1%81%D1%8C>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Гусь" .
+
+<http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-10-25T12:05:58.066Z_3&templateTitle=Seagoing%20Personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/ship/C4D31CE7-13EF-3DA2-BCE7-E452002676EA>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Великий Князь Михаил" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C%20%D0%BC%D0%B8%D1%85%D0%B0%D0%B8%D0%BB> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/FFCBA568-75B5-3281-9E4B-DE802A6124D2> , <http://www.sealit.gr/DB/ship/9B9197BE-A0B4-38E2-B8D3-30C3AD4E3D7C> .
+
+<http://www.sealit.gr/DB/register_record_point/C404FE2C-45FD-3E24-BCE6-5D144E2DC329>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 43, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/EA609793-382A-3879-914C-465496E7E9B2> .
+
+<http://www.sealit.gr/DB/ship/8E8122DC-FCE6-354B-AB2F-73014CC0041E>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B3%D1%83%D0%BD%D0%B8%D0%B1>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Гуниб" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B1%D0%B0%D1%82%D1%8E%D1%88%D0%BA%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Батюшка" .
+
+<http://www.sealit.gr/DB/ship/27C6CBE6-C89D-3535-95F4-37D147A1D732>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Кодор" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%BE%D0%B4%D0%BE%D1%80> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/F282FD97-6FFC-365E-86EC-40F7FCFFCA4C> .
+
+<http://www.sealit.gr/DB/ship/BEBB3849-6500-30F2-B739-331A59B4A854>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/A1ABB010-3611-3D0A-9E49-4EE80785DB1F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/ED074043-5812-36B1-BA68-41CB467DA41B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 63, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/CE35F273-FAAD-363B-9BA3-E7C1C8E2B488> .
+
+<http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-04-18T09:19:10.076Z_1&templateTitle=Seagoing%20Personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/56703007-286D-3315-9D89-70714E74AD47>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 69, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/BDA6866E-A4E3-3A0E-A681-CD2B02B9FFEB> .
+
+<http://www.sealit.gr/DB/register_record_point/22AF6D2E-87F6-3180-B312-1B7B28B9D0BE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 68, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/4708AEFB-68B2-3F55-8030-49FFE19D1151> .
+
+<http://www.sealit.gr/DB/register_record_point/4B432679-E92D-39D6-8106-CA5B70EDD4E4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 29, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/F46AE4F7-FBC1-35C1-9408-2E8EC4441CB7> .
+
+<http://www.sealit.gr/DB/ship/CC3CA194-18C4-3C6C-990E-854ADF3A79EF>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%8E%D0%BD%D0%BE%D0%BD%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Юнона" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B4%D0%BD%D0%B5%D0%BF%D1%80>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Днепр" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B7%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D0%B5%D1%86>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Запорожец" .
+
+<http://www.sealit.gr/DB/ship/47322DDD-2EFC-3F38-9FE9-6816962566A9>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/62966F6C-4EB0-33DC-8FA6-85F1D9F8251B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Братец" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B1%D1%80%D0%B0%D1%82%D0%B5%D1%86> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/53D477A0-4368-32F2-A254-89E07C06E87B> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B5%D1%81%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Цесаревич" .
+
+<http://www.sealit.gr/DB/ship/64B3F5C0-3F85-3CDE-B9B5-B909C43C6AF2>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Опыт" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BE%D0%BF%D1%8B%D1%82> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/A625C26B-E063-3FB9-AE46-8D9CB010B5FA> .
+
+<http://www.sealit.gr/DB/register_record_point/DD17B8B8-11D5-3224-B9B6-7E0260D02669>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 18, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/F4A31A17-715C-3516-A551-144A390293E8> .
+
+<http://www.sealit.gr/DB/register_record_point/96E46D4D-C54F-357F-8A5A-3CB1C0D7EDD9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 113, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/A1ABB010-3611-3D0A-9E49-4EE80785DB1F> .
+
+<http://www.sealit.gr/DB/register_record_point/34C3D932-5C04-36D8-9AB8-3F634F2D23F5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 22, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/3DBAFBE7-CD43-3E16-8F42-ADAC75C526CF> .
+
+<http://www.sealit.gr/DB/ship/DE9693FB-B801-3163-BD3F-6D22EC623A21>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Кобчик" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%BE%D0%B1%D1%87%D0%B8%D0%BA> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/CE35F273-FAAD-363B-9BA3-E7C1C8E2B488> , <http://www.sealit.gr/DB/ship/1E2EEE31-6EFD-38F0-8619-A7D8E2E482F0> .
+
+<http://www.sealit.gr/DB/ship/4FEA464F-EDEC-3400-A707-FA1E09109766>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Митридат" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B4%D0%B0%D1%82> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/DEF01708-38F9-3D85-B137-41A62D3D9803> , <http://www.sealit.gr/DB/ship/1A779699-04D6-36E6-B5C0-047BCB7A19EF> .
+
+<http://www.sealit.gr/DB/register_record_point/DA51889D-9988-3AC2-AAEE-58DA4ACD3C18>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 36, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/D7C9B3ED-F723-30F2-B693-33C490217ECE> .
+
+<http://www.sealit.gr/DB/ship/8F3449C3-EB70-3F91-A612-C66EAFE34018>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/1F13B826-A01C-37D0-AF06-D0FEE9FEBA76>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 16, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/BED3A4FA-A4FF-399C-9EBC-ED33295071FB> .
+
+<http://www.sealit.gr/DB/ship/F1AC1632-53C7-3CF1-8630-8B676D677337>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/BED3A4FA-A4FF-399C-9EBC-ED33295071FB>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/EC9089B6-41E2-3396-9A42-625972043CEA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/A4D951AC-03D2-3A20-81C5-89A60237A5D4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 102, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/0D6C18FD-4918-3E22-ABFA-18AC8AEDFEA7> .
+
+<http://www.sealit.gr/DB/ship/E99BFABC-0DD5-345C-B98E-EA1425FFFE29>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/A8CF943D-93EE-3E61-91EA-0B0CC508FC11>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/D4A089A7-2D9E-3234-9B06-A8D2A2AB5475>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/3675E75B-319B-3637-B3A6-62411553EB89>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 3, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/81927242-783C-39A5-B6E3-FCC6E82BB84D> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%BE%D1%80%D0%BE%D0%B1%D0%B5%D0%B9>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Воробей" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%20%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Император Александр" .
+
+<http://www.sealit.gr/DB/ship/665D8D59-FFB0-3FB1-A443-343424DFB90F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Сокол" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%81%D0%BE%D0%BA%D0%BE%D0%BB> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/3DBAFBE7-CD43-3E16-8F42-ADAC75C526CF> , <http://www.sealit.gr/DB/ship/00D76894-60C1-3C5E-9010-500DAD492BFA> , <http://www.sealit.gr/DB/ship/BE7672E2-CD7E-3881-AF7A-5DBFE9220C9F> .
+
+<http://www.sealit.gr/DB/register_record_point/4542E448-9FF0-3E00-A187-41D5043EC032>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 33, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/067D162F-2272-356C-A472-B058BC2BBAFB> .
+
+<http://www.sealit.gr/DB/register_record_point/A02A1B6E-4223-3059-A7D2-8CE6066AE916>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 41, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/80B57D1A-9B09-33F3-9390-5F3F205CB48C> .
+
+<http://www.sealit.gr/DB/register_record_point/08137EEC-30DE-3022-B16B-C2D612E0EF53>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 54, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/F6FE312D-58B3-3476-A60E-06DBB8E3F572> .
+
+<http://www.sealit.gr/DB/ship/FFE9297A-F6EC-30B3-BD66-7289001E92B8>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/B0E9FFEC-D19D-3494-91E1-7A314159BE22>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 75, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/E8923D07-423E-36BE-80DC-584FC8FE0617> .
+
+<http://www.sealit.gr/DB/ship/AD1A323B-ADBB-3C2E-8A45-660A97AC058C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/B68B6C2B-FA35-3190-B676-8BAFDB16775A>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Аккерман" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B0%D0%BA%D0%BA%D0%B5%D1%80%D0%BC%D0%B0%D0%BD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/07D49C6C-8BF8-35AF-A0BE-EE0D0C10C1D2> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B8%D0%B7%D0%B0%D0%BD%D1%82%D0%B8%D1%8F>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Византия" .
+
+<http://www.sealit.gr/DB/ship/93F8E3A0-9548-337C-9277-D9C8102E4493>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/75EB7756-AEDB-3B8E-985F-2C485350F460>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%BD%D1%83%D1%87%D0%B5%D0%BA>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Внучек" .
+
+<http://www.sealit.gr/DB/register_record_point/2A52A7E7-15AD-34CD-81DC-19484066EDCC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 74, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/AB9770F1-828A-35A3-ABBD-5B44671F8366> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B0%D0%BC%D0%B0%D0%BD%D1%8C>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Тамань" .
+
+<http://www.sealit.gr/DB/ship/A1459C7F-3979-3B2D-993F-DA7D396FC66D>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/F1993A8D-BA15-3D55-BEAA-3D04663C6693>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 37, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/AD1A323B-ADBB-3C2E-8A45-660A97AC058C> .
+
+<http://www.sealit.gr/DB/ship/43800555-1B3B-3459-9408-4536BC09828B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Ингул" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B8%D0%BD%D0%B3%D1%83%D0%BB> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/0DC0B550-18CA-3D71-A64A-8881284337B4> , <http://www.sealit.gr/DB/ship/689F7A48-18EE-35DB-8A8B-1C08E3D4D490> .
+
+<http://www.sealit.gr/DB/register_record_point/C493A3A6-B5FF-32F2-A07F-37EDE655C7FF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 56, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/FFF99FD2-26C2-3A6E-BE1A-A40A8E4290E4> .
+
+<http://www.sealit.gr/DB/register_record_point/368F33D9-6BF0-3448-95ED-401F7B992BFD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 73, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/155CAE0A-501C-3F98-8894-6377BF492B4C> .
+
+<http://www.sealit.gr/DB/ship/9AE5BC63-FA45-3337-99C4-5EAE89C5578D>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/8FC105F3-E1C6-3322-8F71-5CF935F24986>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Днепр" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B4%D0%BD%D0%B5%D0%BF%D1%80> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/F6FE312D-58B3-3476-A60E-06DBB8E3F572> , <http://www.sealit.gr/DB/ship/96E11D5B-5EE2-3D6B-BEA3-D4A546FBF766> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B4%D0%BE%D0%BD>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Дон" .
+
+<http://www.sealit.gr/DB/register_record_point/E57B51D3-65E7-332B-8E8C-6A31A7A8E2FB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 47, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/ECFDBEF1-1EB5-3F23-AB23-E181A18D4952> .
+
+<http://www.sealit.gr/DB/register_record_point/6C48BEE9-028A-3189-9C56-722219D69632>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 1, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/8F3449C3-EB70-3F91-A612-C66EAFE34018> .
+
+<http://www.sealit.gr/DB/ship/C48D4751-5674-36D2-9ADE-A3E3DA53DDBC>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/BC72F6D1-8361-3B2D-99A4-AF3824B67DD2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 70, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/CBDD1A0F-6A46-3C55-8EA9-5825909ED7D9> .
+
+<http://www.sealit.gr/DB/register_record_point/DEF7D51F-A9FF-3D65-9CC4-EF0C37002703>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 72, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/7ED7E78B-6BE9-3AA0-98D6-7075AA320492> .
+
+<http://www.sealit.gr/DB/ship/44041174-8FF4-39C5-8708-AAE330AE4420>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Корнилов" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%BE%D1%80%D0%BD%D0%B8%D0%BB%D0%BE%D0%B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/80B57D1A-9B09-33F3-9390-5F3F205CB48C> , <http://www.sealit.gr/DB/ship/E2F7688C-E96F-3215-9100-FF285E881723> , <http://www.sealit.gr/DB/ship/4708AEFB-68B2-3F55-8030-49FFE19D1151> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B0%D0%B7%D0%BE%D0%B2>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Азов" .
+
+<http://www.sealit.gr/DB/ship/C9EA990C-859A-35D3-89BB-075903F80238>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/32C37DE0-4CED-3574-B524-DA091FC24276>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Коршун" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%BE%D1%80%D1%88%D1%83%D0%BD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/EA609793-382A-3879-914C-465496E7E9B2> , <http://www.sealit.gr/DB/ship/E99BFABC-0DD5-345C-B98E-EA1425FFFE29> .
+
+<http://www.sealit.gr/DB/register_record_point/464D01C7-75EC-3939-B2D8-036269CED3C4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 71, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/4B445DCA-8C03-3FC9-A05F-2B811A402F53> .
+
+<http://www.sealit.gr/DB/ship/F282FD97-6FFC-365E-86EC-40F7FCFFCA4C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/1E2EEE31-6EFD-38F0-8619-A7D8E2E482F0>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/24C93A29-C26A-3D8A-82C1-AF8331AABCBC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 37, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/2A46F87A-25E7-33E2-BA7D-588827DB05C6> .
+
+<http://www.sealit.gr/DB/register_record_point/A46555CB-4F96-3686-B356-910E97A67253>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 81, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/689F7A48-18EE-35DB-8A8B-1C08E3D4D490> .
+
+<http://www.sealit.gr/DB/ship/0BA5C3F6-C42C-3462-97FC-417A3DC14397>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/E74A3102-0D5D-3E0B-A0CF-701F033B22F6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 78, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/96E11D5B-5EE2-3D6B-BEA3-D4A546FBF766> .
+
+<http://www.sealit.gr/DB/ship/E14A1E4A-7064-3C2E-B0A3-405BB2701DD4>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Первенец" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BF%D0%B5%D1%80%D0%B2%D0%B5%D0%BD%D0%B5%D1%86> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/D395FCD9-59F5-3C69-9F9E-44979A163FAB> .
+
+<http://www.sealit.gr/DB/register_record_point/C81D7777-DFCB-3A03-8367-A59F6A13C3F5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 8, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/AF7FAAE0-EDCE-3384-95AE-368535A783E4> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%81%D0%BE%D0%BA%D0%BE%D0%BB>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Сокол" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Владимир" .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B5%D1%80%D0%B5%D0%BA>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Терек" .
+
+<http://www.sealit.gr/DB/ship/B88F4DFB-B316-30BD-8A22-94C842B3A94C>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Церера" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B5%D1%80%D0%B5%D1%80%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/953A5BBD-77C7-3829-8705-2707F2C36659> , <http://www.sealit.gr/DB/ship/05584EBE-71DD-3D1F-AAE8-B8B8E2AD44E1> .
+
+<http://www.sealit.gr/DB/ship/DB72F46D-D3B1-3105-B39E-33754B4453C4>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Черкаск" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%87%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D0%BA> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/BED3A4FA-A4FF-399C-9EBC-ED33295071FB> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%BE%D0%B1%D1%87%D0%B8%D0%BA>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Кобчик" .
+
+<http://www.sealit.gr/DB/register_record_point/F8496256-017E-3930-9417-3EE805A826BA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 49, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/FDC68A31-678D-36E7-BFFB-4BCFE04D07A8> .
+
+<http://www.sealit.gr/DB/register_record_point/593EBEEF-886B-3E97-A0B2-D7FE085B330B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 1, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/703D2C22-4022-3BAB-9ACD-1907BEA70ECE> .
+
+<http://www.sealit.gr/DB/register_record_point/795EB534-BA65-32F9-B2A0-F25C652587DF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 67, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/ECCFB299-1A8F-3274-82FB-DE166744DF15> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BA%D1%83%D0%B1%D0%B0%D0%BD%D1%8C>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Кубань" .
+
+<http://www.sealit.gr/DB/ship/1A779699-04D6-36E6-B5C0-047BCB7A19EF>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/95430590-7961-329A-A2EA-4C2952650191>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 5, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/FFCBA568-75B5-3281-9E4B-DE802A6124D2> .
+
+<http://www.sealit.gr/DB/ship/1B4D2D88-FEFC-39A6-8377-37FD58BA236E>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/96EC0030-4107-37FE-BD1A-4245C3202E5A>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Ростов" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/F5BD9451-2457-3A4D-B0A8-D44E4E4D5A74> , <http://www.sealit.gr/DB/ship/B5FBA1AF-0F85-31F1-A453-E3A0B1AF1690> , <http://www.sealit.gr/DB/ship/460A2E78-BB58-33F2-8609-FA8EA8D776C3> .
+
+<http://www.sealit.gr/DB/ship/8C1B69A0-C958-3249-83EF-AC885217997E>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/EA65E09A-37A4-373A-8E28-F1C8FAF4B597>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 14, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/9F643B95-5259-3D99-8F57-6879AC52F5D9> .
+
+<http://www.sealit.gr/DB/register_record_point/9E66D5E0-F38A-3885-8DE2-87E025594C4D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 24, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/F5BD9451-2457-3A4D-B0A8-D44E4E4D5A74> .
+
+<http://www.sealit.gr/DB/ship/E1E899E7-97D5-381D-A500-B5A4F8F76E3A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/40070469-B679-36FA-AB7C-D3953F9E7224>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Ифигения" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B8%D1%84%D0%B8%D0%B3%D0%B5%D0%BD%D0%B8%D1%8F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/AD1A323B-ADBB-3C2E-8A45-660A97AC058C> , <http://www.sealit.gr/DB/ship/47322DDD-2EFC-3F38-9FE9-6816962566A9> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D1%87%D0%B8%D0%BA>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Голубчик" .
+
+<http://www.sealit.gr/DB/ship/B58C804F-D888-3329-B255-F89D77BF15AF>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/A0CF4824-EC71-3B4E-B979-B9613424F3A8>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Аксай" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B0%D0%BA%D1%81%D0%B0%D0%B9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/8FB20FC9-28FF-3347-9EB8-B49FB9ADEBD8> .
+
+<http://www.sealit.gr/DB/ship/F4A31A17-715C-3516-A551-144A390293E8>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/D37CCB84-D0BE-34B6-9A77-54CCAAE1BDAA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/6D3FACAE-E605-3F5F-879D-EE2B012FA572>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Рион" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%80%D0%B8%D0%BE%D0%BD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/5545ADC6-5973-32FE-91DF-D3049BCCC3A4> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%87%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D0%BA>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Черкаск" .
+
+<http://www.sealit.gr/DB/register_record_point/83B1798E-DD45-3BB2-BE5E-DE0D3333D409>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 105, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/30FC3DED-75AF-3485-8426-152CA999357E> .
+
+<http://www.sealit.gr/DB/register_record_point/DD785DD5-CFCD-3E73-A89F-E2098A6A8896>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 26, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/D0AB7DD3-CBFB-3F1F-91A1-83767E9265A8> .
+
+<http://www.sealit.gr/DB/ship/A729F932-EC49-337F-BDF5-1F96FEEE5126>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Индюк" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B8%D0%BD%D0%B4%D1%8E%D0%BA> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/D4A089A7-2D9E-3234-9B06-A8D2A2AB5475> .
+
+<http://www.sealit.gr/DB/register_record_point/861231A0-42D6-3307-9DF9-3813786F6B01>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 17, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/FE1050E1-583D-3365-8E45-EA8AB9EA5A5E> .
+
+<http://www.sealit.gr/DB/ship/4826A0FC-444F-3F49-80B8-4F4045135887>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Внучек" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%BD%D1%83%D1%87%D0%B5%D0%BA> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/84839BC4-6E1A-3243-A694-77BB67C65C2C> , <http://www.sealit.gr/DB/ship/ECCFB299-1A8F-3274-82FB-DE166744DF15> .
+
+<http://www.sealit.gr/DB/ship/BE7672E2-CD7E-3881-AF7A-5DBFE9220C9F>
+        a       sealit:Ship .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/ship/9AC22E3A-204B-33BE-BA1E-3C4EFC41D3BD>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/2F4610CB-F490-3843-B91E-DFF7C80065C1>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Лебедь" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BB%D0%B5%D0%B1%D0%B5%D0%B4%D1%8C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/60F72871-7BE6-30C0-AE8C-D4B29BDB4EBA> .
+
+<http://www.sealit.gr/DB/register_record_point/93C42FCA-E1FE-3B1E-813F-A7D0AC8678ED>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 112, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/E1E899E7-97D5-381D-A500-B5A4F8F76E3A> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B1%D1%80%D0%B0%D1%82%D0%B5%D1%86>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Братец" .
+
+<http://www.sealit.gr/DB/ship/E8923D07-423E-36BE-80DC-584FC8FE0617>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/6FCC3337-AC96-3FBB-B95E-14043373ACC0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 88, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/19C47B9C-D158-3B5D-8ACF-332DE2494390> .
+
+<http://www.sealit.gr/DB/register_record_point/79864268-6A2A-3696-BB3B-F60B442AF9A5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 94, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/55673505-A8BA-3F62-8E14-AA5FEE8B3946> .
+
+<http://www.sealit.gr/DB/register_record_point/C278EF2D-4562-391C-BA72-DD8C99EBC669>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 67, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/3FEF827B-971F-3454-BFB2-8BB801B285C4> .
+
+<http://www.sealit.gr/DB/ship/CBDD1A0F-6A46-3C55-8EA9-5825909ED7D9>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/460A2E78-BB58-33F2-8609-FA8EA8D776C3>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/88C6A47B-04AE-3565-B5C2-B7AEEF837507>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 30, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/2AFF319F-E372-3757-A9C5-CE3E83C84E5A> .
+
+<http://www.sealit.gr/DB/ship/81927242-783C-39A5-B6E3-FCC6E82BB84D>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/3FEF827B-971F-3454-BFB2-8BB801B285C4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/0DC0B550-18CA-3D71-A64A-8881284337B4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%BE%D1%80%D1%88%D1%83%D0%BD>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Коршун" .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%80%D0%BE%D0%B4%D0%B8%D0%BC%D1%8B%D0%B9>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Родимый" .
+
+<http://www.sealit.gr/DB/ship/D0028F37-8424-3C8D-9B4E-2E7F75468595>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/1E4AC3AD-ABDF-3E54-BFD5-75F67DAA5C97>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 44, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/1AAF916F-A0A7-3710-A7E9-F4105E776079> .
+
+<http://www.sealit.gr/DB/ship/EEE21F82-CF0A-3AB5-BABD-3473D2642416>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/4980A581-21C6-3614-9394-167F2B5C3063>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/FFCBA568-75B5-3281-9E4B-DE802A6124D2>
+        a       sealit:Ship .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-04-18T09:19:10.076Z_1&templateTitle=Seagoing%20Personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/84E3C63C-65BB-32B6-81F8-B61088E640A8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 51, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/8E8122DC-FCE6-354B-AB2F-73014CC0041E> .
+
+<http://www.sealit.gr/DB/register_record_point/EC38E1CF-99AC-3299-8E71-5DD69E1CC88B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 106, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/9AC22E3A-204B-33BE-BA1E-3C4EFC41D3BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F60278DF-BBC3-3403-81DC-74612393A688>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 107, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/ABF93C1C-6E5D-36F1-92DA-89E2368A47FF> .
+
+<http://www.sealit.gr/DB/ship/2A46F87A-25E7-33E2-BA7D-588827DB05C6>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/33326FC1-EBF6-34A2-906B-0A87BFD68DAF>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/21E0B30E-6A62-3EDF-8CDC-815E7AF36B6A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/4AEFE74E-D0CE-3BDF-920A-B67DD1782BF8>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Одесса" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/81927242-783C-39A5-B6E3-FCC6E82BB84D> , <http://www.sealit.gr/DB/ship/685BAE16-389C-30CA-B238-2AAA7B8A86B2> , <http://www.sealit.gr/DB/ship/2BA33AC1-DB5D-3AF1-A6B3-9A273140D86B> .
+
+<http://www.sealit.gr/DB/register_record_point/BAC934B7-D1B6-3953-998A-DA43BBF934F8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 82, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/1E2EEE31-6EFD-38F0-8619-A7D8E2E482F0> .
+
+<http://www.sealit.gr/DB/ship/090AB481-95A7-3917-95E1-43517290F631>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/2EFF0436-03A2-3ECA-9EB6-468C5D9D7164>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Дунай" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B4%D1%83%D0%BD%D0%B0%D0%B9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/F46AE4F7-FBC1-35C1-9408-2E8EC4441CB7> , <http://www.sealit.gr/DB/ship/30FC3DED-75AF-3485-8426-152CA999357E> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BF%D1%80%D1%83%D1%82>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Прут" .
+
+<http://www.sealit.gr/DB/ship/ABF93C1C-6E5D-36F1-92DA-89E2368A47FF>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%81%D0%B0%D0%BB%D0%B3%D0%B8%D1%80>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Салгир" .
+
+<http://www.sealit.gr/DB/ship/00D76894-60C1-3C5E-9010-500DAD492BFA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B1%D0%B0%D0%B1%D1%83%D1%88%D0%BA%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Бабушка" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-10-25T12:05:58.066Z_3&templateTitle=Seagoing%20Personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/ship/424501C8-447E-33F7-AA19-B257C6102623>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Прут" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BF%D1%80%D1%83%D1%82> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/0BA5C3F6-C42C-3462-97FC-417A3DC14397> , <http://www.sealit.gr/DB/ship/BDA6866E-A4E3-3A0E-A681-CD2B02B9FFEB> .
+
+<http://www.sealit.gr/DB/ship/99E16DC8-2AA2-3410-A0C8-98CA3260C844>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Хопер" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%85%D0%BE%D0%BF%D0%B5%D1%80> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/4980A581-21C6-3614-9394-167F2B5C3063> , <http://www.sealit.gr/DB/ship/19C47B9C-D158-3B5D-8ACF-332DE2494390> .
+
+<http://www.sealit.gr/DB/ship/9EF4A667-06A0-3B3A-A83B-990F089AB952>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Запорожец" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B7%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D0%B5%D1%86> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/AD9671A1-916B-34B6-A0E5-FEC6D558D078> .
+
+<http://www.sealit.gr/DB/ship/D4A623AE-7995-34EE-B39A-663C34BF8020>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/FFF99FD2-26C2-3A6E-BE1A-A40A8E4290E4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B2>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Ростов" .
+
+<http://www.sealit.gr/DB/register_record_point/BF670061-D778-37DB-B764-660DE4C9CB46>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 55, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/E730E8C2-61B1-3866-9334-A756EA2A37B6> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%87%D0%B8%D1%85%D0%B0%D1%87%D0%B5%D0%B2>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Чихачев" .
+
+<http://www.sealit.gr/DB/register_record_point/29CB699C-9F51-38DE-A61F-8A668B7F7594>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 71, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/685BAE16-389C-30CA-B238-2AAA7B8A86B2> .
+
+<http://www.sealit.gr/DB/ship/2AFF319F-E372-3757-A9C5-CE3E83C84E5A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B8%D0%BD%D0%B3%D1%83%D0%BB>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Ингул" .
+
+<http://www.sealit.gr/DB/ship/84839BC4-6E1A-3243-A694-77BB67C65C2C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/558BD906-7411-3AB6-B25A-2BF3B449DEA2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 87, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/93F8E3A0-9548-337C-9277-D9C8102E4493> .
+
+<http://www.sealit.gr/DB/ship/3DBAFBE7-CD43-3E16-8F42-ADAC75C526CF>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/703D2C22-4022-3BAB-9ACD-1907BEA70ECE>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/F260FDAF-F130-3C8C-85DD-874A77471CF6>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Батюшка" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B1%D0%B0%D1%82%D1%8E%D1%88%D0%BA%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/3ABE4A45-E9A3-3459-A226-06CF0AEDB3CC> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%83%D1%82%D0%BA%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Утка" .
+
+<http://www.sealit.gr/DB/register_record_point/DB12420F-44C3-3B88-B440-7651EE3A5645>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 38, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/A1459C7F-3979-3B2D-993F-DA7D396FC66D> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%81%D0%B5%D1%81%D1%82%D1%80%D0%B8%D1%86%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Сестрица" .
+
+<http://www.sealit.gr/DB/register_record_point/11863B75-650E-317D-B57F-1CACC56ACCCA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 110, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/A89C88DF-4070-3BE3-ACA8-9CC6138A648A> .
+
+<http://www.sealit.gr/DB/ship/714BAFE2-9D79-3D67-9D7B-0ED633FB8FA4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/2BA33AC1-DB5D-3AF1-A6B3-9A273140D86B>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/E8CE11D8-789B-3ED9-B047-7BE8DD5EC0CB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 51, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/E99BFABC-0DD5-345C-B98E-EA1425FFFE29> .
+
+<http://www.sealit.gr/DB/ship/219DACFE-AFD8-3A87-B51C-5B4CBBDB3769>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Таганрог" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B0%D0%B3%D0%B0%D0%BD%D1%80%D0%BE%D0%B3> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/F4A31A17-715C-3516-A551-144A390293E8> .
+
+<http://www.sealit.gr/DB/ship/F6FE312D-58B3-3476-A60E-06DBB8E3F572>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/7F512153-C3AB-30FF-BEC7-E575DCB99A2B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 108, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/F75BFC9F-AC81-330C-9ECA-4141223355E3> .
+
+<http://www.sealit.gr/DB/register_record_point/AF32EA54-C8C7-3B99-B3C7-0382E12FCB54>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 83, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/ADA1EACD-F612-3B86-8578-B16A12B554C3> .
+
+<http://www.sealit.gr/DB/ship/3ED6F77C-FE48-3BD5-94FC-0F55C78982EF>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Салгир" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%81%D0%B0%D0%BB%D0%B3%D0%B8%D1%80> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/D6B3D2E2-DD43-3547-959A-23E846B6BF0B> , <http://www.sealit.gr/DB/ship/2A46F87A-25E7-33E2-BA7D-588827DB05C6> .
+
+<http://www.sealit.gr/DB/ship/80B57D1A-9B09-33F3-9390-5F3F205CB48C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/AF4C9584-7604-36AB-B84C-F171CAAD2CAD>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/6F9CE629-CF6D-344E-9C5A-7B278A2EED24>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/3B55BA97-AB53-3421-9412-5227B60EFAC5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 7, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/4DDD86B2-FE0B-35E9-951E-BB4641161EC9> .
+
+<http://www.sealit.gr/DB/register_record_point/F0BAD193-063F-3BF8-879A-9AF4F1E26A05>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 66, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/4980A581-21C6-3614-9394-167F2B5C3063> .
+
+<http://www.sealit.gr/DB/register_record_point/70127B6F-889B-3CE5-8FD4-98F0DD5E8E88>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 34, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/33326FC1-EBF6-34A2-906B-0A87BFD68DAF> .
+
+<http://www.sealit.gr/DB/register_record_point/46A99F12-38DF-30A3-B5F5-8CAC6B152FA0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 7, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/D0028F37-8424-3C8D-9B4E-2E7F75468595> .
+
+<http://www.sealit.gr/DB/register_record_point/BC4E867F-8492-3586-9384-4CD97A65F144>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 96, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/B5FBA1AF-0F85-31F1-A453-E3A0B1AF1690> .
+
+<http://www.sealit.gr/DB/ship/0B814026-D3D5-36AB-B049-36F8615ED9F0>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/AD11441C-C311-33FD-8F0A-748130DEA2C5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 27, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/58BA776D-FFC2-3CF4-9ED2-8E29B00564E2> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B4%D1%83%D0%BD%D0%B0%D0%B9>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Дунай" .
+
+<http://www.sealit.gr/DB/ship/4DDD86B2-FE0B-35E9-951E-BB4641161EC9>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/8D072C31-08B1-3CDD-BF38-18027C0B1517>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Утка" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%83%D1%82%D0%BA%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/ECFDBEF1-1EB5-3F23-AB23-E181A18D4952> .
+
+<http://www.sealit.gr/DB/register_record_point/B208CE82-F730-36B7-B7EA-06D0D6507F77>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 65, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/05E1533C-A77C-35CF-B1DB-EAE366EADCD3> .
+
+<http://www.sealit.gr/DB/ship/155CAE0A-501C-3F98-8894-6377BF492B4C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/F84B2ED4-B86F-3795-959E-54E0306040DC>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Олег" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BE%D0%BB%D0%B5%D0%B3> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/B580BA10-71C4-3737-837B-0E5C0CD76CFE> , <http://www.sealit.gr/DB/ship/0D6C18FD-4918-3E22-ABFA-18AC8AEDFEA7> , <http://www.sealit.gr/DB/ship/703D2C22-4022-3BAB-9ACD-1907BEA70ECE> .
+
+<http://www.sealit.gr/DB/ship/8FB20FC9-28FF-3347-9EB8-B49FB9ADEBD8>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/0D6C18FD-4918-3E22-ABFA-18AC8AEDFEA7>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/09FC6846-6313-3F60-A824-BF8D4909B74F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 26, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/75EB7756-AEDB-3B8E-985F-2C485350F460> .
+
+<http://www.sealit.gr/DB/ship/A89C88DF-4070-3BE3-ACA8-9CC6138A648A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/60F72871-7BE6-30C0-AE8C-D4B29BDB4EBA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/FC414309-AD52-3A8B-935C-7AA7DE96FAE1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 60, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/E6E936ED-B0A2-3ECF-8BE7-09210EECBC45> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%8F%D0%B7%D0%BE%D0%BD>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Язон" .
+
+<http://www.sealit.gr/DB/ship/2B076913-A958-3265-9925-C1854F3BD52F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Терек" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B5%D1%80%D0%B5%D0%BA> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/8F20FE23-03CB-387A-BB2F-AF0F0A12B622> , <http://www.sealit.gr/DB/ship/7ED7E78B-6BE9-3AA0-98D6-7075AA320492> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BF%D0%BE%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D1%8B%D0%B9>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Поспешный" .
+
+<http://www.sealit.gr/DB/ship/02A1FD6B-71BC-3C92-818F-EDE062E1F329>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/7B2DBB72-D773-3E4D-97C4-19B685071C3B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 78, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/07D49C6C-8BF8-35AF-A0BE-EE0D0C10C1D2> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BB%D0%B5%D0%B1%D0%B5%D0%B4%D1%8C>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Лебедь" .
+
+<http://www.sealit.gr/DB/register_record_point/2052BF35-1A24-34B9-88FE-735FD765DCAB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 19, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/F1AC1632-53C7-3CF1-8630-8B676D677337> .
+
+<http://www.sealit.gr/DB/ship/9B9197BE-A0B4-38E2-B8D3-30C3AD4E3D7C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%BE%D0%B4%D0%BE%D1%80>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Кодор" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BD%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Николаев" .
+
+<http://www.sealit.gr/DB/register_record_point/69319E06-7CE9-3F56-B2A9-28FBA02009DD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 51, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/17775A0E-57F8-3B28-BEF1-3F024E265DDE> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BC%D0%BE%D0%B3%D1%83%D1%87%D0%B8%D0%B9>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Могучий" .
+
+<http://www.sealit.gr/DB/ship/7F589354-BC21-3538-9521-CC50F31F2E7A>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/D395FCD9-59F5-3C69-9F9E-44979A163FAB>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/28FFA2BA-3A1F-362F-BD36-AE5A1AD8FCE1>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Нахимов" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BD%D0%B0%D1%85%D0%B8%D0%BC%D0%BE%D0%B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/C501C649-A01C-3539-8458-7C46ABF68B44> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B5%D1%81%D0%B0%D1%80%D0%B5%D0%B2%D0%BD%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Цесаревна" .
+
+<http://www.sealit.gr/DB/ship/067D162F-2272-356C-A472-B058BC2BBAFB>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/5B02AD91-131A-3B4D-B58A-3918AE50D06D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 10, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/8FB20FC9-28FF-3347-9EB8-B49FB9ADEBD8> .
+
+<http://www.sealit.gr/DB/ship/B2FF0613-DF16-37CB-9C5D-714D71811BDA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/C0FE4055-10F2-398F-8CF0-24E48C86A1A9>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%20%D0%BA%D0%BE%D1%86%D0%B5%D0%B1%D1%83>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Генерал Коцебу" .
+
+<http://www.sealit.gr/DB/register_record_point/B3BA2E04-04E9-337E-A2BD-BD4220F157CA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 12, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/39FCE29D-B8A1-374D-AF43-374C4829FAC4> .
+
+<http://www.sealit.gr/DB/ship/12689A19-BB78-39A2-AB49-12A78D7C557B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Петух" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BF%D0%B5%D1%82%D1%83%D1%85> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/D4A623AE-7995-34EE-B39A-663C34BF8020> .
+
+<http://www.sealit.gr/DB/register_record_point/7B4441ED-BE54-3C24-A814-4B32162C2132>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 62, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/9B54A6D9-3B19-34D8-8C12-EF6DA36190AA> .
+
+<http://www.sealit.gr/DB/register_record_point/FE8677F3-95A3-3205-82DB-A821407245F1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 19, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/B58C804F-D888-3329-B255-F89D77BF15AF> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%8F%D1%81%D1%82%D1%80%D0%B5%D0%B1>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Ястреб" .
+
+<http://www.sealit.gr/DB/register_record_point/05CB3B6E-483F-3B2A-9A36-5D30C4F70038>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 9, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/F9B63618-BE56-3819-846E-B74983D1080A> .
+
+<http://www.sealit.gr/DB/ship/939720C9-8502-3526-B5B7-1242E8976CC7>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Цесаревна" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B5%D1%81%D0%B0%D1%80%D0%B5%D0%B2%D0%BD%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/0B814026-D3D5-36AB-B049-36F8615ED9F0> , <http://www.sealit.gr/DB/ship/FE1050E1-583D-3365-8E45-EA8AB9EA5A5E> .
+
+<http://www.sealit.gr/DB/register_record_point/D1E50CBB-8106-36BD-AE3B-0064DC1248D7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 98, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/E2F7688C-E96F-3215-9100-FF285E881723> .
+
+<http://www.sealit.gr/DB/ship/B5FBA1AF-0F85-31F1-A453-E3A0B1AF1690>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/B5A5D74D-A558-335E-BE15-7DAB5F32E650>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Медведица" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D0%B8%D1%86%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/6D403E6A-D99D-3AA2-AA42-34BEC055A638> , <http://www.sealit.gr/DB/ship/8CB0C855-65AE-329D-BDCB-B53EF4081510> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Россия" .
+
+<http://www.sealit.gr/DB/register_record_point/8B34B3C6-2494-3EAA-A053-AECA91F43E8E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 39, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/C9EA990C-859A-35D3-89BB-075903F80238> .
+
+<http://www.sealit.gr/DB/ship/209E25E9-F10D-3212-AEC8-AB1F7193B775>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/E2529B4C-863B-3236-B615-81FEDFA3E219>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 32, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/3ABE4A45-E9A3-3459-A226-06CF0AEDB3CC> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BA%D1%80%D0%B5%D1%87%D0%B5%D1%82>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Кречет" .
+
+<http://www.sealit.gr/DB/register_record_point/E0A9369F-A891-3449-A4F5-D64AAFC3297D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 46, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/FE01709F-1050-3128-8C86-8A015B55EEB9> .
+
+<http://www.sealit.gr/DB/ship/00A236EC-8020-3D94-8005-F0BF032FABC0>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Барятинский" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B1%D0%B0%D1%80%D1%8F%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/CBDD1A0F-6A46-3C55-8EA9-5825909ED7D9> , <http://www.sealit.gr/DB/ship/A89C88DF-4070-3BE3-ACA8-9CC6138A648A> .
+
+<http://www.sealit.gr/DB/ship/ADF75441-5D37-347E-96D4-2DC7BB52FD1E>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/C5D37659-4604-30C2-90CA-8A911EF744A9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 76, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/8F20FE23-03CB-387A-BB2F-AF0F0A12B622> .
+
+<http://www.sealit.gr/DB/register_record_point/691474AB-84F4-3079-9821-BFF0528FAD29>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 40, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/714BAFE2-9D79-3D67-9D7B-0ED633FB8FA4> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B0%D0%B3%D0%B0%D0%BD%D1%80%D0%BE%D0%B3>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Таганрог" .
+
+<http://www.sealit.gr/DB/register_record_point/5960DE12-7D77-339C-84E1-4D7CA2DF9BFA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 57, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/53D477A0-4368-32F2-A254-89E07C06E87B> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B0%D0%BA%D0%BA%D0%B5%D1%80%D0%BC%D0%B0%D0%BD>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Аккерман" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%B5%D1%80%D1%87%D1%8C>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Керчь" .
+
+<http://www.sealit.gr/DB/ship/AD9671A1-916B-34B6-A0E5-FEC6D558D078>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/B1A8DB2C-7431-3632-9573-B4EE8BEDA8A9>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/30FC3DED-75AF-3485-8426-152CA999357E>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/F5BD9451-2457-3A4D-B0A8-D44E4E4D5A74>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%85%D0%BE%D0%BF%D0%B5%D1%80>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Хопер" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-10-25T07:39:36.945Z_2&templateTitle=Seagoing%20Personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/ship/1AAF916F-A0A7-3710-A7E9-F4105E776079>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/9A1F5885-CD50-3B9A-BFEE-EF60B887E376>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Россия" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/5BD82A3C-1BE9-3F77-B859-4ECDC2AAA730> , <http://www.sealit.gr/DB/ship/FDC68A31-678D-36E7-BFFB-4BCFE04D07A8> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B1%D0%B5%D1%81%D1%81%D0%B0%D1%80%D0%B0%D0%B1%D0%B8%D1%8F>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Бессарабия" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B4%D0%B5%D0%B4%D1%83%D1%88%D0%BA%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Дедушка" .
+
+<http://www.sealit.gr/DB/ship/B580BA10-71C4-3737-837B-0E5C0CD76CFE>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/ECCFB299-1A8F-3274-82FB-DE166744DF15>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/74CC091D-390A-3B39-AF1F-9D54BBD50952>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 76, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/9CA5F27C-C44E-371C-AACE-8BA6C5B324D4> .
+
+<http://www.sealit.gr/DB/ship/05E1533C-A77C-35CF-B1DB-EAE366EADCD3>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/3ABE4A45-E9A3-3459-A226-06CF0AEDB3CC>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B8%D0%BD%D0%B4%D1%8E%D0%BA>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Индюк" .
+
+<http://www.sealit.gr/DB/ship/9CA5F27C-C44E-371C-AACE-8BA6C5B324D4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/C76789A0-0F6E-3497-95F1-68B777CD625F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Тетка" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B5%D1%82%D0%BA%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/C9EA990C-859A-35D3-89BB-075903F80238> .
+
+<http://www.sealit.gr/DB/register_record_point/40BE0B93-C2CC-345A-BF64-3C8D546389FA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 61, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/BE7672E2-CD7E-3881-AF7A-5DBFE9220C9F> .
+
+<http://www.sealit.gr/DB/ship/57451016-06ED-3C1E-A996-726B98A0F4DC>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Тамань" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B0%D0%BC%D0%B0%D0%BD%D1%8C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/8E8122DC-FCE6-354B-AB2F-73014CC0041E> .
+
+<http://www.sealit.gr/DB/ship/19C47B9C-D158-3B5D-8ACF-332DE2494390>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/2800DE00-F6ED-3F00-9A7D-70551E02749C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/2C7A6C26-61EF-3539-802E-F657E2CE8C56>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Кача" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%B0%D1%87%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/7F589354-BC21-3538-9521-CC50F31F2E7A> , <http://www.sealit.gr/DB/ship/209E25E9-F10D-3212-AEC8-AB1F7193B775> .
+
+<http://www.sealit.gr/DB/register_record_point/59415E90-ACC0-3749-B6A2-A82CA6B69914>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 74, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/F282FD97-6FFC-365E-86EC-40F7FCFFCA4C> .
+
+<http://www.sealit.gr/DB/register_record_point/F69CC69F-BB1C-33AC-B400-D85A20E3C63C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 2, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/AF4C9584-7604-36AB-B84C-F171CAAD2CAD> .
+
+<http://www.sealit.gr/DB/register_record_point/B37659E6-F10F-3EB8-880D-741126D67A28>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 13, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/21E0B30E-6A62-3EDF-8CDC-815E7AF36B6A> .
+
+<http://www.sealit.gr/DB/ship/1A670465-ED38-3DA5-82A5-26CE69907AE6>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Поспешный" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BF%D0%BE%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D1%8B%D0%B9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/E8923D07-423E-36BE-80DC-584FC8FE0617> , <http://www.sealit.gr/DB/ship/75EB7756-AEDB-3B8E-985F-2C485350F460> .
+
+<http://www.sealit.gr/DB/register_record_point/0680776F-D81D-3F51-8A65-348AE56876F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 4, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/EC9089B6-41E2-3396-9A42-625972043CEA> .
+
+<http://www.sealit.gr/DB/ship/A625C26B-E063-3FB9-AE46-8D9CB010B5FA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/0F011053-C153-3595-A7CE-92011CEEEC6A>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Запасной" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B7%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/FFF99FD2-26C2-3A6E-BE1A-A40A8E4290E4> , <http://www.sealit.gr/DB/ship/B3D87463-E5A7-351C-88A4-1BC0FD6BEA92> .
+
+<http://www.sealit.gr/DB/register_record_point/540B4C20-E5DD-3F0A-B86C-0FEC9A835337>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 25, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/2800DE00-F6ED-3F00-9A7D-70551E02749C> .
+
+<http://www.sealit.gr/DB/register_record_point/1446B76C-F4CF-3A4A-A1FA-008AB056B60C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 53, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/5BD82A3C-1BE9-3F77-B859-4ECDC2AAA730> .
+
+<http://www.sealit.gr/DB/register_record_point/398CE3E8-1883-3318-8792-0CB29DBE855B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 49, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/B1A8DB2C-7431-3632-9573-B4EE8BEDA8A9> .
+
+<http://www.sealit.gr/DB/ship/65C380E2-E09B-30B9-B23D-34FED768AF22>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Бессарабия" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B1%D0%B5%D1%81%D1%81%D0%B0%D1%80%D0%B0%D0%B1%D0%B8%D1%8F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/9B54A6D9-3B19-34D8-8C12-EF6DA36190AA> , <http://www.sealit.gr/DB/ship/ABF93C1C-6E5D-36F1-92DA-89E2368A47FF> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D0%B8%D1%86%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Медведица" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BA%D1%80%D0%B8%D0%BA%D1%83%D0%BD>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Крикун" .
+
+<http://www.sealit.gr/DB/ship/FF797854-DA2B-34DD-A26C-64A162A6632B>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Родимый" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%80%D0%BE%D0%B4%D0%B8%D0%BC%D1%8B%D0%B9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/98B7E9DB-15D4-3A1A-A78A-47BA567DBBED> .
+
+<http://www.sealit.gr/DB/register_record_point/07471C2A-1347-3812-8B73-9C7E6306C46D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 22, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/ship/05584EBE-71DD-3D1F-AAE8-B8B8E2AD44E1> .
+
+<http://www.sealit.gr/DB/ship/ADA1EACD-F612-3B86-8578-B16A12B554C3>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/218E0098-1A1E-39A6-AFD0-89A7388A0D5C>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Кречет" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BA%D1%80%D0%B5%D1%87%D0%B5%D1%82> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/E730E8C2-61B1-3866-9334-A756EA2A37B6> , <http://www.sealit.gr/DB/ship/714BAFE2-9D79-3D67-9D7B-0ED633FB8FA4> .
+
+<http://www.sealit.gr/DB/register_record_point/FA411313-370D-374A-8525-18C06B941263>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 84, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/9B9197BE-A0B4-38E2-B8D3-30C3AD4E3D7C> .
+
+<http://www.sealit.gr/DB/register_record_point/D22689E1-2904-3826-8F36-2D5AA5A98755>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 15, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/D37CCB84-D0BE-34B6-9A77-54CCAAE1BDAA> .
+
+<http://www.sealit.gr/DB/register_record_point/36A75A05-B1C2-3F33-9299-D5A3CE044EA0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 67, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/D395FCD9-59F5-3C69-9F9E-44979A163FAB> .
+
+<http://www.sealit.gr/DB/ship/9B54A6D9-3B19-34D8-8C12-EF6DA36190AA>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/8DF004FF-2576-3218-B1D7-83C7119DCC72>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 45, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/ship/209E25E9-F10D-3212-AEC8-AB1F7193B775> .
+
+<http://www.sealit.gr/DB/ship/492BCBF9-F1E0-32E1-A2A2-25F6EAEAE334>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/7C910063-8E12-32B9-A9B9-B94E233A5BA6>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Великий Князь Константин" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/D37CCB84-D0BE-34B6-9A77-54CCAAE1BDAA> , <http://www.sealit.gr/DB/ship/1B4D2D88-FEFC-39A6-8377-37FD58BA236E> , <http://www.sealit.gr/DB/ship/B58C804F-D888-3329-B255-F89D77BF15AF> .
+
+<http://www.sealit.gr/DB/ship/953A5BBD-77C7-3829-8705-2707F2C36659>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/F264E911-38F2-38EF-9169-E37B7E41B5EF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 21, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/0BA5C3F6-C42C-3462-97FC-417A3DC14397> .
+
+<http://www.sealit.gr/DB/ship/D7C9B3ED-F723-30F2-B693-33C490217ECE>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/05584EBE-71DD-3D1F-AAE8-B8B8E2AD44E1>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/5BD82A3C-1BE9-3F77-B859-4ECDC2AAA730>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/E73653B1-4DAA-3DBB-8CF6-AEE2957D3914>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Цесаревич" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B5%D1%81%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/AF7FAAE0-EDCE-3384-95AE-368535A783E4> , <http://www.sealit.gr/DB/ship/B2FF0613-DF16-37CB-9C5D-714D71811BDA> .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B8%D1%84%D0%B8%D0%B3%D0%B5%D0%BD%D0%B8%D1%8F>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Ифигения" .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Альма" .
+
+<http://www.sealit.gr/DB/ship/2B6790E7-4F5E-302B-A5E1-D25212C48F7F>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Керчь" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BA%D0%B5%D1%80%D1%87%D1%8C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/02A1FD6B-71BC-3C92-818F-EDE062E1F329> .
+
+<http://www.sealit.gr/DB/ship/7D2A9F51-A236-3A54-8A2E-D4653F43C155>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Матушка" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BC%D0%B0%D1%82%D1%83%D1%88%D0%BA%D0%B0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/C48D4751-5674-36D2-9ADE-A3E3DA53DDBC> .
+
+<http://www.sealit.gr/DB/ship/BDA6866E-A4E3-3A0E-A681-CD2B02B9FFEB>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/9BF14A04-3F87-3EFA-AE75-BBB38CC3B875>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 6, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/B3D87463-E5A7-351C-88A4-1BC0FD6BEA92> .
+
+<http://www.sealit.gr/DB/ship/5545ADC6-5973-32FE-91DF-D3049BCCC3A4>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D0%BB%D0%B0%D0%B7%D0%B0%D1%80%D0%B5%D0%B2>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Лазарев" .
+
+<http://www.sealit.gr/DB/ship/8EB9E287-FBA7-371F-A3C2-46DE5CFE65A0>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Николаев" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BD%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/F9B63618-BE56-3819-846E-B74983D1080A> .
+
+<http://www.sealit.gr/DB/ship/5297F349-DA19-3997-B9FC-A9CB5957DDB8>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Могучий" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D0%BC%D0%BE%D0%B3%D1%83%D1%87%D0%B8%D0%B9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/DC2E5098-A6D7-33CC-99AA-DFF9E7C6F56A> .
+
+<http://www.sealit.gr/DB/ship/F46AE4F7-FBC1-35C1-9408-2E8EC4441CB7>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/register_record_point/45AB2DB0-12F3-3A06-A1BB-34731F238198>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 61, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/ship/6D403E6A-D99D-3AA2-AA42-34BEC055A638> .
+
+<http://www.sealit.gr/DB/ship/55673505-A8BA-3F62-8E14-AA5FEE8B3946>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%86%D0%B5%D1%80%D0%B5%D1%80%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Церера" .
+
+<http://www.sealit.gr/DB/ship/94060143-BBEB-3A1C-B61F-F889E9C5903E>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Язон" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/%D1%8F%D0%B7%D0%BE%D0%BD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/D0AB7DD3-CBFB-3F1F-91A1-83767E9265A8> , <http://www.sealit.gr/DB/ship/55673505-A8BA-3F62-8E14-AA5FEE8B3946> .
+
+<http://www.sealit.gr/DB/ship%20name/%D1%82%D0%B0%D0%B2%D1%80%D0%B8%D0%B4%D0%B0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Таврида" .

@@ -1,0 +1,155 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record_point/95AA3580-BC07-3885-94FB-A05B01C15CF9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Sailors register (Libro de registro de marineros), 1864-10-02, Clàudia Mateo Jordi Ibarz | row: 2, 8, 12, 23, 28, 34, 36, 45, 46, 53, 59, table: seafarers_register" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-11T11%3A15%3A46.008Z_4> , <http://www.sealit.gr/DB/location/badalona> .
+
+<http://www.sealit.gr/DB/tgn_identifier/4010488>
+        a                      crm:E42_Identifier ;
+        rdfs:label             "4010488" ;
+        crm:P71i_is_listed_in  <http://www.sealit.gr/DB/authority%20types/tgn> .
+
+<http://www.sealit.gr/DB/location/master_uri-badalona>
+        a                         crm:E53_Place ;
+        rdfs:label                "Badalona" ;
+        crm:P1_is_identified_by   <http://www.sealit.gr/DB/tgn_identifier/1061804> ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/barcelona> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/coordinates/02CD37AA-8FDE-3B05-B6EA-08200A295F7C> , <http://www.sealit.gr/DB/location_appellation/8C61F09D-14B6-3E84-B4D8-60951BD53C05> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/badalona> .
+
+<http://www.sealit.gr/DB/authority%20types/tgn>
+        a           crm:E32_Authority_Document ;
+        rdfs:label  "TGN" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Sailors_Register.html?name=2020-02-25T13:58:09.146Z_65&templateTitle=Sailors%20register%20(Libro%20de%20registro%20de%20marineros)&mode=teamView>
+        a       rdfs:Resource .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/coordinates/02CD37AA-8FDE-3B05-B6EA-08200A295F7C>
+        a           crm:E47_Spatial_Coordinates ;
+        rdfs:label  "41.447145 2.244789" .
+
+<http://www.sealit.gr/DB/register_record_point/89206758-7E74-32C5-A8CD-104CA22652CB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Sailors register (Libro de registro de marineros), 1865-11-12, Clàudia Mateo Jordi Ibarz | row: 2, 4, 30, 33, 47, 51, 60, 63, 64, 65, table: seafarers_register" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-25T13%3A58%3A09.146Z_65> , <http://www.sealit.gr/DB/location/badalona> .
+
+<http://www.sealit.gr/DB/coordinates/D9794800-2663-3993-9A73-3EACFC7E8BFB>
+        a           crm:E47_Spatial_Coordinates ;
+        rdfs:label  "41.237045 1.807316" .
+
+<http://www.sealit.gr/DB/location/barcelona>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/312461E0-A828-3302-9519-613F5CBCA588>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Sailors register (Libro de registro de marineros), 1866, Claudia Mateo | row: 6, 9, 10, 15, 32, 37, 38, 39, 40, 44, 52, 53, 54, 58, table: seafarers_register" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-11T11%3A49%3A26.378Z_7> , <http://www.sealit.gr/DB/location/badalona> .
+
+<http://www.sealit.gr/DB/place%20type/barcelona>
+        a           crm:E55_Type ;
+        rdfs:label  "barcelona" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Sailors_Register.html?name=2019-10-11T11:49:26.378Z_7&templateTitle=Sailors%20register%20(Libro%20de%20registro%20de%20marineros)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/FDC5A61E-00E4-3C91-AE01-6A85550DB4CE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Sailors register (Libro de registro de marineros), 1866, Claudia Mateo | row: 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 33, 34, 35, 36, 41, 42, 43, 45, 46, 47, 48, 49, 50, 51, 55, 56, 57, 59, 60, 61, 62, 63, table: seafarers_register" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-11T11%3A49%3A26.378Z_7> , <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/register_record_point/7710A987-BF76-38AC-A882-A1650D2FA101>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Sailors register (Libro de registro de marineros), 1865-11-12, Clàudia Mateo Jordi Ibarz | row: 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59, 61, 62, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, table: seafarers_register" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-25T13%3A58%3A09.146Z_65> , <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29>
+        a           crm:E55_Type ;
+        rdfs:label  "sailors register (libro de registro de marineros)" .
+
+<http://www.sealit.gr/DB/location/master_uri-sitjes>
+        a                         crm:E53_Place ;
+        rdfs:label                "Sitjes" ;
+        crm:P1_is_identified_by   <http://www.sealit.gr/DB/tgn_identifier/4010488> ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/barcelona> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/coordinates/D9794800-2663-3993-9A73-3EACFC7E8BFB> , <http://www.sealit.gr/DB/location_appellation/0B4F7FA9-2F2A-380E-BC9F-683EBD8133C4> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/sitjes> .
+
+<http://www.sealit.gr/DB/register_record_point/05247EAF-DECC-3947-BFAC-0B356EFB2B43>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Sailors register (Libro de registro de marineros), 1864-10-02, Clàudia Mateo Jordi Ibarz | row: 9, 13, 47, 62, table: seafarers_register" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-11T11%3A15%3A46.008Z_4> , <http://www.sealit.gr/DB/location/sitjes> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Sailors_Register.html?name=2019-10-11T11:15:46.008Z_4&templateTitle=Sailors%20register%20(Libro%20de%20registro%20de%20marineros)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/E15BCAF3-69EA-3F39-B4CA-3CE1E12FEDE5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Sailors register (Libro de registro de marineros), 1864-10-02, Clàudia Mateo Jordi Ibarz | row: 1, 3, 4, 5, 6, 7, 10, 11, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 29, 30, 31, 32, 33, 35, 37, 38, 39, 40, 41, 42, 43, 44, 48, 49, 50, 51, 52, 54, 55, 56, 57, 58, 60, 61, table: seafarers_register" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/sailors%20register%20%28libro%20de%20registro%20de%20marineros%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-11T11%3A15%3A46.008Z_4> , <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/location/master_uri-barcelona>
+        a                         crm:E53_Place ;
+        rdfs:label                "Barcelona" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/barcelona> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/550D05AB-240E-3337-838A-F814FF0DE287> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/location/sitjes>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record/2019-10-11T11%3A15%3A46.008Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Sailors register (Libro de registro de marineros), 1864-10-02, Clàudia Mateo Jordi Ibarz" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Sailors_Register.html?name=2019-10-11T11:15:46.008Z_4&templateTitle=Sailors%20register%20(Libro%20de%20registro%20de%20marineros)&mode=teamView> .
+
+<http://www.sealit.gr/DB/location_appellation/0B4F7FA9-2F2A-380E-BC9F-683EBD8133C4>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Sitjes" .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/location_appellation/550D05AB-240E-3337-838A-F814FF0DE287>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Barcelona" .
+
+<http://www.sealit.gr/DB/register_record/2019-10-11T11%3A49%3A26.378Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Sailors register (Libro de registro de marineros), 1866, Claudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Sailors_Register.html?name=2019-10-11T11:49:26.378Z_7&templateTitle=Sailors%20register%20(Libro%20de%20registro%20de%20marineros)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-02-25T13%3A58%3A09.146Z_65>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Sailors register (Libro de registro de marineros), 1865-11-12, Clàudia Mateo Jordi Ibarz" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Sailors_Register.html?name=2020-02-25T13:58:09.146Z_65&templateTitle=Sailors%20register%20(Libro%20de%20registro%20de%20marineros)&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/badalona>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location_appellation/8C61F09D-14B6-3E84-B4D8-60951BD53C05>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Badalona" .
+
+<http://www.sealit.gr/DB/tgn_identifier/1061804>
+        a                      crm:E42_Identifier ;
+        rdfs:label             "1061804" ;
+        crm:P71i_is_listed_in  <http://www.sealit.gr/DB/authority%20types/tgn> .

@@ -1,0 +1,71 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record/2018-06-29T10%3A01%3A10.690Z_12>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Bergantin Goleta, Esperanza, , Clàudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-29T10:01:10.690Z_12&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/appellation/C4CA4238-A0B9-3382-8DCC-509A6F75849B>
+        a           crm:E41_Appellation ;
+        rdfs:label  "1" .
+
+<http://www.sealit.gr/DB/ship%20name/esperanza>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Esperanza" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-29T10:01:10.690Z_12&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/ship/9B21EE60-8B77-3477-9812-E4E58D7C0E3F>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/ship%20type/bergantin%20goleta>
+        a           crm:E55_Type ;
+        rdfs:label  "bergantin goleta" .
+
+<http://www.sealit.gr/DB/register_record_point/F1340457-8E83-325B-A6D4-2EEEF73668AB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin Goleta, Esperanza, , Clàudia Mateo | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-29T10%3A01%3A10.690Z_12> , <http://www.sealit.gr/DB/ship/9B21EE60-8B77-3477-9812-E4E58D7C0E3F> .
+
+<http://www.sealit.gr/DB/BookOfRegistry/Page/1>
+        a                        sealit:Book_of_Registry ;
+        rdfs:label               "1" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation/C4CA4238-A0B9-3382-8DCC-509A6F75849B> .
+
+<http://www.sealit.gr/DB/location/cadaques>
+        a           crm:E53_Place ;
+        rdfs:label  "Cadaques" .
+
+<http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew and displacement list (roll)" .
+
+<http://www.sealit.gr/DB/ship/7A4ABAC3-A9DC-3422-A699-E8C3D2EB1B76>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Esperanza" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/esperanza> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/ship%20type/bergantin%20goleta> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/BookOfRegistry/Page/1> ;
+        sealit:is_registered_by    <urn:uuid:122afa14-4226-462b-a3da-acba21699e6c> ;
+        owl:sameAs                 <http://www.sealit.gr/DB/ship/9B21EE60-8B77-3477-9812-E4E58D7C0E3F> .
+
+<urn:uuid:122afa14-4226-462b-a3da-acba21699e6c>
+        a                     sealit:Ship_Registration ;
+        rdfs:label            "Registration of Esperanza" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/cadaques> .

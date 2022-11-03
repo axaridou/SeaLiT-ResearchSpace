@@ -1,0 +1,379 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/organisation/museu%20mar%C3%ADtim>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/organisation/master_uri-la%20catalana>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "La Catalana" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/86CB6893-7D75-3DAD-A8D8-AB57FDD959ED> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/la%20catalana> .
+
+<http://www.sealit.gr/DB/register_record_point/3BE89D0F-7B7F-3998-B951-C56262A95F2D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 8, table: event_sale_468" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/register_record_point/112477D2-40F8-3D68-8286-4B94651E9F1F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 5, table: event_sale_579" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/sociedad%20beneficiencia%20marinera> .
+
+<http://www.sealit.gr/DB/organisation/lloid%20barcelones>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/F1D94930-E2E8-320D-9C27-2E121670CAA8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 5, table: event_sale_571" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/sociedad%20beneficiencia%20marinera> .
+
+<http://www.sealit.gr/DB/organisation/s%5Be%C3%B1ores%5D%20rey%20y%20comp%5Ba%C3%B1%C3%AD%5Da>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/7360E4D1-4BAA-320E-B3FB-04D800A054EF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 5662, table: list_of_ships" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/la%20catalana> .
+
+<http://www.sealit.gr/DB/register_record_point/025F84F7-24C6-398F-BD04-0A74BA0C22A5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 8, table: event_sale_469" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-%5B11%20herederos%20de%20buenaventura%20sol%C3%A1%20y%20amat%5D>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "[11 herederos de Buenaventura Solá y Amat]" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/66F24262-7460-3C3C-A9E2-5B463FD140E6> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/%5B11%20herederos%20de%20buenaventura%20sol%C3%A1%20y%20amat%5D> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-sociedad%20beneficiencia%20marinera>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Sociedad Beneficiencia Marinera" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/7B84456B-F4FE-302B-80BD-5D49CF5ECA66> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/sociedad%20beneficiencia%20marinera> .
+
+<http://www.sealit.gr/DB/register_record_point/7019C6B8-8183-311C-BA46-E8B7BC725ED2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 4, table: event_sale_572" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20del%20mar> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-gremio%20de%20mar>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Gremio de Mar" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/0A61B803-3616-3404-8FD3-F83D9F94AA08> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-lloid%20barcelones>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Lloid Barcelones" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/E02C8418-D715-30B1-A745-77CE26A19B35> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/lloid%20barcelones> .
+
+<http://www.sealit.gr/DB/register_record_point/5BB282D8-5C58-3E2F-8FAF-11E5FB513B0A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 481, table: list_of_ships" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/s%5Be%C3%B1ores%5D%20rey%20y%20comp%5Ba%C3%B1%C3%AD%5Da> .
+
+<http://www.sealit.gr/DB/organization_appellation/7B704AF8-E9F4-3105-9BD0-CCDB3F801DE4>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Gremio del Mar" .
+
+<http://www.sealit.gr/DB/register_record_point/945CB80C-59E3-36D2-8C7D-80EA5B2C1953>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 6, table: event_sale_469" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/register_record_point/B572C1B7-5C43-382D-8B04-B1158ABFE492>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 6, table: event_sale_572" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/sociedad%20beneficiencia%20marinera> .
+
+<http://www.sealit.gr/DB/register_record_point/D00488A0-370B-3037-ABF2-5325EF5042D1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 5, table: event_sale_562" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/register_record_point/46DB2443-AFC1-367C-8FF6-EDB5988BA6B3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 7, table: event_sale_468" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/organisation/la%20barcelonesa>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/132105D3-EB27-306E-BE83-AA2D3F950145>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 8, Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A32%3A17.419Z_2> , <http://www.sealit.gr/DB/organisation/museu%20mar%C3%ADtim> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/organization_appellation/E02C8418-D715-30B1-A745-77CE26A19B35>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Lloid Barcelones" .
+
+<http://www.sealit.gr/DB/register_record_point/8B480C74-1697-31FF-8A4B-2486D75F0399>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 7, table: event_sale_469" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/register_record_point/8643A8BC-EE68-30F8-A7EF-A07B2243F638>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 480, table: list_of_ships" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/s%5Be%C3%B1ores%5D%20rey%20y%20comp%5Ba%C3%B1%C3%AD%5Da> .
+
+<http://www.sealit.gr/DB/register_record_point/14312B87-FB69-3D5A-960A-88CD10E465E9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 6, table: event_sale_562" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/sociedad%20beneficiencia%20marinera> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-la%20barcelonesa>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "La Barcelonesa" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/CF27DE31-A671-39C4-9BA8-CED1EBEF5605> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/la%20barcelonesa> .
+
+<http://www.sealit.gr/DB/register_record_point/7220CECE-AC2B-3F95-B4CC-E1630F34F138>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 3, table: event_sale_579" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/register_record_point/CFC6E444-D26F-3A60-B217-BDD1343D93BD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 479, table: list_of_ships" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/s%5Be%C3%B1ores%5D%20rey%20y%20comp%5Ba%C3%B1%C3%AD%5Da> .
+
+<http://www.sealit.gr/DB/register_record_point/228D39EB-3611-3C36-A4D5-4E242311670C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 5, table: event_sale_572" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20del%20mar> .
+
+<http://www.sealit.gr/DB/register_record_point/28241EF7-C92C-3F3F-835C-A8EE4040B692>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 3, table: event_sale_562" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/organisation/sociedad%20beneficiencia%20marinera>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/organisation/master_uri-s%5Be%C3%B1ores%5D%20rey%20y%20comp%5Ba%C3%B1%C3%AD%5Da>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "S[eñores] Rey y Comp[añí]a" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/2C492B4F-D268-357E-BC22-D9B93F7EE3AD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/s%5Be%C3%B1ores%5D%20rey%20y%20comp%5Ba%C3%B1%C3%AD%5Da> .
+
+<http://www.sealit.gr/DB/register_record_point/65609ED7-852C-3435-90E7-2DC208701281>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 9, table: event_sale_468" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/sociedad%20beneficiencia%20marinera> .
+
+<http://www.sealit.gr/DB/register_record_point/A4FBB7D5-C901-30E6-ABDD-70C79E701BB9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 3, table: event_sale_572" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20del%20mar> .
+
+<http://www.sealit.gr/DB/register_record_point/FFB886E9-6B9F-3981-A2C9-6CE5F27EC9E2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 4, table: event_sale_579" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/organisation/gremio%20del%20mar>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/organization_appellation/2C492B4F-D268-357E-BC22-D9B93F7EE3AD>
+        a           crm:E41_Appellation ;
+        rdfs:label  "S[eñores] Rey y Comp[añí]a" .
+
+<http://www.sealit.gr/DB/register_record_point/FAAE803A-E2D6-3D7C-964D-168910502748>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 2, table: event_sale_568" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/%5B11%20herederos%20de%20buenaventura%20sol%C3%A1%20y%20amat%5D> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-la%20yberica>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "La Yberica" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/10858441-AE4E-3511-9354-8DEDB252456E> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/la%20yberica> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Register_of_Ships.html?name=2019-04-25T11:32:17.419Z_2&templateTitle=Naval%20Ship%20Register%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/organisation/la%20yberica>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Register_of_Ships.html?name=2019-04-25T11:19:49.154Z_1&templateTitle=Naval%20Ship%20Register%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-museu%20mar%C3%ADtim>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Museu Marítim" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/C198FFD2-D4F2-32A6-B976-0C711F8FC213> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/museu%20mar%C3%ADtim> .
+
+<http://www.sealit.gr/DB/register_record_point/F6EDBCEE-EF90-3DA6-8819-23326EF6F1B3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 5664, table: list_of_ships" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/lloid%20barcelones> .
+
+<http://www.sealit.gr/DB/register_record_point/08CA2396-FB81-3812-9556-DA36464E8C83>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 9, table: event_sale_469" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/sociedad%20beneficiencia%20marinera> .
+
+<http://www.sealit.gr/DB/organization_appellation/CF27DE31-A671-39C4-9BA8-CED1EBEF5605>
+        a           crm:E41_Appellation ;
+        rdfs:label  "La Barcelonesa" .
+
+<http://www.sealit.gr/DB/organization_appellation/66F24262-7460-3C3C-A9E2-5B463FD140E6>
+        a           crm:E41_Appellation ;
+        rdfs:label  "[11 herederos de Buenaventura Solá y Amat]" .
+
+<http://www.sealit.gr/DB/organisation/master_uri-gremio%20del%20mar>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Gremio del Mar" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/7B704AF8-E9F4-3105-9BD0-CCDB3F801DE4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/gremio%20del%20mar> .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/organization_appellation/C198FFD2-D4F2-32A6-B976-0C711F8FC213>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Museu Marítim" .
+
+<http://www.sealit.gr/DB/register_record_point/AF825300-7F13-390A-A5FB-0A906381502B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 6, table: event_sale_468" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/register_record/2019-04-25T11%3A32%3A17.419Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Naval Ship Register List, Cuarta Lista, Nº 8, Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Register_of_Ships.html?name=2019-04-25T11:32:17.419Z_2&templateTitle=Naval%20Ship%20Register%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/3F2DF5A8-A7C4-354F-B2E1-352A32D13189>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 2, table: event_sale_571" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/organization_appellation/10858441-AE4E-3511-9354-8DEDB252456E>
+        a           crm:E41_Appellation ;
+        rdfs:label  "La Yberica" .
+
+<http://www.sealit.gr/DB/organization_appellation/86CB6893-7D75-3DAD-A8D8-AB57FDD959ED>
+        a           crm:E41_Appellation ;
+        rdfs:label  "La Catalana" .
+
+<http://www.sealit.gr/DB/organisation/gremio%20de%20mar>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/organization_appellation/7B84456B-F4FE-302B-80BD-5D49CF5ECA66>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Sociedad Beneficiencia Marinera" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Register_of_Ships.html?name=2019-04-25T11:19:49.154Z_1&templateTitle=Naval%20Ship%20Register%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list>
+        a           crm:E55_Type ;
+        rdfs:label  "naval ship register list" .
+
+<http://www.sealit.gr/DB/organisation/la%20catalana>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/D30FA61A-B1E1-3901-8170-C4D5D890C6DB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/museu%20mar%C3%ADtim> .
+
+<http://www.sealit.gr/DB/register_record_point/83C99A9F-B0D2-3BD1-9C48-C87D21E8764B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 5661, table: list_of_ships" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/la%20barcelonesa> .
+
+<http://www.sealit.gr/DB/register_record_point/3241D5A3-CFF3-3F47-9D37-49E1D2B23362>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 4, table: event_sale_571" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/organisation/%5B11%20herederos%20de%20buenaventura%20sol%C3%A1%20y%20amat%5D>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/33E4735A-F141-3EDE-95EB-F16447702B5E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 3, table: event_sale_571" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/register_record_point/AB5139E7-095F-3F17-AC87-BE4D446BE6E0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 4, table: event_sale_562" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .
+
+<http://www.sealit.gr/DB/register_record_point/6405A041-0005-3B35-9C21-3CA295B24CB1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 5663, table: list_of_ships" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/la%20yberica> .
+
+<http://www.sealit.gr/DB/organization_appellation/0A61B803-3616-3404-8FD3-F83D9F94AA08>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Gremio de Mar" .
+
+<http://www.sealit.gr/DB/register_record_point/57A019F0-9A6E-37E9-9825-A1AE321182FD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 2, table: event_sale_579" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/gremio%20de%20mar> .

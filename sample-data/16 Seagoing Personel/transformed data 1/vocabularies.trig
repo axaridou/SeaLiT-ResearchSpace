@@ -1,0 +1,1416 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record_point/31D61D01-E375-37CC-9AB3-D1561197B677>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 92, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/D4AB15C9-76C4-3A99-9CCF-B0B53A048944>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 114, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/09FC6846-6313-3F60-A824-BF8D4909B74F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 26, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/8586EED9-111A-3DE8-ACD6-A59975BC9DF5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 35, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/39C8170F-87A5-3CCC-97DF-CB8604E31096>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 228, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/CE0A01CA-BA4B-373C-A9A0-457EF5F012AD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 64, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/A4D951AC-03D2-3A20-81C5-89A60237A5D4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 102, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/74CC091D-390A-3B39-AF1F-9D54BBD50952>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 76, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/AA7ACBD0-D356-3ED7-90A8-50615DE86745>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 24, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/1CBB2242-5CCE-3BB6-BBB2-DD784BAA2484>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 30, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/99982268-AC68-3239-9BC0-4DBEB96FBDCB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 62, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/A2BA2A4A-289D-3CE3-8AB5-3707C9C9C891>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 34, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/314B8220-DF09-37E7-AF7D-73DE63D030E0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 8, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/6E482D9D-E9C4-35AB-9474-520C5D868665>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 24, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/FBA367E1-B3F6-3902-A191-72BBE798CAD3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 268, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/502D168F-1F8F-3F87-B7EE-021649A19B48>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 267, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/AD75DAFF-EE6E-3B89-97A8-250484FA09B6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 161, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/065125BB-FF3D-3887-91B9-6452808520F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 97, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/190B4379-BD44-3DE8-B9B8-384027EA18A4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 53, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/398CE3E8-1883-3318-8792-0CB29DBE855B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 49, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/4DC296FF-35FF-3671-B480-554C54B5231E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 28, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/850774CD-4E35-362B-9444-EAFBBBA344AC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 150, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/8C01465C-4871-3AC8-A5FD-385A4826DF5E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 41, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/46DCFE7C-3091-3A1D-B8A6-605274C2C760>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 4, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/4092ADDC-CD7D-3431-8ED7-D408CDEFA17F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 115, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/9966CAB7-420A-39D8-B2F1-A2DC66CC9FE7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 30, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/C74EF24E-7779-36B5-8654-81EBDE070DE8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 14, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/A254D34C-F09C-3AF7-91BD-4927EF7B9963>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 95, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/29CB699C-9F51-38DE-A61F-8A668B7F7594>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 71, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/E938DFC6-542B-3FEA-9AA3-4B489845790C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 5, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/85D97D79-8ECC-3A23-BAC4-9EE753A6AAEF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 118, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/E2AAFCE4-ED0D-3366-8F20-53EC0175DEC2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 229, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/D5D57845-64C6-3F01-86E8-DD21FCC26BE9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 18, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/6D7236B4-3FA6-3FE5-930B-D815536C0029>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 114, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/3453D25F-F030-3710-B208-ED4EFDFD2862>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 9, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/0B71054D-99F0-3112-9B31-217D414852A6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 224, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/5A1502C3-C9EE-38AF-923C-F6128E141637>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 41, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EB2B5C87-C474-324C-B80B-53E1158D86A1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 123, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/BBAF7446-E62D-3166-8650-61F90ECC9B39>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 101, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/93C42FCA-E1FE-3B1E-813F-A7D0AC8678ED>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 112, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EA07F35F-157E-387A-93DE-35B5A16DB0E3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 21, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/0F4F4C2E-5544-35AA-A22A-70675D37B017>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 93, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/726AFA30-036F-31CA-8B0F-4374B79D59BD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 112, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/4DF371AD-E8A8-3262-A44B-B781D9EEBD05>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 207, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/C37B0290-8D4C-3403-B0BC-A8B4792A9977>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 48, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/2078E530-5CD4-3A53-BC3E-9B7A04F168D6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 12, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F8496256-017E-3930-9417-3EE805A826BA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 49, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/3377F4E0-A30E-3456-B136-F96CD12986F6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 23, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/7BAADA6D-87E5-3FF3-A06F-55CF1D1D0B0E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 65, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-04-18T09:19:10.076Z_1&templateTitle=Seagoing%20Personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/6064753A-7610-310E-9872-6CBB12289B66>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 8, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/2F666479-829F-3543-97E9-3B96BAF51B8D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 18, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/862C4A80-80FA-3A72-BD17-1CEF47C33AC1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 230, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/7FADEA94-27AA-37D6-BBCA-5B76BFA0ADD9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 134, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/96375748-B7DE-3C06-A671-06AF8DCE4015>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 135, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/43DD9AEE-4DF9-3E3B-B5E0-114C4F3B8076>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 66, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/558BD906-7411-3AB6-B25A-2BF3B449DEA2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 87, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/E74A3102-0D5D-3E0B-A0CF-701F033B22F6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 78, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2020-11-04T08:23:48.573Z_4&templateTitle=Seagoing%20Personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/268B769B-8226-35E8-8C8D-980DB02052B0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 29, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/06F067F8-DC2B-320B-8431-6C520812741B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 70, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/4A0E8922-F008-3FF0-98EB-08A1CEF978F9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 40, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/53FF31FB-50AC-3E69-B991-183203E0C8B4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 155, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/949AEC16-3A02-3AB3-8231-1A22E9574134>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 17, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/9CE994F3-C0CA-307D-ACA3-1F8464FDC3A3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 25, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/A46555CB-4F96-3686-B356-910E97A67253>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 81, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/Concept/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD>
+        a              skos:Concept ;
+        rdfs:label     "Капитан" ;
+        owl:sameAs     <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> ;
+        skos:inScheme  <urn:uuid:14afd01a-0706-4ac3-9d58-56bcc68f668f> .
+
+<http://www.sealit.gr/DB/register_record_point/2A52A7E7-15AD-34CD-81DC-19484066EDCC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 74, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/691474AB-84F4-3079-9821-BFF0528FAD29>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 40, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/017AB0AB-7E94-3E03-AD92-EB46E20FF990>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 223, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/120CB0EC-7AC6-3526-AA05-103A6E0D33A0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 53, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-10-25T07:39:36.945Z_2&templateTitle=Seagoing%20Personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/15CCA576-9E7B-31C4-ACB1-19740931EC40>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 20, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/C80EF653-B78F-3F21-A6E0-8019A49D865E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 31, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/5A8947F7-0256-3C0E-AEEE-4D6464EF2ED3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 225, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/52AD9855-F432-3F84-9403-87329DB03068>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 45, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/69319E06-7CE9-3F56-B2A9-28FBA02009DD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 51, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/83B1798E-DD45-3BB2-BE5E-DE0D3333D409>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 105, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/357C4080-F776-3356-9F7D-77D54ADA5EAD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 9, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/B1666E26-C47A-3E5A-B147-7CBC2AD920E9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 39, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/712FE277-53AF-397F-ADD6-C001888D9073>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 13, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F19F3AA1-5809-3119-A2BC-D0B9203608B6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 89, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EB1F3BB9-7231-3189-80E2-17A0F041B52D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 90, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%B7%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/5A0BF5BE-1D8C-3EAE-847C-DAE8AB6E346F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 73, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/E5CC3273-8CD9-3B6C-BED2-3DE4FECB0D67>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 77, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/6FCC3337-AC96-3FBB-B95E-14043373ACC0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 88, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/75034433-9041-3C90-BB02-8AE1FB416B7E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 42, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/BAC934B7-D1B6-3953-998A-DA43BBF934F8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 82, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/C1769D8D-0DD1-36DB-851D-11FABC3C11A0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 2, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/2052BF35-1A24-34B9-88FE-735FD765DCAB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 19, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/template%20types/seagoing%20personel>
+        a           crm:E55_Type ;
+        rdfs:label  "seagoing personel" .
+
+<http://www.sealit.gr/DB/register_record_point/94D9623D-1FE0-3E51-AA9C-D32F19850C70>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 48, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/593EBEEF-886B-3E97-A0B2-D7FE085B330B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 1, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/2D5EB8F7-A286-3D82-990C-9D982CDD7D45>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 104, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/B79F542E-467C-3C71-90E5-DBDFD1CD71F4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 32, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/3278AD5B-EC12-357A-A2E9-23D0CC79CAB0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 43, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/1B88A287-9F7F-32E4-BE32-918922381A3A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 37, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/56703007-286D-3315-9D89-70714E74AD47>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 69, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/447CAF76-3220-3DAC-888F-84EA310B478E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 42, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/7B3C8EB9-C66A-3999-8570-74AA6436EDA5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 44, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/9FA4BC76-11B0-3D17-89DA-A1AAD51BD074>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 36, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/07471C2A-1347-3812-8B73-9C7E6306C46D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 22, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/%D0%B7%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD>
+        a       crm:E55_Type .
+
+<http://www.sealit.gr/DB/register_record_point/C3A69E00-88FA-3A94-AE3A-97DAE188ABA1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 6, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/4D2C9822-1235-31D8-B86E-7F40E2FF803D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 60, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EF522650-0FE8-3692-9F92-C30D85C10B37>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 3, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/90035B0F-AED8-3C84-8225-4097ED5BA2C9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 86, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/898B747F-7346-3468-AC34-65B73AA65393>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 100, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/D63C1DD6-58A0-3E5C-ACC2-44AB68EFCCBC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 50, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/9F1D6CFF-1B6C-3711-8968-AA79E28B2926>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 2, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/BA499E34-46AC-3BB1-AEAD-BC51735953BC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 59, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F0B44C51-90AC-3A4D-B50C-00D3142F6D8F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 46, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/2FBF3D91-51F5-3DD1-B412-4294D2A6E580>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 33, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/0D332E25-F1AC-3ECD-9192-37B9F4A585B5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 52, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/5CA36801-A48D-3CAD-9C43-D28D13AB7950>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 91, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/55ED2F7B-AE94-3A98-B578-EE3973F9BBCA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 8, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/88547033-65A7-30B6-929A-EE4C59952BF9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 10, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/8ED0873D-7EBA-315E-B0B0-AF73DAFA72CF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 10, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/24C93A29-C26A-3D8A-82C1-AF8331AABCBC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 37, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2020-11-04T08:23:48.573Z_4&templateTitle=Seagoing%20Personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/C2608010-72D4-3914-BEDE-5864033E2BE0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 154, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/CE7A51A6-2B5F-3DFB-ADB2-2509E0B253DC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 3, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F60278DF-BBC3-3403-81DC-74612393A688>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 107, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EDA473B4-3E65-3282-AE1B-C6B50B6AD87D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 52, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/001802C4-EDA1-3531-92D9-EACCD175935D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 129, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/CD0BDB22-6F4A-3ED2-B6EF-E5C300468882>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 20, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/96E46D4D-C54F-357F-8A5A-3CB1C0D7EDD9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 113, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/49C2D187-B48F-3B82-B9D6-DB063DDE53B3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 263, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/C14A1C85-101A-36E5-BFF5-4B71310B7BB6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 107, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/2694290D-A886-3688-A587-977DE3A3B810>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 192, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/46A99F12-38DF-30A3-B5F5-8CAC6B152FA0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 7, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/C4E8B4CD-7354-3BAF-9D72-024591D853D0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 54, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/73329676-D236-3D55-8D91-F7F8FE450254>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 186, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F7C2E82B-F14B-3C60-BD93-21D0C767C0BD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 15, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/04A2F7BE-8230-32CB-A446-6E6158E89392>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 32, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/475FDF57-CFE1-32E0-9E75-0A9C0CF1F18F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 85, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EC38E1CF-99AC-3299-8E71-5DD69E1CC88B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 106, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/2A0D1E05-881E-3A0A-9BD1-7E02D7113219>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 15, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/39609238-0B3B-359C-AA27-D5EA216EA838>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 16, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/81A11290-C92C-360B-8385-3F1FF4DF54AD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 61, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<urn:uuid:14afd01a-0706-4ac3-9d58-56bcc68f668f>
+        a           skos:ConceptScheme ;
+        rdfs:label  "status_capacity_role_in" .
+
+<http://www.sealit.gr/DB/register_record_point/C1BD9234-09E9-39E1-A6BA-C321B00C7B4C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 54, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EA89B8AD-18D1-356E-86C9-FC1D12D67EFF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 14, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/10B4D402-77F4-3338-BDCC-E38EEA8AC7FC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 21, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/E3B01ADF-265D-37E2-8B35-5F30ED8D677E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 269, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/CC638314-0DFD-3111-98F7-65767E24EFFF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 39, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/8DF004FF-2576-3218-B1D7-83C7119DCC72>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 45, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/8EA4383D-DBC0-308B-8E3E-996766493D48>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 39, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/E11AC08F-1F75-3BD6-B90B-9A61A7427376>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 3, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/54B679BB-DB62-3C9A-B74F-2BEA4CF7BF62>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 116, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/A4820292-6743-3E44-BB14-EC1DB34EB9FB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 21, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/6AD96C0E-B973-3B63-8BEE-897AA0C3EF86>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 38, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/Concept/%D0%B7%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD>
+        a              skos:Concept ;
+        rdfs:label     "Запасной капитан" ;
+        owl:sameAs     <http://www.sealit.gr/DB/%D0%B7%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> ;
+        skos:inScheme  <urn:uuid:857eb460-0dd3-4b0d-927c-cf56256838cc> .
+
+<http://www.sealit.gr/DB/register_record_point/C98FDCEF-629D-3258-A8FF-13A0EEBF253B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 63, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/9B27E333-C033-38F1-BC53-2B10304F2072>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 23, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/11E9F3AC-4463-3F43-867C-FA006B129510>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 34, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/22B859AC-45BA-3EA6-8077-BFA776A48FA0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 62, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/39116E22-BDEE-3F69-A401-54D3E34C922D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 59, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/D170584D-1768-36D8-8128-0218294CC33C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 26, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/AB1DF057-30B4-3DC5-9DCC-EB04EE6340E8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 79, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/6262911D-9246-3334-8BFF-24938AAD9724>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 117, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/E8CE11D8-789B-3ED9-B047-7BE8DD5EC0CB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 51, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/FDAFFA83-022F-3F95-BD20-37E315F52BDF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 157, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-04-18T09:19:10.076Z_1&templateTitle=Seagoing%20Personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/8174EA7A-CE7B-3DF3-8EBB-837A5547C4E4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 44, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/432D5F98-FE37-3025-8877-B8B2FC673D46>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 184, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/1AF6583E-A60E-3DE5-97C8-83D2A607C9A2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 70, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/0660A9E9-FAB2-3D2C-8A0C-8F6C326740D0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 56, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/9723CC3D-639D-3C12-AF7E-D4EAB104EA4E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 12, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/11EDF522-40B0-30B0-91EC-75CB23E06131>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 13, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/FDDCF44D-3AFD-3127-9D46-C22AFEBECA47>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 276, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/05EE3F1F-7B89-3B1D-8D49-1058237A75C4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 243, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/63D59637-67EE-368C-BD6F-BC65340F249F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 75, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/FE8677F3-95A3-3205-82DB-A821407245F1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 19, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/A35BC8E4-DB6B-3BE2-941C-A4AB387AA532>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 285, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/C843A469-FB00-32E1-81DE-9AE11C1BE078>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 25, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/register_record_point/62C93021-833F-30D3-A6F2-44C7FF6A7D66>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 68, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/308413E4-0882-3DB9-88B2-F0122478975A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 55, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/861231A0-42D6-3307-9DF9-3813786F6B01>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 17, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/4009AC9B-ECAC-3D14-99CB-CC8A07C9360F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 109, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/BC4E867F-8492-3586-9384-4CD97A65F144>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 96, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F9890EBB-7D0B-3148-8560-5C3610930250>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 19, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/79864268-6A2A-3696-BB3B-F60B442AF9A5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 94, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/FAE21F65-1AE4-3AB2-8190-B16BBD034A08>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 57, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/4A25A11A-1982-33C5-A3A3-07D4C0D09E90>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 29, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/FA411313-370D-374A-8525-18C06B941263>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 84, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/2CBA6547-3941-30C4-AC37-02EFAF41E52A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 226, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/D1E50CBB-8106-36BD-AE3B-0064DC1248D7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 98, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/CBAB2CC5-0249-356A-91F9-83EAA8CCB2EF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 46, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-10-25T07:39:36.945Z_2&templateTitle=Seagoing%20Personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/015A33C3-9CAA-368E-9659-286BFE1667A0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 85, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD>
+        a       crm:E55_Type .
+
+<http://www.sealit.gr/DB/register_record_point/DEF7D51F-A9FF-3D65-9CC4-EF0C37002703>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 72, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/8832B907-DF62-3BA1-89D4-126016D02E40>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 58, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/783FDA9B-B2C9-3FE6-B057-4D2C111B0BAB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 55, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/197EC585-E6AF-363F-BD48-F063EC1A767E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 5, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/06028224-21FE-3AAB-95F0-44568B2AAF13>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 27, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<urn:uuid:857eb460-0dd3-4b0d-927c-cf56256838cc>
+        a           skos:ConceptScheme ;
+        rdfs:label  "status_capacity_role_in" .
+
+<http://www.sealit.gr/DB/register_record_point/D3F18A3F-C109-3E10-AA84-65F0539F209E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 86, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/C8363BC6-F409-3725-AAA1-EC229C6AB004>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 16, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/B1AD5CF8-A30D-33CF-8F10-F4AAEAB197FB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 111, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%B7%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/4CFD3A43-3DB5-3A18-BB42-9A99719DAB2E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 6, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/DB28D654-DBD1-3652-A97A-EEC83123D5AC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 33, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/FE89A4D2-7393-3A91-8333-DB713752DD2D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 35, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/AA27A67D-9D00-350C-B515-67B5003DA616>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 80, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/DAA7D510-AC01-3911-BB21-736ECE79296C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 99, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/A05125E7-CCCE-3214-B86C-2421E3B7CF5F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 47, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EEBBB958-D03F-30F8-B05D-461981B3AC9F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 1, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/2491B380-C968-3850-8DD1-BFAEFE76A006>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 22, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/1CBEF4E6-5EC1-3D26-81BE-3F64B90819DA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 31, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/7F512153-C3AB-30FF-BEC7-E575DCB99A2B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 108, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/58C67C96-237A-3607-9F3A-26F79DD723FF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 235, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/5CA091D3-B1E1-3131-95B8-E89C9ADBE4BD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 1, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F4760D85-75BB-3222-92ED-FE6EA7A2C10B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 11, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/E8EA5B17-F35A-3097-9AAD-E2F18303D85B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 27, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/0DE9CDA1-8E88-3183-BEB8-9C7CA94DBF98>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 7, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/77CC5EB2-CCFF-30FC-BF4F-4077C2DD11F4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 43, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F6659C22-89DD-36F8-93B5-227A9C410A6D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 11, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/4E3D86B9-C389-384C-B1BE-4EF449DF1819>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 90, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F3BF84F5-0987-366F-96AE-69E62BA871A7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 61, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/1E118A69-E0E9-32A1-9426-4D6C82651DF1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 50, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EB5C8A1C-9069-31FD-A7DF-3142F838DD43>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 56, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EE98A1F7-A9F7-3EC3-A952-5E3324E6A8BD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 44, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/44EBC5A3-7C1B-3D4E-9F68-C3DF5CF4CCD4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 36, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/891338C4-2FA5-3127-93BF-9781D630351B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 43, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/4041FCA6-8B72-323C-9013-DA16AB1ECD53>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 122, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/6B32F8CC-6A6E-38FF-A65D-9BD230A581A8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 101, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/C278EF2D-4562-391C-BA72-DD8C99EBC669>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 67, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/AF32EA54-C8C7-3B99-B3C7-0382E12FCB54>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 83, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/11863B75-650E-317D-B57F-1CACC56ACCCA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 110, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/B9E5EEE4-AC20-3CCE-841E-492497436ABE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 103, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/A01BC03A-02F4-3765-BD20-5E792FA77B09>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 64, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/CEEEC657-1F47-3916-AB33-1CD9E9201348>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 28, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EBA85594-9DFA-31BE-8AEB-EFF7837A4B9F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 47, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/32AD770B-C87F-3D26-B341-F90AB4FD6A6E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 227, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/D13F4FC7-1108-3F67-9852-A27FDB03A93D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 4, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/EB948EBA-7FBD-3867-8C1E-315017710E1A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 87, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/F00DD562-512A-3927-8A26-508B0BD84DAF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 66, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD> .

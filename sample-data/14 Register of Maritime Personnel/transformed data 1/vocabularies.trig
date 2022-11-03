@@ -1,0 +1,42 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record_point/66018B90-757F-32A1-9609-E11438730449>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime personel, , , | row: 1, table: register_of_maritime_personnel" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-09-17T11%3A03%3A41.913Z_1> , sealitDB:soltero .
+
+<http://www.sealit.gr/DB/register_record/2019-09-17T11%3A03%3A41.913Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime personel, , ," ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime_Register_ES.html?name=2019-09-17T11:03:41.913Z_1&templateTitle=Register%20of%20Maritime%20personel&mode=teamView> .
+
+sealitDB:soltero  a  crm:E55_Type .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<urn:uuid:c627c997-e713-4b22-97b6-db072a89307c>
+        a           skos:ConceptScheme ;
+        rdfs:label  "marital_status_es" .
+
+<http://www.sealit.gr/DB/Concept/soltero>
+        a              skos:Concept ;
+        rdfs:label     "soltero" ;
+        owl:sameAs     sealitDB:soltero ;
+        skos:inScheme  <urn:uuid:c627c997-e713-4b22-97b6-db072a89307c> .
+
+<http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel>
+        a           crm:E55_Type ;
+        rdfs:label  "register of maritime personel" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime_Register_ES.html?name=2019-09-17T11:03:41.913Z_1&templateTitle=Register%20of%20Maritime%20personel&mode=teamView>
+        a       rdfs:Resource .

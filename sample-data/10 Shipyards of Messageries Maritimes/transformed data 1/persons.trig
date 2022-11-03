@@ -1,0 +1,1595 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/appellation_surname/1F88FAF4-474F-34D2-B35B-F93675D23E30>
+        a                crm:E41_Appellation ;
+        rdfs:label       "RUISSY" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/6B43288B-4A51-3AA3-9C68-D06B275CBBCF>
+        a                        crm:E21_Person ;
+        rdfs:label               "François ASTIER" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D64298E6-7620-3C1B-97FE-FEA1705035DE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2ea93456-552c-4b31-8633-bc2de86ba7b7> ;
+        sealit:has_first_name    "François" ;
+        sealit:has_last_name     "ASTIER" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/2969C3D9-5BA4-328C-804C-8924DAA477DC> .
+
+<http://www.sealit.gr/DB/person/2A0E95E5-6CAC-334D-A0D0-F036FBE96F12>
+        a       crm:E21_Person .
+
+<urn:uuid:8792a595-f818-470a-a286-bab07ec27c14>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of CARBONNEL" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1834> .
+
+<http://www.sealit.gr/DB/register_record_point/F4FFAD78-9250-3236-B6A4-F17C59FA8234>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_45" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/CF190802-EB37-30B4-9BE3-341C63ADADB7> .
+
+<urn:uuid:10534b0b-b264-47c0-a703-89cf6eafb195>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of PETIT" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1815> .
+
+<http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Messageries_Maritimes.html?name=2019-05-16T10:23:33.876Z_2&templateTitle=Employment%20records,%20Shipyards%20of%20Messageries%20Maritimes,%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/4673BBE7-F02C-3178-BDAE-3A6D259CD400>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/date/1829>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1829" ;
+        crm:P82_at_some_time_within  "1829"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/4B4AE7E5-CA0B-3078-B856-DEABD32C3F86>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/7351114F-84F6-35BC-B88B-5C1E8E4D47D2> .
+
+<http://www.sealit.gr/DB/person/DF87FA4E-8474-3EBD-A5A4-57ED7F015694>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/4616C23B-C0D3-3938-B60E-53888AE76FBE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/218F6DD2-97FD-3A94-8622-C7835BE50526> .
+
+<http://www.sealit.gr/DB/person/463EE58A-BF10-365D-BFBE-2794F7D492C1>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/date/1830>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1830" ;
+        crm:P82_at_some_time_within  "1830"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/9092FE6C-02C4-3101-ADE7-7C1279EE563D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 9, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/D6B15459-7543-3FCF-9238-68E1314CCE4E> .
+
+<http://www.sealit.gr/DB/register_record_point/EF80796C-EDB6-356D-B0BA-545704483432>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/E57468BA-6C00-363B-B207-8E8B1DE658D4> .
+
+<http://www.sealit.gr/DB/appellation_surname/544216E2-3403-3BDD-A923-7AEADAA15A4E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "BONIFAY" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/FE056056-0818-3E3E-B4C3-0AF606AA12AC>
+        a                crm:E41_Appellation ;
+        rdfs:label       "VOISIN" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/29DB0CB5-3F80-3F96-9180-6EB24F1085DE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_54" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/41FACA46-F1A3-3088-811C-D82869E699C6> .
+
+<http://www.sealit.gr/DB/person/E68264C0-1A26-3312-B9AE-82B20A6D2A76>
+        a                        crm:E21_Person ;
+        rdfs:label               "Geoffroy BRUNO" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/87166944-679F-38A5-B4C5-9AF2E0CEF56A> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ed786825-75af-49ac-b20c-e0547e5f25d1> ;
+        sealit:has_first_name    "Geoffroy" ;
+        sealit:has_last_name     "BRUNO" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/0D6AC15C-0DC5-3EA5-9DD6-5F076151A28C> .
+
+<http://www.sealit.gr/DB/register_record_point/D798EFCE-8ED9-3CFF-A2D0-9D77DEC5069A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/0CA59432-19C7-3CC1-9A2E-E707A4E50E92> .
+
+<http://www.sealit.gr/DB/register_record_point/C61D78E5-E6C7-310A-9D7C-5A48D7B4FC47>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_39" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/F392596B-5D4C-362B-AFFC-97405BDD31A7> .
+
+<http://www.sealit.gr/DB/register_record_point/4FA57722-91D6-3A75-9305-0D25C34CA473>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_34" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/A3DE5C36-0537-3E0C-8E8C-631063CFDFCB> .
+
+<http://www.sealit.gr/DB/person/2FDE80F3-A74D-3EE0-8D3E-09D90052F6EA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/D0C7C6A9-CD3A-36DD-AA29-D673A4AB47AD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joachim CARBONNEL" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F8B1D50C-BF52-33E0-A207-FB6125491ADD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:6c84e598-69f2-4989-916c-acd16493df0a> ;
+        sealit:has_first_name    "Joachim" ;
+        sealit:has_last_name     "CARBONNEL" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/EBE59B3D-B352-31DA-8E97-BF529B32C8DE> .
+
+<http://www.sealit.gr/DB/register_record_point/EC927A8E-40EF-3811-B697-7D978C079779>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_50" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/2F605185-5319-3B35-A1E4-0C2CED5CE6D3> .
+
+<http://www.sealit.gr/DB/register_record_point/51557814-1179-3DCC-A5F0-4639362859B8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 27, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/DAE3380E-A37E-32D6-8DD5-D1A0D5603E1C> .
+
+<http://www.sealit.gr/DB/date/1812>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1812" ;
+        crm:P82_at_some_time_within  "1812"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/9990E648-CABB-38E3-B574-178B4CA44CCF>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7DD39B87-2ABD-3FC1-B8AE-B94A4DEFF128>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/E73CCFF2-76EE-3A7D-89B3-E33CE96CAFDD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_62" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/844EB9E7-D5FE-3915-AF59-92ABFA592060> .
+
+<http://www.sealit.gr/DB/person/9C01F5C9-6966-396D-A287-7646FC83154B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/date/1824>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1824" ;
+        crm:P82_at_some_time_within  "1824"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/5EE25F6E-F396-3740-8FE5-90F6468DD975>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/69C4F652-0CD9-3A72-8C6E-76D026B86ECA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_47" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/9A2A83B7-E8D6-3D54-BC3C-0E5F3B826DD9> .
+
+<http://www.sealit.gr/DB/register_record_point/E8852F77-93E7-3B32-A2B5-D7EA6BA6A6B1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_24" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/4673BBE7-F02C-3178-BDAE-3A6D259CD400> .
+
+<http://www.sealit.gr/DB/person/DAE3380E-A37E-32D6-8DD5-D1A0D5603E1C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/4BE9FC31-21B6-32BF-B35D-01B8A6729FF2>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/EEAEBD27-343F-3866-A0A0-55C03A8A0174>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/register_record_point/61278EA6-7EC0-38A5-AD0D-0DD797C9E2A5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_46" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/1E805715-4280-3AF1-BA2D-5232617C26F3> .
+
+<http://www.sealit.gr/DB/person/B5B8F451-256F-3B11-A8B5-7F1F38C7EF74>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joseph BONIFAY" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/544216E2-3403-3BDD-A923-7AEADAA15A4E> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:b55d4e1e-52c9-4e74-8fba-1bfc39c9518b> ;
+        sealit:has_first_name    "Joseph" ;
+        sealit:has_last_name     "BONIFAY" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A3244696-D027-3256-9B9D-5980381797ED> .
+
+<http://www.sealit.gr/DB/date/1806>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1806" ;
+        crm:P82_at_some_time_within  "1806"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/9B548506-BCFC-3127-BB12-998273762F3F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/587F515D-4AE7-334B-A975-C916539529E2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 23, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/0D6AC15C-0DC5-3EA5-9DD6-5F076151A28C> .
+
+<http://www.sealit.gr/DB/person/9DB54298-C66C-39B9-8D7A-6B370404EB3C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/CF052450-F44C-37F3-83EE-2019CBF168C2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_24" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/2D1EBCF1-C2B7-3E94-9AC1-E78556308A7C> .
+
+<http://www.sealit.gr/DB/person/C8A996F6-CB38-3C24-AA79-2FDE5A537B33>
+        a       crm:E21_Person .
+
+<urn:uuid:27a87df6-cd32-4d2b-b688-ce82b7a2710f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of RAMIEN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1819> .
+
+<http://www.sealit.gr/DB/person/C6ACB719-B376-3ED1-8EE1-6FDDF2CD2466>
+        a       crm:E21_Person .
+
+<urn:uuid:b55d4e1e-52c9-4e74-8fba-1bfc39c9518b>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of BONIFAY" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1831> .
+
+<http://www.sealit.gr/DB/person/844EB9E7-D5FE-3915-AF59-92ABFA592060>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/480764CE-56EA-3C55-861E-7DD81A4C4CDC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_60" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/495C0338-342E-3FCD-A570-38AB97AD9B54> .
+
+<http://www.sealit.gr/DB/person/E1067D69-2373-3E6C-9D21-01CCBE5AB1E4>
+        a                        crm:E21_Person ;
+        rdfs:label               "Louis BOUIS" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/133ED5ED-1603-36ED-94BE-9C0A33AACB56> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:431baee7-d554-4cea-9f6a-cb30aa0322dd> ;
+        sealit:has_first_name    "Louis" ;
+        sealit:has_last_name     "BOUIS" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9F536148-6938-34AA-9E3D-AE093D1FC642> .
+
+<http://www.sealit.gr/DB/register_record_point/0869BE6A-80FF-33A9-B695-2CDC3327B2E4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_63" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/3AD335AD-2E6C-342F-BEC2-4B4761892CB7> .
+
+<http://www.sealit.gr/DB/person/3115FF84-DA60-363A-A2E8-B952EA5E07D8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record/2019-06-05T12%3A53%3A06.613Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Employment records, Shipyards of Messageries Maritimes, La Ciotat, M2, -, -, Nikos Kastrinakis" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Messageries_Maritimes.html?name=2019-06-05T12:53:06.613Z_14&templateTitle=Employment%20records,%20Shipyards%20of%20Messageries%20Maritimes,%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/577048DD-3A48-318D-8591-44A8FDFC63C4>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/59985D27-2933-314B-941B-61915CE10E7E>
+        a       crm:E21_Person .
+
+<urn:uuid:7a6b4e10-097d-4502-b67d-a8154e4fab53>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of GREEN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1834> .
+
+<http://www.sealit.gr/DB/register_record_point/215BFFE5-6920-3CD4-B360-F93C8F4C9FA7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 16, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/02BB891E-CA7A-3A86-A874-9467B59C7694> .
+
+<http://www.sealit.gr/DB/register_record_point/7A21A6CB-76D3-3186-A7AD-4803CFFAEA8E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_22" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/DD51D729-E49E-30CD-9589-6BFC99A47C0C> .
+
+<http://www.sealit.gr/DB/register_record_point/179F2BD4-F201-3867-BE38-E20E28BF24F5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/DB7711EA-3560-30FD-B299-F2A320D73CBE> .
+
+<http://www.sealit.gr/DB/register_record_point/F4D7D775-CA14-31C3-8305-B1252A4BFB96>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 5, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/5EE25F6E-F396-3740-8FE5-90F6468DD975> .
+
+<http://www.sealit.gr/DB/register_record_point/247112E1-58F7-3D73-8714-FA5E456E24C7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_25" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/3EE0902D-D716-33CC-AF4C-5BD2D62D210F> .
+
+<http://www.sealit.gr/DB/person/43459904-AAF8-34A9-BA6A-75E9678D491A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/date/1831>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1831" ;
+        crm:P82_at_some_time_within  "1831"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/5F8478F2-4D61-3E14-94D0-DB5CE38A581B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/D6B15459-7543-3FCF-9238-68E1314CCE4E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/B600D786-0E68-3805-88DC-10171694989B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_52" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/166697CE-BC3B-37EB-8B4C-09DE72B30ECD> .
+
+<http://www.sealit.gr/DB/person/5FF2A357-5A37-3653-AA9B-9EFD2431B264>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/E57468BA-6C00-363B-B207-8E8B1DE658D4>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/6E6DF262-5EC3-3955-A004-C9D2BC40DB6B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_58" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/2A0E95E5-6CAC-334D-A0D0-F036FBE96F12> .
+
+<http://www.sealit.gr/DB/appellation_surname/0AE901FC-521E-3DD9-9BAF-450E01D92C62>
+        a                crm:E41_Appellation ;
+        rdfs:label       "PEZET" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/C6DEBECA-9180-3D0D-95C8-D17730C12743>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/51397622-4669-3127-BA35-2E72FFA774C3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "GUILLON" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/3F85D274-2121-3067-881A-24542F70AE72>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_20" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/04D3129B-6827-371B-B737-A331A87A81FA> .
+
+<http://www.sealit.gr/DB/date/1813>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1813" ;
+        crm:P82_at_some_time_within  "1813"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/EC3CE241-F19A-3373-BDA0-EDA84B68C12A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gabes FABRE" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/2FB0F42F-2837-39D6-8EDE-00DD655EC232> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:5c8b8e43-94d4-472c-83a0-daab14b245f1> ;
+        sealit:has_first_name    "Gabes" ;
+        sealit:has_last_name     "FABRE" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/256D6E58-E106-3D29-8926-E27DC5013F68> .
+
+<http://www.sealit.gr/DB/appellation_surname/2FB0F42F-2837-39D6-8EDE-00DD655EC232>
+        a                crm:E41_Appellation ;
+        rdfs:label       "FABRE" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/37F35826-20C5-3147-B15F-732BD53E4D59>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marius BOISQ" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/32BD10FD-2B3A-39BD-933D-DA1226DC6EE4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:b6746d23-7804-46d5-a580-d4407483eedc> ;
+        sealit:has_first_name    "Marius" ;
+        sealit:has_last_name     "BOISQ" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/B46E25F3-43BD-310E-9AC5-F9D788FC9C85> .
+
+<http://www.sealit.gr/DB/person/EBE59B3D-B352-31DA-8E97-BF529B32C8DE>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/599BB276-DA1F-3F85-8ABD-AA0A19A47503>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/6E08C90B-5940-3A47-B48C-6B1392953241>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_44" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/0C052D1E-37BF-393A-8EF1-CDB8B39B5312> .
+
+<http://www.sealit.gr/DB/register_record_point/F5ACC6A4-AACE-3306-9D33-2960E519E90D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_28" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/9C01F5C9-6966-396D-A287-7646FC83154B> .
+
+<http://www.sealit.gr/DB/register_record_point/E7350637-FE00-3A10-ADB9-A9D29EA9AFA2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, M2, -, -, Nikos Kastrinakis | row: 267, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-06-05T12%3A53%3A06.613Z_14> , <http://www.sealit.gr/DB/person/9B548506-BCFC-3127-BB12-998273762F3F> .
+
+<http://www.sealit.gr/DB/appellation_surname/BBED7C15-E127-3744-A0D9-4C761021429B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "RAMIEN" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/CFE261F9-5017-31B3-B87F-E17441B1541A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/23DDDB07-DF03-333B-9A10-D1AC4C82ED28>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_32" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/71673E74-51C3-3693-ABBE-19DBFEC39800> .
+
+<http://www.sealit.gr/DB/person/713D0F76-62DA-3448-9BC0-F1E69FF76A03>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/date/1825>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1825" ;
+        crm:P82_at_some_time_within  "1825"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:7765bbf3-eda1-4f34-b0db-380b31f75409>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of BIRBAUM" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1816> .
+
+<http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Messageries_Maritimes.html?name=2019-05-14T08:43:02.930Z_1&templateTitle=Employment%20records,%20Shipyards%20of%20Messageries%20Maritimes,%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/37ACEBE5-909C-3C5B-817A-1CF5CC9C15EB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_29" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/762F152E-0B2F-399A-8BBD-947E08FCDB38> .
+
+<http://www.sealit.gr/DB/register_record_point/BE6C6A3E-57AA-323A-99AF-6B9B1F0B17B2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_53" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/EEAEBD27-343F-3866-A0A0-55C03A8A0174> .
+
+<http://www.sealit.gr/DB/register_record_point/071C6E81-FC51-3B2B-8ABB-C28D7A6B438D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_57" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/3F542FBF-B386-3066-8FAF-68647F0CF235> .
+
+<http://www.sealit.gr/DB/person/CECA8251-2C65-3108-8A0E-6273B4906347>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/E4FC285A-8DD4-3002-A5F6-2924A62E4A15>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_18" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/84321754-F357-30FA-83ED-E3CE5892D959> .
+
+<http://www.sealit.gr/DB/register_record_point/8F93A642-7FD4-305E-827C-F10BD67BF7F8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 14, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/9F536148-6938-34AA-9E3D-AE093D1FC642> .
+
+<http://www.sealit.gr/DB/person/0CA59432-19C7-3CC1-9A2E-E707A4E50E92>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/B46E25F3-43BD-310E-9AC5-F9D788FC9C85>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/87166944-679F-38A5-B4C5-9AF2E0CEF56A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "BRUNO" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/72F2925A-8B43-35AB-9A25-B87E2D022CB3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/1289791E-A70B-35E8-8A46-C7194C35E4B6> .
+
+<http://www.sealit.gr/DB/person/D17B4D1F-2C51-3E35-BF64-4C55DA326169>
+        a                        crm:E21_Person ;
+        rdfs:label               "Aubert" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C3838645-D582-38E0-8E7A-DCF138A9FBE4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_last_name     "Aubert" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/2D1EBCF1-C2B7-3E94-9AC1-E78556308A7C> , <http://www.sealit.gr/DB/person/F392596B-5D4C-362B-AFFC-97405BDD31A7> , <http://www.sealit.gr/DB/person/84321754-F357-30FA-83ED-E3CE5892D959> , <http://www.sealit.gr/DB/person/C19B0B83-9FC5-3106-8DAF-35082D483092> , <http://www.sealit.gr/DB/person/9DB54298-C66C-39B9-8D7A-6B370404EB3C> , <http://www.sealit.gr/DB/person/941A3A83-565D-3B19-A0D4-A2A9A6ED786B> , <http://www.sealit.gr/DB/person/9A2A83B7-E8D6-3D54-BC3C-0E5F3B826DD9> , <http://www.sealit.gr/DB/person/218F6DD2-97FD-3A94-8622-C7835BE50526> , <http://www.sealit.gr/DB/person/713D0F76-62DA-3448-9BC0-F1E69FF76A03> , <http://www.sealit.gr/DB/person/5AA68D4E-FEB6-3821-A9C2-0CA5BFC4FCF8> , <http://www.sealit.gr/DB/person/83E70FB9-56D4-3303-AA0E-74754163C8A7> , <http://www.sealit.gr/DB/person/3EE0902D-D716-33CC-AF4C-5BD2D62D210F> , <http://www.sealit.gr/DB/person/844EB9E7-D5FE-3915-AF59-92ABFA592060> , <http://www.sealit.gr/DB/person/3941E085-D878-3EE1-9C00-BA1141A55D18> , <http://www.sealit.gr/DB/person/6A0E636B-D450-3D93-8409-02EAA6A47868> , <http://www.sealit.gr/DB/person/5FF2A357-5A37-3653-AA9B-9EFD2431B264> , <http://www.sealit.gr/DB/person/DB7711EA-3560-30FD-B299-F2A320D73CBE> , <http://www.sealit.gr/DB/person/0F7B90B7-93EF-3969-AC72-B7BFACFF472B> , <http://www.sealit.gr/DB/person/43459904-AAF8-34A9-BA6A-75E9678D491A> , <http://www.sealit.gr/DB/person/CFE261F9-5017-31B3-B87F-E17441B1541A> , <http://www.sealit.gr/DB/person/9C01F5C9-6966-396D-A287-7646FC83154B> , <http://www.sealit.gr/DB/person/6E9EFBDE-AE25-38AC-BE02-80B244C1BACA> , <http://www.sealit.gr/DB/person/CFC2A108-51A9-3485-BF8C-BF9B464DB115> , <http://www.sealit.gr/DB/person/495C0338-342E-3FCD-A570-38AB97AD9B54> , <http://www.sealit.gr/DB/person/3AD335AD-2E6C-342F-BEC2-4B4761892CB7> , <http://www.sealit.gr/DB/person/4FBD802F-057B-33A7-A0BB-CDE9AFA6FDE9> , <http://www.sealit.gr/DB/person/E676499F-A786-32E5-AC08-D55117E394A5> , <http://www.sealit.gr/DB/person/315AC2CA-5E35-324A-AB8A-27E0BD796C28> , <http://www.sealit.gr/DB/person/C6ACB719-B376-3ED1-8EE1-6FDDF2CD2466> , <http://www.sealit.gr/DB/person/04D3129B-6827-371B-B737-A331A87A81FA> , <http://www.sealit.gr/DB/person/DF87FA4E-8474-3EBD-A5A4-57ED7F015694> , <http://www.sealit.gr/DB/person/D9A3CC7C-1E18-361B-8ADB-FDA48A39968C> , <http://www.sealit.gr/DB/person/7351114F-84F6-35BC-B88B-5C1E8E4D47D2> , <http://www.sealit.gr/DB/person/838F9B16-1BAD-31F5-A6BC-2C85D025E4EA> , <http://www.sealit.gr/DB/person/599BB276-DA1F-3F85-8ABD-AA0A19A47503> , <http://www.sealit.gr/DB/person/7740CDC5-93AC-37CF-AEAC-07EBC95E62F8> , <http://www.sealit.gr/DB/person/E57468BA-6C00-363B-B207-8E8B1DE658D4> , <http://www.sealit.gr/DB/person/5F8478F2-4D61-3E14-94D0-DB5CE38A581B> , <http://www.sealit.gr/DB/person/762F152E-0B2F-399A-8BBD-947E08FCDB38> , <http://www.sealit.gr/DB/person/2F605185-5319-3B35-A1E4-0C2CED5CE6D3> , <http://www.sealit.gr/DB/person/CECA8251-2C65-3108-8A0E-6273B4906347> , <http://www.sealit.gr/DB/person/A3DE5C36-0537-3E0C-8E8C-631063CFDFCB> , <http://www.sealit.gr/DB/person/3115FF84-DA60-363A-A2E8-B952EA5E07D8> , <http://www.sealit.gr/DB/person/061BFA82-A583-3F7D-9BF9-CE9152A9E66E> , <http://www.sealit.gr/DB/person/3BA86CBD-E711-3D7A-847B-2F0E7253CEAB> , <http://www.sealit.gr/DB/person/C6DEBECA-9180-3D0D-95C8-D17730C12743> , <http://www.sealit.gr/DB/person/74C959B7-C099-325F-89F8-EB4D12B4B464> , <http://www.sealit.gr/DB/person/6C9EC27F-D3F2-3E96-A710-3335041A3DE6> , <http://www.sealit.gr/DB/person/DD51D729-E49E-30CD-9589-6BFC99A47C0C> , <http://www.sealit.gr/DB/person/2A0E95E5-6CAC-334D-A0D0-F036FBE96F12> , <http://www.sealit.gr/DB/person/41FACA46-F1A3-3088-811C-D82869E699C6> , <http://www.sealit.gr/DB/person/DBFE4CE0-0182-38A8-9927-AC2EBBED5E37> , <http://www.sealit.gr/DB/person/E9A7F8C7-F886-3B23-A389-97AF5A8456AC> , <http://www.sealit.gr/DB/person/0C052D1E-37BF-393A-8EF1-CDB8B39B5312> , <http://www.sealit.gr/DB/person/3F542FBF-B386-3066-8FAF-68647F0CF235> , <http://www.sealit.gr/DB/person/7826A16A-F3CD-349B-8491-7CBC306A577D> , <http://www.sealit.gr/DB/person/2FDE80F3-A74D-3EE0-8D3E-09D90052F6EA> , <http://www.sealit.gr/DB/person/1E805715-4280-3AF1-BA2D-5232617C26F3> , <http://www.sealit.gr/DB/person/7DD39B87-2ABD-3FC1-B8AE-B94A4DEFF128> , <http://www.sealit.gr/DB/person/166697CE-BC3B-37EB-8B4C-09DE72B30ECD> , <http://www.sealit.gr/DB/person/A46D9C74-34CF-32BF-A214-AF481CB2172F> , <http://www.sealit.gr/DB/person/71673E74-51C3-3693-ABBE-19DBFEC39800> , <http://www.sealit.gr/DB/person/17D7085A-C513-3D89-823C-123C442683E5> , <http://www.sealit.gr/DB/person/1289791E-A70B-35E8-8A46-C7194C35E4B6> , <http://www.sealit.gr/DB/person/0AB2A967-767D-3024-8EBB-D4676360A6B3> , <http://www.sealit.gr/DB/person/CF190802-EB37-30B4-9BE3-341C63ADADB7> , <http://www.sealit.gr/DB/person/EEAEBD27-343F-3866-A0A0-55C03A8A0174> , <http://www.sealit.gr/DB/person/110690E2-4DF2-348F-9F28-0F17D00F6317> , <http://www.sealit.gr/DB/person/0A4E2EE8-9D0B-3853-8C64-4A62D92A1B4F> , <http://www.sealit.gr/DB/person/368FC765-ACC0-311A-9FC2-596D337BA32A> , <http://www.sealit.gr/DB/person/4BE9FC31-21B6-32BF-B35D-01B8A6729FF2> , <http://www.sealit.gr/DB/person/4673BBE7-F02C-3178-BDAE-3A6D259CD400> .
+
+<http://www.sealit.gr/DB/appellation_surname/0DF829B4-BD81-3B10-A0FF-0288F671BE6D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "PAUL" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/6C74382B-3DC6-3CC5-B3E0-4B76CD3A21F1>
+        a                crm:E41_Appellation ;
+        rdfs:label       "CAPONY" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/DE427E5D-3108-3F61-BBDA-411B150AF2F8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 10, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/EBE59B3D-B352-31DA-8E97-BF529B32C8DE> .
+
+<http://www.sealit.gr/DB/date/1819>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1819" ;
+        crm:P82_at_some_time_within  "1819"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/2AE20A8A-8A84-3D68-AB21-970D66D0A44B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/256D6E58-E106-3D29-8926-E27DC5013F68>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/6A0E636B-D450-3D93-8409-02EAA6A47868>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/32BD10FD-2B3A-39BD-933D-DA1226DC6EE4>
+        a                crm:E41_Appellation ;
+        rdfs:label       "BOISQ" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/06A1607D-9C4C-30BA-9B03-765DAB8E0385>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 2, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/037D97C8-3A0B-39E2-BBA5-6E38128D0862> .
+
+<http://www.sealit.gr/DB/person/368FC765-ACC0-311A-9FC2-596D337BA32A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/6B307DB9-69FF-3655-8C40-2CF7FB72F67E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_7" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/DF87FA4E-8474-3EBD-A5A4-57ED7F015694> .
+
+<http://www.sealit.gr/DB/register_record_point/C42D2D49-4BBF-30BC-8210-A005D4965096>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_27" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/368FC765-ACC0-311A-9FC2-596D337BA32A> .
+
+<urn:uuid:b6746d23-7804-46d5-a580-d4407483eedc>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of BOISQ" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1829> .
+
+<http://www.sealit.gr/DB/date/1820>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1820" ;
+        crm:P82_at_some_time_within  "1820"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/0D6AC15C-0DC5-3EA5-9DD6-5F076151A28C>
+        a       crm:E21_Person .
+
+<urn:uuid:eb7f5214-104e-476a-a586-9806dbd8af2a>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of DESCHAMPS" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1830> .
+
+<http://www.sealit.gr/DB/register_record_point/5769EDB8-90BA-3691-80FF-A7078EB89F38>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 11, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/577048DD-3A48-318D-8591-44A8FDFC63C4> .
+
+<http://www.sealit.gr/DB/person/FEB77F31-11B9-3FA0-ACDD-AFFB688A7DF2>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/BE64CF1C-3820-3EB7-A786-BA069949F597>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antoine GUILLON" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/51397622-4669-3127-BA35-2E72FFA774C3> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a07776aa-b86e-402a-872d-0e9f00846245> ;
+        sealit:has_first_name    "Antoine" ;
+        sealit:has_last_name     "GUILLON" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/EE0E1E45-16CC-37FB-8321-C62FEC290544> .
+
+<http://www.sealit.gr/DB/person/855BF6B8-A7E1-3025-8F2F-55F805AD9294>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/02BB891E-CA7A-3A86-A874-9467B59C7694>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/762F152E-0B2F-399A-8BBD-947E08FCDB38>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/0F1C3223-8D6E-3AFB-B0EC-28FDACFB0F0F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/6E9EFBDE-AE25-38AC-BE02-80B244C1BACA> .
+
+<urn:uuid:ed786825-75af-49ac-b20c-e0547e5f25d1>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of BRUNO" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1819> .
+
+<http://www.sealit.gr/DB/person/218F6DD2-97FD-3A94-8622-C7835BE50526>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/3EE0902D-D716-33CC-AF4C-5BD2D62D210F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/106A3D63-5540-37FA-A237-1362E7C94CD9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Charles DESCHAMPS" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/6BEF1C9B-5E98-3724-A492-DA36367235B6> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:eb7f5214-104e-476a-a586-9806dbd8af2a> ;
+        sealit:has_first_name    "Charles" ;
+        sealit:has_last_name     "DESCHAMPS" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/59985D27-2933-314B-941B-61915CE10E7E> .
+
+<urn:uuid:a07776aa-b86e-402a-872d-0e9f00846245>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of GUILLON" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1797> .
+
+<http://www.sealit.gr/DB/person/5BE86731-A716-3CB4-A308-A095067EA3FF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Hypolite BOIDIN" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B182A014-5F1A-3A15-A7E4-04C915FF3E1D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:bf37fdfc-ad4a-47a2-92b1-a7dfa7f588ad> ;
+        sealit:has_first_name    "Hypolite" ;
+        sealit:has_last_name     "BOIDIN" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/75CBC9F1-B5F0-383E-AE60-6DD885D02B74> .
+
+<http://www.sealit.gr/DB/date/1814>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1814" ;
+        crm:P82_at_some_time_within  "1814"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:bb352b2c-a697-4b6d-a870-ec7cbccbc6a5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of FOREST" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1824> .
+
+<http://www.sealit.gr/DB/register_record_point/191C965D-3561-3BD2-A145-3A96594EA0B5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_70" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/CECA8251-2C65-3108-8A0E-6273B4906347> .
+
+<http://www.sealit.gr/DB/person/4FBD802F-057B-33A7-A0BB-CDE9AFA6FDE9>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/F6097946-6DAB-305E-947F-EB933EDF4CA5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/A00F8582-86C1-3DDA-BCDD-FE199C9E57B4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 21, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/A3244696-D027-3256-9B9D-5980381797ED> .
+
+<http://www.sealit.gr/DB/person/061BFA82-A583-3F7D-9BF9-CE9152A9E66E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/E676499F-A786-32E5-AC08-D55117E394A5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/391A3378-6E32-355E-9538-885CB9E4BE59>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/83E70FB9-56D4-3303-AA0E-74754163C8A7>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/41E232BE-A79A-3D60-B408-EF8137D3CD2D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_38" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/3BA86CBD-E711-3D7A-847B-2F0E7253CEAB> .
+
+<http://www.sealit.gr/DB/appellation_surname/F8B1D50C-BF52-33E0-A207-FB6125491ADD>
+        a                crm:E41_Appellation ;
+        rdfs:label       "CARBONNEL" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/799B00B0-7F38-3413-8B78-1A625564809E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 6, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/123229A2-6F25-325D-84C8-899512FE8619> .
+
+<http://www.sealit.gr/DB/person/7351114F-84F6-35BC-B88B-5C1E8E4D47D2>
+        a       crm:E21_Person .
+
+<urn:uuid:607248be-3ffb-4e60-ae68-cf41ea20640f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of RAVAGNOL" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1813> .
+
+<http://www.sealit.gr/DB/person/65116176-70D9-3DD6-923A-E1BC1372CD41>
+        a       crm:E21_Person .
+
+<urn:uuid:3bdd2dd4-6434-4df1-8925-41bf072d837e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of GIVAUDAN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1828> .
+
+<http://www.sealit.gr/DB/person/C19B0B83-9FC5-3106-8DAF-35082D483092>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7740CDC5-93AC-37CF-AEAC-07EBC95E62F8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/AE78E609-F327-3CC2-BE82-16160A15FDBD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 3, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/463EE58A-BF10-365D-BFBE-2794F7D492C1> .
+
+<http://www.sealit.gr/DB/person/2D1EBCF1-C2B7-3E94-9AC1-E78556308A7C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/FE67518F-6BA1-332D-9592-481817E1CB16>
+        a                crm:E41_Appellation ;
+        rdfs:label       "PETIT" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/9B2E5D0E-9242-3BFB-9BCE-33370B488D07>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/C6DEBECA-9180-3D0D-95C8-D17730C12743> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Messageries_Maritimes.html?name=2019-05-14T08:43:02.930Z_1&templateTitle=Employment%20records,%20Shipyards%20of%20Messageries%20Maritimes,%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/CFC7E976-AE55-398D-B7F4-701C5109D665>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 19, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/855BF6B8-A7E1-3025-8F2F-55F805AD9294> .
+
+<http://www.sealit.gr/DB/register_record_point/B83CB3D4-5D8C-3FAA-9A88-20B4D357E068>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_65" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/838F9B16-1BAD-31F5-A6BC-2C85D025E4EA> .
+
+<http://www.sealit.gr/DB/person/6C9EC27F-D3F2-3E96-A710-3335041A3DE6>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/1BB667C2-51F7-375E-9C38-4C75FA294677>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jacques RAVAGNOL" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C6202E7C-3C00-3831-8F37-F80FAB466133> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:607248be-3ffb-4e60-ae68-cf41ea20640f> ;
+        sealit:has_first_name    "Jacques" ;
+        sealit:has_last_name     "RAVAGNOL" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/2AE20A8A-8A84-3D68-AB21-970D66D0A44B> .
+
+<http://www.sealit.gr/DB/register_record_point/4ADBC76B-570A-3545-85FC-0A3AB211FF75>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/43459904-AAF8-34A9-BA6A-75E9678D491A> .
+
+<http://www.sealit.gr/DB/person/1E805715-4280-3AF1-BA2D-5232617C26F3>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/BA3EAC0D-0882-3F6A-B295-949F7022197F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jacques RAMIEN" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/BBED7C15-E127-3744-A0D9-4C761021429B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:27a87df6-cd32-4d2b-b688-ce82b7a2710f> ;
+        sealit:has_first_name    "Jacques" ;
+        sealit:has_last_name     "RAMIEN" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/02BB891E-CA7A-3A86-A874-9467B59C7694> .
+
+<http://www.sealit.gr/DB/register_record_point/07D6BEC4-361A-315D-8582-5F744F7A0BC6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 12, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/391A3378-6E32-355E-9538-885CB9E4BE59> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Messageries_Maritimes.html?name=2019-05-16T10:23:33.876Z_2&templateTitle=Employment%20records,%20Shipyards%20of%20Messageries%20Maritimes,%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<urn:uuid:2e8e1ae8-c3c3-4c8d-89ba-de0c97726af4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of CAPONY" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1821> .
+
+<http://www.sealit.gr/DB/person/7826A16A-F3CD-349B-8491-7CBC306A577D>
+        a       crm:E21_Person .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/date/1821>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1821" ;
+        crm:P82_at_some_time_within  "1821"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/appellation_surname/C6202E7C-3C00-3831-8F37-F80FAB466133>
+        a                crm:E41_Appellation ;
+        rdfs:label       "RAVAGNOL" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/8903508C-DB20-343B-A52F-E36792378948>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jacques RUISSY" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1F88FAF4-474F-34D2-B35B-F93675D23E30> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:cd94e513-8578-4c67-b3ab-3c010aad70c6> ;
+        sealit:has_first_name    "Jacques" ;
+        sealit:has_last_name     "RUISSY" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/037D97C8-3A0B-39E2-BBA5-6E38128D0862> .
+
+<http://www.sealit.gr/DB/register_record_point/717E7EE5-242F-3D82-9D7E-949D08D3738D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 18, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/F6097946-6DAB-305E-947F-EB933EDF4CA5> .
+
+<http://www.sealit.gr/DB/person/0A4E2EE8-9D0B-3853-8C64-4A62D92A1B4F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/B569C71B-3144-3DD7-91F3-0D5352535FCF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_33" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/A46D9C74-34CF-32BF-A214-AF481CB2172F> .
+
+<http://www.sealit.gr/DB/appellation_surname/D64298E6-7620-3C1B-97FE-FEA1705035DE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "ASTIER" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/941A3A83-565D-3B19-A0D4-A2A9A6ED786B>
+        a       crm:E21_Person .
+
+<urn:uuid:b11078aa-622a-4ff3-8e21-d54a5fa5f36b>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of PAUL" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1834> .
+
+<http://www.sealit.gr/DB/register_record_point/969843CC-7FA6-3280-8623-AF3072A7018C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_35" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/941A3A83-565D-3B19-A0D4-A2A9A6ED786B> .
+
+<http://www.sealit.gr/DB/date/1833>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1833" ;
+        crm:P82_at_some_time_within  "1833"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Messageries_Maritimes.html?name=2019-06-05T12:53:06.613Z_14&templateTitle=Employment%20records,%20Shipyards%20of%20Messageries%20Maritimes,%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/037D97C8-3A0B-39E2-BBA5-6E38128D0862>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/54039AAE-0480-303F-A3DF-E23B60DB2609>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 15, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/C8A996F6-CB38-3C24-AA79-2FDE5A537B33> .
+
+<http://www.sealit.gr/DB/register_record_point/A3BF7FC7-05AF-3AB0-96C5-81013EE27AAA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/713D0F76-62DA-3448-9BC0-F1E69FF76A03> .
+
+<http://www.sealit.gr/DB/register_record_point/DD04CA95-67B9-3479-945F-F5AB73804F52>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_26" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/7826A16A-F3CD-349B-8491-7CBC306A577D> .
+
+<http://www.sealit.gr/DB/person/9A2A83B7-E8D6-3D54-BC3C-0E5F3B826DD9>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/DB7711EA-3560-30FD-B299-F2A320D73CBE>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/D441CFA1-7DC9-325F-8D13-B62BB6CF6A69>
+        a                crm:E41_Appellation ;
+        rdfs:label       "BAUBUIN" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/41FACA46-F1A3-3088-811C-D82869E699C6>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/7C12A94D-173D-33EC-9DB2-81CB26F33DCE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "VACHER" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/84321754-F357-30FA-83ED-E3CE5892D959>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/C6A3C5C8-40C6-3E13-B472-05C04A96E7B2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_67" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/74C959B7-C099-325F-89F8-EB4D12B4B464> .
+
+<http://www.sealit.gr/DB/register_record_point/751F5BA0-5BEC-302D-BEA6-FE344FB934FF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_68" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/CFC2A108-51A9-3485-BF8C-BF9B464DB115> .
+
+<http://www.sealit.gr/DB/register_record_point/2FBA25B8-C410-33AB-AFDE-5F493A48ECA6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_40" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/0AB2A967-767D-3024-8EBB-D4676360A6B3> .
+
+<http://www.sealit.gr/DB/person/1289791E-A70B-35E8-8A46-C7194C35E4B6>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/A3244696-D027-3256-9B9D-5980381797ED>
+        a       crm:E21_Person .
+
+<urn:uuid:033d3f6e-b39b-4e5b-8199-21999a34aeb4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of BAUBUIN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1834> .
+
+<http://www.sealit.gr/DB/date/1815>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1815" ;
+        crm:P82_at_some_time_within  "1815"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/1C7AD0BD-E266-3C32-A169-5C39F8531DE4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_25" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/4FBD802F-057B-33A7-A0BB-CDE9AFA6FDE9> .
+
+<http://www.sealit.gr/DB/person/102D2439-42F0-3AC7-9DB9-958D6F090C63>
+        a                        crm:E21_Person ;
+        rdfs:label               "Claude PETIT" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/FE67518F-6BA1-332D-9592-481817E1CB16> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:10534b0b-b264-47c0-a703-89cf6eafb195> ;
+        sealit:has_first_name    "Claude" ;
+        sealit:has_last_name     "PETIT" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/5EE25F6E-F396-3740-8FE5-90F6468DD975> , <http://www.sealit.gr/DB/person/9B548506-BCFC-3127-BB12-998273762F3F> .
+
+<http://www.sealit.gr/DB/person/A3DE5C36-0537-3E0C-8E8C-631063CFDFCB>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/CFC2A108-51A9-3485-BF8C-BF9B464DB115>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/133C3F07-5DC5-3B7F-899B-1A1C39894C86>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_55" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/5F8478F2-4D61-3E14-94D0-DB5CE38A581B> .
+
+<http://www.sealit.gr/DB/person/BFF832C5-026D-327F-A145-3672E7CEECEB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jérôme LAVIE" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/8DA808BF-44E3-3380-9195-46636425C868> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:3649b21d-2d6f-4a77-a088-7251319e2272> ;
+        sealit:has_first_name    "Jérôme" ;
+        sealit:has_last_name     "LAVIE" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/855BF6B8-A7E1-3025-8F2F-55F805AD9294> .
+
+<urn:uuid:eb8784a8-1d30-4a17-af05-7c4bfb05514a>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of VACHER" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1830> .
+
+<http://www.sealit.gr/DB/register_record_point/1BAB433C-BD81-300D-9A08-6F9B2638292A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_42" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/6A0E636B-D450-3D93-8409-02EAA6A47868> .
+
+<http://www.sealit.gr/DB/register_record_point/341993C2-A338-32AA-B483-AD9AFAB44CEE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/CFE261F9-5017-31B3-B87F-E17441B1541A> .
+
+<http://www.sealit.gr/DB/register_record_point/A32DB21B-6796-33EE-9AE5-CB5217ED3784>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/3941E085-D878-3EE1-9C00-BA1141A55D18> .
+
+<http://www.sealit.gr/DB/appellation_surname/9DE0E5DD-94E8-3131-BE74-964BED179FA0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "GREEN" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<urn:uuid:cd94e513-8578-4c67-b3ab-3c010aad70c6>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of RUISSY" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1820> .
+
+<http://www.sealit.gr/DB/person/71673E74-51C3-3693-ABBE-19DBFEC39800>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/75CBC9F1-B5F0-383E-AE60-6DD885D02B74>
+        a       crm:E21_Person .
+
+<urn:uuid:bf37fdfc-ad4a-47a2-92b1-a7dfa7f588ad>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of BOIDIN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/0> .
+
+<http://www.sealit.gr/DB/person/F625C678-A0CE-3993-BB8C-B42B41306631>
+        a                        crm:E21_Person ;
+        rdfs:label               "Louis BAUBUIN" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D441CFA1-7DC9-325F-8D13-B62BB6CF6A69> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:033d3f6e-b39b-4e5b-8199-21999a34aeb4> ;
+        sealit:has_first_name    "Louis" ;
+        sealit:has_last_name     "BAUBUIN" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/577048DD-3A48-318D-8591-44A8FDFC63C4> .
+
+<http://www.sealit.gr/DB/person/CF190802-EB37-30B4-9BE3-341C63ADADB7>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/1868C217-7FDC-34D4-96F7-784A23729D3B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "FOREST" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/4D190E0A-3B59-3D92-91A7-B6BF74743F52>
+        a                crm:E41_Appellation ;
+        rdfs:label       "BIRBAUM" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/495C0338-342E-3FCD-A570-38AB97AD9B54>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/12721F4D-5A2E-37CE-9F03-67C30530E113>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 13, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/2969C3D9-5BA4-328C-804C-8924DAA477DC> .
+
+<http://www.sealit.gr/DB/register_record_point/715CBEED-DFA1-3AD7-A6F1-AE91633B325A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 17, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/59985D27-2933-314B-941B-61915CE10E7E> .
+
+<http://www.sealit.gr/DB/person/838F9B16-1BAD-31F5-A6BC-2C85D025E4EA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/0F7B90B7-93EF-3969-AC72-B7BFACFF472B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/3DAFFAA5-503D-3F24-A35F-01F6FE33174E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_69" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/061BFA82-A583-3F7D-9BF9-CE9152A9E66E> .
+
+<urn:uuid:5c8b8e43-94d4-472c-83a0-daab14b245f1>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of FABRE" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1833> .
+
+<http://www.sealit.gr/DB/person/3BA86CBD-E711-3D7A-847B-2F0E7253CEAB>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/date/1797>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1797" ;
+        crm:P82_at_some_time_within  "1797"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/appellation_surname/6BEF1C9B-5E98-3724-A492-DA36367235B6>
+        a                crm:E41_Appellation ;
+        rdfs:label       "DESCHAMPS" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/78761411-9D05-3933-9325-2D5A910297E8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 22, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/9990E648-CABB-38E3-B574-178B4CA44CCF> .
+
+<http://www.sealit.gr/DB/person/816E858F-4A0F-3D8C-9B68-1D71DD855462>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joseph Pierre GIVAUDAN" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/6A4929B5-4E8C-3814-8B2B-BED7FF9C2D9C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:3bdd2dd4-6434-4df1-8925-41bf072d837e> ;
+        sealit:has_first_name    "Joseph Pierre" ;
+        sealit:has_last_name     "GIVAUDAN" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/123229A2-6F25-325D-84C8-899512FE8619> .
+
+<http://www.sealit.gr/DB/person/F54C5005-F740-3AC1-BDCE-8C893D5C37B7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Eugène CAPONY" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/6C74382B-3DC6-3CC5-B3E0-4B76CD3A21F1> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2e8e1ae8-c3c3-4c8d-89ba-de0c97726af4> ;
+        sealit:has_first_name    "Eugène" ;
+        sealit:has_last_name     "CAPONY" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/0CA59432-19C7-3CC1-9A2E-E707A4E50E92> .
+
+<http://www.sealit.gr/DB/person/315AC2CA-5E35-324A-AB8A-27E0BD796C28>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat>
+        a           crm:E55_Type ;
+        rdfs:label  "employment records, shipyards of messageries maritimes, la ciotat" .
+
+<http://www.sealit.gr/DB/person/110690E2-4DF2-348F-9F28-0F17D00F6317>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/5DF43C90-9B3F-3346-AADC-42F867C898E4>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marius PEZET" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/0AE901FC-521E-3DD9-9BAF-450E01D92C62> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e8dbee86-81f0-4069-8962-79af658eb808> ;
+        sealit:has_first_name    "Marius" ;
+        sealit:has_last_name     "PEZET" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/C8A996F6-CB38-3C24-AA79-2FDE5A537B33> .
+
+<http://www.sealit.gr/DB/person/3941E085-D878-3EE1-9C00-BA1141A55D18>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/FDC88DC5-983B-39AB-AD39-6B365A32F37C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 24, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/EE0E1E45-16CC-37FB-8321-C62FEC290544> .
+
+<http://www.sealit.gr/DB/register_record_point/F05C9348-FFFC-37C5-AD71-E5BA6E928C4C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_21" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/17D7085A-C513-3D89-823C-123C442683E5> .
+
+<http://www.sealit.gr/DB/person/5AA68D4E-FEB6-3821-A9C2-0CA5BFC4FCF8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/74C959B7-C099-325F-89F8-EB4D12B4B464>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/7C28D62E-E05E-32B2-9D5B-2EC74AC344DB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_36" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/9DB54298-C66C-39B9-8D7A-6B370404EB3C> .
+
+<http://www.sealit.gr/DB/date/1834>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1834" ;
+        crm:P82_at_some_time_within  "1834"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/C8D08B8B-E481-3842-A11C-2EC8CD1998EB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_30" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/6C9EC27F-D3F2-3E96-A710-3335041A3DE6> .
+
+<http://www.sealit.gr/DB/person/9F536148-6938-34AA-9E3D-AE093D1FC642>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/DBFE4CE0-0182-38A8-9927-AC2EBBED5E37>
+        a       crm:E21_Person .
+
+<urn:uuid:3649b21d-2d6f-4a77-a088-7251319e2272>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of LAVIE" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1814> .
+
+<http://www.sealit.gr/DB/register_record_point/6C29D4A4-431A-3782-8FCD-56EA40A3C18F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/C19B0B83-9FC5-3106-8DAF-35082D483092> .
+
+<http://www.sealit.gr/DB/register_record_point/88B28737-2633-3BC2-9AB8-63EC78C1157B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 4, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/256D6E58-E106-3D29-8926-E27DC5013F68> .
+
+<http://www.sealit.gr/DB/person/0C052D1E-37BF-393A-8EF1-CDB8B39B5312>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/0AB2A967-767D-3024-8EBB-D4676360A6B3>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7ADBE5A2-1FDF-3990-A700-480F5BFD9635>
+        a                        crm:E21_Person ;
+        rdfs:label               "Adolphe GREEN" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/9DE0E5DD-94E8-3131-BE74-964BED179FA0> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:7a6b4e10-097d-4502-b67d-a8154e4fab53> ;
+        sealit:has_first_name    "Adolphe" ;
+        sealit:has_last_name     "GREEN" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9990E648-CABB-38E3-B574-178B4CA44CCF> .
+
+<http://www.sealit.gr/DB/person/2B18E18B-B365-3FAB-84F6-8BBF60B13403>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jean CASTAGNE" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/3EEABB6C-1374-325D-BE28-9E009240D92F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:89fd0678-36b6-4ba0-9ac7-d280a2292879> ;
+        sealit:has_first_name    "Jean" ;
+        sealit:has_last_name     "CASTAGNE" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FEB77F31-11B9-3FA0-ACDD-AFFB688A7DF2> .
+
+<http://www.sealit.gr/DB/person/123229A2-6F25-325D-84C8-899512FE8619>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/726FD7D4-5EC4-303F-8C64-8DD9C0004440>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_31" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/C6ACB719-B376-3ED1-8EE1-6FDDF2CD2466> .
+
+<urn:uuid:2ea93456-552c-4b31-8633-bc2de86ba7b7>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of ASTIER" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1823> .
+
+<http://www.sealit.gr/DB/appellation_surname/8DA808BF-44E3-3380-9195-46636425C868>
+        a                crm:E41_Appellation ;
+        rdfs:label       "LAVIE" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/date/1816>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1816" ;
+        crm:P82_at_some_time_within  "1816"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/A46D9C74-34CF-32BF-A214-AF481CB2172F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/2F605185-5319-3B35-A1E4-0C2CED5CE6D3>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/3EEABB6C-1374-325D-BE28-9E009240D92F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "CASTAGNE" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/22E5E1D3-6FFB-3B28-9C70-7D72449EA94A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_26" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/7740CDC5-93AC-37CF-AEAC-07EBC95E62F8> .
+
+<http://www.sealit.gr/DB/person/E9A7F8C7-F886-3B23-A389-97AF5A8456AC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/EE0E1E45-16CC-37FB-8321-C62FEC290544>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/2D729998-1317-3EE7-8ADA-DCE0BB3B41D4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_56" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/599BB276-DA1F-3F85-8ABD-AA0A19A47503> .
+
+<http://www.sealit.gr/DB/register_record_point/379ADC62-C04D-334E-B964-0868B4F77E9E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_71" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/E9A7F8C7-F886-3B23-A389-97AF5A8456AC> .
+
+<http://www.sealit.gr/DB/person/04D3129B-6827-371B-B737-A331A87A81FA>
+        a       crm:E21_Person .
+
+<urn:uuid:e8dbee86-81f0-4069-8962-79af658eb808>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of PEZET" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1819> .
+
+<http://www.sealit.gr/DB/register_record_point/5634B4AD-A4E9-3917-AC4B-D22980635EF9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 8, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/75CBC9F1-B5F0-383E-AE60-6DD885D02B74> .
+
+<http://www.sealit.gr/DB/register_record_point/742388F4-8CA9-3498-B974-2BFF58DD5467>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 7, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/2AE20A8A-8A84-3D68-AB21-970D66D0A44B> .
+
+<http://www.sealit.gr/DB/date/1828>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1828" ;
+        crm:P82_at_some_time_within  "1828"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/D7ABA9D9-95B8-317E-A2E8-A6F9925EB770>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jean FOREST" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1868C217-7FDC-34D4-96F7-784A23729D3B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:bb352b2c-a697-4b6d-a870-ec7cbccbc6a5> ;
+        sealit:has_first_name    "Jean" ;
+        sealit:has_last_name     "FOREST" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/463EE58A-BF10-365D-BFBE-2794F7D492C1> .
+
+<http://www.sealit.gr/DB/register_record_point/91F993FF-2B9E-367E-A765-0E07AC6023ED>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_51" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/5AA68D4E-FEB6-3821-A9C2-0CA5BFC4FCF8> .
+
+<urn:uuid:d74b5d3e-3e3a-4054-88ba-e9f018874700>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of VOISIN" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1806> .
+
+<http://www.sealit.gr/DB/person/6E9EFBDE-AE25-38AC-BE02-80B244C1BACA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/47F92672-3DD7-37F2-B80D-1FE597AD28C4>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joseph VACHER" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/7C12A94D-173D-33EC-9DB2-81CB26F33DCE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:eb8784a8-1d30-4a17-af05-7c4bfb05514a> ;
+        sealit:has_first_name    "Joseph" ;
+        sealit:has_last_name     "VACHER" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D6B15459-7543-3FCF-9238-68E1314CCE4E> .
+
+<http://www.sealit.gr/DB/register_record_point/3C452B81-6B0F-322F-B3DB-DD0207D669A6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_64" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/DBFE4CE0-0182-38A8-9927-AC2EBBED5E37> .
+
+<http://www.sealit.gr/DB/appellation_surname/C3838645-D582-38E0-8E7A-DCF138A9FBE4>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Aubert" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/17D7085A-C513-3D89-823C-123C442683E5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/166697CE-BC3B-37EB-8B4C-09DE72B30ECD>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/F392596B-5D4C-362B-AFFC-97405BDD31A7>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/31775E39-009B-3859-99E9-D086CDB8228B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_12" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/110690E2-4DF2-348F-9F28-0F17D00F6317> .
+
+<http://www.sealit.gr/DB/date/0>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 0" ;
+        crm:P82_at_some_time_within  "0"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/415FE87A-70FC-34EF-AF7B-AE0920D0000F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 20, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/FEB77F31-11B9-3FA0-ACDD-AFFB688A7DF2> .
+
+<http://www.sealit.gr/DB/appellation_surname/6A4929B5-4E8C-3814-8B2B-BED7FF9C2D9C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "GIVAUDAN" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/14AD1CF5-A12E-3C03-B862-9239F73664AB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Auguste PAUL" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/0DF829B4-BD81-3B10-A0FF-0288F671BE6D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:b11078aa-622a-4ff3-8e21-d54a5fa5f36b> ;
+        sealit:has_first_name    "Auguste" ;
+        sealit:has_last_name     "PAUL" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/65116176-70D9-3DD6-923A-E1BC1372CD41> .
+
+<urn:uuid:89fd0678-36b6-4ba0-9ac7-d280a2292879>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of CASTAGNE" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1812> .
+
+<http://www.sealit.gr/DB/person/3F542FBF-B386-3066-8FAF-68647F0CF235>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/D8D9D919-F661-3856-863F-D0574A8285DF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jean VOISIN" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/FE056056-0818-3E3E-B4C3-0AF606AA12AC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:d74b5d3e-3e3a-4054-88ba-e9f018874700> ;
+        sealit:has_first_name    "Jean" ;
+        sealit:has_last_name     "VOISIN" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F6097946-6DAB-305E-947F-EB933EDF4CA5> .
+
+<http://www.sealit.gr/DB/register_record_point/2328788D-8D84-3E15-9C6B-C94A84C8C009>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 26, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/B46E25F3-43BD-310E-9AC5-F9D788FC9C85> .
+
+<http://www.sealit.gr/DB/register_record_point/78DCF15F-5D3E-30BF-BAB8-2301CD72F42F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_19" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/83E70FB9-56D4-3303-AA0E-74754163C8A7> .
+
+<http://www.sealit.gr/DB/register_record_point/C1B23173-BDFC-3D3E-9786-F1255C4719F9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/3115FF84-DA60-363A-A2E8-B952EA5E07D8> .
+
+<http://www.sealit.gr/DB/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<http://www.sealit.gr/DB/register_record_point/F87CB720-5DD4-3125-A510-6102E39871E3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/2FDE80F3-A74D-3EE0-8D3E-09D90052F6EA> .
+
+<http://www.sealit.gr/DB/register_record_point/E6CA3CCF-58B3-3B7E-BC6F-315BAA7A273D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_66" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/315AC2CA-5E35-324A-AB8A-27E0BD796C28> .
+
+<http://www.sealit.gr/DB/date/1823>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1823" ;
+        crm:P82_at_some_time_within  "1823"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/register_record_point/09A42715-5D43-30C6-8280-11A02050B77D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/4BE9FC31-21B6-32BF-B35D-01B8A6729FF2> .
+
+<http://www.sealit.gr/DB/person/CCD116F7-4DCB-3A47-9893-69C46E5D68C0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fritz BIRBAUM" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/4D190E0A-3B59-3D92-91A7-B6BF74743F52> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:7765bbf3-eda1-4f34-b0db-380b31f75409> ;
+        sealit:has_first_name    "Fritz" ;
+        sealit:has_last_name     "BIRBAUM" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/391A3378-6E32-355E-9538-885CB9E4BE59> .
+
+<http://www.sealit.gr/DB/person/E90D8149-F0B7-3F3D-A031-CA53D928D6F1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Manuel CARBONNEL" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F8B1D50C-BF52-33E0-A207-FB6125491ADD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:8792a595-f818-470a-a286-bab07ec27c14> ;
+        sealit:has_first_name    "Manuel" ;
+        sealit:has_last_name     "CARBONNEL" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DAE3380E-A37E-32D6-8DD5-D1A0D5603E1C> .
+
+<http://www.sealit.gr/DB/register_record_point/67C115A3-87EF-31AE-ADA9-EE4ABC62A2F9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_59" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/0F7B90B7-93EF-3969-AC72-B7BFACFF472B> .
+
+<http://www.sealit.gr/DB/appellation_surname/133ED5ED-1603-36ED-94BE-9C0A33AACB56>
+        a                crm:E41_Appellation ;
+        rdfs:label       "BOUIS" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/068D466B-0351-32D2-8522-A84DD8A559EE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_48" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/D9A3CC7C-1E18-361B-8ADB-FDA48A39968C> .
+
+<urn:uuid:431baee7-d554-4cea-9f6a-cb30aa0322dd>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of BOUIS" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1825> .
+
+<urn:uuid:6c84e598-69f2-4989-916c-acd16493df0a>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of CARBONNEL" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1831> .
+
+<http://www.sealit.gr/DB/register_record_point/AACB8E0C-F424-335F-8927-404BBD0E927F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_61" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/E676499F-A786-32E5-AC08-D55117E394A5> .
+
+<http://www.sealit.gr/DB/appellation_surname/B182A014-5F1A-3A15-A7E4-04C915FF3E1D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "BOIDIN" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/3AD335AD-2E6C-342F-BEC2-4B4761892CB7>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/DD51D729-E49E-30CD-9589-6BFC99A47C0C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/2969C3D9-5BA4-328C-804C-8924DAA477DC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/0109CC25-5748-39BF-A01A-D98F0FA01424>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 25, table: analytic_worker_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/65116176-70D9-3DD6-923A-E1BC1372CD41> .
+
+<http://www.sealit.gr/DB/register_record_point/C07E8937-EABC-39DF-9A32-13532F2AC68E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, , -, -, Popi Vasilaki | row: 1, table: service_in_company_23" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-16T10%3A23%3A33.876Z_2> , <http://www.sealit.gr/DB/person/5FF2A357-5A37-3653-AA9B-9EFD2431B264> .
+
+<http://www.sealit.gr/DB/register_record_point/C5E44D51-6207-3488-9C70-4EC4D647409F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_41" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/0A4E2EE8-9D0B-3853-8C64-4A62D92A1B4F> .
+
+<http://www.sealit.gr/DB/person/D9A3CC7C-1E18-361B-8ADB-FDA48A39968C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/5A032F08-4408-3B04-BFA8-87D0FDFFB8D0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Employment records, Shipyards of Messageries Maritimes, La Ciotat, Matricule No 1 , 1851-1859, -, Popi Vasilaki | row: 1, table: service_in_company_43" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/employment%20records%2C%20shipyards%20of%20messageries%20maritimes%2C%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-14T08%3A43%3A02.930Z_1> , <http://www.sealit.gr/DB/person/7DD39B87-2ABD-3FC1-B8AE-B94A4DEFF128> .

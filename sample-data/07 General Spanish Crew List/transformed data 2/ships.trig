@@ -1,0 +1,61 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/ship/DE3B7443-DF0D-30B3-8F88-A4C195CB785C>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship%20type/vapor>
+        a           crm:E55_Type ;
+        rdfs:label  "vapor" .
+
+<http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list>
+        a           crm:E55_Type ;
+        rdfs:label  "general spanish crew list" .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-07T20:09:49.612Z_41&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/3C1DABA4-A201-3AA1-8DCF-31512BC3228B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , <http://www.sealit.gr/DB/ship/DE3B7443-DF0D-30B3-8F88-A4C195CB785C> .
+
+<http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-07T20:09:49.612Z_41&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/ship/282EBC77-5F6E-3A47-BBA1-B5A57A727830>
+        a                        sealit:Ship ;
+        rdfs:label               "ship Alfonso XIII" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/ship%20name/alfonso%20xiii> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/ship%20type/vapor> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by  <urn:uuid:56bd5a97-5ef4-42df-9d84-a8657ccc8879> ;
+        owl:sameAs               <http://www.sealit.gr/DB/ship/DE3B7443-DF0D-30B3-8F88-A4C195CB785C> .
+
+<http://www.sealit.gr/DB/ship%20name/alfonso%20xiii>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Alfonso XIII" .
+
+<http://www.sealit.gr/DB/location/barcelona>
+        a           crm:E53_Place ;
+        rdfs:label  "Barcelona" .
+
+<urn:uuid:56bd5a97-5ef4-42df-9d84-a8657ccc8879>
+        a                     sealit:Ship_Registration ;
+        rdfs:label            "Registration of Alfonso XIII" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/barcelona> .

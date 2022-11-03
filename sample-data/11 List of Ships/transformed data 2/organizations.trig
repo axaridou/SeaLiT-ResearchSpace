@@ -1,0 +1,845 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T10%3A25%3A11.432Z_55>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ottantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1900-1901, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:25:11.432Z_55&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/C5452D9B-1E69-3673-9A59-F9AEB96B2522>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Novantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1910-1911, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T12%3A23%3A19.973Z_65> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-14T12%3A00%3A13.408Z_36>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Cinquantesimoquinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1880-1881, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T12:00:13.408Z_36&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T12:51:36.725Z_12&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T12%3A10%3A41.868Z_64>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ottantesimonono Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1909-1910, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T12:10:41.868Z_64&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T09:27:05.315Z_49&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-09T12%3A51%3A36.725Z_12>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ventesimoterzo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1855-1856, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T12:51:36.725Z_12&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/585DF841-C77D-3137-B331-35F5811DD801>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Trentesimonono Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1869-1870, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-12T12%3A22%3A26.020Z_26> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T07:07:06.344Z_19&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T08%3A15%3A26.766Z_47>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Settantesimoprimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1892-1893, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T08:15:26.766Z_47&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T08:00:56.286Z_46&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/E571798C-88FA-35DB-A358-1AA8458C4347>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Cinquantesimonono Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1884-1885, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-20T11%3A01%3A45.331Z_39> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-10T08%3A55%3A57.480Z_17>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ventesimo nono Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1860-1861, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-10T08:55:57.480Z_17&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T07:57:12.076Z_33&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-20T14%3A53%3A50.543Z_42>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Sessantesimoquarto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1887-1888, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T14:53:50.543Z_42&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T12:10:41.868Z_64&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T07%3A43%3A07.826Z_45>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Sessantesimosettimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1890-1891, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T07:43:07.826Z_45&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-10T08%3A31%3A00.824Z_16>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ventesimottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1859-1860, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-10T08:31:00.824Z_16&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-13T12%3A37%3A00.232Z_28>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Quarantesimoprimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1871-1872, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-13T12:37:00.232Z_28&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T07:43:07.826Z_45&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/DAEEBE25-6DB0-3A3B-AA6A-36A822FB417E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Quarantesimottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1876-1877, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-14T07%3A40%3A13.520Z_32> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/02CD8DAF-0921-3978-B556-516CDEFCA4EA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Settantesimoprimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1892-1893, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T08%3A15%3A26.766Z_47> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-20T14%3A40%3A54.591Z_41>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Sessantesimosecondo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1886-1887, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T14:40:54.591Z_41&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-09T13%3A38%3A11.918Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ventesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1857-1858, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T13:38:11.918Z_14&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/05421C1F-F0CF-33CA-9C35-5C6124CBB4CA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Sessantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1885-1886, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-20T14%3A20%3A29.084Z_40> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-12T11%3A04%3A29.667Z_25>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Trentesimo ottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1868-1869, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T11:04:29.667Z_25&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T12:22:26.020Z_26&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/A6682B7B-53AA-3CA5-89EE-DD37286E6D45>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Quarantesimoquarto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1873-1874, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-13T12%3A55%3A59.818Z_29> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T11:52:07.025Z_9&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/D163B416-270C-3C89-AB5C-D32506FC97D2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ventesimoterzo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1855-1856, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-09T12%3A51%3A36.725Z_12> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-10T09:21:14.559Z_18&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/organization_appellation/21C93E24-BBBC-3C7F-80B8-C62FF6A87318>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Civico Museo del Mare" .
+
+<http://www.sealit.gr/DB/register_record_point/E1D13A23-4260-38CB-9B95-6E51261039FF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ottantesimoquarto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1904-1905, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T11%3A21%3A48.644Z_59> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/ED4F60BE-472C-3C12-99DC-A4312CFFE25E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Trentesimo settimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1867-1868, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-12T09%3A53%3A57.771Z_24> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-20T09%3A59%3A04.533Z_37>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Cinquantesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1881-1882, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T09:59:04.533Z_37&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-20T10%3A33%3A12.552Z_38>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Cinquantesimoottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1883-1884, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T10:33:12.552Z_38&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-13T12:37:00.232Z_28&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/0F9E65AD-27A3-358D-A00E-4B0549544D23>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ventesimottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1859-1860, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-10T08%3A31%3A00.824Z_16> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:33:36.255Z_61&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/9D035762-6BAC-3705-A529-0EDD65218D41>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Trentesimo terzo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1864-1865, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-12T07%3A51%3A09.507Z_21> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T07:40:13.520Z_32&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-10T08:55:57.480Z_17&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/D122071A-D861-31C3-A084-AC4C79BBB920>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Settantesimoterzo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1894-1895, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T09%3A27%3A05.315Z_49> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:58:16.079Z_63&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-12T07%3A30%3A25.614Z_20>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Trentesimo secondo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1863-1864, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T07:30:25.614Z_20&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/254EBDD6-7AE8-31E7-851C-91BD4C65F4B9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ventesimoquarto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1856-1857, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-09T13%3A06%3A06.815Z_13> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T14:20:29.084Z_40&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T11:04:29.667Z_25&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/6822D95A-8062-34FC-8223-C66F5874769D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ottantesimoquinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1905-1906, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T11%3A27%3A36.469Z_60> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:08:08.357Z_53&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-12T08%3A18%3A03.736Z_22>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Trentesimo quinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1865-1866, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T08:18:03.736Z_22&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-20T14%3A20%3A29.084Z_40>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Sessantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1885-1886, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T14:20:29.084Z_40&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T09%3A53%3A26.520Z_51>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Settantesimoquinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1896-1897, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T09:53:26.520Z_51&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T10%3A43%3A49.739Z_57>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ottantesimosecondo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1902-1903, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:43:49.739Z_57&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/EC84A775-2CA5-3D56-93FF-38B8F4B65DE5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ottantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1900-1901, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T10%3A25%3A11.432Z_55> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T11%3A58%3A16.079Z_63>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ottantesimottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1908-1909, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:58:16.079Z_63&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T12%3A23%3A19.973Z_65>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Novantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1910-1911, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T12:23:19.973Z_65&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/191DA2E8-4D90-3320-8161-C5704BDF0BC8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ventesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1857-1858, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-09T13%3A38%3A11.918Z_14> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:17:31.563Z_54&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/DCEAAE44-DBE2-3065-B66F-4BF309F84002>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Sessantesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1889-1890, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-20T15%3A13%3A09.602Z_44> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-12T07%3A07%3A06.344Z_19>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Trentesimoprimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1862-1863, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T07:07:06.344Z_19&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:25:11.432Z_55&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T11:20:32.591Z_7&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T13:38:11.918Z_14&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T15:02:20.712Z_43&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/1671A240-79B4-3AA0-A984-0A8045229E41>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Trentesimoprimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1862-1863, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-12T07%3A07%3A06.344Z_19> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/33011E12-91AE-35E9-99A2-972DA5EDA3CC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Trentesimo ottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1868-1869, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-12T11%3A04%3A29.667Z_25> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/FF51E80A-8744-32A0-AA16-DB354E7D8D60>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ottantesimottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1908-1909, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T11%3A58%3A16.079Z_63> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T11:01:45.331Z_39&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:44:09.823Z_62&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T11%3A21%3A48.644Z_59>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ottantesimoquarto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1904-1905, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:21:48.644Z_59&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/76B79E1B-9D38-3F0F-89E8-D115D13C51FD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Cinquantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1877-1878, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-14T07%3A57%3A12.076Z_33> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T11%3A02%3A54.652Z_58>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ottantesimoterzo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1903-1904, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:02:54.652Z_58&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:21:48.644Z_59&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T08:18:03.736Z_22&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T07:18:20.496Z_31&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/94A2A795-4B43-33C2-B3DA-93F8E827BD1D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Cinquantesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1881-1882, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-20T09%3A59%3A04.533Z_37> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-14T07%3A40%3A13.520Z_32>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Quarantesimottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1876-1877, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T07:40:13.520Z_32&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/976ABCCB-0288-3D81-8F88-05E8AA0AF538>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ottantesimoprimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1901-1902, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T10%3A31%3A24.743Z_56> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-09T11%3A37%3A46.994Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Decimonono Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1851-1852, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T11:37:46.994Z_8&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T08:52:18.523Z_23&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T08:17:33.758Z_34&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-10T09%3A21%3A14.559Z_18>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Trentesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1861-1862, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-10T09:21:14.559Z_18&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/C7AB13A3-8453-3483-A6E0-87A2E59B2E17>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Trentesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1861-1862, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-10T09%3A21%3A14.559Z_18> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T09:59:04.533Z_37&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T14:40:54.591Z_41&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T08:47:45.655Z_48&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-14T07%3A57%3A12.076Z_33>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Cinquantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1877-1878, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T07:57:12.076Z_33&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-12T07%3A51%3A09.507Z_21>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Trentesimo terzo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1864-1865, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T07:51:09.507Z_21&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-09T11%3A52%3A07.025Z_9>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ventesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1852-1853, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T11:52:07.025Z_9&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-13T11%3A59%3A20.487Z_27>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Quarantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1870-1871, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-13T11:59:20.487Z_27&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/69865278-E0C4-35D2-BECA-63F27D55D49C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Sessantesimoquinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1888-1889, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-20T15%3A02%3A20.712Z_43> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/7DC20B08-23ED-3B26-966E-78623371F9C3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ventesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1852-1853, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-09T11%3A52%3A07.025Z_9> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/C54662E3-9A9F-3D90-B6DF-A043FCB3F74B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ottantesimosettimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1907-1908, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T11%3A44%3A09.823Z_62> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/DC1A9F43-9A68-3B70-906E-818D97E67569>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Settantesimosecondo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1893-1894, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T08%3A47%3A45.655Z_48> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T08%3A00%3A56.286Z_46>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Settantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1891-1892, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T08:00:56.286Z_46&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:31:24.743Z_56&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T11%3A27%3A36.469Z_60>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ottantesimoquinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1905-1906, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:27:36.469Z_60&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/0DE0953E-8CD3-3A1C-90AC-51C1E798A4EF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Decimonono Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1851-1852, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-09T11%3A37%3A46.994Z_8> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-12T09%3A53%3A57.771Z_24>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Trentesimo settimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1867-1868, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T09:53:57.771Z_24&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/85BA926E-4DEE-32B0-BBA0-EFDCC7145CA6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Quarantesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1875-1876, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-14T07%3A18%3A20.496Z_31> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/304B0058-89AC-3ABD-9F17-D217AFA83FF4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Settantesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1897-1898, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T10%3A00%3A12.142Z_52> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/A2E46FBC-242F-3266-9D99-91205EB6A3EA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Settantesimoottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1899-1900, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T10%3A17%3A31.563Z_54> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-14T07%3A18%3A20.496Z_31>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Quarantesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1875-1876, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T07:18:20.496Z_31&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T09:39:35.499Z_50&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/9DEECF1B-6557-301A-85A3-416C482CC4CC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Quarantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1870-1871, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-13T11%3A59%3A20.487Z_27> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T09%3A39%3A35.499Z_50>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Settantesimoquarto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1895-1896, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T09:39:35.499Z_50&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/B7A66813-CF56-329C-81DD-83C5DBA137A8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ventesimo nono Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1860-1861, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-10T08%3A55%3A57.480Z_17> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/20205AE8-77C9-3FA0-A0EA-FC9D04620699>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Quarantesimoquinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1874-1875, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-13T13%3A39%3A10.930Z_30> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/841F14BB-C082-336E-9AF7-DB3CCF72E6F9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ventesimosettimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1858-1859, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-10T08%3A16%3A38.922Z_15> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/5135E75C-874A-3B77-92E1-96093A49B3F3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Settantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1891-1892, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T08%3A00%3A56.286Z_46> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/20074A0C-20D6-3F60-BD97-CDA45A6C7B6C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Cinquantesimoottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1883-1884, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-20T10%3A33%3A12.552Z_38> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/17A46D10-624A-3D11-AF4E-217D3CAFE3B0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Cinquantesimoprimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1878-1879, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-14T08%3A17%3A33.758Z_34> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/F21113D1-1782-3881-89F2-55CD2DC1E6DF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Trentesimo quinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1865-1866, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-12T08%3A18%3A03.736Z_22> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-13T12%3A55%3A59.818Z_29>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Quarantesimoquarto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1873-1874, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-13T12:55:59.818Z_29&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T09:53:57.771Z_24&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-10T08:16:38.922Z_15&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T11%3A44%3A09.823Z_62>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ottantesimosettimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1907-1908, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:44:09.823Z_62&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/B3C66599-82FC-3084-B410-BFECCCCF5B1E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Cinquantesimoquinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1880-1881, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-14T12%3A00%3A13.408Z_36> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T07:51:09.507Z_21&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T13:06:06.815Z_13&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T09:53:26.520Z_51&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-09T11%3A20%3A32.591Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Decimosettimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1850-1851, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T11:20:32.591Z_7&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/29F2BB27-2883-3479-98DA-8DFCDEB90D72>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Trentesimo secondo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1863-1864, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-12T07%3A30%3A25.614Z_20> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/D37C641A-C521-37D6-894F-5468A0DACAC6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Cinquantesimoterzo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1879-1880, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-14T11%3A31%3A36.278Z_35> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-12T08%3A52%3A18.523Z_23>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Trentesimo sesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1866-1867, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T08:52:18.523Z_23&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T12%3A37%3A33.643Z_66>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Novantaduesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1912-1913, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T12:37:33.643Z_66&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/7F7B683F-11F8-382E-AAC0-3FBF245882C3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Settantesimoquarto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1895-1896, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T09%3A39%3A35.499Z_50> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T15:13:09.602Z_44&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/4C2DB266-5806-3E14-B4FF-E27CC94F1E18>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ottantesimoterzo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1903-1904, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T11%3A02%3A54.652Z_58> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T11:31:36.278Z_35&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/6A113797-1275-3BDA-863B-455FF57DC94D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Sessantesimosecondo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1886-1887, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-20T14%3A40%3A54.591Z_41> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-13T12:55:59.818Z_29&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-10T08%3A16%3A38.922Z_15>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ventesimosettimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1858-1859, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-10T08:16:38.922Z_15&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:43:49.739Z_57&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-09T13%3A06%3A06.815Z_13>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ventesimoquarto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1856-1857, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T13:06:06.815Z_13&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-14T08%3A17%3A33.758Z_34>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Cinquantesimoprimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1878-1879, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T08:17:33.758Z_34&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/AC9D9A9F-442C-36DD-BA04-7B1E0799BA6A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ottantesimosecondo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1902-1903, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T10%3A43%3A49.739Z_57> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T08%3A47%3A45.655Z_48>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Settantesimosecondo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1893-1894, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T08:47:45.655Z_48&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-12T12%3A22%3A26.020Z_26>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Trentesimonono Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1869-1870, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T12:22:26.020Z_26&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T14:53:50.543Z_42&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T12:37:33.643Z_66&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-20T15%3A02%3A20.712Z_43>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Sessantesimoquinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1888-1889, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T15:02:20.712Z_43&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/BA7184A4-8809-318B-8147-5A2998022DEF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ottantesimonono Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1909-1910, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T12%3A10%3A41.868Z_64> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/A89F43EE-8656-38F1-B980-67EF86A5DFD9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Sessantesimosettimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1890-1891, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T07%3A43%3A07.826Z_45> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/5D5D2D77-0C91-329D-8111-718B4657A31B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Decimosettimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1850-1851, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-09T11%3A20%3A32.591Z_7> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T10:33:12.552Z_38&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-14T11%3A31%3A36.278Z_35>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Cinquantesimoterzo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1879-1880, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T11:31:36.278Z_35&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-13T13%3A39%3A10.930Z_30>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Quarantesimoquinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1874-1875, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-13T13:39:10.930Z_30&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T10%3A17%3A31.563Z_54>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Settantesimoottavo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1899-1900, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:17:31.563Z_54&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T10%3A08%3A08.357Z_53>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Settantesimosettimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1898-1899, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:08:08.357Z_53&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T10%3A00%3A12.142Z_52>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Settantesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1897-1898, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:00:12.142Z_52&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/5A4A9B75-6049-39CB-9797-41CD482E4E29>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Novantaduesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1912-1913, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T12%3A37%3A33.643Z_66> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:27:36.469Z_60&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-13T11:59:20.487Z_27&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/E5B91039-434D-3562-91B5-DB08380448A6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Settantesimoquinto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1896-1897, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T09%3A53%3A26.520Z_51> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/A66A5E0A-95F0-3AF8-A698-6E92AAA7F6DD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Trentesimo sesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1866-1867, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-12T08%3A52%3A18.523Z_23> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:02:54.652Z_58&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/template%20types/list%20of%20ships>
+        a           crm:E55_Type ;
+        rdfs:label  "list of ships" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-09T11:37:46.994Z_8&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/509FF8CD-4898-3713-BE0E-6233CE61EDB8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Quarantesimoprimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1871-1872, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-13T12%3A37%3A00.232Z_28> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/970CE7B5-CC2B-3AF4-872A-B91C8EA250E5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Settantesimosettimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1898-1899, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T10%3A08%3A08.357Z_53> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-12T07:30:25.614Z_20&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-14T12:00:13.408Z_36&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T09%3A27%3A05.315Z_49>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Settantesimoterzo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1894-1895, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T09:27:05.315Z_49&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/register_record/2020-10-20T15%3A13%3A09.602Z_44>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Sessantesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1889-1890, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T15:13:09.602Z_44&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-10T08:31:00.824Z_16&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T08:15:26.766Z_47&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-10-20T11%3A01%3A45.331Z_39>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Cinquantesimonono Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1884-1885, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-20T11:01:45.331Z_39&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T10%3A31%3A24.743Z_56>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ottantesimoprimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1901-1902, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:31:24.743Z_56&templateTitle=List%20of%20ships&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T12:23:19.973Z_65&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/A2AC59B3-5DC9-3F44-8143-709DC1D8189B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Ottantesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1906-1907, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-21T11%3A33%3A36.255Z_61> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-21T11%3A33%3A36.255Z_61>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "List of ships, Ottantesimosesto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1906-1907, , , , Matteo  Barbano" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T11:33:36.255Z_61&templateTitle=List%20of%20ships&mode=teamView> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-civico%20museo%20del%20mare>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Civico Museo del Mare" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/21C93E24-BBBC-3C7F-80B8-C62FF6A87318> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<http://www.sealit.gr/DB/register_record_point/61109848-34A1-3A8E-9DE4-F860D0A9DD0F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "List of ships, Sessantesimoquarto Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1887-1888, , , , Matteo  Barbano | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-20T14%3A53%3A50.543Z_42> , <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-21T10:00:12.142Z_52&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Ship_List.html?name=2020-10-13T13:39:10.930Z_30&templateTitle=List%20of%20ships&mode=teamView>
+        a       rdfs:Resource .

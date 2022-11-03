@@ -1,0 +1,99 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/person/BB48BD74-0626-3E33-9A3D-597575A1C362>
+        a                        crm:E21_Person ;
+        rdfs:label               "Juan Gomez Hernandez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/387316D0-D18D-35AE-BA50-AD1CADC39742> , <http://www.sealit.gr/DB/appellation_surname/5E4F5F9D-CB97-3B3B-B3C9-093F518FADE4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        crm:P98i_was_born        <urn:uuid:d030b915-fbbe-4a0f-b062-f2e31119a191> ;
+        sealit:has_first_name    "Juan" ;
+        sealit:has_last_name     "Gomez Hernandez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/4E3E3E0D-6417-3ABD-8169-36D16DD90410> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime_Register_ES.html?name=2019-09-17T11:03:41.913Z_1&templateTitle=Register%20of%20Maritime%20personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/A94C08DF-2C99-3309-8006-9DB8B0CA83D4>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/4E3E3E0D-6417-3ABD-8169-36D16DD90410>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/names/surname%20b>
+        a           crm:E55_Type ;
+        rdfs:label  "surname B" .
+
+<urn:uuid:d030b915-fbbe-4a0f-b062-f2e31119a191>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gomez" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1888-06-24> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/ABDB3E04-B3D7-30D4-B99C-33DD7163E887> .
+
+<http://www.sealit.gr/DB/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<http://www.sealit.gr/DB/appellation_surname/5E4F5F9D-CB97-3B3B-B3C9-093F518FADE4>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gomez" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record/2019-09-17T11%3A03%3A41.913Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime personel, , ," ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime_Register_ES.html?name=2019-09-17T11:03:41.913Z_1&templateTitle=Register%20of%20Maritime%20personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/appellation_surname/387316D0-D18D-35AE-BA50-AD1CADC39742>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Hernandez" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> , <http://www.sealit.gr/DB/names/surname%20b> .
+
+<http://www.sealit.gr/DB/person/6832D903-F0AB-376A-A3B8-ABB8E874F6C6>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel>
+        a           crm:E55_Type ;
+        rdfs:label  "register of maritime personel" .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/person/992C7547-DEA3-35A6-9785-DEB4CE455FE6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Casimira Hernandez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/387316D0-D18D-35AE-BA50-AD1CADC39742> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Casimira" ;
+        sealit:has_last_name     "Hernandez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A94C08DF-2C99-3309-8006-9DB8B0CA83D4> .
+
+<http://www.sealit.gr/DB/date/1888-06-24>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1888-06-24" ;
+        crm:P82_at_some_time_within  "1888-06-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/ABDB3E04-B3D7-30D4-B99C-33DD7163E887>
+        a                        crm:E21_Person ;
+        rdfs:label               "Casimiro Gomez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/5E4F5F9D-CB97-3B3B-B3C9-093F518FADE4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Casimiro" ;
+        sealit:has_last_name     "Gomez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6832D903-F0AB-376A-A3B8-ABB8E874F6C6> .
+
+<http://www.sealit.gr/DB/register_record_point/66018B90-757F-32A1-9609-E11438730449>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime personel, , , | row: 1, table: register_of_maritime_personnel" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/person/A94C08DF-2C99-3309-8006-9DB8B0CA83D4> , <http://www.sealit.gr/DB/person/6832D903-F0AB-376A-A3B8-ABB8E874F6C6> , <http://www.sealit.gr/DB/register_record/2019-09-17T11%3A03%3A41.913Z_1> , <http://www.sealit.gr/DB/person/4E3E3E0D-6417-3ABD-8169-36D16DD90410> .

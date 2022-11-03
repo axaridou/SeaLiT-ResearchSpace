@@ -1,0 +1,240 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/person/FD3405EF-0376-3975-B38D-364F332111D9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Д. Лазаревич" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/8A9B113F-98BA-37C2-8631-9BFB98CF313F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Д." ;
+        sealit:has_last_name     "Лазаревич" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/31E912D3-2A89-34FA-971B-C1253ECFBAC8> .
+
+<http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2020-11-04T08:23:48.573Z_4&templateTitle=Seagoing%20Personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-10-25T07:39:36.945Z_2&templateTitle=Seagoing%20Personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/appellation_surname/ABB76B8F-403E-3593-B10C-CD003311EC99>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Витт" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/39609238-0B3B-359C-AA27-D5EA216EA838>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 16, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/person/0273222D-D4A7-3E51-84C0-2F97292BB15F> .
+
+<http://www.sealit.gr/DB/person/9E1890AE-6FD9-3FE0-B12F-C80C475E49A5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Н. Швыйковский" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/057B48A3-5885-3E3B-A53B-B0487CAF566C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Н." ;
+        sealit:has_last_name     "Швыйковский" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/0F197C4E-D421-33D0-A595-DBA64E03A73F> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-10-25T07:39:36.945Z_2&templateTitle=Seagoing%20Personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/31E912D3-2A89-34FA-971B-C1253ECFBAC8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/E5CC3273-8CD9-3B6C-BED2-3DE4FECB0D67>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 77, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/person/62C73BA8-5DA4-3446-910B-F10C80206F23> .
+
+<http://www.sealit.gr/DB/person/DC9914F4-823D-39FE-8C6B-832A7E01D230>
+        a                        crm:E21_Person ;
+        rdfs:label               "Л. Степанов" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/E85EEAA9-9F4D-36E6-B1C6-91F214B5A4DD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Л." ;
+        sealit:has_last_name     "Степанов" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/0273222D-D4A7-3E51-84C0-2F97292BB15F> .
+
+<http://www.sealit.gr/DB/template%20types/seagoing%20personel>
+        a           crm:E55_Type ;
+        rdfs:label  "seagoing personel" .
+
+<http://www.sealit.gr/DB/appellation_surname/F750E091-17E4-32C8-87C0-505F4879C240>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Воинович" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/9C441113-D7FC-3052-9F0F-3BE0F7BB8986>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/AF32EA54-C8C7-3B99-B3C7-0382E12FCB54>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 83, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/person/8DC07CD3-E256-3708-95E3-37535967B62F> .
+
+<http://www.sealit.gr/DB/person/1E5FD40B-9B3E-3418-8C48-7EE8BBBBB229>
+        a                        crm:E21_Person ;
+        rdfs:label               "Влвдимир Воинович" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F750E091-17E4-32C8-87C0-505F4879C240> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Влвдимир" ;
+        sealit:has_last_name     "Воинович" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/62C73BA8-5DA4-3446-910B-F10C80206F23> .
+
+<http://www.sealit.gr/DB/register_record_point/E938DFC6-542B-3FEA-9AA3-4B489845790C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 5, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/person/0F197C4E-D421-33D0-A595-DBA64E03A73F> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/register_record_point/8832B907-DF62-3BA1-89D4-126016D02E40>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 58, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/person/31E912D3-2A89-34FA-971B-C1253ECFBAC8> .
+
+<http://www.sealit.gr/DB/person/49DADD60-3051-32FC-8E4D-FF7728B66C03>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/691474AB-84F4-3079-9821-BFF0528FAD29>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 40, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/person/6211889B-D25C-3DCC-A0E9-C033A3E001BA> .
+
+<http://www.sealit.gr/DB/person/0F197C4E-D421-33D0-A595-DBA64E03A73F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/AFE73271-51D4-38F9-B0F1-710F0C66DE4B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Н. Воинович" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F750E091-17E4-32C8-87C0-505F4879C240> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Н." ;
+        sealit:has_last_name     "Воинович" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/49DADD60-3051-32FC-8E4D-FF7728B66C03> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2020-11-04T08:23:48.573Z_4&templateTitle=Seagoing%20Personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/944DFC93-A6DC-3FE3-9F48-53C08882A4C1>
+        a                        crm:E21_Person ;
+        rdfs:label               "М. Воинович" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F750E091-17E4-32C8-87C0-505F4879C240> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "М." ;
+        sealit:has_last_name     "Воинович" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9A3AB928-5C34-3A0B-9EBE-CB289B26AE14> .
+
+<http://www.sealit.gr/DB/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<http://www.sealit.gr/DB/person/3AC3F43C-BF5E-3D77-8A5A-5B91112A1465>
+        a                        crm:E21_Person ;
+        rdfs:label               "П. Витт" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/ABB76B8F-403E-3593-B10C-CD003311EC99> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "П." ;
+        sealit:has_last_name     "Витт" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9C441113-D7FC-3052-9F0F-3BE0F7BB8986> , <http://www.sealit.gr/DB/person/E46DD0F6-F57D-3A8F-B300-938118DA0DC7> .
+
+<http://www.sealit.gr/DB/register_record_point/A01BC03A-02F4-3765-BD20-5E792FA77B09>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 64, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/person/E46DD0F6-F57D-3A8F-B300-938118DA0DC7> .
+
+<http://www.sealit.gr/DB/person/B017AA6E-1629-3BE1-8940-092592F008FB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Лука Добчевич" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/31C44E30-3E34-31AD-8459-0EA14A927FE5> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Лука" ;
+        sealit:has_last_name     "Добчевич" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8DC07CD3-E256-3708-95E3-37535967B62F> .
+
+<http://www.sealit.gr/DB/appellation_surname/E85EEAA9-9F4D-36E6-B1C6-91F214B5A4DD>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Степанов" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/62C73BA8-5DA4-3446-910B-F10C80206F23>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/appellation_surname/8A9B113F-98BA-37C2-8631-9BFB98CF313F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Лазаревич" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/24C93A29-C26A-3D8A-82C1-AF8331AABCBC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 37, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/person/9A3AB928-5C34-3A0B-9EBE-CB289B26AE14> .
+
+<http://www.sealit.gr/DB/person/9A3AB928-5C34-3A0B-9EBE-CB289B26AE14>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/6211889B-D25C-3DCC-A0E9-C033A3E001BA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/E46DD0F6-F57D-3A8F-B300-938118DA0DC7>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/0273222D-D4A7-3E51-84C0-2F97292BB15F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/31C44E30-3E34-31AD-8459-0EA14A927FE5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Добчевич" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/2052BF35-1A24-34B9-88FE-735FD765DCAB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 386, Anna Sydorenko | row: 19, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T07%3A39%3A36.945Z_2> , <http://www.sealit.gr/DB/person/49DADD60-3051-32FC-8E4D-FF7728B66C03> .
+
+<http://www.sealit.gr/DB/register_record_point/51D8233F-ED2D-3447-9055-5C96DF63AC6B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Алфавитный список служащих в Русском Обществе Пароходства и Торговли , 1861-, , , , Anna Sydorenko | row: 47, table: employees_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-04T08%3A23%3A48.573Z_4> , <http://www.sealit.gr/DB/person/9C441113-D7FC-3052-9F0F-3BE0F7BB8986> .
+
+<http://www.sealit.gr/DB/person/FA32823D-90BD-3F96-85CB-BBFDF701903D>
+        a                        crm:E21_Person ;
+        rdfs:label               "И. Воинович" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F750E091-17E4-32C8-87C0-505F4879C240> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "И." ;
+        sealit:has_last_name     "Воинович" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6211889B-D25C-3DCC-A0E9-C033A3E001BA> .
+
+<http://www.sealit.gr/DB/appellation_surname/057B48A3-5885-3E3B-A53B-B0487CAF566C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Швыйковский" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/8DC07CD3-E256-3708-95E3-37535967B62F>
+        a       crm:E21_Person .

@@ -1,0 +1,47 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/template%20types/seagoing%20personel>
+        a           crm:E55_Type ;
+        rdfs:label  "seagoing personel" .
+
+<http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-10-25T12:05:58.066Z_3&templateTitle=Seagoing%20Personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3>
+        a                         crm:E53_Place ;
+        rdfs:label                "Петербург" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/3B05218B-F01E-311E-9A3B-C8E972C44849> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/register_record_point/E2F2C711-683E-39CA-9CEE-A4911ECAC783>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, , -, 107, 1, 503, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-10-25T12%3A05%3A58.066Z_3> , <http://www.sealit.gr/DB/location/%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-10-25T12:05:58.066Z_3&templateTitle=Seagoing%20Personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location_appellation/3B05218B-F01E-311E-9A3B-C8E972C44849>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Петербург" .
+
+<http://www.sealit.gr/DB/location/%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3>
+        a       crm:E53_Place .

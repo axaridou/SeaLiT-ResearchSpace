@@ -1,0 +1,1230 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<http://www.sealit.gr/DB/register_record/2018-12-12T12%3A54%3A01.032Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Il Prudente, 1853-07-06, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T12:54:01.032Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/14F13488-21D5-362A-B45D-FF151AE4CA72>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Ulisse, 1861-01-31, Maurizio Antinori | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-28T14%3A24%3A28.683Z_4> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-12-18T09%3A52%3A08.344Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-18T09:52:08.344Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-26T16:44:01.408Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T13%3A02%3A39.904Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Gaetano, 1862-02-12, Maki Asai" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T13:02:39.904Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T13%3A22%3A32.077Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Carolina, 1859-06-07, Benedetta Risso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T13:22:32.077Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T14:08:22.710Z_16&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-02-27T13%3A40%3A18.902Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Enoch, 1861-01-30, Maurizio Antinori" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:40:18.902Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/3EC634BF-836E-3C82-9983-FD21B6649CA0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Andrea, 1860-04-09, Giacomo Calcagno | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-27T13%3A26%3A48.597Z_2> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-04-03T14%3A57%3A35.212Z_27>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Giuseppe, 1862-02-18, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T14:57:35.212Z_27&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2019-11-29T08:51:01.444Z_98&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T15:12:55.461Z_19&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/8E1BABE7-6BBB-318F-8B9F-B50CCE9F2451>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1862-12-02, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A25%3A29.619Z_18> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/EAC33A3D-FB1C-3B1F-BB60-D63F6DD26EB8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Carolina, 1859-06-07, Benedetta Risso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-26T13%3A22%3A32.077Z_7> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-04-03T13%3A21%3A37.243Z_15>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T13:21:37.243Z_15&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-12-14T16%3A31%3A09.212Z_9>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Baciocchin, 1853-07-15, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-14T16:31:09.212Z_9&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T14%3A06%3A17.784Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Verità, 1862-02-13, Maki Asai" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T14:06:17.784Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/DECC46A2-D441-36FC-B239-B97A342C0380>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 33, Leonardo Scavino | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-05-04T08%3A17%3A05.483Z_5> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T14:03:20.633Z_26&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-06T14%3A53%3A25.437Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Società, 1861-02-08, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T14:53:25.437Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/organization_appellation/5614F26D-BCA2-3D6B-9418-E0D3CBB90250>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Direzione marittima di Genova" .
+
+<http://www.sealit.gr/DB/register_record_point/CBB9E274-FF49-3470-801E-E60D384417AD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), S. Francesco, 1862-02-26, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T15%3A41%3A17.679Z_24> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/organization_appellation/60BFA7CA-22C4-346C-BF03-8A4532E2EB89>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Archivio di stato di Genova" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-13T14:50:24.851Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T12:16:14.596Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/57B29BC0-A758-36DB-93C3-D0C09405ECFE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Telemaco, 1862-02-12, Maki Asai | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T12%3A16%3A14.596Z_1> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T15:33:48.593Z_20&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:26:48.597Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-13T09:10:01.852Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T10:04:33.274Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T14:40:32.384Z_22&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-18T09:52:08.344Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-02-28T14%3A24%3A28.683Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Ulisse, 1861-01-31, Maurizio Antinori" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T14:24:28.683Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2017-12-21T13%3A31%3A25.667Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Angelita, 18/02/1861, Leonardo Scavino" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2017-12-21T13:31:25.667Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/69855B98-9ED3-3880-AE9B-660F3799362F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), L`Unione, 1860-10-12, Giacomo Calcagno | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-18T15%3A14%3A35.355Z_15> , <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-26T13:34:26.106Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-01-10T08%3A46%3A41.900Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Pellegra, 10/10/1860, Leonardo Scavino" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-01-10T08:46:41.900Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T14:00:06.802Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-17T14:10:13.565Z_11&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T14:02:15.448Z_17&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-14T13:09:35.901Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/16D2329E-BF1A-33CC-AFA8-73790385EA09>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), L`Assunta, 1853-07-19, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-17T14%3A10%3A13.565Z_11> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/A7B0505E-48FE-3CE4-B4D3-57B154999EF1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Astrolabo, 1859-04-30, Benedetta Risso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A33%3A40.330Z_8> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-12-12T10%3A04%3A33.274Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T10:04:33.274Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-12-12T08%3A23%3A01.594Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T08:23:01.594Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-04-03T14%3A03%3A20.633Z_26>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Myrra, 1862-02-24, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T14:03:20.633Z_26&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T12:29:18.423Z_11&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/5A84A5C8-5EA1-30DD-B3E3-B93A3A4BC791>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova>
+        a       crm:E40_Legal_Body .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-01-18T15:14:35.355Z_15&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/41808D3D-F0B5-3C52-A682-DF5FBA42122D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Rosa, 2018-02-26, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-26T16%3A44%3A01.408Z_4> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/138DC2E5-BA77-362D-A43C-5A1A0F56B1AF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Enoch, 1861-01-30, Maurizio Antinori | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-27T13%3A40%3A18.902Z_1> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T16:49:42.221Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-12-18T14%3A15%3A50.282Z_16>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Nostra Signora di Montenero, 1853-08-31, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-18T14:15:50.282Z_16&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2019-05-04T08:17:05.483Z_5&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-20T15%3A26%3A08.221Z_9>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Mardocheo, 1861-02-14, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T15:26:08.221Z_9&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-14T16:31:09.212Z_9&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T12%3A29%3A18.423Z_11>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Antonio, 1861-02-18, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T12:29:18.423Z_11&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29>
+        a           crm:E55_Type ;
+        rdfs:label  "register of maritime workers (matricole della gente di mare)" .
+
+<http://www.sealit.gr/DB/register_record_point/DC6FBDEB-5482-3C2C-9350-5E4E322D4B8A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Gaetano, 1862-02-12, Maki Asai | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T13%3A02%3A39.904Z_2> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/D1608A31-9E2B-3708-A13E-C07A68B13ECC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Eto, 1853-07-12, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-14T13%3A09%3A35.901Z_7> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/DB53379C-4804-3576-AB74-3ACE6BD4D7FC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T14%3A33%3A40.330Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Astrolabo, 1859-04-30, Benedetta Risso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T14:33:40.330Z_8&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-06T16%3A14%3A53.101Z_12>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), San Rocco, 1861-01-11, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T16:14:53.101Z_12&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/5544AC3F-687C-321F-BABA-4FF18F618AEB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T08:23:01.594Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-02-27T15%3A30%3A46.728Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T15:30:46.728Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/1A3EDC56-391A-371B-868F-7D3B5CE2A8B1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Teresa, 1862-03-06, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-26T15%3A33%3A48.593Z_20> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-12-18T13%3A18%3A08.773Z_15>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Zenobia, 1853-07-25, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-18T13:18:08.773Z_15&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/7DDAFFA3-DD26-3CFC-8919-803C1F831F76>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), S. Giobatta, 1861-06-03, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-02-26T15%3A21%3A10.239Z_3> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/B28652DC-22E3-30DB-BE62-A2399A9D7826>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Pallade, 1861-01-11, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-20T16%3A02%3A13.414Z_13> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/BE685826-9A59-30C6-B706-8542EC55B9C7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Zenobia, 1853-07-25, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-18T13%3A18%3A08.773Z_15> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/002002D6-134A-31D8-A466-0C1B9111755C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Nostra Signora della Concezione, 1859-06-05, Benedetta Risso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A26%3A31.935Z_6> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T14:33:37.367Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T15:55:19.727Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/D1EBB487-B690-3932-93D3-0C14DB51D8AC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Geromina, 1861-02-11, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T15%3A25%3A41.452Z_13> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-28T14%3A00%3A06.802Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Le Due Marie, 1861-01-31, Maurizio Antinori" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T14:00:06.802Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T14:11:23.753Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T15:41:17.679Z_24&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T15:25:41.452Z_13&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-01-18T15%3A14%3A35.355Z_15>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), L`Unione, 1860-10-12, Giacomo Calcagno" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-01-18T15:14:35.355Z_15&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-28T15%3A18%3A15.246Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Il Boschetto, 1860-12-03, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T15:18:15.246Z_8&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-10-23T07%3A23%3A32.182Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime workers (Matricole della gente di mare), 13, Giorgio Parodi" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2018-10-23T07:23:32.182Z_1&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/2DA1735A-8DED-3F28-9AFA-5A0E636C1F7A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Mardocheo, 1861-02-14, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-20T15%3A26%3A08.221Z_9> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/7767DB65-6288-38BD-9DA8-92BBAD36D5D3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Ligure, 1860-10-31, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-28T14%3A33%3A37.367Z_7> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-26T14%3A35%3A59.724Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Sincero, 1860-12-20, Carolina  Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-26T14:35:59.724Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-28T15%3A55%3A19.727Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T15:55:19.727Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-04-03T12%3A24%3A53.427Z_25>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T12:24:53.427Z_25&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/D04B1C06-8AFB-34AD-B46C-67C0F25A156B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Prudente, 1853-07-06, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-12T12%3A54%3A01.032Z_3> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T13:21:37.243Z_15&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-12-17T16%3A03%3A55.860Z_12>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Antonio, 1853-07-21, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-17T16:03:55.860Z_12&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T14:57:35.212Z_27&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/58658557-0D32-34AA-8663-9E34057CDE7B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), San Lorenzo, 1853-07-08, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-13T13%3A48%3A09.426Z_5> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/6011B720-5299-375B-A2AA-5A30B1DF36E0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-26T15%3A12%3A55.461Z_19> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T14:53:25.437Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-06T13%3A53%3A38.808Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Doge, 1861-02-08, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T13:53:38.808Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/7BDEA53D-1FC3-3ED6-ACB5-089113A9C224>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Industria, 1861-02-15, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-20T14%3A11%3A23.753Z_7> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/F2F2A5BA-68DB-3F0D-A6E5-8A6A5ECB60E1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-17T16:03:55.860Z_12&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T15:16:17.981Z_23&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2019-11-21T11:51:25.393Z_6&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-11-21T11%3A51%3A25.393Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime workers (Matricole della gente di mare), 39, Leonardo Scavino" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2019-11-21T11:51:25.393Z_6&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/60CF6B79-A96A-3BC7-A8C9-513C728DC8B6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Antonietta, 1860-04-29, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-06T15%3A20%3A22.852Z_11> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/44DE9233-2D45-373A-BFF5-CEB8FFE7D5AF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), San Fortunato, 1853-07-18, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-17T13%3A17%3A55.923Z_10> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/4F663D6C-3CC8-326A-BF3D-8139104E9DDE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Baciocchin, 1853-07-15, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-14T16%3A31%3A09.212Z_9> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/9AA7469A-3840-35AE-8F64-0FD713AA5927>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-04-03T14%3A08%3A22.710Z_16>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T14:08:22.710Z_16&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T16:02:13.414Z_13&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-12-17T14%3A10%3A13.565Z_11>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), L`Assunta, 1853-07-19, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-17T14:10:13.565Z_11&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T15:54:36.036Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/E1849A81-66F4-37C1-B16E-5C69D4CA4EF3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dante, 1862-02-26, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-26T15%3A43%3A00.860Z_21> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/9391BAC2-5596-3453-AF80-7AF547B33AE9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Giuseppina, 1853-07-07, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-13T14%3A50%3A24.851Z_6> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2018-10-22T09:20:57.942Z_2&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/1D5DDA00-FE23-39F8-AAAD-B58CDC306C06>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), San Rocco, 1861-01-11, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-06T16%3A14%3A53.101Z_12> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T13:28:11.810Z_16&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T14:25:29.619Z_18&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2017-12-21T13:31:25.667Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-19T15:00:46.119Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T15%3A43%3A00.860Z_21>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Dante, 1862-02-26, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T15:43:00.860Z_21&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-20T14%3A55%3A39.145Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Colombia, 1861-02-15, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T14:55:39.145Z_8&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-27T14%3A39%3A07.123Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Telemaco, 1861-1-30, Maurizio Antinori" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T14:39:07.123Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-12-13T14%3A50%3A24.851Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), La Giuseppina, 1853-07-07, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-13T14:50:24.851Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-12-14T13%3A09%3A35.901Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Eto, 1853-07-12, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-14T13:09:35.901Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T15%3A33%3A48.593Z_20>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Teresa, 1862-03-06, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T15:33:48.593Z_20&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20genova>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record/2018-02-28T14%3A33%3A37.367Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Ligure, 1860-10-31, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T14:33:37.367Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/E38B7D4B-76DE-3D72-9BC4-33C2F211C41C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/30CCD7A1-4F6A-3B2A-9E5B-3F941607CF31>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Telemaco, 1861-1-30, Maurizio Antinori | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-27T14%3A39%3A07.123Z_2> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/5808F326-8AC1-38D5-BEC6-4DDB98C21F23>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), S.Prospero, 1861-02-15, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T13%3A46%3A34.699Z_12> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-12-17T13%3A17%3A55.923Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), San Fortunato, 1853-07-18, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-17T13:17:55.923Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/0E5E8199-D379-316E-B6BC-BD69407FD4E8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Antonio, 1853-07-21, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-17T16%3A03%3A55.860Z_12> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T12:24:53.427Z_25&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-17T13:17:55.923Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T15%3A25%3A41.452Z_13>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Geromina, 1861-02-11, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T15:25:41.452Z_13&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2018-10-22T09:20:57.942Z_2&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T12:54:01.032Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/797FF695-A0B0-3C8E-B1ED-D3EC46B62DFA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2019-11-29T08%3A51%3A01.444Z_98>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), L`Unione, 1854-03-08, Leonardo Scavino" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2019-11-29T08:51:01.444Z_98&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T12:57:56.737Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T15:33:02.073Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-12-13T09%3A10%3A01.852Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Laura, 1853-07-07, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-13T09:10:01.852Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-26T16%3A44%3A01.408Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), La Rosa, 2018-02-26, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-26T16:44:01.408Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-18T13:18:08.773Z_15&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T15%3A33%3A02.073Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T15:33:02.073Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/62219F4E-70C3-31C7-B3D8-3A29212AE268>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Ugo Bassi, 1861-02-07, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-27T15%3A29%3A51.883Z_2> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-27T15%3A54%3A36.036Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Zenobia, 1860-10-08, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T15:54:36.036Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-04-03T12%3A57%3A56.737Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Erminia, 1861-02-16, Francesco  Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T12:57:56.737Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T14%3A25%3A29.619Z_18>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1862-12-02, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T14:25:29.619Z_18&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-28T16%3A08%3A53.469Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Amalia, 1860-12-18, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T16:08:53.469Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/641B8B0B-C38F-3023-B927-121E39E5F479>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), L`Unione, 1860-10-12, Giacomo Calcagno | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-18T15%3A14%3A35.355Z_1> , <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T15:20:22.852Z_11&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T14:55:39.145Z_8&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-05-04T08%3A17%3A05.483Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Register of Maritime workers (Matricole della gente di mare), 33, Leonardo Scavino" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2019-05-04T08:17:05.483Z_5&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/A3230124-EA16-39BC-9183-A39DBC5E69AE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Antonietta, 1862-02-12, Maki Asai | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T14%3A51%3A26.398Z_4> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/43FB4B7C-A4FD-39AE-ACF6-3E3B0359FCAB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Santa Caterina di Genova, 1853-07-14, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-14T15%3A23%3A00.161Z_8> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:40:18.902Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-12-14T15%3A23%3A00.161Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Santa Caterina di Genova, 1853-07-14, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-14T15:23:00.161Z_8&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-01-18T15%3A14%3A35.355Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), L`Unione, 1860-10-12, Giacomo Calcagno" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-01-18T15:14:35.355Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/6CD4864E-8ACD-38FF-9192-D07068634825>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), L`Unione, 1854-03-08, Leonardo Scavino | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-11-29T08%3A51%3A01.444Z_98> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T14%3A40%3A32.384Z_22>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T14:40:32.384Z_22&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-26T15%3A21%3A10.239Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), S. Giobatta, 1861-06-03, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-26T15:21:10.239Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-26T14:35:59.724Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-06T16%3A16%3A29.090Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Emilia, 1861-02-11, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T16:16:29.090Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Maritime%20Workers_IT.html?name=2018-10-23T07:23:32.182Z_1&templateTitle=Register%20of%20Maritime%20workers%20(Matricole%20della%20gente%20di%20mare)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-20T16%3A02%3A13.414Z_13>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Pallade, 1861-01-11, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T16:02:13.414Z_13&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T16:22:47.100Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T13%3A46%3A34.699Z_12>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), S.Prospero, 1861-02-15, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T13:46:34.699Z_12&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T13:02:39.904Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T13:22:32.077Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/F31D1795-D75C-306E-9EAB-36A666EBCF99>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Rosina, 1859-06-06, Benedetta Risso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-20T13%3A21%3A30.542Z_4> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T14:51:26.398Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T16:14:53.101Z_12&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-26T15:21:10.239Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T15%3A16%3A17.981Z_23>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Ider, 1862-02-24, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T15:16:17.981Z_23&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/934F1DA6-17D9-349C-BDF2-A1F646108C5D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 11, Bruno Fabris | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-10-22T09%3A20%3A57.942Z_2> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T14:39:07.123Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T14%3A02%3A15.448Z_17>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Adelaide, 1862-12-01, Carolina  Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T14:02:15.448Z_17&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-27T13%3A12%3A23.975Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:12:23.975Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/1E9E82AB-0321-3D03-9772-2649B08F4487>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombia, 1861-02-15, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-20T14%3A55%3A39.145Z_8> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T14%3A51%3A26.398Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Antonietta, 1862-02-12, Maki Asai" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T14:51:26.398Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-27T16%3A49%3A42.221Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Nostra Signora dell`Orto, 1860-10-11, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T16:49:42.221Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/36D5E6E3-E8AA-3CB6-9750-26F312FD002D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Amalia, 1860-12-18, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-28T16%3A08%3A53.469Z_10> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/E9AE9498-A4B5-3147-AF1D-2FB073829FFC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Laura, 1853-07-07, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-13T09%3A10%3A01.852Z_4> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-13T13:48:09.426Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T13:46:34.699Z_12&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/81B41A4E-3625-3E31-9E37-3566E1F35EED>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Tre Fratelli, 1859-06-15, Benedetta Risso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-06T13%3A24%3A16.996Z_101> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T12:18:28.995Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-02-26T13%3A34%3A26.106Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Il Trionfo, 1860-10-02, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-26T13:34:26.106Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-archivio%20di%20stato%20di%20genova>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Archivio di stato di Genova" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/60BFA7CA-22C4-346C-BF03-8A4532E2EB89> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20genova> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T13:21:30.542Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/E3A4E551-47F7-3E3D-B19B-CE42D6DFA65D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-20T13%3A21%3A30.542Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Rosina, 1859-06-06, Benedetta Risso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T13:21:30.542Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-18T08:15:36.161Z_13&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-01-18T15:14:35.355Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T16:08:53.469Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/95B09761-333D-33C9-A7BE-B87BD9826A8C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), San Lorenzo, 1859-06-03, Benedetta Risso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-19T15%3A00%3A46.119Z_3> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/9BFE394B-131E-3F7A-A121-B443EC5BCBB9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T12:26:31.935Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/A7D2AA21-8F62-3FC7-9ED2-3277D45691DA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T12%3A16%3A14.596Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Telemaco, 1862-02-12, Maki Asai" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T12:16:14.596Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T15:18:15.246Z_8&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/8EC8ECED-A9E1-3B24-91D9-B4691FC76FF3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Zenobia, 1860-10-08, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-27T15%3A54%3A36.036Z_5> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-14T15:23:00.161Z_8&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/1B5532E8-B0C0-3533-BDBB-1BD00BA0BD86>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T13:53:38.808Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T13:03:01.276Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/register_record_point/711F5820-835F-3A31-A991-4F2898191CEB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Nostra Signora del Rosario, 1853-07-22, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-18T08%3A15%3A36.161Z_13> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-direzione%20marittima%20di%20genova>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Direzione marittima di Genova" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/5614F26D-BCA2-3D6B-9418-E0D3CBB90250> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T15:29:51.883Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/C3FE5198-85EE-3181-A34E-9DF0818A3B5C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Verità, 1862-02-13, Maki Asai | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T14%3A06%3A17.784Z_3> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/5E74C735-60F3-3E51-A40E-FDDDF0F20A03>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 39, Leonardo Scavino | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2019-11-21T11%3A51%3A25.393Z_6> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T13:24:16.996Z_101&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-06T13%3A24%3A16.996Z_101>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Tre Fratelli, 1859-06-15, Benedetta Risso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T13:24:16.996Z_101&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-06T15%3A20%3A22.852Z_11>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Antonietta, 1860-04-29, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T15:20:22.852Z_11&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/704FCAF9-CD78-3318-BD54-06BDD1DA972B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Sincero, 1860-12-20, Carolina  Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-26T14%3A35%3A59.724Z_2> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-18T14:15:50.282Z_16&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T15:30:46.728Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T12%3A18%3A28.995Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), La Dacia, 1861-01-11, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T12:18:28.995Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-19T15%3A00%3A46.119Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), San Lorenzo, 1859-06-03, Benedetta Risso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-19T15:00:46.119Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record_point/219B34B0-5B4E-3725-AE8A-AF2928CC9CC5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Trionfo, 1860-10-02, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-26T13%3A34%3A26.106Z_1> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/EDD2B16D-C0C2-31EC-9F5B-4885A3F2D256>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Providenza, 1861-02-12, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-20T13%3A03%3A01.276Z_6> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/BD2B4743-815F-3CAD-BB30-1403DFD275E6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giuseppe, 1862-02-18, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-04-03T14%3A57%3A35.212Z_27> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:12:23.975Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/8A7289E8-E818-386F-A655-AE013604C61E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Ider, 1862-02-24, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T15%3A16%3A17.981Z_23> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-27T15%3A41%3A17.679Z_24>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), S. Francesco, 1862-02-26, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T15:41:17.679Z_24&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/3984EA65-BEAD-38AF-8628-81CD0866CEA1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Pellegra, 10/10/1860, Leonardo Scavino | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-01-10T08%3A46%3A41.900Z_3> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-01-10T08:46:41.900Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/4FA6DEAB-6352-3731-9D15-3E59CBE29B62>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Le Due Marie, 1861-01-31, Maurizio Antinori | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-28T14%3A00%3A06.802Z_3> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/9F74951B-6379-3542-AC81-D5C9E925BE9B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T16:16:29.090Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/C4E5DC18-8156-3F04-A33E-EC0D356D61DE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Doge, 1861-02-08, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-06T13%3A53%3A38.808Z_3> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-20T13%3A03%3A01.276Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Providenza, 1861-02-12, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T13:03:01.276Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/0DFA919C-6BE6-3EC4-9A52-56A2EFC88366>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Dacia, 1861-01-11, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-26T12%3A18%3A28.995Z_14> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-12-13T13%3A48%3A09.426Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), San Lorenzo, 1853-07-08, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-13T13:48:09.426Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/07781B9C-EC77-3FF5-A1B4-E7AF9D05D426>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Register of Maritime workers (Matricole della gente di mare), 13, Giorgio Parodi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20workers%20%28matricole%20della%20gente%20di%20mare%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-10-23T07%3A23%3A32.182Z_1> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/BDE76896-DB1B-3217-8817-38582F2012D5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Erminia, 1861-02-16, Francesco  Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-04-03T12%3A57%3A56.737Z_14> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/1DD2F18D-3C60-3550-BF15-F2E9C5B23544>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Antonio, 1861-02-18, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-27T12%3A29%3A18.423Z_11> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T14:33:40.330Z_8&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/E08DDDB1-1AC0-325F-8967-05A71207637E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Nostra Signora dell`Orto, 1860-10-11, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-27T16%3A49%3A42.221Z_6> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/62099075-3F2B-325A-9BE6-6FC7764D3CB6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Nostra Signora di Montenero, 1853-08-31, Massimo Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-18T14%3A15%3A50.282Z_16> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-12-18T08%3A15%3A36.161Z_13>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Nostra Signora del Rosario, 1853-07-22, Massimo Ponasso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-18T08:15:36.161Z_13&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T15:26:08.221Z_9&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-02-27T15%3A29%3A51.883Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Ugo Bassi, 1861-02-07, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T15:29:51.883Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-20T14%3A11%3A23.753Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Industria, 1861-02-15, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T14:11:23.753Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-20T16%3A22%3A47.100Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T16:22:47.100Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T15%3A12%3A55.461Z_19>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T15:12:55.461Z_19&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/7F3EEAAC-697E-3877-9972-5CA10AFC5D16>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Sincero, 1862-12-01, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-26T13%3A28%3A11.810Z_16> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T15:43:00.860Z_21&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/A27B1A46-A828-3DA8-B6D9-1B246B98401F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Emilia, 1861-02-11, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-06T16%3A16%3A29.090Z_5> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/5A87AAA8-738C-391A-8C53-FB055CD5C237>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Myrra, 1862-02-24, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-04-03T14%3A03%3A20.633Z_26> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T13%3A28%3A11.810Z_16>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Sincero, 1862-12-01, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T13:28:11.810Z_16&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T14:06:17.784Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-02-27T13%3A26%3A48.597Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Andrea, 1860-04-09, Giacomo Calcagno" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:26:48.597Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/9929364F-AF49-3AC5-9FCB-2C70CC3690BB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Boschetto, 1860-12-03, Carolina Gaggero | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-02-28T15%3A18%3A15.246Z_8> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/C1963D4C-A3F8-38E1-8482-45198C7B309D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelita, 18/02/1861, Leonardo Scavino | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2017-12-21T13%3A31%3A25.667Z_2> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/23461DB7-8A33-3FA4-8B3E-FDC409CFA6A6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Società, 1861-02-08, Francesco Ferrando | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-03-06T14%3A53%3A25.437Z_4> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<http://www.sealit.gr/DB/register_record_point/BAF7CEDE-BB00-3857-85DA-CFD88F1E78C4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/organisation/direzione%20marittima%20di%20genova> , <http://www.sealit.gr/DB/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <http://www.sealit.gr/DB/organisation/archivio%20di%20stato%20di%20genova> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T14:24:28.683Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T12%3A26%3A31.935Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Nostra Signora della Concezione, 1859-06-05, Benedetta Risso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T12:26:31.935Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .

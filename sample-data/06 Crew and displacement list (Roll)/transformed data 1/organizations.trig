@@ -1,0 +1,229 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record_point/74B3689B-65E4-30DA-A922-5224090DAEE2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Vapor, Duero, Reino Unido, Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-19T11%3A02%3A12.671Z_6> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/register_record/2018-04-18T10%3A30%3A20.454Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Vapor, Alicante, Estrangero, Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-04-18T10:30:20.454Z_2&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-19T11:02:12.671Z_6&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-05-31T07:19:48.404Z_4&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/D874CE7E-88F0-35D5-A85E-ADFA921F4F75>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Magin, Vilasar, Clàudia Mateo | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-07-02T08%3A43%3A47.143Z_13> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/register_record/2018-07-09T08%3A50%3A46.665Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Pailebot, Flor del Mar, , Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-07-09T08:50:46.665Z_7&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-02-16T22:34:21.845Z_3&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-05-31T07%3A19%3A48.404Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Vapor, Marsella, , Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-05-31T07:19:48.404Z_4&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-06-27T07%3A22%3A55.450Z_9>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), corbeta, Olimpia, Mahon, Clàudia Mateo Jordi Ibarz" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-27T07:22:55.450Z_9&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/0CCFA0AC-7ED4-328C-8EA7-31F75F55FF83>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Vapor, Marsella, , Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-05-31T07%3A19%3A48.404Z_4> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/register_record_point/BB156CDF-7A7A-370B-8165-6B1CA622B402>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Vapor, Ciudad Condal, Reino Unido, Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-05-08T08%3A34%3A35.260Z_3> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-16T22%3A34%3A21.845Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Laud, Estrella, , Jordi Ibarz" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-02-16T22:34:21.845Z_3&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/7DE8D256-86FF-337B-AD1B-08BFBA596C64>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Principe, Vilasar, Clàudia Mateo Jordi Ibarz | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-26T14%3A05%3A50.519Z_8> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-26T14:05:50.519Z_8&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-06-29T10%3A01%3A10.690Z_12>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Bergantin Goleta, Esperanza, , Clàudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-29T10:01:10.690Z_12&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/organization_appellation/EB1F35AB-A827-384F-875E-2231911C624B>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Archivo General de la Marina" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-29T07:55:24.923Z_11&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-04-07T07:39:18.162Z_1&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/register_record/2018-06-05T09%3A06%3A29.640Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Vapor, Marsella, , Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-05T09:06:29.640Z_5&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/A6A87961-7F73-38D2-95C7-F89810668C79>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Vapor, Alicante, Estrangero, Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-18T10%3A30%3A20.454Z_2> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-05T09:06:29.640Z_5&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-06-26T14%3A05%3A50.519Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Bergantin, Principe, Vilasar, Clàudia Mateo Jordi Ibarz" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-26T14:05:50.519Z_8&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/BF153C40-D17F-346C-8CEA-D4113E22B894>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Corbeta, Catalina, Reino Unido, Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-07T07%3A39%3A18.162Z_1> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/register_record/2018-05-08T08%3A34%3A35.260Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Vapor, Ciudad Condal, Reino Unido, Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-05-08T08:34:35.260Z_3&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-07-09T08:50:46.665Z_7&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/register_record/2018-04-07T07%3A39%3A18.162Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Corbeta, Catalina, Reino Unido, Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-04-07T07:39:18.162Z_1&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-28T07:52:37.381Z_10&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-07-02T08:43:47.143Z_13&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew and displacement list (roll)" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-29T10:01:10.690Z_12&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/421DAD37-B1CE-3B01-83A0-D67200E68758>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin Goleta, Esperanza, , Clàudia Mateo | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-29T10%3A01%3A10.690Z_12> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-04-18T10:30:20.454Z_2&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/94D6C1B7-3937-3BDF-A677-CD90D6322092>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-27T07:22:55.450Z_9&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/3E3CC3CF-FF4D-38AC-9C4F-EC7993FEDDBB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Laud, Estrella, , Jordi Ibarz | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-02-16T22%3A34%3A21.845Z_3> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/register_record_point/35C3B98D-47E9-35A7-996A-AB7859F7CD11>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), corbeta, Olimpia, Mahon, Clàudia Mateo Jordi Ibarz | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-27T07%3A22%3A55.450Z_9> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/organisation/master_uri-archivo%20general%20de%20la%20marina>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Archivo General de la Marina" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/EB1F35AB-A827-384F-875E-2231911C624B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/register_record/2018-06-29T07%3A55%3A24.923Z_11>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), polacra, Silencio, Blanes, Clàudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-29T07:55:24.923Z_11&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-28T07:52:37.381Z_10&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/76328609-B915-325B-9B79-4FC4316D28D0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Pailebot, Flor del Mar, , Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-07-09T08%3A50%3A46.665Z_7> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/register_record_point/29B41596-6DF4-3F7E-BFEB-8EC370BB6194>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), polacra, Silencio, Blanes, Clàudia Mateo | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-29T07%3A55%3A24.923Z_11> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/register_record/2018-07-02T08%3A43%3A47.143Z_13>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Bergantin, Magin, Vilasar, Clàudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-07-02T08:43:47.143Z_13&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/08C554CA-2ADD-3201-A686-C4EDB0AAB8F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Vapor, Marsella, , Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-05T09%3A06%3A29.640Z_5> , <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/register_record/2018-06-19T11%3A02%3A12.671Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Vapor, Duero, Reino Unido, Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-19T11:02:12.671Z_6&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-05-08T08:34:35.260Z_3&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .

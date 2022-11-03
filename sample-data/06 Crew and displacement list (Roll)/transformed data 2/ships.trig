@@ -1,0 +1,72 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/BookOfRegistry/Page/1%C2%AA>
+        a                        sealit:Book_of_Registry ;
+        rdfs:label               "1ª" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation/79C18558-B574-38A0-B195-3344839F1112> .
+
+<http://www.sealit.gr/DB/date/1840>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1840" ;
+        crm:P82_at_some_time_within  "1840"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/ship/1990E038-57D9-38C5-9FD2-0364EA862EA0>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/ship/582196C5-4204-321D-990C-39C3BCBC1670>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Eolo" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/eolo> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/ship%20type/bergantin> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/BookOfRegistry/Page/1%C2%AA> ;
+        sealit:was_constructed_by  <urn:uuid:11f43e54-1ce9-4e4c-94f5-3df9fe6d1c94> ;
+        owl:sameAs                 <http://www.sealit.gr/DB/ship/1990E038-57D9-38C5-9FD2-0364EA862EA0> .
+
+<http://www.sealit.gr/DB/appellation/79C18558-B574-38A0-B195-3344839F1112>
+        a           crm:E41_Appellation ;
+        rdfs:label  "1ª" .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/register_record_point/B4CCB1CC-1FB4-3EDD-9F64-9F725727B389>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10> , <http://www.sealit.gr/DB/ship/1990E038-57D9-38C5-9FD2-0364EA862EA0> .
+
+<http://www.sealit.gr/DB/register_record/2018-06-28T07%3A52%3A37.381Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew and displacement list (Roll), Bergantin, Eolo, , Clàudia Mateo" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-28T07:52:37.381Z_10&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView> .
+
+<http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew and displacement list (roll)" .
+
+<http://www.sealit.gr/DB/ship%20name/eolo>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Eolo" .
+
+<http://www.sealit.gr/DB/ship%20type/bergantin>
+        a           crm:E55_Type ;
+        rdfs:label  "bergantin" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List.html?name=2018-06-28T07:52:37.381Z_10&templateTitle=Crew%20and%20displacement%20list%20(Roll)&mode=teamView>
+        a       rdfs:Resource .
+
+<urn:uuid:11f43e54-1ce9-4e4c-94f5-3df9fe6d1c94>
+        a                     sealit:Ship_Construction ;
+        rdfs:label            "Construction of Eolo" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1840> .

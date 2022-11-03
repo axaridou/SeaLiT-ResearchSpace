@@ -1,0 +1,113 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/person/1D0DA12E-37F3-3861-BBA1-3B225AC1274D>
+        a       crm:E21_Person .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/person/AA8039B5-BD69-3E9C-81C9-0DA7EA237221>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/template%20types/payroll>
+        a           crm:E55_Type ;
+        rdfs:label  "payroll" .
+
+<http://www.sealit.gr/DB/register_record_point/5BCDBC94-106E-35ED-9645-948AF29A5F81>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 2, table: transactions_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-07T09%3A30%3A36.143Z_3> , <http://www.sealit.gr/DB/person/98960F77-22CE-3CE0-9B4A-7E299DAE369A> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2020-08-07T09:30:36.143Z_3&templateTitle=Payroll&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2020-08-06T08:16:49.753Z_2&templateTitle=Payroll&mode=teamView> .
+
+<http://www.sealit.gr/DB/profession%20type/%CF%80%CE%BB%CE%BF%CE%AF%CE%B1%CF%81%CF%87%CE%BF%CF%82>
+        a           sealit:Profession ;
+        rdfs:label  "Πλοίαρχος" .
+
+<http://www.sealit.gr/DB/register_record_point/D1EE257A-7A7B-3B7B-B839-56686E764BFA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, table: transactions_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/person/8D10354F-9CF2-3C2B-9E4D-BCB2E53F935E> .
+
+<http://www.sealit.gr/DB/person/36ADF7AF-FE34-3001-9309-0E5E9A7D327A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Φραντζέσκος Σαρκέσης" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/71D35BAE-5003-3DF3-AA1B-80E2F2816171> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Φραντζέσκος" ;
+        sealit:has_last_name     "Σαρκέσης" ;
+        sealit:has_profession    <http://www.sealit.gr/DB/profession%20type/%CF%85%CF%80%CE%BF%CF%80%CE%BB%CE%BF%CE%AF%CE%B1%CF%81%CF%87%CE%BF%CF%82> ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/98960F77-22CE-3CE0-9B4A-7E299DAE369A> , <http://www.sealit.gr/DB/person/1D0DA12E-37F3-3861-BBA1-3B225AC1274D> .
+
+<http://www.sealit.gr/DB/person/0FCFA80F-EE57-3DC5-9B53-2BEEBC9B2A98>
+        a                        crm:E21_Person ;
+        rdfs:label               "Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D7EFD1D4-7692-3D2C-B741-0F89443B8EDB> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Μιχαήλ" ;
+        sealit:has_last_name     "Ι. Καλογιάννης" ;
+        sealit:has_profession    <http://www.sealit.gr/DB/profession%20type/%CF%80%CE%BB%CE%BF%CE%AF%CE%B1%CF%81%CF%87%CE%BF%CF%82> ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/AA8039B5-BD69-3E9C-81C9-0DA7EA237221> , <http://www.sealit.gr/DB/person/8D10354F-9CF2-3C2B-9E4D-BCB2E53F935E> .
+
+<http://www.sealit.gr/DB/profession%20type/%CF%85%CF%80%CE%BF%CF%80%CE%BB%CE%BF%CE%AF%CE%B1%CF%81%CF%87%CE%BF%CF%82>
+        a           sealit:Profession ;
+        rdfs:label  "Υποπλοίαρχος" .
+
+<http://www.sealit.gr/DB/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2020-08-06T08:16:49.753Z_2&templateTitle=Payroll&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/98960F77-22CE-3CE0-9B4A-7E299DAE369A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/71D35BAE-5003-3DF3-AA1B-80E2F2816171>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Σαρκέσης" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record/2020-08-07T09%3A30%3A36.143Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2020-08-07T09:30:36.143Z_3&templateTitle=Payroll&mode=teamView> .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/register_record_point/E12FEA1D-9341-3B82-8D80-0AE90F00BEFD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 2, table: transactions_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/person/1D0DA12E-37F3-3861-BBA1-3B225AC1274D> .
+
+<http://www.sealit.gr/DB/register_record_point/3BBAF6B1-A994-3000-BF85-6F16FD553310>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, table: transactions_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-07T09%3A30%3A36.143Z_3> , <http://www.sealit.gr/DB/person/AA8039B5-BD69-3E9C-81C9-0DA7EA237221> .
+
+<http://www.sealit.gr/DB/person/8D10354F-9CF2-3C2B-9E4D-BCB2E53F935E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/D7EFD1D4-7692-3D2C-B741-0F89443B8EDB>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ι. Καλογιάννης" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .

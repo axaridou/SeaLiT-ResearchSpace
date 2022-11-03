@@ -1,0 +1,155 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/Document_of_Register/78034E24-DB86-4AAF-A55A-A45BEA9A240A>
+        a                 crm:E31_Document , crm:E18_Physical_Thing ;
+        crm:P128_carries  <urn:uuid:82d2bdbd-c258-4adf-bbc7-68c5c9ea9655> ;
+        crm:P2_has_type   <http://www.sealit.gr/DB/doc%20types/source%20identity> .
+
+<http://www.sealit.gr/DB/language/spanish>
+        a           crm:E56_Language ;
+        rdfs:label  "Spanish" .
+
+<http://www.sealit.gr/DB/service%20types/military%20service>
+        a           crm:E55_Type ;
+        rdfs:label  "military service" .
+
+<urn:uuid:0da4103f-e56f-4940-beae-f0334a89605f>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Birth date of Juan Gomez Hernandez" ;
+        crm:P82_at_some_time_within  "1888-06-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/birth/1474E881-FE70-3721-B759-C292992C712F>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Juan Gomez Hernandez" ;
+        crm:P4_has_time-span  <urn:uuid:0da4103f-e56f-4940-beae-f0334a89605f> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/barcelona> ;
+        crm:P96_by_mother     <http://www.sealit.gr/DB/person/A94C08DF-2C99-3309-8006-9DB8B0CA83D4> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/6832D903-F0AB-376A-A3B8-ABB8E874F6C6> .
+
+<urn:uuid:82d2bdbd-c258-4adf-bbc7-68c5c9ea9655>
+        a                     crm:E33_Linguistic_Object ;
+        crm:P72_has_language  <http://www.sealit.gr/DB/language/spanish> .
+
+<http://www.sealit.gr/DB/profession%20types/previous>
+        a           crm:E55_Type ;
+        rdfs:label  "previous profession" .
+
+<http://www.sealit.gr/DB/person/A94C08DF-2C99-3309-8006-9DB8B0CA83D4>
+        a                      crm:E21_Person ;
+        rdfs:label             "Casimira Hernandez" ;
+        sealit:has_first_name  "Casimira" ;
+        sealit:has_last_name   "Hernandez" .
+
+<http://www.sealit.gr/DB/military_service/1474E881-FE70-3721-B759-C292992C712F>
+        a                     sealit:Service ;
+        rdfs:label            "Military service of  Juan Gomez Hernandez" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/service%20types/military%20service> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/person/4E3E3E0D-6417-3ABD-8169-36D16DD90410>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Gomez Hernandez" ;
+        crm:P70i_is_documented_in       <http://www.sealit.gr/DB/document/B5ACBA53-9455-3C73-B550-DEECC851729E> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/barcelona> ;
+        crm:P98i_was_born               <http://www.sealit.gr/DB/birth/1474E881-FE70-3721-B759-C292992C712F> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Gomez Hernandez" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/previous_profession/lampista> ;
+        sealit:has_social_status        <http://www.sealit.gr/DB/marital%20status/soltero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/1474E881-FE70-3721-B759-C292992C712F> ;
+        sealit:provided                 <http://www.sealit.gr/DB/military_service/1474E881-FE70-3721-B759-C292992C712F> .
+
+<http://www.sealit.gr/DB/doc%20types/source%20identity>
+        a           crm:E55_Type ;
+        rdfs:label  "source identity" .
+
+<http://www.sealit.gr/DB/location/barcelona>
+        a           crm:E53_Place ;
+        rdfs:label  "barcelona" , "Barcelona" .
+
+<urn:uuid:58b875b7-2736-4497-a765-ebd2509b1ff4>
+        a                crm:E31_Document ;
+        rdfs:label       "Military Service Folio 1" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/folio> .
+
+<http://www.sealit.gr/DB/doc%20types/folio>
+        a           crm:E55_Type ;
+        rdfs:label  "folio" .
+
+<http://www.sealit.gr/DB/marital%20status/soltero>
+        a                sealit:Social_Status ;
+        rdfs:label       "soltero" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/status%20types/marital%20status> .
+
+<http://www.sealit.gr/DB/previous_profession/lampista>
+        a                sealit:Profession ;
+        rdfs:label       "lampista" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/profession%20types/previous> .
+
+<http://www.sealit.gr/DB/status%20types/marital%20status>
+        a           crm:E55_Type ;
+        rdfs:label  "marital status" .
+
+<http://www.sealit.gr/DB/doc%20part/page>
+        a           crm:E55_Type ;
+        rdfs:label  "Page" .
+
+<http://www.sealit.gr/DB/document/B5ACBA53-9455-3C73-B550-DEECC851729E>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 0691" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20part/page> .
+
+<http://www.sealit.gr/DB/creation/6074C410-8C87-3395-AFC4-08B245060C24>
+        a                     crm:E65_Creation ;
+        rdfs:label            "Creation of doc Register of Maritime personel, , ," ;
+        crm:P4_has_time-span  <urn:uuid:9c43c194-c667-4772-924b-d370fa2fe814> .
+
+<http://www.sealit.gr/DB/registration/1474E881-FE70-3721-B759-C292992C712F>
+        a                          sealit:Civil_Registration ;
+        rdfs:label                 "Registration of Juan Gomez Hernandez" ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span       <http://www.sealit.gr/DB/date/1904-01-02> ;
+        crm:P70i_is_documented_in  <urn:uuid:58b875b7-2736-4497-a765-ebd2509b1ff4> .
+
+<http://www.sealit.gr/DB/register_record/2019-09-17T11%3A03%3A41.913Z_1>
+        a                        crm:E73_Information_Object ;
+        rdfs:label               "Register of Maritime personel, , ," ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel> , <http://www.sealit.gr/DB/doc%20types/record%20information> ;
+        crm:P67_refers_to        <http://www.sealit.gr/DB/Document_of_Register/78034E24-DB86-4AAF-A55A-A45BEA9A240A> ;
+        crm:P94i_was_created_by  <http://www.sealit.gr/DB/creation/6074C410-8C87-3395-AFC4-08B245060C24> .
+
+<urn:uuid:9c43c194-c667-4772-924b-d370fa2fe814>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "2019-09-17 2021-06-16T13:15:27" ;
+        crm:P82a_begin_of_the_begin  "2019-09-17"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "2021-06-16T13:15:27"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://www.sealit.gr/DB/date/1904-01-02>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1904-01-02" ;
+        crm:P82_at_some_time_within  "1904-01-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/6832D903-F0AB-376A-A3B8-ABB8E874F6C6>
+        a                      crm:E21_Person ;
+        rdfs:label             "Casimiro Gomez" ;
+        sealit:has_first_name  "Casimiro" ;
+        sealit:has_last_name   "Gomez" .
+
+<http://www.sealit.gr/DB/template%20types/register%20of%20maritime%20personel>
+        a           crm:E55_Type ;
+        rdfs:label  "register of maritime personel" .
+
+<http://www.sealit.gr/DB/registration%20types/military%20service%20registration>
+        a           crm:E55_Type ;
+        rdfs:label  "military service registration" .
+
+<http://www.sealit.gr/DB/doc%20types/record%20information>
+        a           crm:E55_Type ;
+        rdfs:label  "record information" .

@@ -1,0 +1,61 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/organization_appellation/C198FFD2-D4F2-32A6-B976-0C711F8FC213>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Museu Marítim" .
+
+<http://www.sealit.gr/DB/organisation/master_uri-museu%20mar%C3%ADtim>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Museu Marítim" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/organization_appellation/C198FFD2-D4F2-32A6-B976-0C711F8FC213> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        owl:sameAs               <http://www.sealit.gr/DB/organisation/museu%20mar%C3%ADtim> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/organisation/museu%20mar%C3%ADtim>
+        a       crm:E40_Legal_Body .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Register_of_Ships.html?name=2019-04-25T11:19:49.154Z_1&templateTitle=Naval%20Ship%20Register%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-04-25T11%3A32%3A17.419Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Naval Ship Register List, Cuarta Lista, Nº 8, Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Register_of_Ships.html?name=2019-04-25T11:32:17.419Z_2&templateTitle=Naval%20Ship%20Register%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/D30FA61A-B1E1-3901-8170-C4D5D890C6DB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1> , <http://www.sealit.gr/DB/organisation/museu%20mar%C3%ADtim> .
+
+<http://www.sealit.gr/DB/register_record_point/132105D3-EB27-306E-BE83-AA2D3F950145>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Naval Ship Register List, Cuarta Lista, Nº 8, Daniel Muntané | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-25T11%3A32%3A17.419Z_2> , <http://www.sealit.gr/DB/organisation/museu%20mar%C3%ADtim> .
+
+<http://www.sealit.gr/DB/template%20types/naval%20ship%20register%20list>
+        a           crm:E55_Type ;
+        rdfs:label  "naval ship register list" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Register_of_Ships.html?name=2019-04-25T11:32:17.419Z_2&templateTitle=Naval%20Ship%20Register%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2019-04-25T11%3A19%3A49.154Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Naval Ship Register List, Cuarta Lista, Nº 7, Daniel Muntané" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Register_of_Ships.html?name=2019-04-25T11:19:49.154Z_1&templateTitle=Naval%20Ship%20Register%20List&mode=teamView> .

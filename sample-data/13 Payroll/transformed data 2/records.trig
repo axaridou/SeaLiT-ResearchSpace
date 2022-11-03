@@ -1,0 +1,493 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/voyage_number/4>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/identifier/voyage%20number> .
+
+<http://www.sealit.gr/DB/ship_voyage/80D183E8-6924-3D93-A2C1-97ED42870714>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<http://www.sealit.gr/DB/serial_number_id/1>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/identifier%20types/serial%20number> .
+
+<http://www.sealit.gr/DB/money%20types/total%20wage>
+        a           crm:E55_Type ;
+        rdfs:label  "total wage" .
+
+<http://www.sealit.gr/DB/person_monthly_payment/67555293-2CCC-3DBF-9C62-3F1A46413A55>
+        a                       sealit:Crew_Payment ;
+        rdfs:label              "Monthly payment of Φραντζέσκος Σαρκέσης" ;
+        sealit:had_money_value  <urn:uuid:e4b47cb2-62a7-4dee-ae71-0aa7451fbcd4> .
+
+<http://www.sealit.gr/DB/person_total_wage_payment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5>
+        a                       sealit:Crew_Payment ;
+        rdfs:label              "Total wage payment of Μιχαήλ Ι. Καλογιάννης" ;
+        sealit:had_money_value  <urn:uuid:88a1c6c6-ae03-4ff1-bf2f-6fe4ab130398> .
+
+<http://www.sealit.gr/DB/roles%20type/research%20assistant>
+        a           crm:E55_Type ;
+        rdfs:label  "research assistant" .
+
+<urn:uuid:a8f0004f-9cb7-4df4-9cbc-eac3605a1144>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of employment of Φραντζέσκος Σαρκέσης" ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/duration%20type/total%20duration> ;
+        sealit:value_duration  "P4M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/doc%20types/source%20identity>
+        a           crm:E55_Type ;
+        rdfs:label  "source identity" .
+
+<urn:uuid:a55842a4-1779-4bdf-af68-ed55c6934527>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Timespan of creation of doc Account Book" ;
+        crm:P82a_begin_of_the_begin  "1878" ;
+        crm:P82b_end_of_the_end      "1887"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/Stamatios/I.%20Kalogiannis>
+        a                      crm:E21_Person ;
+        rdfs:label             "Stamatios I. Kalogiannis" ;
+        sealit:has_first_name  "Stamatios" ;
+        sealit:has_last_name   "I. Kalogiannis" .
+
+<http://www.sealit.gr/DB/doc%20part/page>
+        a           crm:E55_Type ;
+        rdfs:label  "page" .
+
+<http://www.sealit.gr/DB/person_recruitment/67555293-2CCC-3DBF-9C62-3F1A46413A55>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Recruitment of Φραντζέσκος Σαρκέσης" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/person_recruitment_date/67555293-2CCC-3DBF-9C62-3F1A46413A55> .
+
+<http://www.sealit.gr/DB/title%20type/archival%20title>
+        a           crm:E55_Type ;
+        rdfs:label  "archival title" .
+
+<http://www.sealit.gr/DB/person_discharge_date/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Discharge date of Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P82_at_some_time_within  "1880-09-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:9fbce7de-02f6-49f5-adbe-91e2a728e5ac>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of employment of Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P2_has_type        <http://www.sealit.gr/DB/duration%20type/total%20duration> ;
+        sealit:value_duration  "P5M23D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/person_employment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5>
+        a                      sealit:Ship_Crew_Employment ;
+        rdfs:label             "Employment of Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P01i_is_domain_of  <urn:uuid:26fedc78-376e-45d2-8f66-1fdc6457b372> ;
+        crm:P4_has_time-span   <urn:uuid:d5d6ffbe-af61-4adf-81fd-e7d8902d9623> ;
+        sealit:ended_by        <http://www.sealit.gr/DB/person_discharge/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5> ;
+        sealit:started_by      <http://www.sealit.gr/DB/person_recruitment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5> .
+
+<http://www.sealit.gr/DB/arrival/426C23B6-A15E-376F-BB42-CAA2436DEF32>
+        a           sealit:Arrival_At ;
+        rdfs:label  "Arrival of ship Eleni Kouppa ,to port Hydra" ;
+        sealit:at   <http://www.sealit.gr/DB/location/hydra> .
+
+<http://www.sealit.gr/DB/document/51BD46FC-B60D-397F-B116-29713C1DEAC9>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 67" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20part/page> .
+
+<http://www.sealit.gr/DB/ship_voyage/EB458AAC-AC46-3BB8-99E9-5697EF521B8C>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<http://www.sealit.gr/DB/location/hydra>
+        a           crm:E53_Place ;
+        rdfs:label  "Hydra" .
+
+<urn:uuid:c87f4fd2-b1fa-4850-804a-34121c4b02f8>
+        a                     crm:E65_Creation ;
+        rdfs:label            "Registration of doc Account Book" ;
+        crm:P4_has_time-span  <urn:uuid:a55842a4-1779-4bdf-af68-ed55c6934527> .
+
+<urn:uuid:88a1c6c6-ae03-4ff1-bf2f-6fe4ab130398>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Money (total wage) received for Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/money%20types/total%20wage> ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/%CF%86%CF%81%CE%AC%CE%B3%CE%BA%CE%BF> ;
+        sealit:P181_has_amount    "576. 65" .
+
+<http://www.sealit.gr/DB/appellation/60659CFD-A992-313E-A10F-285C46692D28>
+        a           crm:E49_Time_Appellation ;
+        rdfs:label  "Julian" .
+
+<http://www.sealit.gr/DB/profession%20type/%CF%85%CF%80%CE%BF%CF%80%CE%BB%CE%BF%CE%AF%CE%B1%CF%81%CF%87%CE%BF%CF%82>
+        a           sealit:Profession ;
+        rdfs:label  "Υποπλοίαρχος" .
+
+<http://www.sealit.gr/DB/Document_of_Register/4DC2028C-762E-4FA0-B23F-85CF42A1EC42>
+        a                        crm:E31_Document , crm:E18_Physical_Thing ;
+        rdfs:label               "Document Private archive Rafalias - Account Book" ;
+        crm:P102_has_title       <http://www.sealit.gr/DB/appellation/2A951D23-F29A-38E2-B4EB-2F2EB3054177> ;
+        crm:P128_carries         <urn:uuid:da027ed1-355d-40d7-b8ec-1c7d04694580> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/doc%20types/source%20identity> ;
+        crm:P49_has_former_or_current_keeper
+                <http://www.sealit.gr/DB/organisation/private%20archive%20rafalias> ;
+        crm:P94i_was_created_by  <urn:uuid:c87f4fd2-b1fa-4850-804a-34121c4b02f8> .
+
+<urn:uuid:f996b17a-1456-43fb-8526-9c6202e1e1c4>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Money (total wage) received for Φραντζέσκος Σαρκέσης" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/money%20types/total%20wage> ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/%CF%86%CF%81%CE%AC%CE%B3%CE%BA%CE%BF> ;
+        sealit:P181_has_amount    "344" .
+
+<http://www.sealit.gr/DB/organisation/forth/ims>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "FORTH/IMS" .
+
+<http://www.sealit.gr/DB/payment_overall/51BD46FC-B60D-397F-B116-29713C1DEAC9>
+        a                       sealit:Crew_Payment ;
+        rdfs:label              "Overall total wages -  Voyage: 4, 2959,05 Φράγκο" ;
+        crm:P2_has_type         <http://www.sealit.gr/DB/payment%20types/overall%20wages> ;
+        sealit:had_money_value  <urn:uuid:564f2b35-de8f-425d-8f9a-70f0153ff5a8> .
+
+<http://www.sealit.gr/DB/ship_name/1C37E958-A9D0-3D62-B7C6-D7966A2221E0>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Eleni Kouppa" .
+
+<http://www.sealit.gr/DB/currency/%CF%86%CF%81%CE%AC%CE%B3%CE%BA%CE%BF>
+        a           sealit:E98_Currency ;
+        rdfs:label  "Φράγκο" .
+
+<http://www.sealit.gr/DB/payment%20types/overall%20wages>
+        a           crm:E55_Type ;
+        rdfs:label  "overall wages" .
+
+<http://www.sealit.gr/DB/ship%20type/brig>
+        a           crm:E55_Type ;
+        rdfs:label  "Brig" .
+
+<http://www.sealit.gr/DB/person_discharge_date/67555293-2CCC-3DBF-9C62-3F1A46413A55>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Discharge date of Φραντζέσκος Σαρκέσης" ;
+        crm:P82_at_some_time_within  "1880-07-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:e4b47cb2-62a7-4dee-ae71-0aa7451fbcd4>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Money received for Φραντζέσκος Σαρκέσης" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/money%20types/montly%20payment> ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/%CF%86%CF%81%CE%AC%CE%B3%CE%BA%CE%BF> ;
+        sealit:P181_has_amount    "80" .
+
+<http://www.sealit.gr/DB/person_employment/67555293-2CCC-3DBF-9C62-3F1A46413A55>
+        a                      sealit:Ship_Crew_Employment ;
+        rdfs:label             "Employment of Φραντζέσκος Σαρκέσης" ;
+        crm:P01i_is_domain_of  <urn:uuid:a5c44087-dea1-4d38-ae58-c1975dd788a9> ;
+        crm:P4_has_time-span   <urn:uuid:d488c963-42a2-45c2-8155-6e52a89a8178> ;
+        sealit:ended_by        <http://www.sealit.gr/DB/person_discharge/67555293-2CCC-3DBF-9C62-3F1A46413A55> ;
+        sealit:started_by      <http://www.sealit.gr/DB/person_recruitment/67555293-2CCC-3DBF-9C62-3F1A46413A55> .
+
+<http://www.sealit.gr/DB/ship_voyage/C477B0F8-1514-38CC-834A-11DECBCD43D1>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<http://www.sealit.gr/DB/person_recruitment_date/67555293-2CCC-3DBF-9C62-3F1A46413A55>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Recruitment date of Φραντζέσκος Σαρκέσης" ;
+        crm:P1_is_identified_by      <http://www.sealit.gr/DB/date_appellation/60659CFD-A992-313E-A10F-285C46692D28> ;
+        crm:P82_at_some_time_within  "1880-03-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/appellation/2A951D23-F29A-38E2-B4EB-2F2EB3054177>
+        a                crm:E35_Title ;
+        rdfs:label       "Account Book" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/title%20type/archival%20title> .
+
+<http://www.sealit.gr/DB/ship_ownership/6B46E924-71E9-3F18-813E-FE2C5D0F17F6>
+        a                 sealit:Ship_Ownership_Phase ;
+        rdfs:label        "ownership of ship Eleni Kouppa" ;
+        sealit:has_owner  <http://www.sealit.gr/DB/Stamatios/I.%20Kalogiannis> .
+
+<http://www.sealit.gr/DB/ship_voyage/F6AD07D4-9869-377A-ACD9-E3C35616AF25>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<http://www.sealit.gr/DB/ship_voyage/C588C78F-393C-316F-B3E5-BEF5AF8579DB>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<urn:uuid:ee6ae53d-bd5a-411e-bd2f-729437148782>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 67-68" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20part/page> .
+
+<http://www.sealit.gr/DB/person/AA8039B5-BD69-3E9C-81C9-0DA7EA237221>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/serial_number_id/1> ;
+        crm:P70i_is_documented_in  <urn:uuid:ee6ae53d-bd5a-411e-bd2f-729437148782> ;
+        sealit:gave_service_for    <http://www.sealit.gr/DB/person_monthly_payment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5> , <http://www.sealit.gr/DB/person_total_wage_payment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5> , <http://www.sealit.gr/DB/person_wage_payment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/person_employment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5> ;
+        sealit:has_first_name      "Μιχαήλ" ;
+        sealit:has_last_name       "Ι. Καλογιάννης" ;
+        sealit:has_profession      <http://www.sealit.gr/DB/profession%20type/%CF%80%CE%BB%CE%BF%CE%AF%CE%B1%CF%81%CF%87%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/person_recruitment_date/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Recruitment date of Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P1_is_identified_by      <http://www.sealit.gr/DB/date_appellation/60659CFD-A992-313E-A10F-285C46692D28> ;
+        crm:P82_at_some_time_within  "1880-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/ship/6B46E924-71E9-3F18-813E-FE2C5D0F17F6>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Eleni Kouppa" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship_name/1C37E958-A9D0-3D62-B7C6-D7966A2221E0> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/ship%20type/brig> ;
+        sealit:has_phase           <http://www.sealit.gr/DB/ship_ownership/6B46E924-71E9-3F18-813E-FE2C5D0F17F6> ;
+        sealit:voyages             <http://www.sealit.gr/DB/ship_voyage/51BD46FC-B60D-397F-B116-29713C1DEAC9> ;
+        sealit:was_constructed_by  <http://www.sealit.gr/DB/ship_construction/6B46E924-71E9-3F18-813E-FE2C5D0F17F6> .
+
+<http://www.sealit.gr/DB/duration%20type/total%20duration>
+        a           crm:E55_Type ;
+        rdfs:label  "total duration" .
+
+<http://www.sealit.gr/DB/creation/4A0CAAE3-0381-385E-A999-744DBB253E29>
+        a                       crm:E65_Creation ;
+        rdfs:label              "creation of doc Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis" ;
+        crm:P01i_is_domain_of   <urn:uuid:b0fcb8cc-f663-4825-b36d-2a42217953a3> ;
+        crm:P14_carried_out_by  <http://www.sealit.gr/DB/person/139609A8-38B3-3BB6-B7DE-46E06EFFAB32> ;
+        crm:P4_has_time-span    <urn:uuid:186f0b7f-e114-416d-be50-f12d83b39c1e> .
+
+<urn:uuid:d5d6ffbe-af61-4adf-81fd-e7d8902d9623>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Timespan of employment of Μιχαήλ Ι. Καλογιάννης" ;
+        sealit:had_duration  <urn:uuid:9fbce7de-02f6-49f5-adbe-91e2a728e5ac> .
+
+<http://www.sealit.gr/DB/ship_construction/6B46E924-71E9-3F18-813E-FE2C5D0F17F6>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "construction of ship Eleni Kouppa" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship_name/1C37E958-A9D0-3D62-B7C6-D7966A2221E0> .
+
+<http://www.sealit.gr/DB/organisation/private%20archive%20rafalias>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Private archive Rafalias" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation/28E6C853-6A3A-3A7E-BDE8-4DE3E3583D74> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/hydra> .
+
+<http://www.sealit.gr/DB/date_appellation/60659CFD-A992-313E-A10F-285C46692D28>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Julian" .
+
+<http://www.sealit.gr/DB/ship_voyage/6BE47307-919E-39D1-9F1E-1056DFAFB1F5>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<http://www.sealit.gr/DB/person_discharge/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/person_discharge_date/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5> .
+
+<urn:uuid:564f2b35-de8f-425d-8f9a-70f0153ff5a8>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Money received for voyage 4" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/%CF%86%CF%81%CE%AC%CE%B3%CE%BA%CE%BF> ;
+        sealit:P181_has_amount    "2959.05" .
+
+<http://www.sealit.gr/DB/ship_voyage/AC2A12D7-CE28-326A-9AA3-E529CBA796A7>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<urn:uuid:b0fcb8cc-f663-4825-b36d-2a42217953a3>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "performed" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/roles%20type/research%20assistant> .
+
+<http://www.sealit.gr/DB/person/139609A8-38B3-3BB6-B7DE-46E06EFFAB32>
+        a                      crm:E21_Person ;
+        rdfs:label             "Nikolaos Kastrinakis" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/organisation/forth/ims> ;
+        sealit:has_first_name  "Nikolaos" ;
+        sealit:has_last_name   "Kastrinakis" .
+
+<urn:uuid:d488c963-42a2-45c2-8155-6e52a89a8178>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Timespan of employment of Φραντζέσκος Σαρκέσης" ;
+        sealit:had_duration  <urn:uuid:a8f0004f-9cb7-4df4-9cbc-eac3605a1144> .
+
+<urn:uuid:26fedc78-376e-45d2-8f66-1fdc6457b372>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/%CF%80%CE%BB%CE%BF%CE%AF%CE%B1%CF%81%CF%87%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/person_wage_payment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Wage payment of Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P9_consists_of  <http://www.sealit.gr/DB/person_total_wage_payment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5> .
+
+<urn:uuid:a5c44087-dea1-4d38-ae58-c1975dd788a9>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/%CF%85%CF%80%CE%BF%CF%80%CE%BB%CE%BF%CE%AF%CE%B1%CF%81%CF%87%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/profession%20type/%CF%80%CE%BB%CE%BF%CE%AF%CE%B1%CF%81%CF%87%CE%BF%CF%82>
+        a           sealit:Profession ;
+        rdfs:label  "Πλοίαρχος" .
+
+<http://www.sealit.gr/DB/ship_voyage/15ED2090-ED0C-3DF7-BCCE-4F04643CEFC9>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<urn:uuid:21d96b5c-8885-4d19-9493-36b80ff3087c>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Timespan of voyage" ;
+        crm:P1_is_identified_by      <http://www.sealit.gr/DB/appellation/60659CFD-A992-313E-A10F-285C46692D28> ;
+        crm:P82a_begin_of_the_begin  "1880-03-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/ship_voyage/D5A76E33-80FB-3BC0-AA39-81175D66D1EA>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<http://www.sealit.gr/DB/template%20types/payroll>
+        a           crm:E55_Type ;
+        rdfs:label  "payroll" .
+
+<http://www.sealit.gr/DB/ship_voyage/2D73EAE5-519E-3EC8-8D2F-DD8187B48B69>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<http://www.sealit.gr/DB/ship_voyage/4DE4B11F-B675-3831-8939-2D9A85B57B37>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<http://www.sealit.gr/DB/money%20types/montly%20payment>
+        a           crm:E55_Type ;
+        rdfs:label  "monthly payment" .
+
+<http://www.sealit.gr/DB/ship_voyage/DB76EA2E-B36F-39E9-9AFA-258736607473>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<urn:uuid:186f0b7f-e114-416d-be50-f12d83b39c1e>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "2020-08-07 2022-01-13T13:58:51" ;
+        crm:P82a_begin_of_the_begin  "2020-08-07"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end      "2022-01-13T13:58:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<urn:uuid:da027ed1-355d-40d7-b8ec-1c7d04694580>
+        a                     crm:E33_Linguistic_Object ;
+        rdfs:label            "Content of doc Account Book" ;
+        crm:P72_has_language  <http://www.sealit.gr/DB/language/greek> .
+
+<http://www.sealit.gr/DB/ship_voyage/51BD46FC-B60D-397F-B116-29713C1DEAC9>
+        a                          sealit:Voyage ;
+        rdfs:label                 "Voyage 4 from date: 1880-03-19, to date:" ;
+        crm:P14_carried_out_by     <http://www.sealit.gr/DB/person/AA8039B5-BD69-3E9C-81C9-0DA7EA237221> , <http://www.sealit.gr/DB/person/98960F77-22CE-3CE0-9B4A-7E299DAE369A> ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/voyage_number/4> ;
+        crm:P4_has_time-span       <urn:uuid:21d96b5c-8885-4d19-9493-36b80ff3087c> ;
+        crm:P70i_is_documented_in  <http://www.sealit.gr/DB/document/51BD46FC-B60D-397F-B116-29713C1DEAC9> ;
+        crm:P9_consists_of         <http://www.sealit.gr/DB/arrival/426C23B6-A15E-376F-BB42-CAA2436DEF32> , <http://www.sealit.gr/DB/departure/426C23B6-A15E-376F-BB42-CAA2436DEF32> ;
+        sealit:predefines          <http://www.sealit.gr/DB/payment_overall/51BD46FC-B60D-397F-B116-29713C1DEAC9> .
+
+<http://www.sealit.gr/DB/location/piraeus-istanbul-kerch-berdyansk-sozogun-istanbul-hydra-marseille-messina>
+        a           crm:E53_Place ;
+        rdfs:label  "Piraeus-Istanbul-Kerch-Berdyansk-Sozogun-Istanbul-Hydra-Marseille-Messina" .
+
+<http://www.sealit.gr/DB/language/greek>
+        a           crm:E56_Language ;
+        rdfs:label  "Greek" .
+
+<http://www.sealit.gr/DB/person_discharge/67555293-2CCC-3DBF-9C62-3F1A46413A55>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Φραντζέσκος Σαρκέσης" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/person_discharge_date/67555293-2CCC-3DBF-9C62-3F1A46413A55> .
+
+<http://www.sealit.gr/DB/appellation/28E6C853-6A3A-3A7E-BDE8-4DE3E3583D74>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Private archive Rafalias" .
+
+<http://www.sealit.gr/DB/ship_voyage/7737A458-A8DC-32A7-89E5-191B383419EE>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .
+
+<http://www.sealit.gr/DB/person_monthly_payment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5>
+        a                       sealit:Crew_Payment ;
+        rdfs:label              "Monthly payment of Μιχαήλ Ι. Καλογιάννης" ;
+        sealit:had_money_value  <urn:uuid:39292b6f-e0c9-4ce1-9814-75db7a76f055> .
+
+<http://www.sealit.gr/DB/serial_number_id/2>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/identifier%20types/serial%20number> .
+
+<urn:uuid:39292b6f-e0c9-4ce1-9814-75db7a76f055>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Money received for Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/money%20types/montly%20payment> ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/%CF%86%CF%81%CE%AC%CE%B3%CE%BA%CE%BF> ;
+        sealit:P181_has_amount    "100" .
+
+<http://www.sealit.gr/DB/person_wage_payment/67555293-2CCC-3DBF-9C62-3F1A46413A55>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Wage payment of Φραντζέσκος Σαρκέσης" ;
+        crm:P9_consists_of  <http://www.sealit.gr/DB/person_total_wage_payment/67555293-2CCC-3DBF-9C62-3F1A46413A55> .
+
+<http://www.sealit.gr/DB/identifier%20types/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<http://www.sealit.gr/DB/doc%20types/record%20information>
+        a           crm:E55_Type ;
+        rdfs:label  "record information" .
+
+<urn:uuid:4d4d86f6-2aff-402a-833a-9ab60227eb11>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 67-68" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20part/page> .
+
+<http://www.sealit.gr/DB/departure/426C23B6-A15E-376F-BB42-CAA2436DEF32>
+        a                  sealit:Leaving ;
+        rdfs:label         "Departure of ship Eleni Kouppa ,from port Piraeus-Istanbul-Kerch-Berdyansk-Sozogun-Istanbul-Hydra-Marseille-Messina" ;
+        sealit:from_place  <http://www.sealit.gr/DB/location/piraeus-istanbul-kerch-berdyansk-sozogun-istanbul-hydra-marseille-messina> .
+
+<http://www.sealit.gr/DB/person_recruitment/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Recruitment of Μιχαήλ Ι. Καλογιάννης" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/person_recruitment_date/74A033DA-FCD2-3D11-9FD3-62D04D3B0FC5> .
+
+<http://www.sealit.gr/DB/register_record/2020-08-07T09%3A30%3A36.143Z_3>
+        a                        crm:E73_Information_Object ;
+        rdfs:label               "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis" ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/template%20types/payroll> , <http://www.sealit.gr/DB/doc%20types/record%20information> ;
+        crm:P67_refers_to        <http://www.sealit.gr/DB/Document_of_Register/4DC2028C-762E-4FA0-B23F-85CF42A1EC42> ;
+        crm:P94i_was_created_by  <http://www.sealit.gr/DB/creation/4A0CAAE3-0381-385E-A999-744DBB253E29> .
+
+<http://www.sealit.gr/DB/person_total_wage_payment/67555293-2CCC-3DBF-9C62-3F1A46413A55>
+        a                       sealit:Crew_Payment ;
+        rdfs:label              "Total wage payment of Φραντζέσκος Σαρκέσης" ;
+        sealit:had_money_value  <urn:uuid:f996b17a-1456-43fb-8526-9c6202e1e1c4> .
+
+<http://www.sealit.gr/DB/person/98960F77-22CE-3CE0-9B4A-7E299DAE369A>
+        a                          crm:E21_Person ;
+        rdfs:label                 "Φραντζέσκος Σαρκέσης" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/serial_number_id/2> ;
+        crm:P70i_is_documented_in  <urn:uuid:4d4d86f6-2aff-402a-833a-9ab60227eb11> ;
+        sealit:gave_service_for    <http://www.sealit.gr/DB/person_monthly_payment/67555293-2CCC-3DBF-9C62-3F1A46413A55> , <http://www.sealit.gr/DB/person_wage_payment/67555293-2CCC-3DBF-9C62-3F1A46413A55> , <http://www.sealit.gr/DB/person_total_wage_payment/67555293-2CCC-3DBF-9C62-3F1A46413A55> ;
+        sealit:had_provided        <http://www.sealit.gr/DB/person_employment/67555293-2CCC-3DBF-9C62-3F1A46413A55> ;
+        sealit:has_first_name      "Φραντζέσκος" ;
+        sealit:has_last_name       "Σαρκέσης" ;
+        sealit:has_profession      <http://www.sealit.gr/DB/profession%20type/%CF%85%CF%80%CE%BF%CF%80%CE%BB%CE%BF%CE%AF%CE%B1%CF%81%CF%87%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/identifier/voyage%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "voyage number" .
+
+<http://www.sealit.gr/DB/ship_voyage/83E56594-D1E6-393D-92BF-5DAE75F70332>
+        a           sealit:Voyage ;
+        rdfs:label  "Voyage from date: , to date:" .

@@ -1,0 +1,3186 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<urn:uuid:0241be4b-4372-4642-8537-5543db1aba11>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<urn:uuid:074a6b1c-dc0c-4477-a54b-b0d6ed75a539>
+        a                           sealit:Voyage ;
+        rdfs:label                  "Route of ship Esperanza" ;
+        crm:P70i_is_documented_in   <http://www.sealit.gr/DB/document/E96387EC-35A4-3043-9DE9-854C23A4B81E> ;
+        sealit:consists_of_leaving  <urn:uuid:c5402f28-88ed-4ca9-abd7-2c2e3cab6177> .
+
+<http://www.sealit.gr/DB/payment/2DA0622A-C898-362E-8ABA-28F7363B2437>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Ramon Mir" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/2DA0622A-C898-362E-8ABA-28F7363B2437> .
+
+<http://www.sealit.gr/DB/location/tarrag%5Bon%5Da>
+        a                crm:E53_Place ;
+        rdfs:label       "Tarrag[on]a" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<http://www.sealit.gr/DB/registration/97ECE55A-C8FE-3822-97ED-3CB1C89443BA>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Pedro Gelabert ilegible" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:e40b14a2-4e78-4389-99ce-ae9b36c56338> .
+
+<urn:uuid:d394f022-afc9-4d84-8fa3-66c7d93fc909>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "performed" ;
+        crm:P14.1_in_the_role_of  <http://www.sealit.gr/DB/roles%20type/research%20assistant> .
+
+<http://www.sealit.gr/DB/date/1866-10-18>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1866-10-18" , "departure date 1866-10-18" ;
+        crm:P82_at_some_time_within  "1866-10-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/C095196A-2C8A-357B-A565-895D6FA88B20>
+        a                      crm:E21_Person ;
+        rdfs:label             "Pedro Porcell" ;
+        sealit:has_first_name  "Pedro" ;
+        sealit:has_last_name   "Porcell" .
+
+<http://www.sealit.gr/DB/discharge/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Joaquin Macia" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-06-25> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bfiladelfia%5D> .
+
+<http://www.sealit.gr/DB/id%20type/habiles%20cadaques>
+        a           crm:E55_Type ;
+        rdfs:label  "habiles Cadaques" .
+
+<http://www.sealit.gr/DB/crew_identifier/490>
+        a                crm:E42_Identifier ;
+        rdfs:label       "490" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20cadaques> .
+
+<urn:uuid:ce22745d-b958-4561-8a22-011c181b782d>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Juan Pujol" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/palma> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/0C04D9F8-50D1-344F-8D4C-F5EF3FF6C792> .
+
+<urn:uuid:6d10d074-2fcf-4ba0-b48d-e08292009afb>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo efectos" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/efectos> .
+
+<http://www.sealit.gr/DB/location/%5Bbarcelona%5D>
+        a                crm:E53_Place ;
+        rdfs:label       "[Barcelona]" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<http://www.sealit.gr/DB/recruitment/A97DB3A5-D698-3F06-BC98-42FE85D931C4>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Gabriel Cusart?" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-03-27%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/person/19E31302-97C6-30F6-B274-44DD18E9B5F9>
+        a                      crm:E21_Person ;
+        rdfs:label             "Pedro Porcell" ;
+        sealit:has_first_name  "Pedro" ;
+        sealit:has_last_name   "Porcell" .
+
+<http://www.sealit.gr/DB/person_age/23>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 23" ;
+        sealit:value_duration  "P23Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/registration/53AAB74A-2156-393D-8925-741B94C859DA>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Gaspar Porcell" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:e90abeac-00b4-4eb1-930e-5b76577ce367> .
+
+<http://www.sealit.gr/DB/ownership/788C36FE-8473-3BEA-84F3-D1701076D98C>
+        a                 sealit:Ship_Ownership_Phase ;
+        rdfs:label        "Ownership of Esperanza" ;
+        sealit:has_owner  <http://www.sealit.gr/DB/person/F6BC7451-E3F4-3ACF-9BB5-1DB5D425116D> .
+
+<urn:uuid:d85d726d-35a7-4673-b876-9df6b2d8695a>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<http://www.sealit.gr/DB/military_service/5EAC285C-4599-3156-B336-394143FB06E1>
+        a                     sealit:Service ;
+        rdfs:label            "Military service of Jaime Esteva" ;
+        crm:P4_has_time-span  <urn:uuid:699ffedd-47c7-4782-ba8e-f17c7789c6c0> .
+
+<http://www.sealit.gr/DB/payment/97B314EF-81C7-3FE6-9617-42567C8E50B4>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Pablo Mases" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/97B314EF-81C7-3FE6-9617-42567C8E50B4> .
+
+<urn:uuid:9abbb510-8dd0-4314-94dd-8d38edcbfefe>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "9" .
+
+<urn:uuid:88f91842-8d5f-45de-a8be-617bbc86deae>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9187" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/location/algeciras>
+        a                crm:E53_Place ;
+        rdfs:label       "Algeciras" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<urn:uuid:982ca830-12c3-40f6-b1be-30dd4b39646f>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:04986123-49a4-40ed-a11e-235d36719ba2>
+        a                crm:E74_Group ;
+        rdfs:label       "passengers of Esperanza" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/group%20types/passengers> ;
+        crm:P3_has_note  "1" .
+
+<http://www.sealit.gr/DB/payment/61120449-FDDB-3261-9F1C-3006106ED043>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Joan Porcell" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/61120449-FDDB-3261-9F1C-3006106ED043> .
+
+<urn:uuid:2e72b670-340c-4987-bd9e-d9d5d6c48cfa>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of military service of  Pedro Pomes" ;
+        sealit:value_duration  "P4Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:4cc3d653-8dd9-45e1-94a2-cb55784383ed>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of employment of Pedro Gelabert ilegible" ;
+        sealit:had_duration  <urn:uuid:18d23e68-6de0-4525-8809-ab936b6e950d> .
+
+<http://www.sealit.gr/DB/things%20type/tablones>
+        a           crm:E55_Type ;
+        rdfs:label  "tablones" .
+
+<http://www.sealit.gr/DB/recruitment/436C2DFD-50A4-3556-B8E7-54FA985BE9F5>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Guillermo Alemany" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-03-27%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/id%20type/p%5Bilo%5Dtos%20bar%5Bcelo%5Dna>
+        a           crm:E55_Type ;
+        rdfs:label  "p[ilo]tos Bar[celo]na" .
+
+<urn:uuid:6e20e9c7-b3b5-41b3-91e5-37ebe94a44a5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Jose Niubo" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/badalona> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/10842365-D8AC-39A7-BE41-2B4216B544A5> .
+
+<urn:uuid:babef844-6953-4f10-bb66-7542d762a3dc>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<urn:uuid:2b67ebfe-ef6c-40f0-b733-6bd249ee419a>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<http://www.sealit.gr/DB/employment/97ECE55A-C8FE-3822-97ED-3CB1C89443BA>
+        a                  sealit:Ship_Crew_Employment ;
+        rdfs:label         "Employment of Pedro Gelabert ilegible" ;
+        sealit:ended_by    <http://www.sealit.gr/DB/discharge/97ECE55A-C8FE-3822-97ED-3CB1C89443BA> ;
+        sealit:started_by  <http://www.sealit.gr/DB/recruitment/97ECE55A-C8FE-3822-97ED-3CB1C89443BA> .
+
+<urn:uuid:5ecb0748-07b0-4de0-bd04-3fc001ede1f4>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9188" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:6bcca15c-4112-482c-9b3c-e0d4cc0f4346>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1867-04-13" ;
+        crm:P82_at_some_time_within  "1867-04-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/id%20type/p%5Bilo%5Dtos%20cadaques>
+        a           crm:E55_Type ;
+        rdfs:label  "p[ilo]tos Cadaques" .
+
+<http://www.sealit.gr/DB/ship/9B21EE60-8B77-3477-9812-E4E58D7C0E3F>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Esperanza" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/esperanza> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/ship%20type/bergantin%20goleta> ;
+        crm:P43_has_dimension      <urn:uuid:551c05d0-8a33-4adc-bbd6-8e8cc9fdf6a3> , <urn:uuid:e470fb4a-7613-4425-a28f-87363fef3eb7> , <urn:uuid:c183ab23-8a76-425c-8991-582ab8900f7f> ;
+        crm:P70i_is_documented_in  <urn:uuid:88f91842-8d5f-45de-a8be-617bbc86deae> ;
+        sealit:has_phase           <http://www.sealit.gr/DB/ownership/788C36FE-8473-3BEA-84F3-D1701076D98C> ;
+        sealit:has_tonnage         <urn:uuid:361dc7fc-79ac-4801-b294-c3b6f8022ab4> , <urn:uuid:e2ef168f-4b08-49ec-bb95-1fdbe47dd1a0> ;
+        sealit:is_registered_by    <urn:uuid:40f30ce4-ff14-49a2-bb3f-a7b288ad3cd2> ;
+        sealit:voyages             <urn:uuid:db623c6c-b4ad-4c22-a214-c3bb849ef769> , <urn:uuid:8da5e509-50fc-4f56-ad98-f9caaad610d6> , <urn:uuid:d348eb89-1688-4fc3-894f-5b1900a445fd> , <urn:uuid:3ee2b063-78ff-47c4-a884-181ff3de2c12> , <urn:uuid:074a6b1c-dc0c-4477-a54b-b0d6ed75a539> , <urn:uuid:8ffcd368-8aa3-40a4-b3f3-ae58b4e3845c> , <urn:uuid:404297c3-4ba9-4d76-8763-22d51493b0b4> , <urn:uuid:dee4fe2e-4b44-4588-a18a-4d5de44a4f0a> , <urn:uuid:787c32ef-7886-4a09-a189-08ab7b31828a> , <urn:uuid:6c9dc0de-7594-4f60-a7f7-87aa09172bd0> , <urn:uuid:a2726c79-8301-411f-a5ee-fbe2bb61a29f> , <urn:uuid:63356fdc-5879-4726-b09a-f042b7940248> , <urn:uuid:69a322f6-5fa5-43a3-b4ee-2d8f76096e4e> ;
+        sealit:was_constructed_by  <urn:uuid:ebf19a4e-38a5-4671-b61b-259b06c7e3f5> .
+
+<http://www.sealit.gr/DB/recruitment/B27C8CB4-38DD-399C-AF61-8B851DB6AD8C>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Eduardo Rodriguez" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-03-27%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<urn:uuid:e92aba92-c859-4829-ab11-7813e82e9fe8>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "8" .
+
+<urn:uuid:84c0b884-57a3-48f8-a018-469fa6b5747c>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/location/cienf%5Buego%5Ds>
+        a                crm:E53_Place ;
+        rdfs:label       "Cienf[uego]s" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<http://www.sealit.gr/DB/crew_identifier/30>
+        a                crm:E42_Identifier ;
+        rdfs:label       "30" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20mataro> .
+
+<urn:uuid:a7d3f9f8-af2a-4da9-bc5c-4e24052a13fd>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Jaime Pablo Pujol" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/rosas> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/290FBA3F-A137-3681-A81F-EDB8FBEF9BA2> .
+
+<http://www.sealit.gr/DB/person_age/17>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 17" ;
+        sealit:value_duration  "P17Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/payment/5644F105-AC70-3126-8145-2F5FCFCB2BF1>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Joaquin Tremols" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/5644F105-AC70-3126-8145-2F5FCFCB2BF1> .
+
+<http://www.sealit.gr/DB/employment/53AAB74A-2156-393D-8925-741B94C859DA>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Gaspar Porcell" ;
+        crm:P02i_is_range_of  <urn:uuid:6219d8d9-a80c-46f2-a57b-188298ef38f0> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/53AAB74A-2156-393D-8925-741B94C859DA> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/53AAB74A-2156-393D-8925-741B94C859DA> .
+
+<urn:uuid:8c9e1235-127b-4497-b979-7c0a05599643>
+        a                     crm:E13_Attribute_Assignment ;
+        rdfs:label            "Observations recorded in 9192" ;
+        crm:P3_has_note       "Ha cumplido la cuarentena que se le ha impuesto. Mahon" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-10-28> .
+
+<http://www.sealit.gr/DB/tonnage%20types/toneladas%20carga>
+        a           crm:E55_Type ;
+        rdfs:label  "Toneladas carga" .
+
+<http://www.sealit.gr/DB/person/0C04D9F8-50D1-344F-8D4C-F5EF3FF6C792>
+        a                      crm:E21_Person ;
+        rdfs:label             "Bartolome Pujol" ;
+        sealit:has_first_name  "Bartolome" ;
+        sealit:has_last_name   "Pujol" .
+
+<http://www.sealit.gr/DB/person/65CFD277-9441-3003-B25B-6B6EC11C0087>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Pedro Pomes" ;
+        crm:P140i_was_attributed_by     <urn:uuid:db874cff-0808-4f94-8d63-bbb5e10aac8a> , <urn:uuid:282cb4d5-223c-4edc-9bb3-9a481ee557f5> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/88> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/38> ;
+        crm:P70i_is_documented_in       <urn:uuid:931a3bcb-8252-42d2-b2b6-7cb2e341f227> ;
+        crm:P98i_was_born               <urn:uuid:22ea3f8c-5f78-4eff-bcfe-06ceca8fb367> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/7D88C6D7-6508-3564-937D-9B87CBF079A0> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/7D88C6D7-6508-3564-937D-9B87CBF079A0> ;
+        sealit:has_first_name           "Pedro" ;
+        sealit:has_last_name            "Pomes" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/cocinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/7D88C6D7-6508-3564-937D-9B87CBF079A0> ;
+        sealit:provided                 <http://www.sealit.gr/DB/military_service/7D88C6D7-6508-3564-937D-9B87CBF079A0> .
+
+<http://www.sealit.gr/DB/doc%20types/source%20identity>
+        a           crm:E55_Type ;
+        rdfs:label  "source identity" .
+
+<urn:uuid:db874cff-0808-4f94-8d63-bbb5e10aac8a>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<urn:uuid:9c1f8973-e0a1-4aef-933b-9f18f22a3794>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at Tarrag[on]a" ;
+        crm:P134i_was_continued_by  <urn:uuid:c6968e21-7dbe-4a1e-bba2-da97270fd7f4> ;
+        crm:P14_carried_out_by      <urn:uuid:cda6ca07-40f9-475d-b328-3abd6d816b01> ;
+        sealit:arrival              <urn:uuid:b715b0f8-cd9e-41c5-97b2-5c0673276bf7> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/tarrag%5Bon%5Da> .
+
+<http://www.sealit.gr/DB/registration/97B314EF-81C7-3FE6-9617-42567C8E50B4>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Pablo Mases" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:16e2268b-6383-4b77-aed1-4f1201138a32> .
+
+<urn:uuid:7305948a-9a6e-4f29-aac0-055a7d7f1631>
+        a                        crm:E31_Document ;
+        rdfs:label               "Folder CG" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/series_identifier/7D771E0E-8F36-33AB-9485-6925ECDEFC5D> , <http://www.sealit.gr/DB/appellation/5202C658-6CAC-3BEE-868E-86D1FF854231> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/doc%20types/series> , <http://www.sealit.gr/DB/doc%20types/folder> .
+
+<http://www.sealit.gr/DB/id%20types/registration%20list>
+        a           crm:E55_Type ;
+        rdfs:label  "registration list" .
+
+<urn:uuid:9a99d6a6-0adb-4c80-888c-cac5a01935ef>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo efectos" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/efectos> .
+
+<urn:uuid:ef87d9d3-1fdc-4c2f-836e-28e3a0fc5fe9>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "9" .
+
+<http://www.sealit.gr/DB/date/1867-01-03>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1867-01-03" ;
+        crm:P82_at_some_time_within  "1867-01-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:ebf19a4e-38a5-4671-b61b-259b06c7e3f5>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Esperanza" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/esperanza> .
+
+<http://www.sealit.gr/DB/date/1867-06-08>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1867-06-08" ;
+        crm:P82_at_some_time_within  "1867-06-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:7d6afb1e-c139-41b6-b9ff-a1bdc45ae832>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Pedro Gelabert ilegible" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/blanes> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/440E89A7-4A61-3788-B3FB-1A2C53D6B657> .
+
+<urn:uuid:255de49d-86d8-4146-9231-af03545d9639>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of employment of Joaquin Macia" ;
+        sealit:had_duration  <urn:uuid:39139f9d-d20f-4da9-8bb8-eb9c46ea237a> .
+
+<urn:uuid:22aab533-6c1d-4165-a039-d7a8088538e5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gabriel Cusart?" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/andraitx> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/35040173-2BC3-32D2-BE3B-219EB763A050> .
+
+<http://www.sealit.gr/DB/location/tarragona>
+        a                crm:E53_Place ;
+        rdfs:label       "Tarragona" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<http://www.sealit.gr/DB/ship_identifier/1>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20types/registration%20list> .
+
+<http://www.sealit.gr/DB/recruitment/2DA0622A-C898-362E-8ABA-28F7363B2437>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Ramon Mir" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1866-06-21%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/recruitment/2797B37B-A3F4-3AC6-9EE4-20BD91088A9B>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Demetrio Rodriguez" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1866-06-21%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/employment/2DA0622A-C898-362E-8ABA-28F7363B2437>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Ramon Mir" ;
+        crm:P02i_is_range_of  <urn:uuid:5acffe6e-46fd-4989-b461-9f8641ab28b7> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/2DA0622A-C898-362E-8ABA-28F7363B2437> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/2DA0622A-C898-362E-8ABA-28F7363B2437> .
+
+<urn:uuid:93680e34-e906-4cfd-9643-f0dcf57d4415>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Juan Pujol" ;
+        crm:P82_at_some_time_within  "enero 1858" .
+
+<http://www.sealit.gr/DB/location/andraitx>
+        a           crm:E53_Place ;
+        rdfs:label  "Andraitx" .
+
+<urn:uuid:a4e4a929-a038-4440-8c2c-deaead28e59d>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:9e412045-7e4a-4e70-9033-2c1154d2981a>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Eduardo Rodriguez" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/50E62DDA-3C5B-35A8-8635-63889CE76CC7> .
+
+<http://www.sealit.gr/DB/monthly_payment/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Monthly payment to Jose Niubo" ;
+        sealit:for_employment_period  <urn:uuid:6cb91207-b9dd-4f3b-b612-8edec9dee69d> .
+
+<http://www.sealit.gr/DB/id%20type/h%5Babiles%5D%20andraitx>
+        a           crm:E55_Type ;
+        rdfs:label  "h[abiles] Andraitx" .
+
+<urn:uuid:787c32ef-7886-4a09-a189-08ab7b31828a>
+        a                            sealit:Voyage ;
+        rdfs:label                   "Route of ship Esperanza" ;
+        crm:P140i_was_attributed_by  <urn:uuid:384fd519-be95-404d-969d-b30273133645> ;
+        crm:P70i_is_documented_in    <http://www.sealit.gr/DB/document/E96387EC-35A4-3043-9DE9-854C23A4B81E> ;
+        crm:P9_consists_of           <urn:uuid:e11d78ca-9cdf-4ab1-8269-46fd39b19f74> , <urn:uuid:b9dbaed6-5522-460b-bc0c-0e2a711536b0> ;
+        sealit:consists_of_leaving   <urn:uuid:b9dbaed6-5522-460b-bc0c-0e2a711536b0> ;
+        sealit:destination           <http://www.sealit.gr/DB/location/barcelona> .
+
+<urn:uuid:89427851-9b79-4269-b090-e712ff035a9c>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/%5Ben%5Dcargado%20derrota> .
+
+<http://www.sealit.gr/DB/location/viso%20del%20marques>
+        a           crm:E53_Place ;
+        rdfs:label  "Viso del Marques" .
+
+<urn:uuid:f9f81d6b-a5c1-408f-8220-81fe5fdb3721>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1867-05-24" ;
+        crm:P82_at_some_time_within  "1867-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/location/trinidad%20%5Bde%20cuba%5D>
+        a                crm:E53_Place ;
+        rdfs:label       "Trinidad [de Cuba]" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<urn:uuid:f3fdff2d-5d06-413a-8b66-8c2ce721efc7>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of military service of  Joaquin Macia" ;
+        sealit:had_duration  <urn:uuid:386a7752-2a0d-45ec-90ce-9419b3b9cc6b> .
+
+<urn:uuid:e10ad52a-bc79-4347-a7c3-62d22c4c49ec>
+        a                crm:E13_Attribute_Assignment ;
+        rdfs:label       "Observations recorded in 9191" ;
+        crm:P3_has_note  "Se despacha para Barcelona con escala en Guantanamo y Cuba y lleba de pasage a D[o]n Sebastian Fabregas" .
+
+<urn:uuid:691e6e7a-3b7c-410e-af38-0c2bf184ee35>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9192" ;
+        sealit:loaded  <urn:uuid:453649f7-59b2-4bca-8c48-c1f38da1b3c6> .
+
+<urn:uuid:f7ea47f7-4ea4-429f-bdff-f2bf9cc2b53d>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<urn:uuid:c3b936bf-42f8-4243-a65f-43941d1b466f>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:a319247c-29c6-4898-8843-eb0fb359d2ef>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at Filadelfia" ;
+        crm:P134i_was_continued_by  <urn:uuid:7210d465-e8f1-4299-88ea-defe1b4574fd> ;
+        crm:P14_carried_out_by      <urn:uuid:f47b0046-cdf4-4f6c-829c-b8ec59b8322f> ;
+        sealit:arrival              <urn:uuid:20b1b0b9-1f44-42fa-8536-431ddff2c7a2> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/filadelfia> .
+
+<http://www.sealit.gr/DB/person/66F42070-9F68-33CE-8D21-64A46D42D5D0>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Pedro Esteban Giro" ;
+        crm:P140i_was_attributed_by     <urn:uuid:39422ad6-5d58-417e-b39f-60a807876626> , <urn:uuid:2b67ebfe-ef6c-40f0-b733-6bd249ee419a> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/1%C2%BA> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/16> ;
+        crm:P70i_is_documented_in       <urn:uuid:0cf5c548-60dc-4130-855f-75ca2b1444f3> ;
+        crm:P98i_was_born               <urn:uuid:f9daa2c2-74ed-46d6-a172-994063519651> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/7EEB748B-EE06-329D-A840-96184136B806> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/7EEB748B-EE06-329D-A840-96184136B806> ;
+        sealit:has_first_name           "Pedro Esteban" ;
+        sealit:has_last_name            "Giro" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/7EEB748B-EE06-329D-A840-96184136B806> .
+
+<urn:uuid:d04eab33-aeb1-436a-b811-b59a7393c4a3>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo tejas" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/tejas> .
+
+<urn:uuid:6995270c-65a0-4845-a112-c8c41454cf16>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/crew_identifier/1038>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1038" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20palma> .
+
+<http://www.sealit.gr/DB/recruitment/97B314EF-81C7-3FE6-9617-42567C8E50B4>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Pablo Mases" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1866-06-21%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<urn:uuid:fd18b833-a0b7-4aa6-ab14-a83e45131905>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "9" .
+
+<http://www.sealit.gr/DB/employment/97B314EF-81C7-3FE6-9617-42567C8E50B4>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Pablo Mases" ;
+        crm:P02i_is_range_of  <urn:uuid:0e97c69f-88e9-41b3-ae00-9fc0edf68b66> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/97B314EF-81C7-3FE6-9617-42567C8E50B4> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/97B314EF-81C7-3FE6-9617-42567C8E50B4> .
+
+<http://www.sealit.gr/DB/date/1867-01-27>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1867-01-27" ;
+        crm:P82_at_some_time_within  "1867-01-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/doc%20types/record%20information>
+        a           crm:E55_Type ;
+        rdfs:label  "record information" .
+
+<urn:uuid:22ea3f8c-5f78-4eff-bcfe-06ceca8fb367>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Pedro Pomes" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/cadaques> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/08E4DDE1-AEFD-3309-8DBF-CB47540BD0E4> .
+
+<urn:uuid:3b9ee1e2-984f-443f-b410-4ba7cc15b9aa>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 27" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/folio> .
+
+<http://www.sealit.gr/DB/recruitment/61120449-FDDB-3261-9F1C-3006106ED043>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Joan Porcell" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-03-27%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/employment/61120449-FDDB-3261-9F1C-3006106ED043>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Joan Porcell" ;
+        crm:P02i_is_range_of  <urn:uuid:0679ec73-77cc-4161-9f02-61e560618448> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/61120449-FDDB-3261-9F1C-3006106ED043> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/61120449-FDDB-3261-9F1C-3006106ED043> .
+
+<urn:uuid:009736a2-b969-4323-aa59-36261252df42>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo efectos" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/efectos> .
+
+<urn:uuid:a1320578-ff8e-4edd-b240-f2254d265d9d>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<urn:uuid:a2726c79-8301-411f-a5ee-fbe2bb61a29f>
+        a                            sealit:Voyage ;
+        rdfs:label                   "Route of ship Esperanza" ;
+        crm:P140i_was_attributed_by  <urn:uuid:def26393-8bb9-4ba5-b7e9-53ce944b86ab> ;
+        crm:P70i_is_documented_in    <http://www.sealit.gr/DB/document/E96387EC-35A4-3043-9DE9-854C23A4B81E> ;
+        crm:P9_consists_of           <urn:uuid:9872c70a-1017-4add-8065-5e2546211e49> , <urn:uuid:532c0256-de96-4898-893b-6e0189232a2f> , <urn:uuid:590c6656-65c9-4979-a678-0bfcf5497032> , <urn:uuid:5fcfbc36-fc8d-42d1-a814-8e45b00d5adf> ;
+        sealit:consists_of_leaving   <urn:uuid:532c0256-de96-4898-893b-6e0189232a2f> ;
+        sealit:destination           <http://www.sealit.gr/DB/location/barcelona> .
+
+<urn:uuid:b46159dd-167a-43e2-9f6a-a34e0267503b>
+        a                crm:E74_Group ;
+        rdfs:label       "passengers of Esperanza" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/group%20types/passengers> ;
+        crm:P3_has_note  "4" .
+
+<http://www.sealit.gr/DB/profession%20type/marinero>
+        a           sealit:Profession ;
+        rdfs:label  "marinero" .
+
+<urn:uuid:f183d6a4-3121-4029-a0cb-ccce64f0f039>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1866-05-02" ;
+        crm:P82_at_some_time_within  "1866-05-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/Document_of_Register/B7FB35E7-E2D7-42A7-8871-5537FC8C1A23>
+        a                        crm:E31_Document , crm:E18_Physical_Thing ;
+        rdfs:label               "Document CG" ;
+        crm:P106i_forms_part_of  <urn:uuid:7305948a-9a6e-4f29-aac0-055a7d7f1631> ;
+        crm:P128_carries         <urn:uuid:395bbd8e-5d46-4c10-bd4b-874ea830d322> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/doc%20types/source%20identity> ;
+        crm:P49_has_former_or_current_keeper
+                <http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina> .
+
+<http://www.sealit.gr/DB/person_age/24>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 24" ;
+        sealit:value_duration  "P24Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:b6e22dfe-81bc-441a-bae8-7637b4622676>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<urn:uuid:39422ad6-5d58-417e-b39f-60a807876626>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/discharge/3720947B-2ADA-3068-BC0B-E3906CDAB84B>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Jaime Pablo Pujol" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-01-03> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/creation/C20AD4D7-6FE9-3759-AA27-A0C99BFF6710>
+        a                       crm:E65_Creation ;
+        rdfs:label              "Creation of doc Crew and displacement list (Roll), Bergantin Goleta, Esperanza, , Clàudia Mateo" ;
+        crm:P01i_is_domain_of   <urn:uuid:d394f022-afc9-4d84-8fa3-66c7d93fc909> ;
+        crm:P14_carried_out_by  <http://www.sealit.gr/DB/person/F9CA0FF4-F3C7-3BD1-814F-02FFE8ECE6B5> ;
+        crm:P4_has_time-span    <urn:uuid:7e8aef82-30fc-4e64-9a01-0c49152aece3> .
+
+<http://www.sealit.gr/DB/person/C4AC1C79-B68E-3284-B886-0766DB087962>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Pablo Mases" ;
+        crm:P140i_was_attributed_by     <urn:uuid:643ba9fb-6223-4805-b4f7-15e88b2f2c06> , <urn:uuid:ecf7c91b-289e-44b4-8df1-e6b3038b7660> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/488> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/25> ;
+        crm:P70i_is_documented_in       <urn:uuid:11bcc8d5-aa89-4f4f-a70c-173e03951c26> ;
+        crm:P98i_was_born               <urn:uuid:f9a5e294-214c-44da-9a3d-e1d9379d5641> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/monthly_payment/97B314EF-81C7-3FE6-9617-42567C8E50B4> , <http://www.sealit.gr/DB/payment/97B314EF-81C7-3FE6-9617-42567C8E50B4> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/97B314EF-81C7-3FE6-9617-42567C8E50B4> ;
+        sealit:has_first_name           "Pablo" ;
+        sealit:has_last_name            "Mases" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/97B314EF-81C7-3FE6-9617-42567C8E50B4> ;
+        sealit:provided                 <http://www.sealit.gr/DB/military_service/97B314EF-81C7-3FE6-9617-42567C8E50B4> .
+
+<http://www.sealit.gr/DB/person/08E4DDE1-AEFD-3309-8DBF-CB47540BD0E4>
+        a                      crm:E21_Person ;
+        rdfs:label             "Narciso Pomes" ;
+        sealit:has_first_name  "Narciso" ;
+        sealit:has_last_name   "Pomes" .
+
+<http://www.sealit.gr/DB/location/cadaques>
+        a           crm:E53_Place ;
+        rdfs:label  "Cadaques" .
+
+<urn:uuid:f9a5e294-214c-44da-9a3d-e1d9379d5641>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Pablo Mases" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/rosas> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/C890A062-6EB8-38F7-8823-A3CFA5691215> .
+
+<urn:uuid:f9daa2c2-74ed-46d6-a172-994063519651>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Pedro Esteban Giro" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/cadaques> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/8D0285DC-E08A-318B-B876-0B3A710FA500> .
+
+<urn:uuid:f87ec4d9-cb1e-437a-8ace-038c9b54f6f8>
+        a                       sealit:Arrival_At ;
+        rdfs:label              "Arrival at Barcelona" ;
+        crm:P14_carried_out_by  <urn:uuid:88d74dc2-e693-4a15-a484-391d2f7d24d3> ;
+        sealit:arrival          <urn:uuid:05ca08b3-98de-4007-ac12-6d31690a99da> ;
+        sealit:at               <http://www.sealit.gr/DB/location/barcelona> .
+
+<urn:uuid:8a4a6b4b-9d03-437e-8ab0-b0824cd43350>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo tablones" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/tablones> .
+
+<urn:uuid:395bbd8e-5d46-4c10-bd4b-874ea830d322>
+        a                     crm:E33_Linguistic_Object ;
+        rdfs:label            "Content of doc 1178" ;
+        crm:P72_has_language  <http://www.sealit.gr/DB/language/spanish%28castilian%29> .
+
+<urn:uuid:dfe11f6a-eee9-4189-a718-134f1244fbd0>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:5b8646e3-de4c-4945-9ca1-5e346b0fd93a> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/guantanamo> .
+
+<urn:uuid:b0107f94-ebad-4676-8d63-821be8d10272>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<urn:uuid:e5d6300d-900d-4448-a109-18f1b597f2f4>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9191" ;
+        sealit:loaded  <urn:uuid:71baa82e-52c1-4bcf-85b1-24e3a7bee1ee> .
+
+<urn:uuid:fbc5cf64-fab4-4984-a0ef-f832c6087d76>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Joan Porcell" ;
+        crm:P82_at_some_time_within  "oct[ubr]e 1861" .
+
+<urn:uuid:b324d12a-aaa6-40a1-8bfe-a5c9293028e1>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/capitan%20y%20tercer%20piloto> .
+
+<http://www.sealit.gr/DB/recruitment/5644F105-AC70-3126-8145-2F5FCFCB2BF1>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Joaquin Tremols" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-03-27%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/payment/7D88C6D7-6508-3564-937D-9B87CBF079A0>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Pedro Pomes" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/7D88C6D7-6508-3564-937D-9B87CBF079A0> .
+
+<http://www.sealit.gr/DB/employment/5644F105-AC70-3126-8145-2F5FCFCB2BF1>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Joaquin Tremols" ;
+        crm:P02i_is_range_of  <urn:uuid:c7050e3c-42cd-4f0a-a05e-16fe5429fc7b> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/5644F105-AC70-3126-8145-2F5FCFCB2BF1> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/5644F105-AC70-3126-8145-2F5FCFCB2BF1> .
+
+<urn:uuid:fef06f90-d477-4186-bd77-d706c5087578>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of military service of  Juan Pujol" ;
+        sealit:value_duration  "PesceptuadoY"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:92104ef1-c909-4e70-965f-d26db71b8cfe>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<urn:uuid:cda6ca07-40f9-475d-b328-3abd6d816b01>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "9" .
+
+<http://www.sealit.gr/DB/payment/6B24060B-5B5F-3135-95AE-9807552B92C1>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Jose Ribera" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/6B24060B-5B5F-3135-95AE-9807552B92C1> .
+
+<http://www.sealit.gr/DB/date/1867-04-13>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1867-04-13" ;
+        crm:P82_at_some_time_within  "1867-04-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:dee4fe2e-4b44-4588-a18a-4d5de44a4f0a>
+        a                           sealit:Voyage ;
+        rdfs:label                  "Route of ship Esperanza" ;
+        crm:P70i_is_documented_in   <http://www.sealit.gr/DB/document/E96387EC-35A4-3043-9DE9-854C23A4B81E> ;
+        crm:P9_consists_of          <urn:uuid:ed62f695-1d98-4dba-9d48-473fb2b4545a> , <urn:uuid:1f6fc21e-7626-445e-9a61-96ba938b2ac9> ;
+        sealit:consists_of_leaving  <urn:uuid:1f6fc21e-7626-445e-9a61-96ba938b2ac9> ;
+        sealit:destination          <http://www.sealit.gr/DB/location/trinidad> .
+
+<http://www.sealit.gr/DB/location/%5Bsantiago%20de%5D%20cuba>
+        a                crm:E53_Place ;
+        rdfs:label       "[Santiago de] Cuba" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<urn:uuid:ed62f695-1d98-4dba-9d48-473fb2b4545a>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9192" ;
+        sealit:loaded  <urn:uuid:d04eab33-aeb1-436a-b811-b59a7393c4a3> .
+
+<urn:uuid:e90abeac-00b4-4eb1-930e-5b76577ce367>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Gaspar Porcell" ;
+        crm:P82_at_some_time_within  "set[iembr]e 1861" .
+
+<http://www.sealit.gr/DB/person/A4CF59CB-DE58-38C3-A6EF-F0045498DA39>
+        a                            crm:E21_Person ;
+        rdfs:label                   "Eduardo Rodriguez" ;
+        crm:P140i_was_attributed_by  <urn:uuid:d072b511-137f-4eae-bd6b-fbcc0a5120b8> , <urn:uuid:28f3a2cf-8258-45b3-bdd2-f944773e6fe8> ;
+        crm:P1_is_identified_by      <http://www.sealit.gr/DB/crew_identifier/4> ;
+        crm:P70i_is_documented_in    <urn:uuid:22f5e23d-398c-4913-9b5c-d3db55b810e3> ;
+        crm:P98i_was_born            <urn:uuid:9e412045-7e4a-4e70-9033-2c1154d2981a> ;
+        sealit:gave_service_for      <http://www.sealit.gr/DB/payment/B27C8CB4-38DD-399C-AF61-8B851DB6AD8C> ;
+        sealit:had_provided          <http://www.sealit.gr/DB/employment/B27C8CB4-38DD-399C-AF61-8B851DB6AD8C> ;
+        sealit:has_first_name        "Eduardo" ;
+        sealit:has_last_name         "Rodriguez" ;
+        sealit:has_profession        <http://www.sealit.gr/DB/profession%20type/segundo> .
+
+<urn:uuid:82d4c0fd-cf11-4906-80da-a46dbcfa4af0>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9192" ;
+        sealit:loaded  <urn:uuid:21a74bc4-8e82-453e-a322-7a88ffd8a4d2> .
+
+<urn:uuid:79dabe59-7420-460f-9b2c-df0d7f354816>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of military service of  Pablo Mases" ;
+        sealit:value_duration  "P4Y3M"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:64f8608a-4432-425f-849d-4e2babf73657>
+        a                crm:E13_Attribute_Assignment ;
+        rdfs:label       "Observations recorded in 9191" ;
+        crm:P3_has_note  "Pasajero que conduce D[o]n salvador Cros y Carbonell" .
+
+<urn:uuid:d40a178e-fded-45d6-a5bf-b10540c59657>
+        a                        sealit:Leaving ;
+        rdfs:label               "Departure on 1867-04-13" ;
+        crm:P11_had_participant  <urn:uuid:9c113006-5253-4e4b-96f1-405c034b27a5> ;
+        crm:P14_carried_out_by   <urn:uuid:a8ba2c8c-c66a-48b0-9c2e-9d76c20de973> ;
+        sealit:from_place        <http://www.sealit.gr/DB/location/cienfuegos> ;
+        sealit:leaving_in        <http://www.sealit.gr/DB/date/1867-04-13> .
+
+<http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20mataro>
+        a           crm:E55_Type ;
+        rdfs:label  "hab[iles] Mataro" .
+
+<urn:uuid:a4482906-9cfb-40de-896e-f63c09f855b7>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/contramaestre> .
+
+<urn:uuid:686a4c1e-cd32-4b84-a214-f67679e5550a>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/cap%5Bitan%5D%20y%20cargo%20de%20derrota> .
+
+<http://www.sealit.gr/DB/person/995BDF67-D007-3472-AFFB-253F6B1CBA3D>
+        a                      crm:E21_Person ;
+        rdfs:label             "Juan Ribera" ;
+        sealit:has_first_name  "Juan" ;
+        sealit:has_last_name   "Ribera" .
+
+<http://www.sealit.gr/DB/payment/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Joaquin Macia" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D> .
+
+<http://www.sealit.gr/DB/discharge/5EAC285C-4599-3156-B336-394143FB06E1>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Jaime Esteva" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1866-10-18> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bsantiago%20de%5D%20cuba> .
+
+<http://www.sealit.gr/DB/discharge/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Jose Niubo" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-11-14%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/crew_identifier/31>
+        a                crm:E42_Identifier ;
+        rdfs:label       "31" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/p%5Bilo%5Dtos%20bar%5Bcelo%5Dna> .
+
+<urn:uuid:384fd519-be95-404d-969d-b30273133645>
+        a                     crm:E13_Attribute_Assignment ;
+        rdfs:label            "Observations recorded in 9192" ;
+        crm:P3_has_note       "Por desembarco de un individuo son ocho en todos de tripulacion. Tarragona" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-11-12> .
+
+<http://www.sealit.gr/DB/person/E01B6A31-EA34-3CAA-BC1C-71620F4F3464>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Ramon Mir" ;
+        crm:P140i_was_attributed_by     <urn:uuid:84c0b884-57a3-48f8-a018-469fa6b5747c> , <urn:uuid:92104ef1-c909-4e70-965f-d26db71b8cfe> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/5> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/23> ;
+        crm:P70i_is_documented_in       <urn:uuid:5ecb0748-07b0-4de0-bd04-3fc001ede1f4> ;
+        crm:P98i_was_born               <urn:uuid:38234710-69ee-4e1d-abb5-eea5a7d78670> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/2DA0622A-C898-362E-8ABA-28F7363B2437> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/2DA0622A-C898-362E-8ABA-28F7363B2437> ;
+        sealit:has_first_name           "Ramon" ;
+        sealit:has_last_name            "Mir" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/2DA0622A-C898-362E-8ABA-28F7363B2437> ;
+        sealit:provided                 <http://www.sealit.gr/DB/military_service/2DA0622A-C898-362E-8ABA-28F7363B2437> .
+
+<http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20palma>
+        a           crm:E55_Type ;
+        rdfs:label  "hab[iles] Palma" .
+
+<http://www.sealit.gr/DB/date/1867-11-11>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1867-11-11" , "departure date 1867-11-11" ;
+        crm:P82_at_some_time_within  "1867-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:9c113006-5253-4e4b-96f1-405c034b27a5>
+        a                crm:E74_Group ;
+        rdfs:label       "passengers of Esperanza" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/group%20types/passengers> ;
+        crm:P3_has_note  "4" .
+
+<http://www.sealit.gr/DB/military_service/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88>
+        a                     sealit:Service ;
+        rdfs:label            "Military service of Jose Niubo" ;
+        crm:P4_has_time-span  <urn:uuid:c860d374-86f9-4bab-8d2b-f47de3b21e1c> .
+
+<http://www.sealit.gr/DB/id%20type/hab%5Bbiles%5D%20badalona>
+        a           crm:E55_Type ;
+        rdfs:label  "hab[biles] Badalona" .
+
+<urn:uuid:22f5e23d-398c-4913-9b5c-d3db55b810e3>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9188" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/person/8027BBA5-1CC8-32E5-89E2-E9EB553EC0CF>
+        a                      crm:E21_Person ;
+        rdfs:label             "Antonio Mir" ;
+        sealit:has_first_name  "Antonio" ;
+        sealit:has_last_name   "Mir" .
+
+<http://www.sealit.gr/DB/tonnage%20types/toneladas%20total>
+        a           crm:E55_Type ;
+        rdfs:label  "Toneladas total" .
+
+<urn:uuid:08cca522-76b5-4f0a-94f0-6570dc7d84cf>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9188" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:85ecaecf-7ae2-4040-bedf-a798e16d5cd0>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1867-10-18" ;
+        crm:P82_at_some_time_within  "1867-10-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:832b2829-91ba-418c-bee5-eda5f0c388f9>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Pedro Pomes" ;
+        crm:P82_at_some_time_within  "abril 1834" .
+
+<http://www.sealit.gr/DB/person/C3069D3D-7F88-3268-9B67-EF8D1A4E0112>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Joan Porcell" ;
+        crm:P140i_was_attributed_by     <urn:uuid:eb590ccf-38df-449f-9c58-e4d7b284400c> , <urn:uuid:c3b936bf-42f8-4243-a65f-43941d1b466f> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/38> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/23> ;
+        crm:P70i_is_documented_in       <urn:uuid:9a11646e-abce-4c39-b3ea-39cb01e4759d> ;
+        crm:P98i_was_born               <urn:uuid:a4ddb432-c283-4d44-8450-e87c830c15b0> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/61120449-FDDB-3261-9F1C-3006106ED043> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/61120449-FDDB-3261-9F1C-3006106ED043> ;
+        sealit:has_first_name           "Joan" ;
+        sealit:has_last_name            "Porcell" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/61120449-FDDB-3261-9F1C-3006106ED043> .
+
+<urn:uuid:b715b0f8-cd9e-41c5-97b2-5c0673276bf7>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1867-11-04" ;
+        crm:P82_at_some_time_within  "1867-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/location/palma>
+        a           crm:E53_Place ;
+        rdfs:label  "Palma" .
+
+<http://www.sealit.gr/DB/recruitment/97ECE55A-C8FE-3822-97ED-3CB1C89443BA>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Pedro Gelabert ilegible" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-06-25> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bfiladelfia%5D> .
+
+<urn:uuid:1b5481dd-b9ea-4e27-810e-647462c449c9>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo duelas" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/duelas> .
+
+<http://www.sealit.gr/DB/person/31B35B9A-EE8F-34F6-B197-08809DC5802B>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jaime Esteva" ;
+        crm:P140i_was_attributed_by     <urn:uuid:806daf2e-9fcd-4576-9310-f4a214d0156a> , <urn:uuid:83748b5b-d09e-4c67-b008-c5bbe6d7ff5c> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/1094> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/25> ;
+        crm:P70i_is_documented_in       <urn:uuid:08cca522-76b5-4f0a-94f0-6570dc7d84cf> ;
+        crm:P98i_was_born               <urn:uuid:eaace510-0d01-4930-83cd-8498f7de3677> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/5EAC285C-4599-3156-B336-394143FB06E1> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/5EAC285C-4599-3156-B336-394143FB06E1> ;
+        sealit:has_first_name           "Jaime" ;
+        sealit:has_last_name            "Esteva" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/5EAC285C-4599-3156-B336-394143FB06E1> ;
+        sealit:provided                 <http://www.sealit.gr/DB/military_service/5EAC285C-4599-3156-B336-394143FB06E1> .
+
+<urn:uuid:c183ab23-8a76-425c-8991-582ab8900f7f>
+        a                  crm:E54_Dimension ;
+        rdfs:label         "dimension of Esperanza" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/dimension%20types/eslora> ;
+        crm:P90_has_value  "83" .
+
+<urn:uuid:1f6fc21e-7626-445e-9a61-96ba938b2ac9>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:485d26ac-51c7-45a7-88eb-5a09f3268a4b> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/person/35040173-2BC3-32D2-BE3B-219EB763A050>
+        a                      crm:E21_Person ;
+        rdfs:label             "ilegible Cusart?" ;
+        sealit:has_first_name  "ilegible" ;
+        sealit:has_last_name   "Cusart?" .
+
+<urn:uuid:e8c30783-64c2-45ce-ba0b-175f9ffff69a>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<urn:uuid:6cd7a51b-9035-406f-9262-b41c3753d389>
+        a                crm:E13_Attribute_Assignment ;
+        rdfs:label       "Observations recorded in 9191" ;
+        crm:P3_has_note  "Se rebaja el pasajero Sebastian Fabregas por haber desembarcado en este puerto." .
+
+<urn:uuid:b05b52cc-e5d4-46be-95dc-d3bd2c78238c>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" , "Desembarco en 24 de junio de 1867 en uso de la licencia que tenia concedida por el Com[andan]te de su Pro[vinci]a" .
+
+<http://www.sealit.gr/DB/registration/7D88C6D7-6508-3564-937D-9B87CBF079A0>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Pedro Pomes" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:832b2829-91ba-418c-bee5-eda5f0c388f9> .
+
+<http://www.sealit.gr/DB/document/B6F0B17C-9AC2-3128-A0EB-F254144BF721>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9191" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:5ffdfed9-e0cc-42d5-a2f4-6eb5def8feda>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" , "Embarco en 28 de junio de 1867 y segun ha manifestado el capitan esta conforme con hacer el viaje con las mismas condiciones que su [ilegible] Joaquin Macia" .
+
+<urn:uuid:a7513e79-c02d-4368-820a-740f3399d9be>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Joaquin Macia" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/lloret> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/FCF95D62-5577-3130-B159-CCA6C37A874A> .
+
+<http://www.sealit.gr/DB/military_service/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE>
+        a                     sealit:Service ;
+        rdfs:label            "Military service of Juan Pujol" ;
+        crm:P4_has_time-span  <urn:uuid:951a509f-2669-4fb6-9fd7-e4448f703df5> .
+
+<urn:uuid:931a3bcb-8252-42d2-b2b6-7cb2e341f227>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9188" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/location/trinidad%20de%20cuba>
+        a                crm:E53_Place ;
+        rdfs:label       "Trinidad de Cuba" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<urn:uuid:b9dbaed6-5522-460b-bc0c-0e2a711536b0>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:9c1f8973-e0a1-4aef-933b-9f18f22a3794> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/mahon> .
+
+<http://www.sealit.gr/DB/person/8A8E766B-70DB-3EF7-988A-07D559220E94>
+        a                            crm:E21_Person ;
+        rdfs:label                   "Quirico Ribera" ;
+        crm:P140i_was_attributed_by  <urn:uuid:a1307bfe-1000-4437-9eec-cf5b267166df> , <urn:uuid:09c20b9f-b339-4811-93dc-b49808f118b2> ;
+        crm:P1_is_identified_by      <http://www.sealit.gr/DB/crew_identifier/31> ;
+        crm:P70i_is_documented_in    <urn:uuid:2c4d0c10-9020-465a-bd21-633acaa8e86a> ;
+        crm:P98i_was_born            <urn:uuid:473c929c-2be0-4437-b1a5-0b80afeb19fa> ;
+        sealit:gave_service_for      <http://www.sealit.gr/DB/payment/068851B2-AC4E-395B-9012-E8F9E5ACB09F> ;
+        sealit:had_provided          <http://www.sealit.gr/DB/employment/068851B2-AC4E-395B-9012-E8F9E5ACB09F> ;
+        sealit:has_first_name        "Quirico" ;
+        sealit:has_last_name         "Ribera" ;
+        sealit:has_profession        <http://www.sealit.gr/DB/profession%20type/capitan%20y%20tercer%20piloto> .
+
+<http://www.sealit.gr/DB/crew_identifier/564>
+        a                crm:E42_Identifier ;
+        rdfs:label       "564" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Bbiles%5D%20badalona> .
+
+<http://www.sealit.gr/DB/location/cienfuegos>
+        a                crm:E53_Place ;
+        rdfs:label       "Cienfuegos" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<http://www.sealit.gr/DB/location/guantanamo>
+        a                crm:E53_Place ;
+        rdfs:label       "Guantanamo" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<urn:uuid:63356fdc-5879-4726-b09a-f042b7940248>
+        a                            sealit:Voyage ;
+        rdfs:label                   "Route of ship Esperanza" ;
+        crm:P140i_was_attributed_by  <urn:uuid:6cd7a51b-9035-406f-9262-b41c3753d389> ;
+        crm:P70i_is_documented_in    <http://www.sealit.gr/DB/document/B6F0B17C-9AC2-3128-A0EB-F254144BF721> ;
+        crm:P9_consists_of           <urn:uuid:e5d6300d-900d-4448-a109-18f1b597f2f4> , <urn:uuid:4157058e-9923-4935-b906-47da2ad73608> ;
+        sealit:consists_of_leaving   <urn:uuid:4157058e-9923-4935-b906-47da2ad73608> ;
+        sealit:destination           <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/recruitment/53AAB74A-2156-393D-8925-741B94C859DA>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Gaspar Porcell" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-03-27%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/location/barcelona>
+        a                crm:E53_Place ;
+        rdfs:label       "Barcelona" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<urn:uuid:9aae3638-bcca-42c2-be40-377359d42ab9>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<http://www.sealit.gr/DB/organisation/university%20of%20barcelona>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "University of Barcelona" .
+
+<urn:uuid:532c0256-de96-4898-893b-6e0189232a2f>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:a319247c-29c6-4898-8843-eb0fb359d2ef> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/trinidad%20de%20cuba> .
+
+<urn:uuid:37645d8f-5665-4a72-8c43-4c7236ac7e51>
+        a                crm:E13_Attribute_Assignment ;
+        rdfs:label       "Observations recorded in 9192" ;
+        crm:P3_has_note  "Haviendo entrado de forzosa arribada" .
+
+<http://www.sealit.gr/DB/person/EA1FAE49-F383-3872-9253-40C7CC190569>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Joaquin Macia" ;
+        crm:P140i_was_attributed_by     <urn:uuid:80ad4dce-4bbe-4e44-801d-a9dc59b133b0> , <urn:uuid:b05b52cc-e5d4-46be-95dc-d3bd2c78238c> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/855> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/26> ;
+        crm:P70i_is_documented_in       <urn:uuid:3a71a467-e530-408d-a67c-4d8cb43ace78> ;
+        crm:P98i_was_born               <urn:uuid:a7513e79-c02d-4368-820a-740f3399d9be> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/monthly_payment/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D> , <http://www.sealit.gr/DB/payment/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D> ;
+        sealit:has_first_name           "Joaquin" ;
+        sealit:has_last_name            "Macia" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D> ;
+        sealit:provided                 <http://www.sealit.gr/DB/military_service/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D> .
+
+<urn:uuid:0679ec73-77cc-4161-9f02-61e560618448>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/registration/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Joaquin Macia" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:e15d0930-9793-49d5-9764-e8a29e39f985> .
+
+<http://www.sealit.gr/DB/profession%20type/cocinero>
+        a           sealit:Profession ;
+        rdfs:label  "cocinero" .
+
+<urn:uuid:42303801-ee9d-4c2e-b446-097779a0d40a>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<http://www.sealit.gr/DB/things%20type/frutos%20del%20pais>
+        a           crm:E55_Type ;
+        rdfs:label  "frutos del pais" .
+
+<http://www.sealit.gr/DB/discharge/A97DB3A5-D698-3F06-BC98-42FE85D931C4>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Gabriel Cusart?" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-11-14%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/crew_identifier/1%C2%BA>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1º" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20cadaques> .
+
+<urn:uuid:ecf7c91b-289e-44b4-8df1-e6b3038b7660>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<urn:uuid:f09326cf-616b-4eca-a623-bef9ab74a5a6>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/segundo> .
+
+<urn:uuid:4f3aaecf-5c80-4def-83a4-4cf796d93239>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/cocinero> .
+
+<urn:uuid:9a340419-9e57-47c5-a48b-e88e540f6a8a>
+        a                        sealit:Leaving ;
+        rdfs:label               "Departure on 1866-10-18" ;
+        crm:P11_had_participant  <urn:uuid:04986123-49a4-40ed-a11e-235d36719ba2> ;
+        crm:P14_carried_out_by   <urn:uuid:870203b3-0f5a-4172-a077-2dcb3700056f> ;
+        sealit:from_place        <http://www.sealit.gr/DB/location/barcelona> ;
+        sealit:leaving_in        <http://www.sealit.gr/DB/date/1866-10-18> .
+
+<urn:uuid:39ff6ed5-84a9-4933-99bd-c3f6d733e9bf>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at Guantanamo" ;
+        crm:P134i_was_continued_by  <urn:uuid:8c57da7c-b6ce-453a-bd33-14571c9cb944> ;
+        crm:P14_carried_out_by      <urn:uuid:0fb38c0e-7f0c-4e3a-908c-67b4a353cdcc> ;
+        sealit:arrival              <urn:uuid:fe2ed175-c211-4ca2-81b8-de1f43448acc> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/guantanamo> .
+
+<urn:uuid:f550e69f-70eb-4e11-96e8-41961009dca8>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/person/6B6F05E6-43A5-3E5A-B5F9-7BD880645EAF>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Gaspar Porcell" ;
+        crm:P140i_was_attributed_by     <urn:uuid:babef844-6953-4f10-bb66-7542d762a3dc> , <urn:uuid:f899f384-dda0-4c90-8b99-1a7c1efb1ccd> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/39> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/22> ;
+        crm:P70i_is_documented_in       <urn:uuid:212d2d01-6937-4722-b10b-5dd3ff746b47> ;
+        crm:P98i_was_born               <urn:uuid:df54c79c-1480-4f4b-b1f5-64f5ce665d25> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/53AAB74A-2156-393D-8925-741B94C859DA> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/53AAB74A-2156-393D-8925-741B94C859DA> ;
+        sealit:has_first_name           "Gaspar" ;
+        sealit:has_last_name            "Porcell" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/53AAB74A-2156-393D-8925-741B94C859DA> .
+
+<urn:uuid:f47b0046-cdf4-4f6c-829c-b8ec59b8322f>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<urn:uuid:3c356a31-19a0-48fe-9d75-5c0a625860c8>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" , "Se le habilita de contramaestre con cargo a la R[eal] O[rden] de 20 de agosto de 1864" .
+
+<urn:uuid:643ba9fb-6223-4805-b4f7-15e88b2f2c06>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:63feb957-271c-43e5-bc56-dc266d91c42e>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1866-08-13" ;
+        crm:P82_at_some_time_within  "1866-08-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:46e7ed0e-ca87-4bac-bdf7-efdc8f189249>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of employment of Joaquin Tremols" ;
+        sealit:had_duration  <urn:uuid:3e9725cf-b138-4319-aca7-620d787b6a7c> .
+
+<urn:uuid:458daae7-b6ee-417e-9fb3-5eaa0954a29b>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of military service of  Joaquin Tremols" ;
+        sealit:had_duration  <urn:uuid:e7240bcf-da66-4c44-aeae-d02a523799ac> .
+
+<urn:uuid:d072b511-137f-4eae-bd6b-fbcc0a5120b8>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/segundo> .
+
+<urn:uuid:535e6637-9663-4e84-802d-4e0a9cf24204>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of military service of  Pedro Pomes" ;
+        sealit:had_duration  <urn:uuid:2e72b670-340c-4987-bd9e-d9d5d6c48cfa> .
+
+<http://www.sealit.gr/DB/date/%5B1866-06-21%5D>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date [1866-06-21]" ;
+        crm:P82_at_some_time_within  "[1866-06-21]"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:13849236-41f2-4193-b0d5-b66942d7908b>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at Barcelona" ;
+        crm:P134i_was_continued_by  <urn:uuid:e314c56c-d7f9-4874-838d-7e42f31a575c> ;
+        crm:P14_carried_out_by      <urn:uuid:8e6a7553-b79c-4f7b-bf28-5077ef0ab608> ;
+        sealit:arrival              <urn:uuid:a3f3c08e-5ca7-43d5-beb7-4cea2fa20108> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/employment/7D88C6D7-6508-3564-937D-9B87CBF079A0>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Pedro Pomes" ;
+        crm:P02i_is_range_of  <urn:uuid:4f3aaecf-5c80-4def-83a4-4cf796d93239> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/7D88C6D7-6508-3564-937D-9B87CBF079A0> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/7D88C6D7-6508-3564-937D-9B87CBF079A0> .
+
+<http://www.sealit.gr/DB/things%20type/pez%20ilegible>
+        a           crm:E55_Type ;
+        rdfs:label  "pez ilegible" .
+
+<http://www.sealit.gr/DB/location/mahon>
+        a                crm:E53_Place ;
+        rdfs:label       "Mahon" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<http://www.sealit.gr/DB/doc%20types/folio>
+        a           crm:E55_Type ;
+        rdfs:label  "folio" .
+
+<http://www.sealit.gr/DB/recruitment/6B24060B-5B5F-3135-95AE-9807552B92C1>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Jose Ribera" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-03-27%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/employment/6B24060B-5B5F-3135-95AE-9807552B92C1>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Jose Ribera" ;
+        crm:P02i_is_range_of  <urn:uuid:15cd0553-5478-49f4-8495-807bdd0a8b47> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/6B24060B-5B5F-3135-95AE-9807552B92C1> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/6B24060B-5B5F-3135-95AE-9807552B92C1> .
+
+<urn:uuid:47c18ee4-d37f-4937-bab5-97b68847ab73>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Jaime Esteva" ;
+        crm:P82_at_some_time_within  "set[iem]bre 1837" .
+
+<http://www.sealit.gr/DB/person_age/25>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 25" ;
+        sealit:value_duration  "P25Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:361dc7fc-79ac-4801-b294-c3b6f8022ab4>
+        a                  sealit:Tonnage ;
+        rdfs:label         "tonnage of Esperanza" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/tonnage%20types/toneladas%20total> ;
+        crm:P90_has_value  "153" .
+
+<http://www.sealit.gr/DB/discharge/7EEB748B-EE06-329D-A840-96184136B806>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Pedro Esteban Giro" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-11-14%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/group%20types/passengers>
+        a           crm:E55_Type ;
+        rdfs:label  "passengers" .
+
+<urn:uuid:e2f9d492-4f86-482a-a6d0-c00a58e45dd6>
+        a                       sealit:Leaving ;
+        rdfs:label              "Departure on 1867-06-25" ;
+        crm:P14_carried_out_by  <urn:uuid:9aae3638-bcca-42c2-be40-377359d42ab9> ;
+        sealit:from_place       <http://www.sealit.gr/DB/location/filadelfia> ;
+        sealit:leaving_in       <http://www.sealit.gr/DB/date/1867-06-25> .
+
+<http://www.sealit.gr/DB/discharge/436C2DFD-50A4-3556-B8E7-54FA985BE9F5>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Guillermo Alemany" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-11-14%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<urn:uuid:0f107df1-3a24-4e0a-8bed-d012247313ad>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:245b80d8-5aa2-4295-8b24-24da794db380> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/cienfuegos> .
+
+<http://www.sealit.gr/DB/person/42C1506C-C0FA-3DA4-8A65-082315BF1E87>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jaime Alemany" ;
+        sealit:has_first_name  "Jaime" ;
+        sealit:has_last_name   "Alemany" .
+
+<http://www.sealit.gr/DB/date/1867-10-28>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1867-10-28" , "departure date 1867-10-28" ;
+        crm:P82_at_some_time_within  "1867-10-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/location/bar%5Bcelo%5Dna>
+        a                crm:E53_Place ;
+        rdfs:label       "Bar[celo]na" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<http://www.sealit.gr/DB/recruitment/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Joaquin Macia" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-03-27%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/discharge/B27C8CB4-38DD-399C-AF61-8B851DB6AD8C>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Eduardo Rodriguez" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-11-11> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/tarrag%5Bon%5Da> .
+
+<urn:uuid:6c9dc0de-7594-4f60-a7f7-87aa09172bd0>
+        a                           sealit:Voyage ;
+        rdfs:label                  "Route of ship Esperanza" ;
+        crm:P70i_is_documented_in   <http://www.sealit.gr/DB/document/E96387EC-35A4-3043-9DE9-854C23A4B81E> ;
+        crm:P9_consists_of          <urn:uuid:b7737060-7e1e-41c3-bf55-9b956edb4f25> , <urn:uuid:043bc32f-886f-41de-8c32-4f10d06cc0fa> ;
+        sealit:consists_of_leaving  <urn:uuid:043bc32f-886f-41de-8c32-4f10d06cc0fa> ;
+        sealit:destination          <http://www.sealit.gr/DB/location/cienfuegos> .
+
+<http://www.sealit.gr/DB/profession%20type/contramaestre>
+        a           sealit:Profession ;
+        rdfs:label  "contramaestre" .
+
+<http://www.sealit.gr/DB/employment/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Joaquin Macia" ;
+        crm:P02i_is_range_of  <urn:uuid:40cfa061-1049-49b8-8c83-bf28bcae169a> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D> .
+
+<http://www.sealit.gr/DB/payment/7EEB748B-EE06-329D-A840-96184136B806>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Pedro Esteban Giro" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/7EEB748B-EE06-329D-A840-96184136B806> .
+
+<http://www.sealit.gr/DB/person/EB8499FE-07AF-3F54-8464-F4CDEBB525A4>
+        a                      crm:E21_Person ;
+        rdfs:label             "Antonio Esteva" ;
+        sealit:has_first_name  "Antonio" ;
+        sealit:has_last_name   "Esteva" .
+
+<urn:uuid:f738afe3-fb93-4ba7-ae35-4c9b9d1390cc>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9192" ;
+        sealit:loaded  <urn:uuid:6d10d074-2fcf-4ba0-b48d-e08292009afb> .
+
+<http://www.sealit.gr/DB/person/C890A062-6EB8-38F7-8823-A3CFA5691215>
+        a                      crm:E21_Person ;
+        rdfs:label             "Narciso Mases" ;
+        sealit:has_first_name  "Narciso" ;
+        sealit:has_last_name   "Mases" .
+
+<urn:uuid:015b742a-4109-4fb1-a377-efa73676c15f>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9189" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:9a11646e-abce-4c39-b3ea-39cb01e4759d>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9189" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/appellation/5202C658-6CAC-3BEE-868E-86D1FF854231>
+        a           crm:E41_Appellation ;
+        rdfs:label  "CG" .
+
+<urn:uuid:16c42f17-e4c1-4f26-8669-6506d3e3b9e1>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9188" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:b3dcb89b-9280-4fae-aeac-0d351204cc14>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Jaime Pablo Pujol" ;
+        crm:P82_at_some_time_within  "mayo 1864" .
+
+<urn:uuid:8ed2ecd4-5fd4-4a25-bff9-7a0effce40fa>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at Barcelona" ;
+        crm:P134i_was_continued_by  <urn:uuid:2d6ccbdc-c123-4185-b59a-bc4a0a4613c1> ;
+        crm:P14_carried_out_by      <urn:uuid:e92aba92-c859-4829-ab11-7813e82e9fe8> ;
+        sealit:arrival              <urn:uuid:f183d6a4-3121-4029-a0cb-ccce64f0f039> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/date/%5B1867-11-14%5D>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date [1867-11-14]" ;
+        crm:P82_at_some_time_within  "[1867-11-14]"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/person/290FBA3F-A137-3681-A81F-EDB8FBEF9BA2>
+        a                      crm:E21_Person ;
+        rdfs:label             "otro Pujol" ;
+        sealit:has_first_name  "otro" ;
+        sealit:has_last_name   "Pujol" .
+
+<urn:uuid:3d0f40eb-0f25-43ae-8a00-ee6b6e30e314>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9191" ;
+        sealit:loaded  <urn:uuid:300773b5-c2ad-4a48-b923-57755f17d566> .
+
+<urn:uuid:a89edd79-daf3-4cee-8e96-10f5e972533a>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Ramon Mir" ;
+        crm:P82_at_some_time_within  "enero 1860" .
+
+<urn:uuid:88d2a62c-8e7b-4404-9039-103cd352f68c>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of military service of  Ramon Mir" ;
+        sealit:value_duration  "PesceptuadoY"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/crew_identifier/1094>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1094" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20andraitx> .
+
+<urn:uuid:7e8aef82-30fc-4e64-9a01-0c49152aece3>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "2018-06-29 2021-02-01T11:46:57" ;
+        crm:P82a_begin_of_the_begin  "2018-06-29"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end      "2021-02-01T11:46:57"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://www.sealit.gr/DB/date/1866-06-21>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1866-06-21" ;
+        crm:P82_at_some_time_within  "1866-06-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:146d8048-943f-47be-be4a-1907183e9495>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:40aa328f-b3a2-4bb9-806e-be46574023aa>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of employment of Jose Niubo" ;
+        sealit:value_duration  "P9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:8705a117-082c-4c6f-9417-a61d2f018d76>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/%5Ben%5Dcargado%20derrota> .
+
+<urn:uuid:53f1d745-ab6a-47d8-bb9e-867314125a91>
+        a           sealit:Horsepower ;
+        rdfs:label  "horsepower of Esperanza" .
+
+<http://www.sealit.gr/DB/location/trinidad>
+        a                crm:E53_Place ;
+        rdfs:label       "Trinidad" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<urn:uuid:c6968e21-7dbe-4a1e-bba2-da97270fd7f4>
+        a                       sealit:Leaving ;
+        rdfs:label              "Departure on 1867-11-11" ;
+        crm:P14_carried_out_by  <urn:uuid:ef87d9d3-1fdc-4c2f-836e-28e3a0fc5fe9> ;
+        sealit:from_place       <http://www.sealit.gr/DB/location/barcelona> ;
+        sealit:leaving_in       <http://www.sealit.gr/DB/date/1867-11-11> .
+
+<http://www.sealit.gr/DB/discharge/43174CA7-0828-3A16-A8D0-BB22B76BEBF3>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Mateo Porcell" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-01-27> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/bar%5Bcelo%5Dna> .
+
+<http://www.sealit.gr/DB/organisation/archivo%20general%20de%20la%20marina>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Archivo General de la Marina" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation/BEC3F735-FFFD-301D-8290-2583C630F95C> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/viso%20del%20marques> .
+
+<http://www.sealit.gr/DB/person_age/19>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 19" ;
+        sealit:value_duration  "P19Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:65ab1076-16c3-49de-9f19-1d279dc4c034>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:caec8bbc-cd2d-4ddc-954b-ad28aecffc31> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/date/1867-11-12>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1867-11-12" ;
+        crm:P82_at_some_time_within  "1867-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:5acffe6e-46fd-4989-b461-9f8641ab28b7>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:300773b5-c2ad-4a48-b923-57755f17d566>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo frutos" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/frutos> .
+
+<urn:uuid:f5e1c58b-3e5e-4566-9007-ff680152a644>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<http://www.sealit.gr/DB/ship%20type/bergantin%20goleta>
+        a           crm:E55_Type ;
+        rdfs:label  "bergantin goleta" .
+
+<http://www.sealit.gr/DB/ship%20name/esperanza>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Esperanza" .
+
+<urn:uuid:386a7752-2a0d-45ec-90ce-9419b3b9cc6b>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of military service of  Joaquin Macia" ;
+        sealit:value_duration  "P4Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/date/1866-09-11>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1866-09-11" ;
+        crm:P82_at_some_time_within  "1866-09-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/payment/3720947B-2ADA-3068-BC0B-E3906CDAB84B>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Jaime Pablo Pujol" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/3720947B-2ADA-3068-BC0B-E3906CDAB84B> .
+
+<urn:uuid:40f30ce4-ff14-49a2-bb3f-a7b288ad3cd2>
+        a                          sealit:Ship_Registration ;
+        rdfs:label                 "Registration of Esperanza" ;
+        crm:P70i_is_documented_in  <urn:uuid:3b9ee1e2-984f-443f-b410-4ba7cc15b9aa> ;
+        crm:P7_took_place_at       <http://www.sealit.gr/DB/location/cadaques> ;
+        sealit:with_shipID         <http://www.sealit.gr/DB/ship_identifier/1> .
+
+<http://www.sealit.gr/DB/military_service/2DA0622A-C898-362E-8ABA-28F7363B2437>
+        a                     sealit:Service ;
+        rdfs:label            "Military service of Ramon Mir" ;
+        crm:P4_has_time-span  <urn:uuid:0bb1d5bb-47ac-4606-88c2-7bbc2d5f9834> .
+
+<urn:uuid:96f96418-515d-49d3-ab83-7677ca1e8c3a>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo efectos" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/efectos> .
+
+<urn:uuid:80ad4dce-4bbe-4e44-801d-a9dc59b133b0>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:e7240bcf-da66-4c44-aeae-d02a523799ac>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of military service of  Joaquin Tremols" ;
+        sealit:value_duration  "P4Y5M"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/things%20type/mieles>
+        a           crm:E55_Type ;
+        rdfs:label  "mieles" .
+
+<http://www.sealit.gr/DB/crew_identifier/14>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20andraitx> .
+
+<http://www.sealit.gr/DB/registration/7EEB748B-EE06-329D-A840-96184136B806>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Pedro Esteban Giro" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:417cd8a5-f5a9-4bc0-8b1f-613e4b042c15> .
+
+<urn:uuid:5b8646e3-de4c-4945-9ca1-5e346b0fd93a>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at [Santiago de] Cuba" ;
+        crm:P134i_was_continued_by  <urn:uuid:9a340419-9e57-47c5-a48b-e88e540f6a8a> ;
+        crm:P14_carried_out_by      <urn:uuid:f5e1c58b-3e5e-4566-9007-ff680152a644> ;
+        sealit:arrival              <urn:uuid:0bfd40bd-af0d-49f3-9d79-73303bbd5165> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/%5Bsantiago%20de%5D%20cuba> .
+
+<urn:uuid:282cb4d5-223c-4edc-9bb3-9a481ee557f5>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/cocinero> .
+
+<http://www.sealit.gr/DB/dimension%20types/manga>
+        a           crm:E55_Type ;
+        rdfs:label  "Manga" .
+
+<urn:uuid:db1a473d-6691-4b4a-bfe5-272e036fa01f>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of military service of  Pedro Gelabert ilegible" ;
+        sealit:had_duration  <urn:uuid:b94a6531-c73b-4f5c-90ad-47385dbd7802> .
+
+<urn:uuid:c7050e3c-42cd-4f0a-a05e-16fe5429fc7b>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:88d74dc2-e693-4a15-a484-391d2f7d24d3>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "8" .
+
+<urn:uuid:e470fb4a-7613-4425-a28f-87363fef3eb7>
+        a                  crm:E54_Dimension ;
+        rdfs:label         "dimension of Esperanza" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/dimension%20types/puntal> ;
+        crm:P90_has_value  "12" .
+
+<urn:uuid:60a12f35-86be-4514-aded-9f4f9af345af>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of military service of  Jose Niubo" ;
+        sealit:value_duration  "P4Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:e11d78ca-9cdf-4ab1-8269-46fd39b19f74>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9192" ;
+        sealit:loaded  <urn:uuid:9a99d6a6-0adb-4c80-888c-cac5a01935ef> .
+
+<urn:uuid:2c4d0c10-9020-465a-bd21-633acaa8e86a>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9187" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/discharge/068851B2-AC4E-395B-9012-E8F9E5ACB09F>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Quirico Ribera" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-03-27> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/bar%5Bcelo%5Dna> .
+
+<http://www.sealit.gr/DB/monthly_payment/97ECE55A-C8FE-3822-97ED-3CB1C89443BA>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Monthly payment to Pedro Gelabert ilegible" ;
+        sealit:for_employment_period  <urn:uuid:4cc3d653-8dd9-45e1-94a2-cb55784383ed> .
+
+<urn:uuid:2c7a8a92-9ffe-4d9f-ae9c-5756e0f96e84>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:8ed2ecd4-5fd4-4a25-bff9-7a0effce40fa> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/trinidad%20de%20cuba> .
+
+<urn:uuid:a61e3310-9311-4b0b-9ef4-0fcbbd2b6ec6>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo efectos" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/efectos> .
+
+<http://www.sealit.gr/DB/military_service/97B314EF-81C7-3FE6-9617-42567C8E50B4>
+        a                     sealit:Service ;
+        rdfs:label            "Military service of Pablo Mases" ;
+        crm:P4_has_time-span  <urn:uuid:ce0a7a82-6f09-4030-a135-ad5dee52d8ad> .
+
+<http://www.sealit.gr/DB/person/F6BC7451-E3F4-3ACF-9BB5-1DB5D425116D>
+        a                      crm:E21_Person ;
+        rdfs:label             "Quirico Rivera" ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/cadaques> ;
+        sealit:has_first_name  "Quirico" ;
+        sealit:has_last_name   "Rivera" .
+
+<urn:uuid:8da5e509-50fc-4f56-ad98-f9caaad610d6>
+        a                           sealit:Voyage ;
+        rdfs:label                  "Route of ship Esperanza" ;
+        crm:P70i_is_documented_in   <http://www.sealit.gr/DB/document/E96387EC-35A4-3043-9DE9-854C23A4B81E> ;
+        crm:P9_consists_of          <urn:uuid:82d4c0fd-cf11-4906-80da-a46dbcfa4af0> , <urn:uuid:0f107df1-3a24-4e0a-8bed-d012247313ad> ;
+        sealit:consists_of_leaving  <urn:uuid:0f107df1-3a24-4e0a-8bed-d012247313ad> ;
+        sealit:destination          <http://www.sealit.gr/DB/location/filadelfia> .
+
+<urn:uuid:7e486f2d-554f-4e20-a4b4-b95f91c01f69>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9189" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/payment/068851B2-AC4E-395B-9012-E8F9E5ACB09F>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Quirico Ribera" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/068851B2-AC4E-395B-9012-E8F9E5ACB09F> .
+
+<http://www.sealit.gr/DB/payment/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Jose Niubo" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88> .
+
+<http://www.sealit.gr/DB/things%20type/duelas>
+        a           crm:E55_Type ;
+        rdfs:label  "duelas" .
+
+<http://www.sealit.gr/DB/payment/5EAC285C-4599-3156-B336-394143FB06E1>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Jaime Esteva" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/5EAC285C-4599-3156-B336-394143FB06E1> .
+
+<http://www.sealit.gr/DB/dimension%20types/puntal>
+        a           crm:E55_Type ;
+        rdfs:label  "Puntal" .
+
+<http://www.sealit.gr/DB/series_identifier/7D771E0E-8F36-33AB-9485-6925ECDEFC5D>
+        a           crm:E42_Identifier ;
+        rdfs:label  "1178" .
+
+<http://www.sealit.gr/DB/crew_identifier/38>
+        a                crm:E42_Identifier ;
+        rdfs:label       "38" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/h%5Babiles%5D%20andraitx> .
+
+<urn:uuid:14921241-dad7-498b-ab47-003af54f1847>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<http://www.sealit.gr/DB/profession%20type/capitan%20y%20tercer%20piloto>
+        a           sealit:Profession ;
+        rdfs:label  "capitan y tercer piloto" .
+
+<urn:uuid:8c57da7c-b6ce-453a-bd33-14571c9cb944>
+        a                       sealit:Leaving ;
+        rdfs:label              "Departure on 1866-10-05" ;
+        crm:P14_carried_out_by  <urn:uuid:a1320578-ff8e-4edd-b240-f2254d265d9d> ;
+        sealit:from_place       <http://www.sealit.gr/DB/location/barcelona> ;
+        sealit:leaving_in       <http://www.sealit.gr/DB/date/1866-10-05> .
+
+<urn:uuid:a3f3c08e-5ca7-43d5-beb7-4cea2fa20108>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1866-12-31" ;
+        crm:P82_at_some_time_within  "1866-12-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/employment/7EEB748B-EE06-329D-A840-96184136B806>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Pedro Esteban Giro" ;
+        crm:P02i_is_range_of  <urn:uuid:c8826239-ca6d-4c60-9980-e28c43286ec6> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/7EEB748B-EE06-329D-A840-96184136B806> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/7EEB748B-EE06-329D-A840-96184136B806> .
+
+<http://www.sealit.gr/DB/registration/3720947B-2ADA-3068-BC0B-E3906CDAB84B>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Jaime Pablo Pujol" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:b3dcb89b-9280-4fae-aeac-0d351204cc14> .
+
+<http://www.sealit.gr/DB/discharge/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Juan Pujol" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-01-27> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/bar%5Bcelo%5Dna> .
+
+<urn:uuid:6b14e9a8-e480-4ca8-a899-77566b80f37f>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Demetrio Rodriguez" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/1663EAB4-284F-323C-806B-BCF069E23005> .
+
+<urn:uuid:38234710-69ee-4e1d-abb5-eea5a7d78670>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Ramon Mir" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/andraitx> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/8027BBA5-1CC8-32E5-89E2-E9EB553EC0CF> .
+
+<http://www.sealit.gr/DB/crew_identifier/3>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/p%5Bilo%5Dtos%20cadaques> .
+
+<urn:uuid:20b1b0b9-1f44-42fa-8536-431ddff2c7a2>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1867-07-16" ;
+        crm:P82_at_some_time_within  "1867-07-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:0cf5c548-60dc-4130-855f-75ca2b1444f3>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9189" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:0198bede-cdcc-49e8-9cad-bbe9cdc97f3a>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at Algeciras" ;
+        crm:P134i_was_continued_by  <urn:uuid:d40a178e-fded-45d6-a5bf-b10540c59657> ;
+        crm:P14_carried_out_by      <urn:uuid:d85d726d-35a7-4673-b876-9df6b2d8695a> ;
+        sealit:arrival              <urn:uuid:6bcca15c-4112-482c-9b3c-e0d4cc0f4346> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/algeciras> .
+
+<http://www.sealit.gr/DB/person_age/26>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 26" ;
+        sealit:value_duration  "P26Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/crew_identifier/855>
+        a                crm:E42_Identifier ;
+        rdfs:label       "855" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20lloret> .
+
+<urn:uuid:df54c79c-1480-4f4b-b1f5-64f5ce665d25>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gaspar Porcell" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/andraitx> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/19E31302-97C6-30F6-B274-44DD18E9B5F9> .
+
+<urn:uuid:10ad4aad-4809-4d88-b9cc-91c7d4ba236d>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo frutos del pais" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/frutos%20del%20pais> .
+
+<urn:uuid:c5402f28-88ed-4ca9-abd7-2c2e3cab6177>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:f87ec4d9-cb1e-437a-8ace-038c9b54f6f8> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/tarragona> .
+
+<urn:uuid:28f3a2cf-8258-45b3-bdd2-f944773e6fe8>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<urn:uuid:c860d374-86f9-4bab-8d2b-f47de3b21e1c>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of military service of  Jose Niubo" ;
+        sealit:had_duration  <urn:uuid:60a12f35-86be-4514-aded-9f4f9af345af> .
+
+<http://www.sealit.gr/DB/military_service/5644F105-AC70-3126-8145-2F5FCFCB2BF1>
+        a                     sealit:Service ;
+        rdfs:label            "Military service of Joaquin Tremols" ;
+        crm:P4_has_time-span  <urn:uuid:458daae7-b6ee-417e-9fb3-5eaa0954a29b> .
+
+<urn:uuid:6b09ad74-364a-4ec5-a7ed-2e8e1930f5b1>
+        a                crm:E74_Group ;
+        rdfs:label       "passengers of Esperanza" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/group%20types/passengers> ;
+        crm:P3_has_note  "1" .
+
+<urn:uuid:404297c3-4ba9-4d76-8763-22d51493b0b4>
+        a                           sealit:Voyage ;
+        rdfs:label                  "Route of ship Esperanza" ;
+        crm:P70i_is_documented_in   <http://www.sealit.gr/DB/document/B6F0B17C-9AC2-3128-A0EB-F254144BF721> ;
+        crm:P9_consists_of          <urn:uuid:8daf3497-d9e0-4b4f-92cc-d9c73ada65a4> , <urn:uuid:3d0f40eb-0f25-43ae-8a00-ee6b6e30e314> , <urn:uuid:2c7a8a92-9ffe-4d9f-ae9c-5756e0f96e84> ;
+        sealit:consists_of_leaving  <urn:uuid:2c7a8a92-9ffe-4d9f-ae9c-5756e0f96e84> ;
+        sealit:destination          <http://www.sealit.gr/DB/location/cienfuegos> .
+
+<http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20lloret>
+        a           crm:E55_Type ;
+        rdfs:label  "hab[iles] Lloret" .
+
+<urn:uuid:b7737060-7e1e-41c3-bf55-9b956edb4f25>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9192" ;
+        sealit:loaded  <urn:uuid:96f96418-515d-49d3-ab83-7677ca1e8c3a> .
+
+<http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20andraitx>
+        a           crm:E55_Type ;
+        rdfs:label  "hab[iles] Andraitx" .
+
+<http://www.sealit.gr/DB/person_age/38>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 38" ;
+        sealit:value_duration  "P38Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:3ee2b063-78ff-47c4-a884-181ff3de2c12>
+        a                            sealit:Voyage ;
+        rdfs:label                   "Route of ship Esperanza" ;
+        crm:P140i_was_attributed_by  <urn:uuid:37645d8f-5665-4a72-8c43-4c7236ac7e51> ;
+        crm:P70i_is_documented_in    <http://www.sealit.gr/DB/document/E96387EC-35A4-3043-9DE9-854C23A4B81E> ;
+        crm:P9_consists_of           <urn:uuid:f738afe3-fb93-4ba7-ae35-4c9b9d1390cc> , <urn:uuid:7253a071-f778-45ad-a5b3-b3ca429b5b7b> ;
+        sealit:consists_of_leaving   <urn:uuid:7253a071-f778-45ad-a5b3-b3ca429b5b7b> ;
+        sealit:destination           <http://www.sealit.gr/DB/location/cienfuegos> .
+
+<urn:uuid:0bb1d5bb-47ac-4606-88c2-7bbc2d5f9834>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of military service of  Ramon Mir" ;
+        sealit:had_duration  <urn:uuid:88d2a62c-8e7b-4404-9039-103cd352f68c> .
+
+<urn:uuid:212d2d01-6937-4722-b10b-5dd3ff746b47>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9189" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/doc%20types/series>
+        a           crm:E55_Type ;
+        rdfs:label  "Series" .
+
+<urn:uuid:ce0a7a82-6f09-4030-a135-ad5dee52d8ad>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of military service of  Pablo Mases" ;
+        sealit:had_duration  <urn:uuid:79dabe59-7420-460f-9b2c-df0d7f354816> .
+
+<urn:uuid:17228db4-e131-455e-976f-a75ded4e1880>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:3ea7a66b-a031-46cf-adb4-85045559e233>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9187" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:3e6a5592-4633-4a60-92dd-13020fd26572>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:85bbaa0a-ed4c-4e72-9ebd-2519270f0709>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9187" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:bce557a7-cadb-47c5-a0d6-00db89f1d805>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<http://www.sealit.gr/DB/registration/5EAC285C-4599-3156-B336-394143FB06E1>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Jaime Esteva" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:47c18ee4-d37f-4937-bab5-97b68847ab73> .
+
+<http://www.sealit.gr/DB/employment/3720947B-2ADA-3068-BC0B-E3906CDAB84B>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Jaime Pablo Pujol" ;
+        crm:P02i_is_range_of  <urn:uuid:03ca9cc1-fa99-44c9-8f24-5106a9cdb470> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/3720947B-2ADA-3068-BC0B-E3906CDAB84B> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/3720947B-2ADA-3068-BC0B-E3906CDAB84B> .
+
+<http://www.sealit.gr/DB/payment/A97DB3A5-D698-3F06-BC98-42FE85D931C4>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Gabriel Cusart?" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/A97DB3A5-D698-3F06-BC98-42FE85D931C4> .
+
+<http://www.sealit.gr/DB/recruitment/7D88C6D7-6508-3564-937D-9B87CBF079A0>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Pedro Pomes" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1866-06-21%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<urn:uuid:0c46608e-f103-41ed-8888-5a9d070515a7>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/contramaestre> .
+
+<http://www.sealit.gr/DB/language/spanish%28castilian%29>
+        a           crm:E56_Language ;
+        rdfs:label  "Spanish(Castilian)" .
+
+<urn:uuid:e40b14a2-4e78-4389-99ce-ae9b36c56338>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Pedro Gelabert ilegible" ;
+        crm:P82_at_some_time_within  "1832" .
+
+<http://www.sealit.gr/DB/dimension%20types/eslora>
+        a           crm:E55_Type ;
+        rdfs:label  "Eslora" .
+
+<urn:uuid:def26393-8bb9-4ba5-b7e9-53ce944b86ab>
+        a                     crm:E13_Attribute_Assignment ;
+        rdfs:label            "Observations recorded in 9192" ;
+        crm:P3_has_note       "Queda en esta ciudad el marinero Joan Porcell y Alemany, por enfermo, segun certificado medico. Filadelfia" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-08-14> .
+
+<urn:uuid:590c6656-65c9-4979-a678-0bfcf5497032>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9192" ;
+        sealit:loaded  <urn:uuid:1b5481dd-b9ea-4e27-810e-647462c449c9> .
+
+<urn:uuid:8fff861d-0b72-4fb9-8ec8-c36b4ba48a12>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<http://www.sealit.gr/DB/monthly_payment/97B314EF-81C7-3FE6-9617-42567C8E50B4>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Monthly payment to Pablo Mases" ;
+        sealit:for_employment_period  <urn:uuid:8201d02f-9d4d-4b16-a033-318c6cb4f13f> .
+
+<http://www.sealit.gr/DB/crew_identifier/120>
+        a                crm:E42_Identifier ;
+        rdfs:label       "120" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20andraitx> .
+
+<http://www.sealit.gr/DB/discharge/97ECE55A-C8FE-3822-97ED-3CB1C89443BA>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Pedro Gelabert ilegible" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-11-14%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<urn:uuid:13a18067-81a8-46ee-b0bb-2ceee755456c>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Guillermo Alemany" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/andraitx> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/42C1506C-C0FA-3DA4-8A65-082315BF1E87> .
+
+<urn:uuid:2ff11217-5b8d-4eb1-bcfb-020e3cbc6ed5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Joaquin Tremols" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/cadaques> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/D84866F2-F9BC-34B0-A41D-EB8A2EBC3B00> .
+
+<urn:uuid:3e9725cf-b138-4319-aca7-620d787b6a7c>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of employment of Joaquin Tremols" ;
+        sealit:value_duration  "P8D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:03ca9cc1-fa99-44c9-8f24-5106a9cdb470>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:699ffedd-47c7-4782-ba8e-f17c7789c6c0>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of military service of  Jaime Esteva" ;
+        sealit:had_duration  <urn:uuid:ff03c97c-6100-45ce-9a0d-f2d7a05ebb5c> .
+
+<http://www.sealit.gr/DB/military_service/97ECE55A-C8FE-3822-97ED-3CB1C89443BA>
+        a                     sealit:Service ;
+        rdfs:label            "Military service of Pedro Gelabert ilegible" ;
+        crm:P4_has_time-span  <urn:uuid:db1a473d-6691-4b4a-bfe5-272e036fa01f> .
+
+<urn:uuid:69a322f6-5fa5-43a3-b4ee-2d8f76096e4e>
+        a                            sealit:Voyage ;
+        rdfs:label                   "Route of ship Esperanza" ;
+        crm:P140i_was_attributed_by  <urn:uuid:e10ad52a-bc79-4347-a7c3-62d22c4c49ec> ;
+        crm:P70i_is_documented_in    <http://www.sealit.gr/DB/document/B6F0B17C-9AC2-3128-A0EB-F254144BF721> ;
+        crm:P9_consists_of           <urn:uuid:7829bedf-21a2-4425-baff-ea33e524e355> , <urn:uuid:65ab1076-16c3-49de-9f19-1d279dc4c034> ;
+        sealit:consists_of_leaving   <urn:uuid:65ab1076-16c3-49de-9f19-1d279dc4c034> ;
+        sealit:destination           <http://www.sealit.gr/DB/location/barcelona> .
+
+<urn:uuid:b4c801c4-c225-4158-9107-66f7baa37afa>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Mateo Porcell" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/andraitx> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/95366E50-0630-377F-B2C6-F6A8B8A4DE26> .
+
+<http://www.sealit.gr/DB/registration/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Juan Pujol" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:93680e34-e906-4cfd-9643-f0dcf57d4415> .
+
+<urn:uuid:3d628b08-2fff-4b23-904b-96b576ca81a1>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1867-06-12" ;
+        crm:P82_at_some_time_within  "1867-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/payment/436C2DFD-50A4-3556-B8E7-54FA985BE9F5>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Guillermo Alemany" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/436C2DFD-50A4-3556-B8E7-54FA985BE9F5> .
+
+<http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20cadaques>
+        a           crm:E55_Type ;
+        rdfs:label  "hab[iles] Cadaques" .
+
+<urn:uuid:23d9e0ca-fbfc-4bd7-a80f-abf4164293ed>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Mateo Porcell" ;
+        crm:P82_at_some_time_within  "mayo 1860" .
+
+<urn:uuid:71baa82e-52c1-4bcf-85b1-24e3a7bee1ee>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo frutos del pais" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/frutos%20del%20pais> .
+
+<http://www.sealit.gr/DB/person/FB024D68-857E-389E-AAB0-520F8866AA86>
+        a                            crm:E21_Person ;
+        rdfs:label                   "Demetrio Rodriguez" ;
+        crm:P140i_was_attributed_by  <urn:uuid:89427851-9b79-4269-b090-e712ff035a9c> ;
+        crm:P1_is_identified_by      <http://www.sealit.gr/DB/crew_identifier/3> ;
+        crm:P70i_is_documented_in    <urn:uuid:3ea7a66b-a031-46cf-adb4-85045559e233> ;
+        crm:P98i_was_born            <urn:uuid:6b14e9a8-e480-4ca8-a899-77566b80f37f> ;
+        sealit:gave_service_for      <http://www.sealit.gr/DB/payment/2797B37B-A3F4-3AC6-9EE4-20BD91088A9B> ;
+        sealit:had_provided          <http://www.sealit.gr/DB/employment/2797B37B-A3F4-3AC6-9EE4-20BD91088A9B> ;
+        sealit:has_first_name        "Demetrio" ;
+        sealit:has_last_name         "Rodriguez" ;
+        sealit:has_profession        <http://www.sealit.gr/DB/profession%20type/%5Ben%5Dcargado%20derrota> .
+
+<http://www.sealit.gr/DB/payment/B27C8CB4-38DD-399C-AF61-8B851DB6AD8C>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Eduardo Rodriguez" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/B27C8CB4-38DD-399C-AF61-8B851DB6AD8C> .
+
+<urn:uuid:f899f384-dda0-4c90-8b99-1a7c1efb1ccd>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/employment/068851B2-AC4E-395B-9012-E8F9E5ACB09F>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Quirico Ribera" ;
+        crm:P02i_is_range_of  <urn:uuid:b324d12a-aaa6-40a1-8bfe-a5c9293028e1> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/068851B2-AC4E-395B-9012-E8F9E5ACB09F> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/068851B2-AC4E-395B-9012-E8F9E5ACB09F> .
+
+<http://www.sealit.gr/DB/registration%20types/military%20service%20registration>
+        a           crm:E55_Type ;
+        rdfs:label  "military service registration" .
+
+<http://www.sealit.gr/DB/employment/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Jose Niubo" ;
+        crm:P02i_is_range_of  <urn:uuid:a4482906-9cfb-40de-896e-f63c09f855b7> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88> .
+
+<http://www.sealit.gr/DB/employment/5EAC285C-4599-3156-B336-394143FB06E1>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Jaime Esteva" ;
+        crm:P02i_is_range_of  <urn:uuid:146d8048-943f-47be-be4a-1907183e9495> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/5EAC285C-4599-3156-B336-394143FB06E1> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/5EAC285C-4599-3156-B336-394143FB06E1> .
+
+<urn:uuid:eb590ccf-38df-449f-9c58-e4d7b284400c>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<urn:uuid:806daf2e-9fcd-4576-9310-f4a214d0156a>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:7253a071-f778-45ad-a5b3-b3ca429b5b7b>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:0198bede-cdcc-49e8-9cad-bbe9cdc97f3a> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/bar%5Bcelo%5Dna> .
+
+<urn:uuid:11bcc8d5-aa89-4f4f-a70c-173e03951c26>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9188" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:e2ef168f-4b08-49ec-bb95-1fdbe47dd1a0>
+        a                  sealit:Tonnage ;
+        rdfs:label         "tonnage of Esperanza" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/tonnage%20types/toneladas%20carga> ;
+        crm:P90_has_value  "125" .
+
+<http://www.sealit.gr/DB/monthly_payment/5644F105-AC70-3126-8145-2F5FCFCB2BF1>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Monthly payment to Joaquin Tremols" ;
+        sealit:for_employment_period  <urn:uuid:46e7ed0e-ca87-4bac-bdf7-efdc8f189249> .
+
+<urn:uuid:05ca08b3-98de-4007-ac12-6d31690a99da>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1867-11-14" ;
+        crm:P82_at_some_time_within  "1867-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:0ac42870-c4e6-4e24-8083-67f70cab8cdd>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "9" .
+
+<urn:uuid:0fb38c0e-7f0c-4e3a-908c-67b4a353cdcc>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<http://www.sealit.gr/DB/registration/A97DB3A5-D698-3F06-BC98-42FE85D931C4>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Gabriel Cusart?" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:a170398d-afd7-49bb-938f-0043111fa012> .
+
+<urn:uuid:fe2ed175-c211-4ca2-81b8-de1f43448acc>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1866-09-28" ;
+        crm:P82_at_some_time_within  "1866-09-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c63dd403-eb77-42be-917f-e6f3afe1df0f>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:fd000d88-4af6-4fd5-9c33-241d3ea0b6c1>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9189" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:3a71a467-e530-408d-a67c-4d8cb43ace78>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9188" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/person/F124AE65-E603-35DD-A725-DD1D13347F99>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Pedro Gelabert ilegible" ;
+        crm:P140i_was_attributed_by     <urn:uuid:5ffdfed9-e0cc-42d5-a2f4-6eb5def8feda> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/30> ;
+        crm:P70i_is_documented_in       <urn:uuid:5fae796a-3750-4cc4-ab31-f5da1e2935de> ;
+        crm:P98i_was_born               <urn:uuid:7d6afb1e-c139-41b6-b9ff-a1bdc45ae832> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/97ECE55A-C8FE-3822-97ED-3CB1C89443BA> , <http://www.sealit.gr/DB/monthly_payment/97ECE55A-C8FE-3822-97ED-3CB1C89443BA> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/97ECE55A-C8FE-3822-97ED-3CB1C89443BA> ;
+        sealit:has_first_name           "Pedro" ;
+        sealit:has_last_name            "Gelabert ilegible" ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/97ECE55A-C8FE-3822-97ED-3CB1C89443BA> ;
+        sealit:provided                 <http://www.sealit.gr/DB/military_service/97ECE55A-C8FE-3822-97ED-3CB1C89443BA> .
+
+<urn:uuid:a170398d-afd7-49bb-938f-0043111fa012>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Gabriel Cusart?" ;
+        crm:P82_at_some_time_within  "di[ciemb]re 1866" .
+
+<http://www.sealit.gr/DB/discharge/2DA0622A-C898-362E-8ABA-28F7363B2437>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Ramon Mir" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-01-27> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/bar%5Bcelo%5Dna> .
+
+<http://www.sealit.gr/DB/payment/43174CA7-0828-3A16-A8D0-BB22B76BEBF3>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Mateo Porcell" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/43174CA7-0828-3A16-A8D0-BB22B76BEBF3> .
+
+<urn:uuid:918b457e-8e1b-4542-9e3a-ce445a5c54ee>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo pez ilegible" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/pez%20ilegible> .
+
+<urn:uuid:4300d694-9dc6-4d57-a934-a09562de84ec>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<http://www.sealit.gr/DB/discharge/2797B37B-A3F4-3AC6-9EE4-20BD91088A9B>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Demetrio Rodriguez" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-01-03> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/person/2C5F7711-730A-337D-99D5-A0696FF16E60>
+        a                            crm:E21_Person ;
+        rdfs:label                   "Jose Niubo" ;
+        crm:P140i_was_attributed_by  <urn:uuid:3c356a31-19a0-48fe-9d75-5c0a625860c8> , <urn:uuid:0c46608e-f103-41ed-8888-5a9d070515a7> ;
+        crm:P1_is_identified_by      <http://www.sealit.gr/DB/crew_identifier/564> ;
+        crm:P43_has_dimension        <http://www.sealit.gr/DB/person_age/41> ;
+        crm:P70i_is_documented_in    <urn:uuid:85bbaa0a-ed4c-4e72-9ebd-2519270f0709> ;
+        crm:P98i_was_born            <urn:uuid:6e20e9c7-b3b5-41b3-91e5-37ebe94a44a5> ;
+        sealit:gave_service_for      <http://www.sealit.gr/DB/payment/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88> , <http://www.sealit.gr/DB/monthly_payment/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88> ;
+        sealit:had_provided          <http://www.sealit.gr/DB/employment/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88> ;
+        sealit:has_first_name        "Jose" ;
+        sealit:has_last_name         "Niubo" ;
+        sealit:has_profession        <http://www.sealit.gr/DB/profession%20type/contramaestre> ;
+        sealit:provided              <http://www.sealit.gr/DB/military_service/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88> .
+
+<urn:uuid:09c20b9f-b339-4811-93dc-b49808f118b2>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/capitan%20y%20tercer%20piloto> .
+
+<urn:uuid:6f21ba4d-4236-428c-a083-3769fc25b5a4>
+        a                        sealit:Leaving ;
+        rdfs:label               "Departure on 1866-09-11" ;
+        crm:P11_had_participant  <urn:uuid:b8454a45-e6ba-44db-bc1c-7afa77f2198c> ;
+        crm:P14_carried_out_by   <urn:uuid:bce557a7-cadb-47c5-a0d6-00db89f1d805> ;
+        sealit:from_place        <http://www.sealit.gr/DB/location/barcelona> ;
+        sealit:leaving_in        <http://www.sealit.gr/DB/date/1866-09-11> .
+
+<http://www.sealit.gr/DB/crew_identifier/39>
+        a                crm:E42_Identifier ;
+        rdfs:label       "39" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20andraitx> .
+
+<urn:uuid:5fae796a-3750-4cc4-ab31-f5da1e2935de>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9189" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/person/95366E50-0630-377F-B2C6-F6A8B8A4DE26>
+        a                      crm:E21_Person ;
+        rdfs:label             "Guillermo Porcell" ;
+        sealit:has_first_name  "Guillermo" ;
+        sealit:has_last_name   "Porcell" .
+
+<http://www.sealit.gr/DB/location/filadelfia>
+        a                crm:E53_Place ;
+        rdfs:label       "Filadelfia" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<http://www.sealit.gr/DB/profession%20type/%5Ben%5Dcargado%20derrota>
+        a           sealit:Profession ;
+        rdfs:label  "[en]cargado derrota" .
+
+<urn:uuid:473c929c-2be0-4437-b1a5-0b80afeb19fa>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Quirico Ribera" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/13C5FB2F-51A7-3979-9D8D-8F283A16DA9E> .
+
+<http://www.sealit.gr/DB/person/3DAB383E-A8CE-3D6F-BB31-22B5654FFA87>
+        a                            crm:E21_Person ;
+        rdfs:label                   "Jose Ribera" ;
+        crm:P140i_was_attributed_by  <urn:uuid:0241be4b-4372-4642-8537-5543db1aba11> , <urn:uuid:686a4c1e-cd32-4b84-a214-f67679e5550a> ;
+        crm:P1_is_identified_by      <http://www.sealit.gr/DB/crew_identifier/16> ;
+        crm:P70i_is_documented_in    <urn:uuid:015b742a-4109-4fb1-a377-efa73676c15f> ;
+        crm:P98i_was_born            <urn:uuid:1f4e5d6b-fcde-499c-8ff9-bbf11d380a8d> ;
+        sealit:gave_service_for      <http://www.sealit.gr/DB/payment/6B24060B-5B5F-3135-95AE-9807552B92C1> ;
+        sealit:had_provided          <http://www.sealit.gr/DB/employment/6B24060B-5B5F-3135-95AE-9807552B92C1> ;
+        sealit:has_first_name        "Jose" ;
+        sealit:has_last_name         "Ribera" ;
+        sealit:has_profession        <http://www.sealit.gr/DB/profession%20type/cap%5Bitan%5D%20y%20cargo%20de%20derrota> .
+
+<http://www.sealit.gr/DB/payment/2797B37B-A3F4-3AC6-9EE4-20BD91088A9B>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Demetrio Rodriguez" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/2797B37B-A3F4-3AC6-9EE4-20BD91088A9B> .
+
+<urn:uuid:551c05d0-8a33-4adc-bbd6-8e8cc9fdf6a3>
+        a                  crm:E54_Dimension ;
+        rdfs:label         "dimension of Esperanza" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/dimension%20types/manga> ;
+        crm:P90_has_value  "34" .
+
+<http://www.sealit.gr/DB/crew_identifier/4>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/p%5Bilo%5Dtos%20cadaques> .
+
+<urn:uuid:83748b5b-d09e-4c67-b008-c5bbe6d7ff5c>
+        a                     crm:E13_Attribute_Assignment ;
+        crm:P3_has_note       "Informacion y descripcion fisica" , "Queda desembarcado por no poder continuar el viaje segun reconocim[ient]o praticado por el facultativo de esta mat[ricul]a. Cuba" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1866-10-18> .
+
+<http://www.sealit.gr/DB/registration/436C2DFD-50A4-3556-B8E7-54FA985BE9F5>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Guillermo Alemany" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:86fbceaf-d5d2-4c7f-b4cd-9df7d8a641cb> .
+
+<urn:uuid:ff03c97c-6100-45ce-9a0d-f2d7a05ebb5c>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of military service of  Jaime Esteva" ;
+        sealit:value_duration  "P4Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/place%20type/port>
+        a           crm:E55_Type ;
+        rdfs:label  "port" .
+
+<urn:uuid:a4ddb432-c283-4d44-8450-e87c830c15b0>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Joan Porcell" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/andraitx> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/C095196A-2C8A-357B-A565-895D6FA88B20> .
+
+<http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew and displacement list (roll)" .
+
+<urn:uuid:b780c5f5-237a-4c8a-b550-50d33e8c7b62>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<urn:uuid:a8ba2c8c-c66a-48b0-9c2e-9d76c20de973>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<urn:uuid:9872c70a-1017-4add-8065-5e2546211e49>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9192" ;
+        sealit:loaded  <urn:uuid:918b457e-8e1b-4542-9e3a-ce445a5c54ee> .
+
+<urn:uuid:6219d8d9-a80c-46f2-a57b-188298ef38f0>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:37c4b2ca-898a-4b2a-94d7-18a2862efa4f>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Joaquin Tremols" ;
+        crm:P82_at_some_time_within  "junio 1850" .
+
+<http://www.sealit.gr/DB/military_service/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D>
+        a                     sealit:Service ;
+        rdfs:label            "Military service of Joaquin Macia" ;
+        crm:P4_has_time-span  <urn:uuid:f3fdff2d-5d06-413a-8b66-8c2ce721efc7> .
+
+<http://www.sealit.gr/DB/roles%20type/research%20assistant>
+        a           crm:E55_Type ;
+        rdfs:label  "Research assistant" .
+
+<urn:uuid:b821c793-ec8b-432d-8ae8-31a586e94b79>
+        a                       sealit:Leaving ;
+        rdfs:label              "Departure on 1867-06-08" ;
+        crm:P14_carried_out_by  <urn:uuid:f7ea47f7-4ea4-429f-bdff-f2bf9cc2b53d> ;
+        sealit:from_place       <http://www.sealit.gr/DB/location/trinidad> ;
+        sealit:leaving_in       <http://www.sealit.gr/DB/date/1867-06-08> .
+
+<urn:uuid:e314c56c-d7f9-4874-838d-7e42f31a575c>
+        a                        sealit:Leaving ;
+        rdfs:label               "Departure on 1867-03-27" ;
+        crm:P11_had_participant  <urn:uuid:b46159dd-167a-43e2-9f6a-a34e0267503b> ;
+        crm:P14_carried_out_by   <urn:uuid:42303801-ee9d-4c2e-b446-097779a0d40a> ;
+        sealit:from_place        <http://www.sealit.gr/DB/location/cienfuegos> ;
+        sealit:leaving_in        <http://www.sealit.gr/DB/date/1867-03-27> .
+
+<http://www.sealit.gr/DB/date/%5B1867-03-27%5D>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date [1867-03-27]" ;
+        crm:P82_at_some_time_within  "[1867-03-27]"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/discharge/97B314EF-81C7-3FE6-9617-42567C8E50B4>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Pablo Mases" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-01-03> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/employment/A97DB3A5-D698-3F06-BC98-42FE85D931C4>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Gabriel Cusart?" ;
+        crm:P02i_is_range_of  <urn:uuid:17228db4-e131-455e-976f-a75ded4e1880> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/A97DB3A5-D698-3F06-BC98-42FE85D931C4> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/A97DB3A5-D698-3F06-BC98-42FE85D931C4> .
+
+<http://www.sealit.gr/DB/discharge/61120449-FDDB-3261-9F1C-3006106ED043>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Joan Porcell" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-11-14%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<urn:uuid:1fe3d1dd-4226-443c-88c1-c3e9f05a6539>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9191" ;
+        sealit:loaded  <urn:uuid:10ad4aad-4809-4d88-b9cc-91c7d4ba236d> .
+
+<http://www.sealit.gr/DB/location/lloret>
+        a           crm:E53_Place ;
+        rdfs:label  "Lloret" .
+
+<http://www.sealit.gr/DB/date/1866-10-05>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1866-10-05" ;
+        crm:P82_at_some_time_within  "1866-10-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:b94a6531-c73b-4f5c-90ad-47385dbd7802>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of military service of  Pedro Gelabert ilegible" ;
+        sealit:value_duration  "P4Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:0e97c69f-88e9-41b3-ae00-9fc0edf68b66>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20rosas>
+        a           crm:E55_Type ;
+        rdfs:label  "hab[iles] Rosas" .
+
+<urn:uuid:8e6a7553-b79c-4f7b-bf28-5077ef0ab608>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "9" .
+
+<http://www.sealit.gr/DB/person/440E89A7-4A61-3788-B3FB-1A2C53D6B657>
+        a                      crm:E21_Person ;
+        rdfs:label             "Mariano Gelabert" ;
+        sealit:has_first_name  "Mariano" ;
+        sealit:has_last_name   "Gelabert" .
+
+<http://www.sealit.gr/DB/person/8D0285DC-E08A-318B-B876-0B3A710FA500>
+        a                      crm:E21_Person ;
+        rdfs:label             "Rafael Giro" ;
+        sealit:has_first_name  "Rafael" ;
+        sealit:has_last_name   "Giro" .
+
+<http://www.sealit.gr/DB/recruitment/7EEB748B-EE06-329D-A840-96184136B806>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Pedro Esteban Giro" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-03-27%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/person/D84866F2-F9BC-34B0-A41D-EB8A2EBC3B00>
+        a                      crm:E21_Person ;
+        rdfs:label             "Jose Tremols" ;
+        sealit:has_first_name  "Jose" ;
+        sealit:has_last_name   "Tremols" .
+
+<http://www.sealit.gr/DB/registration/43174CA7-0828-3A16-A8D0-BB22B76BEBF3>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Mateo Porcell" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:23d9e0ca-fbfc-4bd7-a80f-abf4164293ed> .
+
+<http://www.sealit.gr/DB/person/6B66D8D9-ECC2-3B57-B97C-DF61EB91ECBF>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Juan Pujol" ;
+        crm:P140i_was_attributed_by     <urn:uuid:b6e22dfe-81bc-441a-bae8-7637b4622676> , <urn:uuid:f550e69f-70eb-4e11-96e8-41961009dca8> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/1038> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/24> ;
+        crm:P70i_is_documented_in       <urn:uuid:07c12a34-de51-4e84-b412-4e3572e00b62> ;
+        crm:P98i_was_born               <urn:uuid:ce22745d-b958-4561-8a22-011c181b782d> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE> ;
+        sealit:has_first_name           "Juan" ;
+        sealit:has_last_name            "Pujol" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE> ;
+        sealit:provided                 <http://www.sealit.gr/DB/military_service/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE> .
+
+<urn:uuid:db623c6c-b4ad-4c22-a214-c3bb849ef769>
+        a                       sealit:Voyage ;
+        rdfs:label              "Voyage of ship Esperanza" ;
+        crm:P14_carried_out_by  <http://www.sealit.gr/DB/person/47E36A75-1302-31A1-9A57-448F1E14193D> , <http://www.sealit.gr/DB/person/65CFD277-9441-3003-B25B-6B6EC11C0087> , <http://www.sealit.gr/DB/person/F124AE65-E603-35DD-A725-DD1D13347F99> , <http://www.sealit.gr/DB/person/8A8E766B-70DB-3EF7-988A-07D559220E94> , <http://www.sealit.gr/DB/person/EA1FAE49-F383-3872-9253-40C7CC190569> , <http://www.sealit.gr/DB/person/C3069D3D-7F88-3268-9B67-EF8D1A4E0112> , <http://www.sealit.gr/DB/person/E01B6A31-EA34-3CAA-BC1C-71620F4F3464> , <http://www.sealit.gr/DB/person/0C7017CB-2F8F-3355-837D-4D1B4372E37C> , <http://www.sealit.gr/DB/person/6B66D8D9-ECC2-3B57-B97C-DF61EB91ECBF> , <http://www.sealit.gr/DB/person/FB024D68-857E-389E-AAB0-520F8866AA86> , <http://www.sealit.gr/DB/person/2C5F7711-730A-337D-99D5-A0696FF16E60> , <http://www.sealit.gr/DB/person/6B6F05E6-43A5-3E5A-B5F9-7BD880645EAF> , <http://www.sealit.gr/DB/person/3DAB383E-A8CE-3D6F-BB31-22B5654FFA87> , <http://www.sealit.gr/DB/person/66F42070-9F68-33CE-8D21-64A46D42D5D0> , <http://www.sealit.gr/DB/person/8618F67E-66AE-33EC-98D5-9F9A6CB951F1> , <http://www.sealit.gr/DB/person/EF75BC6B-7D07-3841-AC58-AA49F702E8CE> , <http://www.sealit.gr/DB/person/A4CF59CB-DE58-38C3-A6EF-F0045498DA39> , <http://www.sealit.gr/DB/person/31B35B9A-EE8F-34F6-B197-08809DC5802B> , <http://www.sealit.gr/DB/person/D56FFCA0-A1F1-334F-90D9-97947E3666EE> , <http://www.sealit.gr/DB/person/C4AC1C79-B68E-3284-B886-0766DB087962> .
+
+<urn:uuid:a1307bfe-1000-4437-9eec-cf5b267166df>
+        a                     crm:E13_Attribute_Assignment ;
+        crm:P3_has_note       "Desembarcado y toma el mando y el cargo de la derrota el de igual clase Jose Ribera. Bar[celo]na" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-03-27> .
+
+<urn:uuid:8ffcd368-8aa3-40a4-b3f3-ae58b4e3845c>
+        a                            sealit:Voyage ;
+        rdfs:label                   "Route of ship Esperanza" ;
+        crm:P140i_was_attributed_by  <urn:uuid:64f8608a-4432-425f-849d-4e2babf73657> ;
+        crm:P70i_is_documented_in    <http://www.sealit.gr/DB/document/B6F0B17C-9AC2-3128-A0EB-F254144BF721> ;
+        crm:P9_consists_of           <urn:uuid:1fe3d1dd-4226-443c-88c1-c3e9f05a6539> , <urn:uuid:dfe11f6a-eee9-4189-a718-134f1244fbd0> ;
+        sealit:consists_of_leaving   <urn:uuid:dfe11f6a-eee9-4189-a718-134f1244fbd0> ;
+        sealit:destination           <http://www.sealit.gr/DB/location/barcelona> .
+
+<http://www.sealit.gr/DB/things%20type/efectos>
+        a           crm:E55_Type ;
+        rdfs:label  "efectos" .
+
+<urn:uuid:0bfd40bd-af0d-49f3-9d79-73303bbd5165>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "arrival date 1866-10-08" ;
+        crm:P82_at_some_time_within  "1866-10-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:485d26ac-51c7-45a7-88eb-5a09f3268a4b>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at Cienfuegos" ;
+        crm:P134i_was_continued_by  <urn:uuid:b821c793-ec8b-432d-8ae8-31a586e94b79> ;
+        crm:P14_carried_out_by      <urn:uuid:b780c5f5-237a-4c8a-b550-50d33e8c7b62> ;
+        sealit:arrival              <urn:uuid:f9f81d6b-a5c1-408f-8220-81fe5fdb3721> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/cienfuegos> .
+
+<urn:uuid:6cb91207-b9dd-4f3b-b612-8edec9dee69d>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of employment of Jose Niubo" ;
+        sealit:had_duration  <urn:uuid:40aa328f-b3a2-4bb9-806e-be46574023aa> .
+
+<http://www.sealit.gr/DB/employment/436C2DFD-50A4-3556-B8E7-54FA985BE9F5>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Guillermo Alemany" ;
+        crm:P02i_is_range_of  <urn:uuid:982ca830-12c3-40f6-b1be-30dd4b39646f> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/436C2DFD-50A4-3556-B8E7-54FA985BE9F5> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/436C2DFD-50A4-3556-B8E7-54FA985BE9F5> .
+
+<http://www.sealit.gr/DB/crew_identifier/488>
+        a                crm:E42_Identifier ;
+        rdfs:label       "488" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20rosas> .
+
+<http://www.sealit.gr/DB/location/rosas>
+        a           crm:E53_Place ;
+        rdfs:label  "Rosas" .
+
+<http://www.sealit.gr/DB/document/E96387EC-35A4-3043-9DE9-854C23A4B81E>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9192" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/date/1867-03-27>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1867-03-27" , "departure date 1867-03-27" ;
+        crm:P82_at_some_time_within  "1867-03-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:16e2268b-6383-4b77-aed1-4f1201138a32>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Pablo Mases" ;
+        crm:P82_at_some_time_within  "mayo 1857" .
+
+<http://www.sealit.gr/DB/discharge/5644F105-AC70-3126-8145-2F5FCFCB2BF1>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Joaquin Tremols" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-11-14%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/registration/2DA0622A-C898-362E-8ABA-28F7363B2437>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Ramon Mir" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:a89edd79-daf3-4cee-8e96-10f5e972533a> .
+
+<http://www.sealit.gr/DB/employment/B27C8CB4-38DD-399C-AF61-8B851DB6AD8C>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Eduardo Rodriguez" ;
+        crm:P02i_is_range_of  <urn:uuid:f09326cf-616b-4eca-a623-bef9ab74a5a6> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/B27C8CB4-38DD-399C-AF61-8B851DB6AD8C> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/B27C8CB4-38DD-399C-AF61-8B851DB6AD8C> .
+
+<http://www.sealit.gr/DB/things%20type/frutos>
+        a           crm:E55_Type ;
+        rdfs:label  "frutos" .
+
+<urn:uuid:2d6ccbdc-c123-4185-b59a-bc4a0a4613c1>
+        a                        sealit:Leaving ;
+        rdfs:label               "Departure on 1866-06-21" ;
+        crm:P11_had_participant  <urn:uuid:6b09ad74-364a-4ec5-a7ed-2e8e1930f5b1> ;
+        crm:P14_carried_out_by   <urn:uuid:b0107f94-ebad-4676-8d63-821be8d10272> ;
+        sealit:from_place        <http://www.sealit.gr/DB/location/cienfuegos> ;
+        sealit:leaving_in        <http://www.sealit.gr/DB/date/1866-06-21> .
+
+<http://www.sealit.gr/DB/payment/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Juan Pujol" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE> .
+
+<urn:uuid:21a74bc4-8e82-453e-a322-7a88ffd8a4d2>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo mieles" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/mieles> .
+
+<http://www.sealit.gr/DB/person/F9CA0FF4-F3C7-3BD1-814F-02FFE8ECE6B5>
+        a                      crm:E21_Person ;
+        rdfs:label             "Clàudia Mateo" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/organisation/university%20of%20barcelona> ;
+        sealit:has_first_name  "Clàudia" ;
+        sealit:has_last_name   "Mateo" .
+
+<urn:uuid:caec8bbc-cd2d-4ddc-954b-ad28aecffc31>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at Cienf[uego]s" ;
+        crm:P134i_was_continued_by  <urn:uuid:6f21ba4d-4236-428c-a083-3769fc25b5a4> ;
+        crm:P14_carried_out_by      <urn:uuid:f1d5c5b9-bf85-46b7-bcc5-781951612691> ;
+        sealit:arrival              <urn:uuid:63feb957-271c-43e5-bc56-dc266d91c42e> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/cienf%5Buego%5Ds> .
+
+<urn:uuid:c8826239-ca6d-4c60-9980-e28c43286ec6>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/person_age/22>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 22" ;
+        sealit:value_duration  "P22Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:453649f7-59b2-4bca-8c48-c1f38da1b3c6>
+        a                crm:E18_Physical_Thing ;
+        rdfs:label       "cargo duelas" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/things%20type/duelas> .
+
+<http://www.sealit.gr/DB/person/10842365-D8AC-39A7-BE41-2B4216B544A5>
+        a                      crm:E21_Person ;
+        rdfs:label             "Ramon Niubo" ;
+        sealit:has_first_name  "Ramon" ;
+        sealit:has_last_name   "Niubo" .
+
+<urn:uuid:21f1629c-980c-469b-90c7-9232e67a6726>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9188" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:245b80d8-5aa2-4295-8b24-24da794db380>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at Trinidad [de Cuba]" ;
+        crm:P134i_was_continued_by  <urn:uuid:e2f9d492-4f86-482a-a6d0-c00a58e45dd6> ;
+        crm:P14_carried_out_by      <urn:uuid:4300d694-9dc6-4d57-a934-a09562de84ec> ;
+        sealit:arrival              <urn:uuid:3d628b08-2fff-4b23-904b-96b576ca81a1> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/trinidad%20%5Bde%20cuba%5D> .
+
+<http://www.sealit.gr/DB/person/8618F67E-66AE-33EC-98D5-9F9A6CB951F1>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Mateo Porcell" ;
+        crm:P140i_was_attributed_by     <urn:uuid:8fff861d-0b72-4fb9-8ec8-c36b4ba48a12> , <urn:uuid:c2b5719b-08ad-4867-bf59-f543c9464a3e> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/120> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/22> ;
+        crm:P70i_is_documented_in       <urn:uuid:21f1629c-980c-469b-90c7-9232e67a6726> ;
+        crm:P98i_was_born               <urn:uuid:b4c801c4-c225-4158-9107-66f7baa37afa> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/43174CA7-0828-3A16-A8D0-BB22B76BEBF3> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/43174CA7-0828-3A16-A8D0-BB22B76BEBF3> ;
+        sealit:has_first_name           "Mateo" ;
+        sealit:has_last_name            "Porcell" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/43174CA7-0828-3A16-A8D0-BB22B76BEBF3> .
+
+<http://www.sealit.gr/DB/profession%20type/segundo>
+        a           sealit:Profession ;
+        rdfs:label  "segundo" .
+
+<http://www.sealit.gr/DB/doc%20types/page>
+        a           crm:E55_Type ;
+        rdfs:label  "Page" , "page" .
+
+<urn:uuid:e15d0930-9793-49d5-9764-e8a29e39f985>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Joaquin Macia" ;
+        crm:P82_at_some_time_within  "agosto 1856" .
+
+<http://www.sealit.gr/DB/crew_identifier/16>
+        a                crm:E42_Identifier ;
+        rdfs:label       "16" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/p%5Bilo%5Dtos%20cadaques> .
+
+<urn:uuid:3abb0aa6-7676-4c55-9b57-9f59b5da52b0>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<http://www.sealit.gr/DB/person/1663EAB4-284F-323C-806B-BCF069E23005>
+        a                      crm:E21_Person ;
+        rdfs:label             "Diego Rodriguez" ;
+        sealit:has_first_name  "Diego" ;
+        sealit:has_last_name   "Rodriguez" .
+
+<http://www.sealit.gr/DB/person/13C5FB2F-51A7-3979-9D8D-8F283A16DA9E>
+        a                      crm:E21_Person ;
+        rdfs:label             "otro Ribera" ;
+        sealit:has_first_name  "otro" ;
+        sealit:has_last_name   "Ribera" .
+
+<urn:uuid:40cfa061-1049-49b8-8c83-bf28bcae169a>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/person/50E62DDA-3C5B-35A8-8635-63889CE76CC7>
+        a                      crm:E21_Person ;
+        rdfs:label             "Diego Rodriguez" ;
+        sealit:has_first_name  "Diego" ;
+        sealit:has_last_name   "Rodriguez" .
+
+<http://www.sealit.gr/DB/recruitment/43174CA7-0828-3A16-A8D0-BB22B76BEBF3>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Mateo Porcell" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1866-06-21%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/employment/43174CA7-0828-3A16-A8D0-BB22B76BEBF3>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Mateo Porcell" ;
+        crm:P02i_is_range_of  <urn:uuid:da3d0a42-d009-4f20-af9e-50f076355802> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/43174CA7-0828-3A16-A8D0-BB22B76BEBF3> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/43174CA7-0828-3A16-A8D0-BB22B76BEBF3> .
+
+<http://www.sealit.gr/DB/crew_identifier/4%3F>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4?" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20andraitx> .
+
+<http://www.sealit.gr/DB/recruitment/3720947B-2ADA-3068-BC0B-E3906CDAB84B>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Jaime Pablo Pujol" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1866-06-21%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<urn:uuid:07c12a34-de51-4e84-b412-4e3572e00b62>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9188" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/crew_identifier/88>
+        a                crm:E42_Identifier ;
+        rdfs:label       "88" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/habiles%20cadaques> .
+
+<http://www.sealit.gr/DB/monthly_payment/0B75DFB9-2DC4-32BA-990C-0ECF7B503F1D>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Monthly payment to Joaquin Macia" ;
+        sealit:for_employment_period  <urn:uuid:255de49d-86d8-4146-9231-af03545d9639> .
+
+<urn:uuid:6827e081-0d84-4ae9-998f-0a17447c17e9>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/doc%20types/folder>
+        a           crm:E55_Type ;
+        rdfs:label  "Folder" .
+
+<urn:uuid:714f356a-ec50-439c-af6e-0dfdb7df6f9b>
+        a                       sealit:Leaving ;
+        rdfs:label              "Departure on 1867-10-28" ;
+        crm:P14_carried_out_by  <urn:uuid:9abbb510-8dd0-4314-94dd-8d38edcbfefe> ;
+        sealit:from_place       <http://www.sealit.gr/DB/location/barcelona> ;
+        sealit:leaving_in       <http://www.sealit.gr/DB/date/1867-10-28> .
+
+<urn:uuid:c2b5719b-08ad-4867-bf59-f543c9464a3e>
+        a                  crm:E13_Attribute_Assignment ;
+        crm:P141_assigned  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<http://www.sealit.gr/DB/registration/61120449-FDDB-3261-9F1C-3006106ED043>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Joan Porcell" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:fbc5cf64-fab4-4984-a0ef-f832c6087d76> .
+
+<http://www.sealit.gr/DB/employment/2797B37B-A3F4-3AC6-9EE4-20BD91088A9B>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Demetrio Rodriguez" ;
+        crm:P02i_is_range_of  <urn:uuid:8705a117-082c-4c6f-9417-a61d2f018d76> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/2797B37B-A3F4-3AC6-9EE4-20BD91088A9B> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/2797B37B-A3F4-3AC6-9EE4-20BD91088A9B> .
+
+<http://www.sealit.gr/DB/profession%20type/cap%5Bitan%5D%20y%20cargo%20de%20derrota>
+        a           sealit:Profession ;
+        rdfs:label  "cap[itan] y cargo de derrota" .
+
+<http://www.sealit.gr/DB/person/0C7017CB-2F8F-3355-837D-4D1B4372E37C>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Guillermo Alemany" ;
+        crm:P140i_was_attributed_by     <urn:uuid:3abb0aa6-7676-4c55-9b57-9f59b5da52b0> , <urn:uuid:c63dd403-eb77-42be-917f-e6f3afe1df0f> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/14> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/19> ;
+        crm:P70i_is_documented_in       <urn:uuid:fd000d88-4af6-4fd5-9c33-241d3ea0b6c1> ;
+        crm:P98i_was_born               <urn:uuid:13a18067-81a8-46ee-b0bb-2ceee755456c> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/436C2DFD-50A4-3556-B8E7-54FA985BE9F5> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/436C2DFD-50A4-3556-B8E7-54FA985BE9F5> ;
+        sealit:has_first_name           "Guillermo" ;
+        sealit:has_last_name            "Alemany" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/436C2DFD-50A4-3556-B8E7-54FA985BE9F5> .
+
+<http://www.sealit.gr/DB/person/FCF95D62-5577-3130-B159-CCA6C37A874A>
+        a                      crm:E21_Person ;
+        rdfs:label             "Miguel Macia" ;
+        sealit:has_first_name  "Miguel" ;
+        sealit:has_last_name   "Macia" .
+
+<urn:uuid:043bc32f-886f-41de-8c32-4f10d06cc0fa>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:13849236-41f2-4193-b0d5-b66942d7908b> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/%5Bsantiago%20de%5D%20cuba> .
+
+<urn:uuid:d348eb89-1688-4fc3-894f-5b1900a445fd>
+        a                            sealit:Voyage ;
+        rdfs:label                   "Route of ship Esperanza" ;
+        crm:P140i_was_attributed_by  <urn:uuid:8c9e1235-127b-4497-b979-7c0a05599643> ;
+        crm:P70i_is_documented_in    <http://www.sealit.gr/DB/document/E96387EC-35A4-3043-9DE9-854C23A4B81E> ;
+        crm:P9_consists_of           <urn:uuid:691e6e7a-3b7c-410e-af38-0c2bf184ee35> , <urn:uuid:84147dab-e35e-4218-b13f-2c6a74dfe3cf> ;
+        sealit:consists_of_leaving   <urn:uuid:84147dab-e35e-4218-b13f-2c6a74dfe3cf> ;
+        sealit:destination           <http://www.sealit.gr/DB/location/barcelona> .
+
+<urn:uuid:18d23e68-6de0-4525-8809-ab936b6e950d>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of employment of Pedro Gelabert ilegible" ;
+        sealit:value_duration  "P2D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/person_age/16>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 16" ;
+        sealit:value_duration  "P16Y"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/date/1867-06-25>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1867-06-25" , "departure date 1867-06-25" ;
+        crm:P82_at_some_time_within  "1867-06-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:da3d0a42-d009-4f20-af9e-50f076355802>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/marinero> .
+
+<urn:uuid:d0b78b1a-7231-46da-a4f8-e973fa85f55c>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of employment of Pablo Mases" ;
+        sealit:value_duration  "P6D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<http://www.sealit.gr/DB/location/badalona>
+        a           crm:E53_Place ;
+        rdfs:label  "Badalona" .
+
+<urn:uuid:b8454a45-e6ba-44db-bc1c-7afa77f2198c>
+        a                crm:E74_Group ;
+        rdfs:label       "passengers of Esperanza" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/group%20types/passengers> ;
+        crm:P3_has_note  "1" .
+
+<urn:uuid:eaace510-0d01-4930-83cd-8498f7de3677>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Jaime Esteva" ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/andraitx> ;
+        crm:P97_from_father   <http://www.sealit.gr/DB/person/EB8499FE-07AF-3F54-8464-F4CDEBB525A4> .
+
+<urn:uuid:35d09dc7-3e71-4bd1-98c5-00d57aced509>
+        a                           sealit:Arrival_At ;
+        rdfs:label                  "Arrival at Mahon" ;
+        crm:P134i_was_continued_by  <urn:uuid:714f356a-ec50-439c-af6e-0dfdb7df6f9b> ;
+        crm:P14_carried_out_by      <urn:uuid:0ac42870-c4e6-4e24-8083-67f70cab8cdd> ;
+        sealit:arrival              <urn:uuid:85ecaecf-7ae2-4040-bedf-a798e16d5cd0> ;
+        sealit:at                   <http://www.sealit.gr/DB/location/mahon> .
+
+<http://www.sealit.gr/DB/person/47E36A75-1302-31A1-9A57-448F1E14193D>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Jaime Pablo Pujol" ;
+        crm:P140i_was_attributed_by     <urn:uuid:3e6a5592-4633-4a60-92dd-13020fd26572> , <urn:uuid:3c456c2f-97c3-4c40-9515-20906732679a> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/11> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/17> ;
+        crm:P70i_is_documented_in       <urn:uuid:f39dd012-f3e0-4c93-8126-19cb29f00366> ;
+        crm:P98i_was_born               <urn:uuid:a7d3f9f8-af2a-4da9-bc5c-4e24052a13fd> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/3720947B-2ADA-3068-BC0B-E3906CDAB84B> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/3720947B-2ADA-3068-BC0B-E3906CDAB84B> ;
+        sealit:has_first_name           "Jaime Pablo" ;
+        sealit:has_last_name            "Pujol" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/3720947B-2ADA-3068-BC0B-E3906CDAB84B> .
+
+<http://www.sealit.gr/DB/payment/97ECE55A-C8FE-3822-97ED-3CB1C89443BA>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Pedro Gelabert ilegible" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/97ECE55A-C8FE-3822-97ED-3CB1C89443BA> .
+
+<http://www.sealit.gr/DB/location/%5Bfiladelfia%5D>
+        a                crm:E53_Place ;
+        rdfs:label       "[Filadelfia]" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/place%20type/port> .
+
+<urn:uuid:870203b3-0f5a-4172-a077-2dcb3700056f>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "9" .
+
+<http://www.sealit.gr/DB/discharge/53AAB74A-2156-393D-8925-741B94C859DA>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Gaspar Porcell" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-11-14%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<urn:uuid:8daf3497-d9e0-4b4f-92cc-d9c73ada65a4>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9191" ;
+        sealit:loaded  <urn:uuid:a61e3310-9311-4b0b-9ef4-0fcbbd2b6ec6> .
+
+<http://www.sealit.gr/DB/things%20type/tejas>
+        a           crm:E55_Type ;
+        rdfs:label  "tejas" .
+
+<http://www.sealit.gr/DB/registration/5644F105-AC70-3126-8145-2F5FCFCB2BF1>
+        a                     sealit:Civil_Registration ;
+        rdfs:label            "Registration of Joaquin Tremols" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/registration%20types/military%20service%20registration> ;
+        crm:P4_has_time-span  <urn:uuid:37c4b2ca-898a-4b2a-94d7-18a2862efa4f> .
+
+<http://www.sealit.gr/DB/crew_identifier/5>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20andraitx> .
+
+<urn:uuid:15cd0553-5478-49f4-8495-807bdd0a8b47>
+        a                        crm:PCa_provided ;
+        rdfs:label               "provided service" ;
+        crm:P.1a_in_the_role_of  <http://www.sealit.gr/DB/profession%20type/cap%5Bitan%5D%20y%20cargo%20de%20derrota> .
+
+<http://www.sealit.gr/DB/recruitment/068851B2-AC4E-395B-9012-E8F9E5ACB09F>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Quirico Ribera" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1866-06-21%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/recruitment/EEC27028-7D90-3AD5-AFF8-1C2C25AA4E88>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Jose Niubo" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1866-06-21%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/recruitment/5EAC285C-4599-3156-B336-394143FB06E1>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Jaime Esteva" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1866-06-21%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/appellation/BEC3F735-FFFD-301D-8290-2583C630F95C>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Archivo General de la Marina" .
+
+<urn:uuid:f39dd012-f3e0-4c93-8126-19cb29f00366>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no 9188" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:5fcfbc36-fc8d-42d1-a814-8e45b00d5adf>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9192" ;
+        sealit:loaded  <urn:uuid:8a4a6b4b-9d03-437e-8ab0-b0824cd43350> .
+
+<urn:uuid:84147dab-e35e-4218-b13f-2c6a74dfe3cf>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:35d09dc7-3e71-4bd1-98c5-00d57aced509> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/filadelfia> .
+
+<urn:uuid:3c456c2f-97c3-4c40-9515-20906732679a>
+        a                crm:E13_Attribute_Assignment ;
+        crm:P3_has_note  "Informacion y descripcion fisica" .
+
+<urn:uuid:4157058e-9923-4935-b906-47da2ad73608>
+        a                           sealit:Leaving ;
+        rdfs:label                  "Departure of Esperanza" ;
+        crm:P134i_was_continued_by  <urn:uuid:39ff6ed5-84a9-4933-99bd-c3f6d733e9bf> ;
+        sealit:from_place           <http://www.sealit.gr/DB/location/cienfuegos> .
+
+<urn:uuid:417cd8a5-f5a9-4bc0-8b1f-613e4b042c15>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Pedro Esteban Giro" ;
+        crm:P82_at_some_time_within  "enero 1867" .
+
+<urn:uuid:8201d02f-9d4d-4b16-a033-318c6cb4f13f>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of employment of Pablo Mases" ;
+        sealit:had_duration  <urn:uuid:d0b78b1a-7231-46da-a4f8-e973fa85f55c> .
+
+<http://www.sealit.gr/DB/date/1867-08-14>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1867-08-14" , "departure date 1867-08-14" ;
+        crm:P82_at_some_time_within  "1867-08-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/crew_identifier/11>
+        a                crm:E42_Identifier ;
+        rdfs:label       "11" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/id%20type/hab%5Biles%5D%20rosas> .
+
+<http://www.sealit.gr/DB/payment/53AAB74A-2156-393D-8925-741B94C859DA>
+        a                   sealit:Crew_Payment ;
+        rdfs:label          "Payment to Gaspar Porcell" ;
+        sealit:for_service  <http://www.sealit.gr/DB/employment/53AAB74A-2156-393D-8925-741B94C859DA> .
+
+<urn:uuid:86fbceaf-d5d2-4c7f-b4cd-9df7d8a641cb>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date of marticulation of Guillermo Alemany" ;
+        crm:P82_at_some_time_within  "abril 1862" .
+
+<http://www.sealit.gr/DB/register_record/2018-06-29T10%3A01%3A10.690Z_12>
+        a                        crm:E73_Information_Object ;
+        rdfs:label               "Crew and displacement list (Roll), Bergantin Goleta, Esperanza, , Clàudia Mateo" ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/template%20types/crew%20and%20displacement%20list%20%28roll%29> , <http://www.sealit.gr/DB/doc%20types/record%20information> ;
+        crm:P67_refers_to        <http://www.sealit.gr/DB/Document_of_Register/B7FB35E7-E2D7-42A7-8871-5537FC8C1A23> ;
+        crm:P94i_was_created_by  <http://www.sealit.gr/DB/creation/C20AD4D7-6FE9-3759-AA27-A0C99BFF6710> .
+
+<http://www.sealit.gr/DB/person/D56FFCA0-A1F1-334F-90D9-97947E3666EE>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Joaquin Tremols" ;
+        crm:P140i_was_attributed_by     <urn:uuid:e8c30783-64c2-45ce-ba0b-175f9ffff69a> , <urn:uuid:6827e081-0d84-4ae9-998f-0a17447c17e9> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/490> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/23> ;
+        crm:P70i_is_documented_in       <urn:uuid:16c42f17-e4c1-4f26-8669-6506d3e3b9e1> ;
+        crm:P98i_was_born               <urn:uuid:2ff11217-5b8d-4eb1-bcfb-020e3cbc6ed5> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/monthly_payment/5644F105-AC70-3126-8145-2F5FCFCB2BF1> , <http://www.sealit.gr/DB/payment/5644F105-AC70-3126-8145-2F5FCFCB2BF1> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/5644F105-AC70-3126-8145-2F5FCFCB2BF1> ;
+        sealit:has_first_name           "Joaquin" ;
+        sealit:has_last_name            "Tremols" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/5644F105-AC70-3126-8145-2F5FCFCB2BF1> ;
+        sealit:provided                 <http://www.sealit.gr/DB/military_service/5644F105-AC70-3126-8145-2F5FCFCB2BF1> .
+
+<urn:uuid:7210d465-e8f1-4299-88ea-defe1b4574fd>
+        a                       sealit:Leaving ;
+        rdfs:label              "Departure on 1867-08-14" ;
+        crm:P14_carried_out_by  <urn:uuid:fd18b833-a0b7-4aa6-ab14-a83e45131905> ;
+        sealit:from_place       <http://www.sealit.gr/DB/location/barcelona> ;
+        sealit:leaving_in       <http://www.sealit.gr/DB/date/1867-08-14> .
+
+<urn:uuid:7829bedf-21a2-4425-baff-ea33e524e355>
+        a              sealit:Loading ;
+        rdfs:label     "Loading recorded in 9191" ;
+        sealit:loaded  <urn:uuid:009736a2-b969-4323-aa59-36261252df42> .
+
+<http://www.sealit.gr/DB/location/blanes>
+        a           crm:E53_Place ;
+        rdfs:label  "Blanes" .
+
+<http://www.sealit.gr/DB/discharge/7D88C6D7-6508-3564-937D-9B87CBF079A0>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Pedro Pomes" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1867-01-03> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/bar%5Bcelo%5Dna> .
+
+<urn:uuid:1f4e5d6b-fcde-499c-8ff9-bbf11d380a8d>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Jose Ribera" ;
+        crm:P97_from_father  <http://www.sealit.gr/DB/person/995BDF67-D007-3472-AFFB-253F6B1CBA3D> .
+
+<http://www.sealit.gr/DB/discharge/6B24060B-5B5F-3135-95AE-9807552B92C1>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Jose Ribera" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1867-11-14%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/recruitment/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Juan Pujol" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/%5B1866-06-21%5D> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/%5Bbarcelona%5D> .
+
+<http://www.sealit.gr/DB/employment/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE>
+        a                     sealit:Ship_Crew_Employment ;
+        rdfs:label            "Employment of Juan Pujol" ;
+        crm:P02i_is_range_of  <urn:uuid:a4e4a929-a038-4440-8c2c-deaead28e59d> ;
+        sealit:ended_by       <http://www.sealit.gr/DB/discharge/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE> ;
+        sealit:started_by     <http://www.sealit.gr/DB/recruitment/DA5E46CE-72C0-3851-8B41-B6F1BD2BC6FE> .
+
+<urn:uuid:39139f9d-d20f-4da9-8bb8-eb9c46ea237a>
+        a                      sealit:Duration ;
+        rdfs:label             "Duration of employment of Joaquin Macia" ;
+        sealit:value_duration  "P1D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:951a509f-2669-4fb6-9fd7-e4448f703df5>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "Period of military service of  Juan Pujol" ;
+        sealit:had_duration  <urn:uuid:fef06f90-d477-4186-bd77-d706c5087578> .
+
+<urn:uuid:f1d5c5b9-bf85-46b7-bcc5-781951612691>
+        a                crm:E74_Group ;
+        rdfs:label       "crew of Esperanza" ;
+        crm:P3_has_note  "10" .
+
+<http://www.sealit.gr/DB/military_service/7D88C6D7-6508-3564-937D-9B87CBF079A0>
+        a                     sealit:Service ;
+        rdfs:label            "Military service of Pedro Pomes" ;
+        crm:P4_has_time-span  <urn:uuid:535e6637-9663-4e84-802d-4e0a9cf24204> .
+
+<http://www.sealit.gr/DB/person/EF75BC6B-7D07-3841-AC58-AA49F702E8CE>
+        a                               crm:E21_Person ;
+        rdfs:label                      "Gabriel Cusart?" ;
+        crm:P140i_was_attributed_by     <urn:uuid:6995270c-65a0-4845-a112-c8c41454cf16> , <urn:uuid:14921241-dad7-498b-ab47-003af54f1847> ;
+        crm:P1_is_identified_by         <http://www.sealit.gr/DB/crew_identifier/4%3F> ;
+        crm:P43_has_dimension           <http://www.sealit.gr/DB/person_age/17> ;
+        crm:P70i_is_documented_in       <urn:uuid:7e486f2d-554f-4e20-a4b4-b95f91c01f69> ;
+        crm:P98i_was_born               <urn:uuid:22aab533-6c1d-4165-a039-d7a8088538e5> ;
+        sealit:gave_service_for         <http://www.sealit.gr/DB/payment/A97DB3A5-D698-3F06-BC98-42FE85D931C4> ;
+        sealit:had_provided             <http://www.sealit.gr/DB/employment/A97DB3A5-D698-3F06-BC98-42FE85D931C4> ;
+        sealit:has_first_name           "Gabriel" ;
+        sealit:has_last_name            "Cusart?" ;
+        sealit:has_profession           <http://www.sealit.gr/DB/profession%20type/marinero> ;
+        sealit:person_is_registered_by  <http://www.sealit.gr/DB/registration/A97DB3A5-D698-3F06-BC98-42FE85D931C4> .
+
+<http://www.sealit.gr/DB/person_age/41>
+        a                      sealit:Duration ;
+        rdfs:label             "Age 41" ;
+        sealit:value_duration  "P41Y"^^<http://www.w3.org/2001/XMLSchema#duration> .

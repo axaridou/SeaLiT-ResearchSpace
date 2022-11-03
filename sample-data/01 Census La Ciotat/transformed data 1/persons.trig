@@ -1,0 +1,2950 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/person/0BD87A16-AD14-3F11-923B-7410EFE7DB97>
+        a                        crm:E21_Person ;
+        rdfs:label               "Françoise Gasquet" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/4C4B55DE-2655-3929-B71D-FF6E32EDC365> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Françoise" ;
+        sealit:has_last_name     "Gasquet" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6509296B-53D5-3420-96DD-784671D13B7B> .
+
+<http://www.sealit.gr/DB/register_record_point/AEB9F5DE-35B7-3EF1-8AF2-30649E41428D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/0C67292A-48A3-3EF1-9B08-819D461DF7EA> .
+
+<http://www.sealit.gr/DB/register_record_point/F12445DD-00C2-344F-A750-48F1871736E4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/88EF4950-4DED-3C74-B934-90BAC391CA65> .
+
+<http://www.sealit.gr/DB/person/7148B311-BE90-3234-9098-8D0509AA0287>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/E780F7BC-524A-3718-B831-23DD7AC22DFC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/5472FE12-4406-3B10-89CA-7EDDDB5A06B9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pascale Portal" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/3E9B3AC6-F082-3C46-A2D1-D3F1F1647456> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Pascale" ;
+        sealit:has_last_name     "Portal" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F6443597-2E1B-30EC-8EB1-8797D31D6060> .
+
+<http://www.sealit.gr/DB/register_record_point/01BD19A8-9B51-3F2D-9462-3DF9E2B71D99>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/693F3AC6-DCA9-39F1-8611-7BE9F1A23D5B> .
+
+<http://www.sealit.gr/DB/register_record_point/F58C8684-F7A5-3F81-852B-0D3A1FF8D900>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_29" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/46F75A47-A9FF-3D8F-896B-D3AF72547BA2> .
+
+<http://www.sealit.gr/DB/register_record_point/3326ADB3-B4BD-3C55-984E-F501F328D287>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/17663156-896B-38B7-A1CB-D1F5618ABAEC> .
+
+<http://www.sealit.gr/DB/appellation_surname/BA9B56FD-458B-33C0-90C6-FA199DE82882>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Moulinard" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/FAADACDF-CEC9-3D95-94C1-022861AA814F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Robert" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/4FFE35DB-90D9-3C60-81FB-8DDF7B44DF29> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie" ;
+        sealit:has_last_name     "Robert" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/56CF6560-1B81-35C3-AEF7-0EE8377EF451> .
+
+<http://www.sealit.gr/DB/person/02E85AB7-CEEC-3F58-91A0-B24F2ADE14AD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Baptistin Bavastro" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/8B270FF0-7206-38E0-917E-37FF5147D5D1> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Baptistin" ;
+        sealit:has_last_name     "Bavastro" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/4DB44AA7-51D7-3E3D-B152-B0E0305E91A7> .
+
+<http://www.sealit.gr/DB/person/EA4C2840-FA58-3A17-A938-BCC13DD6FAE1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Michel" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/CD18AE9B-A28F-35EA-98C1-1B02474AB89F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie" ;
+        sealit:has_last_name     "Michel" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/46886FF3-1A90-39F4-95A0-E53E5E84077A> , <http://www.sealit.gr/DB/person/C981358C-333B-3A47-A548-1F8F5B30D9FE> , <http://www.sealit.gr/DB/person/693F3AC6-DCA9-39F1-8611-7BE9F1A23D5B> .
+
+<http://www.sealit.gr/DB/person/CD6C285F-3171-3146-9709-F6F9A7D19E99>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/69CF52E2-4BFA-3440-A501-9F39596A53D5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mallet" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/BE466600-7C6B-3EE0-B270-6852C409C9DC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Valentine Martin" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/81D6F316-D169-350D-8E87-33866C38684D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Valentine" ;
+        sealit:has_last_name     "Martin" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D39250BC-AF03-3761-AF4C-0EAA71EF3ECA> .
+
+<http://www.sealit.gr/DB/person/6B503A32-3DD3-3BEA-B5C3-612329C1C26C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Etienne Marius Ventre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/31BAD8D6-C97E-39D2-B310-72564DC71F7C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Etienne Marius" ;
+        sealit:has_last_name     "Ventre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/0C67292A-48A3-3EF1-9B08-819D461DF7EA> .
+
+<http://www.sealit.gr/DB/appellation_surname/61803FA1-5D4D-3B50-9A04-45C3C38931EE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Sias" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/750F9249-825B-3DBD-BC14-EA8CC32AF62E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Boyer" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/DE20FEB1-725E-306E-8508-938BAE89A7F2>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/D8B2809B-4904-3D0F-90FB-2B803E8FE47E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 6, table: list_of_occupants_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/E5A563D8-8084-39EB-BD8C-4BEEA5AC88B1> .
+
+<http://www.sealit.gr/DB/register_record_point/158BCC97-13C3-3B33-888B-A1C61D607AFE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 7, table: list_of_occupants_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/14AE5E1C-5113-3231-98FB-42F26958B0D0> .
+
+<http://www.sealit.gr/DB/appellation_surname/071A9F29-7869-3632-8413-13E86B545E3C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Berenger" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/E19AD666-9507-388B-B74F-4333A1B6EC9E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Louis Fournier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EEF968A6-C78C-3D4A-9F31-1C8EBCB5FFB8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Louis" ;
+        sealit:has_last_name     "Fournier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8B4CD253-9DBB-3ABC-81E3-6F7C4A1CE64A> .
+
+<http://www.sealit.gr/DB/appellation_surname/CB17869F-E510-38B5-A5C4-C6106551A255>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Constant" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/B577CCD7-CD90-32FD-8C77-7281DAA72C55>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/45889EF1-FAE5-3FB4-BA67-DA06A372E1E9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Alphonse Guys" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B90500FC-7DC4-34D0-93D1-EC10BC206768> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Alphonse" ;
+        sealit:has_last_name     "Guys" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6221A370-BDF3-3FA7-B675-09D05C4D7D63> .
+
+<http://www.sealit.gr/DB/register_record_point/017FBEE7-E035-3B6C-BCF9-7D7EDE7DFFF1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/5E3DE8B9-E043-35D9-8A07-45C5C7CCECDD> .
+
+<http://www.sealit.gr/DB/appellation_surname/D8166F78-62D2-3F6A-B880-246D0FA8D080>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cassé" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-31T13:36:46.374Z_28&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/8FE39223-54EC-38BF-BACF-01EB9AD8D1FF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Baptistine Girard" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/8428AD16-2661-37F6-88E7-DF3024CBE89D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Baptistine" ;
+        sealit:has_last_name     "Girard" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/386FD746-878D-3EA8-B158-7A8DCBC8C90C> , <http://www.sealit.gr/DB/person/CEF41ED0-D5B5-34F9-95B2-602295C870BB> .
+
+<http://www.sealit.gr/DB/register_record_point/C4EEB282-5713-3343-9BA1-D5110EA2A78D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/612C0F92-5012-3F72-B5BE-5B4A4E2B5AE4> .
+
+<http://www.sealit.gr/DB/person/C822804E-B7A3-3C09-B6AA-60515A376BB3>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/386FD746-878D-3EA8-B158-7A8DCBC8C90C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/CE30C5D2-23DA-3437-A0BA-E50D12D673D5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/DC5CD6E5-3827-38E2-B352-C84D6BCFEBA8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Geneviève Moulinard" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/BA9B56FD-458B-33C0-90C6-FA199DE82882> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Geneviève" ;
+        sealit:has_last_name     "Moulinard" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/45BC0C3C-2440-3AAB-B424-CF04C346D1E5> .
+
+<http://www.sealit.gr/DB/register_record_point/6711D501-439B-3D87-B270-27534F153EEE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/AD0BCF47-2195-39CE-BF79-7BEFD3518ADC> .
+
+<http://www.sealit.gr/DB/person/D41476A0-1F78-34DE-8793-7534FAF2AF12>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/81103F70-6FD9-3EAF-82C4-0A065052BA0B>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-29T09:34:37.671Z_25&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/9F7254B6-CB1A-3AD1-B8D7-63403CBE3496>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/2DFA5268-171C-38D2-90A2-EBA72B02F50A> .
+
+<http://www.sealit.gr/DB/register_record_point/F1D1C4E8-DFC2-3F39-9184-4D8B07D334FE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 6, table: list_of_occupants_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/54EA4D6C-B1E6-3F31-A420-0F75BDFDE58D> .
+
+<http://www.sealit.gr/DB/person/9F827B75-D6D8-3672-874A-AC78B6BF1735>
+        a                        crm:E21_Person ;
+        rdfs:label               "Rose Long" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/8394F034-7C18-3CF1-96AC-5924DCCB773B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Rose" ;
+        sealit:has_last_name     "Long" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D4052595-29C2-3196-9BB2-E6DCBDE0178F> .
+
+<http://www.sealit.gr/DB/appellation_surname/31BAD8D6-C97E-39D2-B310-72564DC71F7C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ventre" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/E47BFB5B-A08F-3B6B-87FD-964CBAD9D07E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/54EA4D6C-B1E6-3F31-A420-0F75BDFDE58D>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-28T09:03:57.803Z_24&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/BD07D57C-E726-3858-8372-F5EA26ACD22C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/C3B7F1AA-E892-3963-B310-0F1DA7FC6E6A> .
+
+<http://www.sealit.gr/DB/person/F92814D9-AA9E-32E1-9596-976944E6B5C2>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/19E139B5-7C73-349B-A9AB-AB937E4DC910>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/0BEC2FA8-3D8C-3DD0-9EBC-865DBE483FCA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Thérèse Benet" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/173879FD-B1E5-3D2B-BD4E-B52A41A95903> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie Thérèse" ;
+        sealit:has_last_name     "Benet" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D3DC4B5C-29A0-3B3B-B617-614149DF5770> .
+
+<http://www.sealit.gr/DB/register_record_point/2A217988-C7FA-3B43-BEC9-3E4036F80C1F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_25" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/95DB86AF-E486-305C-886D-87BEBB843345> .
+
+<http://www.sealit.gr/DB/person/A66E6B33-F78A-3D8A-A902-FBF7A1F3D1DD>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/D1C18FAF-FAF7-3602-B50A-471D22A3B1ED>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_30" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/845D921A-8AEA-3753-8A20-63E00CC8DF63> .
+
+<http://www.sealit.gr/DB/person/14AE5E1C-5113-3231-98FB-42F26958B0D0>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/E8FB2516-73FF-3701-B2AE-42A615915560>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_12" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/5AE4D421-BC9F-3DE1-8668-5F601304D88F> .
+
+<http://www.sealit.gr/DB/appellation_surname/4BE90ED9-C413-36EC-B424-7E49AEC714A9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bruce" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/17663156-896B-38B7-A1CB-D1F5618ABAEC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/D3DC4B5C-29A0-3B3B-B617-614149DF5770>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record/2019-01-29T09%3A34%3A37.671Z_25>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-29T09:34:37.671Z_25&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/D21C75DC-5B2D-32FC-A6C7-097DD6D71641>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Duchier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/266539CB-7E1F-3DDF-940C-8A5C19840CAA> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie" ;
+        sealit:has_last_name     "Duchier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/CD6C285F-3171-3146-9709-F6F9A7D19E99> .
+
+<http://www.sealit.gr/DB/person/ADB15E30-280F-320D-90A6-D818A8A3B0FE>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/1C09B7B3-BBD4-3F35-8C82-D151625956D5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/EDBFC99E-8EA3-32C6-8B56-1314C7117997>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_27" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/9AD55E12-1695-3490-96E4-F480167A829A> .
+
+<http://www.sealit.gr/DB/appellation_surname/173879FD-B1E5-3D2B-BD4E-B52A41A95903>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Benet" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/F6C8783B-FB5F-36D0-95F2-D9F03728B862>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/47544CCD-56E3-3818-81EF-72A758DB13D0> .
+
+<http://www.sealit.gr/DB/appellation_surname/29C47B2D-2719-3261-A110-8C97BDE8B150>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Monfort" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/9BE6F506-A21C-335E-9402-9A02CB6941F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-05T14%3A04%3A54.455Z_33> , <http://www.sealit.gr/DB/person/97A5D38A-565C-3263-BDEE-F9206B1AE1EF> .
+
+<http://www.sealit.gr/DB/person/99819E8D-5A40-39EA-B6B3-1C7C542DD4F4>
+        a                        crm:E21_Person ;
+        rdfs:label               "François Xavier Allere" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/374DEA03-4FE6-307D-A948-CC38BCCF1B2C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "François Xavier" ;
+        sealit:has_last_name     "Allere" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DE20FEB1-725E-306E-8508-938BAE89A7F2> .
+
+<http://www.sealit.gr/DB/appellation_surname/C9F28501-AAC7-3668-8A62-7A138C2ACEFC>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Allegre" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/F22C045E-DF33-3AAA-B473-C136919E0D2E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/85D9E61D-0702-3E83-AC73-D87F23BC8BAC> .
+
+<http://www.sealit.gr/DB/person/E141466A-0E59-3868-8709-8583D862880E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Paul Etienne Fournier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EEF968A6-C78C-3D4A-9F31-1C8EBCB5FFB8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Paul Etienne" ;
+        sealit:has_last_name     "Fournier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/2DFA5268-171C-38D2-90A2-EBA72B02F50A> .
+
+<http://www.sealit.gr/DB/person/F1806EE4-B514-3527-AE24-5F197827990F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Emile L. Xavier Ricard" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/709D6C39-CF62-33CF-916D-08192D647879> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Emile L. Xavier" ;
+        sealit:has_last_name     "Ricard" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/122B6EA6-EA39-3EF5-8B1A-B5C693AD54D1> .
+
+<http://www.sealit.gr/DB/register_record_point/62E902F0-B707-3E81-9212-916A81B66135>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_19" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/4DB44AA7-51D7-3E3D-B152-B0E0305E91A7> .
+
+<http://www.sealit.gr/DB/person/E7C0BCC4-189D-311C-A9E3-FB0984B56A16>
+        a                        crm:E21_Person ;
+        rdfs:label               "Delphine Fournier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EEF968A6-C78C-3D4A-9F31-1C8EBCB5FFB8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Delphine" ;
+        sealit:has_last_name     "Fournier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A011B39C-761B-30D2-BA6E-634CA11446E5> .
+
+<http://www.sealit.gr/DB/person/2C714785-9384-356D-84FD-4CFACD6A509E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Magdelaine Allegre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C9F28501-AAC7-3668-8A62-7A138C2ACEFC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Magdelaine" ;
+        sealit:has_last_name     "Allegre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/358565AB-764F-3BCB-98F1-0A5F95270F4C> .
+
+<http://www.sealit.gr/DB/register_record_point/9601C2B2-8820-3F42-A85A-CA10FD6AF0DD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_7" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/F92814D9-AA9E-32E1-9596-976944E6B5C2> .
+
+<http://www.sealit.gr/DB/person/9AE2BD21-80C6-32CB-977A-CBB739B0923D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pierre Constant" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/CB17869F-E510-38B5-A5C4-C6106551A255> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Pierre" ;
+        sealit:has_last_name     "Constant" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/3BA5D905-654F-376C-ABC3-8CD185FC709B> .
+
+<http://www.sealit.gr/DB/appellation_surname/266539CB-7E1F-3DDF-940C-8A5C19840CAA>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Duchier" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/083B8DEA-C726-3D4C-9C75-B5BA3799EFEB>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/1F24BEBD-6D8D-3600-8A44-A6C693CE7FA4>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/A5578391-7818-364E-8328-BE6FC2F59F05>
+        a                        crm:E21_Person ;
+        rdfs:label               "Emilie Boustan" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/123B61A3-8609-3D66-AF64-71FB0A935F43> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Emilie" ;
+        sealit:has_last_name     "Boustan" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A7158C03-42C3-3735-81F1-B4B109A0C604> .
+
+<http://www.sealit.gr/DB/register_record_point/95D2B522-06F3-3F7B-B68D-18306AF76DBB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_7" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-05T14%3A04%3A54.455Z_33> , <http://www.sealit.gr/DB/person/53255DB5-36F7-370E-87EC-7B79E5DC5984> .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/person/2FD4440B-9965-3937-9F85-FDA80D5D2C9F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/F4FCC084-1D11-3BF5-B5C5-DC5D36F07BEB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/4008D209-A098-34B0-8E74-870B425402B1> .
+
+<http://www.sealit.gr/DB/person/DDE1A701-293D-3354-A604-150CA37F5A8D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Claire Bruce" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/4BE90ED9-C413-36EC-B424-7E49AEC714A9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Claire" ;
+        sealit:has_last_name     "Bruce" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F16BB32D-374A-31D7-96B6-B1BE93F3CA24> .
+
+<http://www.sealit.gr/DB/register_record_point/9B945433-7905-3857-8868-980A97F3FC34>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/45BC0C3C-2440-3AAB-B424-CF04C346D1E5> .
+
+<http://www.sealit.gr/DB/person/E77B1EC9-8D00-3553-8413-549B714AF0CF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Ba[?]thazard Blanc" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1FA0593D-0698-35E9-9065-CE5068141D2C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Ba[?]thazard" ;
+        sealit:has_last_name     "Blanc" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/5E3DE8B9-E043-35D9-8A07-45C5C7CCECDD> .
+
+<http://www.sealit.gr/DB/register_record_point/BBEFB7DF-F6DF-37AB-93A5-9B0A7E1145EF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 9, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/8B4CD253-9DBB-3ABC-81E3-6F7C4A1CE64A> .
+
+<http://www.sealit.gr/DB/register_record_point/1A971648-8098-3C2D-A397-FC653BCD15C7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/25E10AC9-B7C4-32D5-9538-77D12501953E> .
+
+<http://www.sealit.gr/DB/register_record_point/A2E257F2-D9EB-3255-A36B-D6AA9250E624>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_20" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/8036A86E-FD7E-368E-9066-35A3679B3DE0> .
+
+<http://www.sealit.gr/DB/person/8624C67A-A146-3355-90EE-2754814AE0A6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Catherine Caradoire" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D327CA59-4F12-3293-8445-CB5529A3DBB1> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Catherine" ;
+        sealit:has_last_name     "Caradoire" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/1F24BEBD-6D8D-3600-8A44-A6C693CE7FA4> .
+
+<http://www.sealit.gr/DB/person/28DB1AD8-3FA8-35ED-B531-8A62BA8B37F9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joseph Felix Mallet" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/69CF52E2-4BFA-3440-A501-9F39596A53D5> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Joseph Felix" ;
+        sealit:has_last_name     "Mallet" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8A7DA2C7-82BD-3112-A600-F8910A68B0BF> .
+
+<http://www.sealit.gr/DB/person/7BBEF7F3-A9F4-37CF-BB77-9D711724EE7A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marius Antoine Reynaud" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/9AB7C86D-5D5E-3906-8D11-4CFECBF311DE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marius Antoine" ;
+        sealit:has_last_name     "Reynaud" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7148B311-BE90-3234-9098-8D0509AA0287> .
+
+<http://www.sealit.gr/DB/person/7F7F08F4-62F9-3746-85FB-81A2349BB4EE>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/D2E26551-CC9E-3BF8-AFD5-C1601591A4E6>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/BD080855-EA37-3C9D-8C40-7871F8C32C76>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/02792FD2-D3DA-35D8-9AA3-E4D4725B72C7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Emilie Aime Roman" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B5DF36AC-79AA-3391-BFB4-32B9E5AD7880> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Emilie Aime" ;
+        sealit:has_last_name     "Roman" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/083B8DEA-C726-3D4C-9C75-B5BA3799EFEB> .
+
+<http://www.sealit.gr/DB/appellation_surname/0100614B-CE6B-3423-8AF1-5A5ABA938BFE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gardère" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/1D9C5FAB-4133-3CD5-BE6B-F640A9F962FC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/359F0E91-3194-3295-8A96-3633972E23EA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Catherine Suzanni" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/5F40106E-D2BA-3528-952E-CF986AECA928> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie Catherine" ;
+        sealit:has_last_name     "Suzanni" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/AC1456DB-6601-3E08-8E41-0055544FD819> .
+
+<http://www.sealit.gr/DB/person/29014DBD-B21A-35A4-9E7A-4820A7A859E8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Augustine Constant" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/CB17869F-E510-38B5-A5C4-C6106551A255> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Augustine" ;
+        sealit:has_last_name     "Constant" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/B577CCD7-CD90-32FD-8C77-7281DAA72C55> , <http://www.sealit.gr/DB/person/3A8B6E4E-19DE-388E-9DCB-77BC3C3BDE3C> , <http://www.sealit.gr/DB/person/453A64D3-3108-32D5-8F30-C93BDFC0E187> .
+
+<http://www.sealit.gr/DB/person/BBAD528F-698D-3237-B5FB-B6286EA04037>
+        a                        crm:E21_Person ;
+        rdfs:label               "Martin Cars[?]i[?] Fardeloux" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1C173A05-4E72-3117-A2D6-AF41A3789E81> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Martin Cars[?]i[?]" ;
+        sealit:has_last_name     "Fardeloux" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9CD1866D-AAB1-3F2D-BCF3-D1CE1A2E93E4> .
+
+<http://www.sealit.gr/DB/person/C64D40A1-CAA3-36DD-B971-7B47DD460F3C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/FDF73410-F2FB-32BF-BF28-3578F3FFD88D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/968ECA13-4B25-3358-98EF-B4485CA4D3E4> .
+
+<http://www.sealit.gr/DB/register_record_point/64885FED-6F8B-34F2-BBD6-8CFC8C37CB18>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_24" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/453A64D3-3108-32D5-8F30-C93BDFC0E187> .
+
+<http://www.sealit.gr/DB/person/693F3AC6-DCA9-39F1-8611-7BE9F1A23D5B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/D39250BC-AF03-3761-AF4C-0EAA71EF3ECA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/8428AD16-2661-37F6-88E7-DF3024CBE89D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Girard" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/DB5ED6B4-1849-32D1-B62F-12F8747C3F3C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Eugéne Fournier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EEF968A6-C78C-3D4A-9F31-1C8EBCB5FFB8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Eugéne" ;
+        sealit:has_last_name     "Fournier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/16E344EA-C19E-3E14-88F5-EF4453B3D385> .
+
+<http://www.sealit.gr/DB/register_record_point/B42EF98F-D86E-3AC4-A068-CFE71442E8F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_22" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/35A6DC03-C8B0-30E0-83B3-DA02B1C776E1> .
+
+<http://www.sealit.gr/DB/register_record_point/40714D2A-5922-3EA1-AF38-63CD45B013F7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_24" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/C64D40A1-CAA3-36DD-B971-7B47DD460F3C> .
+
+<http://www.sealit.gr/DB/register_record/2019-01-29T13%3A54%3A31.316Z_26>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-29T13:54:31.316Z_26&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/0FBB8994-C70E-3462-B392-8D4AA24C4738>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/8EAEA968-AC34-3083-90B5-5F1D1C13623C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/CDEC6AFA-F3E7-3F6B-9611-6B5F7BF39CEC> .
+
+<http://www.sealit.gr/DB/person/56CF6560-1B81-35C3-AEF7-0EE8377EF451>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/847640A1-094F-38F4-A7FD-D1B1B5BEEC51>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/E5231017-EB31-368B-A4DF-4F10C8C21152>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Julien" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/A64CD806-2EAA-3562-80BA-463F2EE7C828> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie" ;
+        sealit:has_last_name     "Julien" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7630D20E-DD16-34AD-8434-17AFD6B2AA08> , <http://www.sealit.gr/DB/person/530ABF6D-A40B-3522-B76F-11EFEA6E77F8> .
+
+<http://www.sealit.gr/DB/person/4DEBEF0F-CD3E-3526-860D-B93E826ED3AF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Victorine Fournier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EEF968A6-C78C-3D4A-9F31-1C8EBCB5FFB8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Victorine" ;
+        sealit:has_last_name     "Fournier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/E780F7BC-524A-3718-B831-23DD7AC22DFC> .
+
+<http://www.sealit.gr/DB/register_record_point/9715BB94-CC14-3B55-87DF-5AC1C8EEA8D6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 14, table: list_of_occupants_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-30T14%3A38%3A02.546Z_27> , <http://www.sealit.gr/DB/person/7F7F08F4-62F9-3746-85FB-81A2349BB4EE> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-22T14:32:28.182Z_17&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/appellation_surname/FF37972D-B212-3EC9-A7B3-1CA4704C4B3F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Dalest" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/A011B39C-761B-30D2-BA6E-634CA11446E5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/D92A88F1-B47B-38DA-BA71-668794F46371>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/123B61A3-8609-3D66-AF64-71FB0A935F43>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Boustan" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/950F48E7-386C-34C1-904F-6527613AF211>
+        a                        crm:E21_Person ;
+        rdfs:label               "Therèze Rampal" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/E88855C9-1A17-308E-8408-940FB901DF9D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Therèze" ;
+        sealit:has_last_name     "Rampal" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/745F6605-BAE3-3268-9145-D37E6DF9EEC9> .
+
+<http://www.sealit.gr/DB/appellation_surname/FFC9A0E6-0CE1-3B6D-AC75-E629A138FDF2>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Sallier" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/AD0BCF47-2195-39CE-BF79-7BEFD3518ADC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7E107809-9DD7-3A13-869F-22FDA1EA0688>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/B90500FC-7DC4-34D0-93D1-EC10BC206768>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Guys" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/255A5E0E-BF25-37F9-96A0-C97611E2290E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/59704E45-9E74-34EC-B64B-F29053AE8C25> .
+
+<http://www.sealit.gr/DB/person/3E4C0C16-D76B-3097-A079-F1FFB5B95564>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record/2019-01-22T14%3A32%3A28.182Z_17>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-22T14:32:28.182Z_17&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/C5A9A951-3717-3BF2-AA23-2ADED38A4CF2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Elisabeth Ventre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/31BAD8D6-C97E-39D2-B310-72564DC71F7C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Elisabeth" ;
+        sealit:has_last_name     "Ventre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/EE061E03-7FE4-36D1-88E3-BB401C8251A0> .
+
+<http://www.sealit.gr/DB/person/EDF5B41D-7C22-3E4B-921A-63B55625C379>
+        a                        crm:E21_Person ;
+        rdfs:label               "Louis Claire Espanet" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/3BE19B56-D7FE-3E83-A42F-F8204B28ACE7> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Louis Claire" ;
+        sealit:has_last_name     "Espanet" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/0D0C597F-F0EE-390C-B106-D5661A31DD0E> .
+
+<http://www.sealit.gr/DB/person/802AA981-02A6-31B1-AA5D-745D500FFD16>
+        a                        crm:E21_Person ;
+        rdfs:label               "Aimée Reynaud" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/9AB7C86D-5D5E-3906-8D11-4CFECBF311DE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Aimée" ;
+        sealit:has_last_name     "Reynaud" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/88EF4950-4DED-3C74-B934-90BAC391CA65> .
+
+<http://www.sealit.gr/DB/register_record_point/868EFE4A-C518-34C1-897C-754DA0C2AF47>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/D3DC4B5C-29A0-3B3B-B617-614149DF5770> .
+
+<http://www.sealit.gr/DB/register_record/2019-02-14T09%3A35%3A18.504Z_35>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-14T09:35:18.504Z_35&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/97D85913-F7EF-3C44-8375-AB55F2C4AD2E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_28" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-29T09%3A34%3A37.671Z_25> , <http://www.sealit.gr/DB/person/9056C243-215B-3C3E-848C-28AF3D675B0E> .
+
+<http://www.sealit.gr/DB/register_record_point/8541AEE3-525C-3BA6-A655-34D2911F5D0D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_28" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T15%3A00%3A07.241Z_32> , <http://www.sealit.gr/DB/person/706DB488-627A-37BD-A7A3-FE30CBD306BC> .
+
+<http://www.sealit.gr/DB/appellation_surname/21E44C8D-122F-3EE8-AA97-9158CB6204EE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cayol" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/AA288524-99B3-3ADD-A39E-77885464044A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/CD6C285F-3171-3146-9709-F6F9A7D19E99> .
+
+<http://www.sealit.gr/DB/person/1D6A82E1-D7F4-3D83-9E93-3CF6639DF042>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antoine Descourvières" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/CD90670F-2126-32D5-91EB-DBE307D9B5F2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Antoine" ;
+        sealit:has_last_name     "Descourvières" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/85D9E61D-0702-3E83-AC73-D87F23BC8BAC> .
+
+<http://www.sealit.gr/DB/template%20types/census%20la%20ciotat>
+        a           crm:E55_Type ;
+        rdfs:label  "census la ciotat" .
+
+<http://www.sealit.gr/DB/person/FF0206FF-D7B3-3DC8-8AFC-4C54D67ACF03>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/E88855C9-1A17-308E-8408-940FB901DF9D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rampal" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/DFEEBD8D-A905-3B66-B606-3C31C644B3FA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_27" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/9CD1866D-AAB1-3F2D-BCF3-D1CE1A2E93E4> .
+
+<http://www.sealit.gr/DB/person/A4BCE166-ADE4-398E-9B2F-4AA8C5482F7E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antoine Siméon Bavastro" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/8B270FF0-7206-38E0-917E-37FF5147D5D1> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Antoine Siméon" ;
+        sealit:has_last_name     "Bavastro" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F2BCC8D2-F5BC-39F4-9352-934B1540217B> .
+
+<http://www.sealit.gr/DB/appellation_surname/F6659E20-C94E-38E6-B17D-566E32B0FDB9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Jalusseau" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/4008D209-A098-34B0-8E74-870B425402B1>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/A3BD14B2-7BB4-328D-8C5D-3E278CA581D3>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/0CB05D22-2224-3A60-BBAF-182DF89DF532>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/9DF06DA6-5A91-346C-B1D9-48018435B7F1>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7E01D3E1-C5ED-3645-85F0-4AC5B64E18D6>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/9AB7C86D-5D5E-3906-8D11-4CFECBF311DE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Reynaud" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/01C763F3-A9F2-3DF9-BC1A-78C9BD3B9513>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Canourgues" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/CD90670F-2126-32D5-91EB-DBE307D9B5F2>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Descourvières" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/CD18AE9B-A28F-35EA-98C1-1B02474AB89F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Michel" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/3758228D-DA8F-3C12-A158-134B7C837329>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jacques Artier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/25D66151-D35F-3EA0-8903-0BF7C82B99D5> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Jacques" ;
+        sealit:has_last_name     "Artier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/8036A86E-FD7E-368E-9066-35A3679B3DE0> .
+
+<http://www.sealit.gr/DB/person/52F4589D-F18B-329A-AAAE-327C7BCDE982>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7B6DDD68-AE78-389F-B1C4-5CBDD9DC54DA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Louis Aillaud" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/AAAAE469-4FF7-34D1-A975-9B88842D97C3> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Louis" ;
+        sealit:has_last_name     "Aillaud" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7E01D3E1-C5ED-3645-85F0-4AC5B64E18D6> .
+
+<http://www.sealit.gr/DB/appellation_surname/4823B6E6-9552-3789-8C29-1355E40DBE4A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Chanier" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/0633CD24-6F5A-3EB6-BCC3-E00B3FAA9058>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/358565AB-764F-3BCB-98F1-0A5F95270F4C> .
+
+<http://www.sealit.gr/DB/register_record_point/BD685112-FDA9-37E7-B58D-786361AB6E80>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/51975294-F0AB-373A-A3EE-51D14DF1D3C5> .
+
+<http://www.sealit.gr/DB/register_record/2019-02-20T12%3A56%3A33.642Z_38>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-20T12:56:33.642Z_38&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/4E5C5596-B92D-3523-A0D9-062376AE7660>
+        a                        crm:E21_Person ;
+        rdfs:label               "Anne Boyer" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/750F9249-825B-3DBD-BC14-EA8CC32AF62E> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Anne" ;
+        sealit:has_last_name     "Boyer" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/26339AC0-89F4-382D-BED7-425A117CA12C> .
+
+<http://www.sealit.gr/DB/person/ACBCC775-1605-32EE-964F-BC8D1800DDCA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/C18FD30C-68D7-3D0A-A8CF-F5DE2680A8F8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/82475759-3B13-333D-97DF-9B9E4D2A90D1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/52F4589D-F18B-329A-AAAE-327C7BCDE982> .
+
+<http://www.sealit.gr/DB/register_record_point/6AC7B104-B520-39EB-A4F3-CE99B908F382>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_28" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/F6443597-2E1B-30EC-8EB1-8797D31D6060> .
+
+<http://www.sealit.gr/DB/register_record_point/7F6B90AE-4A35-3607-ADB6-6A0A60EA6907>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_26" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/D4052595-29C2-3196-9BB2-E6DCBDE0178F> .
+
+<http://www.sealit.gr/DB/person/9520D03E-15BD-3397-AB7F-D30A00C0429B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marine Blanchard" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/6AD26238-8B05-3ABA-920E-0F3D52C582AC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marine" ;
+        sealit:has_last_name     "Blanchard" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/1C09B7B3-BBD4-3F35-8C82-D151625956D5> .
+
+<http://www.sealit.gr/DB/person/71B9DC3C-6F36-3BA4-A7C3-78776F1FE4DA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francoise Martin" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/81D6F316-D169-350D-8E87-33866C38684D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Francoise" ;
+        sealit:has_last_name     "Martin" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9AD55E12-1695-3490-96E4-F480167A829A> .
+
+<http://www.sealit.gr/DB/appellation_surname/1C173A05-4E72-3117-A2D6-AF41A3789E81>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Fardeloux" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/DDF3EC0B-A902-3AE3-B2EC-75E4E3986229>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/EA78850C-CEF5-3CB1-8EAA-B5CE2F592F76>
+        a                        crm:E21_Person ;
+        rdfs:label               "Emilie Jalusseau" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/F6659E20-C94E-38E6-B17D-566E32B0FDB9> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Emilie" ;
+        sealit:has_last_name     "Jalusseau" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/CC3BD7C5-8EE7-3F8A-9F1D-31EC200402E6> .
+
+<http://www.sealit.gr/DB/register_record_point/5256EF52-9E37-34D5-8EC5-4CA045CEAB6C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_28" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-29T13%3A54%3A31.316Z_26> , <http://www.sealit.gr/DB/person/6F4276B5-6AD1-304B-8BDC-DCE8BBD8A189> .
+
+<http://www.sealit.gr/DB/appellation_surname/EEF968A6-C78C-3D4A-9F31-1C8EBCB5FFB8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Fournier" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-29T13:54:31.316Z_26&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/3664308E-897D-3C61-9047-88D79C397668>
+        a                        crm:E21_Person ;
+        rdfs:label               "Blaise Benoit Blanc" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1FA0593D-0698-35E9-9065-CE5068141D2C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Blaise Benoit" ;
+        sealit:has_last_name     "Blanc" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DC880A69-4E7A-3FD7-939A-7CA6FCF9AD5B> .
+
+<http://www.sealit.gr/DB/person/FF7AF968-A44B-38DB-A0EC-90F299CF7938>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/980E5056-DAD3-3FA0-AE63-10EC8312D4DB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Therèze Matter" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/12579527-A548-392E-9C7C-E7DFD3A9755B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Therèze" ;
+        sealit:has_last_name     "Matter" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FB8D510D-1394-3E0E-B979-6ED874A0C47A> .
+
+<http://www.sealit.gr/DB/person/16E344EA-C19E-3E14-88F5-EF4453B3D385>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/E5A563D8-8084-39EB-BD8C-4BEEA5AC88B1>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/5F40106E-D2BA-3528-952E-CF986AECA928>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Suzanni" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/AAAD2EA9-46D5-330D-B793-B714A6297142>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/530ABF6D-A40B-3522-B76F-11EFEA6E77F8> .
+
+<http://www.sealit.gr/DB/person/32B3F2F8-B43D-339D-8473-25445DF9E378>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joseph Clair Cayol" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/21E44C8D-122F-3EE8-AA97-9158CB6204EE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Joseph Clair" ;
+        sealit:has_last_name     "Cayol" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/5AE4D421-BC9F-3DE1-8668-5F601304D88F> .
+
+<http://www.sealit.gr/DB/person/95DB86AF-E486-305C-886D-87BEBB843345>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/AC1456DB-6601-3E08-8E41-0055544FD819>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/3E9B3AC6-F082-3C46-A2D1-D3F1F1647456>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Portal" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/5690553C-D40C-3680-A8F0-0F40EC744172>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_24" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/9DF06DA6-5A91-346C-B1D9-48018435B7F1> .
+
+<http://www.sealit.gr/DB/person/7379314D-48FE-3E8B-AE4F-F1BCC58FD244>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Blanc" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1FA0593D-0698-35E9-9065-CE5068141D2C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie" ;
+        sealit:has_last_name     "Blanc" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/0CB05D22-2224-3A60-BBAF-182DF89DF532> , <http://www.sealit.gr/DB/person/7F7F08F4-62F9-3746-85FB-81A2349BB4EE> , <http://www.sealit.gr/DB/person/C64D40A1-CAA3-36DD-B971-7B47DD460F3C> , <http://www.sealit.gr/DB/person/E13B1C62-6BA9-38DF-B642-943DADB24BDC> , <http://www.sealit.gr/DB/person/706DB488-627A-37BD-A7A3-FE30CBD306BC> , <http://www.sealit.gr/DB/person/E1BCEEE7-8BF8-3FD4-8CC0-14A20BAC1B56> , <http://www.sealit.gr/DB/person/DDF3EC0B-A902-3AE3-B2EC-75E4E3986229> , <http://www.sealit.gr/DB/person/C18FD30C-68D7-3D0A-A8CF-F5DE2680A8F8> , <http://www.sealit.gr/DB/person/800F701C-1CA5-361F-96B1-B078520678AF> , <http://www.sealit.gr/DB/person/9DCCD2B0-878F-3A1B-BD0C-30582C199DC0> , <http://www.sealit.gr/DB/person/DAC09CA5-E81F-3EE2-98AD-9BD993A29BA5> , <http://www.sealit.gr/DB/person/22467636-B0AC-3EDB-AD99-B5A2975FF619> , <http://www.sealit.gr/DB/person/FF7AF968-A44B-38DB-A0EC-90F299CF7938> , <http://www.sealit.gr/DB/person/6F4276B5-6AD1-304B-8BDC-DCE8BBD8A189> , <http://www.sealit.gr/DB/person/178FB5F9-C6B6-39EE-B521-19A26F2C4317> , <http://www.sealit.gr/DB/person/F8A56295-3AF4-3CF2-965B-F932FFBBE385> , <http://www.sealit.gr/DB/person/97A5D38A-565C-3263-BDEE-F9206B1AE1EF> , <http://www.sealit.gr/DB/person/2E4A4777-4348-3D07-A518-0137CA2CF3B5> , <http://www.sealit.gr/DB/person/0C0E305D-6522-3040-96AB-C11336D4A87C> , <http://www.sealit.gr/DB/person/3E4C0C16-D76B-3097-A079-F1FFB5B95564> .
+
+<http://www.sealit.gr/DB/person/3A8B6E4E-19DE-388E-9DCB-77BC3C3BDE3C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/0371515F-E818-3128-8C48-D4AD454E1D86>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/7140DC2D-4958-3BD9-B3F6-46EA7862244A> .
+
+<http://www.sealit.gr/DB/register_record_point/83A68749-7E67-3074-9F12-1CE4E4F5837B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_21" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/D41476A0-1F78-34DE-8793-7534FAF2AF12> .
+
+<http://www.sealit.gr/DB/person/85D9E61D-0702-3E83-AC73-D87F23BC8BAC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/C55F78B8-D971-3E8A-AB9C-CF47B31ADDC4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/6509296B-53D5-3420-96DD-784671D13B7B> .
+
+<http://www.sealit.gr/DB/register_record_point/BE6B6EFE-EA1E-3124-97B4-1D2E27BE0CAB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 7, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-29T13%3A54%3A31.316Z_26> , <http://www.sealit.gr/DB/person/800F701C-1CA5-361F-96B1-B078520678AF> .
+
+<http://www.sealit.gr/DB/person/698612F5-43CD-39A3-A5D2-113749A7FF68>
+        a                        crm:E21_Person ;
+        rdfs:label               "Emma Blanchard" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/6AD26238-8B05-3ABA-920E-0F3D52C582AC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Emma" ;
+        sealit:has_last_name     "Blanchard" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/4008D209-A098-34B0-8E74-870B425402B1> .
+
+<http://www.sealit.gr/DB/person/8B4CD253-9DBB-3ABC-81E3-6F7C4A1CE64A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/E0D72C3B-B2F8-3054-A300-815691FE9885>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/1F24BEBD-6D8D-3600-8A44-A6C693CE7FA4> .
+
+<http://www.sealit.gr/DB/register_record_point/0046999F-A67F-3071-A863-DBAECF65F1ED>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 7, table: list_of_occupants_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/C33451E2-D1B8-39A3-8F00-8EBE525143BC> .
+
+<http://www.sealit.gr/DB/person/CA7AC677-5B27-3224-8F68-F289B584FA74>
+        a                        crm:E21_Person ;
+        rdfs:label               "Augustin Ducros" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/BD1055EB-C6D9-3A6C-9B29-E55DC21AD809> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Augustin" ;
+        sealit:has_last_name     "Ducros" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/310BC16E-A627-3E16-99A7-B73B9C8FCF20> , <http://www.sealit.gr/DB/person/CE30C5D2-23DA-3437-A0BA-E50D12D673D5> .
+
+<http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-18T18:02:03.059Z_15&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/A0009D40-2B7F-3E9E-9AD3-16491C19482A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 6, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/E47BFB5B-A08F-3B6B-87FD-964CBAD9D07E> .
+
+<http://www.sealit.gr/DB/register_record_point/4234122B-17A6-32F9-BE90-70CDEB218794>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_19" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/F2BCC8D2-F5BC-39F4-9352-934B1540217B> .
+
+<http://www.sealit.gr/DB/appellation_surname/AAAAE469-4FF7-34D1-A975-9B88842D97C3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Aillaud" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/766A8DCC-4C9B-30E0-8F00-8D806C30DC67>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/486DCF5B-9F62-35F8-8F93-16CB5E86ED80> .
+
+<http://www.sealit.gr/DB/register_record_point/5B6D6710-13CE-3680-A3CD-D9302C8144E6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/5620B8CF-8F93-3179-8F6B-D265F701C645> .
+
+<http://www.sealit.gr/DB/person/25E10AC9-B7C4-32D5-9538-77D12501953E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/3CCA68B4-CDC3-3EAA-968A-EFB9F4FBBF8A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/2C34C9FE-8F2E-3AFE-BA92-3F38F7754282>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/EBD948A8-511A-3D65-B551-868B2D719883> .
+
+<http://www.sealit.gr/DB/person/46F75A47-A9FF-3D8F-896B-D3AF72547BA2>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/59BE288A-8E78-304B-AFF2-5554CC1A4953>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Campanier" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/B2F370BC-7845-3E74-B8BC-63941F3EEC20>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Gardère" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/0100614B-CE6B-3423-8AF1-5A5ABA938BFE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie" ;
+        sealit:has_last_name     "Gardère" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A66E6B33-F78A-3D8A-A902-FBF7A1F3D1DD> .
+
+<http://www.sealit.gr/DB/register_record_point/894560D0-49B3-32F0-BA8A-70DE503841BE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1911, Nikos Kastrinakis | row: 4, table: list_of_occupants_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-20T10%3A29%3A26.140Z_18> , <http://www.sealit.gr/DB/person/9DCCD2B0-878F-3A1B-BD0C-30582C199DC0> .
+
+<http://www.sealit.gr/DB/person/E13B1C62-6BA9-38DF-B642-943DADB24BDC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/E9446B4C-AD17-3589-9F30-F8075346EB8D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Xavier Blanc" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1FA0593D-0698-35E9-9065-CE5068141D2C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Xavier" ;
+        sealit:has_last_name     "Blanc" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A51C2A9B-0E48-3FDE-986E-551E3E4239D8> , <http://www.sealit.gr/DB/person/D2E26551-CC9E-3BF8-AFD5-C1601591A4E6> , <http://www.sealit.gr/DB/person/C33451E2-D1B8-39A3-8F00-8EBE525143BC> .
+
+<http://www.sealit.gr/DB/person/9CD1866D-AAB1-3F2D-BCF3-D1CE1A2E93E4>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-30T14:38:02.546Z_27&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/366B8448-FE1F-3D92-BFDC-C20AF5249668>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_29" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/FA8FBC4D-5A59-34A7-BEE7-277DD3CD3FCC> .
+
+<http://www.sealit.gr/DB/person/29C7C2B2-FAD1-37F3-9BE5-1DF761D1B37F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/486DCF5B-9F62-35F8-8F93-16CB5E86ED80>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/44928D35-D55C-3863-9DA4-ACE6D1BA2DDF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antoinette Girard" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/8428AD16-2661-37F6-88E7-DF3024CBE89D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Antoinette" ;
+        sealit:has_last_name     "Girard" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/53255DB5-36F7-370E-87EC-7B79E5DC5984> , <http://www.sealit.gr/DB/person/1028DF35-AEBE-3E38-9E01-542E5058BCD9> , <http://www.sealit.gr/DB/person/7FF1F339-9166-3AF7-A1F9-F011C8AEDC70> .
+
+<http://www.sealit.gr/DB/register_record_point/18C8D74F-8F06-3F36-876F-48DEFBA27817>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 6, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/E780F7BC-524A-3718-B831-23DD7AC22DFC> .
+
+<http://www.sealit.gr/DB/person/C3C53F76-9673-3402-9CF1-07183283B073>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agathe Sallier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/FFC9A0E6-0CE1-3B6D-AC75-E629A138FDF2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Agathe" ;
+        sealit:has_last_name     "Sallier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DA87E559-0573-3806-8D68-6BFBDCE70965> .
+
+<http://www.sealit.gr/DB/person/9AD55E12-1695-3490-96E4-F480167A829A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/22467636-B0AC-3EDB-AD99-B5A2975FF619>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/BF0C50E8-334F-3988-9414-6C5C3CCE82D0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Claire Blanc" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1FA0593D-0698-35E9-9065-CE5068141D2C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Claire" ;
+        sealit:has_last_name     "Blanc" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/69448C20-56F9-3A69-A707-89F17D8859BA> , <http://www.sealit.gr/DB/person/A38DA3DC-C18D-32FC-A968-5327034ED559> , <http://www.sealit.gr/DB/person/3CCA68B4-CDC3-3EAA-968A-EFB9F4FBBF8A> , <http://www.sealit.gr/DB/person/FF0206FF-D7B3-3DC8-8AFC-4C54D67ACF03> , <http://www.sealit.gr/DB/person/5292AD0E-F704-30D2-926D-7B54B8C66958> .
+
+<http://www.sealit.gr/DB/person/F255B28B-0BA1-34E5-9EB8-F2BD4CB9FA5B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7CDD9488-85CC-3F30-ABD9-4F6FC3D11156>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joseph Etienne Blanchard" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/6AD26238-8B05-3ABA-920E-0F3D52C582AC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Joseph Etienne" ;
+        sealit:has_last_name     "Blanchard" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/486DCF5B-9F62-35F8-8F93-16CB5E86ED80> .
+
+<http://www.sealit.gr/DB/person/93C9DB6B-33A4-3466-AABA-93C99B1AF701>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/DA40C6F4-D9BB-3183-96FF-3E3C1294DCE5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Reine Campanier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/59BE288A-8E78-304B-AFF2-5554CC1A4953> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Reine" ;
+        sealit:has_last_name     "Campanier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/51975294-F0AB-373A-A3EE-51D14DF1D3C5> .
+
+<http://www.sealit.gr/DB/person/324415A0-5C40-3009-80B2-C7FAF6E64324>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/D4052595-29C2-3196-9BB2-E6DCBDE0178F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/82FBC9C7-1A25-3A8D-A943-0A28540F8014>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_20" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/CC3BD7C5-8EE7-3F8A-9F1D-31EC200402E6> .
+
+<http://www.sealit.gr/DB/register_record_point/F3F90AC6-196B-3BA3-B950-2C3B3FD082EA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/F2F33CEE-1F91-3B4F-B07B-0DCDFD8C15E1> .
+
+<http://www.sealit.gr/DB/person/9B3A5E7F-09B5-3493-8664-775A70078B4D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jeanne Ricard" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/709D6C39-CF62-33CF-916D-08192D647879> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Jeanne" ;
+        sealit:has_last_name     "Ricard" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/95DB86AF-E486-305C-886D-87BEBB843345> .
+
+<http://www.sealit.gr/DB/person/754D4280-BC07-3954-9325-A90729D038A0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jean F[?][?]er Allegre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C9F28501-AAC7-3668-8A62-7A138C2ACEFC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Jean F[?][?]er" ;
+        sealit:has_last_name     "Allegre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/17663156-896B-38B7-A1CB-D1F5618ABAEC> .
+
+<http://www.sealit.gr/DB/appellation_surname/8B79E059-F6AA-3587-BA7E-6BF7750FB335>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Esig" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/16DEDD62-DB0F-3DD4-A18D-71D1A09AA7A7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_28" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-29T13%3A54%3A31.316Z_26> , <http://www.sealit.gr/DB/person/D2E26551-CC9E-3BF8-AFD5-C1601591A4E6> .
+
+<http://www.sealit.gr/DB/register_record_point/645BD660-AB80-3724-9131-6F3196BA2850>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_19" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/10AAF316-7843-3972-BB7C-C8534409BE0A> .
+
+<http://www.sealit.gr/DB/person/40710075-1FF1-3748-86BB-681D1F6D074D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Elisabeth Caradoire" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D327CA59-4F12-3293-8445-CB5529A3DBB1> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Elisabeth" ;
+        sealit:has_last_name     "Caradoire" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/324415A0-5C40-3009-80B2-C7FAF6E64324> .
+
+<http://www.sealit.gr/DB/person/46886FF3-1A90-39F4-95A0-E53E5E84077A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/BD1055EB-C6D9-3A6C-9B29-E55DC21AD809>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ducros" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/FFA0C7D4-E31C-386D-B6CA-F8645F62FECE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_23" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/19E139B5-7C73-349B-A9AB-AB937E4DC910> .
+
+<http://www.sealit.gr/DB/person/E7102EE2-648A-3B05-9DF1-98512FA24877>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-21T10:14:08.441Z_16&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/2152F886-712A-3E2C-A593-963A85288695>
+        a                        crm:E21_Person ;
+        rdfs:label               "Louis Vidal" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/ADC7ECD5-948E-3B32-8FE8-339A2A10C4A8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Louis" ;
+        sealit:has_last_name     "Vidal" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/C3B7F1AA-E892-3963-B310-0F1DA7FC6E6A> .
+
+<http://www.sealit.gr/DB/person/8A7DA2C7-82BD-3112-A600-F8910A68B0BF>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/D2BE554B-D85D-3941-A735-20EF8ED4E60D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_7" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/81103F70-6FD9-3EAF-82C4-0A065052BA0B> .
+
+<http://www.sealit.gr/DB/register_record_point/0BBAE8EE-A81E-3169-A82C-3ADFB4EF1E6F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_24" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/3BA5D905-654F-376C-ABC3-8CD185FC709B> .
+
+<http://www.sealit.gr/DB/person/CDEC6AFA-F3E7-3F6B-9611-6B5F7BF39CEC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/61A276F9-F0CA-3FA2-9B8B-5E641E007340>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/122B6EA6-EA39-3EF5-8B1A-B5C693AD54D1> .
+
+<http://www.sealit.gr/DB/register_record_point/F41AF7BF-8F57-3904-8EC9-6C691F9D0ACB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_26" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/1C09B7B3-BBD4-3F35-8C82-D151625956D5> .
+
+<http://www.sealit.gr/DB/appellation_surname/219F362C-0E5F-3EB6-BC7E-8EF0440C6D85>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bonhomme" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/374DEA03-4FE6-307D-A948-CC38BCCF1B2C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Allere" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/1FA0593D-0698-35E9-9065-CE5068141D2C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Blanc" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/7BEFB535-84F9-3CD3-9D00-CE7D165BB392>
+        a                        crm:E21_Person ;
+        rdfs:label               "Louis Adolphe Ricard" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/709D6C39-CF62-33CF-916D-08192D647879> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Louis Adolphe" ;
+        sealit:has_last_name     "Ricard" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/CDEC6AFA-F3E7-3F6B-9611-6B5F7BF39CEC> .
+
+<http://www.sealit.gr/DB/person/D30B1088-BA28-3A24-B7FE-9E9C87A5299F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/17423653-00CF-33BF-8CB5-A86E7B5CBBB9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 6, table: list_of_occupants_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/DAC09CA5-E81F-3EE2-98AD-9BD993A29BA5> .
+
+<http://www.sealit.gr/DB/person/7140DC2D-4958-3BD9-B3F6-46EA7862244A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/DCB3D480-E958-36BF-AB69-0F0497D222CD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jacques Constant" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/CB17869F-E510-38B5-A5C4-C6106551A255> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Jacques" ;
+        sealit:has_last_name     "Constant" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/6F6D45E6-63D6-30D5-83B3-51AE36897969> .
+
+<http://www.sealit.gr/DB/register_record_point/C19EE21C-F427-3DE1-B555-32BCE9F8DE44>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 8, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/6F5FD6C4-7FF4-3496-AA47-4E07387B6BF0> .
+
+<http://www.sealit.gr/DB/person/A7EB12B3-E1BD-3D39-9173-A5C3616A52FE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Catherine Elodie Blanc" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1FA0593D-0698-35E9-9065-CE5068141D2C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Catherine Elodie" ;
+        sealit:has_last_name     "Blanc" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/968ECA13-4B25-3358-98EF-B4485CA4D3E4> .
+
+<http://www.sealit.gr/DB/register_record_point/0AF42ACD-DC30-3BE2-87DE-5EBA7287E117>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 7, table: list_of_occupants_27" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/BE2E997B-3D2A-36CD-AE2F-8B47AE409FCF> .
+
+<http://www.sealit.gr/DB/person/607F349A-CC65-3681-81BD-77583C0FEDD6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Augustine Moy[?] Estuby" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D27B13B3-F4E1-3085-92D3-64B894DCFED7> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Augustine Moy[?]" ;
+        sealit:has_last_name     "Estuby" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/E7102EE2-648A-3B05-9DF1-98512FA24877> .
+
+<http://www.sealit.gr/DB/person/5BA29AA9-AA03-327F-A744-B96D57CB1BE4>
+        a                        crm:E21_Person ;
+        rdfs:label               "Hervy Fournier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EEF968A6-C78C-3D4A-9F31-1C8EBCB5FFB8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Hervy" ;
+        sealit:has_last_name     "Fournier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FAAE4B8D-5928-305A-A8A9-82D92E628445> .
+
+<http://www.sealit.gr/DB/person/5E3DE8B9-E043-35D9-8A07-45C5C7CCECDD>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/2DFA5268-171C-38D2-90A2-EBA72B02F50A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/6221A370-BDF3-3FA7-B675-09D05C4D7D63>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/FB8D510D-1394-3E0E-B979-6ED874A0C47A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/15E2D0C0-D84B-3813-856C-F0D747D652B4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_20" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/A66E6B33-F78A-3D8A-A902-FBF7A1F3D1DD> .
+
+<http://www.sealit.gr/DB/person/7630D20E-DD16-34AD-8434-17AFD6B2AA08>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/69448C20-56F9-3A69-A707-89F17D8859BA>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-18T18:02:03.059Z_15&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/0D48CC85-B058-3D42-B0FF-44A3508915F7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/56CF6560-1B81-35C3-AEF7-0EE8377EF451> .
+
+<http://www.sealit.gr/DB/person/EBD948A8-511A-3D65-B551-868B2D719883>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/6E428DE7-B2A9-3F98-855D-B2207AAFB1A4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/7148B311-BE90-3234-9098-8D0509AA0287> .
+
+<http://www.sealit.gr/DB/person/FAAE4B8D-5928-305A-A8A9-82D92E628445>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/612C0F92-5012-3F72-B5BE-5B4A4E2B5AE4>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record/2019-02-20T10%3A29%3A26.140Z_18>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1911, Nikos Kastrinakis" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-20T10:29:26.140Z_18&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/appellation_surname/22969E2B-40B6-346B-9E4C-BBE2094DFE4B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Vellin" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/FA8FBC4D-5A59-34A7-BEE7-277DD3CD3FCC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/9E6A649D-94C6-3744-94F2-926016F64813>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 7, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/EE061E03-7FE4-36D1-88E3-BB401C8251A0> .
+
+<http://www.sealit.gr/DB/register_record_point/98297EAC-E3D1-32D6-AC6A-BE2EB14D8391>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/93C9DB6B-33A4-3466-AABA-93C99B1AF701> .
+
+<http://www.sealit.gr/DB/register_record_point/4B6F7651-F5C2-393B-8911-8723A0BE9D89>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_27" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/183A67BC-0555-3843-8AA2-91FD6378AE51> .
+
+<http://www.sealit.gr/DB/person/DCDE8311-0B40-328F-B08D-5DA243FC7571>
+        a                        crm:E21_Person ;
+        rdfs:label               "Honorine Biron" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C57938F1-0A5F-3AA1-B87E-79E2A7056535> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Honorine" ;
+        sealit:has_last_name     "Biron" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/47544CCD-56E3-3818-81EF-72A758DB13D0> .
+
+<http://www.sealit.gr/DB/person/20D0282F-B450-39BC-AB51-7B26B429D228>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/6E84EF46-3C73-3978-8498-6D10AC3571B6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_27" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/D39250BC-AF03-3761-AF4C-0EAA71EF3ECA> .
+
+<http://www.sealit.gr/DB/person/F2BCC8D2-F5BC-39F4-9352-934B1540217B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/B282AD91-369C-32B4-827C-B3897B3B26C6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francoise Guys" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B90500FC-7DC4-34D0-93D1-EC10BC206768> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Francoise" ;
+        sealit:has_last_name     "Guys" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F255B28B-0BA1-34E5-9EB8-F2BD4CB9FA5B> .
+
+<http://www.sealit.gr/DB/person/845D921A-8AEA-3753-8A20-63E00CC8DF63>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/310BC16E-A627-3E16-99A7-B73B9C8FCF20>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/3906858C-D869-356B-A56B-FE016D74FF6D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-28T09%3A03%3A57.803Z_24> , <http://www.sealit.gr/DB/person/7630D20E-DD16-34AD-8434-17AFD6B2AA08> .
+
+<http://www.sealit.gr/DB/person/A5F64528-774F-326A-BF67-A72340C085F9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Perronne Cassé" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/D8166F78-62D2-3F6A-B880-246D0FA8D080> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Perronne" ;
+        sealit:has_last_name     "Cassé" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/58E8012A-A459-3ADD-A964-8AEA22C0E622> .
+
+<http://www.sealit.gr/DB/person/6FB9FD98-2ACA-393F-A6EC-C195304CA0FD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Louis Henry Martin" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/81D6F316-D169-350D-8E87-33866C38684D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Louis Henry" ;
+        sealit:has_last_name     "Martin" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/183A67BC-0555-3843-8AA2-91FD6378AE51> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-20T10:29:26.140Z_18&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/08922A8F-43F4-36A8-B9DD-855EDDA6DE20>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 11, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-22T12%3A14%3A40.666Z_39> , <http://www.sealit.gr/DB/person/C981358C-333B-3A47-A548-1F8F5B30D9FE> .
+
+<http://www.sealit.gr/DB/person/CEF41ED0-D5B5-34F9-95B2-602295C870BB>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/AC8FAB03-F411-378F-B3D7-66F234C6384C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Barbe Ventre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/31BAD8D6-C97E-39D2-B310-72564DC71F7C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Barbe" ;
+        sealit:has_last_name     "Ventre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/1251FBEF-7CFA-348A-BF77-75C4EE33B4AE> .
+
+<http://www.sealit.gr/DB/register_record_point/310D00D0-1242-3D5B-954B-208B8B180719>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_25" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/F16BB32D-374A-31D7-96B6-B1BE93F3CA24> .
+
+<http://www.sealit.gr/DB/person/F8A56295-3AF4-3CF2-965B-F932FFBBE385>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/5AE4D421-BC9F-3DE1-8668-5F601304D88F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/A24D2823-1370-3315-91CC-39C71D5BCC04>
+        a                        crm:E21_Person ;
+        rdfs:label               "Clementine Martin" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/81D6F316-D169-350D-8E87-33866C38684D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Clementine" ;
+        sealit:has_last_name     "Martin" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/19E139B5-7C73-349B-A9AB-AB937E4DC910> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-05T14:04:54.455Z_33&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/E1BCEEE7-8BF8-3FD4-8CC0-14A20BAC1B56>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/9D9784B6-7ECD-3A3D-824A-572878E556EF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_27" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-21T10%3A14%3A08.441Z_16> , <http://www.sealit.gr/DB/person/1028DF35-AEBE-3E38-9E01-542E5058BCD9> .
+
+<http://www.sealit.gr/DB/person/2AC321FD-0D16-3672-B749-3EEFB4841F34>
+        a                        crm:E21_Person ;
+        rdfs:label               "Virginie Sias" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/61803FA1-5D4D-3B50-9A04-45C3C38931EE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Virginie" ;
+        sealit:has_last_name     "Sias" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/46F75A47-A9FF-3D8F-896B-D3AF72547BA2> .
+
+<http://www.sealit.gr/DB/person/358565AB-764F-3BCB-98F1-0A5F95270F4C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/F571F5C9-625F-3AB0-9A39-6C39295F98A0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_25" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/A7158C03-42C3-3735-81F1-B4B109A0C604> .
+
+<http://www.sealit.gr/DB/register_record_point/06A9F410-4F89-3575-862A-FFDC04DE4F49>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/48D7DD95-6669-3B12-A936-E3424C52C8FE> .
+
+<http://www.sealit.gr/DB/register_record_point/F7914536-7FE2-3360-AA62-50AA46D210DE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_23" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-22T14%3A32%3A28.182Z_17> , <http://www.sealit.gr/DB/person/F8A56295-3AF4-3CF2-965B-F932FFBBE385> .
+
+<http://www.sealit.gr/DB/person/E72CDFB9-F264-3DBD-9161-E09A2D2516B5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Auguste Monfort" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/29C47B2D-2719-3261-A110-8C97BDE8B150> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Auguste" ;
+        sealit:has_last_name     "Monfort" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/ADB15E30-280F-320D-90A6-D818A8A3B0FE> .
+
+<http://www.sealit.gr/DB/person/3281AE34-5DE8-30B2-867E-BF5C17D4DBB0>
+        a                        crm:E21_Person ;
+        rdfs:label               "François Antoine Reynaud" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/9AB7C86D-5D5E-3906-8D11-4CFECBF311DE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "François Antoine" ;
+        sealit:has_last_name     "Reynaud" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F12F8C16-6D83-3001-A6DB-B3681AAA48A4> .
+
+<http://www.sealit.gr/DB/person/F6443597-2E1B-30EC-8EB1-8797D31D6060>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/2E4A4777-4348-3D07-A518-0137CA2CF3B5>
+        a       crm:E21_Person .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/appellation_surname/C57938F1-0A5F-3AA1-B87E-79E2A7056535>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Biron" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/CC3BD7C5-8EE7-3F8A-9F1D-31EC200402E6>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/A0A859D0-FF54-3E7D-96D5-54CE8B055470>
+        a                        crm:E21_Person ;
+        rdfs:label               "Victorine Benet" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/173879FD-B1E5-3D2B-BD4E-B52A41A95903> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Victorine" ;
+        sealit:has_last_name     "Benet" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/29C7C2B2-FAD1-37F3-9BE5-1DF761D1B37F> .
+
+<http://www.sealit.gr/DB/register_record_point/C2F153E1-B45F-3ABA-A3D1-AF452B2A2AEF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-30T14%3A38%3A02.546Z_27> , <http://www.sealit.gr/DB/person/A38DA3DC-C18D-32FC-A968-5327034ED559> .
+
+<http://www.sealit.gr/DB/person/DC880A69-4E7A-3FD7-939A-7CA6FCF9AD5B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/A7158C03-42C3-3735-81F1-B4B109A0C604>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/5AAF8BDB-6807-31EA-AB1D-D12B65012E6E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/1251FBEF-7CFA-348A-BF77-75C4EE33B4AE> .
+
+<http://www.sealit.gr/DB/person/F8783A11-CEA9-3744-ABB1-204759D060CD>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/D15AE746-9D11-3FCD-B2D2-FC0F37DE35E4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 7, table: list_of_occupants_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-14T09%3A35%3A18.504Z_35> , <http://www.sealit.gr/DB/person/22467636-B0AC-3EDB-AD99-B5A2975FF619> .
+
+<http://www.sealit.gr/DB/person/68AE5E2F-EF64-32C1-84C8-6A4577091BFC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Françoise Vidal" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/ADC7ECD5-948E-3B32-8FE8-339A2A10C4A8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Françoise" ;
+        sealit:has_last_name     "Vidal" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/30F624F2-9081-3B1A-8C2D-AF3518BBEC4F> .
+
+<http://www.sealit.gr/DB/register_record/2019-01-25T08%3A29%3A06.947Z_21>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-25T08:29:06.947Z_21&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/6F4276B5-6AD1-304B-8BDC-DCE8BBD8A189>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/12B7B1AD-E659-31ED-94D9-DFE56D34CE62>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_12" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/2E4A4777-4348-3D07-A518-0137CA2CF3B5> .
+
+<http://www.sealit.gr/DB/person/6FF444F1-C189-3845-BAEE-D2F646716BF2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Xavier Allegre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C9F28501-AAC7-3668-8A62-7A138C2ACEFC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Xavier" ;
+        sealit:has_last_name     "Allegre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/59704E45-9E74-34EC-B64B-F29053AE8C25> .
+
+<http://www.sealit.gr/DB/person/530ABF6D-A40B-3522-B76F-11EFEA6E77F8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/81D6F316-D169-350D-8E87-33866C38684D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Martin" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/59704E45-9E74-34EC-B64B-F29053AE8C25>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/745F6605-BAE3-3268-9145-D37E6DF9EEC9>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/9056C243-215B-3C3E-848C-28AF3D675B0E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/A0D7C69B-0E53-35A4-9E13-0636E74545CA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_18" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/AC1456DB-6601-3E08-8E41-0055544FD819> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-25T08:29:06.947Z_21&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/ED347BFC-8912-3FEA-8901-E49FEA6AA67A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 7, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/86E88766-558D-3FAC-8B94-A7D7E97547B0> .
+
+<http://www.sealit.gr/DB/register_record_point/6330F22F-B24F-31A1-88BD-393A09AF0D48>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_35" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-13T13%3A44%3A04.831Z_34> , <http://www.sealit.gr/DB/person/E13B1C62-6BA9-38DF-B642-943DADB24BDC> .
+
+<http://www.sealit.gr/DB/appellation_surname/B0D328FA-F3CF-3F1E-BD0E-7964C177FAE5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Durbec" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/51975294-F0AB-373A-A3EE-51D14DF1D3C5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/6F6D45E6-63D6-30D5-83B3-51AE36897969>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/30F624F2-9081-3B1A-8C2D-AF3518BBEC4F>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/442CE131-0DC0-3E94-99EC-7C1C45AA1A4F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 6, table: list_of_occupants_27" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/CEF41ED0-D5B5-34F9-95B2-602295C870BB> .
+
+<http://www.sealit.gr/DB/register_record_point/FD32C6C3-4343-3282-BA4C-B55C23FE30BA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/3CCA68B4-CDC3-3EAA-968A-EFB9F4FBBF8A> .
+
+<http://www.sealit.gr/DB/appellation_surname/8394F034-7C18-3CF1-96AC-5924DCCB773B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Long" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/35A6DC03-C8B0-30E0-83B3-DA02B1C776E1>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/4184E9EF-8D86-31AB-954E-AC9D6BE33EE1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Claire Tempier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/24DA9CFF-27DC-39FB-9F40-5ABCC14E251F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Claire" ;
+        sealit:has_last_name     "Tempier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/BE2E997B-3D2A-36CD-AE2F-8B47AE409FCF> .
+
+<http://www.sealit.gr/DB/register_record_point/3EC43E5A-E2F7-31CD-A74D-17318544AC8B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/7BA73B1B-5600-35BD-B58D-EEFA4AD7DE67> .
+
+<http://www.sealit.gr/DB/person/DA87E559-0573-3806-8D68-6BFBDCE70965>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/B5C4C981-BB28-3B16-BF68-CF3821282D70>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_39" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-14T09%3A35%3A18.504Z_35> , <http://www.sealit.gr/DB/person/A3BD14B2-7BB4-328D-8C5D-3E278CA581D3> .
+
+<http://www.sealit.gr/DB/register_record_point/9471CAD1-208B-3487-97FB-97125B1FE983>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 10, table: list_of_occupants_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-22T12%3A14%3A40.666Z_39> , <http://www.sealit.gr/DB/person/46886FF3-1A90-39F4-95A0-E53E5E84077A> .
+
+<http://www.sealit.gr/DB/register_record_point/94295985-F148-3F4B-B1C0-0BB64C79A728>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/324415A0-5C40-3009-80B2-C7FAF6E64324> .
+
+<http://www.sealit.gr/DB/person/5C11FFF6-12B7-357B-9195-1E9C25580A80>
+        a                        crm:E21_Person ;
+        rdfs:label               "Françoise Bonhomme" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/219F362C-0E5F-3EB6-BC7E-8EF0440C6D85> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Françoise" ;
+        sealit:has_last_name     "Bonhomme" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/20D0282F-B450-39BC-AB51-7B26B429D228> .
+
+<http://www.sealit.gr/DB/register_record_point/B9DA32C8-22C7-3F80-8B27-DCCA03D374CA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/847640A1-094F-38F4-A7FD-D1B1B5BEEC51> .
+
+<http://www.sealit.gr/DB/register_record_point/9985F8B2-EB42-372D-9F1E-D7F7BCCC9D28>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 6, table: list_of_occupants_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/DA9D6D35-1C2A-3FC5-AA18-D3112F895C31> .
+
+<http://www.sealit.gr/DB/person/5292AD0E-F704-30D2-926D-7B54B8C66958>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-13T13:44:04.831Z_34&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/A947C751-5065-3ECC-A185-BCC6AF257D52>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_19" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/7FF1F339-9166-3AF7-A1F9-F011C8AEDC70> .
+
+<http://www.sealit.gr/DB/register_record_point/5FB72713-2996-33A1-8A58-36022E408064>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_28" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/7E01D3E1-C5ED-3645-85F0-4AC5B64E18D6> .
+
+<http://www.sealit.gr/DB/person/EC2ABA92-4B98-3FE9-A046-4DBDB7230C64>
+        a                        crm:E21_Person ;
+        rdfs:label               "Mathilde Daumas" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EAB0CFD3-2B57-34F8-AF6D-B23094D5E5C4> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Mathilde" ;
+        sealit:has_last_name     "Daumas" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/612C0F92-5012-3F72-B5BE-5B4A4E2B5AE4> .
+
+<http://www.sealit.gr/DB/appellation_surname/25D66151-D35F-3EA0-8903-0BF7C82B99D5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Artier" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/6509296B-53D5-3420-96DD-784671D13B7B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/5E1422F3-1657-346E-BAA0-1C8FD0A71E3F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Faurien" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/13C5BD12-44B7-3DAA-B6F4-8469ABBC4202>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Charles Monfort" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/29C47B2D-2719-3261-A110-8C97BDE8B150> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie Charles" ;
+        sealit:has_last_name     "Monfort" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/FA8FBC4D-5A59-34A7-BEE7-277DD3CD3FCC> .
+
+<http://www.sealit.gr/DB/register_record_point/F240BEE7-89BF-3EBD-902B-BDCC2D8B55C2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 6, table: list_of_occupants_25" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-05T14%3A04%3A54.455Z_33> , <http://www.sealit.gr/DB/person/178FB5F9-C6B6-39EE-B521-19A26F2C4317> .
+
+<http://www.sealit.gr/DB/person/5620B8CF-8F93-3179-8F6B-D265F701C645>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/BC5B5B0C-0F87-3758-B2F1-BB1AB129D3A5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 11, table: list_of_occupants_23" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-22T14%3A32%3A28.182Z_17> , <http://www.sealit.gr/DB/person/7E107809-9DD7-3A13-869F-22FDA1EA0688> .
+
+<http://www.sealit.gr/DB/person/C8919840-9502-38DE-A0A6-BE11736D2DDB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Laurent Ventre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/31BAD8D6-C97E-39D2-B310-72564DC71F7C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Laurent" ;
+        sealit:has_last_name     "Ventre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7140DC2D-4958-3BD9-B3F6-46EA7862244A> .
+
+<http://www.sealit.gr/DB/appellation_surname/59C64881-AE25-3555-9E67-7074FE5042BF>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bremond" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/0D0C597F-F0EE-390C-B106-D5661A31DD0E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/A15F9E39-B289-32B3-B6E8-3393243B97C9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/87E321AB-674C-38CD-943F-BB0076D4F8C8> .
+
+<http://www.sealit.gr/DB/person/43197971-2B88-36BF-8B73-63B70DD85B0C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marianne Long" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/8394F034-7C18-3CF1-96AC-5924DCCB773B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marianne" ;
+        sealit:has_last_name     "Long" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/2FD4440B-9965-3937-9F85-FDA80D5D2C9F> .
+
+<http://www.sealit.gr/DB/person/994D0CDA-8E1E-3924-B991-2C8394250657>
+        a                        crm:E21_Person ;
+        rdfs:label               "Hypolite Meistre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/2AB96FC6-0019-3C16-9DE8-71054DB90443> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Hypolite" ;
+        sealit:has_last_name     "Meistre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/48D7DD95-6669-3B12-A936-E3424C52C8FE> .
+
+<http://www.sealit.gr/DB/register_record_point/E5FC73AE-FDFB-331C-B3D1-AAC043A623D5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_36" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-29T09%3A34%3A37.671Z_25> , <http://www.sealit.gr/DB/person/E1BCEEE7-8BF8-3FD4-8CC0-14A20BAC1B56> .
+
+<http://www.sealit.gr/DB/person/800F701C-1CA5-361F-96B1-B078520678AF>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/EE29C979-A7E4-3A4C-804E-4D43979D6C68>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_34" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-29T09%3A34%3A37.671Z_25> , <http://www.sealit.gr/DB/person/0C0E305D-6522-3040-96AB-C11336D4A87C> .
+
+<http://www.sealit.gr/DB/register_record_point/D07A9799-15F7-326A-BB7F-52086E0919DB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_43" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-29T09%3A34%3A37.671Z_25> , <http://www.sealit.gr/DB/person/80E2EDA9-6180-324D-8052-806268B9DFEF> .
+
+<http://www.sealit.gr/DB/person/C3B7F1AA-E892-3963-B310-0F1DA7FC6E6A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/6F5FD6C4-7FF4-3496-AA47-4E07387B6BF0>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/2E84CEEE-082B-3716-BECC-0879BB466D30>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 22, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-22T12%3A14%3A40.666Z_39> , <http://www.sealit.gr/DB/person/5292AD0E-F704-30D2-926D-7B54B8C66958> .
+
+<http://www.sealit.gr/DB/person/7DA781FE-DEEE-3A36-BB4F-40A0AE2A70F5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joseph Vidal" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/ADC7ECD5-948E-3B32-8FE8-339A2A10C4A8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Joseph" ;
+        sealit:has_last_name     "Vidal" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D92A88F1-B47B-38DA-BA71-668794F46371> .
+
+<http://www.sealit.gr/DB/appellation_surname/4FFE35DB-90D9-3C60-81FB-8DDF7B44DF29>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Robert" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/03CCCD03-2E6B-3C83-9419-498CA4EAFFA7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/D30B1088-BA28-3A24-B7FE-9E9C87A5299F> .
+
+<http://www.sealit.gr/DB/person/453A64D3-3108-32D5-8F30-C93BDFC0E187>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/1A3437DC-55CE-367F-B4F2-EDF97DBCE5FE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Urbain Ventre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/31BAD8D6-C97E-39D2-B310-72564DC71F7C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Urbain" ;
+        sealit:has_last_name     "Ventre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F2F33CEE-1F91-3B4F-B07B-0DCDFD8C15E1> .
+
+<http://www.sealit.gr/DB/person/31EA244F-711F-33BD-9078-D2CBAF8001D2>
+        a                        crm:E21_Person ;
+        rdfs:label               "François Cesaire Garnier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/162D58FC-EC89-35E6-A617-0AD104672B97> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "François Cesaire" ;
+        sealit:has_last_name     "Garnier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/F92814D9-AA9E-32E1-9596-976944E6B5C2> .
+
+<http://www.sealit.gr/DB/person/2A48F97C-61EF-39FF-A3F1-56A03EFA109B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Angeline Fournier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EEF968A6-C78C-3D4A-9F31-1C8EBCB5FFB8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Angeline" ;
+        sealit:has_last_name     "Fournier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/87E321AB-674C-38CD-943F-BB0076D4F8C8> .
+
+<http://www.sealit.gr/DB/register_record_point/176AED98-5EE0-3BD5-9CA2-72566E68C7D7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_30" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/0D0C597F-F0EE-390C-B106-D5661A31DD0E> .
+
+<http://www.sealit.gr/DB/appellation_surname/6AD26238-8B05-3ABA-920E-0F3D52C582AC>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Blanchard" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/D27B13B3-F4E1-3085-92D3-64B894DCFED7>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Estuby" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/26339AC0-89F4-382D-BED7-425A117CA12C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/3975EB15-1B2D-3E23-908F-4BA55FF11DA0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-25T08%3A29%3A06.947Z_21> , <http://www.sealit.gr/DB/person/3A8B6E4E-19DE-388E-9DCB-77BC3C3BDE3C> .
+
+<http://www.sealit.gr/DB/person/67FAFFEA-9029-3E2D-8214-9AC426CA527F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Rose Faurien" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/5E1422F3-1657-346E-BAA0-1C8FD0A71E3F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Rose" ;
+        sealit:has_last_name     "Faurien" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/35A6DC03-C8B0-30E0-83B3-DA02B1C776E1> .
+
+<http://www.sealit.gr/DB/person/48D7DD95-6669-3B12-A936-E3424C52C8FE>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/162D58FC-EC89-35E6-A617-0AD104672B97>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Garnier" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/ADF036D3-853B-34EC-8380-D7E8342CADE4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-29T09%3A34%3A37.671Z_25> , <http://www.sealit.gr/DB/person/FF0206FF-D7B3-3DC8-8AFC-4C54D67ACF03> .
+
+<http://www.sealit.gr/DB/person/BE4A7DF5-47A8-31FB-BE8F-D3B037D5157B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Berthide Fournier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EEF968A6-C78C-3D4A-9F31-1C8EBCB5FFB8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Berthide" ;
+        sealit:has_last_name     "Fournier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/86E88766-558D-3FAC-8B94-A7D7E97547B0> .
+
+<http://www.sealit.gr/DB/person/53255DB5-36F7-370E-87EC-7B79E5DC5984>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/97A5D38A-565C-3263-BDEE-F9206B1AE1EF>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/4C3ADE8E-1911-3E32-B06A-5475095F7F7C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/DCE05622-A413-33FC-A993-2A958D739CCF> .
+
+<http://www.sealit.gr/DB/person/7FC14AD3-6B96-30F4-9C31-7D3B2D1B77A1>
+        a                        crm:E21_Person ;
+        rdfs:label               "André Victor Allegre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C9F28501-AAC7-3668-8A62-7A138C2ACEFC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "André Victor" ;
+        sealit:has_last_name     "Allegre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/54EA4D6C-B1E6-3F31-A420-0F75BDFDE58D> .
+
+<http://www.sealit.gr/DB/register_record/2019-02-22T12%3A14%3A40.666Z_39>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-22T12:14:40.666Z_39&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/appellation_surname/ADC7ECD5-948E-3B32-8FE8-339A2A10C4A8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Vidal" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/86E88766-558D-3FAC-8B94-A7D7E97547B0>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/1CB77420-791A-3B57-97D2-4163072250B4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/2FD4440B-9965-3937-9F85-FDA80D5D2C9F> .
+
+<http://www.sealit.gr/DB/person/7BA73B1B-5600-35BD-B58D-EEFA4AD7DE67>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/809199D3-EDB3-330E-B097-F814A51254A5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/DE20FEB1-725E-306E-8508-938BAE89A7F2> .
+
+<http://www.sealit.gr/DB/appellation_surname/EAB0CFD3-2B57-34F8-AF6D-B23094D5E5C4>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Daumas" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/F43F7C9E-E375-3530-BF29-4ED1A35E31BB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jean Pierre Meistre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/2AB96FC6-0019-3C16-9DE8-71054DB90443> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Jean Pierre" ;
+        sealit:has_last_name     "Meistre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DCE05622-A413-33FC-A993-2A958D739CCF> .
+
+<http://www.sealit.gr/DB/person/9DCCD2B0-878F-3A1B-BD0C-30582C199DC0>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-22T12:14:40.666Z_39&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/F4F3C6F8-D4CD-32D4-B64A-A3545DB9C32E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_29" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/6221A370-BDF3-3FA7-B675-09D05C4D7D63> .
+
+<http://www.sealit.gr/DB/appellation_surname/24DA9CFF-27DC-39FB-9F40-5ABCC14E251F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Tempier" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/4DB44AA7-51D7-3E3D-B152-B0E0305E91A7>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/8997AF98-7391-340A-8DED-429DDB365010>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_23" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/CE30C5D2-23DA-3437-A0BA-E50D12D673D5> .
+
+<http://www.sealit.gr/DB/register_record_point/F21B2865-248F-3DB5-BD54-59A247ABE530>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_36" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-28T09%3A03%3A57.803Z_24> , <http://www.sealit.gr/DB/person/DDF3EC0B-A902-3AE3-B2EC-75E4E3986229> .
+
+<http://www.sealit.gr/DB/person/63AA44D6-4CC3-3D7B-8E53-D0FE684ADBC0>
+        a                        crm:E21_Person ;
+        rdfs:label               "F[?] Auguste Descourvières" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/CD90670F-2126-32D5-91EB-DBE307D9B5F2> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "F[?] Auguste" ;
+        sealit:has_last_name     "Descourvières" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/25E10AC9-B7C4-32D5-9538-77D12501953E> .
+
+<http://www.sealit.gr/DB/person/B0E58EC4-258B-3F51-B343-47DCDD42A6B1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Victorine Vellin" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/22969E2B-40B6-346B-9E4C-BBE2094DFE4B> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Victorine" ;
+        sealit:has_last_name     "Vellin" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/93C9DB6B-33A4-3466-AABA-93C99B1AF701> .
+
+<http://www.sealit.gr/DB/person/A51C2A9B-0E48-3FDE-986E-551E3E4239D8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/11C95374-4BEB-3B7C-BFE0-F37D9EF1DABE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_27" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/F8783A11-CEA9-3744-ABB1-204759D060CD> .
+
+<http://www.sealit.gr/DB/person/DAC09CA5-E81F-3EE2-98AD-9BD993A29BA5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/1E264BF7-AEDE-3CBD-AA3B-F968FEC2DE23>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 6, table: list_of_occupants_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-30T14%3A38%3A02.546Z_27> , <http://www.sealit.gr/DB/person/B577CCD7-CD90-32FD-8C77-7281DAA72C55> .
+
+<http://www.sealit.gr/DB/person/F16BB32D-374A-31D7-96B6-B1BE93F3CA24>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/3BA5D905-654F-376C-ABC3-8CD185FC709B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/47544CCD-56E3-3818-81EF-72A758DB13D0>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/55194D62-F8AA-3202-A8EF-DC007787D17B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/745F6605-BAE3-3268-9145-D37E6DF9EEC9> .
+
+<http://www.sealit.gr/DB/register_record_point/FF5D61BF-EEF0-3772-9FEC-58437F15789A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 21, table: list_of_occupants_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-22T12%3A14%3A40.666Z_39> , <http://www.sealit.gr/DB/person/3E4C0C16-D76B-3097-A079-F1FFB5B95564> .
+
+<http://www.sealit.gr/DB/person/80E2EDA9-6180-324D-8052-806268B9DFEF>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/DA9D6D35-1C2A-3FC5-AA18-D3112F895C31>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7A22815D-1F53-3228-AE91-0635DE6338BE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Sophie Bremond" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/59C64881-AE25-3555-9E67-7074FE5042BF> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Sophie" ;
+        sealit:has_last_name     "Bremond" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/E5A563D8-8084-39EB-BD8C-4BEEA5AC88B1> .
+
+<http://www.sealit.gr/DB/register_record_point/11DF8F77-8AC9-3D16-A688-0766123EF242>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/DC880A69-4E7A-3FD7-939A-7CA6FCF9AD5B> .
+
+<http://www.sealit.gr/DB/person/B7901D12-F02D-3A1F-8A60-E710E5D1B5DE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Claire Gasquet" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/4C4B55DE-2655-3929-B71D-FF6E32EDC365> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie Claire" ;
+        sealit:has_last_name     "Gasquet" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7BA73B1B-5600-35BD-B58D-EEFA4AD7DE67> .
+
+<http://www.sealit.gr/DB/person/FC8DC2B9-A551-3B10-B576-9A83BCFEA8D7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joseph Baptiste Charles Reynaud" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/9AB7C86D-5D5E-3906-8D11-4CFECBF311DE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Joseph Baptiste Charles" ;
+        sealit:has_last_name     "Reynaud" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/52F4589D-F18B-329A-AAAE-327C7BCDE982> .
+
+<http://www.sealit.gr/DB/person/0C67292A-48A3-3EF1-9B08-819D461DF7EA>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/968ECA13-4B25-3358-98EF-B4485CA4D3E4>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/4069CFEF-509B-3B90-82CC-13B616FAA4CA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/FB8D510D-1394-3E0E-B979-6ED874A0C47A> .
+
+<http://www.sealit.gr/DB/register_record_point/8100150B-3CE2-323F-ACE9-BCEEAF3C669A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_22" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/6F6D45E6-63D6-30D5-83B3-51AE36897969> .
+
+<http://www.sealit.gr/DB/person/D3FADEB9-49CB-3AF0-B612-F6CF6C532287>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Allegre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C9F28501-AAC7-3668-8A62-7A138C2ACEFC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie" ;
+        sealit:has_last_name     "Allegre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/80E2EDA9-6180-324D-8052-806268B9DFEF> , <http://www.sealit.gr/DB/person/14AE5E1C-5113-3231-98FB-42F26958B0D0> , <http://www.sealit.gr/DB/person/AD0BCF47-2195-39CE-BF79-7BEFD3518ADC> .
+
+<http://www.sealit.gr/DB/person/58E8012A-A459-3ADD-A964-8AEA22C0E622>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record/2019-01-30T14%3A38%3A02.546Z_27>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-30T14:38:02.546Z_27&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/F3448E5D-6AA9-39C2-9E16-6502940A67DA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_27" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-21T10%3A14%3A08.441Z_16> , <http://www.sealit.gr/DB/person/386FD746-878D-3EA8-B158-7A8DCBC8C90C> .
+
+<http://www.sealit.gr/DB/person/8036A86E-FD7E-368E-9066-35A3679B3DE0>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/DEE89B27-7C51-3E9D-AB21-51776C130C99>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/ACBCC775-1605-32EE-964F-BC8D1800DDCA> .
+
+<http://www.sealit.gr/DB/register_record_point/51F14D76-7F9F-3520-B5D8-6C9670763A3B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-30T14%3A38%3A02.546Z_27> , <http://www.sealit.gr/DB/person/69448C20-56F9-3A69-A707-89F17D8859BA> .
+
+<http://www.sealit.gr/DB/register_record_point/DBF7755B-87C2-34E9-B09D-B4B3FC6C7144>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 5, table: list_of_occupants_12" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-31T13%3A36%3A46.374Z_28> , <http://www.sealit.gr/DB/person/FF7AF968-A44B-38DB-A0EC-90F299CF7938> .
+
+<http://www.sealit.gr/DB/person/7A14BAAC-3CB4-3256-8A48-96F69C662CD9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Adelaîde Mouret" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/175D624A-E722-358E-A0E3-9059C18226DD> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Adelaîde" ;
+        sealit:has_last_name     "Mouret" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/847640A1-094F-38F4-A7FD-D1B1B5BEEC51> .
+
+<http://www.sealit.gr/DB/register_record_point/FF7954EB-1454-3BC3-99FD-3B37A11579D9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 9, table: list_of_occupants_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-30T14%3A38%3A02.546Z_27> , <http://www.sealit.gr/DB/person/C822804E-B7A3-3C09-B6AA-60515A376BB3> .
+
+<http://www.sealit.gr/DB/person/87E321AB-674C-38CD-943F-BB0076D4F8C8>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/4C4B55DE-2655-3929-B71D-FF6E32EDC365>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gasquet" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/7AB6FE3F-9ED9-374C-BFCF-7350EAA858F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/29C7C2B2-FAD1-37F3-9BE5-1DF761D1B37F> .
+
+<http://www.sealit.gr/DB/person/D8C63589-5029-3582-9043-C2A24E619E65>
+        a                        crm:E21_Person ;
+        rdfs:label               "Victoire Durbec" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B0D328FA-F3CF-3F1E-BD0E-7964C177FAE5> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Victoire" ;
+        sealit:has_last_name     "Durbec" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9056C243-215B-3C3E-848C-28AF3D675B0E> , <http://www.sealit.gr/DB/person/6F5FD6C4-7FF4-3496-AA47-4E07387B6BF0> .
+
+<http://www.sealit.gr/DB/appellation_surname/2AB96FC6-0019-3C16-9DE8-71054DB90443>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Meistre" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/B97E5763-DA41-32AD-9931-26403B8F5459>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/30F624F2-9081-3B1A-8C2D-AF3518BBEC4F> .
+
+<http://www.sealit.gr/DB/person/76BD83BC-05C8-3420-9F8B-0C8FC5F591A6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Françoise Canourgues" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/01C763F3-A9F2-3DF9-BC1A-78C9BD3B9513> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Françoise" ;
+        sealit:has_last_name     "Canourgues" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/845D921A-8AEA-3753-8A20-63E00CC8DF63> .
+
+<http://www.sealit.gr/DB/appellation_surname/12579527-A548-392E-9C7C-E7DFD3A9755B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Matter" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/C8D66C5D-8C8F-3314-9077-B59ED81DA2BA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Jacques Julien" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/A64CD806-2EAA-3562-80BA-463F2EE7C828> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Jacques" ;
+        sealit:has_last_name     "Julien" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/EBD948A8-511A-3D65-B551-868B2D719883> .
+
+<http://www.sealit.gr/DB/person/4DE92E6B-23E6-3D67-B17D-2E93896E6B5E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marguerite Allegre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/C9F28501-AAC7-3668-8A62-7A138C2ACEFC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marguerite" ;
+        sealit:has_last_name     "Allegre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/7E107809-9DD7-3A13-869F-22FDA1EA0688> , <http://www.sealit.gr/DB/person/D30B1088-BA28-3A24-B7FE-9E9C87A5299F> .
+
+<http://www.sealit.gr/DB/person/1028DF35-AEBE-3E38-9E01-542E5058BCD9>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/DD72784C-F243-33BB-88C2-754194CAA0B7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Louis Constant" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/CB17869F-E510-38B5-A5C4-C6106551A255> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Louis" ;
+        sealit:has_last_name     "Constant" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/1D9C5FAB-4133-3CD5-BE6B-F640A9F962FC> .
+
+<http://www.sealit.gr/DB/register_record_point/98FB5FEA-C302-3B05-82BB-E533DE990619>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_29" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/F255B28B-0BA1-34E5-9EB8-F2BD4CB9FA5B> .
+
+<http://www.sealit.gr/DB/register_record/2019-01-31T13%3A36%3A46.374Z_28>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-31T13:36:46.374Z_28&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-02-05T14%3A04%3A54.455Z_33>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-05T14:04:54.455Z_33&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/1B6226E5-8648-3C4A-A0E4-E96C591C815F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_29" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/ADB15E30-280F-320D-90A6-D818A8A3B0FE> .
+
+<http://www.sealit.gr/DB/person/0C0E305D-6522-3040-96AB-C11336D4A87C>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/8C7B4806-25E1-35E5-BAFE-BD9ABB233017>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/8A7DA2C7-82BD-3112-A600-F8910A68B0BF> .
+
+<http://www.sealit.gr/DB/register_record_point/0302DCAB-D237-3862-95C3-F89BC4DAD714>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_28" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-29T13%3A54%3A31.316Z_26> , <http://www.sealit.gr/DB/person/A51C2A9B-0E48-3FDE-986E-551E3E4239D8> .
+
+<http://www.sealit.gr/DB/person/BA58FB6D-6356-30F0-A298-26539930C411>
+        a                        crm:E21_Person ;
+        rdfs:label               "Françoise Ventre" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/31BAD8D6-C97E-39D2-B310-72564DC71F7C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Françoise" ;
+        sealit:has_last_name     "Ventre" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/E47BFB5B-A08F-3B6B-87FD-964CBAD9D07E> .
+
+<http://www.sealit.gr/DB/person/EE061E03-7FE4-36D1-88E3-BB401C8251A0>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record/2019-02-04T15%3A00%3A07.241Z_32>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-04T15:00:07.241Z_32&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/3A35A572-39AF-37FB-A022-D008A02D2EFF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Esig" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/8B79E059-F6AA-3587-BA7E-6BF7750FB335> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie" ;
+        sealit:has_last_name     "Esig" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D41476A0-1F78-34DE-8793-7534FAF2AF12> .
+
+<http://www.sealit.gr/DB/appellation_surname/B5DF36AC-79AA-3391-BFB4-32B9E5AD7880>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Roman" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/F12F8C16-6D83-3001-A6DB-B3681AAA48A4>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/DCB78E4F-F793-3221-94E8-E70C19F5E79D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Magdelaine Martin" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/81D6F316-D169-350D-8E87-33866C38684D> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Magdelaine" ;
+        sealit:has_last_name     "Martin" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/A3BD14B2-7BB4-328D-8C5D-3E278CA581D3> , <http://www.sealit.gr/DB/person/F8783A11-CEA9-3744-ABB1-204759D060CD> .
+
+<http://www.sealit.gr/DB/person/D048BF2E-ABFC-3D7C-BEFE-37220E4BF989>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Françoise Berenger" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/071A9F29-7869-3632-8413-13E86B545E3C> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie Françoise" ;
+        sealit:has_last_name     "Berenger" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/0261396E-7429-3148-A2D6-73702BF89BE0> .
+
+<http://www.sealit.gr/DB/appellation_surname/175D624A-E722-358E-A0E3-9059C18226DD>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mouret" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/BE2E997B-3D2A-36CD-AE2F-8B47AE409FCF>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record/2019-01-28T09%3A03%3A57.803Z_24>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-28T09:03:57.803Z_24&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/21DEC831-B9E0-3B54-BABD-223DD0221291>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 12, table: list_of_occupants_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-20T12%3A56%3A33.642Z_38> , <http://www.sealit.gr/DB/person/0CB05D22-2224-3A60-BBAF-182DF89DF532> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-14T09:35:18.504Z_35&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/person/1251FBEF-7CFA-348A-BF77-75C4EE33B4AE>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record/2019-02-13T13%3A44%3A04.831Z_34>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-13T13:44:04.831Z_34&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/46FB9B14-F868-356A-A2BE-85B1159DE5E0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Augustin Julien" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/A64CD806-2EAA-3562-80BA-463F2EE7C828> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Augustin" ;
+        sealit:has_last_name     "Julien" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/0FBB8994-C70E-3462-B392-8D4AA24C4738> .
+
+<http://www.sealit.gr/DB/person/C981358C-333B-3A47-A548-1F8F5B30D9FE>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/BFDE8A7D-0818-3ECD-B301-B436791BCCA0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_24" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/1D9C5FAB-4133-3CD5-BE6B-F640A9F962FC> .
+
+<http://www.sealit.gr/DB/person/CEA8BB9C-962F-33C1-8130-A3FCF334A695>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gervaix Constant" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/CB17869F-E510-38B5-A5C4-C6106551A255> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Gervaix" ;
+        sealit:has_last_name     "Constant" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/9DF06DA6-5A91-346C-B1D9-48018435B7F1> .
+
+<http://www.sealit.gr/DB/person/45BC5328-CB1C-3C09-B912-28C5D3F458B4>
+        a                        crm:E21_Person ;
+        rdfs:label               "Elisabeth Durbec" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/B0D328FA-F3CF-3F1E-BD0E-7964C177FAE5> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Elisabeth" ;
+        sealit:has_last_name     "Durbec" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/BD080855-EA37-3C9D-8C40-7871F8C32C76> .
+
+<http://www.sealit.gr/DB/person/F2F33CEE-1F91-3B4F-B07B-0DCDFD8C15E1>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-04T15:00:07.241Z_32&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/7A1EFCD0-AA09-3E0F-BF8C-7A922545CC60>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_19" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-25T08%3A29%3A06.947Z_21> , <http://www.sealit.gr/DB/person/C18FD30C-68D7-3D0A-A8CF-F5DE2680A8F8> .
+
+<http://www.sealit.gr/DB/register_record_point/6100C3F3-BFF6-34F1-A5EE-8698CD096350>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 8, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/FAAE4B8D-5928-305A-A8A9-82D92E628445> .
+
+<http://www.sealit.gr/DB/register_record/2019-01-21T10%3A14%3A08.441Z_16>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Census La Ciotat, 1851, Popi Vasilaki" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-01-21T10:14:08.441Z_16&templateTitle=Census%20La%20Ciotat&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/0BA5947E-7DAF-38C4-9834-7C0476342E36>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/20D0282F-B450-39BC-AB51-7B26B429D228> .
+
+<http://www.sealit.gr/DB/person/178FB5F9-C6B6-39EE-B521-19A26F2C4317>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/E1359B70-8906-398B-8830-8808D570572E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/BD080855-EA37-3C9D-8C40-7871F8C32C76> .
+
+<http://www.sealit.gr/DB/appellation_surname/709D6C39-CF62-33CF-916D-08192D647879>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ricard" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/F24FC49D-8218-3A01-B738-53143BF82914>
+        a                        crm:E21_Person ;
+        rdfs:label               "Augustine Fournier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/EEF968A6-C78C-3D4A-9F31-1C8EBCB5FFB8> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Augustine" ;
+        sealit:has_last_name     "Fournier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/ACBCC775-1605-32EE-964F-BC8D1800DDCA> .
+
+<http://www.sealit.gr/DB/person/88EF4950-4DED-3C74-B934-90BAC391CA65>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<http://www.sealit.gr/DB/person/7FF1F339-9166-3AF7-A1F9-F011C8AEDC70>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/69BA8115-B240-3FFE-B758-8581BB5DD2DA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/26339AC0-89F4-382D-BED7-425A117CA12C> .
+
+<http://www.sealit.gr/DB/register_record_point/2E42A167-1235-3203-9146-3585F9AA9580>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_30" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/0261396E-7429-3148-A2D6-73702BF89BE0> .
+
+<http://www.sealit.gr/DB/register_record_point/8D2DC10A-A6B3-3B9F-9931-5076F35FC294>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_7" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/DA87E559-0573-3806-8D68-6BFBDCE70965> .
+
+<http://www.sealit.gr/DB/register_record_point/92784845-FD45-3790-B299-D45AE2A482F4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 10, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/A011B39C-761B-30D2-BA6E-634CA11446E5> .
+
+<http://www.sealit.gr/DB/register_record_point/FF27EC74-5A4A-361C-B637-F243AD2830A5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/D92A88F1-B47B-38DA-BA71-668794F46371> .
+
+<http://www.sealit.gr/DB/person/4D835BC2-A5A1-33C0-B11D-CF44C687634E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marie Chanier" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/4823B6E6-9552-3789-8C29-1355E40DBE4A> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Marie" ;
+        sealit:has_last_name     "Chanier" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/81103F70-6FD9-3EAF-82C4-0A065052BA0B> .
+
+<http://www.sealit.gr/DB/register_record_point/BB70A844-B6B3-32F9-AA85-AB04EB5DE9CE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/58E8012A-A459-3ADD-A964-8AEA22C0E622> .
+
+<http://www.sealit.gr/DB/register_record_point/A9CAF653-A2E8-38A5-A6A0-6C4F4CDC74DF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/16E344EA-C19E-3E14-88F5-EF4453B3D385> .
+
+<http://www.sealit.gr/DB/person/122B6EA6-EA39-3EF5-8B1A-B5C693AD54D1>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/A64CD806-2EAA-3562-80BA-463F2EE7C828>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Julien" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Census_LaCiotat.html?name=2019-02-20T12:56:33.642Z_38&templateTitle=Census%20La%20Ciotat&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/9F18090D-2D61-30E5-A855-284D022C8235>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/F12F8C16-6D83-3001-A6DB-B3681AAA48A4> .
+
+<http://www.sealit.gr/DB/person/A38DA3DC-C18D-32FC-A968-5327034ED559>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/BE3B47B2-323E-3001-B9BC-B0ACED66707C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 1, table: list_of_occupants_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/0FBB8994-C70E-3462-B392-8D4AA24C4738> .
+
+<http://www.sealit.gr/DB/person/0261396E-7429-3148-A2D6-73702BF89BE0>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/706DB488-627A-37BD-A7A3-FE30CBD306BC>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/D327CA59-4F12-3293-8445-CB5529A3DBB1>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Caradoire" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/DCE05622-A413-33FC-A993-2A958D739CCF>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/10AAF316-7843-3972-BB7C-C8534409BE0A>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/45BC0C3C-2440-3AAB-B424-CF04C346D1E5>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/7F621905-E2CA-385E-BB0A-482C800F8FF6>
+        a                        crm:E21_Person ;
+        rdfs:label               "François Bavastro" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/8B270FF0-7206-38E0-917E-37FF5147D5D1> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "François" ;
+        sealit:has_last_name     "Bavastro" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/C822804E-B7A3-3C09-B6AA-60515A376BB3> , <http://www.sealit.gr/DB/person/10AAF316-7843-3972-BB7C-C8534409BE0A> .
+
+<http://www.sealit.gr/DB/person/183A67BC-0555-3843-8AA2-91FD6378AE51>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/register_record_point/CDF98AEC-9DE0-3878-BCA0-21A4A66C2B3C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 4, table: list_of_occupants_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/083B8DEA-C726-3D4C-9C75-B5BA3799EFEB> .
+
+<http://www.sealit.gr/DB/register_record_point/C4BB2573-4375-3361-B21D-ED95D82BEE07>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 3, table: list_of_occupants_23" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/310BC16E-A627-3E16-99A7-B73B9C8FCF20> .
+
+<http://www.sealit.gr/DB/person/9B6692E2-B6D3-34AE-B67B-EA3F24E5CE5A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Delphine Blanchard" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/6AD26238-8B05-3ABA-920E-0F3D52C582AC> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Delphine" ;
+        sealit:has_last_name     "Blanchard" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/5620B8CF-8F93-3179-8F6B-D265F701C645> .
+
+<http://www.sealit.gr/DB/register_record_point/0727A252-AB46-3A47-96D3-EE92A7D92D09>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Census La Ciotat, 1851, Popi Vasilaki | row: 2, table: list_of_occupants_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/census%20la%20ciotat> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-18T18%3A02%3A03.059Z_15> , <http://www.sealit.gr/DB/person/E7102EE2-648A-3B05-9DF1-98512FA24877> .
+
+<http://www.sealit.gr/DB/appellation_surname/3BE19B56-D7FE-3E83-A42F-F8204B28ACE7>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Espanet" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/2099D857-0259-3E11-B29D-AB6013183F53>
+        a                        crm:E21_Person ;
+        rdfs:label               "Médélie Dalest" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/FF37972D-B212-3EC9-A7B3-1CA4704C4B3F> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Médélie" ;
+        sealit:has_last_name     "Dalest" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/DA9D6D35-1C2A-3FC5-AA18-D3112F895C31> .
+
+<http://www.sealit.gr/DB/appellation_surname/8B270FF0-7206-38E0-917E-37FF5147D5D1>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bavastro" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/person/C33451E2-D1B8-39A3-8F00-8EBE525143BC>
+        a       crm:E21_Person .

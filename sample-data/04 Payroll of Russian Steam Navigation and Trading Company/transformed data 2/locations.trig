@@ -1,0 +1,1209 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record_point/54B0780C-C05B-3EF9-99FE-0D5F790D6E6B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_7" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D0%BA%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Кременецкий" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%B2%D0%BE%D0%BB%D1%8B%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-01-19T12:24:53.367Z_1&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/C265495E-498D-3C0C-8FDC-D20A3ED506D4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 12, 23.12.1913 -02.01.1914         , Anna  Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-05-30T12%3A21%3A47.274Z_4> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location_appellation/D3DFCE58-1AF3-3C37-A044-81EB0439079C>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Цивильский" .
+
+<http://www.sealit.gr/DB/register_record_point/9A817395-56AC-3DA1-A011-05EE02A237CD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 119, 31.12.1908   -01.09.1909              , Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-07T09%3A42%3A23.374Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D0%B7%D0%B2%D0%B5%D0%BD%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Звенигородский" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/1CC14EEB-287B-3874-970D-5E8B364E32E1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 9, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/9496A07A-86BB-35B4-A0FA-A63331EFFC2D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.262, Военный спуск, 6, 1897, Anna  Sydorenko | row: 2, 3, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-12T10%3A49%3A53.402Z_4> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%B2%D0%BE%D0%BB%D0%BE%D0%B4%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Володьковская" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/5ABB4B15-7BF1-3AC2-BBBA-15B64DF94226> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%B1%D0%B5%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%B2%D0%BE%D0%BB%D0%BE%D0%B4%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/%D1%81%D0%B0%D1%88%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/70E1842D-77C4-3941-9D0D-504B2223F99E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 10, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%BC%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Волосковская" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/8A02EA9E-45F3-3883-990D-E84D54439075> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D1%81%D0%BE%D1%81%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/0CF27AC2-9633-364B-82C1-A2ABADBD3990>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_18" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BC%D0%B0%D1%82%D1%83%D1%81%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Матусовская" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/19C19EB3-95C5-3DEB-85AB-9850CB00931A> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D1%87%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BC%D0%B0%D1%82%D1%83%D1%81%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/%D1%88%D0%BE%D1%80%D0%BA%D1%80%D0%B8%D1%81%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/9B0DBBD1-6924-3BE2-A19A-DBBC8EF32324>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 89, 30.12.1908      -20.08.1909                                         , Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-25T15%3A29%3A43.206Z_7> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/place%20type/village>
+        a           crm:E55_Type ;
+        rdfs:label  "village" .
+
+<http://www.sealit.gr/DB/location_appellation/BD317CE9-5C92-38B0-9D49-B695B7C12D7E>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Монастырищская" .
+
+<http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/ED5E4863-026A-3A21-8167-002B8830D65C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/E73E3AB6-C6B7-3064-B629-CE4543860B97>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%B1%D1%80%D0%B0%D1%86%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B9>
+        a                         crm:E53_Place ;
+        rdfs:label                "Брацлавский" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/district> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/DDFB6F1E-8C34-3F7D-902F-73B741F1F625> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%B1%D1%80%D0%B0%D1%86%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B9> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2019-02-04T11:24:15.277Z_8&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location_appellation/5ABB4B15-7BF1-3AC2-BBBA-15B64DF94226>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Володьковская" .
+
+<http://www.sealit.gr/DB/location_appellation/37E54614-6F60-370C-9337-0AE9F17FD1B9>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Сашкинская" .
+
+<http://www.sealit.gr/DB/location/%D0%BC%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/F71C994B-2DBF-3001-81B8-C305BCF25AE0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 8, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/location/%D1%87%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B8%D0%B9> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%BC%D0%B0%D1%82%D1%83%D1%81%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/02F5D754-FA1C-34AA-8F68-C53F7E607F42>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 7, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/location/%D1%81%D0%BE%D1%81%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location_appellation/4052508E-F3AB-36EA-B425-F7DF8AA19C02>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Кременецкий" .
+
+<http://www.sealit.gr/DB/location_appellation/0E546CD8-CB3A-375A-830D-46B09B3A1198>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Керчь" .
+
+<http://www.sealit.gr/DB/register_record/2020-11-03T09%3A07%3A39.408Z_15>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 88, 04.01.1910-04.10.1910, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-11-03T09:07:39.408Z_15&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/56929CF3-DA49-3A6C-8524-C34FDE833B28>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 85, 18.01.1910-17.08.1910, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-29T12%3A38%3A48.853Z_13> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%B7%D0%B2%D0%B5%D0%BD%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9>
+        a                         crm:E53_Place ;
+        rdfs:label                "Звенигородский" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/district> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/274F0620-32D7-3D1E-9974-C9B6B85D3DD4> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%B7%D0%B2%D0%B5%D0%BD%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/6BB3A264-0BB2-35F4-850D-3DEC255544A8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 3, table: list_of_occupants_21" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BA%D0%B5%D1%80%D1%87%D1%8C> .
+
+<http://www.sealit.gr/DB/register_record_point/C4AAABA8-80CB-3E54-8D73-1456E9A2AAB0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/9D9A4259-0D4E-3D90-B14F-56D84D528DEB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 2, 3, 4, 5, table: list_of_occupants_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/576631A8-8D40-32AD-A1AC-59893B71B1C5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 13, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%B1%D0%B5%D0%BB%D1%8C%D1%81%D0%BA> .
+
+<http://www.sealit.gr/DB/register_record_point/7F05A3D8-FA5B-3F1D-A4AD-62308B55A139>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 2, table: list_of_occupants_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D1%86%D0%B8%D0%B2%D0%B8%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9>
+        a                         crm:E53_Place ;
+        rdfs:label                "Цивильский" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/district> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/D3DFCE58-1AF3-3C37-A044-81EB0439079C> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B0%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D1%86%D0%B8%D0%B2%D0%B8%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/F117E315-58B3-3FAE-B816-2017138C9BD1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 86, 04.01.1910-04.10.1910, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-30T09%3A09%3A49.661Z_14> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/370F8477-79F8-3EE8-AC14-3CFBBA00F9FF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D1%85%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Херсонская" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<http://www.sealit.gr/DB/register_record/2018-05-30T12%3A21%3A47.274Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 12, 23.12.1913 -02.01.1914         , Anna  Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-05-30T12:21:47.274Z_4&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Census%20Odessa.html?name=2019-01-15T14:13:44.289Z_5&templateTitle=First%20national%20all-Russian%20census%20of%20the%20Russian%20Empire&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/9D67E60A-E047-37D7-A14C-03B98786DB75>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 20, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D1%82%D0%B0%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9>
+        a                         crm:E53_Place ;
+        rdfs:label                "Тарусский" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/district> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/705FC9B0-BA0B-37E2-A0D4-5264EBA86CAF> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%BA%D0%B0%D0%BB%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D1%82%D0%B0%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/location/%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location%20type/district>
+        a           crm:E55_Type ;
+        rdfs:label  "district" .
+
+<http://www.sealit.gr/DB/register_record_point/D0E74CE1-7D09-3CC1-A8BF-83D1EFD4576D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 6, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%B1%D0%B5%D1%80%D1%88%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Census%20Odessa.html?name=2017-12-18T14:21:48.696Z_3&templateTitle=First%20national%20all-Russian%20census%20of%20the%20Russian%20Empire&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BF%D0%B5%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Пединовская" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/C6D28FAE-388C-30C1-AFFB-D481FA21B846> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%B7%D0%B2%D0%B5%D0%BD%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BF%D0%B5%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location_appellation/705FC9B0-BA0B-37E2-A0D4-5264EBA86CAF>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Тарусский" .
+
+<http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/place%20type/city>
+        a           crm:E55_Type ;
+        rdfs:label  "city" .
+
+<http://www.sealit.gr/DB/location/%D0%B1%D0%B5%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Белевский" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D1%82%D1%83%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/%D1%81%D0%BE%D1%81%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Сосницкий" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D1%87%D0%B5%D1%80%D0%BD%D0%B8%D0%B3%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-10-29T12:38:48.853Z_13&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location_appellation/03CA8715-F8CA-3A0C-9500-CCC2AD934F12>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Бельск" .
+
+<http://www.sealit.gr/DB/register_record_point/7FC248C8-23D7-320A-B874-5765DA1559FA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/435A6E7D-DC8E-3F24-9499-771EC533593A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 2, 3, table: list_of_occupants_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Подольская" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<http://www.sealit.gr/DB/register_record_point/F9DA41BE-508C-359D-B79F-2522BF4F9910>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D1%87%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Черкасский" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/%D0%BC%D0%B0%D1%82%D1%83%D1%81%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-04-18T09:19:10.076Z_1&templateTitle=Seagoing%20Personel&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/DD738610-29E9-33CA-8641-F6DE16DBDF4A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, table: list_of_occupants_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Киевская" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<http://www.sealit.gr/DB/register_record_point/BB00FEF5-F087-3691-8CCB-7B15B993943A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 88, 04.01.1910-04.10.1910, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-03T09%3A07%3A39.408Z_15> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D0%B1%D1%80%D0%B0%D1%86%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Брацлавский" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/AF3316BE-A7B9-32BB-82A2-0552B07EAF97>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 3, table: list_of_occupants_20" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BA%D0%B5%D1%80%D1%87%D1%8C> .
+
+<http://www.sealit.gr/DB/register_record_point/DB0E6971-C51F-35D4-96B0-3E3ABFEEBE3E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_21" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record/2020-07-22T12%3A57%3A56.189Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 92, -, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-07-22T12:57:56.189Z_10&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/location_appellation/455B735A-2196-3449-AA94-BDC24EF31E07>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Христиновка" .
+
+<http://www.sealit.gr/DB/location_appellation/B7FBAABF-00D7-3EDE-A775-A7DDF3165F7F>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Сосницкий" .
+
+<http://www.sealit.gr/DB/register_record_point/DE779F62-9AEC-3DE3-B646-D1FDFFF0F0B3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 2, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%B2%D0%BE%D0%BB%D0%BE%D0%B4%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/B050077F-6BF1-3A6E-8277-ABA003CC2841>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_19" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D0%BB%D0%B8%D0%BF%D0%BE%D0%B2%D0%B5%D1%86%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Липовецкий" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-29T12%3A38%3A48.853Z_13>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 85, 18.01.1910-17.08.1910, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-10-29T12:38:48.853Z_13&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/E89547C2-C684-303C-8198-702D3E3D6E18>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location_appellation/50761AF1-2B2D-3061-A050-E7C62F7E1A15>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Самос" .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BA%D0%B5%D1%80%D1%87%D1%8C>
+        a                         crm:E53_Place ;
+        rdfs:label                "Керчь" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/0E546CD8-CB3A-375A-830D-46B09B3A1198> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D1%82%D0%B0%D0%B2%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BA%D0%B5%D1%80%D1%87%D1%8C> .
+
+<http://www.sealit.gr/DB/register_record_point/F48B542B-90F9-3591-A623-FF8651DAA4D2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 86, 04.01.1910-04.10.1910, Anna Sydorenko | row: 1, 4, 5, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-30T09%3A09%3A49.661Z_14> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/3C094C6D-58D3-3958-A7FC-F2ACCF2E6F63>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 14, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D1%81%D0%B0%D0%BC%D0%BE%D1%81> .
+
+<http://www.sealit.gr/DB/register_record_point/56863112-2C41-32C6-B517-9060BB375E21>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record/2020-07-22T12%3A27%3A33.502Z_9>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 90, 31.12.1908-30.04.1909, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-07-22T12:27:33.502Z_9&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B0%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Казанаская" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<http://www.sealit.gr/DB/register_record_point/779BDD67-A33A-371F-ADF2-681B5AC0F41D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/FC581A35-814E-3581-9F8D-6974B7D4A178>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 93, 12.02.1907-23.10.1907, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-07-24T11%3A28%3A31.006Z_11> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0>
+        a                         crm:E53_Place ;
+        rdfs:label                "Одесса" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/B850DCAB-ABB1-3015-996D-D740BB211EC7> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D1%85%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location_appellation/9AAD0821-AB67-306B-8DAF-05DA50AA59CD>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Почаевская" .
+
+<http://www.sealit.gr/DB/location/%D1%82%D1%83%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Тульская" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<http://www.sealit.gr/DB/location/%D0%B2%D0%BE%D0%BB%D1%8B%D0%BD%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Волынская" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-10-29T11:06:24.370Z_12&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/5320701F-3964-354A-B33C-BE8F42F9666B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_20" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/6D046863-1B91-3DEC-A9CC-14F41341AA1B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 3, table: list_of_occupants_18" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BA%D0%B5%D1%80%D1%87%D1%8C> .
+
+<http://www.sealit.gr/DB/register_record_point/37D82D8B-8CB0-36C6-9A3F-45B6B1CE1710>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 85, 18.01.1910-17.08.1910, Anna Sydorenko | row: 4, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-29T12%3A38%3A48.853Z_13> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/%D0%BF%D0%B5%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/D1ABA979-2A93-34E0-BBAC-C2DF8A4AEEA4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location_appellation/8A02EA9E-45F3-3883-990D-E84D54439075>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Волосковская" .
+
+<http://www.sealit.gr/DB/location/master_uri-%D1%81%D0%B0%D0%BC%D0%BE%D1%81>
+        a                         crm:E53_Place ;
+        rdfs:label                "Самос" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/50761AF1-2B2D-3061-A050-E7C62F7E1A15> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D1%81%D0%B0%D0%BC%D0%BE%D1%81> .
+
+<http://www.sealit.gr/DB/register_record_point/793F277C-B615-3A28-81F0-AAA22B1C910B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 92, -, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-07-22T12%3A57%3A56.189Z_10> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/2F190C49-A96D-3493-AF30-01908AD68A89>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 15, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/location/%D1%82%D0%B0%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D1%81%D0%B0%D1%88%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/3EB88D35-6A60-373C-B84E-4E7320B5F340>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.262, Военный спуск, 6, 1897, Anna  Sydorenko | row: 2, 3, table: list_of_occupants_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-12T10%3A49%3A53.402Z_4> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/template%20types/seagoing%20personel>
+        a           crm:E55_Type ;
+        rdfs:label  "seagoing personel" .
+
+<http://www.sealit.gr/DB/location/%D1%86%D0%B8%D0%B2%D0%B8%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Цивильский" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B0%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/91564A23-EFFF-39C3-9528-06E886AF7103>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.262, Военный спуск, 6, 1897, Anna  Sydorenko | row: 2, 3, 4, table: list_of_occupants_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-12T10%3A49%3A53.402Z_4> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D1%82%D0%B0%D0%B2%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Таврическая" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<http://www.sealit.gr/DB/register_record_point/AF8C60FA-A71F-3F73-8679-C3525C5C3B40>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record/2018-06-07T09%3A42%3A23.374Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 119, 31.12.1908   -01.09.1909              , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-06-07T09:42:23.374Z_5&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/location_appellation/DDFB6F1E-8C34-3F7D-902F-73B741F1F625>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Брацлавский" .
+
+<http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2019-02-04T11:24:15.277Z_8&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-04-17T07%3A45%3A41.744Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 115, 18.12.1906-, Anna  Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-04-17T07:45:41.744Z_2&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%D1%86%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Сковородецкая" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/FFCF94A9-BCB1-3ECC-B966-8C97CE1229E0> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%D1%86%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/%D1%82%D0%B0%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Тарусский" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%BA%D0%B0%D0%BB%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-04-17T07:45:41.744Z_2&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/%D0%B3%D1%80%D0%BE%D0%B4%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Гродненская" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<http://www.sealit.gr/DB/register_record/2019-01-25T15%3A29%3A43.206Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 89, 30.12.1908      -20.08.1909                                         , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2019-01-25T15:29:43.206Z_7&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/2D9F8F9A-0C0F-3E39-8BF9-24588D2588AD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 115, 18.12.1906-, Anna  Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-17T07%3A45%3A41.744Z_2> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Ободнянская" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/A61CA732-6657-3330-9095-44B06259A52B> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%B1%D1%80%D0%B0%D1%86%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BF%D0%BE%D1%87%D0%B0%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Почаевская" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/9AAD0821-AB67-306B-8DAF-05DA50AA59CD> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%BA%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D1%87%D0%B0%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record/2020-07-24T11%3A28%3A31.006Z_11>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 93, 12.02.1907-23.10.1907, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-07-24T11:28:31.006Z_11&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/DF3C399C-3334-337D-8B41-53B42CE6A16B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 35, 45, 46, 91, 117, 141, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/%D0%B1%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Бельский" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%B3%D1%80%D0%BE%D0%B4%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/948D3969-C883-3EE3-9A02-7E8009CBCDBC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_12" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-07-22T12:57:56.189Z_10&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire>
+        a           crm:E55_Type ;
+        rdfs:label  "first national all-russian census of the russian empire" .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D0%B8%D1%89%D1%81%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Монастырищская" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/BD317CE9-5C92-38B0-9D49-B695B7C12D7E> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%BB%D0%B8%D0%BF%D0%BE%D0%B2%D0%B5%D1%86%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D0%B8%D1%89%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/26CB21F7-C90B-3D73-A615-554F4DC0766A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 16, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/location/%D0%BF%D0%B5%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%B7%D0%B2%D0%B5%D0%BD%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/BCC7C9D7-BD27-3A95-9B58-7D7ECB2A9DF2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 20, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%D1%86%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/%D0%BA%D0%B5%D1%80%D1%87%D1%8C>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/8360AD1A-BC25-3512-93ED-DA3787C490E7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 2, 3, 4, table: list_of_occupants_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/282BA5B8-DBF6-3D9A-8F7D-8BCBFE1FCCCF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 3, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D0%B2%D0%BE%D0%BB%D0%BE%D0%B4%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/0AD4FB84-4FAF-32BF-845C-FEF6B1B32F00>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, table: list_of_occupants_7" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%D1%86%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/%D1%87%D0%B5%D1%80%D0%BD%D0%B8%D0%B3%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Черниговская" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<http://www.sealit.gr/DB/register_record_point/3AC4D084-045C-3709-B08B-9882D8B89A56>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 12, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/location/%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%B1%D1%80%D0%B0%D1%86%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/register_record/2018-01-12T10%3A49%3A53.402Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "First national all-Russian census of the Russian Empire, 2.8.262, Военный спуск, 6, 1897, Anna  Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Census%20Odessa.html?name=2018-01-12T10:49:53.402Z_4&templateTitle=First%20national%20all-Russian%20census%20of%20the%20Russian%20Empire&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/%D0%BA%D0%B0%D0%BB%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Калужская" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<http://www.sealit.gr/DB/register_record_point/430C886A-FC87-3034-8E34-7E34B701999C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.262, Военный спуск, 6, 1897, Anna  Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-12T10%3A49%3A53.402Z_4> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/CEE19C5D-DC84-378C-8B0B-E37F3F1951E5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 21, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D1%81%D0%B0%D0%BC%D0%BE%D1%81>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%B1%D0%B5%D1%80%D1%88%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Бершадская" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/672EB0A7-7A23-39DC-BC02-BA766DB896DE> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%BE%D0%BB%D1%8C%D0%B3%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%B1%D0%B5%D1%80%D1%88%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/6E1A1B1E-B13A-362D-81E7-0C06A4FD307F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/D191DEC6-3C78-3120-B972-B36DA36FEB18>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, table: list_of_occupants_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/3D290D29-C384-315F-B28D-2B6F221FA19D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-10-30T09:09:49.661Z_14&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company>
+        a           crm:E55_Type ;
+        rdfs:label  "payroll of russian steam navigation and trading company" .
+
+<http://www.sealit.gr/DB/register_record_point/CFF82EA3-6F21-31FF-9731-0E80138D66C3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 19, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D0%B8%D1%89%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/A5D4EDC8-820B-3D45-863A-AB3A6B9ABE30>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, table: list_of_occupants_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location_appellation/274F0620-32D7-3D1E-9974-C9B6B85D3DD4>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Звенигородский" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Census%20Odessa.html?name=2019-01-15T14:13:44.289Z_5&templateTitle=First%20national%20all-Russian%20census%20of%20the%20Russian%20Empire&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location_appellation/A61CA732-6657-3330-9095-44B06259A52B>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Ободнянская" .
+
+<http://www.sealit.gr/DB/register_record_point/02776909-1E5C-38AA-8FCB-420E4B61BEB9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/place%20type/district>
+        a           crm:E55_Type ;
+        rdfs:label  "district" .
+
+<http://www.sealit.gr/DB/register_record_point/97969A3C-E20B-3141-A879-C48985394CF2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record/2020-11-03T10%3A01%3A49.330Z_16>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-11-03T10:01:49.330Z_16&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/0E9B697A-324A-3C2F-B0C8-760B64AC71D2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0>
+        a                         crm:E53_Place ;
+        rdfs:label                "Христиновка" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/village> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/455B735A-2196-3449-AA94-BDC24EF31E07> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D1%83%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D0%B1%D0%B5%D0%BB%D1%8C%D1%81%D0%BA>
+        a       crm:E53_Place .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Seagoing_Personel.html?name=2019-04-18T09:19:10.076Z_1&templateTitle=Seagoing%20Personel&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/E5CE1D8A-43F5-38BD-804A-2F21087063EF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.262, Военный спуск, 6, 1897, Anna  Sydorenko | row: 2, 3, table: list_of_occupants_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-12T10%3A49%3A53.402Z_4> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-05-30T12:21:47.274Z_4&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-11-03T10:01:49.330Z_16&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-01-19T12:24:53.367Z_1&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D1%81%D0%B0%D1%88%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Сашкинская" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/37E54614-6F60-370C-9337-0AE9F17FD1B9> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D1%82%D0%B0%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D1%81%D0%B0%D1%88%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/AEAF21EF-9C5A-3E39-8187-6EE6C737F3FA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 87, 03.01.1909         -01.10.1909                                                , Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-10-29T11%3A06%3A24.370Z_12> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/EE5F1B97-F86C-384A-B903-7D0D62D7E1F6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, table: list_of_occupants_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/D6EA2776-CA76-3244-BED7-4570AD207177>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 17, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/location/%D1%88%D0%BE%D1%80%D0%BA%D1%80%D0%B8%D1%81%D0%BA%D0%B0%D1%8F> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D1%86%D0%B8%D0%B2%D0%B8%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Census%20Odessa.html?name=2018-01-12T10:49:53.402Z_4&templateTitle=First%20national%20all-Russian%20census%20of%20the%20Russian%20Empire&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location_appellation/19C19EB3-95C5-3DEB-85AB-9850CB00931A>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Матусовская" .
+
+<http://www.sealit.gr/DB/location/%D0%BE%D0%BB%D1%8C%D0%B3%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Ольгопольский" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location_appellation/195BAE06-0477-3729-B34E-FA16AA1B516B>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Черкасский" .
+
+<http://www.sealit.gr/DB/register_record_point/486EA67B-B1C4-390E-80A5-BA96CCCA9FBD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 91, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/location/%D0%B1%D1%80%D0%B0%D1%86%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B9> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/location/%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Староконстантиновский" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%B2%D0%BE%D0%BB%D1%8B%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/register_record_point/51CEAB46-E352-3FC4-9FFF-C68876CF563B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, table: list_of_occupants_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D1%88%D0%BE%D1%80%D0%BA%D1%80%D0%B8%D1%81%D0%BA%D0%B0%D1%8F>
+        a                         crm:E53_Place ;
+        rdfs:label                "Шоркриская" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/township> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/FA32D35A-3FF2-3681-83F0-24E15E28E563> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D1%86%D0%B8%D0%B2%D0%B8%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D1%88%D0%BE%D1%80%D0%BA%D1%80%D0%B8%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BF%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9>
+        a                         crm:E53_Place ;
+        rdfs:label                "Подольский" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/district> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/CAF16E61-40FA-38AC-81E5-9FE72D522DA8> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/2762887C-FA3B-3B6F-9522-CA510639AF0D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 3, table: list_of_occupants_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BA%D0%B5%D1%80%D1%87%D1%8C> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BA%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9>
+        a                         crm:E53_Place ;
+        rdfs:label                "Кременецкий" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/district> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/4052508E-F3AB-36EA-B425-F7DF8AA19C02> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%B2%D0%BE%D0%BB%D1%8B%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BA%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/6B70872D-5C4B-314E-A688-B81CBEA11863>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 115, 18.12.1906-, Anna  Sydorenko | row: 1, 4, 6, 13, 16, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-17T07%3A45%3A41.744Z_2> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location_appellation/672EB0A7-7A23-39DC-BC02-BA766DB896DE>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Бершадская" .
+
+<http://www.sealit.gr/DB/location_appellation/CAF16E61-40FA-38AC-81E5-9FE72D522DA8>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Подольский" .
+
+<http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D1%87%D0%B0%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location%20type/governorate>
+        a           crm:E55_Type ;
+        rdfs:label  "governorate" .
+
+<http://www.sealit.gr/DB/location_appellation/C6D28FAE-388C-30C1-AFFB-D481FA21B846>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Пединовская" .
+
+<http://www.sealit.gr/DB/register_record_point/4E891584-5993-3BCB-8770-316374F07C3E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 90, 31.12.1908-30.04.1909, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-07-22T12%3A27%3A33.502Z_9> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/33843FFF-5029-3D54-A923-5D31B1317EC5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, table: list_of_occupants_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location_appellation/FFCF94A9-BCB1-3ECC-B966-8C97CE1229E0>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Сковородецкая" .
+
+<http://www.sealit.gr/DB/location/%D1%83%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9>
+        a                     crm:E53_Place ;
+        rdfs:label            "Уманский" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/location%20type/district> ;
+        crm:P89_falls_within  <http://www.sealit.gr/DB/location/%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> .
+
+<http://www.sealit.gr/DB/location_appellation/B850DCAB-ABB1-3015-996D-D740BB211EC7>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Одесса" .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%BC%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2>
+        a                         crm:E53_Place ;
+        rdfs:label                "Мстислав" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/16E3DA5F-7A2D-3B74-B9EE-C0EE9453960F> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%BC%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%BC%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2> .
+
+<http://www.sealit.gr/DB/register_record_point/B732C517-B047-3FA1-9EA8-D21CC52D76B5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 3, table: list_of_occupants_19" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BA%D0%B5%D1%80%D1%87%D1%8C> .
+
+<http://www.sealit.gr/DB/register_record_point/E96E391D-2323-3844-A8CE-FDC3C77DF54F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 3, table: list_of_occupants_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BA%D0%B5%D1%80%D1%87%D1%8C> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-30T09%3A09%3A49.661Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 86, 04.01.1910-04.10.1910, Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-10-30T09:09:49.661Z_14&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2018-06-07T09:42:23.374Z_5&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/master_uri-%D0%B1%D0%B5%D0%BB%D1%8C%D1%81%D0%BA>
+        a                         crm:E53_Place ;
+        rdfs:label                "Бельск" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/03CA8715-F8CA-3A0C-9500-CCC2AD934F12> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%B1%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9> , <http://www.sealit.gr/DB/location/%D0%B3%D1%80%D0%BE%D0%B4%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D0%B1%D0%B5%D0%BB%D1%8C%D1%81%D0%BA> .
+
+<http://www.sealit.gr/DB/register_record_point/E9A05296-F485-3CCC-9DDF-18725CB07E10>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 93, 12.02.1907-23.10.1907, Anna Sydorenko | row: 9, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-07-24T11%3A28%3A31.006Z_11> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/47A4581E-B3EF-36C8-9457-60D49DCAB02C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Seagoing Personel, Русское Общество Пароходства и Торговли. Список капитанам, командующим, помощникам капитанов и штурманским ученикам, 1914., -, , , , Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/seagoing%20personel> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-04-18T09%3A19%3A10.076Z_1> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/3BDD6A37-E19B-3904-ADC6-3FFDFEA86237>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, table: list_of_occupants_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/master_uri-%D1%81%D0%BE%D1%81%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9>
+        a                         crm:E53_Place ;
+        rdfs:label                "Сосницкий" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/district> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/B7FBAABF-00D7-3EDE-A775-A7DDF3165F7F> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D1%87%D0%B5%D1%80%D0%BD%D0%B8%D0%B3%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D1%81%D0%BE%D1%81%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/BEC38A55-96DF-3E3B-B787-33681917B915>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 1, 4, 14, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location/%D0%B1%D0%B5%D1%80%D1%88%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location_appellation/16E3DA5F-7A2D-3B74-B9EE-C0EE9453960F>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Мстислав" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-07-24T11:28:31.006Z_11&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/location/%D0%BC%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F>
+        a                crm:E53_Place ;
+        rdfs:label       "Могилевская" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/governorate> .
+
+<http://www.sealit.gr/DB/register_record_point/BD15C72F-D1C5-3E02-8E4A-0AEEC26D8808>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 3, table: list_of_occupants_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BA%D0%B5%D1%80%D1%87%D1%8C> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2019-01-25T15:29:43.206Z_7&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/F1AE66C2-0CE5-3B88-B13E-2D16392F6D8C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 83, 04.04.1909-30.08.1910, Anna Sydorenko | row: 16, 33, 34, 36, 48, 52, 57, 59, 62, 68, 73, 80, 92, 93, 104, 110, 118, 122, 124, 125, 128, 137, 138, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-01-19T12%3A24%3A53.367Z_1> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-11-03T09:07:39.408Z_15&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-07-22T12:27:33.502Z_9&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/master_uri-%D1%87%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B8%D0%B9>
+        a                         crm:E53_Place ;
+        rdfs:label                "Черкасский" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/district> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/195BAE06-0477-3729-B34E-FA16AA1B516B> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%D1%87%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/3964EF9A-A9AF-30A2-87B3-047BC79A8091>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.263, Военный спуск, 10, 1897, Anna Sydorenko | row: 1, 2, 3, 4, 5, table: list_of_occupants_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-15T14%3A13%3A44.289Z_5> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record_point/9FA98DC5-0E60-35CB-9461-4B578C126E2D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 22, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%BA%D0%B5%D1%80%D1%87%D1%8C> .
+
+<http://www.sealit.gr/DB/register_record_point/DB73C1F6-DD55-387D-ADE8-23495F2E5910>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 111, 15.02.1907       -18.02.1907   , Anna Sydorenko | row: 11, table: payroll_table" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/location/%D0%BF%D0%BE%D1%87%D0%B0%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F> , <http://www.sealit.gr/DB/register_record/2019-02-04T11%3A24%3A15.277Z_8> , <http://www.sealit.gr/DB/location/%D0%BA%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/583AFF51-DF77-391B-AB92-E8DB8DD87FC6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "First national all-Russian census of the Russian Empire, 2.8.261, Военный спуск, 4, 1897, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/first%20national%20all-russian%20census%20of%20the%20russian%20empire> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2017-12-18T14%3A21%3A48.696Z_3> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-29T11%3A06%3A24.370Z_12>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 87, 03.01.1909         -01.10.1909                                                , Anna Sydorenko" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll_RU.html?name=2020-10-29T11:06:24.370Z_12&templateTitle=Payroll%20of%20Russian%20Steam%20Navigation%20and%20Trading%20Company&mode=teamView> .
+
+<http://www.sealit.gr/DB/place%20type/township>
+        a           crm:E55_Type ;
+        rdfs:label  "township" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Census%20Odessa.html?name=2017-12-18T14:21:48.696Z_3&templateTitle=First%20national%20all-Russian%20census%20of%20the%20Russian%20Empire&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D0%B8%D1%89%D1%81%D0%BA%D0%B0%D1%8F>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/6C45DF7A-F2DF-3358-B430-FB04E304C1CB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll of Russian Steam Navigation and Trading Company, 278, 1, 84, 22.01.1907-12.08.1909, Anna Sydorenko | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll%20of%20russian%20steam%20navigation%20and%20trading%20company> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-11-03T10%3A01%3A49.330Z_16> , <http://www.sealit.gr/DB/location/%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0> .
+
+<http://www.sealit.gr/DB/location_appellation/FA32D35A-3FF2-3681-83F0-24E15E28E563>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Шоркриская" .

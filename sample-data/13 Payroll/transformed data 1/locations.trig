@@ -1,0 +1,2014 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/register_record_point/CB951792-C705-31D5-845F-08F4482A6B8D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, table: transactions_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%89%CE%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/7A413C39-713D-3FE6-B372-76D045338760>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Carolina, 1859-06-07, Benedetta Risso | row: 21, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T13%3A22%3A32.077Z_7> , <http://www.sealit.gr/DB/location/%5B%3F%5D> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2020-02-10T11:10:42.446Z_1&templateTitle=Payroll&mode=teamView>
+        a       rdfs:Resource .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2021-04-13T07:01:00.353Z_15&templateTitle=Logbook&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/55A46FBC-DDBF-3C2B-8DD1-489EAE97BB82>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 7, 13, 15, table: transactions_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CF%80%CE%AD%CF%84%CF%83%CE%B5%CF%82> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-10-10T13:35:31.703Z_10&templateTitle=Accounts%20book&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/%CE%B9%CF%84%CE%B1%CE%BB%CF%8C%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%BA%CF%81%CE%B1%CE%BD%CE%AF%CE%B4%CE%B9>
+        a                         crm:E53_Place ;
+        rdfs:label                "Κρανίδι" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/7059DDCB-95CA-3CB4-9A04-7BDACF2AB6B5> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%BA%CF%81%CE%B1%CE%BD%CE%AF%CE%B4%CE%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/A0B487F5-8D98-3D92-A352-E4C62D485ACE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Δ. Σ. Σκυλίτσης, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki | row: 17, 18, 19, 20, 21, 22, 23, table: analytic_calendar_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-08-09T09%3A24%3A54.069Z_7> , <http://www.sealit.gr/DB/location/%CE%B8%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7> .
+
+<http://www.sealit.gr/DB/register_record_point/EE2D0FA8-4306-3431-B396-DA3814BB514E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 9, 18, table: transactions_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%BF%CE%BD%CE%B9%CE%AC> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%B5%CF%81%CE%BC%CE%B9%CF%8C%CE%BD%CE%B7>
+        a                         crm:E53_Place ;
+        rdfs:label                "Ερμιόνη" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/195994A3-4AFE-3F11-9151-E9073F56F067> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%B5%CF%81%CE%BC%CE%B9%CF%8C%CE%BD%CE%B7> .
+
+<http://www.sealit.gr/DB/register_record_point/5CD33235-AE11-3D81-ABAA-D5F07D50FBCB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 30, table: transactions_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B9%CF%84%CE%B1%CE%BB%CF%8C%CF%82> .
+
+<http://www.sealit.gr/DB/register_record/2021-06-17T08%3A28%3A24.173Z_17>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Logbook, Kountouriotis (Κουντουριώτης), Ιστιοφόρο, 1874_1881, Thomas Kalesios" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2021-06-17T08:28:24.173Z_17&templateTitle=Logbook&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/AA5CF1EE-E08F-3147-9BF5-31D8591E1CDE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 5, 6, 7, 8, 9, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%89%CE%BD> .
+
+<http://www.sealit.gr/DB/register_record/2021-03-09T09%3A07%3A31.920Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll, Μιχαήλ, Ατμόπλοιο, _, Kostas Fradellos" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2021-03-09T09:07:31.920Z_2&templateTitle=Payroll&mode=teamView> .
+
+<http://www.sealit.gr/DB/location_appellation/85A31F91-D02E-3160-89B3-E9B3B8A1CCD3>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Kerch-Berdyansk-Istanbul" .
+
+<http://www.sealit.gr/DB/register_record_point/D89A4F7D-7512-3FB6-84BE-D52C0B3FE9F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 9, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-gallipoli-messina-marseille> .
+
+<http://www.sealit.gr/DB/location_appellation/804E15D9-831B-3BB5-936B-1139334937FA>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Θήρα" .
+
+<http://www.sealit.gr/DB/register_record_point/10240CD0-0CA3-3082-AEE3-360C4698DC9F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Εμπειρίκος, Ατμόπλοιο, _, Michaela Stavrakaki | row: 10, 11, 12, 18, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-02-08T09%3A17%3A34.332Z_2> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/location/istanbul-berdyansk-yeysk-istanbul-malta>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/E2CBAF80-139F-31D7-A900-A45E8B945904>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Γεώργιος Μ. Εμπειρίκος, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki | row: 1, table: analytic_calendar_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-11-30T11%3A22%3A53.043Z_14> , <http://www.sealit.gr/DB/location/%CF%80%CE%AC%CF%84%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/184ABA31-AA9E-3E8A-BD13-E76BCB1BCE1B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 6, 10, 19, table: transactions_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CF%80%CE%AD%CF%84%CF%83%CE%B5%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/F8076C6A-C03B-3F2A-9ECB-49D71E1A5A12>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "[?]" .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82>
+        a                         crm:E53_Place ;
+        rdfs:label                "Άνδρος" ;
+        crm:P1_is_identified_by   <http://www.sealit.gr/DB/tgn_identifier/1006126> ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/coordinates/25FED1C2-3A52-39C3-BE79-7C7BE010BA43> , <http://www.sealit.gr/DB/location_appellation/C3DD541A-D98C-30AD-BBD0-C58FDD405AAD> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/39A9CFEF-C739-3C4D-B0DC-4B8DCFA59C4C>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Berdyansk-Istanbul-Piraeus-Messina-Marseille-Cephalonia-Zante" .
+
+<http://www.sealit.gr/DB/location/master_uri-berdyansk-istanbul-hydra-messina-malta-piraeus>
+        a                         crm:E53_Place ;
+        rdfs:label                "Berdyansk-Istanbul-Hydra-Messina-Malta-Piraeus" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/769114D6-9861-33F6-80F6-1A6448FD0BA0> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/berdyansk-istanbul-hydra-messina-malta-piraeus> .
+
+<http://www.sealit.gr/DB/register_record_point/7F83D013-D436-34D0-87EF-C07D72C8ED8B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 14, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CE%BA%CF%8C%CF%80%CE%B5%CE%BB%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/C05586A8-DF14-3535-84F0-41D056CFAA6C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Τριπολίνα, Γολέττα, _, Thanos Angelopoulos | row: 4, table: transactions_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-10T11%3A10%3A42.446Z_1> , <http://www.sealit.gr/DB/location/%CE%B5%CF%81%CE%BC%CE%B9%CF%8C%CE%BD%CE%B7> .
+
+<http://www.sealit.gr/DB/location_appellation/CCF7313A-BBC5-3D6C-AB91-1D63A1E158AF>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Θεσσαλονίκη" .
+
+<http://www.sealit.gr/DB/register_record_point/495209A2-C8F4-3BFE-9D05-A91F5415F530>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Τριπολίνα, Γολέττα, _, Thanos Angelopoulos | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, table: transactions_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-10T11%3A10%3A42.446Z_1> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/55C5BA2C-C857-38F0-9257-C741E96E5B8C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Kountouriotis (Κουντουριώτης), Ιστιοφόρο, 1874_1881, Thomas Kalesios | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-06-17T08%3A28%3A24.173Z_17> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/D8C68DED-53DE-32F2-9323-04FE527AA7B5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 4, 5, table: transactions_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%80%CF%8C%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/EE45C8CC-925E-3DEB-A83C-F662ED589A54>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 12, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-berdyansk-yeysk-istanbul-ermioni-malta> .
+
+<http://www.sealit.gr/DB/register_record_point/BD4B3826-6A80-319A-86E3-3A120A65A25B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 8, 14, 26, 27, table: transactions_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CF%80%CE%AD%CF%84%CF%83%CE%B5%CF%82> .
+
+<http://www.sealit.gr/DB/authority%20types/tgn>
+        a           crm:E32_Authority_Document ;
+        rdfs:label  "TGN" .
+
+<http://www.sealit.gr/DB/register_record_point/BE549D44-2616-3A4B-8619-B9A9833EA221>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 6, 25, table: transactions_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B8%CE%AE%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/location_appellation/8377DE0F-1845-3746-90BD-8B815B9A285E>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Marseille" .
+
+<http://www.sealit.gr/DB/register_record_point/0A9468A2-F4FF-3F3B-AAA0-16756091C875>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Kountouriotis (Κουντουριώτης), Ιστιοφόρο, 1866_1874, Thomas Kalesios | row: 1, 2, table: calendar" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-05-19T09%3A56%3A51.520Z_6> , <http://www.sealit.gr/DB/location/hydra> .
+
+<http://www.sealit.gr/DB/location/%CF%83%CE%BA%CE%B9%CE%AC%CE%B8%CE%BF%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%B9%CF%84%CE%B1%CE%BB%CF%8C%CF%82>
+        a                         crm:E53_Place ;
+        rdfs:label                "Ιταλός" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/334489D5-9DFC-3EBB-BE5C-7CD94C645962> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%B9%CF%84%CE%B1%CE%BB%CF%8C%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/D1C94089-B080-333E-80C0-21D10AA0667C>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Κων" .
+
+<http://www.sealit.gr/DB/location/berdyansk-istanbul-piraeus-messina-marseille-cephalonia-zante>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record/2021-04-09T11%3A34%3A24.726Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll, Έλλην, Ατμόπλοιο, _, Kostas Fradellos" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2021-04-09T11:34:24.726Z_4&templateTitle=Payroll&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/tarragona>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/register_record_point/9F37ECCC-4707-3DF6-8421-AE9BB5FFAB9E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 14, table: transactions_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B8%CE%AE%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/coordinates/C6A1B4C9-B2C1-3BCC-BC39-AF8D78318B72>
+        a           crm:E47_Spatial_Coordinates ;
+        rdfs:label  "37.334167 23.465833" .
+
+<http://www.sealit.gr/DB/register_record_point/F60E9672-064E-3D42-83F0-0F9072D7704A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Μιχαήλ, Ατμόπλοιο, _, Kostas Fradellos | row: 2, 7, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-09T09%3A07%3A31.920Z_2> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/register_record_point/796FB643-AA0B-386D-A8F4-FF263EE80979>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Τριπολίνα, Γολέττα, _, Thanos Angelopoulos | row: 2, 3, 4, table: transactions_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-10T11%3A10%3A42.446Z_1> , <http://www.sealit.gr/DB/location/%CE%BC%CE%B1%CF%83%CF%83%CE%B1%CE%BB%CE%AF%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/24B92C60-FA0D-340C-B1FF-B06FA95DE828>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Έλλην, Ατμόπλοιο, _, Kostas Fradellos | row: 22, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-04-09T11%3A34%3A24.726Z_4> , <http://www.sealit.gr/DB/location/patras> .
+
+<http://www.sealit.gr/DB/location/%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%BF%CE%BD%CE%B9%CE%AC>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/kerch-sozogun-%20berdiansk-messina-marseille-piraeus>
+        a       crm:E53_Place .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T12:24:53.427Z_25&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-04-03T12%3A24%3A53.427Z_25>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T12:24:53.427Z_25&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/location_appellation/BDD88873-EAEE-35B1-8DF1-5AEA8B15B7A7>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Ύδρα" .
+
+<http://www.sealit.gr/DB/register_record_point/4A87CA38-F237-380B-834C-01FA64701B19>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 51, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <http://www.sealit.gr/DB/location/%5B%3F%5D> .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/0EF8F876-D62A-3535-AE28-410454E3634B> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/turkey> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2019-01-23T10:36:41.909Z_6&templateTitle=Logbook&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T13%3A22%3A32.077Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Carolina, 1859-06-07, Benedetta Risso" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T13:22:32.077Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2020-08-07T09:30:36.143Z_3&templateTitle=Payroll&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/79929F3E-ABAC-3549-87FC-70E81B343B99>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-07T09%3A30%3A36.143Z_3> , <http://www.sealit.gr/DB/location/hydra> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2020-08-29T10:35:14.790Z_11&templateTitle=Logbook&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2020-08-06T08:16:49.753Z_2&templateTitle=Payroll&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/F8AFBB6B-4E66-374A-AED0-807AE039C68D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 2, 3, 5, 7, 11, 12, 13, 15, 17, 20, 21, 23, table: transactions_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/8910E6B9-7A57-3C2B-93C3-C0F5B63EB7B3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Εμπειρίκος, Ατμόπλοιο, _, Michaela Stavrakaki | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-02-08T09%3A17%3A34.332Z_2> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/71F150DE-1C88-36E8-9B4A-EDE4F83F698A>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Αμερική" .
+
+<http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-hydra-cagliari>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location_appellation/D85E7A4F-5698-3CF4-95D6-CFDE4E5D95A9>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Kerch-Sozogun- Berdiansk-Messina-Marseille-Piraeus" .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%B1%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%AE>
+        a                         crm:E53_Place ;
+        rdfs:label                "Αμερική" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/71F150DE-1C88-36E8-9B4A-EDE4F83F698A> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%B1%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%AE> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CF%87%CE%AF%CE%BF%CF%82>
+        a                         crm:E53_Place ;
+        rdfs:label                "Χίος" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/0F4663D3-3658-3D5B-AA59-7F30DF79F546> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CF%87%CE%AF%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/5915C662-0EBF-3EE5-BB2A-2BB5E11B2222>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Berdyansk-Istanbul-Hydra-Cagliari" .
+
+<http://www.sealit.gr/DB/register_record_point/A1471ADF-EF51-393F-A601-9F1A379614DE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 6, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B8%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7> .
+
+<http://www.sealit.gr/DB/register_record_point/5429A1AE-EF0C-33C6-AE27-71FD3423C52E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 8, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%80%CF%8C%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/47037EA3-2D7C-34F0-9679-9578BE0C78BC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 2, 6, 9, 12, 13, 14, 15, 20, table: transactions_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/C9349F18-08A3-3681-87DC-27744D908777>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 13, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%87%CE%AF%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/FC4785D8-818C-3788-AE9D-F2E930B1BA81>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 9, table: transactions_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%81%CE%B1%CE%BD%CE%AF%CE%B4%CE%B9> .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-ermioni-messina-marseille-kerch-cannes>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Ermioni-Messina-Marseille-Kerch-Cannes" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/27592CCB-04FD-3A93-B622-BF98CCCB060C> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-ermioni-messina-marseille-kerch-cannes> .
+
+<http://www.sealit.gr/DB/location_appellation/0F4663D3-3658-3D5B-AA59-7F30DF79F546>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Χίος" .
+
+<http://www.sealit.gr/DB/register_record_point/6F666EC4-1DB6-367C-A6B6-15609392BA57>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Società, 1861-02-08, Francesco Ferrando | row: 12, 13, 14, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-06T14%3A53%3A25.437Z_4> , <http://www.sealit.gr/DB/location/%5B%3F%5D> .
+
+<http://www.sealit.gr/DB/register_record_point/22310AF4-91F9-37D9-8381-B493B3C1FCE0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 15, 16, 17, 18, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/location_appellation/B7F5020E-3971-3A89-848C-A66A2E4C7EBA>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Patras" .
+
+<http://www.sealit.gr/DB/location/master_uri-%5B%3F%5D>
+        a                         crm:E53_Place ;
+        rdfs:label                "[?]" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/F8076C6A-C03B-3F2A-9ECB-49D71E1A5A12> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%5B%3F%5D> .
+
+<http://www.sealit.gr/DB/register_record_point/8C9E46FB-5EF6-3D18-B6BE-D4DF77EE022C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 3, 12, table: transactions_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%80%CF%8C%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/84EB9DA9-15EB-3FC4-B242-392C07208496>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Βασιλεύς Κωνσταντίνος, Ατμόπλοιο, _, Kostas Fradellos | row: 2, 4, 15, 18, 46, 55, table: transactions_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-29T12%3A09%3A12.263Z_3> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-kerch-berdyansk-istanbul>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Kerch-Berdyansk-Istanbul" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/85A31F91-D02E-3160-89B3-E9B3B8A1CCD3> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-istanbul> .
+
+<http://www.sealit.gr/DB/geo_identifier/253581>
+        a                      crm:E42_Identifier ;
+        rdfs:label             "253581" ;
+        crm:P71i_is_listed_in  <http://www.sealit.gr/DB/authority%20types/geonames> .
+
+<http://www.sealit.gr/DB/location/istanbul-odessa-nicolaieff-istanbul>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/master_uri-kerch-sozogun-%20berdiansk-messina-marseille-piraeus>
+        a                         crm:E53_Place ;
+        rdfs:label                "Kerch-Sozogun- Berdiansk-Messina-Marseille-Piraeus" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/D85E7A4F-5698-3CF4-95D6-CFDE4E5D95A9> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/kerch-sozogun-%20berdiansk-messina-marseille-piraeus> .
+
+<http://www.sealit.gr/DB/register_record_point/0532635C-BDBA-3150-8A65-E0B726720AC8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Λεωνίδας, Ατμόπλοιο, 1/4/1905_10/9/1905, Apostolos Delis Aspasia Chalkiadaki | row: 12, table: analytic_calendar_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-05-29T10%3A37%3A28.405Z_3> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/F600108C-8DCF-3679-AD8B-AAF1B40C89B1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 2, 3, 4, 5, 16, 17, 18, 19, table: transactions_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2021-03-06T08:15:09.706Z_13&templateTitle=Logbook&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/55AD9101-8B31-3E9E-BF6E-A17755DB806F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 9, 25, table: transactions_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%88%CE%B1%CF%81%CE%AC> .
+
+<http://www.sealit.gr/DB/register_record_point/E2D58F7A-488F-3A63-ACC2-452B5B796AFD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Τριπολίνα, Γολέττα, _, Thanos Angelopoulos | row: 1, 2, 3, 4, 5, table: transactions_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-10T11%3A10%3A42.446Z_1> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/073318B1-AC01-3C83-B9F0-D5AD98524105>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 5, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%81%CE%B1%CE%BD%CE%AF%CE%B4%CE%B9> .
+
+<http://www.sealit.gr/DB/location/%CE%BC%CE%B1%CF%83%CF%83%CE%B1%CE%BB%CE%AF%CE%B1>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/72BB7ED6-2794-3BC9-9756-D6972CBBCF61>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Μιχαήλ, Ατμόπλοιο, _, Kostas Fradellos | row: 9, 11, table: transactions_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-09T09%3A07%3A31.920Z_2> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/77AE97F6-1099-35C4-98E2-5AD07FD7D86B>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Berdyansk-Yeysk-Istanbul-Ermioni-Malta" .
+
+<http://www.sealit.gr/DB/tgn_identifier/1006126>
+        a                      crm:E42_Identifier ;
+        rdfs:label             "1006126" ;
+        crm:P71i_is_listed_in  <http://www.sealit.gr/DB/authority%20types/tgn> .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-kerch-berdyansk-sozogun-istanbul-hydra-marseille-messina-hydra>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Kerch-Berdyansk-Sozogun-Istanbul-Hydra-Marseille-Messina-Hydra" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/938A872E-492A-3491-874E-3A6D3BC2CB80> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-sozogun-istanbul-hydra-marseille-messina-hydra> .
+
+<http://www.sealit.gr/DB/register_record_point/3676E7C1-B576-3BDF-9B85-0B7052086B54>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, table: transactions_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%89%CE%BD> .
+
+<http://www.sealit.gr/DB/location/master_uri-nicolaieff-malta-marseilles-hydra-istanbul>
+        a                         crm:E53_Place ;
+        rdfs:label                "Nicolaieff-Malta-Marseilles-Hydra-Istanbul" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/9E5695EF-BFA9-35D8-8CC8-68F29C6A6CC8> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/nicolaieff-malta-marseilles-hydra-istanbul> .
+
+<http://www.sealit.gr/DB/register_record/2018-11-30T11%3A22%3A53.043Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Accounts book, Γεώργιος Μ. Εμπειρίκος, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-11-30T11:22:53.043Z_14&templateTitle=Accounts%20book&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/marseille>
+        a       crm:E53_Place .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2019-01-16T11:30:40.631Z_5&templateTitle=Logbook&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record/2020-05-19T09%3A56%3A51.520Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Logbook, Kountouriotis (Κουντουριώτης), Ιστιοφόρο, 1866_1874, Thomas Kalesios" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2020-05-19T09:56:51.520Z_6&templateTitle=Logbook&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/5BFBF79A-E4E4-34C8-AAB0-8847A8105E81>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 7, 8, 10, 11, table: transactions_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CF%80%CE%AD%CF%84%CF%83%CE%B5%CF%82> .
+
+<http://www.sealit.gr/DB/register_record/2021-03-17T11%3A19%3A25.308Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Logbook, Theofania (Θεοφανεία), Ιστιοφόρο, 1873_1876, Thomas Kalesios" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2021-03-17T11:19:25.308Z_14&templateTitle=Logbook&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/%CF%83%CE%BA%CF%8C%CF%80%CE%B5%CE%BB%CE%BF%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-gallipoli-messina-marseille>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record/2021-03-06T08%3A15%3A09.706Z_13>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Logbook, Leonidas (Λεωνίδας), Ατμόπλοιο, 1904_1906, Thomas Kalesios" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2021-03-06T08:15:09.706Z_13&templateTitle=Logbook&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/%CF%84%CF%81%CE%AF%CE%BA%CE%B5%CF%81%CE%B9>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location_appellation/C3DD541A-D98C-30AD-BBD0-C58FDD405AAD>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Άνδρος" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2021-03-17T11:19:25.308Z_14&templateTitle=Logbook&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location_appellation/047F1A8B-E8C9-3EFE-99B8-6932DBF66A95>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Berdyansk-Yeysk-Istanbul-Malta" .
+
+<http://www.sealit.gr/DB/register_record_point/DE64B2BB-152F-312C-A4F6-3E538023DC4E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 15, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BC%CE%B1%CF%81%CE%BC%CE%B1%CF%81%CE%AC%CF%82> .
+
+<http://www.sealit.gr/DB/location/%CF%87%CE%AF%CE%BF%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-istanbul-%20lampsacus>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/10B47F31-C625-3A57-BC14-8B1A22B72F5B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 6, 7, 8, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CE%BA%CF%8C%CF%80%CE%B5%CE%BB%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/9E5695EF-BFA9-35D8-8CC8-68F29C6A6CC8>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Nicolaieff-Malta-Marseilles-Hydra-Istanbul" .
+
+<http://www.sealit.gr/DB/location_appellation/7059DDCB-95CA-3CB4-9A04-7BDACF2AB6B5>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Κρανίδι" .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%BA%5B%3F%5D>
+        a                         crm:E53_Place ;
+        rdfs:label                "Κ[?]" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/A9448D8F-A4E2-3901-B0C3-487197A4CD72> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%BA%5B%3F%5D> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-10-30T11:10:41.758Z_11&templateTitle=Accounts%20book&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/28801291-20F0-3020-94A2-004326E14E0C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 13, table: transactions_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%5B%3F%5D> .
+
+<http://www.sealit.gr/DB/register_record_point/79EE2105-47A0-3B3E-81EA-342239023357>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Βασιλεύς Κωνσταντίνος, Ατμόπλοιο, _, Kostas Fradellos | row: 37, table: transactions_7" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-29T12%3A09%3A12.263Z_3> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/coordinates/D314F4A6-C9FE-3F44-972C-49A5186EC9C8>
+        a           crm:E47_Spatial_Coordinates ;
+        rdfs:label  "39.12144 23.72686" .
+
+<http://www.sealit.gr/DB/location/%CE%BA%CE%AF%CE%BC%CF%89%CE%BB%CE%BF%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/AA4A59D4-84BD-3FC6-BD50-C7571C0F20DD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 6, table: transactions_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%5B%3F%5D> .
+
+<http://www.sealit.gr/DB/register_record_point/0D98D6A9-AFE0-3943-BEBB-E291DAD57D0A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 14, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/location/%CF%84%CE%B1%CF%81%CF%81%CE%B1%CE%B3%CF%8C%CE%BD%CE%B1> , <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B1%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%AE> .
+
+<http://www.sealit.gr/DB/register_record_point/A23E19DE-BCF9-3165-BDFD-2C95AA810218>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 6, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-malta-marseille-hydra-istanbul> .
+
+<http://www.sealit.gr/DB/register_record_point/3BA441FD-9647-35F5-9F6B-D7C11009BFB6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 5, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/location/patras> , <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/berdyansk-istanbul-piraeus-messina-marseille-cephalonia-zante> .
+
+<http://www.sealit.gr/DB/register_record_point/663917D0-5D19-37D0-ABD9-009BE174BE41>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Βασιλεύς Κωνσταντίνος, Ατμόπλοιο, _, Kostas Fradellos | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-29T12%3A09%3A12.263Z_3> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/9DAEA74F-CA91-3B05-9E24-15848D7C1D8B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 5, 17, 18, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%5B%3F%5D> .
+
+<http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-istanbul>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-sozogun-istanbul-hydra-marseille-messina-hydra>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/C48FF264-A14E-33DE-AD96-6D8AED92C211>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Έλλην, Ατμόπλοιο, _, Kostas Fradellos | row: 13, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-04-09T11%3A34%3A24.726Z_4> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/register_record_point/33740103-800D-3506-B12B-248EBF9891BB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Kountouriotis (Κουντουριώτης), Ιστιοφόρο, 1866_1874, Thomas Kalesios | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-05-19T09%3A56%3A51.520Z_6> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/0F1B9B2B-F957-3DF7-BE8D-03211055FCE4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Μιχαήλ, Ατμόπλοιο, _, Kostas Fradellos | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-09T09%3A07%3A31.920Z_2> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/E5B7A1AF-E714-3369-B77E-6FF360153BDF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Έλλην, Ατμόπλοιο, _, Kostas Fradellos | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-04-09T11%3A34%3A24.726Z_4> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/F3BE67A2-EF1A-39F0-A56E-3ADB2033DADE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Andriana (Ανδριάνα), Ατμόπλοιο, 1908_1909, Thomas Kalesios | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-23T10%3A36%3A41.909Z_6> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/FCB685BF-6331-3EDA-83B1-78EA3809AEBB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 4, 5, 6, 10, 11, 12, 13, 14, table: transactions_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%89%CE%BD> .
+
+<http://www.sealit.gr/DB/location/patras>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record/2019-01-16T11%3A30%3A40.631Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Logbook, Leonidas (Λεωνίδας), Ατμόπλοιο, 1904_1906, Thomas Kalesios" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2019-01-16T11:30:40.631Z_5&templateTitle=Logbook&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/59064071-B6CF-3040-853B-64507AB22FA2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 2, 3, 4, 10, 11, 12, 13, 15, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-05-29T10:37:28.405Z_3&templateTitle=Accounts%20book&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/istanbul-ermioni-messina-marseille-kerch-cannes>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/C4593247-1584-3FBD-A61B-1C2953D13A77>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 7, 8, 9, 10, 11, 12, 13, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%89%CE%BD> .
+
+<http://www.sealit.gr/DB/register_record_point/1B9F66FE-F1C2-341F-B42D-19ECC34794AC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Γεώργιος Μ. Εμπειρίκος, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki | row: 1, table: analytic_calendar_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-11-30T11%3A22%3A53.043Z_14> , <http://www.sealit.gr/DB/location/%CF%80%CE%AC%CF%84%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/location_appellation/0A79D2E7-88F6-37CF-8C8B-EE8CAD4BF94E>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Hydra" .
+
+<http://www.sealit.gr/DB/register_record_point/65C77117-63C6-3607-8234-D0710852C2AF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 22, 27, table: transactions_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%81%CE%B1%CE%BD%CE%AF%CE%B4%CE%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/F29E870D-6DF6-39E9-8B30-A53C383F8F1E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 9, 12, 16, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/tarragona> .
+
+<http://www.sealit.gr/DB/register_record_point/96A7153D-0AA2-3ED3-B49E-D195D9C68D94>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-odessa-nicolaieff-istanbul> .
+
+<http://www.sealit.gr/DB/register_record/2020-08-07T09%3A30%3A36.143Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2020-08-07T09:30:36.143Z_3&templateTitle=Payroll&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/5E173BE8-7960-3AAC-9F0D-442F5BC27F81>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 4, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-sozogun-istanbul-hydra-marseille-messina-hydra> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%BC%CF%8D%CE%BA%CE%BF%CE%BD%CE%BF%CF%82>
+        a                         crm:E53_Place ;
+        rdfs:label                "Μύκονος" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/72EB63AC-5C7D-3D0A-9F52-628130D27442> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%BC%CF%8D%CE%BA%CE%BF%CE%BD%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-06T16%3A22%3A46.010Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Il prosperoso, 1861-01-18, Beatrice Corradi" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T16:22:46.010Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/%CE%B5%CF%81%CE%BC%CE%B9%CF%8C%CE%BD%CE%B7>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/5B38BC97-FE99-3443-9E37-284C0FA4350F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 15, 16, 17, 18, 24, 25, 26, table: transactions_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/9CB16031-7DB0-3106-A409-875B96C65029>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Kountouriotis (Κουντουριώτης), Ιστιοφόρο, 1866_1874, Thomas Kalesios | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-05-19T09%3A56%3A51.520Z_6> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/place%20type/under%20sail-cagliari-marseille>
+        a           crm:E55_Type ;
+        rdfs:label  "under sail-cagliari-marseille" .
+
+<http://www.sealit.gr/DB/register_record_point/21F7D4DC-277A-3901-B8AF-18CF664CD89F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Έλλην, Ατμόπλοιο, _, Kostas Fradellos | row: 3, table: transactions_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-04-09T11%3A34%3A24.726Z_4> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T14:53:25.437Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/A67B8B70-1097-3A6C-AF95-A50A1001323B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Γεώργιος Μ. Εμπειρίκος, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki | row: 20, table: analytic_calendar_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-30T11%3A10%3A41.758Z_11> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record/2018-03-06T14%3A53%3A25.437Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Società, 1861-02-08, Francesco Ferrando" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T14:53:25.437Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/84687964-E764-3102-AA57-FF6BC232FA76>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Stratigos Favieros (Στρατηγός Φαβιέρος), Ιστιοφόρο, 1876_1889, Thomas Kalesios | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-29T10%3A35%3A14.790Z_11> , <http://www.sealit.gr/DB/location/%CF%83%CE%BA%CF%8C%CF%80%CE%B5%CE%BB%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location/master_uri-berdyansk-istanbul-piraeus-messina-marseille-cephalonia-zante>
+        a                         crm:E53_Place ;
+        rdfs:label                "Berdyansk-Istanbul-Piraeus-Messina-Marseille-Cephalonia-Zante" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/39A9CFEF-C739-3C4D-B0DC-4B8DCFA59C4C> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/berdyansk-istanbul-piraeus-messina-marseille-cephalonia-zante> .
+
+<http://www.sealit.gr/DB/coordinates/25FED1C2-3A52-39C3-BE79-7C7BE010BA43>
+        a           crm:E47_Spatial_Coordinates ;
+        rdfs:label  "37.856111 24.859444" .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%B8%CE%AE%CF%81%CE%B1>
+        a                         crm:E53_Place ;
+        rdfs:label                "Θήρα" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/804E15D9-831B-3BB5-936B-1139334937FA> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%B8%CE%AE%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/location_appellation/BA186C42-CA42-32D6-AF2B-D9FCD50C9015>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Ταρραγόνα" .
+
+<http://www.sealit.gr/DB/register_record_point/041FAF18-8858-3C9A-8FDA-61DA18282E9C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Βασιλεύς Κωνσταντίνος, Ατμόπλοιο, _, Kostas Fradellos | row: 18, 19, table: transactions_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-29T12%3A09%3A12.263Z_3> , <http://www.sealit.gr/DB/location/%CE%B9%CF%84%CE%B1%CE%BB%CF%8C%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/3001919C-2850-36F5-B1F7-1EA83A419C2B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 17, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-istanbul-hydra> .
+
+<http://www.sealit.gr/DB/location_appellation/0EF8F876-D62A-3535-AE28-410454E3634B>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul" .
+
+<http://www.sealit.gr/DB/register_record/2019-01-23T10%3A36%3A41.909Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Logbook, Andriana (Ανδριάνα), Ατμόπλοιο, 1908_1909, Thomas Kalesios" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2019-01-23T10:36:41.909Z_6&templateTitle=Logbook&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-berdyansk-istanbul-malta-marseille-hydra-istanbul>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Berdyansk-Istanbul-Malta-Marseille-Hydra-Istanbul" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/107ED2CC-5001-33A6-94DA-AAFDF2EB2943> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-malta-marseille-hydra-istanbul> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2018-02-08T09:17:34.332Z_2&templateTitle=Payroll&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/BEBFBCF8-015A-32F7-A781-48523D56DD3C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Βασιλεύς Κωνσταντίνος, Ατμόπλοιο, _, Kostas Fradellos | row: 5, 32, 38, 48, 66, table: transactions_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-29T12%3A09%3A12.263Z_3> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/27592CCB-04FD-3A93-B622-BF98CCCB060C>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Ermioni-Messina-Marseille-Kerch-Cannes" .
+
+<http://www.sealit.gr/DB/location_appellation/55AC84CB-14D6-32EA-BB9F-B72218940E1E>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Κίμωλος" .
+
+<http://www.sealit.gr/DB/register_record/2020-02-10T11%3A10%3A42.446Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll, Τριπολίνα, Γολέττα, _, Thanos Angelopoulos" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2020-02-10T11:10:42.446Z_1&templateTitle=Payroll&mode=teamView> .
+
+<http://www.sealit.gr/DB/location_appellation/312E7717-3464-3B2B-9203-F2722B89F1D1>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Μασσαλία" .
+
+<http://www.sealit.gr/DB/register_record_point/63FD4B08-D408-36DE-97B7-628A85A17FE9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 10, table: transactions_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%81%CE%B1%CE%BD%CE%AF%CE%B4%CE%B9> .
+
+<http://www.sealit.gr/DB/register_record_point/DA71B3FB-284C-348F-8D7A-1DA4589FF598>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/hydra> .
+
+<http://www.sealit.gr/DB/register_record_point/3E742A13-040D-3416-B074-512FEE1F21B0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, table: transactions_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CF%83%CE%BA%CE%B9%CE%AC%CE%B8%CE%BF%CF%82>
+        a                         crm:E53_Place ;
+        rdfs:label                "Σκιάθος" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/2EA1FF4E-C31B-3062-937D-AA4995B700EB> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CF%83%CE%BA%CE%B9%CE%AC%CE%B8%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/coordinates/9FACDCCB-D970-3578-A208-2FF8D63E2251>
+        a           crm:E47_Spatial_Coordinates ;
+        rdfs:label  "43.285413 5.37606" .
+
+<http://www.sealit.gr/DB/location_appellation/10E46F7D-6D21-36C7-848B-1363527E7B72>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Skópelos" .
+
+<http://www.sealit.gr/DB/register_record_point/5E7E72D8-B9FA-3BEA-815C-F8C526F9AA9C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Δημήτριος Σ. Σκυλίτσης, Ατμόπλοιο, 28/8/1895_19/10/1896, Apostolos Delis Aspasia Chalkiadaki | row: 10, 22, 23, 24, 25, 26, 27, 28, 29, 30, 33, table: analytic_calendar_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-06-26T14%3A10%3A58.995Z_4> , <http://www.sealit.gr/DB/location/%CE%B8%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7> .
+
+<http://www.sealit.gr/DB/register_record_point/3F186A1E-426B-3347-B91A-F21C8A44A493>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Leonidas (Λεωνίδας), Ατμόπλοιο, 1904_1906, Thomas Kalesios | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-06T08%3A15%3A09.706Z_13> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location/berdyansk-istanbul-hydra-messina-malta-piraeus>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/france>
+        a                crm:E53_Place ;
+        rdfs:label       "France" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/country> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T15:12:55.461Z_19&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/%CE%B8%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/istanbul>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/A19E34F8-3261-36B2-B5EB-7254C6C3C161>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 11, 14, 17, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/location_appellation/769114D6-9861-33F6-80F6-1A6448FD0BA0>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Berdyansk-Istanbul-Hydra-Messina-Malta-Piraeus" .
+
+<http://www.sealit.gr/DB/register_record_point/DD9EE6CF-6569-3509-B871-C51BE9B84CC4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 22, table: transactions_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%80%CF%8C%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/72EB63AC-5C7D-3D0A-9F52-628130D27442>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Μύκονος" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2021-04-09T11:34:24.726Z_4&templateTitle=Payroll&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-piraeus-malta-marseille-gabes-istanbul>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/%CE%B1%CE%B8%CE%AE%CE%BD%CE%B1>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%BF%CE%BD%CE%B9%CE%AC>
+        a                         crm:E53_Place ;
+        rdfs:label                "Κεφαλλονιά" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/0CE794B8-FD66-3B38-BCA4-A0BB65C85FE7> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%BF%CE%BD%CE%B9%CE%AC> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CF%80%CF%8C%CF%81%CE%BF%CF%82>
+        a                         crm:E53_Place ;
+        rdfs:label                "Πόρος" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/EA575AAA-1DED-3520-80CE-41451B9D9074> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CF%80%CF%8C%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/0CA5B428-6B7C-356C-BA61-BF4EB3009B6B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 11, 12, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BC%CF%8D%CE%BA%CE%BF%CE%BD%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/7E0E13BE-05C8-3F9D-BA8C-2195E114F3F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 14, table: transactions_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CF%80%CE%AD%CF%84%CF%83%CE%B5%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/0F22D488-F6F5-3820-8F37-E0E3F58C8797>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Εμπειρίκος, Ατμόπλοιο, _, Michaela Stavrakaki | row: 34, 35, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-02-08T09%3A17%3A34.332Z_2> , <http://www.sealit.gr/DB/location/patras> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2021-03-09T09:07:31.920Z_2&templateTitle=Payroll&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%BF%CE%BD%CE%B9%CE%B1>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%B8%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7>
+        a                         crm:E53_Place ;
+        rdfs:label                "Θεσσαλονίκη" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/CCF7313A-BBC5-3D6C-AB91-1D63A1E158AF> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%B8%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7> .
+
+<http://www.sealit.gr/DB/register_record/2020-09-15T10%3A28%3A50.445Z_12>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Logbook, Eleni Koupa (Ελένη Κούπα), Ιστιοφόρο, 1878_1888, Thomas Kalesios" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2020-09-15T10:28:50.445Z_12&templateTitle=Logbook&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/spain>
+        a                crm:E53_Place ;
+        rdfs:label       "Spain" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/country> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2020-08-06T08:16:49.753Z_2&templateTitle=Payroll&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location_appellation/334489D5-9DFC-3EBB-BE5C-7CD94C645962>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Ιταλός" .
+
+<http://www.sealit.gr/DB/location/master_uri-%CF%80%CE%AC%CF%84%CF%81%CE%B1>
+        a                         crm:E53_Place ;
+        rdfs:label                "Πάτρα" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/81F583FC-4C42-3A4F-A9BA-15D5221E3DFB> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CF%80%CE%AC%CF%84%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/C2F59B4D-CA7B-335D-82DC-1A7D40A94447>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 14, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-hydra-cagliari> .
+
+<http://www.sealit.gr/DB/register_record_point/7F0EE011-541F-322D-8CAF-2DCCD00DD00D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Έλλην, Ατμόπλοιο, _, Kostas Fradellos | row: 15, 24, table: transactions_0" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-04-09T11%3A34%3A24.726Z_4> , <http://www.sealit.gr/DB/location/marseilles> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-malta-marseille-hydra-istanbul>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location_appellation/2EA1FF4E-C31B-3062-937D-AA4995B700EB>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Σκιάθος" .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-berdyansk-istanbul-piraeus-malta-marseille-gabes-istanbul>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Berdyansk-Istanbul-Piraeus-Malta-Marseille-Gabes-Istanbul" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/8DC6D1CE-72EA-322E-97F9-1620781909E7> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-piraeus-malta-marseille-gabes-istanbul> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T13:22:32.077Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/%CE%B8%CE%AE%CF%81%CE%B1>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/F9EB1656-B939-3B20-89A7-EDACBE7A235A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Γεώργιος Μ. Εμπειρίκος, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki | row: 1, 8, table: analytic_calendar_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-11-30T11%3A22%3A53.043Z_14> , <http://www.sealit.gr/DB/location/%CF%80%CE%AC%CF%84%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/C8AFDFFF-E5DD-343B-A5F4-221D1BA91E59>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 7, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/berdyansk-istanbul-hydra-messina-malta-piraeus> .
+
+<http://www.sealit.gr/DB/register_record_point/299C9962-84C0-3D94-B971-26B916049817>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 16, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-istanbul-%20lampsacus> .
+
+<http://www.sealit.gr/DB/register_record_point/5D620703-9DF3-33F9-9D4F-A97938617632>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Τριπολίνα, Γολέττα, _, Thanos Angelopoulos | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, table: transactions_5" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-10T11%3A10%3A42.446Z_1> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/42151DDD-6D3B-3554-B50F-9F0AE1D0CE7C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Λ. Γ. Γουλανδρής, Ατμόπλοιο, _, Michaela Stavrakaki | row: 2, 6, 8, 9, 10, 12, 13, 19, table: transactions_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-19T08%3A25%3A11.190Z_1> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/register_record_point/FFE4CA59-D30C-3045-B9AF-CF3915ECE103>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 16, table: transactions_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%BF%CE%BD%CE%B9%CE%AC> .
+
+<http://www.sealit.gr/DB/location_appellation/FB0E0F43-2E16-3A3D-9902-F731FABB3690>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Kerch-Berdyansk-Istanbul-Hydra" .
+
+<http://www.sealit.gr/DB/location/master_uri-%CF%83%CF%80%CE%AD%CF%84%CF%83%CE%B5%CF%82>
+        a                         crm:E53_Place ;
+        rdfs:label                "Σπέτσες" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/8993EA8B-5414-3BF2-B2DA-D9C5EF14F8CB> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CF%83%CF%80%CE%AD%CF%84%CF%83%CE%B5%CF%82> .
+
+<http://www.sealit.gr/DB/authority%20types/geonames>
+        a           crm:E32_Authority_Document ;
+        rdfs:label  "Geonames" .
+
+<http://www.sealit.gr/DB/tgn_identifier/1006134>
+        a                      crm:E42_Identifier ;
+        rdfs:label             "1006134" ;
+        crm:P71i_is_listed_in  <http://www.sealit.gr/DB/authority%20types/tgn> .
+
+<http://www.sealit.gr/DB/location/%CE%B1%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%AE>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record/2018-03-19T08%3A25%3A11.190Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll, Λ. Γ. Γουλανδρής, Ατμόπλοιο, _, Michaela Stavrakaki" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2018-03-19T08:25:11.190Z_1&templateTitle=Payroll&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record/2018-10-10T13%3A35%3A31.703Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Accounts book, Αργώ, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-10-10T13:35:31.703Z_10&templateTitle=Accounts%20book&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/980A8B99-0FD4-3537-AF16-CA84DA2B04F3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 4, 6, 8, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul> .
+
+<http://www.sealit.gr/DB/register_record_point/B8418E41-DC8A-3E9D-95E3-BFBFCD7F7B6D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 10, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CE%AF%CE%BC%CF%89%CE%BB%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<http://www.sealit.gr/DB/register_record_point/4F78BA42-3DB7-3178-A7EB-D80353E3594F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, table: transactions_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BC%CE%B1%CF%83%CF%83%CE%B1%CE%BB%CE%AF%CE%B1> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%BC%CE%B1%CF%81%CE%BC%CE%B1%CF%81%CE%AC%CF%82>
+        a                         crm:E53_Place ;
+        rdfs:label                "Μαρμαράς" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/F2954BB9-93AE-35CD-BE22-2740309DA886> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%BC%CE%B1%CF%81%CE%BC%CE%B1%CF%81%CE%AC%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/107ED2CC-5001-33A6-94DA-AAFDF2EB2943>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Berdyansk-Istanbul-Malta-Marseille-Hydra-Istanbul" .
+
+<http://www.sealit.gr/DB/register_record_point/C94574F8-8420-3943-858A-EC84923E23F9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 16, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B1%CE%B8%CE%AE%CE%BD%CE%B1> .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-odessa-nicolaieff-istanbul>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Odessa-Nicolaieff-Istanbul" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/280582B5-5AAC-3DF3-A7CD-8C0C1EBC40A6> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-odessa-nicolaieff-istanbul> .
+
+<http://www.sealit.gr/DB/location_appellation/3E0B228D-83AA-36F6-B41C-3C90F3DCA1FA>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Ψαρά" .
+
+<http://www.sealit.gr/DB/location/master_uri-tarragona>
+        a                         crm:E53_Place ;
+        rdfs:label                "Tarragona" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/7B50B541-26B9-360C-B5C2-F451BD532373> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/spain> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/tarragona> .
+
+<http://www.sealit.gr/DB/location/marseilles>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/istanbul-berdyansk-yeysk-istanbul-ermioni-malta>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/1F9EEEB5-347B-35B9-8299-B885626B59C5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Eleni Koupa (Ελένη Κούπα), Ιστιοφόρο, 1878_1888, Thomas Kalesios | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-09-15T10%3A28%3A50.445Z_12> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/location/master_uri-patras>
+        a                         crm:E53_Place ;
+        rdfs:label                "Patras" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/B7F5020E-3971-3A89-848C-A66A2E4C7EBA> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/greece> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/patras> .
+
+<http://www.sealit.gr/DB/register_record/2018-05-29T10%3A37%3A28.405Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Accounts book, Λεωνίδας, Ατμόπλοιο, 1/4/1905_10/9/1905, Apostolos Delis Aspasia Chalkiadaki" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-05-29T10:37:28.405Z_3&templateTitle=Accounts%20book&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/F2369768-F5CE-3D0E-B9ED-A1954B1B18A5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-07T09%3A30%3A36.143Z_3> , <http://www.sealit.gr/DB/location/hydra> .
+
+<http://www.sealit.gr/DB/register_record_point/4592841E-4E3C-3A4F-9214-2049741ABBB9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 13, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-istanbul> .
+
+<http://www.sealit.gr/DB/register_record/2018-10-30T11%3A10%3A41.758Z_11>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Accounts book, Γεώργιος Μ. Εμπειρίκος, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-10-30T11:10:41.758Z_11&templateTitle=Accounts%20book&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2018-03-19T08:25:11.190Z_1&templateTitle=Payroll&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/greece>
+        a                crm:E53_Place ;
+        rdfs:label       "Greece" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/country> .
+
+<http://www.sealit.gr/DB/register_record_point/C1CF957A-4EE2-3FB1-8676-081E4A00264C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 5, 28, 29, 31, table: transactions_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CE%BA%CF%8C%CF%80%CE%B5%CE%BB%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location/%CE%BA%CF%89%CE%BD>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/%CE%BA%CF%81%CE%B1%CE%BD%CE%AF%CE%B4%CE%B9>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/CC493B5B-3773-3418-9120-1BC827F875C8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Μιχαήλ, Ατμόπλοιο, _, Kostas Fradellos | row: 10, table: transactions_17" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-09T09%3A07%3A31.920Z_2> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record/2018-08-09T09%3A24%3A54.069Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Accounts book, Δ. Σ. Σκυλίτσης, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-08-09T09:24:54.069Z_7&templateTitle=Accounts%20book&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/48E2C55C-B9F9-3FE2-9BB9-EEB91DF1ABF0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Λ. Γ. Γουλανδρής, Ατμόπλοιο, _, Michaela Stavrakaki | row: 4, 5, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, table: transactions_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-19T08%3A25%3A11.190Z_1> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/register_record_point/48646F1B-204B-37D1-BE15-5CC4A3803D7A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 19, 21, table: transactions_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%81%CE%B1%CE%BD%CE%AF%CE%B4%CE%B9> .
+
+<http://www.sealit.gr/DB/register_record/2018-06-26T14%3A10%3A58.995Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Accounts book, Δημήτριος Σ. Σκυλίτσης, Ατμόπλοιο, 28/8/1895_19/10/1896, Apostolos Delis Aspasia Chalkiadaki" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-06-26T14:10:58.995Z_4&templateTitle=Accounts%20book&mode=teamView> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2020-05-19T09:56:51.520Z_6&templateTitle=Logbook&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/ABBF8919-BFBF-366A-AE78-2467B4957228>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 6, 10, 13, 14, table: transactions_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CF%80%CE%AD%CF%84%CF%83%CE%B5%CF%82> .
+
+<http://www.sealit.gr/DB/location/nicolaieff-malta-marseilles-hydra-istanbul>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-berdyansk-yeysk-istanbul-ermioni-malta>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Berdyansk-Yeysk-Istanbul-Ermioni-Malta" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/77AE97F6-1099-35C4-98E2-5AD07FD7D86B> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-berdyansk-yeysk-istanbul-ermioni-malta> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-06-26T14:10:58.995Z_4&templateTitle=Accounts%20book&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/92BE85FC-1F01-3DDB-821F-E259F4B7A802>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 2, 4, 5, 7, table: transactions_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/4C74E885-A7DE-35EA-8777-934778963385>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 5, 6, 11, 12, 13, 14, 15, 16, 17, 18, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BC%CE%B1%CF%83%CF%83%CE%B1%CE%BB%CE%AF%CE%B1> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%B2%CF%8C%CE%BB%CE%BF%CF%82>
+        a                         crm:E53_Place ;
+        rdfs:label                "Βόλος" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/2BB3BD2C-E1BF-3A2F-9FDF-F191F1580740> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%B2%CF%8C%CE%BB%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/D8B6A9F6-4E39-32AE-92BD-EC5D6D429348>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 11, table: transactions_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B8%CE%AE%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/AC9EBF16-02E8-302D-A2D9-03F236BBA1D6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 10, table: transactions_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%87%CE%AF%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location/%CF%80%CF%8C%CF%81%CE%BF%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location_appellation/5EA66E4B-85FA-3287-96B2-04FDB8169C24>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Piraeus" .
+
+<http://www.sealit.gr/DB/location/%CE%BC%CE%B1%CF%81%CE%BC%CE%B1%CF%81%CE%AC%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location_appellation/F8DCD437-87A7-3EE6-8403-F26DC52F3611>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Τρίκερι" .
+
+<http://www.sealit.gr/DB/register_record_point/E33130FF-90EC-347F-BAD5-D27E90AE64CA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Panagia Hydra (Παναγία Ύδρα), Ιστιοφόρο, 1874_1879, Thomas Kalesios | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-04-13T07%3A01%3A00.353Z_15> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CF%88%CE%B1%CF%81%CE%AC>
+        a                         crm:E53_Place ;
+        rdfs:label                "Ψαρά" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/3E0B228D-83AA-36F6-B41C-3C90F3DCA1FA> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CF%88%CE%B1%CF%81%CE%AC> .
+
+<http://www.sealit.gr/DB/register_record_point/10817D73-DEC5-3FE6-B73E-7B37D8F7097E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 23, table: transactions_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B5%CF%81%CE%BC%CE%B9%CF%8C%CE%BD%CE%B7> .
+
+<http://www.sealit.gr/DB/register_record_point/B6C37BDE-1806-39DF-AACA-D8DD8D86A523>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 11, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CE%BA%CE%B9%CE%AC%CE%B8%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/734F6E02-F5B5-32E4-B275-DDBD7FA15487>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 7, 9, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%88%CE%B1%CF%81%CE%AC> .
+
+<http://www.sealit.gr/DB/location/master_uri-piraeus>
+        a                         crm:E53_Place ;
+        rdfs:label                "Piraeus" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/5EA66E4B-85FA-3287-96B2-04FDB8169C24> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/greece> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/piraeus> .
+
+<http://www.sealit.gr/DB/location/master_uri-marseilles>
+        a                         crm:E53_Place ;
+        rdfs:label                "Marseilles" ;
+        crm:P1_is_identified_by   <http://www.sealit.gr/DB/tgn_identifier/7008781> ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/coordinates/9FACDCCB-D970-3578-A208-2FF8D63E2251> , <http://www.sealit.gr/DB/location_appellation/282A8C85-299A-38FC-B75E-98221D7998FC> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/france> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-08T09%3A17%3A34.332Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll, Εμπειρίκος, Ατμόπλοιο, _, Michaela Stavrakaki" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2018-02-08T09:17:34.332Z_2&templateTitle=Payroll&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/master_uri-sk%C3%B3pelos>
+        a                         crm:E53_Place ;
+        rdfs:label                "Skópelos" ;
+        crm:P1_is_identified_by   <http://www.sealit.gr/DB/geo_identifier/253581> ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/coordinates/D314F4A6-C9FE-3F44-972C-49A5186EC9C8> , <http://www.sealit.gr/DB/location_appellation/10E46F7D-6D21-36C7-848B-1363527E7B72> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CF%83%CE%BA%CF%8C%CF%80%CE%B5%CE%BB%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location/%5B%3F%5D>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/%CF%80%CE%AC%CF%84%CF%81%CE%B1>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-berdyansk-yeysk-istanbul-malta>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Berdyansk-Yeysk-Istanbul-Malta" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/047F1A8B-E8C9-3EFE-99B8-6932DBF66A95> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-berdyansk-yeysk-istanbul-malta> .
+
+<http://www.sealit.gr/DB/location%20type/country>
+        a           crm:E55_Type ;
+        rdfs:label  "country" .
+
+<http://www.sealit.gr/DB/template%20types/logbook>
+        a           crm:E55_Type ;
+        rdfs:label  "logbook" .
+
+<http://www.sealit.gr/DB/register_record_point/CA4A040D-4329-32F5-904F-86BA2C911277>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 4, table: transactions_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%BF%CE%BD%CE%B9%CE%AC> .
+
+<http://www.sealit.gr/DB/register_record_point/63EAD9ED-1DF7-32CE-A32E-3541E93261FA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Γεώργιος Μ. Εμπειρίκος, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki | row: 9, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-11-30T11%3A22%3A53.043Z_14> , <http://www.sealit.gr/DB/location/%CF%80%CE%AC%CF%84%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/A01B786A-9C39-3100-BD87-6910E4ADFB1B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Έλλην, Ατμόπλοιο, _, Kostas Fradellos | row: 3, 7, table: transactions_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-04-09T11%3A34%3A24.726Z_4> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/location_appellation/8993EA8B-5414-3BF2-B2DA-D9C5EF14F8CB>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Σπέτσες" .
+
+<http://www.sealit.gr/DB/location/%CF%84%CE%B1%CF%81%CF%81%CE%B1%CE%B3%CF%8C%CE%BD%CE%B1>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/template%20types/payroll>
+        a           crm:E55_Type ;
+        rdfs:label  "payroll" .
+
+<http://www.sealit.gr/DB/register_record_point/8AFFC899-089C-32EA-9E8C-D8AEBBAF5B3D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 8, table: transactions_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%88%CE%B1%CF%81%CE%AC> .
+
+<http://www.sealit.gr/DB/location/master_uri-marseille>
+        a                         crm:E53_Place ;
+        rdfs:label                "Marseille" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/8377DE0F-1845-3746-90BD-8B815B9A285E> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/france> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/marseille> .
+
+<http://www.sealit.gr/DB/register_record_point/45B8D7F3-B24F-32F5-B918-97759B516BAA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 23, 32, table: transactions_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%88%CE%B1%CF%81%CE%AC> .
+
+<http://www.sealit.gr/DB/register_record_point/8D64D419-1031-3FE1-9821-943CE287354F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 3, table: transactions_10" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B8%CE%AE%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record/2021-03-29T12%3A09%3A12.263Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Payroll, Βασιλεύς Κωνσταντίνος, Ατμόπλοιο, _, Kostas Fradellos" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2021-03-29T12:09:12.263Z_3&templateTitle=Payroll&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/FD36FF63-1E20-3F4C-BDD0-9EFB7EF4C7F1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, table: transactions_16" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/348D1782-D9F4-3643-8E4F-008CF1862F1B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 9, 12, table: transactions_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%84%CF%81%CE%AF%CE%BA%CE%B5%CF%81%CE%B9> .
+
+<http://www.sealit.gr/DB/location/master_uri-athens>
+        a                         crm:E53_Place ;
+        rdfs:label                "Athens" ;
+        crm:P1_is_identified_by   <http://www.sealit.gr/DB/tgn_identifier/7001393> ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/coordinates/E052477A-6296-31CC-B9B2-3C8E8A75E0D0> , <http://www.sealit.gr/DB/location_appellation/E14045C6-B4FE-3E65-904A-ADE91B1F8C1B> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%B1%CE%B8%CE%AE%CE%BD%CE%B1> .
+
+<http://www.sealit.gr/DB/location_appellation/E14045C6-B4FE-3E65-904A-ADE91B1F8C1B>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Athens" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Payroll.html?name=2021-03-29T12:09:12.263Z_3&templateTitle=Payroll&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-berdyansk-istanbul-hydra-cagliari>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Berdyansk-Istanbul-Hydra-Cagliari" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/5915C662-0EBF-3EE5-BB2A-2BB5E11B2222> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-hydra-cagliari> .
+
+<http://www.sealit.gr/DB/register_record_point/0CF1BFB9-DEBB-3C41-98EE-CA5DA4D448F4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero | row: 7, table: route" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-26T15%3A12%3A55.461Z_19> , <http://www.sealit.gr/DB/location/%5B%3F%5D> .
+
+<http://www.sealit.gr/DB/location/hydra>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/%CE%BC%CF%8D%CE%BA%CE%BF%CE%BD%CE%BF%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/D0CBD9A7-0AA8-308F-A1BC-B0F4DEEA87E8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 15, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%83%CF%80%CE%AD%CF%84%CF%83%CE%B5%CF%82> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2020-09-15T10:28:50.445Z_12&templateTitle=Logbook&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/location_appellation/7B50B541-26B9-360C-B5C2-F451BD532373>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Tarragona" .
+
+<http://www.sealit.gr/DB/location_appellation/195994A3-4AFE-3F11-9151-E9073F56F067>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Ερμιόνη" .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-kerch-berdyansk-istanbul-hydra>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Kerch-Berdyansk-Istanbul-Hydra" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/under%20sail-cagliari-marseille> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/FB0E0F43-2E16-3A3D-9902-F731FABB3690> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-istanbul-hydra> .
+
+<http://www.sealit.gr/DB/location/master_uri-hydra>
+        a                         crm:E53_Place ;
+        rdfs:label                "Hydra" ;
+        crm:P1_is_identified_by   <http://www.sealit.gr/DB/tgn_identifier/1006134> ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/place%20type/city> , <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/coordinates/C6A1B4C9-B2C1-3BCC-BC39-AF8D78318B72> , <http://www.sealit.gr/DB/location_appellation/0A79D2E7-88F6-37CF-8C8B-EE8CAD4BF94E> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/greece> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/hydra> .
+
+<http://www.sealit.gr/DB/register_record_point/34282C27-A74B-387B-8339-D92F1103DC30>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Panagia Hydra (Παναγία Ύδρα), Ιστιοφόρο, 1874_1879, Thomas Kalesios | row: 1, table: calendar" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-04-13T07%3A01%3A00.353Z_15> , <http://www.sealit.gr/DB/location/hydra> .
+
+<http://www.sealit.gr/DB/location/%CF%80%CE%BF%CE%BB%CE%B7>
+        a           crm:E53_Place ;
+        rdfs:label  "πολη" .
+
+<http://www.sealit.gr/DB/register_record/2020-08-29T10%3A35%3A14.790Z_11>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Logbook, Stratigos Favieros (Στρατηγός Φαβιέρος), Ιστιοφόρο, 1876_1889, Thomas Kalesios" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2020-08-29T10:35:14.790Z_11&templateTitle=Logbook&mode=teamView> .
+
+<http://www.sealit.gr/DB/register_record_point/0C52C83F-CCC4-3317-ACB3-3CC43403B435>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 11, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-ermioni-messina-marseille-kerch-cannes> .
+
+<http://www.sealit.gr/DB/register_record_point/774F0326-8900-3795-A418-00AC95176BB8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Kountouriotis (Κουντουριώτης), Ιστιοφόρο, 1874_1881, Thomas Kalesios | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-06-17T08%3A28%3A24.173Z_17> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/location/%CF%88%CE%B1%CF%81%CE%AC>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/06D18EDC-F6B0-393F-B8CA-ECDC7F16C2D8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Leonidas (Λεωνίδας), Ατμόπλοιο, 1904_1906, Thomas Kalesios | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-01-16T11%3A30%3A40.631Z_5> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/E6F9F0FC-CFCA-3A01-A7AE-1C717B34DACB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Βασιλεύς Κωνσταντίνος, Ατμόπλοιο, _, Kostas Fradellos | row: 2, 8, 11, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-29T12%3A09%3A12.263Z_3> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/location_appellation/F2954BB9-93AE-35CD-BE22-2740309DA886>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Μαρμαράς" .
+
+<http://www.sealit.gr/DB/location/%CE%BA%5B%3F%5D>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%BA%CF%89%CE%BD>
+        a                         crm:E53_Place ;
+        rdfs:label                "Κων" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/D1C94089-B080-333E-80C0-21D10AA0667C> ;
+        crm:P89_falls_within      <http://www.sealit.gr/DB/location/%CF%80%CE%BF%CE%BB%CE%B7> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%BA%CF%89%CE%BD> .
+
+<http://www.sealit.gr/DB/location_appellation/81F583FC-4C42-3A4F-A9BA-15D5221E3DFB>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Πάτρα" .
+
+<http://www.sealit.gr/DB/location/turkey>
+        a                crm:E53_Place ;
+        rdfs:label       "Turkey" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/location%20type/country> .
+
+<http://www.sealit.gr/DB/location_appellation/2BB3BD2C-E1BF-3A2F-9FDF-F191F1580740>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Βόλος" .
+
+<http://www.sealit.gr/DB/register_record_point/9E03F57B-2AAC-337F-BFA9-7A90994769D1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 13, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%80%CE%AC%CF%84%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/735306A6-B297-3B78-AC62-4956D8EA1898>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 15, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-istanbul-hydra> , <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/hydra> .
+
+<http://www.sealit.gr/DB/location_appellation/29E59462-9344-31B6-A7A2-4DB9D514686E>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Kerch-Berdyansk-Istanbul- Lampsacus" .
+
+<http://www.sealit.gr/DB/register_record_point/38705A11-118B-3AE9-8E9F-FE7024B60443>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 9, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%88%CE%B1%CF%81%CE%AC> .
+
+<http://www.sealit.gr/DB/register_record_point/A57EB18E-E402-3CB3-AD2B-002E7CBB522B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 9, table: transactions_9" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%BF%CE%BD%CE%B9%CE%B1> .
+
+<http://www.sealit.gr/DB/location/piraeus>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/tgn_identifier/7008781>
+        a                      crm:E42_Identifier ;
+        rdfs:label             "7008781" ;
+        crm:P71i_is_listed_in  <http://www.sealit.gr/DB/authority%20types/tgn> .
+
+<http://www.sealit.gr/DB/register_record_point/F2780D77-28EE-3BD6-A824-B0D367DDD372>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 3, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/kerch-sozogun-%20berdiansk-messina-marseille-piraeus> .
+
+<http://www.sealit.gr/DB/register_record_point/9A7D792E-979F-314E-9192-D195881EB62E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 2, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/nicolaieff-malta-marseilles-hydra-istanbul> .
+
+<http://www.sealit.gr/DB/tgn_identifier/7001393>
+        a                      crm:E42_Identifier ;
+        rdfs:label             "7001393" ;
+        crm:P71i_is_listed_in  <http://www.sealit.gr/DB/authority%20types/tgn> .
+
+<http://www.sealit.gr/DB/register_record_point/40305180-EA40-3E40-B0AD-7D2847C6E80E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 5, 6, table: transactions_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BC%CE%B1%CF%81%CE%BC%CE%B1%CF%81%CE%AC%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/A01E5B34-0B61-3400-B9D7-39B0A7A9422A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 8, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-piraeus-malta-marseille-gabes-istanbul> .
+
+<http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-istanbul-hydra>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/template%20types/accounts%20book>
+        a           crm:E55_Type ;
+        rdfs:label  "accounts book" .
+
+<http://www.sealit.gr/DB/register_record_point/DEB25DDE-4FAE-3395-9D87-08736C739898>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Τριπολίνα, Γολέττα, _, Thanos Angelopoulos | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, table: transactions_3" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-10T11%3A10%3A42.446Z_1> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%BF%CE%BD%CE%B9%CE%B1>
+        a                         crm:E53_Place ;
+        rdfs:label                "Κεφαλλονια" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/1803BCBB-E613-3AD4-8B6F-A3FD12AD595B> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%BB%CE%BF%CE%BD%CE%B9%CE%B1> .
+
+<http://www.sealit.gr/DB/location_appellation/280582B5-5AAC-3DF3-A7CD-8C0C1EBC40A6>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Odessa-Nicolaieff-Istanbul" .
+
+<http://www.sealit.gr/DB/register_record_point/BE2FB623-CF17-30F8-92B3-3EFCBF5F110D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Λ. Γ. Γουλανδρής, Ατμόπλοιο, _, Michaela Stavrakaki | row: 3, 10, table: transactions_15" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-19T08%3A25%3A11.190Z_1> , <http://www.sealit.gr/DB/location/marseilles> .
+
+<http://www.sealit.gr/DB/register_record_point/D8509851-10A2-36F3-82E3-E685BE595A41>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il prosperoso, 1861-01-18, Beatrice Corradi | row: 11, 12, 13, 14, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-03-06T16%3A22%3A46.010Z_6> , <http://www.sealit.gr/DB/location/%5B%3F%5D> .
+
+<http://www.sealit.gr/DB/location/%CE%B2%CF%8C%CE%BB%CE%BF%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/39519A97-C549-3C4B-8E06-BFC40D82AA26>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 12, table: transactions_11" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%80%CF%8C%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record_point/9E7FA7C2-397D-3516-98D8-B8B13721E042>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Αργώ, Ατμόπλοιο, _, Apostolos Delis Aspasia Chalkiadaki | row: 23, table: analytic_calendar_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-10-10T13%3A35%3A31.703Z_10> , <http://www.sealit.gr/DB/location/%CE%B1%CE%B8%CE%AE%CE%BD%CE%B1> .
+
+<http://www.sealit.gr/DB/location_appellation/8DC6D1CE-72EA-322E-97F9-1620781909E7>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Berdyansk-Istanbul-Piraeus-Malta-Marseille-Gabes-Istanbul" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2021-06-17T08:28:24.173Z_17&templateTitle=Logbook&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/83DB7557-99C7-327C-B165-8E07221D8778>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 12, table: transactions_13" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B2%CF%8C%CE%BB%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%BC%CE%B1%CF%83%CF%83%CE%B1%CE%BB%CE%AF%CE%B1>
+        a                         crm:E53_Place ;
+        rdfs:label                "Μασσαλία" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/312E7717-3464-3B2B-9203-F2722B89F1D1> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%BC%CE%B1%CF%83%CF%83%CE%B1%CE%BB%CE%AF%CE%B1> .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-kerch-berdyansk-istanbul-%20lampsacus>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Kerch-Berdyansk-Istanbul- Lampsacus" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/29E59462-9344-31B6-A7A2-4DB9D514686E> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-kerch-berdyansk-istanbul-%20lampsacus> .
+
+<http://www.sealit.gr/DB/register_record_point/89349944-FF05-30F8-9706-41D9CB961B77>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Theofania (Θεοφανεία), Ιστιοφόρο, 1873_1876, Thomas Kalesios | row: 1, table: source_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-03-17T11%3A19%3A25.308Z_14> , <http://www.sealit.gr/DB/location/%CE%BC%CF%8D%CE%BA%CE%BF%CE%BD%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CF%8D%CE%B4%CF%81%CE%B1>
+        a                         crm:E53_Place ;
+        rdfs:label                "Ύδρα" ;
+        crm:P1_is_identified_by   <http://www.sealit.gr/DB/tgn_identifier/1006134> ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/coordinates/C6A1B4C9-B2C1-3BCC-BC39-AF8D78318B72> , <http://www.sealit.gr/DB/location_appellation/BDD88873-EAEE-35B1-8DF1-5AEA8B15B7A7> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CF%84%CF%81%CE%AF%CE%BA%CE%B5%CF%81%CE%B9>
+        a                         crm:E53_Place ;
+        rdfs:label                "Τρίκερι" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/F8DCD437-87A7-3EE6-8403-F26DC52F3611> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CF%84%CF%81%CE%AF%CE%BA%CE%B5%CF%81%CE%B9> .
+
+<http://www.sealit.gr/DB/coordinates/E052477A-6296-31CC-B9B2-3C8E8A75E0D0>
+        a           crm:E47_Spatial_Coordinates ;
+        rdfs:label  "37.983333 23.733333" .
+
+<http://www.sealit.gr/DB/place%20type/city>
+        a           crm:E55_Type ;
+        rdfs:label  "city" .
+
+<http://www.sealit.gr/DB/register_record/2018-03-26T15%3A12%3A55.461Z_19>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T15:12:55.461Z_19&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/location_appellation/1803BCBB-E613-3AD4-8B6F-A3FD12AD595B>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Κεφαλλονια" .
+
+<http://www.sealit.gr/DB/register_record_point/78BA645C-78B2-31B7-B605-5AB039D92D52>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Logbook, Kountouriotis (Κουντουριώτης), Ιστιοφόρο, 1874_1881, Thomas Kalesios | row: 1, 2, table: calendar" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/logbook> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2021-06-17T08%3A28%3A24.173Z_17> , <http://www.sealit.gr/DB/location/hydra> .
+
+<http://www.sealit.gr/DB/register_record_point/C573438C-93B9-37D8-9E7F-0496DF694642>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 7, 20, table: transactions_14" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B1%CE%B8%CE%AE%CE%BD%CE%B1> .
+
+<http://www.sealit.gr/DB/location/master_uri-istanbul-berdyansk-istanbul-gallipoli-messina-marseille>
+        a                         crm:E53_Place ;
+        rdfs:label                "Istanbul-Berdyansk-Istanbul-Gallipoli-Messina-Marseille" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/E755EB95-B921-3553-8EB2-7545BA020A43> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/istanbul-berdyansk-istanbul-gallipoli-messina-marseille> .
+
+<http://www.sealit.gr/DB/register_record_point/24B769CB-232B-333A-BDC7-9C27694C9853>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Λεωνίδας, Ατμόπλοιο, 1/4/1905_10/9/1905, Apostolos Delis Aspasia Chalkiadaki | row: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 23, table: analytic_calendar_1" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-05-29T10%3A37%3A28.405Z_3> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/0CE794B8-FD66-3B38-BCA4-A0BB65C85FE7>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Κεφαλλονιά" .
+
+<http://www.sealit.gr/DB/location_appellation/A9448D8F-A4E2-3901-B0C3-487197A4CD72>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Κ[?]" .
+
+<http://www.sealit.gr/DB/register_record_point/84558807-23B5-3F93-8A29-33998E2456E7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 2, 10, 13, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/marseille> .
+
+<http://www.sealit.gr/DB/register_record_point/81C645FD-0C7D-3190-915D-C6FD8715F81B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 4, table: transactions_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BA%CF%81%CE%B1%CE%BD%CE%AF%CE%B4%CE%B9> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-11-30T11:22:53.043Z_14&templateTitle=Accounts%20book&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/D32AAC56-13C0-3596-A4A3-74484F6E4BE3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 10, 20, 21, table: transactions_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%B5%CF%81%CE%BC%CE%B9%CF%8C%CE%BD%CE%B7> .
+
+<http://www.sealit.gr/DB/location_appellation/E755EB95-B921-3553-8EB2-7545BA020A43>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Berdyansk-Istanbul-Gallipoli-Messina-Marseille" .
+
+<http://www.sealit.gr/DB/location/master_uri-%CE%BA%CE%AF%CE%BC%CF%89%CE%BB%CE%BF%CF%82>
+        a                         crm:E53_Place ;
+        rdfs:label                "Κίμωλος" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/55AC84CB-14D6-32EA-BB9F-B72218940E1E> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CE%BA%CE%AF%CE%BC%CF%89%CE%BB%CE%BF%CF%82> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Accounts%20book.html?name=2018-08-09T09:24:54.069Z_7&templateTitle=Accounts%20book&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register_record_point/143D6200-5050-397F-B1AC-729AAD86BCC8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Τριπολίνα, Γολέττα, _, Thanos Angelopoulos | row: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, table: transactions_4" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-02-10T11%3A10%3A42.446Z_1> , <http://www.sealit.gr/DB/location/%CF%8D%CE%B4%CF%81%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/155EED3E-E19A-3C69-BDE2-C6EF81759B77>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 1, 3, 7, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/piraeus> .
+
+<http://www.sealit.gr/DB/register_record_point/0AE46147-ED05-34C6-8C79-E890400DD71F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 10, table: transactions_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%BC%CF%8D%CE%BA%CE%BF%CE%BD%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/register_record/2021-04-13T07%3A01%3A00.353Z_15>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Logbook, Panagia Hydra (Παναγία Ύδρα), Ιστιοφόρο, 1874_1879, Thomas Kalesios" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Logbook.html?name=2021-04-13T07:01:00.353Z_15&templateTitle=Logbook&mode=teamView> .
+
+<http://www.sealit.gr/DB/location/%CF%83%CF%80%CE%AD%CF%84%CF%83%CE%B5%CF%82>
+        a       crm:E53_Place .
+
+<http://www.sealit.gr/DB/register_record_point/BBA82AB6-3CE9-38F1-8E74-329CD376BDB2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 24, table: transactions_8" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/EA575AAA-1DED-3520-80CE-41451B9D9074>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Πόρος" .
+
+<http://www.sealit.gr/DB/location_appellation/938A872E-492A-3491-874E-3A6D3BC2CB80>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Istanbul-Kerch-Berdyansk-Sozogun-Istanbul-Hydra-Marseille-Messina-Hydra" .
+
+<http://www.sealit.gr/DB/register_record_point/5B9DC62D-8517-3849-AF2B-30F9D678D5FC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Accounts book, Λεωνίδας, Ατμόπλοιο, 1/4/1905_10/9/1905, Apostolos Delis Aspasia Chalkiadaki | row: 2, table: analytic_calendar_2" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/accounts%20book> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-05-29T10%3A37%3A28.405Z_3> , <http://www.sealit.gr/DB/location/%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location/master_uri-%CF%84%CE%B1%CF%81%CF%81%CE%B1%CE%B3%CF%8C%CE%BD%CE%B1>
+        a                         crm:E53_Place ;
+        rdfs:label                "Ταρραγόνα" ;
+        crm:P2_has_type           <http://www.sealit.gr/DB/type/master> ;
+        crm:P87_is_identified_by  <http://www.sealit.gr/DB/location_appellation/BA186C42-CA42-32D6-AF2B-D9FCD50C9015> ;
+        owl:sameAs                <http://www.sealit.gr/DB/location/%CF%84%CE%B1%CF%81%CF%81%CE%B1%CE%B3%CF%8C%CE%BD%CE%B1> .
+
+<http://www.sealit.gr/DB/register_record_point/21DF9628-AE84-352F-8E31-F18424EB0249>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 10, table: voyages" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/istanbul-berdyansk-yeysk-istanbul-malta> .
+
+<http://www.sealit.gr/DB/register_record_point/F61DB61B-48D3-3737-9C7D-47883C49588C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Payroll, Eleni Kouppa, Brig, 1878_1887, Nikolaos Kastrinakis | row: 8, 11, table: transactions_6" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/payroll> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2020-08-06T08%3A16%3A49.753Z_2> , <http://www.sealit.gr/DB/location/%CF%80%CF%8C%CF%81%CE%BF%CF%82> .
+
+<http://www.sealit.gr/DB/location_appellation/282A8C85-299A-38FC-B75E-98221D7998FC>
+        a           crm:E44_Place_Appellation ;
+        rdfs:label  "Marseilles" .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T16:22:46.010Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .

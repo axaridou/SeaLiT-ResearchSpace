@@ -1,0 +1,147 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/appellation_surname/1E378D13-8A47-37E9-A02E-150BD03EF236>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Arguináriz" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .
+
+<http://www.sealit.gr/DB/person/D1FF370D-455C-3FE1-AC51-E9DF884424CB>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/05667E19-0076-39BF-B9B3-B491CECD1B9B>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/appellation_surname/00E1FF31-08D1-3085-A5F9-D01FFC4E1EBE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cirujeda" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/appellation_surname/659EB96C-FCD8-35DA-A2AF-E30D34A80365>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Armas" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/appellation_surname/B64C0FD3-3C1C-363A-BFB0-3ACD02199ACA>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Arbea" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-07T20:09:49.612Z_41&templateTitle=General%20Spanish%20Crew%20List&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/names/surname%20b>
+        a           crm:E55_Type ;
+        rdfs:label  "surname B" .
+
+<http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia" ;
+        rdfs:seeAlso  <https://isl.ics.forth.gr/FastCatTeam/templates/Crew_List_ES.html?name=2019-12-07T20:09:49.612Z_41&templateTitle=General%20Spanish%20Crew%20List&mode=teamView> .
+
+<http://www.sealit.gr/DB/person/F0196EEE-9F08-3C8E-A5D9-5CE7A4587C4A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Eugenio Agacino Armas" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/659EB96C-FCD8-35DA-A2AF-E30D34A80365> , <http://www.sealit.gr/DB/appellation_surname/897735AC-F99F-3330-BA22-844871C11805> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Eugenio" ;
+        sealit:has_last_name     "Agacino Armas" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/05667E19-0076-39BF-B9B3-B491CECD1B9B> .
+
+<http://www.sealit.gr/DB/register_record_point/53664F2D-458A-3C96-82B2-0B9CCF87F7E5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 2, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , <http://www.sealit.gr/DB/person/D1FF370D-455C-3FE1-AC51-E9DF884424CB> .
+
+<http://www.sealit.gr/DB/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<http://www.sealit.gr/DB/appellation_surname/66A359F9-AE01-3FE9-BA74-F6C851832570>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ramírez" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .
+
+<http://www.sealit.gr/DB/register_record_point/2016B4FE-299B-3154-9650-FFCF57C3BD4B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 3, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , <http://www.sealit.gr/DB/person/C198B2A4-DB27-3B20-A0E3-274FD443864E> .
+
+<http://www.sealit.gr/DB/appellation_surname/BD123217-2B9F-34CF-A0AF-E701A37255A8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gayoso" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20b> .
+
+<http://www.sealit.gr/DB/appellation_surname/897735AC-F99F-3330-BA22-844871C11805>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Agacino" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .
+
+<http://www.sealit.gr/DB/register_record_point/9E716821-C88F-35F9-868F-889787B0CAF7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 1, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , <http://www.sealit.gr/DB/person/05667E19-0076-39BF-B9B3-B491CECD1B9B> .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/person/96623906-5EC9-3329-B411-1BA777B23342>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/0C97AF66-A455-347C-9B1A-01651CE285ED>
+        a                        crm:E21_Person ;
+        rdfs:label               "José María Cirujeda Gayoso" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/BD123217-2B9F-34CF-A0AF-E701A37255A8> , <http://www.sealit.gr/DB/appellation_surname/00E1FF31-08D1-3085-A5F9-D01FFC4E1EBE> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "José María" ;
+        sealit:has_last_name     "Cirujeda Gayoso" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/96623906-5EC9-3329-B411-1BA777B23342> .
+
+<http://www.sealit.gr/DB/person/92805384-5A07-3D2E-AFD6-84A9085B578D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luís Arbea Arguináriz" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/1E378D13-8A47-37E9-A02E-150BD03EF236> , <http://www.sealit.gr/DB/appellation_surname/B64C0FD3-3C1C-363A-BFB0-3ACD02199ACA> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "Luís" ;
+        sealit:has_last_name     "Arbea Arguináriz" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/D1FF370D-455C-3FE1-AC51-E9DF884424CB> .
+
+<http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list>
+        a           crm:E55_Type ;
+        rdfs:label  "general spanish crew list" .
+
+<http://www.sealit.gr/DB/register_record_point/33417F59-EFB6-3411-94CD-9FBC12EFC9D1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "General Spanish Crew List, Alfonso XIII, 1929-02-23, Enric Garcia | row: 4, table: crew_list" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/general%20spanish%20crew%20list> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2019-12-07T20%3A09%3A49.612Z_41> , <http://www.sealit.gr/DB/person/96623906-5EC9-3329-B411-1BA777B23342> .
+
+<http://www.sealit.gr/DB/person/C198B2A4-DB27-3B20-A0E3-274FD443864E>
+        a       crm:E21_Person .
+
+<http://www.sealit.gr/DB/person/96F37E66-7CB5-38FA-B2D3-ED9AA12678EA>
+        a                        crm:E21_Person ;
+        rdfs:label               "José Luño Ramírez" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation_surname/66A359F9-AE01-3FE9-BA74-F6C851832570> , <http://www.sealit.gr/DB/appellation_surname/CC596818-A618-30F6-9F5F-AF052CE60CDF> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/type/master> ;
+        sealit:has_first_name    "José" ;
+        sealit:has_last_name     "Luño Ramírez" ;
+        owl:sameAs               <http://www.sealit.gr/DB/person/C198B2A4-DB27-3B20-A0E3-274FD443864E> .
+
+<http://www.sealit.gr/DB/appellation_surname/CC596818-A618-30F6-9F5F-AF052CE60CDF>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Luño" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/names/surname%20a> .

@@ -1,0 +1,82 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.sealit.gr/DB/date/1858>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1858" ;
+        crm:P82_at_some_time_within  "1858"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/ship_identifier/1987>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1987" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/register%20numbers/register%20number> .
+
+<http://www.sealit.gr/DB/register_record/2018-02-28T16%3A08%3A53.469Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Amalia, 1860-12-18, Carolina Gaggero" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T16:08:53.469Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://www.sealit.gr/DB/registration_number/1987>
+        a                   sealit:Ship_Registration ;
+        rdfs:label          "Registration of Amalia" ;
+        sealit:with_shipID  <http://www.sealit.gr/DB/ship_identifier/1987> .
+
+<http://www.sealit.gr/DB/ship%20name/amalia>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Amalia" .
+
+<http://www.sealit.gr/DB/ship%20type/brigantino>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino" .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<http://www.sealit.gr/DB/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<http://www.sealit.gr/DB/ship/451BC267-C263-34A9-8BC3-55664F338D50>
+        a       sealit:Ship .
+
+<http://www.sealit.gr/DB/location/varazze>
+        a           crm:E53_Place ;
+        rdfs:label  "Varazze" .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T16:08:53.469Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<http://www.sealit.gr/DB/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<urn:uuid:b00cc7a3-e9be-46f7-8b06-318e3fef6085>
+        a                     sealit:Ship_Construction ;
+        rdfs:label            "Construction of Amalia" ;
+        crm:P4_has_time-span  <http://www.sealit.gr/DB/date/1858> ;
+        crm:P7_took_place_at  <http://www.sealit.gr/DB/location/varazze> .
+
+<http://www.sealit.gr/DB/register_record_point/AC37D9D3-F18A-36EF-97FE-879DF4300463>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Amalia, 1860-12-18, Carolina Gaggero | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <http://www.sealit.gr/DB/register_record/2018-02-28T16%3A08%3A53.469Z_10> , <http://www.sealit.gr/DB/ship/451BC267-C263-34A9-8BC3-55664F338D50> .
+
+<http://www.sealit.gr/DB/ship/C2BA81A1-BBA5-3650-B305-D30F61473C73>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Amalia" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/amalia> ;
+        crm:P2_has_type            <http://www.sealit.gr/DB/ship%20type/brigantino> , <http://www.sealit.gr/DB/type/master> ;
+        sealit:is_registered_by    <http://www.sealit.gr/DB/registration_number/1987> ;
+        sealit:was_constructed_by  <urn:uuid:b00cc7a3-e9be-46f7-8b06-318e3fef6085> ;
+        owl:sameAs                 <http://www.sealit.gr/DB/ship/451BC267-C263-34A9-8BC3-55664F338D50> .
+
+<http://www.sealit.gr/DB/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .

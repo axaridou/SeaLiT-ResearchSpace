@@ -1,0 +1,3335 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <http://www.sealit.gr/DB/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<urn:uuid:3358bec3-5912-4b39-84cc-d4e998c2c2ab>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/650675F5-7CF3-364A-8CC2-8DE0A429DF3D>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Said" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "100" .
+
+<urn:uuid:3cda060f-617f-49b1-a544-05af69992238>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Sultan" ;
+        crm:P40_observed_dimension  <urn:uuid:fef8c42f-5d77-49e1-a246-901b7fbc7613> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship/EE2DDF45-6591-3346-A940-663C48D69E60>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Jonio" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/jonio> ;
+        crm:P39i_was_measured_by   <urn:uuid:6c775ff0-9c3f-4e18-96fe-221052da97da> ;
+        crm:P70i_is_documented_in  <urn:uuid:b750e9fc-c732-4fba-a6be-375a39b7242b> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/67594F21-55A9-3C15-AB16-F92E3B41C245> ;
+        sealit:has_tonnage         <urn:uuid:9341031b-deaf-47cc-b28a-17bbe6b23796> ;
+        sealit:was_constructed_by  <urn:uuid:f41bd4f5-2cd3-483e-8e1e-b71cf4596d26> .
+
+<urn:uuid:af0873e8-aa16-49d5-84ba-a04a62f6ae34>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Argo" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "384200" .
+
+<http://www.sealit.gr/DB/ship/3508F72C-EA0E-3349-A630-D9153A959788>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Malta" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/malta> ;
+        crm:P39i_was_measured_by   <urn:uuid:9793b871-ec14-4833-ab56-98a688cd7619> ;
+        crm:P70i_is_documented_in  <urn:uuid:939b537d-2295-479a-8df3-4450c50b750b> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/5966B631-27BB-3E3E-B33F-4CB9B1AD795F> ;
+        sealit:has_tonnage         <urn:uuid:800037cd-4d77-40da-9902-5fca57a8d353> ;
+        sealit:was_constructed_by  <urn:uuid:33afe977-2781-492a-8b11-2c4e26c580d7> .
+
+<urn:uuid:30d931c3-dd5c-44aa-aaf9-af8b87691c66>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Yole" ;
+        crm:P90_has_value  "350" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/C7A93BA0-7E62-3C39-8885-B483CAF74D5C>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Ceres" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/ceres> ;
+        crm:P39i_was_measured_by   <urn:uuid:1e21d9ae-7c33-48e4-a242-9f1af202f441> ;
+        crm:P70i_is_documented_in  <urn:uuid:e288512a-3861-42d4-8580-5ba32b247697> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/51F646D5-6583-357A-9149-10190A0FDEB2> ;
+        sealit:has_tonnage         <urn:uuid:816c0cf9-d80d-42ea-99c0-cc2e0b452683> ;
+        sealit:was_constructed_by  <urn:uuid:fa69ddb6-1dae-44b6-9645-823fd80144d2> .
+
+<urn:uuid:800037cd-4d77-40da-9902-5fca57a8d353>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Malta" ;
+        crm:P90_has_value  "600" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:9234ef4a-7bd0-4bd8-b449-398c56e9832d>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Milano" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/milano> .
+
+<urn:uuid:0bb2f5e6-3a38-4c42-9001-f4aa8a63ac6d>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Stambul (2)" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/stambul%20%282%29> .
+
+<urn:uuid:280b7f51-ea7e-49ca-8709-0c1b2d9cd14b>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1877 1878" ;
+        crm:P82a_begin_of_the_begin  "1877"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1878"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c0a6480b-7986-45a4-8847-fd2b230032f5>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "2020-10-14 2021-12-06T17:31:44" ;
+        crm:P82a_begin_of_the_begin  "2020-10-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "2021-12-06T17:31:44"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://www.sealit.gr/DB/ship/8AD8E90F-DEB6-39EB-940B-5CE3AAECC776>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Ettore" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/ettore> ;
+        crm:P39i_was_measured_by   <urn:uuid:7f234c16-f57b-47c4-8bac-bfc4ce49388a> ;
+        crm:P70i_is_documented_in  <urn:uuid:e3489f28-f4a7-44ab-8a65-e5b16c028f27> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/BFC8393E-966F-3DC8-89EE-CFD82CD06B58> ;
+        sealit:has_tonnage         <urn:uuid:1cf688ad-8725-4617-9065-8fa589ee4ff4> ;
+        sealit:was_constructed_by  <urn:uuid:812aaa35-92e3-45f9-8a3d-fb35772d9e35> .
+
+<urn:uuid:e009a642-9a3b-4556-a536-094f2b6ade88>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Smirne" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/smirne> .
+
+<urn:uuid:2edff81f-b436-41fe-a49e-53025b6150d3>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:b3088e56-230e-4ad6-9780-a51e0f8afd8a>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Memfi" ;
+        crm:P90_has_value  "1400" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship%20name/flora>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Flora" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/60B410AC-6E08-31DC-88E1-3A33752238D2>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Austria (2)" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:fe2740f1-e60d-4541-882c-0e5af48b5d21>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:86b25a39-9195-4a25-8dcd-c81edd7eef02>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of San Marco" ;
+        crm:P40_observed_dimension  <urn:uuid:4ea7240e-29be-44be-bd02-1074a3b64994> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:5da6d6ad-9c37-469a-9fe5-88da23c81925>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Malta" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "8000" .
+
+<urn:uuid:c2ae1153-b145-4d36-8b02-cbe2155117bb>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Pilade" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/pilade> .
+
+<urn:uuid:bec08002-eac4-4fee-8c70-b6acff4c72b2>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Achille" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/achille> .
+
+<http://www.sealit.gr/DB/ship%20name/apollo>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Apollo" .
+
+<http://www.sealit.gr/DB/ship%20name/tebe>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Tebe" .
+
+<http://www.sealit.gr/DB/ship%20name/stambul%20%282%29>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Stambul (2)" .
+
+<urn:uuid:5c8fd85a-7b7c-4c53-89d1-97a74608ced7>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Dido" ;
+        crm:P90_has_value  "1200" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:34bee4df-ef5c-4514-ac98-84e6fdd07325>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/46BECE09-DC74-3DC2-A8DC-622C2DBAC063>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of San Giusto" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "100" .
+
+<urn:uuid:5be1a989-b011-41c9-8f7e-406a2b3cf815>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Sultan" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/sultan> .
+
+<http://www.sealit.gr/DB/ship/D718CAF3-813A-3288-976F-336D92E7B34A>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Oreste" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/oreste> ;
+        crm:P39i_was_measured_by   <urn:uuid:040e28f9-99f8-4708-82e9-f02e2ebef12e> ;
+        crm:P70i_is_documented_in  <urn:uuid:f17bd1bd-d1a4-45fa-8a71-d55f56361c6a> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/D3FC4130-1956-35A0-A684-F0EF85567DC6> ;
+        sealit:has_tonnage         <urn:uuid:6fcc5c3c-0b18-4cf1-8108-41c2ab04cb62> ;
+        sealit:was_constructed_by  <urn:uuid:b4663aa5-69b8-4fa4-9df2-dc7a52a3dd89> .
+
+<urn:uuid:7f8ffc64-de57-4a43-891a-0d18e61d507c>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Hebe" ;
+        crm:P90_has_value  "350" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:375f74a2-e80a-4d07-ae87-64f90f5068bd>
+        a                     crm:E65_Creation ;
+        rdfs:label            "Creation of doc Cinquantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco" ;
+        crm:P4_has_time-span  <urn:uuid:280b7f51-ea7e-49ca-8709-0c1b2d9cd14b> .
+
+<urn:uuid:3862b89d-e190-4726-b1f4-757f287da9a6>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Espero" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/espero> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/EE96DDDE-F472-3C06-86DD-7623654FFAC4>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Argo" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/1A471931-249F-301F-8FB1-7C90757797BE>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Galatea" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "180" .
+
+<http://www.sealit.gr/DB/ship/83DB5A94-5407-3EA8-A280-AD6340123891>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Benaco" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/benaco> ;
+        crm:P39i_was_measured_by   <urn:uuid:51f56732-2619-4140-8541-b8ff430235d9> ;
+        crm:P70i_is_documented_in  <urn:uuid:7859f7a2-a450-434a-97af-d266bb5be230> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/9CD8E2A6-0635-36D1-B30E-70543A750A99> ;
+        sealit:has_tonnage         <urn:uuid:d4030009-efe7-493c-97d3-760dd28b22e5> ;
+        sealit:was_constructed_by  <urn:uuid:31cd0c5f-2f9e-4204-b278-80392f40fb36> .
+
+<urn:uuid:9129ecf9-2a9e-4b49-843d-cbd97ae61953>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Hebe" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/hebe> .
+
+<urn:uuid:cda162cb-1f1a-4dcd-bdf0-e7d1ad8908c4>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:0e411f2e-9898-45b0-8d74-20edd927924a>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Flora" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "314400" .
+
+<urn:uuid:73fb8293-7de7-4470-8b3c-affffa6da41d>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Eolus" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "14000" .
+
+<urn:uuid:d4030009-efe7-493c-97d3-760dd28b22e5>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Benaco" ;
+        crm:P90_has_value  "350" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/register_record/2020-10-14T07%3A57%3A12.076Z_33>
+        a                        crm:E73_Information_Object ;
+        rdfs:label               "List of ships, Cinquantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1877-1878, , , , Matteo  Barbano" ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/template%20types/list%20of%20ships> , <http://www.sealit.gr/DB/doc%20types/record%20information> ;
+        crm:P67_refers_to        <http://www.sealit.gr/DB/Document_of_Register/1FF4016A-9DF5-448D-A11B-2B4BEDF0D488> ;
+        crm:P94i_was_created_by  <http://www.sealit.gr/DB/creation/182BE0C5-CDCD-3072-BB18-64CDEE4D3D6E> .
+
+<http://www.sealit.gr/DB/ship%20name/tritone>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Tritone" .
+
+<urn:uuid:e87454f5-a5f5-4624-9dd1-1628a340e976>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Milano" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "11100" .
+
+<urn:uuid:7ba9262b-1e31-4c47-af4e-7115cdf48d92>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Messina" ;
+        crm:P90_has_value  "600" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:47e13dd9-1daa-4d33-aa81-2cf4ef86cb58>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/Document_of_Register/1FF4016A-9DF5-448D-A11B-2B4BEDF0D488>
+        a                        crm:E31_Document , crm:E18_Physical_Thing ;
+        rdfs:label               "Book Cinquantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco" ;
+        crm:P102_has_title       <http://www.sealit.gr/DB/title/E0E5766E-4A23-3BAB-BD2D-C5D06CDD7318> ;
+        crm:P128_carries         <urn:uuid:5be1b600-2cc6-4ee2-b50e-62d7c880038d> ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation/A3E2B115-F2FB-37A3-A826-4669C1C8540E> , <http://www.sealit.gr/DB/inventory%20number/4238> ;
+        crm:P2_has_type          <http://www.sealit.gr/DB/doc%20types/source%20identity> , <http://www.sealit.gr/DB/doc%20types/book> ;
+        crm:P49_has_former_or_current_keeper
+                <http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare> ;
+        crm:P94i_was_created_by  <urn:uuid:e9e96197-3932-4b04-9c2a-198c92de9cd5> , <urn:uuid:375f74a2-e80a-4d07-ae87-64f90f5068bd> .
+
+<http://www.sealit.gr/DB/ship%20name/trieste>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Trieste" .
+
+<urn:uuid:2add2fdb-84d0-401a-9e80-2bfdaf7047b8>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Trieste" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "8000" .
+
+<http://www.sealit.gr/DB/ship%20name/arciduca%20ferdinando%20massimiliano>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Arciduca Ferdinando Massimiliano" .
+
+<http://www.sealit.gr/DB/ship/61F2D79B-F4CE-3F1A-B0E7-4BD5E974BA2E>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Yole" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/yole> ;
+        crm:P39i_was_measured_by   <urn:uuid:c4ed0608-30a1-4d0f-9f66-6a3e40bed044> ;
+        crm:P70i_is_documented_in  <urn:uuid:d6e81325-e734-4d03-a4b9-5ca144b77ba8> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/A57A275C-8986-381B-83C7-955AA60356A3> ;
+        sealit:has_tonnage         <urn:uuid:30d931c3-dd5c-44aa-aaf9-af8b87691c66> ;
+        sealit:was_constructed_by  <urn:uuid:6d4d00b5-9e9a-4dcd-8028-d6df8c5f440f> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/0DCBD692-E008-337E-B677-4B751A07D8DD>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Hebe" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "100" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/4D34108E-7BE3-386C-A7EE-726ACB115C99>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Mercur" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "200" .
+
+<urn:uuid:742e019e-8a49-4ab2-a571-239eee78fa0e>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Tibisco" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/tibisco> .
+
+<urn:uuid:a913e8c2-7676-46df-9124-96705510a80e>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Aurora" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "329200" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/A9B1FE34-E101-3DDB-9D77-64BC1DC6B34A>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Espero" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<http://www.sealit.gr/DB/ship%20name/danubio%20%282%29>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Danubio (2)" .
+
+<urn:uuid:93fda87d-6b35-4ade-94a2-aab5afc4dc4e>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:31cd0c5f-2f9e-4204-b278-80392f40fb36>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Benaco" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/benaco> .
+
+<urn:uuid:20d23c22-5a09-411f-958a-5699ed91b44c>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Progresso" ;
+        crm:P40_observed_dimension  <urn:uuid:cede1b9f-f1f5-4d4f-bb3a-17011d21bc61> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:50cbd124-7af8-4810-a32a-dc821a5d6852>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Mercur" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/mercur> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/34D96D0F-85CF-3FF8-87E3-789E6BDABADD>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Verbano" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "100" .
+
+<urn:uuid:a9e3ac36-d62c-4938-91d5-abf4963eefe5>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Dido" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "229600" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/22022B53-4E55-37EB-8063-33A48C15AF68>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Calipso" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "200" .
+
+<urn:uuid:ce99df7f-7a72-4ee5-a252-25756b3f3c48>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Diana" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "219900" .
+
+<urn:uuid:e23c28cf-4aeb-4167-851d-36c4aecd7f20>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Laerte" ;
+        crm:P90_has_value  "380" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:04965b9c-b35e-4043-b2aa-6cb52660b9b0>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Nil" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/nil> .
+
+<http://www.sealit.gr/DB/doc%20types/source%20identity>
+        a           crm:E55_Type ;
+        rdfs:label  "source identity" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/7A224FE1-5B37-33BD-86ED-9315B7579A3A>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Najade" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "120" .
+
+<urn:uuid:9341031b-deaf-47cc-b28a-17bbe6b23796>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Jonio" ;
+        crm:P90_has_value  "860" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:6856f7c3-8891-455c-8309-b5246cdd16c8>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Milano" ;
+        crm:P90_has_value  "400" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/198D7992-392B-337D-861A-AA1BDD881EB2>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Austria (2)" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/austria%20%282%29> ;
+        crm:P39i_was_measured_by   <urn:uuid:f658cde7-addc-4cbc-8518-980b45ac8bcf> ;
+        crm:P70i_is_documented_in  <urn:uuid:47e13dd9-1daa-4d33-aa81-2cf4ef86cb58> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/60B410AC-6E08-31DC-88E1-3A33752238D2> ;
+        sealit:has_tonnage         <urn:uuid:4a2962f4-1daf-445b-a960-4975c5c00c7a> ;
+        sealit:was_constructed_by  <urn:uuid:870c572a-ce7d-4b1f-87aa-1984e01af000> .
+
+<urn:uuid:09a1e575-df0b-432a-bb22-a3f300c1e064>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of San Carlo" ;
+        crm:P90_has_value  "350" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/538EFCE5-6A45-3C33-AC62-78FB037046F9>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Calipso" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/calipso> ;
+        crm:P39i_was_measured_by   <urn:uuid:b29b74ea-dfea-4c1f-b519-a19ccdf39583> ;
+        crm:P70i_is_documented_in  <urn:uuid:9357138a-7a78-41d7-bd96-4024295996d5> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/22022B53-4E55-37EB-8063-33A48C15AF68> ;
+        sealit:has_tonnage         <urn:uuid:2ae45e3a-9da8-4fb4-aaf8-d5fc86d68f2a> ;
+        sealit:was_constructed_by  <urn:uuid:d651e66d-6b6c-46c6-a8f7-370a383cbde2> .
+
+<http://www.sealit.gr/DB/ship%20name/messina>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Messina" .
+
+<urn:uuid:42f5665e-12b4-4735-835e-eeef9e9cd014>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Tibisco" ;
+        crm:P90_has_value  "850" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/2BC444EE-15EC-385F-9F89-7711C03F49C4>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Tritone" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "120" .
+
+<urn:uuid:33caaa85-8446-48e7-8240-a8641364573c>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Minerva" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/minerva> .
+
+<urn:uuid:cbc749d1-98c1-47ba-837d-19140e8dbda7>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of San Marco" ;
+        crm:P90_has_value  "350" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/67594F21-55A9-3C15-AB16-F92E3B41C245>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Fiume" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/fiume> ;
+        crm:P39i_was_measured_by   <urn:uuid:e44931fe-e36b-47da-921d-faf84765d7fb> ;
+        crm:P70i_is_documented_in  <urn:uuid:a119b369-6ad2-4844-bc61-36255e4e5353> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/1E5026F8-BCAE-3342-9164-562E76C0D487> ;
+        sealit:has_tonnage         <urn:uuid:12ed3090-77fa-4edc-a359-a44ec711ed71> ;
+        sealit:was_constructed_by  <urn:uuid:5ff93bd3-924b-416e-9f4b-f2d13bd4d12b> .
+
+<urn:uuid:2a67ccb4-2232-487b-b9f0-0befe26192ce>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Verbano" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "21000" .
+
+<http://www.sealit.gr/DB/ship%20name/memfi>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Memfi" .
+
+<urn:uuid:af8af2ef-ecbd-4466-9885-8499e9c5edb7>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Castore" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/castore> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/5966B631-27BB-3E3E-B33F-4CB9B1AD795F>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Malta" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "120" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/3C1105E6-6110-306D-9EEC-09438E90C41B>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Progresso" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:01bb0912-d3bf-4824-a1cd-3c23093b276f>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Lucifer" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/lucifer> .
+
+<urn:uuid:eb569bd7-5508-4169-9e04-ed0793f8fdf8>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Galatea" ;
+        crm:P40_observed_dimension  <urn:uuid:285e5168-82ae-4574-b76d-15a06f280b56> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:6d12edba-1101-416a-8c75-8a9654d37c67>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Miramare" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/miramare> .
+
+<urn:uuid:5ddace6b-0b06-468d-a4b4-7fca65e68247>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Said" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/said> .
+
+<urn:uuid:8d254912-64df-4646-876f-c880675e7d5a>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Juno" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/juno> .
+
+<urn:uuid:9793b871-ec14-4833-ab56-98a688cd7619>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Malta" ;
+        crm:P40_observed_dimension  <urn:uuid:5da6d6ad-9c37-469a-9fe5-88da23c81925> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/CCF55BD3-0C5F-3E91-BDB6-1A662CEFFF69>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Jupiter" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<http://www.sealit.gr/DB/language/italian%2C%20russian%2C%20spanish>
+        a           crm:E56_Language ;
+        rdfs:label  "Italian, Russian, Spanish" .
+
+<http://www.sealit.gr/DB/ship/AFFDDD90-465F-33F3-8419-1352AC152C78>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Sphinx" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/sphinx> ;
+        crm:P39i_was_measured_by   <urn:uuid:dcfdeb82-5c14-4136-9b2b-cefe4b7e996d> ;
+        crm:P70i_is_documented_in  <urn:uuid:549bffa3-4cd1-4b44-9f62-61b86c7caa7e> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/E22A77AB-7013-368D-ADF8-EDB0FC825AF2> ;
+        sealit:has_tonnage         <urn:uuid:c75e5b85-01f0-4185-9713-489272aa510d> ;
+        sealit:was_constructed_by  <urn:uuid:3aa679b1-8111-4058-9d3d-bd1162d7ef45> .
+
+<http://www.sealit.gr/DB/title/E0E5766E-4A23-3BAB-BD2D-C5D06CDD7318>
+        a           crm:E35_Title ;
+        rdfs:label  "Cinquantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco" .
+
+<urn:uuid:7603ad4a-cae6-458a-9ce7-90d7a4c0727c>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Lario" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "22500" .
+
+<urn:uuid:c4ed0608-30a1-4d0f-9f66-6a3e40bed044>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Yole" ;
+        crm:P40_observed_dimension  <urn:uuid:199a0624-8057-453d-af21-e408ca5a7331> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:b49d7946-0036-4fbc-86f7-b76293796d5c>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Apis" ;
+        crm:P90_has_value  "1200" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:4a2962f4-1daf-445b-a960-4975c5c00c7a>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Austria (2)" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:b15c0bd0-9e5b-40a6-b2f3-1be4d1d77fb9>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:b8a80a87-f13f-475d-8548-fd688d78541f>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Smirne" ;
+        crm:P90_has_value  "860" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/51F646D5-6583-357A-9149-10190A0FDEB2>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Saturno" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/saturno> ;
+        crm:P39i_was_measured_by   <urn:uuid:4d2f7f23-4ab1-4d6f-ab8e-74ff5abe99a5> ;
+        crm:P70i_is_documented_in  <urn:uuid:3358bec3-5912-4b39-84cc-d4e998c2c2ab> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/D718CAF3-813A-3288-976F-336D92E7B34A> ;
+        sealit:has_tonnage         <urn:uuid:a9f4c816-f3c7-4328-8777-e42229631681> ;
+        sealit:was_constructed_by  <urn:uuid:268a9be3-829c-43a3-b473-b69238312503> .
+
+<urn:uuid:48dc9b91-0890-4537-9c45-a685f56188c7>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Espero" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "331500" .
+
+<urn:uuid:adbfcbdf-23ac-4f32-b2f5-4eb79823a470>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Apis" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/apis> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/2FF3624C-AA2F-3A31-8CAB-1D82E4A196E7>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Venus" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:b4663aa5-69b8-4fa4-9df2-dc7a52a3dd89>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Oreste" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/oreste> .
+
+<http://www.sealit.gr/DB/ship%20name/lucifer>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Lucifer" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/A57A275C-8986-381B-83C7-955AA60356A3>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Yole" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "100" .
+
+<urn:uuid:14cc971c-aee9-407e-833a-804d2d31cae2>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Iris" ;
+        crm:P40_observed_dimension  <urn:uuid:45fd5d90-f33e-406e-8599-d046e3cab261> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/doc%20types/record%20information>
+        a           crm:E55_Type ;
+        rdfs:label  "record information" .
+
+<urn:uuid:268a9be3-829c-43a3-b473-b69238312503>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Saturno" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/saturno> .
+
+<urn:uuid:c58245cc-0b1e-4695-a749-1b65fa25ecb0>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:61f5ef39-4457-4754-b498-52e6f7ba68c9>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:04322bb6-81d7-49b1-8c17-8897f7104724>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship%20name/mars>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Mars" .
+
+<urn:uuid:33afe977-2781-492a-8b11-2c4e26c580d7>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Malta" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/malta> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/BFC8393E-966F-3DC8-89EE-CFD82CD06B58>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Ettore" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:d6b636b2-e1ae-40b0-b4b9-6ac185aae9a5>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Mars" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/1DE39CB2-315E-3D02-B3F4-81D8A045D499>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Aretusa" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<urn:uuid:eb531740-55a1-49a2-852f-47aa946109ca>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:e3489f28-f4a7-44ab-8a65-e5b16c028f27>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship/9DDCBEF6-C9FE-39D6-8C3F-87BF9AC5D9C5>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship San Marco" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/san%20marco> ;
+        crm:P39i_was_measured_by   <urn:uuid:86b25a39-9195-4a25-8dcd-c81edd7eef02> ;
+        crm:P70i_is_documented_in  <urn:uuid:69ded52b-aa6c-4e36-8a94-ab54a856fa8e> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/D06DA367-5629-337B-B158-C6DFAABD2D40> ;
+        sealit:has_tonnage         <urn:uuid:cbc749d1-98c1-47ba-837d-19140e8dbda7> ;
+        sealit:was_constructed_by  <urn:uuid:5ffbc231-60d8-46db-b9c8-b968344ca590> .
+
+<urn:uuid:fedac97c-5974-4afc-8404-604953079141>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Minerva" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "192800" .
+
+<urn:uuid:816c0cf9-d80d-42ea-99c0-cc2e0b452683>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Ceres" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:121f1965-966e-4f5e-a172-abdf697e0f3f>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Milano" ;
+        crm:P40_observed_dimension  <urn:uuid:e87454f5-a5f5-4624-9dd1-1628a340e976> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:3858c4ef-0a66-4ce1-bb74-6fa01695f072>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Messina" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/messina> .
+
+<urn:uuid:60160e37-92f2-4dd9-8bb4-8f472a9a6ba0>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Mercur" ;
+        crm:P40_observed_dimension  <urn:uuid:2d102b7c-5485-47d6-bc23-08b4276e60c2> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:388e38a3-23f1-4e57-90d8-115652a7aeb4>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Verbano" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/verbano> .
+
+<urn:uuid:fef8c42f-5d77-49e1-a246-901b7fbc7613>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Sultan" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "60800" .
+
+<urn:uuid:de4e645f-9f62-4509-b414-125a065051c5>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/C7A93BA0-7E62-3C39-8885-B483CAF74D5C>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Mars" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<http://www.sealit.gr/DB/ship%20name/najade>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Najade" .
+
+<urn:uuid:e57747bc-208b-4937-a583-78f2bd4543d4>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Urano" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/urano> .
+
+<http://www.sealit.gr/DB/ship%20name/hebe>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Hebe" .
+
+<http://www.sealit.gr/DB/appellation/21C93E24-BBBC-3C7F-80B8-C62FF6A87318>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Civico Museo del Mare" .
+
+<urn:uuid:4ea7240e-29be-44be-bd02-1074a3b64994>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of San Marco" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "8800" .
+
+<http://www.sealit.gr/DB/ship/4E4DF8A7-DE42-35D5-B1DA-82AB89FCE98D>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Juno" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/juno> ;
+        crm:P39i_was_measured_by   <urn:uuid:faaf336e-c555-4818-8831-36770659317b> ;
+        crm:P70i_is_documented_in  <urn:uuid:8485c06e-fc3e-4bd0-87cd-df5131ec0d74> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/392E858D-9311-3892-98E8-1C07BD6A7875> ;
+        sealit:has_tonnage         <urn:uuid:11e8e076-eba7-49c3-96ed-1e7932d178b3> ;
+        sealit:was_constructed_by  <urn:uuid:8d254912-64df-4646-876f-c880675e7d5a> .
+
+<http://www.sealit.gr/DB/ship%20name_previous/arciduchessa%20carolina>
+        a                sealit:Ship_Name ;
+        rdfs:label       "Arciduchessa Carolina" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/ship%20names%20types/previous%20names> .
+
+<http://www.sealit.gr/DB/creation/182BE0C5-CDCD-3072-BB18-64CDEE4D3D6E>
+        a                       crm:E65_Creation ;
+        rdfs:label              "Creation of doc List of ships, Cinquantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco, 1877-1878, , , , Matteo  Barbano" ;
+        crm:P14_carried_out_by  <http://www.sealit.gr/DB/person/6863B8C7-D4FB-3514-9F92-7C17F4484B44> ;
+        crm:P4_has_time-span    <urn:uuid:c0a6480b-7986-45a4-8847-fd2b230032f5> .
+
+<urn:uuid:11e8e076-eba7-49c3-96ed-1e7932d178b3>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Juno" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:8334c422-6a5a-41c0-9b28-cbd3b14c5761>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship/B4D1B638-B81E-302E-A2BC-410186E94FBF>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Hungaria" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/hungaria> ;
+        crm:P39i_was_measured_by   <urn:uuid:37856185-3719-46e1-a6d4-4173e25647ca> ;
+        crm:P70i_is_documented_in  <urn:uuid:c58245cc-0b1e-4695-a749-1b65fa25ecb0> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/243A74F9-B9E1-38B8-9CA0-8EBE1F19D683> ;
+        sealit:has_tonnage         <urn:uuid:3e0037e3-9cae-4b2c-958a-4d360b7ed842> ;
+        sealit:was_constructed_by  <urn:uuid:cb31d59b-bd5e-4fe8-82c7-405aa50782b9> .
+
+<urn:uuid:bb177b16-1757-4171-be8a-e1ece06bf850>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Argo" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/argo> .
+
+<urn:uuid:3988e966-996b-4cf5-85df-039d0105e82c>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:32ee4e9f-c6d4-4c18-8c81-a4cc5c7fd030>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Aurora" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/aurora> .
+
+<http://www.sealit.gr/DB/ship/052BE7B8-7EE0-345B-9C87-5BA4F5F6D2E4>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Arciduca Ferdinando Massimiliano" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/arciduca%20ferdinando%20massimiliano> ;
+        crm:P39i_was_measured_by   <urn:uuid:24290927-d221-4123-99ed-833042dcd914> ;
+        crm:P70i_is_documented_in  <urn:uuid:c1d9fd55-79c5-4607-9b5a-4ac2e19fc1ff> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/A169FA70-38CF-31BD-86FC-44D472B39D47> ;
+        sealit:has_tonnage         <urn:uuid:c3b726dc-1941-4630-b765-34ecd2063439> ;
+        sealit:was_constructed_by  <urn:uuid:14eb8908-fc0a-4c7b-afce-ca146cdf9454> .
+
+<http://www.sealit.gr/DB/inventory%20number/4238>
+        a           crm:E42_Identifier ;
+        rdfs:label  "4238" .
+
+<urn:uuid:6c775ff0-9c3f-4e18-96fe-221052da97da>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Jonio" ;
+        crm:P40_observed_dimension  <urn:uuid:2e93c50b-59f4-4671-b09a-dbff92be0da1> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:1f0d4a44-a1fe-4764-80d3-205c2a7b26a0>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Argo" ;
+        crm:P40_observed_dimension  <urn:uuid:af0873e8-aa16-49d5-84ba-a04a62f6ae34> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:aa5fa253-23bf-42e1-8311-5875d959f1fb>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Diana" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:39e58db8-e43f-49d1-a370-d875aa516f01>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship/A67B7881-7120-38C7-B4CD-4F031F8A8DB5>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Espero" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/espero> ;
+        crm:P39i_was_measured_by   <urn:uuid:57e134cc-87fd-45cc-8fd7-8a85045fc92b> ;
+        crm:P70i_is_documented_in  <urn:uuid:d7837f01-99eb-4ca7-9dd9-ffa1518fe0a9> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/A9B1FE34-E101-3DDB-9D77-64BC1DC6B34A> ;
+        sealit:has_tonnage         <urn:uuid:e348fe3e-ae84-484d-85cb-bef373b707b5> ;
+        sealit:was_constructed_by  <urn:uuid:3862b89d-e190-4726-b1f4-757f287da9a6> .
+
+<urn:uuid:eba13b70-e56d-4f68-8a97-a70b89fa7ded>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Polluce" ;
+        crm:P40_observed_dimension  <urn:uuid:6ba7334e-c935-4958-9f84-1dbe51d18746> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:7f234c16-f57b-47c4-8bac-bfc4ce49388a>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Ettore" ;
+        crm:P40_observed_dimension  <urn:uuid:9f5192c1-e64f-44f0-b580-50efa8fc21bc> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:073622e4-f967-4530-b3e6-de98d5d15e51>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Aquila Imperiale" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/aquila%20imperiale> .
+
+<urn:uuid:ab9bab3b-a5bb-4284-a3c8-36a41e2c4b45>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Achille" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "507500" .
+
+<urn:uuid:199a0624-8057-453d-af21-e408ca5a7331>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Yole" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "126900" .
+
+<urn:uuid:f822a1e9-2e01-4254-98ce-1e5c582e716d>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Pilade" ;
+        crm:P90_has_value  "900" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:40a869d3-0ec0-41ae-a671-07d2c35e26eb>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Tibisco" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "114700" .
+
+<urn:uuid:46126730-2143-4d76-9709-cadc7362605a>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Mars" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "298000" .
+
+<http://www.sealit.gr/DB/ship/243A74F9-B9E1-38B8-9CA0-8EBE1F19D683>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Mars" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/mars> ;
+        crm:P39i_was_measured_by   <urn:uuid:6807b22e-4fdd-4544-8697-e8be8529dfab> ;
+        crm:P70i_is_documented_in  <urn:uuid:3f26d8a2-5ca0-44ca-8dcb-1c0c5cbd8ad1> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/C7A93BA0-7E62-3C39-8885-B483CAF74D5C> ;
+        sealit:has_tonnage         <urn:uuid:d6b636b2-e1ae-40b0-b4b9-6ac185aae9a5> ;
+        sealit:was_constructed_by  <urn:uuid:d08959ee-1d8f-4141-90f2-97c049cc5fac> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/AE462AD9-5811-32A4-9C5E-88DE299B33AB>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Lario" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "100" .
+
+<urn:uuid:06bed97c-1959-423f-bc60-eb6cb81d623a>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Nil" ;
+        crm:P40_observed_dimension  <urn:uuid:0d1da272-0ced-4b61-94bd-042e51885327> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:ade40b0b-b778-4f3c-abb7-a8178f2f3c60>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Memfi" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/memfi> .
+
+<urn:uuid:812aaa35-92e3-45f9-8a3d-fb35772d9e35>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Ettore" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/ettore> .
+
+<urn:uuid:fa69ddb6-1dae-44b6-9645-823fd80144d2>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Ceres" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/ceres> .
+
+<urn:uuid:43cd00f4-ca98-45f0-9d98-aaf4a3b81a0f>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Najade" ;
+        crm:P40_observed_dimension  <urn:uuid:4a27a704-b3e0-421d-8860-59250ef2559e> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:81d22b93-8838-4cf7-acba-ab14a020dec1>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of San Giusto" ;
+        crm:P90_has_value  "350" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship%20name/saturno>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Saturno" .
+
+<urn:uuid:14eb8908-fc0a-4c7b-afce-ca146cdf9454>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Arciduca Ferdinando Massimiliano" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/arciduca%20ferdinando%20massimiliano> .
+
+<urn:uuid:1217ea73-01fe-470a-a35c-c13d8aa426ff>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Castore" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "485100" .
+
+<urn:uuid:68443737-0333-4f1b-95fd-7eadb9d9d5b8>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Laerte" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/laerte> .
+
+<http://www.sealit.gr/DB/ship/1E5026F8-BCAE-3342-9164-562E76C0D487>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Trieste" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/trieste> ;
+        crm:P39i_was_measured_by   <urn:uuid:9b9b2f7d-2e81-4bf8-8ca5-ad024fdbdd2a> ;
+        crm:P70i_is_documented_in  <urn:uuid:04322bb6-81d7-49b1-8c17-8897f7104724> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/A2EF9F5A-AA66-34EC-9C30-B0457DC9966C> ;
+        sealit:has_tonnage         <urn:uuid:7a612571-7870-47a5-bacd-c65f92f2a277> ;
+        sealit:was_constructed_by  <urn:uuid:ddab0cb7-56c8-42d1-bf1d-c0d8f0bcf689> .
+
+<urn:uuid:9e275baa-ff9f-4934-8fbb-9c600d6b9b53>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Flora" ;
+        crm:P90_has_value  "1200" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:d75e3e4e-5d68-4002-9ed2-18a57810ec28>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Fiume" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "10000" .
+
+<urn:uuid:43e604cd-a650-450e-a9a1-62dab772cda2>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Urano" ;
+        crm:P40_observed_dimension  <urn:uuid:59814148-e464-401e-9442-063fb44f6d35> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:5b83e627-e10a-4e24-84cd-352cd5a39ae8>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of San Carlo" ;
+        crm:P40_observed_dimension  <urn:uuid:3e24ca44-cbac-4f34-a795-dedb8d8cf3d7> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:7faacc49-ea22-4fc2-9aec-a4bd09f8c54d>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Aurora" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:a95bcaac-6f34-4946-8bdb-5ac74724cff0>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Saturno" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "259000" .
+
+<http://www.sealit.gr/DB/ship/E22A77AB-7013-368D-ADF8-EDB0FC825AF2>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Apis" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/apis> ;
+        crm:P39i_was_measured_by   <urn:uuid:2cf8c0a0-f651-40b4-ba46-0d855ab2b312> ;
+        crm:P70i_is_documented_in  <urn:uuid:3b5f89c9-71d2-4ee0-8a08-af3700897ffc> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/A67B7881-7120-38C7-B4CD-4F031F8A8DB5> ;
+        sealit:has_tonnage         <urn:uuid:b49d7946-0036-4fbc-86f7-b76293796d5c> ;
+        sealit:was_constructed_by  <urn:uuid:adbfcbdf-23ac-4f32-b2f5-4eb79823a470> .
+
+<urn:uuid:57e134cc-87fd-45cc-8fd7-8a85045fc92b>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Espero" ;
+        crm:P40_observed_dimension  <urn:uuid:48dc9b91-0890-4537-9c45-a685f56188c7> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:86bca08d-1166-49b9-a05d-9189d20e5d20>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Apollo" ;
+        crm:P40_observed_dimension  <urn:uuid:551e77b6-f697-465a-80c2-3fe7703bfc44> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:88559f3f-e0f0-4366-8bc0-22d0b28b5b2e>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:3da97269-c594-44aa-9b97-9ae99fd88241>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Stambul (2)" ;
+        crm:P90_has_value  "725" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:bd653c29-e028-4ad9-881c-828ebab7a19e>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:a54e230b-9a52-45d0-a073-2dfc574a791c>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Stambul (2)" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "10000" .
+
+<http://www.sealit.gr/DB/ship/A169FA70-38CF-31BD-86FC-44D472B39D47>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Progresso" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/progresso> ;
+        crm:P39i_was_measured_by   <urn:uuid:20d23c22-5a09-411f-958a-5699ed91b44c> ;
+        crm:P70i_is_documented_in  <urn:uuid:99435475-8ecc-4bc4-80c1-86203c2e0a38> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/3C1105E6-6110-306D-9EEC-09438E90C41B> ;
+        sealit:has_tonnage         <urn:uuid:8160dc0b-8c4a-45f6-8ec8-d0ee2eb7d6ef> ;
+        sealit:was_constructed_by  <urn:uuid:22fb1ee5-dbd9-4928-8a36-d924d4df0205> .
+
+<http://www.sealit.gr/DB/ship/2044347F-5E99-3408-BBB5-057BBDFAD316>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Said" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/said> ;
+        crm:P39i_was_measured_by   <urn:uuid:dd570772-4fd1-40fe-8786-c17a84e17b8e> ;
+        crm:P70i_is_documented_in  <urn:uuid:55cef3c2-20bd-42fb-9136-cea8846a09f6> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/650675F5-7CF3-364A-8CC2-8DE0A429DF3D> ;
+        sealit:has_tonnage         <urn:uuid:f64bfaba-3844-42ef-9bd9-242c3ce29fcf> ;
+        sealit:was_constructed_by  <urn:uuid:5ddace6b-0b06-468d-a4b4-7fca65e68247> .
+
+<http://www.sealit.gr/DB/ship%20name/thetis>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Thetis" .
+
+<urn:uuid:0d79d2f1-d5c7-4451-8e60-488e6316bdf0>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of San Giusto" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "8300" .
+
+<urn:uuid:bd60e592-e157-4576-96c5-578d846375df>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship/C1D4B7DB-5A82-31CD-B143-CB3B72402C57>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Thetis" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/thetis> ;
+        crm:P39i_was_measured_by   <urn:uuid:27b1e000-0f09-4732-8ccb-919bb51f33fb> ;
+        crm:P70i_is_documented_in  <urn:uuid:a5af0a4f-22aa-4e5a-b8af-4cea20bdd82d> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/AFFDDD90-465F-33F3-8419-1352AC152C78> ;
+        sealit:has_tonnage         <urn:uuid:09de5e4e-d6cc-4670-b466-acb2ac5bf822> ;
+        sealit:was_constructed_by  <urn:uuid:4886c53b-a8b9-4a89-98a6-dfdceb5aeec5> .
+
+<urn:uuid:8485c06e-fc3e-4bd0-87cd-df5131ec0d74>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:0d1da272-0ced-4b61-94bd-042e51885327>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Nil" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "77300" .
+
+<urn:uuid:0bd40393-5203-40bb-b2eb-55bf09e64f4a>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Aretusa" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "182400" .
+
+<http://www.sealit.gr/DB/ship/470A96AF-BBE1-38E4-9371-97123FB8AD76>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Urano" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/urano> ;
+        crm:P39i_was_measured_by   <urn:uuid:43e604cd-a650-450e-a9a1-62dab772cda2> ;
+        crm:P70i_is_documented_in  <urn:uuid:eeb2ffe2-7a48-4fe0-85cf-b75b8f5ca179> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/B4D1B638-B81E-302E-A2BC-410186E94FBF> ;
+        sealit:has_tonnage         <urn:uuid:4decb797-8914-4e5d-a478-962ef903351c> ;
+        sealit:was_constructed_by  <urn:uuid:e57747bc-208b-4937-a583-78f2bd4543d4> .
+
+<urn:uuid:3c69dd5d-0507-4370-a1bc-a77750d3b85a>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Oreste" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "177900" .
+
+<urn:uuid:22fb1ee5-dbd9-4928-8a36-d924d4df0205>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Progresso" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/progresso> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/78B78AD0-2980-386A-BBB4-D5A2D66F36D2>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Tibisco" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<urn:uuid:cfcac18c-12a5-4267-a496-a12a7bdf669c>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Iris" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/iris> .
+
+<urn:uuid:ee8383c6-d925-43bd-9244-008ef6fee01e>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Tebe" ;
+        crm:P40_observed_dimension  <urn:uuid:59e695e3-4e9e-4b41-965f-b1eedbf9e666> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship%20name/polluce>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Polluce" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/DAA45606-60B4-3FC0-A50D-C8261E17DB4D>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Apollo" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:a2acc8ea-0654-4908-9c61-26a278f34c50>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/538EFCE5-6A45-3C33-AC62-78FB037046F9>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Dido" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<http://www.sealit.gr/DB/ship%20name/pilade>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Pilade" .
+
+<http://www.sealit.gr/DB/person/6863B8C7-D4FB-3514-9F92-7C17F4484B44>
+        a                      crm:E21_Person ;
+        rdfs:label             "Matteo Barbano" ;
+        crm:P107i_is_current_or_former_member_of
+                <http://www.sealit.gr/DB/organisation/forth/ims%2C%20t.i.g./university%20of%20barcelona> ;
+        sealit:has_first_name  "Matteo" ;
+        sealit:has_last_name   "Barbano" .
+
+<http://www.sealit.gr/DB/ship%20name/san%20marco>
+        a           sealit:Ship_Name ;
+        rdfs:label  "San Marco" .
+
+<urn:uuid:c237bc4d-3e51-4e2f-bd81-f621534dd85f>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship%20name/ceres>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Ceres" .
+
+<http://www.sealit.gr/DB/ship%20name/san%20giusto>
+        a           sealit:Ship_Name ;
+        rdfs:label  "San Giusto" .
+
+<http://www.sealit.gr/DB/ship/0A7C6395-4A61-3664-80CC-09DF4C885632>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Galatea" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/galatea> ;
+        crm:P39i_was_measured_by   <urn:uuid:eb569bd7-5508-4169-9e04-ed0793f8fdf8> ;
+        crm:P70i_is_documented_in  <urn:uuid:3268ad9d-5bed-4868-beab-6c76d27a8a28> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/1A471931-249F-301F-8FB1-7C90757797BE> ;
+        sealit:has_tonnage         <urn:uuid:2e41da9e-12cc-4560-b0e6-e4ed37abfe4e> ;
+        sealit:was_constructed_by  <urn:uuid:0a235ab6-e721-47d7-ad26-04b6852e9667> .
+
+<http://www.sealit.gr/DB/ship%20name/milano>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Milano" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/392E858D-9311-3892-98E8-1C07BD6A7875>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Juno" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/2FAB6B27-39A9-3DD6-9BE2-1EE7594C62FD>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Sultan" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<urn:uuid:f17bd1bd-d1a4-45fa-8a71-d55f56361c6a>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:35fbbdd8-1e98-4d54-bf69-85504ee940e3>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Said" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "28100" .
+
+<http://www.sealit.gr/DB/organisation/civico%20museo%20del%20mare>
+        a                        crm:E40_Legal_Body ;
+        rdfs:label               "Civico Museo del Mare" ;
+        crm:P1_is_identified_by  <http://www.sealit.gr/DB/appellation/21C93E24-BBBC-3C7F-80B8-C62FF6A87318> ;
+        crm:P74_has_current_or_former_residence
+                <http://www.sealit.gr/DB/location/trieste> .
+
+<urn:uuid:ed2af714-e35d-48f0-a8d9-85ead73463aa>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:2d102b7c-5485-47d6-bc23-08b4276e60c2>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Mercur" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "29100" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/565D5F8D-8090-3E9E-924F-933B13CCF403>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Eolus" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "90" .
+
+<urn:uuid:dfea5db4-f90a-4339-b0a4-745f83168f66>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Jupiter" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "183400" .
+
+<http://www.sealit.gr/DB/ship%20name/vesta>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Vesta" .
+
+<urn:uuid:467ddc14-f1a0-4c34-add7-2b973fddb210>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Polluce" ;
+        crm:P90_has_value  "2600" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/9CD8E2A6-0635-36D1-B30E-70543A750A99>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Benaco" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "100" .
+
+<urn:uuid:b29b74ea-dfea-4c1f-b519-a19ccdf39583>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Calipso" ;
+        crm:P40_observed_dimension  <urn:uuid:5f3c70a0-df74-4a38-aa26-6d621fe447b1> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship/3FB6C8F8-8014-3FAA-99B1-7BBE5619858F>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Apollo" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/apollo> ;
+        crm:P39i_was_measured_by   <urn:uuid:86bca08d-1166-49b9-a05d-9189d20e5d20> ;
+        crm:P70i_is_documented_in  <urn:uuid:6ee5ffaf-c098-4ffa-b554-87a4bd2ae9a1> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/DAA45606-60B4-3FC0-A50D-C8261E17DB4D> ;
+        sealit:has_tonnage         <urn:uuid:b7f78e4f-73b9-4ed9-a523-c88ae6c38626> ;
+        sealit:was_constructed_by  <urn:uuid:5d8a8a63-c3a4-4a2b-ac9c-14713eb64c23> .
+
+<urn:uuid:4d3657e5-79fa-4972-a09c-7e2f5ac3b09a>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Najade" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/najade> .
+
+<http://www.sealit.gr/DB/ship%20name/said>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Said" .
+
+<http://www.sealit.gr/DB/ship/D06DA367-5629-337B-B158-C6DFAABD2D40>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship San Giusto" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/san%20giusto> ;
+        crm:P39i_was_measured_by   <urn:uuid:0116f119-5ec6-49f7-ac67-ffc342901b6e> ;
+        crm:P70i_is_documented_in  <urn:uuid:61f5ef39-4457-4754-b498-52e6f7ba68c9> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/46BECE09-DC74-3DC2-A8DC-622C2DBAC063> ;
+        sealit:has_tonnage         <urn:uuid:81d22b93-8838-4cf7-acba-ab14a020dec1> ;
+        sealit:was_constructed_by  <urn:uuid:d41df93a-7f86-4120-8f94-819aa0e4bcfe> .
+
+<urn:uuid:4886c53b-a8b9-4a89-98a6-dfdceb5aeec5>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Thetis" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/thetis> .
+
+<urn:uuid:ddabc4d1-ead9-4531-9aec-a5c0bd23fb2f>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Najade" ;
+        crm:P90_has_value  "800" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:d7837f01-99eb-4ca7-9dd9-ffa1518fe0a9>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:6fb69f44-ec1f-49ef-8860-c2c2d3a5d4e4>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:4d2f7f23-4ab1-4d6f-ab8e-74ff5abe99a5>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Saturno" ;
+        crm:P40_observed_dimension  <urn:uuid:a95bcaac-6f34-4946-8bdb-5ac74724cff0> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:b8108cf4-088d-4900-ad28-883ec1d60ec1>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Danubio (2)" ;
+        crm:P40_observed_dimension  <urn:uuid:52b46400-a7c0-47b2-9f25-387014d459b3> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/8914FD1E-A555-3579-96FE-386C91232C1D>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Polluce" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:285e5168-82ae-4574-b76d-15a06f280b56>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Galatea" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "320900" .
+
+<urn:uuid:64223e42-043f-4e39-ad82-ca0e4844c4ce>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Sultan" ;
+        crm:P90_has_value  "800" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship%20name/diana>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Diana" .
+
+<urn:uuid:9f5192c1-e64f-44f0-b580-50efa8fc21bc>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Ettore" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "507500" .
+
+<urn:uuid:53302e45-a9c8-467b-9cce-85b62d296fa8>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Venus" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/venus> .
+
+<urn:uuid:99f252ec-a51c-4986-9795-39c81e27dded>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Smirne" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "10000" .
+
+<http://www.sealit.gr/DB/ship%20name/dido>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Dido" .
+
+<urn:uuid:50420a44-9257-407a-8255-5bdb07934929>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Dido" ;
+        crm:P40_observed_dimension  <urn:uuid:a9e3ac36-d62c-4938-91d5-abf4963eefe5> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/3D630B15-81D1-36AF-8B20-D3A4F2112514>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Flora" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "180" .
+
+<urn:uuid:d5ca6651-8162-4209-bccb-0415fb915883>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Aquila Imperiale" ;
+        crm:P40_observed_dimension  <urn:uuid:76ac7cbd-10b5-4ea8-8e55-f3ee3d07009e> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:db969921-d61a-4d3c-b57d-69791409f4e4>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Delfino" ;
+        crm:P90_has_value  "800" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship%20name/progresso>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Progresso" .
+
+<urn:uuid:040e28f9-99f8-4708-82e9-f02e2ebef12e>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Oreste" ;
+        crm:P40_observed_dimension  <urn:uuid:3c69dd5d-0507-4370-a1bc-a77750d3b85a> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship%20name/eolus>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Eolus" .
+
+<http://www.sealit.gr/DB/ship%20name/hungaria>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Hungaria" .
+
+<http://www.sealit.gr/DB/ship/D3FC4130-1956-35A0-A684-F0EF85567DC6>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Pilade" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/pilade> ;
+        crm:P39i_was_measured_by   <urn:uuid:e380f342-c3b9-4128-9452-17bcce137595> ;
+        crm:P70i_is_documented_in  <urn:uuid:b15c0bd0-9e5b-40a6-b2f3-1be4d1d77fb9> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/8258946F-556B-3A27-A442-B0C41A707996> ;
+        sealit:has_tonnage         <urn:uuid:f822a1e9-2e01-4254-98ce-1e5c582e716d> ;
+        sealit:was_constructed_by  <urn:uuid:c2ae1153-b145-4d36-8b02-cbe2155117bb> .
+
+<http://www.sealit.gr/DB/ship%20name/fiume>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Fiume" .
+
+<urn:uuid:72e8b272-614b-408a-b53a-cfd9fc0dc8f4>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Laerte" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "14000" .
+
+<urn:uuid:5be1b600-2cc6-4ee2-b50e-62d7c880038d>
+        a                     crm:E33_Linguistic_Object ;
+        rdfs:label            "Content of doc Cinquantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco" ;
+        crm:P72_has_language  <http://www.sealit.gr/DB/language/italian%2C%20russian%2C%20spanish> .
+
+<urn:uuid:725fbcf0-5395-41d3-bd4d-7066a1191b9b>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Venus" ;
+        crm:P40_observed_dimension  <urn:uuid:d29a9647-ab93-4079-90fb-d7282f570635> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:51f56732-2619-4140-8541-b8ff430235d9>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Benaco" ;
+        crm:P40_observed_dimension  <urn:uuid:121e7150-2e52-495c-a105-4ed3658ee339> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:0501ff2c-1bdf-4296-af0e-7c11526a99f3>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship%20name/mercur>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Mercur" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/A2EF9F5A-AA66-34EC-9C30-B0457DC9966C>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Trieste" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "160" .
+
+<urn:uuid:63d1a10e-9f22-453c-aa65-d220cdd86611>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Tritone" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/tritone> .
+
+<urn:uuid:e473bdc1-5b87-4e47-bebc-8f352372debc>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Miramare" ;
+        crm:P90_has_value  "300" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/8258946F-556B-3A27-A442-B0C41A707996>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Pilade" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<http://www.sealit.gr/DB/ship/EB868F14-540F-35F0-95BB-996E0EB20858>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Miramare" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/miramare> ;
+        crm:P39i_was_measured_by   <urn:uuid:1675621c-6dd7-4eac-98d0-07bbf6cf1ff3> ;
+        crm:P70i_is_documented_in  <urn:uuid:88559f3f-e0f0-4366-8bc0-22d0b28b5b2e> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/3508F72C-EA0E-3349-A630-D9153A959788> ;
+        sealit:has_tonnage         <urn:uuid:e473bdc1-5b87-4e47-bebc-8f352372debc> ;
+        sealit:was_constructed_by  <urn:uuid:6d12edba-1101-416a-8c75-8a9654d37c67> .
+
+<urn:uuid:cb31d59b-bd5e-4fe8-82c7-405aa50782b9>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Hungaria" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/hungaria> .
+
+<urn:uuid:d29a9647-ab93-4079-90fb-d7282f570635>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Venus" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "284600" .
+
+<urn:uuid:aa039a26-c020-4b8b-903c-e0dc94639a6f>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:870c572a-ce7d-4b1f-87aa-1984e01af000>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Austria (2)" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/austria%20%282%29> .
+
+<urn:uuid:55ffc76b-3c49-4b3c-9ef4-a20ac1551bf1>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Jupiter" ;
+        crm:P40_observed_dimension  <urn:uuid:dfea5db4-f90a-4339-b0a4-745f83168f66> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:8160dc0b-8c4a-45f6-8ec8-d0ee2eb7d6ef>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Progresso" ;
+        crm:P90_has_value  "1350" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:47ccfb82-ef10-49e7-a8de-93c6a747532c>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:743652be-e916-4228-9be8-e060740fedb6>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/organisation/forth/ims%2C%20t.i.g./university%20of%20barcelona>
+        a           crm:E40_Legal_Body ;
+        rdfs:label  "FORTH/IMS, T.I.G./University of Barcelona" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/EE2DDF45-6591-3346-A940-663C48D69E60>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Smirne" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "160" .
+
+<http://www.sealit.gr/DB/ship%20name/venus>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Venus" .
+
+<http://www.sealit.gr/DB/ship/59D50D3A-C687-383F-9BB2-4F2EFE707A48>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Lucifer" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/lucifer> ;
+        crm:P39i_was_measured_by   <urn:uuid:f42f68d5-ad25-4d9c-a8ac-e020932f4fcd> ;
+        crm:P70i_is_documented_in  <urn:uuid:8334c422-6a5a-41c0-9b28-cbd3b14c5761> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/BD5A5324-9D55-32C0-AFA8-365008791290> ;
+        sealit:has_tonnage         <urn:uuid:568b0418-2c85-49da-a443-a5076097e0eb> ;
+        sealit:was_constructed_by  <urn:uuid:01bb0912-d3bf-4824-a1cd-3c23093b276f> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/3508F72C-EA0E-3349-A630-D9153A959788>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Miramare" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "120" .
+
+<urn:uuid:59e695e3-4e9e-4b41-965f-b1eedbf9e666>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Tebe" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "393100" .
+
+<urn:uuid:12ed3090-77fa-4edc-a359-a44ec711ed71>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Fiume" ;
+        crm:P90_has_value  "860" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship%20name_previous/barone%20burger>
+        a                sealit:Ship_Name ;
+        rdfs:label       "Barone Burger" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/ship%20names%20types/previous%20names> .
+
+<urn:uuid:f317f741-cbea-4dc3-9423-b599ca5c640b>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:337c7a38-0646-4b5d-ba05-3fa8331f2f79>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/8AD8E90F-DEB6-39EB-940B-5CE3AAECC776>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Delfino" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "120" .
+
+<http://www.sealit.gr/DB/ship%20name/oreste>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Oreste" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/A67B7881-7120-38C7-B4CD-4F031F8A8DB5>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Apis" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<urn:uuid:a729b494-f7bd-412b-a76c-b639200219c5>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Apis" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "223300" .
+
+<urn:uuid:6ba7334e-c935-4958-9f84-1dbe51d18746>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Polluce" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "535700" .
+
+<urn:uuid:7d75a122-eefa-47b9-b175-c28b53eb3358>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Memfi" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "330200" .
+
+<urn:uuid:a9f4c816-f3c7-4328-8777-e42229631681>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Saturno" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:dcfdeb82-5c14-4136-9b2b-cefe4b7e996d>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Sphinx" ;
+        crm:P40_observed_dimension  <urn:uuid:f11c43f4-c9fb-4b6d-b774-38cd60ac9d01> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/appellation/A3E2B115-F2FB-37A3-A826-4669C1C8540E>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Archivio del Lloyd Triestino" .
+
+<urn:uuid:121e7150-2e52-495c-a105-4ed3658ee339>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Benaco" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "23800" .
+
+<http://www.sealit.gr/DB/ship%20name/san%20carlo>
+        a           sealit:Ship_Name ;
+        rdfs:label  "San Carlo" .
+
+<http://www.sealit.gr/DB/ship%20name/aquila%20imperiale>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Aquila Imperiale" .
+
+<http://www.sealit.gr/DB/ship/64ECC445-A0D2-3665-B827-C162DC3849AA>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Venus" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/venus> ;
+        crm:P39i_was_measured_by   <urn:uuid:725fbcf0-5395-41d3-bd4d-7066a1191b9b> ;
+        crm:P70i_is_documented_in  <urn:uuid:6fb69f44-ec1f-49ef-8860-c2c2d3a5d4e4> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/2FF3624C-AA2F-3A31-8CAB-1D82E4A196E7> ;
+        sealit:has_tonnage         <urn:uuid:7422ce7f-97e2-41b5-a754-11609439f5c6> ;
+        sealit:was_constructed_by  <urn:uuid:53302e45-a9c8-467b-9cce-85b62d296fa8> .
+
+<http://www.sealit.gr/DB/horsepower%20types/nominal>
+        a           crm:E55_Type ;
+        rdfs:label  "nominal power" .
+
+<urn:uuid:9357138a-7a78-41d7-bd96-4024295996d5>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:a7684de9-61a8-4caa-b573-f2b1684479f1>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Danubio (2)" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/danubio%20%282%29> .
+
+<urn:uuid:6ddc201e-a9bb-4053-a852-9c5abfc4b0b5>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Vesta" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:cbb16bf4-64f2-45ce-afa9-b73fc2e47554>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Verbano" ;
+        crm:P90_has_value  "350" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:09de5e4e-d6cc-4670-b466-acb2ac5bf822>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Thetis" ;
+        crm:P90_has_value  "1000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:e88c4d6c-5422-4d1e-8a22-3af1dc358723>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Hebe" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "126900" .
+
+<urn:uuid:2cf8c0a0-f651-40b4-ba46-0d855ab2b312>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Apis" ;
+        crm:P40_observed_dimension  <urn:uuid:a729b494-f7bd-412b-a76c-b639200219c5> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship/D46598C3-8B78-33A7-AAF2-9DCFEFC64270>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Tebe" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/tebe> ;
+        crm:P39i_was_measured_by   <urn:uuid:ee8383c6-d925-43bd-9244-008ef6fee01e> ;
+        crm:P70i_is_documented_in  <urn:uuid:de4e645f-9f62-4509-b414-125a065051c5> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/8171D864-711A-3511-956F-56BC55856843> ;
+        sealit:has_tonnage         <urn:uuid:de927262-08e7-4d4e-8b53-e7ec26bd91c8> ;
+        sealit:was_constructed_by  <urn:uuid:9f8c7348-2720-4225-8c51-50099939d166> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/D718CAF3-813A-3288-976F-336D92E7B34A>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Saturno" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:ed5e4cf0-88dc-49b5-a55f-339251b908bf>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Ceres" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "252600" .
+
+<urn:uuid:b5bb7b57-d63b-4b90-a659-476a1c7d50de>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Aretusa" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/aretusa> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/E22A77AB-7013-368D-ADF8-EDB0FC825AF2>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Sphinx" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/83DB5A94-5407-3EA8-A280-AD6340123891>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Messina" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "120" .
+
+<urn:uuid:b7f78e4f-73b9-4ed9-a523-c88ae6c38626>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Apollo" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship%20name/nil>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Nil" .
+
+<urn:uuid:4db3be85-aa55-4cfa-96d8-620b25d2608f>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Minerva" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:3483bfd1-ce00-40b3-b6ee-46aad6973d51>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Achille" ;
+        crm:P90_has_value  "2200" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/A169FA70-38CF-31BD-86FC-44D472B39D47>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Arciduca Ferdinando Massimiliano" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:45fd5d90-f33e-406e-8599-d046e3cab261>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Iris" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "249100" .
+
+<urn:uuid:2e41da9e-12cc-4560-b0e6-e4ed37abfe4e>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Galatea" ;
+        crm:P90_has_value  "1200" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:e380f342-c3b9-4128-9452-17bcce137595>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Pilade" ;
+        crm:P40_observed_dimension  <urn:uuid:82c3b78e-d7be-4747-8ffb-00c0ac95c901> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:d446e5f0-8898-4d37-a870-64e134472f9d>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:0116f119-5ec6-49f7-ac67-ffc342901b6e>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of San Giusto" ;
+        crm:P40_observed_dimension  <urn:uuid:0d79d2f1-d5c7-4451-8e60-488e6316bdf0> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:59814148-e464-401e-9442-063fb44f6d35>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Urano" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "295400" .
+
+<urn:uuid:d08959ee-1d8f-4141-90f2-97c049cc5fac>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Mars" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/mars> .
+
+<urn:uuid:27b1e000-0f09-4732-8ccb-919bb51f33fb>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Thetis" ;
+        crm:P40_observed_dimension  <urn:uuid:34f20669-36b0-4294-9265-ecf94fbf0e93> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/location/trieste>
+        a           crm:E53_Place ;
+        rdfs:label  "Trieste" .
+
+<urn:uuid:c9f74758-f92c-47c5-a9e3-0ccdd5c8eba5>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/470A96AF-BBE1-38E4-9371-97123FB8AD76>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Vesta" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<http://www.sealit.gr/DB/ship/60B410AC-6E08-31DC-88E1-3A33752238D2>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Eolus" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/eolus> ;
+        crm:P39i_was_measured_by   <urn:uuid:f41661c5-16e0-4938-a4f9-448422aeb78c> ;
+        crm:P70i_is_documented_in  <urn:uuid:b919622c-b554-4c7b-a231-d0611125b362> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/565D5F8D-8090-3E9E-924F-933B13CCF403> ;
+        sealit:has_tonnage         <urn:uuid:72a63645-2b67-4ab1-91aa-a492a9eca8b8> ;
+        sealit:was_constructed_by  <urn:uuid:892d3626-d00c-40a1-9965-005faa1ebec3> .
+
+<urn:uuid:dd570772-4fd1-40fe-8786-c17a84e17b8e>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Said" ;
+        crm:P40_observed_dimension  <urn:uuid:35fbbdd8-1e98-4d54-bf69-85504ee940e3> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship%20name/benaco>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Benaco" .
+
+<urn:uuid:5d8a8a63-c3a4-4a2b-ac9c-14713eb64c23>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Apollo" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/apollo> .
+
+<urn:uuid:52b46400-a7c0-47b2-9f25-387014d459b3>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Danubio (2)" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "109100" .
+
+<urn:uuid:db2e02bb-7f52-4d4c-be5f-015ca0ff92ae>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Flora" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/flora> .
+
+<urn:uuid:c42f6466-a1f9-4558-af39-ab6774034284>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Hebe" ;
+        crm:P40_observed_dimension  <urn:uuid:e88c4d6c-5422-4d1e-8a22-3af1dc358723> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:f658cde7-addc-4cbc-8518-980b45ac8bcf>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Austria (2)" ;
+        crm:P40_observed_dimension  <urn:uuid:e26e208d-a76a-4e4e-b5fa-778d7a61db78> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:939b537d-2295-479a-8df3-4450c50b750b>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship/BD5A5324-9D55-32C0-AFA8-365008791290>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Mercur" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/mercur> ;
+        crm:P39i_was_measured_by   <urn:uuid:60160e37-92f2-4dd9-8bb4-8f472a9a6ba0> ;
+        crm:P70i_is_documented_in  <urn:uuid:d446e5f0-8898-4d37-a870-64e134472f9d> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/4D34108E-7BE3-386C-A7EE-726ACB115C99> ;
+        sealit:has_tonnage         <urn:uuid:5c126ec2-3bc1-463d-9c29-ac984c1a9503> ;
+        sealit:was_constructed_by  <urn:uuid:50cbd124-7af8-4810-a32a-dc821a5d6852> .
+
+<http://www.sealit.gr/DB/ship/46BECE09-DC74-3DC2-A8DC-622C2DBAC063>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Smirne" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/smirne> ;
+        crm:P39i_was_measured_by   <urn:uuid:f3274179-b2ea-48fe-b573-4fdd8d834c79> ;
+        crm:P70i_is_documented_in  <urn:uuid:a2acc8ea-0654-4908-9c61-26a278f34c50> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/EE2DDF45-6591-3346-A940-663C48D69E60> ;
+        sealit:has_tonnage         <urn:uuid:b8a80a87-f13f-475d-8548-fd688d78541f> ;
+        sealit:was_constructed_by  <urn:uuid:e009a642-9a3b-4556-a536-094f2b6ade88> .
+
+<urn:uuid:82c3b78e-d7be-4747-8ffb-00c0ac95c901>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Pilade" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "183800" .
+
+<urn:uuid:3b5f89c9-71d2-4ee0-8a08-af3700897ffc>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:e44931fe-e36b-47da-921d-faf84765d7fb>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Fiume" ;
+        crm:P40_observed_dimension  <urn:uuid:d75e3e4e-5d68-4002-9ed2-18a57810ec28> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/198D7992-392B-337D-861A-AA1BDD881EB2>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Minerva" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:c3b726dc-1941-4630-b765-34ecd2063439>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Arciduca Ferdinando Massimiliano" ;
+        crm:P90_has_value  "1060" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/EE96DDDE-F472-3C06-86DD-7623654FFAC4>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Najade" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/najade> ;
+        crm:P39i_was_measured_by   <urn:uuid:43cd00f4-ca98-45f0-9d98-aaf4a3b81a0f> ;
+        crm:P70i_is_documented_in  <urn:uuid:f317f741-cbea-4dc3-9423-b599ca5c640b> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/7A224FE1-5B37-33BD-86ED-9315B7579A3A> ;
+        sealit:has_tonnage         <urn:uuid:ddabc4d1-ead9-4531-9aec-a5c0bd23fb2f> ;
+        sealit:was_constructed_by  <urn:uuid:4d3657e5-79fa-4972-a09c-7e2f5ac3b09a> .
+
+<http://www.sealit.gr/DB/ship/1A471931-249F-301F-8FB1-7C90757797BE>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Aretusa" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/aretusa> ;
+        crm:P39i_was_measured_by   <urn:uuid:1c831257-b044-45e4-b3c4-ca05ee13b36c> ;
+        crm:P70i_is_documented_in  <urn:uuid:34bee4df-ef5c-4514-ac98-84e6fdd07325> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/1DE39CB2-315E-3D02-B3F4-81D8A045D499> ;
+        sealit:has_tonnage         <urn:uuid:96b8386d-6101-42df-922f-1cb51c5af8ad> ;
+        sealit:was_constructed_by  <urn:uuid:b5bb7b57-d63b-4b90-a659-476a1c7d50de> .
+
+<urn:uuid:34f20669-36b0-4294-9265-ecf94fbf0e93>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Thetis" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "238800" .
+
+<urn:uuid:0e8a6caf-ffbc-4e66-96f0-a96a93f50e2b>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Castore" ;
+        crm:P90_has_value  "2200" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:e91dadde-9bdd-4558-b2a5-5d6e895f03e3>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Vesta" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/vesta> .
+
+<http://www.sealit.gr/DB/ship%20name/arciduchessa%20carlotta>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Arciduchessa Carlotta" .
+
+<urn:uuid:5ffbc231-60d8-46db-b9c8-b968344ca590>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of San Marco" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/san%20marco> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/67594F21-55A9-3C15-AB16-F92E3B41C245>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Jonio" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "160" .
+
+<urn:uuid:1c831257-b044-45e4-b3c4-ca05ee13b36c>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Aretusa" ;
+        crm:P40_observed_dimension  <urn:uuid:0bd40393-5203-40bb-b2eb-55bf09e64f4a> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/doc%20types/book>
+        a           crm:E55_Type ;
+        rdfs:label  "Book" .
+
+<http://www.sealit.gr/DB/ship%20name/aretusa>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Aretusa" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/3FB6C8F8-8014-3FAA-99B1-7BBE5619858F>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Diana" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<http://www.sealit.gr/DB/ship/4D34108E-7BE3-386C-A7EE-726ACB115C99>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Arciduchessa Carlotta" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name_previous/arciduchessa%20carolina> , <http://www.sealit.gr/DB/ship%20name/arciduchessa%20carlotta> ;
+        crm:P39i_was_measured_by   <urn:uuid:8ff6dfbd-18d9-421d-b673-bf9a9e45f6f6> ;
+        crm:P70i_is_documented_in  <urn:uuid:743652be-e916-4228-9be8-e060740fedb6> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/052BE7B8-7EE0-345B-9C87-5BA4F5F6D2E4> ;
+        sealit:has_tonnage         <urn:uuid:42cafe2e-ba1a-4cd5-aea6-7eb0d75eca44> ;
+        sealit:was_constructed_by  <urn:uuid:a191000b-6197-421a-8765-36ad7dfafde8> .
+
+<http://www.sealit.gr/DB/ship%20name/castore>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Castore" .
+
+<http://www.sealit.gr/DB/currency/fiorini>
+        a           sealit:E98_Currency ;
+        rdfs:label  "fiorini" .
+
+<urn:uuid:91bc3e81-b20c-4e89-ac71-b2be5229a4f2>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Arciduchessa Carlotta" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "10000" .
+
+<urn:uuid:5d14e9d5-aff2-412e-ac7d-7c9f632f7596>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Arciduca Ferdinando Massimiliano" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "10000" .
+
+<urn:uuid:6fcc5c3c-0b18-4cf1-8108-41c2ab04cb62>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Oreste" ;
+        crm:P90_has_value  "900" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/A9B1FE34-E101-3DDB-9D77-64BC1DC6B34A>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Aurora" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/aurora> ;
+        crm:P39i_was_measured_by   <urn:uuid:2f0e3cd0-874c-4e72-aba7-092f49e2b8ba> ;
+        crm:P70i_is_documented_in  <urn:uuid:c9f74758-f92c-47c5-a9e3-0ccdd5c8eba5> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/64ECC445-A0D2-3665-B827-C162DC3849AA> ;
+        sealit:has_tonnage         <urn:uuid:7faacc49-ea22-4fc2-9aec-a4bd09f8c54d> ;
+        sealit:was_constructed_by  <urn:uuid:32ee4e9f-c6d4-4c18-8c81-a4cc5c7fd030> .
+
+<urn:uuid:4e794c1b-6f23-4eb6-8a33-833b9737c144>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:549bffa3-4cd1-4b44-9f62-61b86c7caa7e>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship/34D96D0F-85CF-3FF8-87E3-789E6BDABADD>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship San Carlo" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/san%20carlo> ;
+        crm:P39i_was_measured_by   <urn:uuid:5b83e627-e10a-4e24-84cd-352cd5a39ae8> ;
+        crm:P70i_is_documented_in  <urn:uuid:57599b8c-6186-43af-956b-15ed223e0beb> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/9DDCBEF6-C9FE-39D6-8C3F-87BF9AC5D9C5> ;
+        sealit:has_tonnage         <urn:uuid:09a1e575-df0b-432a-bb22-a3f300c1e064> ;
+        sealit:was_constructed_by  <urn:uuid:70cc2813-c2d1-4b51-81be-6f9cc3e70854> .
+
+<urn:uuid:9e329258-0a0b-43d2-a2ca-648233f698ae>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Flora" ;
+        crm:P40_observed_dimension  <urn:uuid:0e411f2e-9898-45b0-8d74-20edd927924a> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:dab209b3-e2f3-4447-b81b-af0dcb176211>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Vesta" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "291100" .
+
+<urn:uuid:4ba89a7f-2af3-449f-a512-97c47a5f4646>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Verbano" ;
+        crm:P40_observed_dimension  <urn:uuid:2a67ccb4-2232-487b-b9f0-0befe26192ce> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship/22022B53-4E55-37EB-8063-33A48C15AF68>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Memfi" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/memfi> ;
+        crm:P39i_was_measured_by   <urn:uuid:57af247b-4f6a-4406-a768-df00a78a709f> ;
+        crm:P70i_is_documented_in  <urn:uuid:ea3cd800-777f-48c3-b9f6-c827f2e5bf72> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/0A7C6395-4A61-3664-80CC-09DF4C885632> ;
+        sealit:has_tonnage         <urn:uuid:b3088e56-230e-4ad6-9780-a51e0f8afd8a> ;
+        sealit:was_constructed_by  <urn:uuid:ade40b0b-b778-4f3c-abb7-a8178f2f3c60> .
+
+<urn:uuid:70cc2813-c2d1-4b51-81be-6f9cc3e70854>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of San Carlo" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/san%20carlo> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/AFFDDD90-465F-33F3-8419-1352AC152C78>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Thetis" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "180" .
+
+<urn:uuid:e26e208d-a76a-4e4e-b5fa-778d7a61db78>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Austria (2)" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "281900" .
+
+<http://www.sealit.gr/DB/ship%20name/jupiter>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Jupiter" .
+
+<urn:uuid:238c0370-107c-4122-823f-1f74ddd87580>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Tritone" ;
+        crm:P40_observed_dimension  <urn:uuid:88a210d9-3595-4deb-a9c2-f92ac95ce607> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship%20name/delfino>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Delfino" .
+
+<urn:uuid:da5d37ee-a09a-43ff-a50f-3b7058c01875>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Tibisco" ;
+        crm:P40_observed_dimension  <urn:uuid:40a869d3-0ec0-41ae-a671-07d2c35e26eb> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/51F646D5-6583-357A-9149-10190A0FDEB2>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Ceres" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<http://www.sealit.gr/DB/ship%20name/urano>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Urano" .
+
+<urn:uuid:76ac7cbd-10b5-4ea8-8e55-f3ee3d07009e>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Aquila Imperiale" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "73700" .
+
+<urn:uuid:50d8875f-9603-4590-bd06-13855e86006c>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Lario" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/lario> .
+
+<urn:uuid:d651e66d-6b6c-46c6-a8f7-370a383cbde2>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Calipso" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/calipso> .
+
+<urn:uuid:f11c43f4-c9fb-4b6d-b774-38cd60ac9d01>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Sphinx" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "226400" .
+
+<urn:uuid:3e24ca44-cbac-4f34-a795-dedb8d8cf3d7>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of San Carlo" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "8000" .
+
+<http://www.sealit.gr/DB/ship%20names%20types/previous%20names>
+        a           crm:E55_Type ;
+        rdfs:label  "previous names" .
+
+<http://www.sealit.gr/DB/ship%20name/miramare>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Miramare" .
+
+<urn:uuid:a119b369-6ad2-4844-bc61-36255e4e5353>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:3268ad9d-5bed-4868-beab-6c76d27a8a28>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:50b1d911-5a12-45ef-bda0-6ebfa25471b2>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Messina" ;
+        crm:P40_observed_dimension  <urn:uuid:f2617ef8-e808-416e-9ca5-232c2f0dae8d> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:f2617ef8-e808-416e-9ca5-232c2f0dae8d>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Messina" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "8000" .
+
+<urn:uuid:3aa679b1-8111-4058-9d3d-bd1162d7ef45>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Sphinx" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/sphinx> .
+
+<urn:uuid:7859f7a2-a450-434a-97af-d266bb5be230>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship/2BC444EE-15EC-385F-9F89-7711C03F49C4>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Delfino" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/delfino> ;
+        crm:P39i_was_measured_by   <urn:uuid:17b9800d-fad8-49d6-823f-ed00a236b9e4> ;
+        crm:P70i_is_documented_in  <urn:uuid:bd653c29-e028-4ad9-881c-828ebab7a19e> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/8AD8E90F-DEB6-39EB-940B-5CE3AAECC776> ;
+        sealit:has_tonnage         <urn:uuid:db969921-d61a-4d3c-b57d-69791409f4e4> ;
+        sealit:was_constructed_by  <urn:uuid:29501514-8c8e-4ed4-9df4-3a52ac515e95> .
+
+<http://www.sealit.gr/DB/ship%20name/jonio>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Jonio" .
+
+<urn:uuid:8a344157-c881-4d43-bbb9-fa996dacd6a9>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:a6f368ba-d7f9-4b6d-8cf7-e4267582317c>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Aquila Imperiale" ;
+        crm:P90_has_value  "1350" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/8171D864-711A-3511-956F-56BC55856843>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Dido" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/dido> ;
+        crm:P39i_was_measured_by   <urn:uuid:50420a44-9257-407a-8255-5bdb07934929> ;
+        crm:P70i_is_documented_in  <urn:uuid:aa039a26-c020-4b8b-903c-e0dc94639a6f> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/538EFCE5-6A45-3C33-AC62-78FB037046F9> ;
+        sealit:has_tonnage         <urn:uuid:5c8fd85a-7b7c-4c53-89d1-97a74608ced7> ;
+        sealit:was_constructed_by  <urn:uuid:f0fc5662-7f1f-4983-9bee-da2ce5bcc360> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/EB868F14-540F-35F0-95BB-996E0EB20858>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Aquila Imperiale" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:24290927-d221-4123-99ed-833042dcd914>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Arciduca Ferdinando Massimiliano" ;
+        crm:P40_observed_dimension  <urn:uuid:5d14e9d5-aff2-412e-ac7d-7c9f632f7596> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:afb14f12-1d3e-4135-82af-02862533eacd>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Polluce" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/polluce> .
+
+<urn:uuid:a055d93f-8fb8-4700-a54d-dae4b4b68daf>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Delfino" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "261800" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/9DDCBEF6-C9FE-39D6-8C3F-87BF9AC5D9C5>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of San Carlo" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "100" .
+
+<urn:uuid:1e21d9ae-7c33-48e4-a242-9f1af202f441>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Ceres" ;
+        crm:P40_observed_dimension  <urn:uuid:ed5e4cf0-88dc-49b5-a55f-339251b908bf> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship%20name/aurora>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Aurora" .
+
+<urn:uuid:6807b22e-4fdd-4544-8697-e8be8529dfab>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Mars" ;
+        crm:P40_observed_dimension  <urn:uuid:46126730-2143-4d76-9709-cadc7362605a> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship/5966B631-27BB-3E3E-B33F-4CB9B1AD795F>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Messina" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/messina> ;
+        crm:P39i_was_measured_by   <urn:uuid:50b1d911-5a12-45ef-bda0-6ebfa25471b2> ;
+        crm:P70i_is_documented_in  <urn:uuid:cda162cb-1f1a-4dcd-bdf0-e7d1ad8908c4> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/83DB5A94-5407-3EA8-A280-AD6340123891> ;
+        sealit:has_tonnage         <urn:uuid:7ba9262b-1e31-4c47-af4e-7115cdf48d92> ;
+        sealit:was_constructed_by  <urn:uuid:3858c4ef-0a66-4ce1-bb74-6fa01695f072> .
+
+<urn:uuid:1215392c-a3b8-41a3-a026-282bbcc3bc8f>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Juno" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "183400" .
+
+<urn:uuid:54d4ef80-4550-4ef0-914f-3b2a323b7783>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Diana" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/diana> .
+
+<urn:uuid:d41df93a-7f86-4120-8f94-819aa0e4bcfe>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of San Giusto" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/san%20giusto> .
+
+<urn:uuid:96b8386d-6101-42df-922f-1cb51c5af8ad>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Aretusa" ;
+        crm:P90_has_value  "1200" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:ea3cd800-777f-48c3-b9f6-c827f2e5bf72>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship%20name/austria%20%282%29>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Austria (2)" .
+
+<urn:uuid:cede1b9f-f1f5-4d4f-bb3a-17011d21bc61>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Progresso" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "67300" .
+
+<urn:uuid:4a27a704-b3e0-421d-8860-59250ef2559e>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Najade" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "273500" .
+
+<urn:uuid:f64bfaba-3844-42ef-9bd9-242c3ce29fcf>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Said" ;
+        crm:P90_has_value  "800" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/4E4DF8A7-DE42-35D5-B1DA-82AB89FCE98D>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Nil" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<urn:uuid:c1d9fd55-79c5-4607-9b5a-4ac2e19fc1ff>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/B4D1B638-B81E-302E-A2BC-410186E94FBF>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Urano" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:37856185-3719-46e1-a6d4-4173e25647ca>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Hungaria" ;
+        crm:P40_observed_dimension  <urn:uuid:176859c2-123e-46c4-ac46-c3ff471e1b83> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:42cafe2e-ba1a-4cd5-aea6-7eb0d75eca44>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Arciduchessa Carlotta" ;
+        crm:P90_has_value  "1060" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:d6e81325-e734-4d03-a4b9-5ca144b77ba8>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:5c7d27a2-5825-46c9-9d05-568037eec984>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Jupiter" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/jupiter> .
+
+<urn:uuid:5f3c70a0-df74-4a38-aa26-6d621fe447b1>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Calipso" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "309100" .
+
+<http://www.sealit.gr/DB/ship%20name/iris>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Iris" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/052BE7B8-7EE0-345B-9C87-5BA4F5F6D2E4>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Arciduchessa Carlotta" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<http://www.sealit.gr/DB/ship%20name/sphinx>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Sphinx" .
+
+<urn:uuid:568b0418-2c85-49da-a443-a5076097e0eb>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Lucifer" ;
+        crm:P90_has_value  "730" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/64ECC445-A0D2-3665-B827-C162DC3849AA>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Aurora" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<http://www.sealit.gr/DB/ship/BFC8393E-966F-3DC8-89EE-CFD82CD06B58>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Achille" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/achille> ;
+        crm:P39i_was_measured_by   <urn:uuid:4164b56d-66bd-4c57-a229-5138df500365> ;
+        crm:P70i_is_documented_in  <urn:uuid:39e58db8-e43f-49d1-a370-d875aa516f01> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/4726E8DD-1FC1-330B-BB7C-7B0B608270F2> ;
+        sealit:has_tonnage         <urn:uuid:3483bfd1-ce00-40b3-b6ee-46aad6973d51> ;
+        sealit:was_constructed_by  <urn:uuid:bec08002-eac4-4fee-8c70-b6acff4c72b2> .
+
+<urn:uuid:e9e96197-3932-4b04-9c2a-198c92de9cd5>
+        a                     crm:E65_Creation ;
+        rdfs:label            "Publication of doc Cinquantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco" ;
+        crm:P2_has_type       <http://www.sealit.gr/DB/creation%20type/publication> ;
+        crm:P4_has_time-span  <urn:uuid:b2498943-0a73-4d12-9644-986cc301d5a1> .
+
+<urn:uuid:3f26d8a2-5ca0-44ca-8dcb-1c0c5cbd8ad1>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship/4726E8DD-1FC1-330B-BB7C-7B0B608270F2>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Polluce" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/polluce> ;
+        crm:P39i_was_measured_by   <urn:uuid:eba13b70-e56d-4f68-8a97-a70b89fa7ded> ;
+        crm:P70i_is_documented_in  <urn:uuid:fe2740f1-e60d-4541-882c-0e5af48b5d21> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/8914FD1E-A555-3579-96FE-386C91232C1D> ;
+        sealit:has_tonnage         <urn:uuid:467ddc14-f1a0-4c34-add7-2b973fddb210> ;
+        sealit:was_constructed_by  <urn:uuid:afb14f12-1d3e-4135-82af-02862533eacd> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/243A74F9-B9E1-38B8-9CA0-8EBE1F19D683>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Hungaria" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/D46598C3-8B78-33A7-AAF2-9DCFEFC64270>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Castore" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:4decb797-8914-4e5d-a478-962ef903351c>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Urano" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:1bcde1a2-0691-48d7-b0e0-9dbafa4de83d>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Argo" ;
+        crm:P90_has_value  "1500" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/1E5026F8-BCAE-3342-9164-562E76C0D487>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Fiume" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "160" .
+
+<http://www.sealit.gr/DB/ship/B87023C9-E305-3357-8736-DFBDA45F9420>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Nil" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/nil> ;
+        crm:P39i_was_measured_by   <urn:uuid:06bed97c-1959-423f-bc60-eb6cb81d623a> ;
+        crm:P70i_is_documented_in  <urn:uuid:4c196076-5a60-4b6a-8faa-0e1138e71d26> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/4E4DF8A7-DE42-35D5-B1DA-82AB89FCE98D> ;
+        sealit:has_tonnage         <urn:uuid:b82a9682-f744-444d-9278-f19b8fda4488> ;
+        sealit:was_constructed_by  <urn:uuid:04965b9c-b35e-4043-b2aa-6cb52660b9b0> .
+
+<urn:uuid:f42f68d5-ad25-4d9c-a8ac-e020932f4fcd>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Lucifer" ;
+        crm:P40_observed_dimension  <urn:uuid:45a04ee1-aca5-4762-95ac-baabcd2c0975> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship/650675F5-7CF3-364A-8CC2-8DE0A429DF3D>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Diana" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/diana> ;
+        crm:P39i_was_measured_by   <urn:uuid:5ecdf91f-dcf5-40cb-b8e5-bb0a8f3da3d7> ;
+        crm:P70i_is_documented_in  <urn:uuid:67965162-3a1b-4d7c-a9ef-44fc2966b281> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/3FB6C8F8-8014-3FAA-99B1-7BBE5619858F> ;
+        sealit:has_tonnage         <urn:uuid:aa5fa253-23bf-42e1-8311-5875d959f1fb> ;
+        sealit:was_constructed_by  <urn:uuid:54d4ef80-4550-4ef0-914f-3b2a323b7783> .
+
+<http://www.sealit.gr/DB/ship%20name/yole>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Yole" .
+
+<urn:uuid:c75e5b85-01f0-4185-9713-489272aa510d>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Sphinx" ;
+        crm:P90_has_value  "1200" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/creation%20type/publication>
+        a           crm:E55_Type ;
+        rdfs:label  "publication" .
+
+<urn:uuid:2ae45e3a-9da8-4fb4-aaf8-d5fc86d68f2a>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Calipso" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:613d33ae-5c78-4b63-b4fe-26d7494f53ea>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Miramare" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "8000" .
+
+<http://www.sealit.gr/DB/updated_value_timespan/1878>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Updated value for time period 1878" ;
+        crm:P82_at_some_time_within  "1878" .
+
+<urn:uuid:72a63645-2b67-4ab1-91aa-a492a9eca8b8>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Eolus" ;
+        crm:P90_has_value  "470" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship%20name/apis>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Apis" .
+
+<urn:uuid:61cac881-f75c-4e4b-b6f0-e4b950727785>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Iris" ;
+        crm:P90_has_value  "1000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/2044347F-5E99-3408-BBB5-057BBDFAD316>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Danubio (2)" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<urn:uuid:b750e9fc-c732-4fba-a6be-375a39b7242b>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:44f26d0a-eef2-4755-add2-a7287ab99e22>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Tritone" ;
+        crm:P90_has_value  "800" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:1675621c-6dd7-4eac-98d0-07bbf6cf1ff3>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Miramare" ;
+        crm:P40_observed_dimension  <urn:uuid:613d33ae-5c78-4b63-b4fe-26d7494f53ea> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship%20name_previous/arciduca%20federico>
+        a                sealit:Ship_Name ;
+        rdfs:label       "Arciduca Federico" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/ship%20names%20types/previous%20names> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/C1D4B7DB-5A82-31CD-B143-CB3B72402C57>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Iris" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "180" .
+
+<urn:uuid:5e6ff799-d11d-4759-865d-f3b99db7c386>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:8ff6dfbd-18d9-421d-b673-bf9a9e45f6f6>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Arciduchessa Carlotta" ;
+        crm:P40_observed_dimension  <urn:uuid:91bc3e81-b20c-4e89-ac71-b2be5229a4f2> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:3e0037e3-9cae-4b2c-958a-4d360b7ed842>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Hungaria" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:69ded52b-aa6c-4e36-8a94-ab54a856fa8e>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:67965162-3a1b-4d7c-a9ef-44fc2966b281>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship%20name/galatea>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Galatea" .
+
+<http://www.sealit.gr/DB/ship/AE462AD9-5811-32A4-9C5E-88DE299B33AB>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Verbano" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/verbano> ;
+        crm:P39i_was_measured_by   <urn:uuid:4ba89a7f-2af3-449f-a512-97c47a5f4646> ;
+        crm:P70i_is_documented_in  <urn:uuid:c6079b53-2792-4502-8809-9f53630c9805> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/34D96D0F-85CF-3FF8-87E3-789E6BDABADD> ;
+        sealit:has_tonnage         <urn:uuid:cbb16bf4-64f2-45ce-afa9-b73fc2e47554> ;
+        sealit:was_constructed_by  <urn:uuid:388e38a3-23f1-4e57-90d8-115652a7aeb4> .
+
+<http://www.sealit.gr/DB/template%20types/list%20of%20ships>
+        a           crm:E55_Type ;
+        rdfs:label  "list of ships" .
+
+<urn:uuid:7a612571-7870-47a5-bacd-c65f92f2a277>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Trieste" ;
+        crm:P90_has_value  "450" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/BD5A5324-9D55-32C0-AFA8-365008791290>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Lucifer" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "200" .
+
+<urn:uuid:9b9b2f7d-2e81-4bf8-8ca5-ad024fdbdd2a>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Trieste" ;
+        crm:P40_observed_dimension  <urn:uuid:2add2fdb-84d0-401a-9e80-2bfdaf7047b8> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:b82a9682-f744-444d-9278-f19b8fda4488>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Nil" ;
+        crm:P90_has_value  "800" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:55cef3c2-20bd-42fb-9136-cea8846a09f6>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:5ff93bd3-924b-416e-9f4b-f2d13bd4d12b>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Fiume" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/fiume> .
+
+<http://www.sealit.gr/DB/ship%20name/tibisco>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Tibisco" .
+
+<urn:uuid:2f0e3cd0-874c-4e72-aba7-092f49e2b8ba>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Aurora" ;
+        crm:P40_observed_dimension  <urn:uuid:a913e8c2-7676-46df-9124-96705510a80e> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:57599b8c-6186-43af-956b-15ed223e0beb>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:6ee5ffaf-c098-4ffa-b554-87a4bd2ae9a1>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:7fa8204f-e94c-4b14-ba01-a08d9938ee7f>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Castore" ;
+        crm:P40_observed_dimension  <urn:uuid:1217ea73-01fe-470a-a35c-c13d8aa426ff> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:faaf336e-c555-4818-8831-36770659317b>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Juno" ;
+        crm:P40_observed_dimension  <urn:uuid:1215392c-a3b8-41a3-a026-282bbcc3bc8f> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:e348fe3e-ae84-484d-85cb-bef373b707b5>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Espero" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/0A7C6395-4A61-3664-80CC-09DF4C885632>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Memfi" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "180" .
+
+<urn:uuid:806daf54-b937-4179-808a-084c137d8fed>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:de927262-08e7-4d4e-8b53-e7ec26bd91c8>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Tebe" ;
+        crm:P90_has_value  "1400" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:a191000b-6197-421a-8765-36ad7dfafde8>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Arciduchessa Carlotta" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/arciduchessa%20carlotta> .
+
+<http://www.sealit.gr/DB/ship%20name/juno>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Juno" .
+
+<urn:uuid:1ab35211-bca7-4e43-9fbf-5dd2287805f4>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate>
+        a           crm:E58_Measurement_Unit ;
+        rdfs:label  "Portata in tonnellate" .
+
+<http://www.sealit.gr/DB/doc%20types/page>
+        a           crm:E55_Type ;
+        rdfs:label  "page" .
+
+<urn:uuid:e288512a-3861-42d4-8580-5ba32b247697>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship/0DCBD692-E008-337E-B677-4B751A07D8DD>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Argo" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/argo> ;
+        crm:P39i_was_measured_by   <urn:uuid:1f0d4a44-a1fe-4764-80d3-205c2a7b26a0> ;
+        crm:P70i_is_documented_in  <urn:uuid:2edff81f-b436-41fe-a49e-53025b6150d3> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/EE96DDDE-F472-3C06-86DD-7623654FFAC4> ;
+        sealit:has_tonnage         <urn:uuid:1bcde1a2-0691-48d7-b0e0-9dbafa4de83d> ;
+        sealit:was_constructed_by  <urn:uuid:bb177b16-1757-4171-be8a-e1ece06bf850> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/D06DA367-5629-337B-B158-C6DFAABD2D40>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of San Marco" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "100" .
+
+<urn:uuid:c6079b53-2792-4502-8809-9f53630c9805>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship/78B78AD0-2980-386A-BBB4-D5A2D66F36D2>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Danubio (2)" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/danubio%20%282%29> ;
+        crm:P39i_was_measured_by   <urn:uuid:b8108cf4-088d-4900-ad28-883ec1d60ec1> ;
+        crm:P70i_is_documented_in  <urn:uuid:5e6ff799-d11d-4759-865d-f3b99db7c386> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/2044347F-5E99-3408-BBB5-057BBDFAD316> ;
+        sealit:has_tonnage         <urn:uuid:4dba004d-7a12-4ddb-8a94-4ddb799d7b12> ;
+        sealit:was_constructed_by  <urn:uuid:a7684de9-61a8-4caa-b573-f2b1684479f1> .
+
+<urn:uuid:551e77b6-f697-465a-80c2-3fe7703bfc44>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Apollo" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "217800" .
+
+<http://www.sealit.gr/DB/ship%20name/argo>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Argo" .
+
+<http://www.sealit.gr/DB/ship/DAA45606-60B4-3FC0-A50D-C8261E17DB4D>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Minerva" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/minerva> ;
+        crm:P39i_was_measured_by   <urn:uuid:97b0670a-446c-4800-a5a6-1a220100698e> ;
+        crm:P70i_is_documented_in  <urn:uuid:8a344157-c881-4d43-bbb9-fa996dacd6a9> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/198D7992-392B-337D-861A-AA1BDD881EB2> ;
+        sealit:has_tonnage         <urn:uuid:4db3be85-aa55-4cfa-96d8-620b25d2608f> ;
+        sealit:was_constructed_by  <urn:uuid:33caaa85-8446-48e7-8240-a8641364573c> .
+
+<urn:uuid:f41661c5-16e0-4938-a4f9-448422aeb78c>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Eolus" ;
+        crm:P40_observed_dimension  <urn:uuid:73fb8293-7de7-4470-8b3c-affffa6da41d> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship%20name/minerva>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Minerva" .
+
+<http://www.sealit.gr/DB/ship%20name/malta>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Malta" .
+
+<urn:uuid:eeb2ffe2-7a48-4fe0-85cf-b75b8f5ca179>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship%20name/achille>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Achille" .
+
+<urn:uuid:1cf688ad-8725-4617-9065-8fa589ee4ff4>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Ettore" ;
+        crm:P90_has_value  "2200" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:4164b56d-66bd-4c57-a229-5138df500365>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Achille" ;
+        crm:P40_observed_dimension  <urn:uuid:ab9bab3b-a5bb-4284-a3c8-36a41e2c4b45> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/8171D864-711A-3511-956F-56BC55856843>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Tebe" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "180" .
+
+<urn:uuid:70fb7ceb-53c0-460d-bd73-56f4bfe5823e>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Stambul (2)" ;
+        crm:P40_observed_dimension  <urn:uuid:a54e230b-9a52-45d0-a073-2dfc574a791c> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:e8f4a555-7878-4aa7-bce7-184394277b74>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Vesta" ;
+        crm:P40_observed_dimension  <urn:uuid:dab209b3-e2f3-4447-b81b-af0dcb176211> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:97b0670a-446c-4800-a5a6-1a220100698e>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Minerva" ;
+        crm:P40_observed_dimension  <urn:uuid:fedac97c-5974-4afc-8404-604953079141> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:49b3c4dd-c7dd-4cb0-865c-09345058d718>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:5ecdf91f-dcf5-40cb-b8e5-bb0a8f3da3d7>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Diana" ;
+        crm:P40_observed_dimension  <urn:uuid:ce99df7f-7a72-4ee5-a252-25756b3f3c48> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/7EE24508-E970-3776-8D02-0815E27D2D09>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Milano" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "160" .
+
+<http://www.sealit.gr/DB/ship/7A224FE1-5B37-33BD-86ED-9315B7579A3A>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Tritone" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/tritone> ;
+        crm:P39i_was_measured_by   <urn:uuid:238c0370-107c-4122-823f-1f74ddd87580> ;
+        crm:P70i_is_documented_in  <urn:uuid:47ccfb82-ef10-49e7-a8de-93c6a747532c> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/2BC444EE-15EC-385F-9F89-7711C03F49C4> ;
+        sealit:has_tonnage         <urn:uuid:44f26d0a-eef2-4755-add2-a7287ab99e22> ;
+        sealit:was_constructed_by  <urn:uuid:63d1a10e-9f22-453c-aa65-d220cdd86611> .
+
+<http://www.sealit.gr/DB/ship%20name/sultan>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Sultan" .
+
+<urn:uuid:a5af0a4f-22aa-4e5a-b8af-4cea20bdd82d>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship%20name/espero>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Espero" .
+
+<http://www.sealit.gr/DB/nominal_horsepower/D3FC4130-1956-35A0-A684-F0EF85567DC6>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Oreste" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "150" .
+
+<http://www.sealit.gr/DB/ship%20name/laerte>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Laerte" .
+
+<http://www.sealit.gr/DB/ship/392E858D-9311-3892-98E8-1C07BD6A7875>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Jupiter" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/jupiter> ;
+        crm:P39i_was_measured_by   <urn:uuid:55ffc76b-3c49-4b3c-9ef4-a20ac1551bf1> ;
+        crm:P70i_is_documented_in  <urn:uuid:4e794c1b-6f23-4eb6-8a33-833b9737c144> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/CCF55BD3-0C5F-3E91-BDB6-1A662CEFFF69> ;
+        sealit:has_tonnage         <urn:uuid:81d52b55-8862-4f96-91ac-d34679a0a2e5> ;
+        sealit:was_constructed_by  <urn:uuid:5c7d27a2-5825-46c9-9d05-568037eec984> .
+
+<http://www.sealit.gr/DB/ship/2FAB6B27-39A9-3DD6-9BE2-1EE7594C62FD>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Stambul (2)" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/stambul%20%282%29> ;
+        crm:P39i_was_measured_by   <urn:uuid:70fb7ceb-53c0-460d-bd73-56f4bfe5823e> ;
+        crm:P70i_is_documented_in  <urn:uuid:337c7a38-0646-4b5d-ba05-3fa8331f2f79> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/59D50D3A-C687-383F-9BB2-4F2EFE707A48> ;
+        sealit:has_tonnage         <urn:uuid:3da97269-c594-44aa-9b97-9ae99fd88241> ;
+        sealit:was_constructed_by  <urn:uuid:0bb2f5e6-3a38-4c42-9001-f4aa8a63ac6d> .
+
+<urn:uuid:f41bd4f5-2cd3-483e-8e1e-b71cf4596d26>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Jonio" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/jonio> .
+
+<urn:uuid:7422ce7f-97e2-41b5-a754-11609439f5c6>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Venus" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/565D5F8D-8090-3E9E-924F-933B13CCF403>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Laerte" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name_previous/barone%20burger> , <http://www.sealit.gr/DB/ship%20name/laerte> ;
+        crm:P39i_was_measured_by   <urn:uuid:7be381ca-4b5d-46f7-a9e0-649bbb0a1751> ;
+        crm:P70i_is_documented_in  <urn:uuid:93fda87d-6b35-4ade-94a2-aab5afc4dc4e> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/B87023C9-E305-3357-8736-DFBDA45F9420> ;
+        sealit:has_tonnage         <urn:uuid:e23c28cf-4aeb-4167-851d-36c4aecd7f20> ;
+        sealit:was_constructed_by  <urn:uuid:68443737-0333-4f1b-95fd-7eadb9d9d5b8> .
+
+<http://www.sealit.gr/DB/ship/9CD8E2A6-0635-36D1-B30E-70543A750A99>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Lario" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/lario> ;
+        crm:P39i_was_measured_by   <urn:uuid:8b18a8c9-8ca2-43ff-852d-e29dd33733a9> ;
+        crm:P70i_is_documented_in  <urn:uuid:ed2af714-e35d-48f0-a8d9-85ead73463aa> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/AE462AD9-5811-32A4-9C5E-88DE299B33AB> ;
+        sealit:has_tonnage         <urn:uuid:e80d43ef-66bc-44ad-aab8-1f46d32146d1> ;
+        sealit:was_constructed_by  <urn:uuid:50d8875f-9603-4590-bd06-13855e86006c> .
+
+<urn:uuid:f0fc5662-7f1f-4983-9bee-da2ce5bcc360>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Dido" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/dido> .
+
+<urn:uuid:4c196076-5a60-4b6a-8faa-0e1138e71d26>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:99435475-8ecc-4bc4-80c1-86203c2e0a38>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship%20name/smirne>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Smirne" .
+
+<urn:uuid:88a210d9-3595-4deb-a9c2-f92ac95ce607>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Tritone" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "269500" .
+
+<urn:uuid:5c126ec2-3bc1-463d-9c29-ac984c1a9503>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Mercur" ;
+        crm:P90_has_value  "730" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/3C1105E6-6110-306D-9EEC-09438E90C41B>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Aquila Imperiale" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/aquila%20imperiale> ;
+        crm:P39i_was_measured_by   <urn:uuid:d5ca6651-8162-4209-bccb-0415fb915883> ;
+        crm:P70i_is_documented_in  <urn:uuid:806daf54-b937-4179-808a-084c137d8fed> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/EB868F14-540F-35F0-95BB-996E0EB20858> ;
+        sealit:has_tonnage         <urn:uuid:a6f368ba-d7f9-4b6d-8cf7-e4267582317c> ;
+        sealit:was_constructed_by  <urn:uuid:073622e4-f967-4530-b3e6-de98d5d15e51> .
+
+<http://www.sealit.gr/DB/ship/8914FD1E-A555-3579-96FE-386C91232C1D>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Castore" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/castore> ;
+        crm:P39i_was_measured_by   <urn:uuid:7fa8204f-e94c-4b14-ba01-a08d9938ee7f> ;
+        crm:P70i_is_documented_in  <urn:uuid:3988e966-996b-4cf5-85df-039d0105e82c> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/D46598C3-8B78-33A7-AAF2-9DCFEFC64270> ;
+        sealit:has_tonnage         <urn:uuid:0e8a6caf-ffbc-4e66-96f0-a96a93f50e2b> ;
+        sealit:was_constructed_by  <urn:uuid:af8af2ef-ecbd-4466-9885-8499e9c5edb7> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/59D50D3A-C687-383F-9BB2-4F2EFE707A48>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Stambul (2)" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "200" .
+
+<http://www.sealit.gr/DB/ship%20name/calipso>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Calipso" .
+
+<http://www.sealit.gr/DB/ship/CCF55BD3-0C5F-3E91-BDB6-1A662CEFFF69>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Sultan" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/sultan> ;
+        crm:P39i_was_measured_by   <urn:uuid:3cda060f-617f-49b1-a544-05af69992238> ;
+        crm:P70i_is_documented_in  <urn:uuid:1ab35211-bca7-4e43-9fbf-5dd2287805f4> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/2FAB6B27-39A9-3DD6-9BE2-1EE7594C62FD> ;
+        sealit:has_tonnage         <urn:uuid:64223e42-043f-4e39-ad82-ca0e4844c4ce> ;
+        sealit:was_constructed_by  <urn:uuid:5be1a989-b011-41c9-8f7e-406a2b3cf815> .
+
+<http://www.sealit.gr/DB/ship/3D630B15-81D1-36AF-8B20-D3A4F2112514>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Iris" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/iris> ;
+        crm:P39i_was_measured_by   <urn:uuid:14cc971c-aee9-407e-833a-804d2d31cae2> ;
+        crm:P70i_is_documented_in  <urn:uuid:59091570-e94a-4ec9-9747-523c07d6fa29> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/C1D4B7DB-5A82-31CD-B143-CB3B72402C57> ;
+        sealit:has_tonnage         <urn:uuid:61cac881-f75c-4e4b-b6f0-e4b950727785> ;
+        sealit:was_constructed_by  <urn:uuid:cfcac18c-12a5-4267-a496-a12a7bdf669c> .
+
+<urn:uuid:81d52b55-8862-4f96-91ac-d34679a0a2e5>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Jupiter" ;
+        crm:P90_has_value  "2000" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:29501514-8c8e-4ed4-9df4-3a52ac515e95>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Delfino" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/delfino> .
+
+<urn:uuid:59091570-e94a-4ec9-9747-523c07d6fa29>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<http://www.sealit.gr/DB/ship%20name/ettore>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Ettore" .
+
+<http://www.sealit.gr/DB/ship/2FF3624C-AA2F-3A31-8CAB-1D82E4A196E7>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Vesta" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/vesta> ;
+        crm:P39i_was_measured_by   <urn:uuid:e8f4a555-7878-4aa7-bce7-184394277b74> ;
+        crm:P70i_is_documented_in  <urn:uuid:c237bc4d-3e51-4e2f-bd81-f621534dd85f> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/470A96AF-BBE1-38E4-9371-97123FB8AD76> ;
+        sealit:has_tonnage         <urn:uuid:6ddc201e-a9bb-4053-a852-9c5abfc4b0b5> ;
+        sealit:was_constructed_by  <urn:uuid:e91dadde-9bdd-4558-b2a5-5d6e895f03e3> .
+
+<urn:uuid:892d3626-d00c-40a1-9965-005faa1ebec3>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Eolus" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/eolus> .
+
+<urn:uuid:f3274179-b2ea-48fe-b573-4fdd8d834c79>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Smirne" ;
+        crm:P40_observed_dimension  <urn:uuid:99f252ec-a51c-4986-9795-39c81e27dded> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<http://www.sealit.gr/DB/ship/A57A275C-8986-381B-83C7-955AA60356A3>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Hebe" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/hebe> ;
+        crm:P39i_was_measured_by   <urn:uuid:c42f6466-a1f9-4558-af39-ab6774034284> ;
+        crm:P70i_is_documented_in  <urn:uuid:0501ff2c-1bdf-4296-af0e-7c11526a99f3> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/0DCBD692-E008-337E-B677-4B751A07D8DD> ;
+        sealit:has_tonnage         <urn:uuid:7f8ffc64-de57-4a43-891a-0d18e61d507c> ;
+        sealit:was_constructed_by  <urn:uuid:9129ecf9-2a9e-4b49-843d-cbd97ae61953> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/4726E8DD-1FC1-330B-BB7C-7B0B608270F2>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Achille" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "400" .
+
+<urn:uuid:2e93c50b-59f4-4671-b09a-dbff92be0da1>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Jonio" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "10000" .
+
+<urn:uuid:9f8c7348-2720-4225-8c51-50099939d166>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Tebe" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/tebe> .
+
+<urn:uuid:e80d43ef-66bc-44ad-aab8-1f46d32146d1>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Lario" ;
+        crm:P90_has_value  "350" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<urn:uuid:7be381ca-4b5d-46f7-a9e0-649bbb0a1751>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Laerte" ;
+        crm:P40_observed_dimension  <urn:uuid:72e8b272-614b-408a-b53a-cfd9fc0dc8f4> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:0a235ab6-e721-47d7-ad26-04b6852e9667>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Galatea" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/galatea> .
+
+<http://www.sealit.gr/DB/ship/A2EF9F5A-AA66-34EC-9C30-B0457DC9966C>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Milano" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name_previous/arciduca%20federico> , <http://www.sealit.gr/DB/ship%20name/milano> ;
+        crm:P39i_was_measured_by   <urn:uuid:121f1965-966e-4f5e-a172-abdf697e0f3f> ;
+        crm:P70i_is_documented_in  <urn:uuid:bd60e592-e157-4576-96c5-578d846375df> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/7EE24508-E970-3776-8D02-0815E27D2D09> ;
+        sealit:has_tonnage         <urn:uuid:6856f7c3-8891-455c-8309-b5246cdd16c8> ;
+        sealit:was_constructed_by  <urn:uuid:9234ef4a-7bd0-4bd8-b449-398c56e9832d> .
+
+<urn:uuid:17b9800d-fad8-49d6-823f-ed00a236b9e4>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Delfino" ;
+        crm:P40_observed_dimension  <urn:uuid:a055d93f-8fb8-4700-a54d-dae4b4b68daf> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:ddab0cb7-56c8-42d1-bf1d-c0d8f0bcf689>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Trieste" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/trieste> .
+
+<urn:uuid:b2498943-0a73-4d12-9644-986cc301d5a1>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Publication period of doc Cinquantesimo Congresso Generale della Società della navigazione a vapore del Lloyd Austriaco" ;
+        crm:P82_at_some_time_within  "1878"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://www.sealit.gr/DB/ship%20name/lario>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Lario" .
+
+<urn:uuid:4dba004d-7a12-4ddb-8a94-4ddb799d7b12>
+        a                  sealit:Tonnage ;
+        rdfs:label         "Tonnage of Danubio (2)" ;
+        crm:P90_has_value  "850" ;
+        crm:P91_has_unit   <http://www.sealit.gr/DB/measurement%20units/portata%20in%20tonnellate> .
+
+<http://www.sealit.gr/DB/ship/8258946F-556B-3A27-A442-B0C41A707996>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Tibisco" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/tibisco> ;
+        crm:P39i_was_measured_by   <urn:uuid:da5d37ee-a09a-43ff-a50f-3b7058c01875> ;
+        crm:P70i_is_documented_in  <urn:uuid:49b3c4dd-c7dd-4cb0-865c-09345058d718> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/78B78AD0-2980-386A-BBB4-D5A2D66F36D2> ;
+        sealit:has_tonnage         <urn:uuid:42f5665e-12b4-4735-835e-eeef9e9cd014> ;
+        sealit:was_constructed_by  <urn:uuid:742e019e-8a49-4ab2-a571-239eee78fa0e> .
+
+<urn:uuid:b919622c-b554-4c7b-a231-d0611125b362>
+        a                crm:E31_Document ;
+        rdfs:label       "Page no Allegato IV" ;
+        crm:P2_has_type  <http://www.sealit.gr/DB/doc%20types/page> .
+
+<urn:uuid:45a04ee1-aca5-4762-95ac-baabcd2c0975>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Lucifer" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "30200" .
+
+<urn:uuid:176859c2-123e-46c4-ac46-c3ff471e1b83>
+        a                         sealit:E97_Monetary_Amount ;
+        rdfs:label                "Moneraty ammount of Hungaria" ;
+        sealit:P180_has_currency  <http://www.sealit.gr/DB/currency/fiorini> ;
+        sealit:P181_has_amount    "344300" .
+
+<urn:uuid:6d4d00b5-9e9a-4dcd-8028-d6df8c5f440f>
+        a                  sealit:Ship_Construction ;
+        rdfs:label         "Construction of Yole" ;
+        sealit:under_name  <http://www.sealit.gr/DB/ship%20name/yole> .
+
+<http://www.sealit.gr/DB/ship/1DE39CB2-315E-3D02-B3F4-81D8A045D499>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Flora" ;
+        crm:P1_is_identified_by    <http://www.sealit.gr/DB/ship%20name/flora> ;
+        crm:P39i_was_measured_by   <urn:uuid:9e329258-0a0b-43d2-a2ca-648233f698ae> ;
+        crm:P70i_is_documented_in  <urn:uuid:eb531740-55a1-49a2-852f-47aa946109ca> ;
+        sealit:has_horsepower      <http://www.sealit.gr/DB/nominal_horsepower/3D630B15-81D1-36AF-8B20-D3A4F2112514> ;
+        sealit:has_tonnage         <urn:uuid:9e275baa-ff9f-4934-8fbb-9c600d6b9b53> ;
+        sealit:was_constructed_by  <urn:uuid:db2e02bb-7f52-4d4c-be5f-015ca0ff92ae> .
+
+<http://www.sealit.gr/DB/nominal_horsepower/B87023C9-E305-3357-8736-DFBDA45F9420>
+        a                  sealit:Horsepower ;
+        rdfs:label         "Nominal horsepower of Laerte" ;
+        crm:P2_has_type    <http://www.sealit.gr/DB/horsepower%20types/nominal> ;
+        crm:P90_has_value  "90" .
+
+<http://www.sealit.gr/DB/ship%20name/verbano>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Verbano" .
+
+<urn:uuid:57af247b-4f6a-4406-a768-df00a78a709f>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Memfi" ;
+        crm:P40_observed_dimension  <urn:uuid:7d75a122-eefa-47b9-b175-c28b53eb3358> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
+
+<urn:uuid:8b18a8c9-8ca2-43ff-852d-e29dd33733a9>
+        a                           crm:E16_Measurement ;
+        rdfs:label                  "Updated value of Lario" ;
+        crm:P40_observed_dimension  <urn:uuid:7603ad4a-cae6-458a-9ce7-90d7a4c0727c> ;
+        crm:P4_has_time-span        <http://www.sealit.gr/DB/updated_value_timespan/1878> .
