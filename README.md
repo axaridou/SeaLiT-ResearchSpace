@@ -57,3 +57,7 @@ Finally, the materialization queries, can also be found into the `/materializati
 `docker rm --force blazegraph_geo`  
 `docker container inspect metaphactory_sealit`  
 "# SeaLiT-ResearchSpace" 
+
+## Acknowledgements ##
+
+This work has received funding from the European Union's Horizon 2020 research and innovation programme under i) the European Research Council (ERC) grant agreement No 714437 ([Project SeaLiT](https://sealitproject.eu/)), and ii) the Marie Sklodowska-Curie grant agreement No 890861 ([Project ReKnow](https://reknow.ics.forth.gr/)).
