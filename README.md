@@ -58,6 +58,18 @@ Finally, the materialization queries, can also be found into the `/materializati
 `docker container inspect metaphactory_sealit`  
 "# SeaLiT-ResearchSpace" 
 
+## Publication ##
+
+For more information about the functionalities offered by SeaLiT-ResearchSpace as well as the overal process of building a rich semantic network of integrated archival data, check the below book chapter: 
+
+```
+P. Fafalios, G. Samaritakis, K. Petrakis, K. Doerr, A. Kritsotaki, A. Axaridou, and M. Doerr,  
+"Building and Exploring a Semantic Network of Maritime History Data",
+In Mediterranean Seafarers in Transition (pp. 509-535). 2022. Brill.
+```
+PDF available at: [https://brill.com/view/book/9789004514195/BP000028.xml](https://brill.com/view/book/9789004514195/BP000028.xml)
+
+
 ## Acknowledgements ##
 
 This work has received funding from the European Union's Horizon 2020 research and innovation programme under i) the European Research Council (ERC) grant agreement No 714437 ([Project SeaLiT](https://sealitproject.eu/)), and ii) the Marie Sklodowska-Curie grant agreement No 890861 ([Project ReKnow](https://reknow.ics.forth.gr/)).
